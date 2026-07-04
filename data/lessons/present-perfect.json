@@ -1,0 +1,42 @@
+{
+  "level": 3,
+  "module": "Present Tenses",
+  "title": "Present Perfect",
+  "definition": "The Present Perfect tense connects the past to the present. It describes actions completed at an unspecified time, or actions that started in the past and continue to affect the present.",
+  "formula": "Subject + has/have + V3 (past participle) + Object",
+  "structure": {
+    "positive": "I have finished my work. / She has finished her work.",
+    "negative": "I have not (haven't) finished my work. / She has not (hasn't) finished.",
+    "question": "Have you finished your work? / Has she finished?",
+    "whQuestion": "What have you finished? / How long has she lived here?"
+  },
+  "usage": "Use Present Perfect for: an action completed at an unspecified past time (I have visited Paris), an action with a result visible now (She has lost her keys - so she can't get in), and actions continuing from past to present with 'since/for' (I have lived here since 2015).",
+  "signalWords": ["already", "yet", "just", "ever", "never", "since", "for", "so far", "recently"],
+  "examples": [
+    "I have already eaten lunch.",
+    "She has never been to Japan.",
+    "Have you finished your homework yet?",
+    "We have lived in this city for ten years.",
+    "He has just left the office.",
+    "They have not called me since Monday.",
+    "Have you ever tried sushi?"
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "Have you finished the report?" },
+    { "speaker": "B", "line": "Yes, I have already sent it to the manager." },
+    { "speaker": "A", "line": "Have you been to Goa?" },
+    { "speaker": "B", "line": "No, I have never been there." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "why": "Present Perfect doesn't use specific past time words like 'yesterday'; use Past Simple instead." },
+    { "wrong": "She has go to school.", "right": "She has gone to school.", "why": "Use the past participle (V3) form 'gone', not the base form, after 'has/have'." },
+    { "wrong": "I am living here since 2015.", "right": "I have lived here since 2015.", "why": "Use Present Perfect (not Present Continuous) with 'since/for' for actions continuing to now." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I have saw the movie.", "I have seen the movie.", "I has seen the movie.", "I have see the movie."], "answer": "I have seen the movie.", "explanation": "Present Perfect = have/has + V3 (past participle)." },
+    { "type": "fill", "question": "She ___ (finish) her homework already.", "answer": "has finished", "explanation": "'She' takes 'has' + V3." },
+    { "type": "mcq", "question": "Which signal word fits Present Perfect?", "options": ["yesterday", "last week", "already", "in 2010"], "answer": "already", "explanation": "'Already' is a common Present Perfect signal word." },
+    { "type": "error", "sentence": "I have visited Paris last year.", "correction": "I visited Paris last year.", "explanation": "Specific past time expressions like 'last year' need Past Simple, not Present Perfect." },
+    { "type": "rearrange", "words": ["ever", "you", "sushi", "tried", "Have"], "answer": "Have you ever tried sushi", "explanation": "Question form: Have/Has + subject + ever + V3?" }
+  ]
+}

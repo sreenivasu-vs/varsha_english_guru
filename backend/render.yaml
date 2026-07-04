@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: english-master-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        sync: false # set this manually in the Render dashboard (e.g. your Neon connection string)
+      - key: LANGUAGETOOL_URL
+        value: https://api.languagetool.org/v2/check
+      - key: ALLOWED_ORIGINS
+        sync: false # set to your Netlify URL once you know it, e.g. https://english-master.netlify.app

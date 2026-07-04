@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+# No build command - this is a plain static site (no bundler/framework).
+
+[[headers]]
+  for = "/service-worker.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/manifest.json"
+  [headers.values]
+    Cache-Control = "no-cache"

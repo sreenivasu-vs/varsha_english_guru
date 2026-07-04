@@ -1,0 +1,35 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Adjective",
+  "definition": "An adjective is a word that describes or gives more information about a noun or pronoun.",
+  "formula": "Adjective + Noun  OR  Subject + Linking Verb + Adjective",
+  "rules": [
+    "Adjectives can come before a noun: a beautiful garden.",
+    "Adjectives can come after linking verbs like 'be', 'seem', 'look': She is happy.",
+    "Adjectives of quantity: many, few, some, several.",
+    "Adjectives of quality: beautiful, tall, honest, kind.",
+    "Comparative adjectives compare two things: taller, more beautiful.",
+    "Superlative adjectives compare three or more: tallest, most beautiful."
+  ],
+  "examples": [
+    "She has a beautiful smile.",
+    "The weather is cold today.",
+    "He is the tallest boy in the class.",
+    "This coffee is stronger than that one.",
+    "I have few friends here.",
+    "That was an amazing performance."
+  ],
+  "commonMistakes": [
+    { "wrong": "She is more taller than me.", "right": "She is taller than me.", "why": "Don't use 'more' with a comparative form that already ends in '-er'." },
+    { "wrong": "This is the most best movie.", "right": "This is the best movie.", "why": "'Best' is already superlative; don't add 'most' before it." },
+    { "wrong": "He is a good in cricket.", "right": "He is good at cricket.", "why": "Use 'good at' (preposition), not 'a good in', to describe a skill." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Identify the adjective: 'This is a beautiful painting.'", "options": ["This", "is", "beautiful", "painting"], "answer": "beautiful", "explanation": "'Beautiful' describes the noun 'painting'." },
+    { "type": "mcq", "question": "Choose the correct comparative: 'This road is ___ than that one.'", "options": ["wide", "widest", "wider", "more wide"], "answer": "wider", "explanation": "Add '-er' for one-syllable comparative adjectives." },
+    { "type": "fill", "question": "She is the ___ (tall) student in class. (superlative)", "answer": "tallest", "explanation": "Add '-est' for one-syllable superlative adjectives." },
+    { "type": "error", "sentence": "He is more smarter than his brother.", "correction": "He is smarter than his brother.", "explanation": "Do not use 'more' with an '-er' comparative form." },
+    { "type": "mcq", "question": "Which sentence uses an adjective of quantity?", "options": ["She is kind.", "I have few friends.", "He runs fast.", "This is red."], "answer": "I have few friends.", "explanation": "'Few' describes quantity." }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "level": 6,
+  "module": "Everyday Situations",
+  "title": "At the Restaurant",
+  "definition": "Useful phrases for ordering food, asking for the bill, and making special requests at a restaurant.",
+  "dialogue": [
+    { "speaker": "Waiter", "line": "Good evening! Are you ready to order?" },
+    { "speaker": "You", "line": "Yes, I'd like the grilled chicken with a side of vegetables, please." },
+    { "speaker": "Waiter", "line": "Would you like anything to drink?" },
+    { "speaker": "You", "line": "Just a glass of water, thank you." },
+    { "speaker": "Waiter", "line": "Sure, I'll bring that right out." },
+    { "speaker": "You", "line": "Could we also get the bill when you have a moment?" }
+  ],
+  "practicePhrases": [
+    "Could I see the menu, please?",
+    "I'd like to order the...",
+    "Could you recommend something?",
+    "Is this dish spicy?",
+    "Could we have the bill, please?",
+    "Could you pack this to go?"
+  ],
+  "commonMistakes": [
+    { "wrong": "Give me the bill.", "right": "Could we have the bill, please?", "why": "Direct commands sound impolite; use a polite request form instead." },
+    { "wrong": "I want water.", "right": "Could I have some water, please?", "why": "'I want' sounds blunt; polite requests use 'could/may I have'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which is the most polite way to ask for the bill?", "options": ["Give me the bill.", "Bill now.", "Could we have the bill, please?", "I need bill."], "answer": "Could we have the bill, please?", "explanation": "This is a polite, complete request." },
+    { "type": "fill", "question": "Could you ___ (recommend) something from the menu?", "answer": "recommend", "explanation": "'Recommend' is the correct verb for asking for suggestions." }
+  ]
+}

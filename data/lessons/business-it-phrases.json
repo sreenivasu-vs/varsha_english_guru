@@ -1,0 +1,90 @@
+{
+  "level": 7,
+  "module": "Workplace English",
+  "title": "Business IT English - 50 Key Phrases",
+  "definition": "50 essential phrases IT professionals use every day in meetings, presentations, and client calls - grouped by situation: giving presentations, sharing your screen, asking questions, and agreeing or sharing a different opinion politely.",
+  "phraseGroups": [
+    {
+      "category": "Presentation Phrases",
+      "phrases": [
+        { "phrase": "Let's get started", "meaning": "Used to begin a presentation or meeting.", "example": "Let's get started with today's agenda." },
+        { "phrase": "Today I'll be talking about...", "meaning": "Introduces the topic of your presentation.", "example": "Today I'll be talking about our Q3 product roadmap." },
+        { "phrase": "The purpose of this presentation is to...", "meaning": "States the goal of the presentation clearly.", "example": "The purpose of this presentation is to walk you through the new deployment process." },
+        { "phrase": "Let's move on to the next slide", "meaning": "Signals a transition to new content.", "example": "Let's move on to the next slide to look at the system architecture." },
+        { "phrase": "As you can see on this slide...", "meaning": "Draws the audience's attention to specific content.", "example": "As you can see on this slide, response times improved by 40%." },
+        { "phrase": "I'll come back to that point later", "meaning": "Politely defers a question or topic to later in the talk.", "example": "That's a good question - I'll come back to that point later in the Q&A." },
+        { "phrase": "To summarize...", "meaning": "Signals you are wrapping up the key points.", "example": "To summarize, we're on track to launch by Friday." },
+        { "phrase": "That brings me to my next point", "meaning": "A smooth transition between two related points.", "example": "That brings me to my next point about test coverage." },
+        { "phrase": "Let's take a step back", "meaning": "Used to revisit the bigger picture or context.", "example": "Let's take a step back and look at why we chose this architecture." },
+        { "phrase": "I'd like to walk you through...", "meaning": "Signals a step-by-step explanation is coming.", "example": "I'd like to walk you through the deployment pipeline." },
+        { "phrase": "Any questions before I move on?", "meaning": "Checks the audience understood before continuing.", "example": "Any questions before I move on to the next section?" },
+        { "phrase": "Let's dive into the details", "meaning": "Signals you're about to go deeper into a topic.", "example": "Let's dive into the details of the API changes." },
+        { "phrase": "Thank you for your time/attention", "meaning": "A polite way to close a presentation.", "example": "Thank you for your time - I'll now open it up for questions." }
+      ]
+    },
+    {
+      "category": "Screen Sharing",
+      "phrases": [
+        { "phrase": "Can everyone see my screen?", "meaning": "Confirms the screen share is visible to others.", "example": "Can everyone see my screen okay before I begin?" },
+        { "phrase": "Let me share my screen", "meaning": "Announces that you're about to start screen sharing.", "example": "Give me a second, let me share my screen." },
+        { "phrase": "I'll pull up the document", "meaning": "Means you're about to open a file to show the group.", "example": "I'll pull up the document we discussed yesterday." },
+        { "phrase": "Let me know if the screen freezes", "meaning": "Asks others to flag any technical issues.", "example": "Let me know if the screen freezes on your end." },
+        { "phrase": "I'm going to switch tabs/windows", "meaning": "Informs others you're changing what's on screen.", "example": "I'm going to switch tabs to show you the dashboard." },
+        { "phrase": "Let me zoom in so it's easier to read", "meaning": "Offers to enlarge content for visibility.", "example": "Let me zoom in so it's easier to read the error message." },
+        { "phrase": "Can you see my cursor?", "meaning": "Confirms the pointer is visible to others.", "example": "Can you see my cursor pointing at the config file?" },
+        { "phrase": "I'll stop sharing now", "meaning": "Announces the end of screen sharing.", "example": "I'll stop sharing now so we can discuss openly." },
+        { "phrase": "Let me minimize this and show you...", "meaning": "Signals a switch to a different window or app.", "example": "Let me minimize this and show you the ticket in Jira." },
+        { "phrase": "Is the resolution okay, or should I make it bigger?", "meaning": "Checks that the shared content is readable.", "example": "Is the resolution okay, or should I make the font bigger?" },
+        { "phrase": "Give me a moment to pull that up", "meaning": "Politely asks others to wait briefly.", "example": "Give me a moment to pull that up on my screen." },
+        { "phrase": "I'll share the link in the chat", "meaning": "Offers a reference link via chat instead of screen.", "example": "I'll share the link in the chat so you can follow along." }
+      ]
+    },
+    {
+      "category": "Asking Questions",
+      "phrases": [
+        { "phrase": "Could I ask a quick question?", "meaning": "A polite way to request permission to interrupt.", "example": "Could I ask a quick question before we move on?" },
+        { "phrase": "Sorry to interrupt, but...", "meaning": "Politely interjects with something relevant.", "example": "Sorry to interrupt, but could you clarify the deadline?" },
+        { "phrase": "Just to clarify, are you saying...?", "meaning": "Confirms your understanding of what was said.", "example": "Just to clarify, are you saying the release is delayed?" },
+        { "phrase": "Could you elaborate on that?", "meaning": "Asks the speaker for more detail.", "example": "Could you elaborate on how the caching works?" },
+        { "phrase": "What do you mean by...?", "meaning": "Asks for clarification of a specific word or term.", "example": "What do you mean by 'blocked' exactly?" },
+        { "phrase": "Can you walk me through that again?", "meaning": "Politely asks for something to be repeated in detail.", "example": "Can you walk me through that again? I missed the last part." },
+        { "phrase": "I have a follow-up question", "meaning": "Signals a question related to what was just discussed.", "example": "I have a follow-up question about the API rate limits." },
+        { "phrase": "Does that mean...?", "meaning": "Checks an inference or conclusion.", "example": "Does that mean we need to redeploy the service?" },
+        { "phrase": "Could you repeat that, please?", "meaning": "A polite request to say something again.", "example": "Could you repeat that, please? The audio cut out." },
+        { "phrase": "I'm not sure I follow, could you explain?", "meaning": "Admits confusion politely and asks for help.", "example": "I'm not sure I follow, could you explain the rollback plan?" },
+        { "phrase": "What's the reasoning behind this decision?", "meaning": "Asks for the rationale behind a choice.", "example": "What's the reasoning behind choosing this vendor?" },
+        { "phrase": "Is now a good time to ask about...?", "meaning": "Politely checks if it's an appropriate moment.", "example": "Is now a good time to ask about the budget?" },
+        { "phrase": "Quick question, if you don't mind", "meaning": "Softens an interruption before asking something short.", "example": "Quick question, if you don't mind - when's the next release?" }
+      ]
+    },
+    {
+      "category": "Agreeing or Sharing a Different Opinion",
+      "phrases": [
+        { "phrase": "That's a great point", "meaning": "Validates and agrees with what someone said.", "example": "That's a great point - I hadn't considered the load testing angle." },
+        { "phrase": "I completely agree with you", "meaning": "Expresses strong agreement.", "example": "I completely agree with you, we should prioritize security first." },
+        { "phrase": "I see what you mean, but I have a slightly different view", "meaning": "Acknowledges the other person's view before offering an alternative perspective.", "example": "I see what you mean, but I have a slightly different view - I think we should test more before releasing." },
+        { "phrase": "I have a different opinion on this", "meaning": "A polite, direct way to share an alternative perspective without sounding confrontational.", "example": "I have a different opinion on this - I think the timeline seems too tight." },
+        { "phrase": "That's a fair point, however...", "meaning": "Acknowledges a point before offering a counterpoint.", "example": "That's a fair point, however, we may not have enough resources." },
+        { "phrase": "I'm on the same page", "meaning": "Confirms agreement or alignment.", "example": "I'm on the same page with the proposed architecture." },
+        { "phrase": "I look at it a little differently", "meaning": "A polite, formal way to share an alternative perspective.", "example": "I look at it a little differently when it comes to the priority order." },
+        { "phrase": "Let's explore both perspectives on this", "meaning": "Invites an open discussion of different viewpoints instead of settling on just one.", "example": "Let's explore both perspectives on this and revisit after testing." },
+        { "phrase": "I couldn't agree more", "meaning": "Expresses very strong agreement.", "example": "I couldn't agree more - that approach makes the code much cleaner." },
+        { "phrase": "I understand your point, but I'd like to add another angle", "meaning": "Acknowledges a point while adding a new perspective.", "example": "I understand your point, but I'd like to add another angle - cost is also a factor." },
+        { "phrase": "Correct me if I'm wrong, but...", "meaning": "A humble way to offer a different perspective or raise a concern.", "example": "Correct me if I'm wrong, but I think this violates the SLA." },
+        { "phrase": "That works for me", "meaning": "A simple, casual way to agree with a proposal.", "example": "That works for me - let's go with option B." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase is best for politely starting a presentation?", "options": ["Let's get started", "I'll stop sharing now", "That works for me", "Sorry to interrupt"], "answer": "Let's get started", "explanation": "'Let's get started' is a standard way to open a presentation or meeting." },
+    { "type": "mcq", "question": "You want to check people can see your shared screen. What do you say?", "options": ["Let's dive into the details", "Can everyone see my screen?", "I have a follow-up question", "I'm on the same page"], "answer": "Can everyone see my screen?", "explanation": "This directly confirms the screen share is visible before continuing." },
+    { "type": "mcq", "question": "Which phrase politely interrupts to ask something?", "options": ["To summarize...", "Sorry to interrupt, but...", "I'll pull up the document", "Let's move on to the next slide"], "answer": "Sorry to interrupt, but...", "explanation": "This softens an interruption before asking a question." },
+    { "type": "mcq", "question": "Which phrase expresses strong agreement?", "options": ["I have a different opinion on this", "I couldn't agree more", "Let's explore both perspectives on this", "Could you elaborate on that?"], "answer": "I couldn't agree more", "explanation": "'I couldn't agree more' is a strong, enthusiastic way to agree." },
+    { "type": "mcq", "question": "Which phrase politely shares a different opinion, without sounding confrontational?", "options": ["That works for me", "I have a different opinion on this", "Can you see my cursor?", "That's a great point"], "answer": "I have a different opinion on this", "explanation": "This is a polite, direct way to share an alternative perspective without sounding confrontational." },
+    { "type": "fill", "question": "___ a quick question before we move on? (polite request to ask something)", "answer": "Could I ask", "explanation": "'Could I ask a quick question' is the polite phrase for interrupting to ask." },
+    { "type": "fill", "question": "Let me ___ my screen so you can see the dashboard.", "answer": "share", "explanation": "'Share my screen' is the standard phrase when starting a screen share." },
+    { "type": "mcq", "question": "Which phrase checks that the audience understood before continuing?", "options": ["Any questions before I move on?", "I'll share the link in the chat", "That's a fair point, however...", "I'm not sure I follow"], "answer": "Any questions before I move on?", "explanation": "This directly checks understanding before continuing the presentation." },
+    { "type": "mcq", "question": "Which phrase softens a different opinion by first acknowledging the other person?", "options": ["I completely agree with you", "I see what you mean, but I have a slightly different view", "Let me zoom in so it's easier to read", "Thank you for your time"], "answer": "I see what you mean, but I have a slightly different view", "explanation": "It acknowledges the other person's view before sharing an alternative perspective." },
+    { "type": "error", "sentence": "Can you see my screen good?", "correction": "Can you see my screen okay?", "explanation": "In this common phrase, 'okay' (not 'good') is used to check screen visibility." }
+  ]
+}

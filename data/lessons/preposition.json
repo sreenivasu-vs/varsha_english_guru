@@ -1,0 +1,35 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Preposition",
+  "definition": "A preposition is a word that shows the relationship between a noun/pronoun and another word in the sentence — usually showing place, time, or direction.",
+  "formula": "Preposition + Noun/Pronoun (object of the preposition)",
+  "rules": [
+    "Prepositions of place: in, on, at, under, above, near, between.",
+    "Prepositions of time: in, on, at, since, for, before, after.",
+    "Prepositions of direction/movement: to, into, onto, through, across.",
+    "Use 'in' for months/years/long periods, 'on' for days/dates, 'at' for exact times.",
+    "A sentence should not usually end with an unnecessary preposition in formal writing."
+  ],
+  "examples": [
+    "The book is on the table.",
+    "We will meet at 5 PM.",
+    "She was born in 1998.",
+    "I will see you on Monday.",
+    "He walked into the room.",
+    "They have lived here since 2015."
+  ],
+  "commonMistakes": [
+    { "wrong": "I am good in English.", "right": "I am good at English.", "why": "Use 'good at' for skills/subjects, not 'good in'." },
+    { "wrong": "We reached to the station.", "right": "We reached the station.", "why": "'Reach' does not take 'to' before a place; it is directly followed by the object." },
+    { "wrong": "Discuss about the topic.", "right": "Discuss the topic.", "why": "'Discuss' is directly transitive and does not need 'about' after it." },
+    { "wrong": "I am married with her.", "right": "I am married to her.", "why": "The correct preposition after 'married' is 'to', not 'with'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct preposition: 'She was born ___ 1998.'", "options": ["on", "in", "at", "since"], "answer": "in", "explanation": "Use 'in' for years." },
+    { "type": "mcq", "question": "Choose the correct preposition: 'We will meet ___ 5 PM.'", "options": ["in", "on", "at", "for"], "answer": "at", "explanation": "Use 'at' for exact clock times." },
+    { "type": "error", "sentence": "Let's discuss about this issue.", "correction": "Let's discuss this issue.", "explanation": "'Discuss' does not need 'about' after it." },
+    { "type": "fill", "question": "The cat is sitting ___ the box. (inside, on top)", "answer": "on", "explanation": "'On' shows the cat is on top of the box." },
+    { "type": "mcq", "question": "Which preposition fits: 'I am good ___ maths.'", "options": ["in", "at", "on", "for"], "answer": "at", "explanation": "'Good at' is the correct fixed preposition phrase for skills." }
+  ]
+}

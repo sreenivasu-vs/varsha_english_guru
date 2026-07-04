@@ -1,0 +1,29 @@
+{
+  "level": 6,
+  "module": "Everyday Situations",
+  "title": "Shopping",
+  "definition": "Common phrases for shopping, asking about prices, sizes, and making returns.",
+  "dialogue": [
+    { "speaker": "You", "line": "Excuse me, do you have this shirt in a medium size?" },
+    { "speaker": "Shop Assistant", "line": "Let me check. Yes, we do. Would you like to try it on?" },
+    { "speaker": "You", "line": "Yes, please. Also, how much does it cost?" },
+    { "speaker": "Shop Assistant", "line": "It's on sale for 999 rupees." },
+    { "speaker": "You", "line": "Great, I'll take it. Do you accept card payments?" }
+  ],
+  "practicePhrases": [
+    "How much does this cost?",
+    "Do you have this in a different size/color?",
+    "Can I try this on?",
+    "Is this on sale?",
+    "Do you accept card payments?",
+    "Can I return this if it doesn't fit?"
+  ],
+  "commonMistakes": [
+    { "wrong": "How much is cost this?", "right": "How much does this cost?", "why": "Use the auxiliary 'does' before the subject in questions." },
+    { "wrong": "I want to try this shirt.", "right": "Can I try this shirt on?", "why": "'Try on' (with 'on') is the correct phrasal verb for clothing." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which question asks about price correctly?", "options": ["How much this is?", "How much does this cost?", "How much cost this?", "How this costs much?"], "answer": "How much does this cost?", "explanation": "Correct question word order: How much + does + subject + cost?" },
+    { "type": "fill", "question": "Can I try this ___? (phrasal verb for wearing clothes to check fit)", "answer": "on", "explanation": "'Try on' is the correct phrasal verb." }
+  ]
+}

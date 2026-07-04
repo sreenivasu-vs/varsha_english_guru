@@ -1,0 +1,35 @@
+{
+  "level": 4,
+  "module": "Advanced Topics",
+  "title": "Question Tags",
+  "definition": "A question tag is a short question added to the end of a statement, used to confirm information or invite agreement.",
+  "formula": "Positive statement + negative tag?  |  Negative statement + positive tag?",
+  "rules": [
+    "If the main sentence is positive, the tag is negative: She is nice, isn't she?",
+    "If the main sentence is negative, the tag is positive: He isn't late, is he?",
+    "The tag uses the same auxiliary/modal verb as the main sentence: She can swim, can't she?",
+    "If there is no auxiliary verb, use do/does/did: They like tea, don't they?",
+    "'I am' takes the irregular tag 'aren't I': I am right, aren't I?",
+    "Use pronouns in the tag, not the full noun: Ravi is coming, isn't he? (not isn't Ravi)"
+  ],
+  "examples": [
+    "She is a doctor, isn't she?",
+    "You don't like coffee, do you?",
+    "They can dance well, can't they?",
+    "He didn't call you, did he?",
+    "I am late, aren't I?",
+    "We should leave now, shouldn't we?",
+    "This isn't your bag, is it?"
+  ],
+  "commonMistakes": [
+    { "wrong": "She is nice, is she?", "right": "She is nice, isn't she?", "why": "A positive statement needs a negative tag." },
+    { "wrong": "You like tea, do you like?", "right": "You like tea, don't you?", "why": "The tag should be short: auxiliary + subject pronoun only." },
+    { "wrong": "I am right, am I not I?", "right": "I am right, aren't I?", "why": "The correct tag for 'I am' is the irregular 'aren't I'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct tag: 'He is your brother, ___?'", "options": ["is he", "isn't he", "doesn't he", "does he"], "answer": "isn't he", "explanation": "Positive statement → negative tag using the same verb 'is'." },
+    { "type": "mcq", "question": "Choose the correct tag: 'They don't live here, ___?'", "options": ["do they", "don't they", "are they", "aren't they"], "answer": "do they", "explanation": "Negative statement → positive tag." },
+    { "type": "fill", "question": "You can drive, ___ you? (question tag)", "answer": "can't", "explanation": "Positive statement with modal 'can' → negative tag 'can't'." },
+    { "type": "error", "sentence": "She likes music, does she?", "correction": "She likes music, doesn't she?", "explanation": "A positive statement needs a negative tag." }
+  ]
+}

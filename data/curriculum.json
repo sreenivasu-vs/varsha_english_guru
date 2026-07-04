@@ -1,0 +1,187 @@
+{
+  "appName": "English Master",
+  "levels": [
+    {
+      "id": 1,
+      "title": "Foundation",
+      "modules": [
+        {
+          "title": "English Basics",
+          "lessons": [
+            { "id": "alphabet-basics", "title": "Alphabet, Sounds & Punctuation" }
+          ]
+        },
+        {
+          "title": "Parts of Speech",
+          "lessons": [
+            { "id": "noun", "title": "Noun" },
+            { "id": "pronoun", "title": "Pronoun" },
+            { "id": "verb", "title": "Verb" },
+            { "id": "adjective", "title": "Adjective" },
+            { "id": "adverb", "title": "Adverb" },
+            { "id": "preposition", "title": "Preposition" },
+            { "id": "conjunction", "title": "Conjunction" },
+            { "id": "interjection", "title": "Interjection" },
+            { "id": "determiner", "title": "Determiner" }
+          ]
+        },
+        {
+          "title": "Articles",
+          "lessons": [
+            { "id": "articles", "title": "Articles: A, An, The & Zero Article" }
+          ]
+        },
+        {
+          "title": "Verbs",
+          "lessons": [
+            { "id": "verb-types", "title": "Types of Verbs" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sentence Formation",
+      "modules": [
+        {
+          "title": "Sentence Patterns",
+          "lessons": [
+            { "id": "sentence-patterns", "title": "5 Basic Sentence Patterns" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Tenses",
+      "modules": [
+        {
+          "title": "Present Tenses",
+          "lessons": [
+            { "id": "present-simple", "title": "Present Simple" },
+            { "id": "present-continuous", "title": "Present Continuous" },
+            { "id": "present-perfect", "title": "Present Perfect" },
+            { "id": "present-perfect-continuous", "title": "Present Perfect Continuous" }
+          ]
+        },
+        {
+          "title": "Past Tenses",
+          "lessons": [
+            { "id": "past-simple", "title": "Past Simple" },
+            { "id": "past-continuous", "title": "Past Continuous" },
+            { "id": "past-perfect", "title": "Past Perfect" },
+            { "id": "past-perfect-continuous", "title": "Past Perfect Continuous" }
+          ]
+        },
+        {
+          "title": "Future Tenses",
+          "lessons": [
+            { "id": "future-simple", "title": "Future Simple" },
+            { "id": "future-continuous", "title": "Future Continuous" },
+            { "id": "future-perfect", "title": "Future Perfect" },
+            { "id": "future-perfect-continuous", "title": "Future Perfect Continuous" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Advanced Grammar",
+      "modules": [
+        {
+          "title": "Advanced Topics",
+          "lessons": [
+            { "id": "active-passive-voice", "title": "Active & Passive Voice" },
+            { "id": "direct-indirect-speech", "title": "Direct & Indirect Speech" },
+            { "id": "conditional-sentences", "title": "Conditional Sentences" },
+            { "id": "subject-verb-agreement", "title": "Subject-Verb Agreement" },
+            { "id": "question-tags", "title": "Question Tags" },
+            { "id": "degrees-of-comparison", "title": "Degrees of Comparison" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Vocabulary",
+      "modules": [
+        {
+          "title": "Daily Words",
+          "lessons": [
+            { "id": "vocab-day-1", "title": "Daily Words - Day 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Conversation",
+      "modules": [
+        {
+          "title": "Everyday Situations",
+          "lessons": [
+            { "id": "greetings", "title": "Greetings" },
+            { "id": "introducing-yourself", "title": "Introducing Yourself" },
+            { "id": "office-conversation", "title": "Office Conversation" },
+            { "id": "interview", "title": "Job Interview" },
+            { "id": "restaurant", "title": "At the Restaurant" },
+            { "id": "shopping", "title": "Shopping" },
+            { "id": "phone-calls", "title": "Phone Calls" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Corporate English",
+      "modules": [
+        {
+          "title": "Workplace English",
+          "lessons": [
+            { "id": "standup-updates", "title": "Daily Stand-up Updates" },
+            { "id": "email-writing", "title": "Professional Email Writing" },
+            { "id": "meeting-phrases", "title": "Meeting Phrases" },
+            { "id": "business-it-phrases", "title": "Business IT English - 50 Key Phrases" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Idioms & Phrases",
+      "modules": [
+        {
+          "title": "Common Idioms",
+          "lessons": [
+            { "id": "idioms-set-1", "title": "Everyday Idioms - Set 1" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Business English",
+      "modules": [
+        {
+          "title": "Professional Communication",
+          "lessons": [
+            { "id": "business-vocabulary", "title": "Business Vocabulary" },
+            { "id": "email-etiquette", "title": "Email Etiquette" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Fluency",
+      "modules": [
+        {
+          "title": "Speaking Practice",
+          "lessons": [
+            { "id": "fluency-practice-guide", "title": "Fluency Practice Guide" }
+          ]
+        }
+      ]
+    }
+  ]
+}

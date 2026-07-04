@@ -1,0 +1,34 @@
+{
+  "level": 4,
+  "module": "Advanced Topics",
+  "title": "Conditional Sentences",
+  "definition": "Conditional sentences describe a condition (if-clause) and its result (main clause). English has four main types, called Zero, First, Second, and Third conditional.",
+  "formula": "If + condition clause, + result clause",
+  "rules": [
+    "Zero Conditional (general truths): If + present simple, present simple. Example: If you heat ice, it melts.",
+    "First Conditional (real future possibility): If + present simple, will + V1. Example: If it rains, I will stay home.",
+    "Second Conditional (unreal/hypothetical present): If + past simple, would + V1. Example: If I won the lottery, I would travel the world.",
+    "Third Conditional (unreal past - regret): If + past perfect, would have + V3. Example: If I had studied, I would have passed.",
+    "'If' can be replaced with 'unless' (= if not): Unless you hurry, you will miss the bus."
+  ],
+  "examples": [
+    "Zero: If you don't water plants, they die.",
+    "First: If I finish work early, I will call you.",
+    "First: If it rains tomorrow, we will cancel the picnic.",
+    "Second: If I were rich, I would buy a big house.",
+    "Second: If she studied harder, she would get better grades.",
+    "Third: If I had known, I would have helped you.",
+    "Third: If they had left earlier, they wouldn't have missed the flight."
+  ],
+  "commonMistakes": [
+    { "wrong": "If I will see him, I will tell him.", "right": "If I see him, I will tell him.", "why": "Don't use 'will' in the if-clause of the First Conditional; use present simple." },
+    { "wrong": "If I was you, I would apologize.", "right": "If I were you, I would apologize.", "why": "In the Second Conditional, use 'were' for all subjects (I/he/she/it) in formal English." },
+    { "wrong": "If I would have known, I would have come.", "right": "If I had known, I would have come.", "why": "The if-clause of the Third Conditional uses past perfect, not 'would have'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct First Conditional sentence:", "options": ["If it rains, I will stay home.", "If it will rain, I stay home.", "If it rain, I will stay home.", "If it rains, I stayed home."], "answer": "If it rains, I will stay home.", "explanation": "First Conditional: If + present simple, will + V1." },
+    { "type": "mcq", "question": "Choose the correct Third Conditional sentence:", "options": ["If I had studied, I would pass.", "If I studied, I would have passed.", "If I had studied, I would have passed.", "If I have studied, I would have passed."], "answer": "If I had studied, I would have passed.", "explanation": "Third Conditional: If + past perfect, would have + V3." },
+    { "type": "fill", "question": "If I ___ (be) you, I would apologize. (Second Conditional)", "answer": "were", "explanation": "Second Conditional uses 'were' for all subjects." },
+    { "type": "error", "sentence": "If I will have time, I will visit you.", "correction": "If I have time, I will visit you.", "explanation": "Don't use 'will' in the if-clause of the First Conditional." }
+  ]
+}

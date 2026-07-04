@@ -1,0 +1,39 @@
+{
+  "level": 3,
+  "module": "Future Tenses",
+  "title": "Future Continuous",
+  "definition": "The Future Continuous tense describes an action that will be in progress at a specific time in the future.",
+  "formula": "Subject + will be + V-ing + Object",
+  "structure": {
+    "positive": "I will be traveling this time tomorrow. / She will be attending the conference.",
+    "negative": "I will not (won't) be traveling tomorrow.",
+    "question": "Will you be traveling tomorrow?",
+    "whQuestion": "What will you be doing at 8 PM tomorrow?"
+  },
+  "usage": "Use Future Continuous for an action that will be ongoing at a specific future time (This time next week, I will be sitting on a beach), and for polite questions about someone's plans (Will you be using the car tonight?).",
+  "signalWords": ["at this time tomorrow", "at 8 PM tomorrow", "this time next week"],
+  "examples": [
+    "This time tomorrow, I will be flying to Delhi.",
+    "She will be attending a meeting at 10 AM.",
+    "They will be waiting for us at the airport.",
+    "I will not be working next Sunday.",
+    "Will you be joining us for dinner tonight?",
+    "At 9 PM, we will be watching the match.",
+    "What will you be doing this time next year?"
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "Will you be free at 6 PM?" },
+    { "speaker": "B", "line": "No, I will be attending a client call at that time." },
+    { "speaker": "A", "line": "What will you be doing this weekend?" },
+    { "speaker": "B", "line": "I will be traveling to my hometown." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I will traveling tomorrow.", "right": "I will be traveling tomorrow.", "why": "Don't forget 'be' before the '-ing' form." },
+    { "wrong": "She will being working at 5 PM.", "right": "She will be working at 5 PM.", "why": "Use 'be', not 'being', in the Future Continuous formula." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I will traveling tomorrow.", "I will be traveling tomorrow.", "I am will traveling tomorrow.", "I will travel-ing tomorrow."], "answer": "I will be traveling tomorrow.", "explanation": "Formula: will + be + V-ing." },
+    { "type": "fill", "question": "At 8 PM, we ___ (watch) the match.", "answer": "will be watching", "explanation": "Action in progress at a specific future time." },
+    { "type": "mcq", "question": "Which sentence best fits Future Continuous?", "options": ["I will call you.", "This time tomorrow, I will be flying to Delhi.", "I called you.", "I have called you."], "answer": "This time tomorrow, I will be flying to Delhi.", "explanation": "Describes an action in progress at a specific future moment." }
+  ]
+}

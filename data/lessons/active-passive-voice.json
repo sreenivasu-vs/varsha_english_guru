@@ -1,0 +1,34 @@
+{
+  "level": 4,
+  "module": "Advanced Topics",
+  "title": "Active & Passive Voice",
+  "definition": "In the active voice, the subject performs the action. In the passive voice, the subject receives the action. Passive voice is formed with a form of 'be' + past participle (V3).",
+  "formula": "Active: Subject + Verb + Object  →  Passive: Object + be(+tense) + V3 + by + Subject",
+  "rules": [
+    "To change active to passive: the object becomes the new subject, add the correct form of 'be' matching the tense, use the past participle (V3) of the main verb, and add 'by + original subject' if needed.",
+    "Present Simple passive: is/am/are + V3. Example: Rice is eaten.",
+    "Past Simple passive: was/were + V3. Example: The letter was written.",
+    "Present Perfect passive: has/have been + V3. Example: The work has been done.",
+    "Modal passive: modal + be + V3. Example: The work must be finished.",
+    "'By + agent' is often dropped when the doer is unknown or unimportant: English is spoken worldwide."
+  ],
+  "examples": [
+    "Active: She writes a letter. → Passive: A letter is written by her.",
+    "Active: The chef cooked the meal. → Passive: The meal was cooked by the chef.",
+    "Active: They have completed the project. → Passive: The project has been completed.",
+    "Active: You must submit the form. → Passive: The form must be submitted.",
+    "Active: Someone stole my bike. → Passive: My bike was stolen.",
+    "Active: The company will launch the product. → Passive: The product will be launched."
+  ],
+  "commonMistakes": [
+    { "wrong": "The letter is wrote by him.", "right": "The letter is written by him.", "why": "Use the past participle (V3) 'written', not the past simple 'wrote', in passive voice." },
+    { "wrong": "The work was did by the team.", "right": "The work was done by the team.", "why": "Use the correct past participle 'done', not 'did'." },
+    { "wrong": "English is speaking worldwide.", "right": "English is spoken worldwide.", "why": "Passive voice needs 'be' + V3, not 'be' + V-ing." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Convert to passive: 'She writes a letter.'", "options": ["A letter writes her.", "A letter is written by her.", "A letter was written by her.", "A letter is writing by her."], "answer": "A letter is written by her.", "explanation": "Present Simple passive: is/am/are + V3." },
+    { "type": "mcq", "question": "Convert to passive: 'They completed the project.'", "options": ["The project completed by them.", "The project was completed by them.", "The project is completed by them.", "The project completes by them."], "answer": "The project was completed by them.", "explanation": "Past Simple passive: was/were + V3." },
+    { "type": "fill", "question": "Active: 'You must finish the work.' Passive: 'The work must ___ (be finished).'", "answer": "be finished", "explanation": "Modal passive: modal + be + V3." },
+    { "type": "error", "sentence": "The cake was baked by she.", "correction": "The cake was baked by her.", "explanation": "Use the object pronoun 'her' after the preposition 'by'." }
+  ]
+}

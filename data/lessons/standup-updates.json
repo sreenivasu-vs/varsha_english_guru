@@ -1,0 +1,28 @@
+{
+  "level": 7,
+  "module": "Workplace English",
+  "title": "Daily Stand-up Updates",
+  "definition": "In IT and agile teams, a daily stand-up update usually covers three points: what you did yesterday, what you'll do today, and any blockers.",
+  "dialogue": [
+    { "speaker": "You", "line": "Yesterday, I completed the login module and fixed two bugs in the payment flow." },
+    { "speaker": "You", "line": "Today, I'll start working on the API integration for the dashboard." },
+    { "speaker": "You", "line": "I don't have any blockers at the moment." },
+    { "speaker": "Teammate", "line": "I'm currently blocked on the staging environment access. Can someone help?" }
+  ],
+  "practicePhrases": [
+    "Yesterday, I worked on...",
+    "Today, I plan to...",
+    "I don't have any blockers.",
+    "I'm currently blocked on...",
+    "I need help from [name] on...",
+    "This task is on track / slightly delayed."
+  ],
+  "commonMistakes": [
+    { "wrong": "Yesterday I am working on login page.", "right": "Yesterday I worked on the login page.", "why": "Use Past Simple for completed work from yesterday, not Present Continuous." },
+    { "wrong": "I have no blocker.", "right": "I don't have any blockers.", "why": "Use 'don't have any' rather than 'have no' in casual spoken updates, and 'blockers' is usually plural." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which correctly reports yesterday's work?", "options": ["Yesterday I am completing the task.", "Yesterday I complete the task.", "Yesterday I completed the task.", "Yesterday I completing the task."], "answer": "Yesterday I completed the task.", "explanation": "Use Past Simple for finished actions from yesterday." },
+    { "type": "fill", "question": "Today, I ___ (plan) to start the API integration.", "answer": "plan", "explanation": "Present Simple describes today's plan in a stand-up." }
+  ]
+}

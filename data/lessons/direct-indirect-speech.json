@@ -1,0 +1,35 @@
+{
+  "level": 4,
+  "module": "Advanced Topics",
+  "title": "Direct & Indirect Speech",
+  "definition": "Direct speech reports the exact words a person said, in quotation marks. Indirect (reported) speech reports the meaning without quoting exact words, usually shifting the tense back one step.",
+  "formula": "Direct: He said, \"I am tired.\"  →  Indirect: He said (that) he was tired.",
+  "rules": [
+    "Present Simple → Past Simple: \"I eat rice\" → He said he ate rice.",
+    "Present Continuous → Past Continuous: \"I am working\" → She said she was working.",
+    "Present Perfect → Past Perfect: \"I have finished\" → He said he had finished.",
+    "Past Simple → Past Perfect: \"I went there\" → She said she had gone there.",
+    "will → would, can → could, may → might, must → had to.",
+    "Pronouns and time/place words change: I→he/she, my→his/her, now→then, today→that day, here→there, tomorrow→the next day.",
+    "Questions in reported speech use if/whether (for yes/no) or the WH word, and normal statement word order (no auxiliary inversion): \"Do you like tea?\" → He asked if I liked tea."
+  ],
+  "examples": [
+    "Direct: She said, \"I am happy.\" → Indirect: She said she was happy.",
+    "Direct: He said, \"I will call you.\" → Indirect: He said he would call me.",
+    "Direct: They said, \"We have finished.\" → Indirect: They said they had finished.",
+    "Direct: She asked, \"Do you like tea?\" → Indirect: She asked if I liked tea.",
+    "Direct: He asked, \"Where do you live?\" → Indirect: He asked where I lived.",
+    "Direct: \"I can swim,\" she said. → Indirect: She said she could swim."
+  ],
+  "commonMistakes": [
+    { "wrong": "He said that he is tired.", "right": "He said that he was tired.", "why": "In reported speech, the tense usually shifts one step back (is → was)." },
+    { "wrong": "She asked did I like tea.", "right": "She asked if I liked tea.", "why": "Reported questions use normal word order with 'if/whether', not the inverted question form." },
+    { "wrong": "He said he will come tomorrow.", "right": "He said he would come the next day.", "why": "'Will' changes to 'would', and 'tomorrow' changes to 'the next day' in reported speech." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Convert: He said, \"I am busy.\"", "options": ["He said he is busy.", "He said he was busy.", "He said he busy.", "He said I am busy."], "answer": "He said he was busy.", "explanation": "Present Simple 'am' shifts back to past 'was'." },
+    { "type": "mcq", "question": "Convert: She asked, \"Where do you live?\"", "options": ["She asked where do I live.", "She asked where I lived.", "She asked where did I live.", "She asked where I live."], "answer": "She asked where I lived.", "explanation": "Reported WH-questions use normal word order and past tense." },
+    { "type": "fill", "question": "Direct: \"I will help you,\" he said. Indirect: He said he ___ help me.", "answer": "would", "explanation": "'Will' changes to 'would' in reported speech." },
+    { "type": "error", "sentence": "He said that he will come.", "correction": "He said that he would come.", "explanation": "'Will' shifts to 'would' when reporting past speech." }
+  ]
+}

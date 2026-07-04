@@ -1,0 +1,34 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Verb",
+  "definition": "A verb is a word that shows an action, event, or state of being.",
+  "formula": "Subject + Verb (+ Object)",
+  "rules": [
+    "Action verbs show physical or mental actions: run, eat, think, write.",
+    "State/being verbs show a state: be, seem, appear, know, believe.",
+    "Verbs change form based on tense: play → played → will play.",
+    "Add 's' or 'es' to the verb for third person singular in present simple: he plays, she watches.",
+    "Every complete sentence needs at least one verb."
+  ],
+  "examples": [
+    "Birds fly in the sky.",
+    "She writes a letter every day.",
+    "I am happy today. (verb 'am' shows state of being)",
+    "They believe in hard work.",
+    "He runs five kilometers every morning.",
+    "We think about our future."
+  ],
+  "commonMistakes": [
+    { "wrong": "She go to school daily.", "right": "She goes to school daily.", "why": "Third person singular subjects (he/she/it) need 's' or 'es' added to the verb in present simple." },
+    { "wrong": "I am knowing the answer.", "right": "I know the answer.", "why": "State verbs like 'know' are not usually used in continuous form." },
+    { "wrong": "He don't like tea.", "right": "He doesn't like tea.", "why": "Use 'doesn't' with he/she/it, not 'don't'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Identify the verb: 'The children play in the park.'", "options": ["children", "play", "park", "the"], "answer": "play", "explanation": "'Play' shows the action being done." },
+    { "type": "fill", "question": "She ___ (write) a letter every Sunday.", "answer": "writes", "explanation": "Add 's' for third person singular subjects in present simple." },
+    { "type": "mcq", "question": "Which is a state/being verb?", "options": ["run", "seem", "eat", "jump"], "answer": "seem", "explanation": "'Seem' expresses a state, not a physical action." },
+    { "type": "error", "sentence": "He don't like coffee.", "correction": "He doesn't like coffee.", "explanation": "Third person singular needs 'doesn't', not 'don't'." },
+    { "type": "rearrange", "words": ["Birds", "fly", "in", "the", "sky"], "answer": "Birds fly in the sky", "explanation": "Basic Subject + Verb + Adverbial order." }
+  ]
+}

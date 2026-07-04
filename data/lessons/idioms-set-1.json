@@ -1,0 +1,23 @@
+{
+  "level": 8,
+  "module": "Common Idioms",
+  "title": "Everyday Idioms - Set 1",
+  "definition": "Idioms are phrases whose meaning isn't obvious from the individual words. Learning idioms helps you sound more natural in conversation.",
+  "idioms": [
+    { "phrase": "Break the ice", "meaning": "to do or say something to relieve tension or start a conversation", "example": "He told a joke to break the ice at the meeting." },
+    { "phrase": "Piece of cake", "meaning": "something very easy to do", "example": "Don't worry about the exam, it will be a piece of cake for you." },
+    { "phrase": "Hit the nail on the head", "meaning": "to describe exactly what is causing a situation or problem", "example": "You hit the nail on the head when you said the delay was due to poor planning." },
+    { "phrase": "Once in a blue moon", "meaning": "very rarely", "example": "We only meet once in a blue moon since he moved abroad." },
+    { "phrase": "Under the weather", "meaning": "feeling sick or unwell", "example": "I'm feeling a bit under the weather today, so I'll work from home." },
+    { "phrase": "Cost an arm and a leg", "meaning": "to be very expensive", "example": "That new phone cost an arm and a leg." },
+    { "phrase": "Let the cat out of the bag", "meaning": "to reveal a secret accidentally", "example": "I was planning a surprise party, but my sister let the cat out of the bag." },
+    { "phrase": "Burn the midnight oil", "meaning": "to work late into the night", "example": "She had to burn the midnight oil to finish the project on time." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "'Break the ice' means:", "options": ["to break something cold", "to start a conversation and relieve tension", "to be angry", "to cancel a plan"], "answer": "to start a conversation and relieve tension", "explanation": "It refers to easing initial awkwardness in a social situation." },
+    { "type": "mcq", "question": "'Piece of cake' means:", "options": ["a dessert", "something very easy", "something difficult", "a small mistake"], "answer": "something very easy", "explanation": "It describes a task that requires little effort." },
+    { "type": "mcq", "question": "'Under the weather' means:", "options": ["outside in the rain", "feeling unwell", "very happy", "confused"], "answer": "feeling unwell", "explanation": "It's an idiom for feeling sick." },
+    { "type": "fill", "question": "That watch must have cost an arm and a ___.", "answer": "leg", "explanation": "'Cost an arm and a leg' means very expensive." },
+    { "type": "mcq", "question": "'Let the cat out of the bag' means:", "options": ["to free an animal", "to reveal a secret", "to lie", "to hide something"], "answer": "to reveal a secret", "explanation": "It means to accidentally reveal a secret." }
+  ]
+}

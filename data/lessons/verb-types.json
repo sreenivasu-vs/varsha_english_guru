@@ -1,0 +1,39 @@
+{
+  "level": 1,
+  "module": "Verbs",
+  "title": "Types of Verbs",
+  "definition": "Verbs can be classified by function: action, helping, linking, and modal verbs; and by pattern: regular/irregular and transitive/intransitive, plus phrasal verbs made of a verb + particle.",
+  "rules": [
+    "Action verbs express physical or mental actions: run, write, think.",
+    "Helping (auxiliary) verbs support the main verb: am, is, are, was, were, have, has, had, do, does, did.",
+    "Linking verbs connect the subject to a description, without showing action: be, seem, become, look, feel.",
+    "Modal verbs express ability, possibility, permission, or obligation: can, could, may, might, must, should, will, would.",
+    "Regular verbs form the past tense by adding '-ed': walk → walked.",
+    "Irregular verbs change form unpredictably: go → went, eat → ate, see → saw.",
+    "Transitive verbs need a direct object: She bought a car.",
+    "Intransitive verbs don't need an object: He sleeps.",
+    "Phrasal verbs combine a verb with a preposition/adverb to create new meaning: give up, look after, run into."
+  ],
+  "examples": [
+    "She is reading a book. (helping verb 'is' + main verb 'reading')",
+    "He seems tired today. (linking verb 'seems')",
+    "You must submit the form by Friday. (modal verb 'must')",
+    "I walked to school yesterday. (regular verb)",
+    "She went to the market. (irregular verb)",
+    "He kicked the ball. (transitive - 'ball' is the object)",
+    "The baby cried. (intransitive - no object)",
+    "Please look after my dog while I'm away. (phrasal verb)"
+  ],
+  "commonMistakes": [
+    { "wrong": "She can to swim.", "right": "She can swim.", "why": "Modal verbs are always followed by the base verb, without 'to'." },
+    { "wrong": "He goed to school.", "right": "He went to school.", "why": "'Go' is an irregular verb; its past tense is 'went', not 'goed'." },
+    { "wrong": "I am agree with you.", "right": "I agree with you.", "why": "'Agree' is a main verb, not used after 'am/is/are' unless in continuous form." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Identify the modal verb: 'You should apologize to her.'", "options": ["You", "should", "apologize", "her"], "answer": "should", "explanation": "'Should' expresses advice/obligation." },
+    { "type": "mcq", "question": "Which is the past tense of the irregular verb 'eat'?", "options": ["eated", "ated", "ate", "eaten"], "answer": "ate", "explanation": "'Eat' is irregular: eat → ate → eaten." },
+    { "type": "mcq", "question": "Which sentence has an intransitive verb?", "options": ["She reads books.", "He sleeps.", "They bought a car.", "I wrote a letter."], "answer": "He sleeps.", "explanation": "'Sleeps' does not need a direct object." },
+    { "type": "fill", "question": "Please look ___ my plants while I travel. (phrasal verb meaning 'take care of')", "answer": "after", "explanation": "'Look after' means to take care of something." },
+    { "type": "error", "sentence": "She can to dance well.", "correction": "She can dance well.", "explanation": "Never use 'to' directly after a modal verb like 'can'." }
+  ]
+}

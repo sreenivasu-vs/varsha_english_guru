@@ -1,0 +1,42 @@
+{
+  "level": 3,
+  "module": "Present Tenses",
+  "title": "Present Continuous",
+  "definition": "The Present Continuous (Present Progressive) tense describes actions happening right now, or temporary/planned actions around the present time.",
+  "formula": "Subject + am/is/are + V-ing + Object",
+  "structure": {
+    "positive": "I am eating rice. / She is eating rice. / They are eating rice.",
+    "negative": "I am not eating rice. / She is not (isn't) eating rice.",
+    "question": "Are you eating rice? / Is she eating rice?",
+    "whQuestion": "What are you eating? / Why is she crying?"
+  },
+  "usage": "Use Present Continuous for: actions happening right now (She is cooking dinner), temporary situations (He is staying at a hotel this week), and future arrangements (I am meeting my friend tomorrow).",
+  "signalWords": ["now", "right now", "at the moment", "currently", "these days", "look!", "listen!"],
+  "examples": [
+    "I am reading a book right now.",
+    "She is talking on the phone.",
+    "They are playing football at the moment.",
+    "He is not watching TV.",
+    "Are you coming to the party tonight?",
+    "Look! It is raining outside.",
+    "I am meeting my manager tomorrow morning."
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "What are you doing?" },
+    { "speaker": "B", "line": "I am preparing dinner." },
+    { "speaker": "A", "line": "Are you coming with us tonight?" },
+    { "speaker": "B", "line": "No, I am working late today." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I am knowing the answer.", "right": "I know the answer.", "why": "State verbs like 'know', 'want', 'believe' are not usually used in continuous form." },
+    { "wrong": "She is study now.", "right": "She is studying now.", "why": "The main verb needs '-ing' after 'is/am/are' in continuous tense." },
+    { "wrong": "He are working today.", "right": "He is working today.", "why": "Use 'is' with he/she/it, not 'are'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["She is cook dinner.", "She cooking dinner.", "She is cooking dinner.", "She cook dinner now."], "answer": "She is cooking dinner.", "explanation": "Present Continuous = am/is/are + V-ing." },
+    { "type": "fill", "question": "They ___ (play) football right now.", "answer": "are playing", "explanation": "'They' takes 'are' + V-ing." },
+    { "type": "mcq", "question": "Which signal word suggests Present Continuous?", "options": ["every day", "usually", "right now", "always"], "answer": "right now", "explanation": "'Right now' points to an action happening at this moment." },
+    { "type": "error", "sentence": "I am wanting a cup of tea.", "correction": "I want a cup of tea.", "explanation": "'Want' is a state verb and is not usually used in continuous form." },
+    { "type": "mcq", "question": "Choose the correct question form:", "options": ["Is she studying?", "Does she studying?", "She is studying?", "Is she study?"], "answer": "Is she studying?", "explanation": "Question form: Is/Am/Are + subject + V-ing?" }
+  ]
+}

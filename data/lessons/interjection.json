@@ -1,0 +1,29 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Interjection",
+  "definition": "An interjection is a word or phrase that expresses sudden emotion, such as surprise, joy, pain, or excitement. It is usually followed by an exclamation mark.",
+  "formula": "Interjection + ! (+ Sentence)",
+  "rules": [
+    "Interjections show strong feelings: Wow!, Ouch!, Hurray!, Oh no!, Alas!",
+    "They are grammatically independent from the rest of the sentence.",
+    "A comma is used instead of an exclamation mark for milder feelings: Well, I suppose that's true."
+  ],
+  "examples": [
+    "Wow! That's a beautiful painting.",
+    "Ouch! That hurt.",
+    "Hurray! We won the match.",
+    "Oh no! I forgot my keys.",
+    "Well, that's one way to do it.",
+    "Alas! The team lost the final."
+  ],
+  "commonMistakes": [
+    { "wrong": "Wow that's amazing.", "right": "Wow! That's amazing.", "why": "Interjections showing strong emotion should be followed by an exclamation mark." },
+    { "wrong": "Ouch, I am fine.", "right": "Ouch! Give me a second.", "why": "Strong pain reactions use '!', and the following sentence should logically match the emotion." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which word is an interjection?", "options": ["quickly", "wow", "table", "under"], "answer": "wow", "explanation": "'Wow' expresses sudden surprise/excitement." },
+    { "type": "mcq", "question": "Which sentence correctly uses an interjection?", "options": ["Ouch that hurts.", "Ouch! That hurts.", "Ouch, that, hurts", "Ouch. that hurts"], "answer": "Ouch! That hurts.", "explanation": "Use an exclamation mark after strong interjections." },
+    { "type": "fill", "question": "___! We finally won the championship. (interjection for joy)", "answer": "Hurray", "explanation": "'Hurray' expresses joy or triumph." }
+  ]
+}

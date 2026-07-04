@@ -1,0 +1,29 @@
+{
+  "level": 5,
+  "module": "Daily Words",
+  "title": "Daily Words - Day 1",
+  "definition": "Learn 10 new words today. Read the meaning, notice the pronunciation, and try using each word in your own sentence.",
+  "words": [
+    { "word": "Abundant", "pronunciation": "/ə-BUN-dənt/", "meaning": "existing in large quantities; plentiful", "synonyms": ["plentiful", "ample", "copious"], "antonyms": ["scarce", "insufficient"], "sentence": "The region has abundant rainfall every monsoon." },
+    { "word": "Candid", "pronunciation": "/KAN-did/", "meaning": "honest and straightforward", "synonyms": ["frank", "honest", "sincere"], "antonyms": ["dishonest", "evasive"], "sentence": "She gave a candid answer to the interviewer's question." },
+    { "word": "Diligent", "pronunciation": "/DIL-ih-jənt/", "meaning": "showing care and effort in one's work", "synonyms": ["hardworking", "industrious"], "antonyms": ["lazy", "careless"], "sentence": "He is a diligent student who never misses homework." },
+    { "word": "Eloquent", "pronunciation": "/EL-ə-kwənt/", "meaning": "fluent and persuasive in speaking or writing", "synonyms": ["articulate", "fluent"], "antonyms": ["inarticulate"], "sentence": "The speaker gave an eloquent speech about climate change." },
+    { "word": "Feasible", "pronunciation": "/FEE-zə-bəl/", "meaning": "possible to do easily or practically", "synonyms": ["practical", "achievable"], "antonyms": ["impossible", "impractical"], "sentence": "It is not feasible to finish this project in one day." },
+    { "word": "Genuine", "pronunciation": "/JEN-yoo-in/", "meaning": "real and authentic; sincere", "synonyms": ["authentic", "sincere", "real"], "antonyms": ["fake", "artificial"], "sentence": "She showed genuine concern for her friend's health." },
+    { "word": "Hesitant", "pronunciation": "/HEZ-ih-tənt/", "meaning": "slow to act because of uncertainty", "synonyms": ["reluctant", "unsure"], "antonyms": ["confident", "decisive"], "sentence": "He was hesitant to share his opinion in the meeting." },
+    { "word": "Immense", "pronunciation": "/ih-MENS/", "meaning": "extremely large or great", "synonyms": ["huge", "enormous", "vast"], "antonyms": ["tiny", "minute"], "sentence": "The company has seen immense growth this year." },
+    { "word": "Jovial", "pronunciation": "/JOH-vee-əl/", "meaning": "cheerful and friendly", "synonyms": ["cheerful", "merry"], "antonyms": ["gloomy", "morose"], "sentence": "Our manager is always jovial, even during busy weeks." },
+    { "word": "Keen", "pronunciation": "/KEEN/", "meaning": "having a strong interest or enthusiasm", "synonyms": ["eager", "enthusiastic"], "antonyms": ["indifferent", "reluctant"], "sentence": "She is keen to learn new programming languages." }
+  ],
+  "tips": [
+    "Try to use each new word in a sentence about your own day - it helps memory far more than just reading the meaning.",
+    "Review yesterday's words for 2 minutes before starting today's set (simple spaced repetition)."
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "'Abundant' means:", "options": ["scarce", "plentiful", "boring", "expensive"], "answer": "plentiful", "explanation": "'Abundant' means existing in large quantities." },
+    { "type": "mcq", "question": "A synonym for 'Candid' is:", "options": ["frank", "shy", "angry", "confused"], "answer": "frank", "explanation": "'Candid' means honest and straightforward, similar to 'frank'." },
+    { "type": "mcq", "question": "The opposite of 'Diligent' is:", "options": ["hardworking", "lazy", "smart", "fast"], "answer": "lazy", "explanation": "'Diligent' means hardworking, so its opposite is 'lazy'." },
+    { "type": "fill", "question": "The manager is always cheerful and friendly; he is very ___.", "answer": "jovial", "explanation": "'Jovial' means cheerful and friendly." },
+    { "type": "mcq", "question": "'Feasible' means:", "options": ["impossible", "practical/achievable", "expensive", "slow"], "answer": "practical/achievable", "explanation": "'Feasible' means possible to do easily or practically." }
+  ]
+}

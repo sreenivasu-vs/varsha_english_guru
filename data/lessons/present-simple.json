@@ -1,0 +1,42 @@
+{
+  "level": 3,
+  "module": "Present Tenses",
+  "title": "Present Simple",
+  "definition": "The Present Simple tense is used for habits, routines, facts, and permanent situations.",
+  "formula": "Subject + V1 (+s/es for he/she/it) + Object",
+  "structure": {
+    "positive": "I eat rice. / She eats rice.",
+    "negative": "I do not (don't) eat rice. / She does not (doesn't) eat rice.",
+    "question": "Do you eat rice? / Does she eat rice?",
+    "whQuestion": "What do you eat? / Where does she live?"
+  },
+  "usage": "Use the Present Simple for: daily habits and routines (I wake up at 6 AM), general facts and truths (The sun rises in the east), permanent situations (She lives in Delhi), and scheduled events (The train leaves at 9 PM).",
+  "signalWords": ["always", "usually", "often", "sometimes", "never", "every day", "every week"],
+  "examples": [
+    "I eat rice every day.",
+    "She works in a bank.",
+    "The sun rises in the east.",
+    "They play cricket on Sundays.",
+    "He does not like tea.",
+    "Do you speak English?",
+    "Water boils at 100 degrees Celsius."
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "What do you do?" },
+    { "speaker": "B", "line": "I work as a software engineer." },
+    { "speaker": "A", "line": "Do you like your job?" },
+    { "speaker": "B", "line": "Yes, I really enjoy it." }
+  ],
+  "commonMistakes": [
+    { "wrong": "She go to office daily.", "right": "She goes to office daily.", "why": "Add 's/es' to the verb for third person singular (he/she/it)." },
+    { "wrong": "He don't like tea.", "right": "He doesn't like tea.", "why": "Use 'doesn't' with he/she/it, not 'don't'." },
+    { "wrong": "Does she likes coffee?", "right": "Does she like coffee?", "why": "After 'does', use the base verb (V1) without 's'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["She work here.", "She works here.", "She working here.", "She is work here."], "answer": "She works here.", "explanation": "Add 's' to the verb for 'she' in present simple." },
+    { "type": "fill", "question": "He ___ (not/like) spicy food.", "answer": "doesn't like", "explanation": "Use 'doesn't' + base verb for negative with he/she/it." },
+    { "type": "mcq", "question": "Which signal word suggests Present Simple?", "options": ["now", "usually", "at the moment", "currently"], "answer": "usually", "explanation": "'Usually' signals a habitual action, typical of Present Simple." },
+    { "type": "error", "sentence": "Does she likes tea?", "correction": "Does she like tea?", "explanation": "Use the base form of the verb after 'does'." },
+    { "type": "rearrange", "words": ["rises", "the", "east", "sun", "in", "the"], "answer": "the sun rises in the east", "explanation": "Subject + Verb(+s) + Object pattern for a general truth." }
+  ]
+}

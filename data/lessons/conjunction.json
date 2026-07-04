@@ -1,0 +1,32 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Conjunction",
+  "definition": "A conjunction is a word that joins words, phrases, or clauses together.",
+  "formula": "Clause + Conjunction + Clause",
+  "rules": [
+    "Coordinating conjunctions join equal parts, remembered by FANBOYS: For, And, Nor, But, Or, Yet, So.",
+    "Subordinating conjunctions join a main clause with a dependent clause: because, although, since, if, when, while.",
+    "Correlative conjunctions work in pairs: either/or, neither/nor, both/and, not only/but also."
+  ],
+  "examples": [
+    "I like tea and coffee.",
+    "She was tired, but she finished the work.",
+    "I stayed home because it was raining.",
+    "Although he was late, he didn't apologize.",
+    "You can have either tea or coffee.",
+    "Not only is she smart, but also very hardworking."
+  ],
+  "commonMistakes": [
+    { "wrong": "Although he was tired, but he finished the race.", "right": "Although he was tired, he finished the race.", "why": "Don't use both 'although' and 'but' together — choose one." },
+    { "wrong": "She neither called or texted.", "right": "She neither called nor texted.", "why": "'Neither' pairs with 'nor', not 'or'." },
+    { "wrong": "I want to go, however I am busy.", "right": "I want to go; however, I am busy.", "why": "'However' as a conjunctive adverb needs a semicolon or full stop before it, not a comma joining two full clauses." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which word completes: 'I was hungry, ___ I ate a sandwich.'", "options": ["so", "although", "unless", "nor"], "answer": "so", "explanation": "'So' shows the result of being hungry." },
+    { "type": "mcq", "question": "Which is a correlative conjunction pair?", "options": ["either/or", "and/but", "if/when", "so/because"], "answer": "either/or", "explanation": "'Either...or' is a correlative conjunction pair." },
+    { "type": "error", "sentence": "Although it was raining, but we went out.", "correction": "Although it was raining, we went out.", "explanation": "Don't use both 'although' and 'but' in the same sentence." },
+    { "type": "fill", "question": "She likes neither tea ___ coffee.", "answer": "nor", "explanation": "'Neither' is always paired with 'nor'." },
+    { "type": "mcq", "question": "Which conjunction shows contrast?", "options": ["and", "but", "so", "because"], "answer": "but", "explanation": "'But' introduces a contrasting idea." }
+  ]
+}

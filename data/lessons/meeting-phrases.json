@@ -1,0 +1,29 @@
+{
+  "level": 7,
+  "module": "Workplace English",
+  "title": "Meeting Phrases",
+  "definition": "Useful phrases for starting, contributing to, and closing meetings professionally.",
+  "dialogue": [
+    { "speaker": "Host", "line": "Let's get started. Today's agenda has three items." },
+    { "speaker": "You", "line": "Before we move on, could I add a quick point?" },
+    { "speaker": "Host", "line": "Sure, go ahead." },
+    { "speaker": "You", "line": "I think we should also discuss the budget for next quarter." },
+    { "speaker": "Host", "line": "Good point. Let's circle back to that at the end." }
+  ],
+  "practicePhrases": [
+    "Let's get started.",
+    "Could I add a point here?",
+    "I'd like to circle back to...",
+    "Let's park this discussion for later.",
+    "To summarize, we've agreed on...",
+    "Let's take this offline."
+  ],
+  "commonMistakes": [
+    { "wrong": "I have one point to add it.", "right": "I have one point to add.", "why": "Don't add an extra object pronoun 'it' after 'add' when it's not needed." },
+    { "wrong": "We discuss about the budget next.", "right": "We'll discuss the budget next.", "why": "'Discuss' does not take 'about' after it, and future plans need 'will'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase means 'let's postpone this discussion'?", "options": ["Let's take this offline.", "Let's park this for later.", "Let's circle back.", "Let's wrap up."], "answer": "Let's park this for later.", "explanation": "'Park a discussion' means to postpone it for later." },
+    { "type": "fill", "question": "Let's ___ (summarize) what we've agreed on today.", "answer": "summarize", "explanation": "'Summarize' means to give a short overview of key points." }
+  ]
+}

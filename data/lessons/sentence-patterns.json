@@ -1,0 +1,32 @@
+{
+  "level": 2,
+  "module": "Sentence Patterns",
+  "title": "5 Basic Sentence Patterns",
+  "definition": "Every English sentence is built from a small set of patterns. Learning these formulas helps you build correct sentences quickly.",
+  "rules": [
+    "Pattern 1: Subject + Verb (S+V) — Birds fly. She laughed.",
+    "Pattern 2: Subject + Verb + Object (S+V+O) — I eat rice. He reads books.",
+    "Pattern 3: Subject + Verb + Complement (S+V+C) — She is happy. He became a doctor.",
+    "Pattern 4: Subject + Verb + Indirect Object + Direct Object (S+V+O+O) — He gave me a gift. She told him a story.",
+    "Pattern 5: Subject + Verb + Object + Object Complement (S+V+O+C) — They elected him captain. We call her Sam."
+  ],
+  "examples": [
+    "S+V: Birds fly. | Children play. | The sun rises.",
+    "S+V+O: I eat rice. | She reads a novel. | He drives a car.",
+    "S+V+C: She is happy. | He is a doctor. | The soup tastes delicious.",
+    "S+V+O+O: He gave me a gift. | She told him a story. | I bought her a dress.",
+    "S+V+O+C: They elected him captain. | We named the baby Riya. | The news made her sad."
+  ],
+  "commonMistakes": [
+    { "wrong": "She is doctor.", "right": "She is a doctor.", "why": "The complement 'doctor' is a singular countable noun and needs the article 'a'." },
+    { "wrong": "He gave a gift me.", "right": "He gave me a gift.", "why": "In S+V+O+O pattern, the indirect object (me) comes before the direct object (a gift)." },
+    { "wrong": "They elected him as captain.", "right": "They elected him captain.", "why": "With 'elect', the object complement follows directly without 'as' in this common usage." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which pattern does 'She is happy' follow?", "options": ["S+V", "S+V+O", "S+V+C", "S+V+O+O"], "answer": "S+V+C", "explanation": "'Happy' is a complement describing the subject 'she'." },
+    { "type": "mcq", "question": "Which pattern does 'He gave me a gift' follow?", "options": ["S+V+O", "S+V+C", "S+V+O+O", "S+V+O+C"], "answer": "S+V+O+O", "explanation": "'Me' (indirect object) and 'a gift' (direct object) both follow the verb." },
+    { "type": "rearrange", "words": ["captain", "him", "elected", "They"], "answer": "They elected him captain", "explanation": "Subject + Verb + Object + Object Complement pattern." },
+    { "type": "fill", "question": "I ___ rice every day. (S+V+O pattern)", "answer": "eat", "explanation": "The verb 'eat' connects the subject 'I' to the object 'rice'." },
+    { "type": "error", "sentence": "She told a story him.", "correction": "She told him a story.", "explanation": "The indirect object comes before the direct object in S+V+O+O pattern." }
+  ]
+}

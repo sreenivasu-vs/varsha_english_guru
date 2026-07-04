@@ -1,0 +1,35 @@
+{
+  "level": 3,
+  "module": "Future Tenses",
+  "title": "Future Perfect Continuous",
+  "definition": "The Future Perfect Continuous tense emphasizes the duration of an action that will continue up until a specific point in the future.",
+  "formula": "Subject + will have been + V-ing + Object",
+  "structure": {
+    "positive": "By next month, I will have been working here for five years.",
+    "negative": "By next month, I will not have been working here long.",
+    "question": "Will you have been working here for five years by next month?",
+    "whQuestion": "How long will you have been working here by next month?"
+  },
+  "usage": "Use Future Perfect Continuous to emphasize how long something will have continued by a certain future time: By December, she will have been studying English for two years.",
+  "signalWords": ["by the time", "for", "by next year", "how long"],
+  "examples": [
+    "By next month, I will have been working here for five years.",
+    "By the time she graduates, she will have been studying for four years.",
+    "In June, they will have been living in this city for a decade.",
+    "By 10 PM, we will have been driving for six hours.",
+    "Will you have been working here for ten years by 2027?",
+    "By the end of this year, he will have been coding for a decade."
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "How long will you have been working here by next year?" },
+    { "speaker": "B", "line": "I will have been working here for five years by then." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I will have work here for five years.", "right": "I will have been working here for five years.", "why": "Include 'been' and use V-ing to emphasize duration." },
+    { "wrong": "By June, she will studying for two years.", "right": "By June, she will have been studying for two years.", "why": "Don't drop 'have been' from the formula." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I will have been working for years.", "I will have work for years.", "I will been working for years.", "I have will been working for years."], "answer": "I will have been working for years.", "explanation": "Formula: will + have + been + V-ing." },
+    { "type": "fill", "question": "By 2028, they ___ (live) here for 20 years.", "answer": "will have been living", "explanation": "Emphasizes duration up to a future point." }
+  ]
+}

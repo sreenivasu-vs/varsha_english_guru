@@ -1,0 +1,31 @@
+{
+  "level": 10,
+  "module": "Speaking Practice",
+  "title": "Fluency Practice Guide",
+  "definition": "Fluency comes from consistent daily speaking practice, not just grammar study. Use these techniques to build confidence and natural rhythm in spoken English.",
+  "rules": [
+    "Shadowing: Play a short English audio/video clip, pause every sentence, and repeat it aloud trying to match the speaker's rhythm and intonation.",
+    "Picture description: Look at any photo and describe it out loud for 1-2 minutes - who, what, where, when, why.",
+    "Story reading aloud: Read a short story or news article aloud daily for 5-10 minutes to build pronunciation and pacing.",
+    "Self-talk: Narrate your own actions in English throughout the day ('I am making tea now, then I will reply to emails').",
+    "Debate practice: Pick a simple topic and speak for 1 minute for it, then 1 minute against it, to build quick thinking in English.",
+    "Group discussion: Practice with a friend or language partner on a topic, taking turns to speak and respond.",
+    "Public speaking: Record yourself speaking for 2 minutes on a familiar topic, then listen back and note filler words (um, like) to reduce."
+  ],
+  "tips": [
+    "Consistency matters more than duration — 15 minutes daily beats 2 hours once a week.",
+    "Don't aim for perfect grammar while speaking; focus on getting your message across, then review mistakes afterward.",
+    "Record your voice weekly and compare progress over a month — you'll notice real improvement.",
+    "Use the app's Speak buttons on example sentences throughout the lessons to hear correct pronunciation and repeat after them."
+  ],
+  "examples": [
+    "30-Day Plan - Week 1: Shadow 1 short video daily + review 10 vocabulary words.",
+    "30-Day Plan - Week 2: Add picture description practice (2 minutes daily).",
+    "30-Day Plan - Week 3: Add debate practice on simple topics (e.g. 'Is social media good for society?').",
+    "30-Day Plan - Week 4: Record a 2-minute talk on a topic you know well and self-review it."
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "What is 'shadowing' in speaking practice?", "options": ["Reading silently", "Repeating audio aloud, matching rhythm", "Writing an essay", "Memorizing grammar rules"], "answer": "Repeating audio aloud, matching rhythm", "explanation": "Shadowing means repeating what you hear aloud to build natural rhythm." },
+    { "type": "mcq", "question": "Which matters most for building fluency?", "options": ["Perfect grammar every time", "Consistent daily practice", "Studying only vocabulary lists", "Avoiding speaking until fully ready"], "answer": "Consistent daily practice", "explanation": "Regular short practice sessions build fluency faster than occasional long ones." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "level": 3,
+  "module": "Future Tenses",
+  "title": "Future Perfect",
+  "definition": "The Future Perfect tense describes an action that will be completed before a specific point in the future.",
+  "formula": "Subject + will have + V3 (past participle) + Object",
+  "structure": {
+    "positive": "I will have finished the report by Monday.",
+    "negative": "I will not (won't) have finished the report by Monday.",
+    "question": "Will you have finished the report by Monday?",
+    "whQuestion": "What will you have finished by Monday?"
+  },
+  "usage": "Use Future Perfect for an action that will be completed before a specific future time or event: By the time you arrive, I will have cooked dinner. By 2030, she will have completed her PhD.",
+  "signalWords": ["by the time", "by Monday", "by next year", "before"],
+  "examples": [
+    "By the time you arrive, I will have finished cooking.",
+    "She will have completed her degree by next year.",
+    "They will have left before we get there.",
+    "I will not have finished the project by Friday.",
+    "Will you have submitted the form by tomorrow?",
+    "By 6 PM, he will have reached home.",
+    "We will have been married for ten years by June."
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "Will you have finished the report by Monday?" },
+    { "speaker": "B", "line": "Yes, I will have completed it by then." },
+    { "speaker": "A", "line": "Where will you be by 2030?" },
+    { "speaker": "B", "line": "I will have started my own business by then." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I will have finish the work.", "right": "I will have finished the work.", "why": "Use the past participle (V3) 'finished' after 'will have'." },
+    { "wrong": "By tomorrow, I will finished it.", "right": "By tomorrow, I will have finished it.", "why": "Don't drop 'have' from the Future Perfect formula." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I will have finish it.", "I will have finished it.", "I will finished it.", "I have will finished it."], "answer": "I will have finished it.", "explanation": "Formula: will + have + V3." },
+    { "type": "fill", "question": "By next year, she ___ (complete) her studies.", "answer": "will have completed", "explanation": "Action completed before a specific future point." },
+    { "type": "mcq", "question": "Which signal phrase fits Future Perfect?", "options": ["right now", "by the time", "since 2010", "yesterday"], "answer": "by the time", "explanation": "'By the time' marks completion before another future event." }
+  ]
+}

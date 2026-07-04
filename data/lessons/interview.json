@@ -1,0 +1,30 @@
+{
+  "level": 6,
+  "module": "Everyday Situations",
+  "title": "Job Interview",
+  "definition": "Key phrases and sample answers for common job interview questions.",
+  "dialogue": [
+    { "speaker": "Interviewer", "line": "Tell me about yourself." },
+    { "speaker": "You", "line": "I have three years of experience in software development, specializing in web applications. I enjoy solving complex problems and working in teams." },
+    { "speaker": "Interviewer", "line": "Why do you want to work here?" },
+    { "speaker": "You", "line": "I admire your company's focus on innovation, and I believe my skills align well with this role." },
+    { "speaker": "Interviewer", "line": "What are your strengths?" },
+    { "speaker": "You", "line": "I'm a quick learner, and I communicate clearly with both technical and non-technical stakeholders." }
+  ],
+  "practicePhrases": [
+    "I have [X] years of experience in [field].",
+    "One of my key strengths is...",
+    "I'm looking for a role where I can grow and contribute.",
+    "In my previous role, I was responsible for...",
+    "I believe I would be a great fit because...",
+    "Do you have any questions for me?"
+  ],
+  "commonMistakes": [
+    { "wrong": "I am working here since 3 years.", "right": "I have been working here for 3 years.", "why": "Use Present Perfect Continuous with 'for + duration', not Present Continuous." },
+    { "wrong": "My weakness is I am lazy sometimes.", "right": "One area I'm working to improve is time management.", "why": "Frame weaknesses constructively, focusing on improvement rather than a blunt negative trait." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which is the best way to answer 'Tell me about yourself'?", "options": ["Talk only about hobbies.", "Give a brief professional summary.", "Say 'I don't know'.", "Ask them to explain the question."], "answer": "Give a brief professional summary.", "explanation": "Interviewers expect a concise professional overview." },
+    { "type": "error", "sentence": "I am working in this company since 2020.", "correction": "I have been working in this company since 2020.", "explanation": "Use Present Perfect Continuous with 'since', not Present Continuous." }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "level": 6,
+  "module": "Everyday Situations",
+  "title": "Introducing Yourself",
+  "definition": "Introducing yourself clearly and confidently is an important first step in any conversation, interview, or meeting.",
+  "dialogue": [
+    { "speaker": "A", "line": "Hi, I don't think we've met. I'm Ananya." },
+    { "speaker": "B", "line": "Hi Ananya, I'm Karan. Nice to meet you." },
+    { "speaker": "A", "line": "Nice to meet you too. What do you do, Karan?" },
+    { "speaker": "B", "line": "I work as a software developer at a tech company. What about you?" },
+    { "speaker": "A", "line": "I'm a marketing manager. I've been in this field for five years." }
+  ],
+  "practicePhrases": [
+    "Hi, I'm [name]. Nice to meet you.",
+    "I work as a/an [job title].",
+    "I'm originally from [city/country].",
+    "I've been working in this field for [number] years.",
+    "In my free time, I enjoy [hobby].",
+    "Let me tell you a little about myself."
+  ],
+  "commonMistakes": [
+    { "wrong": "I am engineer.", "right": "I am an engineer.", "why": "Singular countable job titles need an article ('a' or 'an')." },
+    { "wrong": "My name is Karan, I am from since Delhi.", "right": "My name is Karan. I am from Delhi.", "why": "Don't use 'since' with 'from' when stating your hometown." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which is the correct self-introduction?", "options": ["I am doctor.", "I am a doctor.", "I doctor am.", "I am the doctor."], "answer": "I am a doctor.", "explanation": "Use the article 'a' before a singular job title." },
+    { "type": "fill", "question": "I ___ (work) as a teacher for eight years. (present perfect)", "answer": "have worked", "explanation": "Use Present Perfect to describe experience continuing to now." }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "level": 1,
+  "module": "English Basics",
+  "title": "Alphabet, Sounds & Punctuation",
+  "definition": "English has 26 letters. Letters are divided into vowels (a, e, i, o, u) and consonants (the other 21 letters). Letters combine to form sounds (phonics), sounds combine to form syllables, and syllables combine to form words.",
+  "rules": [
+    "Vowels: a, e, i, o, u (sometimes 'y' acts as a vowel, e.g. 'gym', 'fly').",
+    "Consonants are all other letters: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z.",
+    "A syllable is a unit of sound with one vowel sound, e.g. 'wa-ter' (2 syllables), 'beau-ti-ful' (3 syllables).",
+    "Capital letters are used: at the start of a sentence, for the pronoun 'I', for proper nouns (names of people, places, days, months), and for the first word in a title.",
+    "Common punctuation: full stop (.) ends a sentence, comma (,) separates items or clauses, question mark (?) ends a question, exclamation mark (!) shows strong feeling, apostrophe (') shows possession or contraction."
+  ],
+  "examples": [
+    "The cat sat on the mat. (full stop ends the sentence)",
+    "I live in Hyderabad. (capital 'I' and proper noun 'Hyderabad')",
+    "Do you speak English? (question mark)",
+    "Wow, that's amazing! (exclamation mark)",
+    "Raj's book is on the table. (apostrophe shows possession)",
+    "I bought apples, bananas, and oranges. (comma separates a list)",
+    "wa-ter, ta-ble, beau-ti-ful (syllable breakdown)"
+  ],
+  "commonMistakes": [
+    { "wrong": "i am going home.", "right": "I am going home.", "why": "The pronoun 'I' is always capitalized." },
+    { "wrong": "My friend is from india.", "right": "My friend is from India.", "why": "Proper nouns like country names always start with a capital letter." },
+    { "wrong": "Whats your name", "right": "What's your name?", "why": "Contractions need an apostrophe, and questions need a question mark." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which of these is a vowel?", "options": ["b", "e", "k", "m"], "answer": "e", "explanation": "a, e, i, o, u are vowels." },
+    { "type": "mcq", "question": "How many syllables are in 'beautiful'?", "options": ["1", "2", "3", "4"], "answer": "3", "explanation": "beau-ti-ful has 3 syllables." },
+    { "type": "fill", "question": "___ am learning English. (fill the capital pronoun)", "answer": "I", "explanation": "The pronoun 'I' is always capital." },
+    { "type": "mcq", "question": "Which punctuation ends a question?", "options": [".", ",", "?", "!"], "answer": "?", "explanation": "A question mark (?) ends a question." },
+    { "type": "error", "sentence": "my name is ravi.", "correction": "My name is Ravi.", "explanation": "Sentences start with a capital letter, and names are proper nouns." }
+  ]
+}

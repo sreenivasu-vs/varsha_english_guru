@@ -1,0 +1,29 @@
+{
+  "level": 6,
+  "module": "Everyday Situations",
+  "title": "Office Conversation",
+  "definition": "Common phrases used in everyday office interactions with colleagues and managers.",
+  "dialogue": [
+    { "speaker": "Manager", "line": "Do you have a minute to discuss the client update?" },
+    { "speaker": "You", "line": "Sure, give me two minutes to finish this email." },
+    { "speaker": "Manager", "line": "No problem. Can you also share the status report by end of day?" },
+    { "speaker": "You", "line": "Yes, I'll send it before 5 PM." },
+    { "speaker": "Manager", "line": "Great, thanks for the quick turnaround." }
+  ],
+  "practicePhrases": [
+    "Could you please share the update by EOD?",
+    "I'll get back to you on this by tomorrow.",
+    "Let's schedule a quick call to discuss this.",
+    "I'm currently tied up with something urgent.",
+    "Can we push this meeting to 3 PM?",
+    "Thanks for your patience, I'll follow up shortly."
+  ],
+  "commonMistakes": [
+    { "wrong": "Please revert back on this.", "right": "Please reply/get back to me on this.", "why": "'Revert back' is redundant; 'revert' alone historically means 'go back', so just say 'reply' or 'get back to'." },
+    { "wrong": "I am having a doubt.", "right": "I have a doubt / I have a question.", "why": "'Have' (not the continuous form) is used with 'doubt' as a possession, not an ongoing action." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase politely asks for more time?", "options": ["Give me two minutes.", "Wait!", "Not now.", "I'm busy."], "answer": "Give me two minutes.", "explanation": "This politely requests a short delay." },
+    { "type": "error", "sentence": "I will revert back to you by evening.", "correction": "I will get back to you by evening.", "explanation": "Avoid the redundant phrase 'revert back'; use 'get back to' instead." }
+  ]
+}

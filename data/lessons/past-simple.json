@@ -1,0 +1,42 @@
+{
+  "level": 3,
+  "module": "Past Tenses",
+  "title": "Past Simple",
+  "definition": "The Past Simple tense describes actions that started and finished at a specific time in the past.",
+  "formula": "Subject + V2 (past form) + Object",
+  "structure": {
+    "positive": "I visited Paris. / She played tennis.",
+    "negative": "I did not (didn't) visit Paris. / She did not play tennis.",
+    "question": "Did you visit Paris? / Did she play tennis?",
+    "whQuestion": "Where did you go? / What did she play?"
+  },
+  "usage": "Use Past Simple for completed actions at a definite past time (I visited Paris last year), a sequence of past actions (He woke up, brushed his teeth, and left), and past habits (I played cricket every day as a child).",
+  "signalWords": ["yesterday", "last week", "last year", "ago", "in 2010", "when I was young"],
+  "examples": [
+    "I visited my grandmother last weekend.",
+    "She finished her homework before dinner.",
+    "They did not attend the meeting.",
+    "Did you watch the match yesterday?",
+    "He went to college in 2015.",
+    "We played football two hours ago.",
+    "I did not see him at the party."
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "Did you watch the cricket match yesterday?" },
+    { "speaker": "B", "line": "Yes, I watched it with my friends." },
+    { "speaker": "A", "line": "What did you do last weekend?" },
+    { "speaker": "B", "line": "I visited my hometown and met my family." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I go to school yesterday.", "right": "I went to school yesterday.", "why": "Use the past tense form 'went', not the present form 'go', with a past time marker." },
+    { "wrong": "Did you went there?", "right": "Did you go there?", "why": "After 'did', use the base form of the verb, not the past form." },
+    { "wrong": "She didn't went to work.", "right": "She didn't go to work.", "why": "'Didn't' already carries the past meaning, so the main verb stays in base form." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I go there yesterday.", "I went there yesterday.", "I gone there yesterday.", "I going there yesterday."], "answer": "I went there yesterday.", "explanation": "Use the simple past form 'went' for a completed past action." },
+    { "type": "fill", "question": "She ___ (not/finish) her work last night.", "answer": "didn't finish", "explanation": "Negative past simple: didn't + base verb." },
+    { "type": "mcq", "question": "Which signal word suggests Past Simple?", "options": ["now", "already", "yesterday", "since"], "answer": "yesterday", "explanation": "'Yesterday' points to a specific finished time in the past." },
+    { "type": "error", "sentence": "Did she went to the market?", "correction": "Did she go to the market?", "explanation": "After 'did', always use the base form of the verb." },
+    { "type": "rearrange", "words": ["match", "we", "watched", "yesterday", "the"], "answer": "we watched the match yesterday", "explanation": "Subject + V2 + Object + Time expression." }
+  ]
+}

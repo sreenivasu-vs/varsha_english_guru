@@ -1,0 +1,26 @@
+{
+  "level": 9,
+  "module": "Professional Communication",
+  "title": "Email Etiquette",
+  "definition": "Email etiquette refers to the tone, structure, and manners expected in professional written communication.",
+  "rules": [
+    "Use a clear, specific subject line: 'Budget Approval Needed by Friday' instead of just 'Question'.",
+    "Match your tone to the relationship: more formal for clients/senior leaders, relaxed but professional for close teammates.",
+    "Avoid ALL CAPS - it comes across as shouting.",
+    "Reply within a reasonable time, or send a short acknowledgment if you need more time.",
+    "Use 'CC' for people who need visibility, and 'BCC' rarely and only when appropriate.",
+    "Proofread before sending — check names, dates, and attachments."
+  ],
+  "examples": [
+    "Subject: Budget Approval Needed by Friday\n\nHi Raj,\n\nCould you please review and approve the attached budget by Friday? Let me know if you have any questions.\n\nThanks,\nMeera",
+    "Hi team, thanks for your patience — I'll share the final version by tomorrow morning."
+  ],
+  "commonMistakes": [
+    { "wrong": "URGENT!!! REPLY NOW!!!", "right": "Urgent: Please reply by end of day.", "why": "All-caps and multiple exclamation marks feel aggressive; state urgency calmly and clearly." },
+    { "wrong": "Hey", "right": "Hi [Name], / Dear [Name],", "why": "Very casual greetings can feel unprofessional in business emails, especially with clients or senior staff." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which subject line is most effective?", "options": ["Question", "Hi", "Budget Approval Needed by Friday", "URGENT!!!"], "answer": "Budget Approval Needed by Friday", "explanation": "Specific subject lines set clear expectations." },
+    { "type": "mcq", "question": "Why should you avoid ALL CAPS in emails?", "options": ["It uses more characters", "It looks like shouting", "It's grammatically incorrect", "It's harder to read on mobile"], "answer": "It looks like shouting", "explanation": "All caps is widely interpreted as aggressive or shouting in written communication." }
+  ]
+}

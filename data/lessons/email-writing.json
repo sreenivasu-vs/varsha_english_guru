@@ -1,0 +1,27 @@
+{
+  "level": 7,
+  "module": "Workplace English",
+  "title": "Professional Email Writing",
+  "definition": "Professional emails follow a clear structure: greeting, purpose, details, action requested, and a polite closing.",
+  "rules": [
+    "Start with a greeting: Hi [Name], / Dear [Name],",
+    "State the purpose clearly in the first line: I am writing to follow up on...",
+    "Keep the body short and use bullet points for multiple items.",
+    "End with a clear call to action: Please let me know if you have any questions.",
+    "Close politely: Best regards, / Thanks and regards,"
+  ],
+  "examples": [
+    "Subject: Follow-up on Project Timeline\n\nHi Team,\n\nI hope you're doing well. I wanted to follow up on the project timeline we discussed yesterday. Could you please confirm the revised deadline by tomorrow?\n\nThanks and regards,\nAnanya",
+    "Subject: Request for Leave Approval\n\nDear Manager,\n\nI would like to request leave from 10th to 12th July for a personal commitment. I will complete my pending tasks before I leave. Kindly approve at your convenience.\n\nBest regards,\nRavi"
+  ],
+  "commonMistakes": [
+    { "wrong": "Please do the needful.", "right": "Please let me know if this works, or please proceed with the next steps.", "why": "'Do the needful' is considered outdated/unclear in modern global business English; be specific about the action requested." },
+    { "wrong": "Revert me on this.", "right": "Please get back to me on this.", "why": "'Revert' alone means 'to return to a previous state'; use 'get back to me' or 'reply to me' instead." },
+    { "wrong": "kindly send me the file asap.", "right": "Could you please send me the file at your earliest convenience?", "why": "Start with a capital letter, and prefer a fuller polite phrase over the abbreviation 'asap' in formal emails." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which closing is most appropriate for a professional email?", "options": ["Bye!", "Best regards,", "See ya", "TTYL"], "answer": "Best regards,", "explanation": "'Best regards,' is a standard professional closing." },
+    { "type": "mcq", "question": "Which phrase is clearer in professional emails?", "options": ["Please do the needful.", "Please review and confirm by Friday.", "Do it fast.", "Handle this."], "answer": "Please review and confirm by Friday.", "explanation": "Specific, actionable requests are clearer than vague phrases." },
+    { "type": "error", "sentence": "Please revert me with the update.", "correction": "Please get back to me with the update.", "explanation": "Use 'get back to me', not 'revert me', in modern professional English." }
+  ]
+}

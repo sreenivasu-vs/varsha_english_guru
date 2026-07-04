@@ -1,0 +1,33 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Determiner",
+  "definition": "A determiner is a word placed before a noun to make its meaning clear — showing which one, whose, or how many/much.",
+  "formula": "Determiner + Noun",
+  "rules": [
+    "Articles are determiners: a, an, the.",
+    "Demonstratives: this, that, these, those.",
+    "Possessives: my, your, his, her, its, our, their.",
+    "Quantifiers: some, any, many, much, few, little, all, every.",
+    "Numbers can act as determiners: one, two, first, second."
+  ],
+  "examples": [
+    "I have a pen and an eraser.",
+    "This shirt is nicer than that one.",
+    "Please bring your books tomorrow.",
+    "There isn't much time left.",
+    "Every student must submit the assignment.",
+    "She has few close friends."
+  ],
+  "commonMistakes": [
+    { "wrong": "I have much friends.", "right": "I have many friends.", "why": "Use 'many' with countable nouns (friends) and 'much' with uncountable nouns (time, water)." },
+    { "wrong": "This informations is useful.", "right": "This information is useful.", "why": "'Information' is uncountable, so use 'this' (singular), not 'these', and no plural 's'." },
+    { "wrong": "He is friend of mine.", "right": "He is a friend of mine.", "why": "Singular countable nouns need a determiner like 'a' before them." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct determiner: 'I don't have ___ money.'", "options": ["many", "much", "few", "a"], "answer": "much", "explanation": "'Much' is used with uncountable nouns like 'money'." },
+    { "type": "mcq", "question": "Choose the correct determiner: '___ students passed the exam.'", "options": ["Much", "Every", "All", "Little"], "answer": "All", "explanation": "'All' can be used with plural countable nouns like 'students'." },
+    { "type": "fill", "question": "___ books on the table are mine. (demonstrative, plural)", "answer": "These", "explanation": "'These' is the plural demonstrative for nearby objects." },
+    { "type": "error", "sentence": "She has much friends.", "correction": "She has many friends.", "explanation": "Use 'many' with countable nouns like 'friends'." }
+  ]
+}

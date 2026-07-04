@@ -1,0 +1,35 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Noun",
+  "definition": "A noun is a word that names a person, place, animal, thing, or idea.",
+  "formula": "Noun = Name of a person / place / animal / thing / idea",
+  "rules": [
+    "Common nouns name general things: boy, city, dog, book.",
+    "Proper nouns name specific things and start with a capital letter: Ravi, Hyderabad, Monday.",
+    "Countable nouns can be counted: one apple, two apples.",
+    "Uncountable nouns cannot be counted: water, rice, information, advice.",
+    "Collective nouns name a group: team, family, herd, class.",
+    "Abstract nouns name ideas or feelings: honesty, love, freedom, happiness."
+  ],
+  "examples": [
+    "Ravi lives in Hyderabad. (proper nouns)",
+    "The dog is barking at the gate. (common noun)",
+    "Honesty is the best policy. (abstract noun)",
+    "The team won the match. (collective noun)",
+    "She drank a glass of water. (uncountable noun)",
+    "I have two brothers and one sister. (countable nouns)"
+  ],
+  "commonMistakes": [
+    { "wrong": "I have many furnitures.", "right": "I have a lot of furniture.", "why": "'Furniture' is uncountable, so it has no plural form." },
+    { "wrong": "She gave me an advices.", "right": "She gave me some advice.", "why": "'Advice' is uncountable; it cannot take 'an' or a plural 's'." },
+    { "wrong": "my brother live in delhi.", "right": "My brother lives in Delhi.", "why": "Proper nouns like 'Delhi' must be capitalized." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which word is a proper noun?", "options": ["city", "Mumbai", "boy", "river"], "answer": "Mumbai", "explanation": "Mumbai is the name of a specific city, so it's a proper noun." },
+    { "type": "mcq", "question": "Which is an uncountable noun?", "options": ["books", "water", "chairs", "apples"], "answer": "water", "explanation": "Water cannot be counted individually as 'one water, two waters'." },
+    { "type": "mcq", "question": "Which is an abstract noun?", "options": ["table", "honesty", "dog", "rice"], "answer": "honesty", "explanation": "Honesty is an idea/quality, not a physical object." },
+    { "type": "fill", "question": "The ___ (group of players) celebrated their victory.", "answer": "team", "explanation": "'Team' is a collective noun referring to a group." },
+    { "type": "error", "sentence": "i met my friend in mumbai.", "correction": "I met my friend in Mumbai.", "explanation": "'I' and proper nouns like 'Mumbai' must be capitalized." }
+  ]
+}

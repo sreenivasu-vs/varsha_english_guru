@@ -1,0 +1,29 @@
+{
+  "level": 6,
+  "module": "Everyday Situations",
+  "title": "Phone Calls",
+  "definition": "Standard phrases used when making, answering, and ending phone calls, including asking someone to hold or repeat.",
+  "dialogue": [
+    { "speaker": "You", "line": "Hello, this is Priya calling. May I speak to Mr. Sharma, please?" },
+    { "speaker": "Receptionist", "line": "One moment, please. I'll put you through." },
+    { "speaker": "Mr. Sharma", "line": "Hello, this is Sharma speaking." },
+    { "speaker": "You", "line": "Hi, I'm calling regarding the meeting scheduled for tomorrow." },
+    { "speaker": "Mr. Sharma", "line": "Sure, go ahead." }
+  ],
+  "practicePhrases": [
+    "May I speak to [name], please?",
+    "This is [name] calling from [company].",
+    "Could you please hold for a moment?",
+    "I'm sorry, could you repeat that?",
+    "Can I take a message?",
+    "I'll call you back in a few minutes."
+  ],
+  "commonMistakes": [
+    { "wrong": "I am Priya.", "right": "This is Priya (speaking).", "why": "On the phone, use 'This is [name]' to identify yourself, not 'I am'." },
+    { "wrong": "Repeat please.", "right": "Could you please repeat that?", "why": "A polite full request sounds more natural than a bare command." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "How do you identify yourself on a phone call?", "options": ["I am Priya.", "This is Priya speaking.", "Priya here now.", "Me is Priya."], "answer": "This is Priya speaking.", "explanation": "This is the standard phone phrase for identifying yourself." },
+    { "type": "fill", "question": "Could you please ___ (hold) for a moment?", "answer": "hold", "explanation": "'Hold' means to wait on the phone line." }
+  ]
+}

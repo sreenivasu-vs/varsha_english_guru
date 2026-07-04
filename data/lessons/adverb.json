@@ -1,0 +1,34 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Adverb",
+  "definition": "An adverb is a word that describes a verb, adjective, or another adverb. It tells us how, when, where, or to what extent something happens.",
+  "formula": "Verb + Adverb  OR  Adverb + Adjective/Adverb",
+  "rules": [
+    "Adverbs of manner (how): quickly, slowly, carefully. Often formed by adding '-ly' to an adjective.",
+    "Adverbs of time (when): now, yesterday, soon, later.",
+    "Adverbs of place (where): here, there, everywhere.",
+    "Adverbs of frequency (how often): always, usually, often, sometimes, never.",
+    "Adverbs of degree (how much): very, too, quite, extremely."
+  ],
+  "examples": [
+    "She speaks English fluently.",
+    "He always arrives on time.",
+    "Please come here.",
+    "I will finish the work soon.",
+    "This tea is too hot.",
+    "They played the match yesterday."
+  ],
+  "commonMistakes": [
+    { "wrong": "She sings beautiful.", "right": "She sings beautifully.", "why": "Adverbs describing a verb usually need '-ly', not the adjective form." },
+    { "wrong": "He drives very careful.", "right": "He drives very carefully.", "why": "Use the adverb 'carefully' to modify the verb 'drives'." },
+    { "wrong": "I am always late to office because I sleep late.", "right": "I am always late to the office because I go to sleep late.", "why": "'Late' needs 'the' before 'office', and add clarity with 'go to sleep'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Identify the adverb: 'She quickly finished her homework.'", "options": ["She", "quickly", "finished", "homework"], "answer": "quickly", "explanation": "'Quickly' describes how she finished her homework." },
+    { "type": "mcq", "question": "Choose the correct adverb form of 'careful':", "options": ["carefully", "carefuly", "carefull", "care"], "answer": "carefully", "explanation": "Add '-ly' to the adjective 'careful' to form the adverb." },
+    { "type": "fill", "question": "He ___ (always) helps his friends. (adverb of frequency)", "answer": "always", "explanation": "'Always' shows how often he helps." },
+    { "type": "error", "sentence": "She dances beautiful.", "correction": "She dances beautifully.", "explanation": "Use the adverb form to modify the verb 'dances'." },
+    { "type": "mcq", "question": "Which adverb tells us 'where'?", "options": ["quickly", "yesterday", "here", "very"], "answer": "here", "explanation": "'Here' is an adverb of place." }
+  ]
+}

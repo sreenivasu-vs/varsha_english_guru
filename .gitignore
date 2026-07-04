@@ -1,0 +1,14 @@
+# Backend
+backend/venv/
+backend/venv_test/
+backend/__pycache__/
+backend/*.db
+backend/.env
+backend/uvicorn.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/tooling
+.claude/settings.local.json

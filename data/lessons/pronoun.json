@@ -1,0 +1,35 @@
+{
+  "level": 1,
+  "module": "Parts of Speech",
+  "title": "Pronoun",
+  "definition": "A pronoun is a word used in place of a noun, to avoid repeating it.",
+  "formula": "Pronoun = Replaces a Noun (I, you, he, she, it, we, they, this, someone...)",
+  "rules": [
+    "Personal pronouns: I, you, he, she, it, we, they.",
+    "Possessive pronouns: mine, yours, his, hers, ours, theirs.",
+    "Reflexive pronouns: myself, yourself, himself, herself, ourselves, themselves.",
+    "Demonstrative pronouns: this, that, these, those.",
+    "Indefinite pronouns: someone, anyone, everybody, nothing.",
+    "Relative pronouns: who, whom, whose, which, that."
+  ],
+  "examples": [
+    "Ravi is my friend. He is very kind. (he = Ravi)",
+    "This book is mine. (possessive pronoun)",
+    "She hurt herself while cooking. (reflexive pronoun)",
+    "That is my house. (demonstrative pronoun)",
+    "Someone left their bag here. (indefinite pronoun)",
+    "The man who called you is my uncle. (relative pronoun)"
+  ],
+  "commonMistakes": [
+    { "wrong": "Me and him went to the market.", "right": "He and I went to the market.", "why": "Subject pronouns (I, he) are used as the subject, not object pronouns (me, him)." },
+    { "wrong": "This is my's book.", "right": "This book is mine.", "why": "'Mine' is already possessive; it never takes an apostrophe-s." },
+    { "wrong": "She washed she.", "right": "She washed herself.", "why": "Reflexive actions need reflexive pronouns like 'herself'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct pronoun: '___ is my sister.'", "options": ["Her", "She", "Hers", "Herself"], "answer": "She", "explanation": "'She' is the subject pronoun needed before the verb 'is'." },
+    { "type": "mcq", "question": "Which is a possessive pronoun?", "options": ["they", "them", "theirs", "themselves"], "answer": "theirs", "explanation": "'Theirs' shows possession, e.g. 'The idea was theirs.'" },
+    { "type": "fill", "question": "I hurt ___ while playing football.", "answer": "myself", "explanation": "Reflexive pronoun 'myself' refers back to the subject 'I'." },
+    { "type": "mcq", "question": "Which sentence uses a relative pronoun correctly?", "options": ["The man which called is here.", "The man who called is here.", "The man whose called is here.", "The man whom called is here."], "answer": "The man who called is here.", "explanation": "'Who' refers to people as the subject of the clause." },
+    { "type": "error", "sentence": "Me and her are friends.", "correction": "She and I are friends.", "explanation": "Use subject pronouns (I, she) as the subject of a sentence." }
+  ]
+}

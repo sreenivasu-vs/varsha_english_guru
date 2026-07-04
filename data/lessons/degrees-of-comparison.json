@@ -1,0 +1,35 @@
+{
+  "level": 4,
+  "module": "Advanced Topics",
+  "title": "Degrees of Comparison",
+  "definition": "Adjectives and adverbs have three degrees of comparison: Positive (basic quality), Comparative (comparing two things), and Superlative (comparing three or more things).",
+  "formula": "Positive: tall | Comparative: taller than | Superlative: the tallest",
+  "rules": [
+    "One-syllable words: add '-er'/'-est' — tall, taller, tallest.",
+    "Two-syllable words ending in 'y': change y to i and add '-er'/'-est' — happy, happier, happiest.",
+    "Longer words (2+ syllables): use 'more'/'most' — beautiful, more beautiful, most beautiful.",
+    "Irregular forms: good → better → best; bad → worse → worst; far → farther/further → farthest/furthest.",
+    "Use 'than' with comparatives: She is taller than me.",
+    "Use 'the' with superlatives: She is the tallest in class."
+  ],
+  "examples": [
+    "This bag is heavier than that one.",
+    "She is the smartest student in class.",
+    "This movie is more interesting than the last one.",
+    "He is the best player on the team.",
+    "Delhi is colder than Chennai in winter.",
+    "This is the most beautiful place I have ever seen.",
+    "My health is getting worse."
+  ],
+  "commonMistakes": [
+    { "wrong": "She is more taller than him.", "right": "She is taller than him.", "why": "Don't use 'more' with an '-er' comparative form together." },
+    { "wrong": "This is the most tallest building.", "right": "This is the tallest building.", "why": "Don't combine 'most' with an '-est' superlative form." },
+    { "wrong": "He is the goodest player.", "right": "He is the best player.", "why": "'Good' is irregular: good → better → best, not 'goodest'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct comparative of 'happy':", "options": ["happyer", "more happy", "happier", "happiest"], "answer": "happier", "explanation": "Change 'y' to 'i' and add '-er' for two-syllable words ending in y." },
+    { "type": "mcq", "question": "Choose the correct superlative of 'good':", "options": ["goodest", "most good", "best", "better"], "answer": "best", "explanation": "'Good' is irregular: good → better → best." },
+    { "type": "fill", "question": "This road is ___ (wide) than that one.", "answer": "wider", "explanation": "One-syllable adjectives take '-er' for comparative." },
+    { "type": "error", "sentence": "She is the most smartest girl.", "correction": "She is the smartest girl.", "explanation": "Don't combine 'most' with an '-est' superlative form." }
+  ]
+}

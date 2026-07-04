@@ -1,0 +1,36 @@
+{
+  "level": 4,
+  "module": "Advanced Topics",
+  "title": "Subject-Verb Agreement",
+  "definition": "The verb in a sentence must agree with its subject in number (singular/plural) and person.",
+  "formula": "Singular Subject + Singular Verb  |  Plural Subject + Plural Verb",
+  "rules": [
+    "A singular subject takes a singular verb: He runs. The dog barks.",
+    "A plural subject takes a plural verb: They run. The dogs bark.",
+    "Two subjects joined by 'and' usually take a plural verb: Ravi and Priya are friends.",
+    "Subjects joined by 'or/nor' agree with the nearer subject: Neither the teacher nor the students were late.",
+    "Collective nouns (team, family, group) usually take a singular verb when acting as one unit: The team is playing well.",
+    "Indefinite pronouns like 'everyone', 'everybody', 'somebody', 'nobody' take a singular verb: Everyone is happy.",
+    "Words between subject and verb don't change agreement: The box of chocolates is on the table (subject is 'box', not 'chocolates')."
+  ],
+  "examples": [
+    "She plays the piano every evening.",
+    "The children play in the park.",
+    "Ravi and his friends are going to the movies.",
+    "Neither he nor his brothers were present.",
+    "Everyone in the class has submitted the assignment.",
+    "The list of items is on the desk.",
+    "My family is very supportive."
+  ],
+  "commonMistakes": [
+    { "wrong": "The list of items are on the table.", "right": "The list of items is on the table.", "why": "The subject is 'the list' (singular), not 'items'; ignore the prepositional phrase in between." },
+    { "wrong": "Everyone are happy today.", "right": "Everyone is happy today.", "why": "Indefinite pronouns like 'everyone' take a singular verb." },
+    { "wrong": "Neither of the boys were late.", "right": "Neither of the boys was late.", "why": "'Neither' is treated as singular in formal English." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["The team are winning.", "The team is winning.", "The team were winning.", "The team be winning."], "answer": "The team is winning.", "explanation": "Collective nouns like 'team' usually take a singular verb." },
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["Everybody know the answer.", "Everybody knows the answer.", "Everybody knowing the answer.", "Everybody known the answer."], "answer": "Everybody knows the answer.", "explanation": "'Everybody' is singular, so it takes 'knows'." },
+    { "type": "fill", "question": "The box of chocolates ___ (be) on the table. (present)", "answer": "is", "explanation": "The subject is 'box' (singular), not 'chocolates'." },
+    { "type": "error", "sentence": "The number of students are increasing.", "correction": "The number of students is increasing.", "explanation": "'The number of' takes a singular verb, unlike 'a number of' which is plural." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "level": 3,
+  "module": "Future Tenses",
+  "title": "Future Simple",
+  "definition": "The Future Simple tense describes actions that will happen in the future — decisions made at the moment of speaking, predictions, and promises.",
+  "formula": "Subject + will + V1 + Object",
+  "structure": {
+    "positive": "I will call you tomorrow. / She will help you.",
+    "negative": "I will not (won't) call you tomorrow.",
+    "question": "Will you call me tomorrow?",
+    "whQuestion": "When will you call me? / What will you do?"
+  },
+  "usage": "Use Future Simple for spontaneous decisions (I will get the door), predictions (It will rain tomorrow), promises (I will always support you), and offers (I will help you with that).",
+  "signalWords": ["tomorrow", "next week", "next year", "soon", "in the future"],
+  "examples": [
+    "I will call you tomorrow.",
+    "She will finish the project by Friday.",
+    "It will rain later today.",
+    "I will not disappoint you.",
+    "Will you attend the wedding?",
+    "They will visit us next month.",
+    "I think he will win the match."
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "Will you be free tomorrow?" },
+    { "speaker": "B", "line": "Yes, I will be free after 5 PM." },
+    { "speaker": "A", "line": "What will you do this weekend?" },
+    { "speaker": "B", "line": "I will visit my parents." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I will to call you.", "right": "I will call you.", "why": "Never use 'to' directly after 'will'." },
+    { "wrong": "She will goes tomorrow.", "right": "She will go tomorrow.", "why": "After 'will', always use the base verb form, without 's'." },
+    { "wrong": "Will you to come?", "right": "Will you come?", "why": "Don't add 'to' after 'will' in questions either." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I will to help you.", "I will helping you.", "I will help you.", "I will helps you."], "answer": "I will help you.", "explanation": "Formula: will + base verb." },
+    { "type": "fill", "question": "She ___ (call) you tomorrow.", "answer": "will call", "explanation": "Future Simple: will + base verb." },
+    { "type": "mcq", "question": "Which signal word suggests Future Simple?", "options": ["yesterday", "tomorrow", "already", "since"], "answer": "tomorrow", "explanation": "'Tomorrow' points to a future time." },
+    { "type": "error", "sentence": "I will goes to the market.", "correction": "I will go to the market.", "explanation": "Use base verb form after 'will'." }
+  ]
+}

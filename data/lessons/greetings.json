@@ -1,0 +1,29 @@
+{
+  "level": 6,
+  "module": "Everyday Situations",
+  "title": "Greetings",
+  "definition": "Greetings are the first words we use when meeting someone. Choosing the right greeting depends on the time of day and how formal the situation is.",
+  "dialogue": [
+    { "speaker": "A", "line": "Good morning! How are you today?" },
+    { "speaker": "B", "line": "Good morning! I'm doing well, thank you. How about you?" },
+    { "speaker": "A", "line": "I'm great, thanks for asking." },
+    { "speaker": "B", "line": "Nice to see you. Have a great day!" }
+  ],
+  "practicePhrases": [
+    "Good morning / Good afternoon / Good evening.",
+    "How are you doing?",
+    "Nice to meet you.",
+    "Long time no see!",
+    "How have you been?",
+    "Take care, see you soon!"
+  ],
+  "commonMistakes": [
+    { "wrong": "Good night!", "right": "Good evening!", "why": "'Good night' is only used when leaving/going to sleep, not as a greeting when meeting someone in the evening." },
+    { "wrong": "How do you do? I am fine.", "right": "How do you do? Nice to meet you.", "why": "'How do you do?' is a formal greeting, not a real question — reply with the same phrase or 'Nice to meet you', not with 'fine'." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "What do you say when meeting someone for the first time?", "options": ["Good night!", "Nice to meet you.", "See you later.", "Bye!"], "answer": "Nice to meet you.", "explanation": "This is the standard phrase for a first meeting." },
+    { "type": "mcq", "question": "Which greeting is used in the evening when meeting someone?", "options": ["Good night", "Good evening", "Good morning", "Goodbye"], "answer": "Good evening", "explanation": "'Good evening' is used as a greeting; 'good night' is for leaving." },
+    { "type": "fill", "question": "A: How ___ you? B: I'm fine, thank you.", "answer": "are", "explanation": "'How are you?' is the standard greeting question." }
+  ]
+}

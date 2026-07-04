@@ -1,0 +1,41 @@
+{
+  "level": 3,
+  "module": "Past Tenses",
+  "title": "Past Continuous",
+  "definition": "The Past Continuous tense describes an action that was in progress at a specific time in the past, often interrupted by another action.",
+  "formula": "Subject + was/were + V-ing + Object",
+  "structure": {
+    "positive": "I was watching TV. / They were playing football.",
+    "negative": "I was not (wasn't) watching TV. / They were not (weren't) playing.",
+    "question": "Were you watching TV? / Was he playing?",
+    "whQuestion": "What were you doing at 8 PM? / Why was she crying?"
+  },
+  "usage": "Use Past Continuous for an action in progress at a specific past moment (I was sleeping at midnight), an action interrupted by another (I was cooking when the phone rang), and two simultaneous past actions (While I was reading, she was cooking).",
+  "signalWords": ["while", "when", "at that moment", "at 8 o'clock last night"],
+  "examples": [
+    "I was sleeping when you called.",
+    "She was cooking dinner at 7 PM.",
+    "They were watching a movie last night.",
+    "While I was studying, my brother was playing games.",
+    "Was she working when the power went out?",
+    "We were not expecting visitors.",
+    "What were you doing at midnight?"
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "What were you doing when I called?" },
+    { "speaker": "B", "line": "I was cooking dinner." },
+    { "speaker": "A", "line": "Were you sleeping at 11 PM?" },
+    { "speaker": "B", "line": "No, I was still working." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I was know the answer.", "right": "I knew the answer.", "why": "State verbs are not used in continuous forms; use Past Simple instead." },
+    { "wrong": "She were cooking dinner.", "right": "She was cooking dinner.", "why": "Use 'was' with she/he/it, not 'were'." },
+    { "wrong": "While I cooked, she was cleaning.", "right": "While I was cooking, she was cleaning.", "why": "Two simultaneous ongoing past actions both use Past Continuous." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I was sleep at 10 PM.", "I was sleeping at 10 PM.", "I sleeping at 10 PM.", "I were sleeping at 10 PM."], "answer": "I was sleeping at 10 PM.", "explanation": "Formula: was/were + V-ing." },
+    { "type": "fill", "question": "They ___ (play) football when it started to rain.", "answer": "were playing", "explanation": "'They' takes 'were' + V-ing." },
+    { "type": "mcq", "question": "Which word often signals Past Continuous?", "options": ["yesterday", "while", "already", "since"], "answer": "while", "explanation": "'While' introduces an action in progress, typical of Past Continuous." },
+    { "type": "error", "sentence": "She were watching TV at 9 PM.", "correction": "She was watching TV at 9 PM.", "explanation": "Use 'was' with singular subjects like 'she'." }
+  ]
+}

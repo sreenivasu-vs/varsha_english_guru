@@ -1,0 +1,41 @@
+{
+  "level": 3,
+  "module": "Present Tenses",
+  "title": "Present Perfect Continuous",
+  "definition": "The Present Perfect Continuous tense emphasizes the duration of an action that started in the past and is still continuing, or has recently stopped with visible results.",
+  "formula": "Subject + has/have + been + V-ing + Object",
+  "structure": {
+    "positive": "I have been working here for five years. / She has been studying all day.",
+    "negative": "I have not (haven't) been working here long. / She hasn't been studying.",
+    "question": "Have you been working here long? / Has she been studying?",
+    "whQuestion": "How long have you been working here? / Why has she been crying?"
+  },
+  "usage": "Use Present Perfect Continuous to emphasize duration up to now (I have been learning English for two years), and for recent actions with a visible present result (Her eyes are red - she has been crying).",
+  "signalWords": ["for", "since", "how long", "lately", "recently", "all day", "all week"],
+  "examples": [
+    "I have been working here for five years.",
+    "She has been studying since morning.",
+    "It has been raining all day.",
+    "Have you been waiting long?",
+    "He has not been feeling well lately.",
+    "They have been playing football for two hours.",
+    "How long have you been learning English?"
+  ],
+  "dailyConversation": [
+    { "speaker": "A", "line": "You look tired. What have you been doing?" },
+    { "speaker": "B", "line": "I have been working on a project all week." },
+    { "speaker": "A", "line": "How long have you been waiting?" },
+    { "speaker": "B", "line": "I have been waiting for about 20 minutes." }
+  ],
+  "commonMistakes": [
+    { "wrong": "I have been know him for years.", "right": "I have known him for years.", "why": "State verbs like 'know' are not used in continuous forms; use Present Perfect simple instead." },
+    { "wrong": "She has been study for two hours.", "right": "She has been studying for two hours.", "why": "Use V-ing after 'has been', not the base verb." },
+    { "wrong": "I am working here since 2019.", "right": "I have been working here since 2019.", "why": "Use Present Perfect Continuous, not Present Continuous, with 'since' for ongoing duration." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I have working here for years.", "I have been working here for years.", "I am been working here for years.", "I have be working here for years."], "answer": "I have been working here for years.", "explanation": "Formula: has/have + been + V-ing." },
+    { "type": "fill", "question": "It ___ (rain) all morning.", "answer": "has been raining", "explanation": "'It' takes 'has been' + V-ing." },
+    { "type": "mcq", "question": "Which question asks about duration?", "options": ["What have you done?", "How long have you been waiting?", "Have you waited?", "Did you wait?"], "answer": "How long have you been waiting?", "explanation": "'How long' with Present Perfect Continuous asks about duration." },
+    { "type": "error", "sentence": "She has been knowing him for years.", "correction": "She has known him for years.", "explanation": "'Know' is a state verb and should not be used in a continuous form." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "level": 1,
+  "module": "Articles",
+  "title": "Articles: A, An, The & Zero Article",
+  "definition": "Articles are words placed before nouns to show whether we mean something specific (definite) or general (indefinite). English has three articles: a, an, and the — plus cases where no article is used (zero article).",
+  "formula": "a/an + Singular Countable Noun (general)  |  the + Specific Noun (definite)",
+  "rules": [
+    "Use 'a' before words starting with a consonant SOUND: a book, a university (starts with 'yoo' sound).",
+    "Use 'an' before words starting with a vowel SOUND: an apple, an hour (silent 'h').",
+    "Use 'the' when both speaker and listener know exactly which thing is meant: Close the door (a specific door already known).",
+    "Use 'the' for unique things: the sun, the moon, the internet.",
+    "Use 'the' for superlatives and ordinal numbers: the best, the first.",
+    "Use zero article (no article) with plural general nouns, uncountable nouns, and most proper nouns: Dogs are loyal. I love music. I live in India."
+  ],
+  "examples": [
+    "I saw a movie last night.",
+    "She is an honest person. (silent 'h', vowel sound)",
+    "The book on the table is mine.",
+    "The Earth revolves around the sun.",
+    "He is the tallest boy in class.",
+    "Dogs are loyal animals. (zero article - general plural)",
+    "I live in India. (zero article - proper noun)"
+  ],
+  "commonMistakes": [
+    { "wrong": "She is a honest girl.", "right": "She is an honest girl.", "why": "'Honest' starts with a vowel sound (silent h), so it needs 'an'." },
+    { "wrong": "I want to become an teacher.", "right": "I want to become a teacher.", "why": "'Teacher' starts with a consonant sound, so it needs 'a'." },
+    { "wrong": "The life is beautiful.", "right": "Life is beautiful.", "why": "General/abstract statements about life don't take 'the'." },
+    { "wrong": "I play a cricket every day.", "right": "I play cricket every day.", "why": "Names of games/sports usually take zero article." }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Choose the correct article: 'She bought ___ umbrella.'", "options": ["a", "an", "the", "-"], "answer": "an", "explanation": "'Umbrella' starts with a vowel sound." },
+    { "type": "mcq", "question": "Choose the correct article: 'He is ___ MBA graduate.'", "options": ["a", "an", "the", "-"], "answer": "an", "explanation": "'MBA' is pronounced 'em-bee-ay', starting with a vowel sound." },
+    { "type": "fill", "question": "___ sun rises in the east. (definite, unique object)", "answer": "The", "explanation": "'The' is used for unique things like the sun." },
+    { "type": "error", "sentence": "I saw an unicorn in the story.", "correction": "I saw a unicorn in the story.", "explanation": "'Unicorn' starts with a consonant sound ('yoo'), so it needs 'a'." },
+    { "type": "mcq", "question": "Which sentence correctly uses zero article?", "options": ["The honesty is important.", "Honesty is important.", "A honesty is important.", "An honesty is important."], "answer": "Honesty is important.", "explanation": "Abstract nouns used generally take zero article." }
+  ]
+}

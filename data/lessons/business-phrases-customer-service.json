@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Customer Service - 50 Phrases",
+  "definition": "50 phrases for handling customer questions, complaints, and support conversations with empathy and professionalism.",
+  "phraseGroups": [
+    {
+      "category": "Greeting and Understanding the Issue",
+      "phrases": [
+        { "phrase": "How can I help you today?", "meaning": "A standard, welcoming opener.", "example": "Hi there, how can I help you today?" },
+        { "phrase": "I'm sorry to hear you're having trouble", "meaning": "Expresses empathy for a customer's problem.", "example": "I'm sorry to hear you're having trouble with your order." },
+        { "phrase": "Can you walk me through what happened?", "meaning": "Asks for details about an issue.", "example": "Can you walk me through what happened step by step?" },
+        { "phrase": "Let me pull up your account", "meaning": "Signals looking into a customer's details.", "example": "Let me pull up your account to check the order status." },
+        { "phrase": "Just to confirm, you're experiencing...", "meaning": "Restates the issue for clarity.", "example": "Just to confirm, you're experiencing a login error, correct?" },
+        { "phrase": "I completely understand your frustration", "meaning": "Validates a customer's emotional reaction.", "example": "I completely understand your frustration - let's fix this." },
+        { "phrase": "Thank you for bringing this to our attention", "meaning": "Thanks the customer for reporting an issue.", "example": "Thank you for bringing this to our attention." },
+        { "phrase": "Let me look into that for you", "meaning": "Commits to investigating an issue.", "example": "Let me look into that for you right away." },
+        { "phrase": "Can you provide your order number?", "meaning": "Requests information needed to help.", "example": "Can you provide your order number so I can check?" },
+        { "phrase": "I want to make sure I understand correctly", "meaning": "Confirms understanding before responding.", "example": "I want to make sure I understand correctly - is that right?" },
+        { "phrase": "Thanks for your patience while I check this", "meaning": "Asks for patience during investigation.", "example": "Thanks for your patience while I check this with our team." },
+        { "phrase": "I'm here to help sort this out", "meaning": "Reassures the customer of support.", "example": "I'm here to help sort this out as quickly as possible." },
+        { "phrase": "That doesn't sound right, let's fix it", "meaning": "Acknowledges something went wrong and commits to resolving it.", "example": "That doesn't sound right, let's fix it together." },
+        { "phrase": "I can see the issue on our end", "meaning": "Confirms a problem was caused by the company.", "example": "I can see the issue on our end - I apologize for that." },
+        { "phrase": "Let's get this sorted for you right away", "meaning": "Commits to a quick resolution.", "example": "Let's get this sorted for you right away." },
+        { "phrase": "Can you tell me a bit more about the issue?", "meaning": "Requests further details.", "example": "Can you tell me a bit more about the issue you're facing?" }
+      ]
+    },
+    {
+      "category": "Resolving and Reassuring",
+      "phrases": [
+        { "phrase": "Here's what I can do for you", "meaning": "Introduces a proposed solution.", "example": "Here's what I can do for you - a full refund or a replacement." },
+        { "phrase": "I've escalated this to our technical team", "meaning": "Notes the issue was passed to specialists.", "example": "I've escalated this to our technical team for a faster fix." },
+        { "phrase": "This should be resolved within 24 hours", "meaning": "Gives a resolution timeframe.", "example": "This should be resolved within 24 hours." },
+        { "phrase": "I'll issue a refund right away", "meaning": "Commits to a specific remedy.", "example": "I'll issue a refund right away for the inconvenience." },
+        { "phrase": "Let me offer you a solution", "meaning": "Introduces a proposed fix.", "example": "Let me offer you a solution that works for your situation." },
+        { "phrase": "I'll personally follow up on this", "meaning": "Takes personal ownership of the issue.", "example": "I'll personally follow up on this until it's resolved." },
+        { "phrase": "You should see the changes reflected shortly", "meaning": "Sets expectations for when a fix will appear.", "example": "You should see the changes reflected shortly in your account." },
+        { "phrase": "I've made a note on your account", "meaning": "Confirms documentation of the issue.", "example": "I've made a note on your account about this issue." },
+        { "phrase": "Rest assured, we'll get this fixed", "meaning": "Reassures the customer of resolution.", "example": "Rest assured, we'll get this fixed as soon as possible." },
+        { "phrase": "I'll waive the fee as a one-time courtesy", "meaning": "Offers a goodwill gesture.", "example": "I'll waive the fee as a one-time courtesy this time." },
+        { "phrase": "Let me double-check that for accuracy", "meaning": "Confirms verifying information before responding.", "example": "Let me double-check that for accuracy before I confirm." },
+        { "phrase": "I'm going to expedite this for you", "meaning": "Commits to speeding up a process.", "example": "I'm going to expedite this for you given the urgency." },
+        { "phrase": "This is a known issue and we're working on it", "meaning": "Acknowledges a widespread, ongoing problem.", "example": "This is a known issue and we're working on it right now." },
+        { "phrase": "I'll send you a confirmation email shortly", "meaning": "Promises written confirmation.", "example": "I'll send you a confirmation email shortly with the details." },
+        { "phrase": "Is there anything else I can help with?", "meaning": "Checks if further assistance is needed.", "example": "Is there anything else I can help with today?" },
+        { "phrase": "I appreciate your understanding on this", "meaning": "Thanks the customer for patience.", "example": "I appreciate your understanding on this matter." },
+        { "phrase": "Let's make this right", "meaning": "Commits to fully resolving an issue.", "example": "Let's make this right - I don't want you to be unhappy." }
+      ]
+    },
+    {
+      "category": "Difficult Conversations and Closing",
+      "phrases": [
+        { "phrase": "I understand this isn't the outcome you wanted", "meaning": "Acknowledges disappointment empathetically.", "example": "I understand this isn't the outcome you wanted, and I'm sorry." },
+        { "phrase": "Let me see what other options are available", "meaning": "Looks for alternative solutions.", "example": "Let me see what other options are available for you." },
+        { "phrase": "I hear you, and I want to help", "meaning": "Validates frustration while offering support.", "example": "I hear you, and I want to help resolve this quickly." },
+        { "phrase": "I'm not able to do that, but here's what I can offer", "meaning": "Politely declines a request while offering an alternative.", "example": "I'm not able to do that, but here's what I can offer instead." },
+        { "phrase": "Let me connect you with a specialist", "meaning": "Transfers the customer to someone with more expertise.", "example": "Let me connect you with a specialist who handles this." },
+        { "phrase": "I completely understand why that's frustrating", "meaning": "Validates the customer's emotional response.", "example": "I completely understand why that's frustrating for you." },
+        { "phrase": "Thank you for staying patient with us", "meaning": "Thanks the customer for their tolerance.", "example": "Thank you for staying patient with us through this." },
+        { "phrase": "We take this feedback seriously", "meaning": "Acknowledges the importance of a complaint.", "example": "We take this feedback seriously and will act on it." },
+        { "phrase": "I'll make sure this doesn't happen again", "meaning": "Commits to preventing a repeat issue.", "example": "I'll make sure this doesn't happen again going forward." },
+        { "phrase": "Your satisfaction is our top priority", "meaning": "Reaffirms commitment to the customer.", "example": "Your satisfaction is our top priority here." },
+        { "phrase": "I'll pass this feedback along to the team", "meaning": "Notes the issue will be shared internally.", "example": "I'll pass this feedback along to the team for review." },
+        { "phrase": "Thank you for giving us the chance to fix this", "meaning": "Thanks the customer for continued trust.", "example": "Thank you for giving us the chance to fix this." },
+        { "phrase": "Please don't hesitate to contact us again", "meaning": "Invites future contact if needed.", "example": "Please don't hesitate to contact us again if this recurs." },
+        { "phrase": "Have I fully resolved your concern today?", "meaning": "Confirms satisfaction before ending the interaction.", "example": "Have I fully resolved your concern today?" },
+        { "phrase": "We value you as a customer", "meaning": "Reassures the customer of their importance.", "example": "We value you as a customer and want to keep you happy." },
+        { "phrase": "Thanks for reaching out, have a great day", "meaning": "A friendly, professional closing.", "example": "Thanks for reaching out, have a great day!" },
+        { "phrase": "It was a pleasure assisting you today", "meaning": "A warm closing remark.", "example": "It was a pleasure assisting you today." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase best expresses empathy for a customer's frustration?", "options": ["I completely understand your frustration", "How can I help you today?", "Can you provide your order number?", "We value you as a customer"], "answer": "I completely understand your frustration", "explanation": "This directly validates the customer's emotional state." },
+    { "type": "mcq", "question": "Which phrase offers a goodwill gesture to a customer?", "options": ["I'll waive the fee as a one-time courtesy", "Let me pull up your account", "Is there anything else I can help with?", "This is a known issue"], "answer": "I'll waive the fee as a one-time courtesy", "explanation": "This is a goodwill gesture to make up for an inconvenience." },
+    { "type": "mcq", "question": "Which phrase checks if the issue was fully resolved before ending the call?", "options": ["Have I fully resolved your concern today?", "I'm sorry to hear you're having trouble", "Let me connect you with a specialist", "I'll issue a refund right away"], "answer": "Have I fully resolved your concern today?", "explanation": "This confirms satisfaction before closing the interaction." },
+    { "type": "fill", "question": "I've ___ this to our technical team for a faster fix. (passed up/escalated)", "answer": "escalated", "explanation": "'Escalated' means passed to a higher level of support." },
+    { "type": "mcq", "question": "Which phrase politely declines a request while still helping?", "options": ["I'm not able to do that, but here's what I can offer", "Thank you for bringing this to our attention", "Rest assured, we'll get this fixed", "Let's make this right"], "answer": "I'm not able to do that, but here's what I can offer", "explanation": "This declines the specific request while offering an alternative." }
+  ]
+}

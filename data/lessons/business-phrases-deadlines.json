@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Deadlines & Time Management - 50 Phrases",
+  "definition": "50 phrases for setting, discussing, and managing deadlines, priorities, and workloads professionally.",
+  "phraseGroups": [
+    {
+      "category": "Setting and Confirming Deadlines",
+      "phrases": [
+        { "phrase": "When do you need this by?", "meaning": "Asks for a deadline.", "example": "When do you need this by? End of week works?" },
+        { "phrase": "Let's set a realistic deadline", "meaning": "Suggests agreeing on an achievable timeframe.", "example": "Let's set a realistic deadline given the scope." },
+        { "phrase": "I'll have this ready by Thursday", "meaning": "Commits to a specific delivery date.", "example": "I'll have this ready by Thursday morning." },
+        { "phrase": "Let's lock in a due date", "meaning": "Finalizes a deadline.", "example": "Let's lock in a due date so everyone's aligned." },
+        { "phrase": "Is there any flexibility on the timeline?", "meaning": "Asks if a deadline can be adjusted.", "example": "Is there any flexibility on the timeline given the scope change?" },
+        { "phrase": "This is time-sensitive", "meaning": "Flags urgency.", "example": "This is time-sensitive, please prioritize it." },
+        { "phrase": "Let's work backward from the launch date", "meaning": "Plans a schedule by starting from the end goal.", "example": "Let's work backward from the launch date to set milestones." },
+        { "phrase": "I need this wrapped up by end of day", "meaning": "States a same-day deadline.", "example": "I need this wrapped up by end of day, please." },
+        { "phrase": "Let's build in some buffer time", "meaning": "Adds extra time to account for delays.", "example": "Let's build in some buffer time in case of issues." },
+        { "phrase": "This has a hard deadline", "meaning": "Notes a non-negotiable due date.", "example": "This has a hard deadline - the client event is fixed." },
+        { "phrase": "Let's confirm the turnaround time", "meaning": "Clarifies how long a task will take.", "example": "Let's confirm the turnaround time before we commit." },
+        { "phrase": "I'll need at least two more days", "meaning": "Requests additional time.", "example": "I'll need at least two more days to finish this properly." },
+        { "phrase": "Let's set milestones along the way", "meaning": "Breaks a deadline into checkpoints.", "example": "Let's set milestones along the way to track progress." }
+      ]
+    },
+    {
+      "category": "Managing Delays and Priorities",
+      "phrases": [
+        { "phrase": "I'm afraid this is going to slip", "meaning": "Warns of a likely delay.", "example": "I'm afraid this is going to slip by a day or two." },
+        { "phrase": "We're behind schedule on this", "meaning": "Notes a task is running late.", "example": "We're behind schedule on this due to the vendor delay." },
+        { "phrase": "Let's flag this risk early", "meaning": "Proactively communicates a potential problem.", "example": "Let's flag this risk early so no one's surprised later." },
+        { "phrase": "I need to reprioritize my tasks", "meaning": "Signals reordering of work based on urgency.", "example": "I need to reprioritize my tasks given the new request." },
+        { "phrase": "This is more urgent than I initially thought", "meaning": "Revises the priority of a task upward.", "example": "This is more urgent than I initially thought - let's move it up." },
+        { "phrase": "Let's push this to next week", "meaning": "Suggests delaying a deadline.", "example": "Let's push this to next week given the current workload." },
+        { "phrase": "I'm juggling a few things right now", "meaning": "Explains competing demands on time.", "example": "I'm juggling a few things right now, can this wait an hour?" },
+        { "phrase": "Can we deprioritize this for now?", "meaning": "Suggests lowering the urgency of a task.", "example": "Can we deprioritize this for now and focus on the launch?" },
+        { "phrase": "I'll need to move some things around to fit this in", "meaning": "Signals rearranging schedule to accommodate a request.", "example": "I'll need to move some things around to fit this in." },
+        { "phrase": "Let's give this top priority", "meaning": "Marks a task as most important.", "example": "Let's give this top priority over everything else." },
+        { "phrase": "I'm at capacity right now", "meaning": "States you have no more availability.", "example": "I'm at capacity right now, can someone else take this?" },
+        { "phrase": "This can wait until next sprint", "meaning": "Notes something isn't urgent.", "example": "This can wait until next sprint, it's not blocking anything." },
+        { "phrase": "Let's not let this become a fire drill", "meaning": "Avoids last-minute panic over a task.", "example": "Let's not let this become a fire drill - plan ahead." },
+        { "phrase": "I'll flag it if I think we're at risk of missing this", "meaning": "Commits to proactive communication about risk.", "example": "I'll flag it if I think we're at risk of missing this." },
+        { "phrase": "Let's triage what's most urgent first", "meaning": "Prioritizes based on urgency.", "example": "Let's triage what's most urgent first before planning the rest." },
+        { "phrase": "I need help managing my workload this week", "meaning": "Asks for support with too much work.", "example": "I need help managing my workload this week, it's a lot." },
+        { "phrase": "This keeps getting bumped down the list", "meaning": "Notes a task is repeatedly deprioritized.", "example": "This keeps getting bumped down the list, can we fix that?" }
+      ]
+    },
+    {
+      "category": "Completing and Reporting Progress",
+      "phrases": [
+        { "phrase": "I'm on track to finish by Friday", "meaning": "Reports positive progress toward a deadline.", "example": "I'm on track to finish by Friday as planned." },
+        { "phrase": "This is 80% done", "meaning": "Gives a percentage-based progress update.", "example": "This is 80% done, just polishing the last section." },
+        { "phrase": "I just wrapped this up", "meaning": "Announces task completion.", "example": "I just wrapped this up - sending it your way now." },
+        { "phrase": "Consider this done", "meaning": "Confirms a task is finished.", "example": "Consider this done - I submitted it this morning." },
+        { "phrase": "I'll have an update for you by tomorrow", "meaning": "Promises a status report soon.", "example": "I'll have an update for you by tomorrow morning." },
+        { "phrase": "Just a heads-up, I might need a bit more time", "meaning": "Warns of a possible delay in advance.", "example": "Just a heads-up, I might need a bit more time on this." },
+        { "phrase": "I delivered this ahead of schedule", "meaning": "Reports early completion.", "example": "I delivered this ahead of schedule, happy to help with more." },
+        { "phrase": "Let me give you a quick status update", "meaning": "Offers a brief progress summary.", "example": "Let me give you a quick status update on where we stand." },
+        { "phrase": "Everything's on schedule so far", "meaning": "Confirms a project is progressing as planned.", "example": "Everything's on schedule so far, no red flags." },
+        { "phrase": "I'll keep you posted on progress", "meaning": "Promises ongoing updates.", "example": "I'll keep you posted on progress throughout the week." },
+        { "phrase": "This took longer than expected, but it's done", "meaning": "Notes a delay but confirms completion.", "example": "This took longer than expected, but it's done now." },
+        { "phrase": "Let's do a quick time check on where we stand", "meaning": "Reviews progress against the schedule.", "example": "Let's do a quick time check on where we stand today." },
+        { "phrase": "I'm confident we'll hit the deadline", "meaning": "Expresses confidence in meeting a due date.", "example": "I'm confident we'll hit the deadline based on current progress." },
+        { "phrase": "I need a few extra hours to polish this", "meaning": "Requests a small time extension.", "example": "I need a few extra hours to polish this before sending." },
+        { "phrase": "Let's do a final check before we call this complete", "meaning": "Suggests a review before marking done.", "example": "Let's do a final check before we call this complete." },
+        { "phrase": "Thanks for your patience with the timeline", "meaning": "Appreciates tolerance for scheduling issues.", "example": "Thanks for your patience with the timeline changes." },
+        { "phrase": "I appreciate the extra time you gave me", "meaning": "Thanks someone for a deadline extension.", "example": "I appreciate the extra time you gave me on this." },
+        { "phrase": "Let's make sure we don't cut it too close next time", "meaning": "Suggests better future time planning.", "example": "Let's make sure we don't cut it too close next time." },
+        { "phrase": "We delivered right on time", "meaning": "Confirms meeting a deadline exactly.", "example": "We delivered right on time despite the challenges." },
+        { "phrase": "I'll block out focused time to finish this", "meaning": "Plans dedicated time to complete work.", "example": "I'll block out focused time to finish this tomorrow morning." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase flags a non-negotiable deadline?", "options": ["This has a hard deadline", "This can wait until next sprint", "Let's push this to next week", "I'm at capacity right now"], "answer": "This has a hard deadline", "explanation": "'Hard deadline' means the date cannot be moved." },
+    { "type": "mcq", "question": "Which phrase warns of a likely delay?", "options": ["I'm afraid this is going to slip", "I just wrapped this up", "Consider this done", "I'm on track to finish by Friday"], "answer": "I'm afraid this is going to slip", "explanation": "'Slip' means a deadline is likely to be missed." },
+    { "type": "mcq", "question": "Which phrase means to add extra time in case of delays?", "options": ["Let's build in some buffer time", "Let's give this top priority", "I need help managing my workload", "This is time-sensitive"], "answer": "Let's build in some buffer time", "explanation": "'Buffer time' is extra time added as a safety margin." },
+    { "type": "fill", "question": "This is 80% ___, just polishing the last section. (finished)", "answer": "done", "explanation": "This gives a percentage-based progress update." },
+    { "type": "mcq", "question": "Which phrase means avoiding a last-minute panic over a task?", "options": ["Let's not let this become a fire drill", "I'm juggling a few things right now", "Let's lock in a due date", "This took longer than expected, but it's done"], "answer": "Let's not let this become a fire drill", "explanation": "A 'fire drill' idiom refers to last-minute chaotic urgency." }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Teamwork & Collaboration - 50 Phrases",
+  "definition": "50 phrases for working well with others - coordinating tasks, offering help, and building a collaborative team culture.",
+  "phraseGroups": [
+    {
+      "category": "Coordinating and Dividing Work",
+      "phrases": [
+        { "phrase": "Let's divide and conquer", "meaning": "Suggests splitting up tasks to work faster.", "example": "Let's divide and conquer - you take design, I'll take content." },
+        { "phrase": "Who's picking this up?", "meaning": "Asks who will take on a task.", "example": "Who's picking this up before Friday's deadline?" },
+        { "phrase": "I can take this off your plate", "meaning": "Offers to handle a task for someone.", "example": "I can take this off your plate if you're swamped." },
+        { "phrase": "Let's sync up before we start", "meaning": "Suggests aligning before beginning work.", "example": "Let's sync up before we start on the new feature." },
+        { "phrase": "I'll own this piece if you take that one", "meaning": "Proposes a division of responsibilities.", "example": "I'll own this piece if you take that one." },
+        { "phrase": "Let's make sure we're not duplicating effort", "meaning": "Avoids redundant work.", "example": "Let's make sure we're not duplicating effort on this." },
+        { "phrase": "I'll loop you in once I have a draft", "meaning": "Promises to share progress at a later stage.", "example": "I'll loop you in once I have a draft ready." },
+        { "phrase": "Can you cover for me while I'm out?", "meaning": "Asks someone to handle responsibilities during an absence.", "example": "Can you cover for me while I'm out next week?" },
+        { "phrase": "Let's split this into smaller tasks", "meaning": "Breaks work into manageable pieces.", "example": "Let's split this into smaller tasks so it's less overwhelming." },
+        { "phrase": "I'll take the lead on this part", "meaning": "Volunteers to be responsible for a portion of work.", "example": "I'll take the lead on this part of the project." },
+        { "phrase": "Let's coordinate so we don't overlap", "meaning": "Ensures efficient division of labor.", "example": "Let's coordinate so we don't overlap on outreach." },
+        { "phrase": "I'll hand this off to you once I'm done", "meaning": "Passes work along in a sequence.", "example": "I'll hand this off to you once I'm done with my part." },
+        { "phrase": "Can we pair up on this?", "meaning": "Suggests working together directly on a task.", "example": "Can we pair up on this to move faster?" }
+      ]
+    },
+    {
+      "category": "Supporting and Helping Each Other",
+      "phrases": [
+        { "phrase": "Let me know if you need a hand", "meaning": "Offers assistance.", "example": "Let me know if you need a hand with the report." },
+        { "phrase": "Happy to jump in and help", "meaning": "Offers willing support.", "example": "Happy to jump in and help if you're stuck." },
+        { "phrase": "I've got some bandwidth if you need support", "meaning": "Offers available time/capacity to help.", "example": "I've got some bandwidth if you need support this week." },
+        { "phrase": "Don't hesitate to ask for help", "meaning": "Encourages seeking support.", "example": "Don't hesitate to ask for help if you're overwhelmed." },
+        { "phrase": "We're in this together", "meaning": "Reinforces a sense of shared responsibility.", "example": "We're in this together - let's figure it out as a team." },
+        { "phrase": "I appreciate you stepping up", "meaning": "Thanks someone for taking initiative.", "example": "I appreciate you stepping up when we were short-staffed." },
+        { "phrase": "Let's lean on each other's strengths", "meaning": "Encourages leveraging different skills.", "example": "Let's lean on each other's strengths to finish this well." },
+        { "phrase": "Thanks for picking up the slack", "meaning": "Appreciates someone covering extra work.", "example": "Thanks for picking up the slack while I was out." },
+        { "phrase": "I owe you one for this", "meaning": "Casually acknowledges a favor.", "example": "I owe you one for this, really appreciate it." },
+        { "phrase": "Let's tackle this as a team", "meaning": "Frames a challenge as a shared effort.", "example": "Let's tackle this as a team, not individually." },
+        { "phrase": "I'll back you up on this", "meaning": "Offers support in a discussion or decision.", "example": "I'll back you up on this in the meeting." },
+        { "phrase": "Two heads are better than one", "meaning": "An idiom encouraging collaboration.", "example": "Let's work on this together - two heads are better than one." },
+        { "phrase": "I'm just a message away if you need anything", "meaning": "Reassures easy availability for support.", "example": "I'm just a message away if you need anything today." },
+        { "phrase": "Let's make sure no one's left behind on this", "meaning": "Ensures inclusive progress across the team.", "example": "Let's make sure no one's left behind on this transition." },
+        { "phrase": "I appreciate you having my back", "meaning": "Thanks someone for their support.", "example": "I appreciate you having my back during that call." },
+        { "phrase": "Let's check in on each other, not just the work", "meaning": "Prioritizes team wellbeing alongside tasks.", "example": "Let's check in on each other, not just the work, this week." },
+        { "phrase": "Teamwork makes the dream work", "meaning": "A light-hearted idiom about collaboration.", "example": "Great job everyone - teamwork makes the dream work!" }
+      ]
+    },
+    {
+      "category": "Building Team Culture",
+      "phrases": [
+        { "phrase": "Let's celebrate the small wins too", "meaning": "Encourages recognizing incremental progress.", "example": "Let's celebrate the small wins too, not just the big ones." },
+        { "phrase": "I want everyone's voice to be heard", "meaning": "Promotes inclusive participation.", "example": "I want everyone's voice to be heard in this discussion." },
+        { "phrase": "Let's make decisions together as a group", "meaning": "Encourages collective decision-making.", "example": "Let's make decisions together as a group on this one." },
+        { "phrase": "We all bring something different to the table", "meaning": "Values diverse skills and perspectives.", "example": "We all bring something different to the table, and that's a strength." },
+        { "phrase": "Let's build on each other's ideas", "meaning": "Encourages collaborative brainstorming.", "example": "Let's build on each other's ideas instead of starting from scratch." },
+        { "phrase": "I trust this team to figure it out", "meaning": "Expresses confidence in the group's ability.", "example": "I trust this team to figure it out together." },
+        { "phrase": "Let's keep each other accountable", "meaning": "Encourages mutual responsibility.", "example": "Let's keep each other accountable on our commitments." },
+        { "phrase": "We're better together than apart", "meaning": "Reinforces the value of collaboration.", "example": "We're better together than apart on this kind of project." },
+        { "phrase": "Let's create space for everyone to contribute", "meaning": "Ensures balanced participation.", "example": "Let's create space for everyone to contribute their ideas." },
+        { "phrase": "I love how this team supports each other", "meaning": "Expresses appreciation for team culture.", "example": "I love how this team supports each other during crunch time." },
+        { "phrase": "Let's make this a safe space to share ideas", "meaning": "Encourages psychological safety.", "example": "Let's make this a safe space to share ideas, no bad ones here." },
+        { "phrase": "I want to hear from the quieter voices too", "meaning": "Invites input from less vocal team members.", "example": "I want to hear from the quieter voices too on this." },
+        { "phrase": "Let's give credit where it's due", "meaning": "Ensures fair recognition of contributions.", "example": "Let's give credit where it's due - this was Priya's idea." },
+        { "phrase": "This team has great chemistry", "meaning": "Compliments how well a team works together.", "example": "This team has great chemistry, it shows in the results." },
+        { "phrase": "Let's keep building this trust with each other", "meaning": "Encourages continued relationship-building.", "example": "Let's keep building this trust with each other over time." },
+        { "phrase": "I'm grateful to be part of this team", "meaning": "Expresses appreciation for team membership.", "example": "I'm grateful to be part of this team, honestly." },
+        { "phrase": "Let's keep the momentum going", "meaning": "Encourages sustaining progress.", "example": "Let's keep the momentum going into next quarter." },
+        { "phrase": "We win as a team and we learn as a team", "meaning": "Frames both success and failure as collective.", "example": "We win as a team and we learn as a team - no blame here." },
+        { "phrase": "Let's make sure we have fun along the way", "meaning": "Balances hard work with enjoyment.", "example": "Let's make sure we have fun along the way too." },
+        { "phrase": "Proud to work alongside all of you", "meaning": "Expresses pride in the team.", "example": "Proud to work alongside all of you on this launch." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase suggests splitting tasks to work faster?", "options": ["Let's divide and conquer", "I owe you one for this", "Let's celebrate the small wins too", "This team has great chemistry"], "answer": "Let's divide and conquer", "explanation": "This idiom means splitting work to be more efficient." },
+    { "type": "mcq", "question": "Which idiom encourages working together rather than alone?", "options": ["Two heads are better than one", "Let's sync up before we start", "I'll take the lead on this part", "Let's give credit where it's due"], "answer": "Two heads are better than one", "explanation": "This idiom means collaboration produces better results than working solo." },
+    { "type": "mcq", "question": "Which phrase ensures fair recognition of contributions?", "options": ["Let's give credit where it's due", "Can you cover for me while I'm out?", "I've got some bandwidth if you need support", "Let's coordinate so we don't overlap"], "answer": "Let's give credit where it's due", "explanation": "This ensures the right person is recognized for their work." },
+    { "type": "fill", "question": "Thanks for picking up the ___ while I was out. (extra work)", "answer": "slack", "explanation": "'Pick up the slack' means to take on extra work someone else couldn't do." },
+    { "type": "mcq", "question": "Which phrase promotes psychological safety in a team?", "options": ["Let's make this a safe space to share ideas", "Let's divide and conquer", "I'll hand this off to you once I'm done", "Can we pair up on this?"], "answer": "Let's make this a safe space to share ideas", "explanation": "This encourages open, judgment-free sharing of ideas." }
+  ]
+}

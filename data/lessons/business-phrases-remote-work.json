@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Remote Work & Virtual Meetings - 50 Phrases",
+  "definition": "50 phrases for working remotely, joining video calls, and communicating asynchronously across time zones.",
+  "phraseGroups": [
+    {
+      "category": "Joining and Running Video Calls",
+      "phrases": [
+        { "phrase": "Can everyone hear me okay?", "meaning": "Checks audio at the start of a call.", "example": "Can everyone hear me okay before we start?" },
+        { "phrase": "You're on mute", "meaning": "Informs someone their microphone is off.", "example": "You're on mute, we can't hear you." },
+        { "phrase": "Let me unmute real quick", "meaning": "Announces turning on your microphone.", "example": "Let me unmute real quick to add a point." },
+        { "phrase": "Your connection is a bit choppy", "meaning": "Notes poor audio/video quality.", "example": "Your connection is a bit choppy, could you repeat that?" },
+        { "phrase": "Let's give it a minute for everyone to join", "meaning": "Waits for attendees before starting.", "example": "Let's give it a minute for everyone to join the call." },
+        { "phrase": "I'll drop the link in the chat", "meaning": "Shares a resource via the chat function.", "example": "I'll drop the link in the chat for everyone." },
+        { "phrase": "Can you turn your camera on?", "meaning": "Requests video be enabled.", "example": "Can you turn your camera on when you get a chance?" },
+        { "phrase": "I'm having some technical difficulties", "meaning": "Explains a tech issue during a call.", "example": "I'm having some technical difficulties, one moment please." },
+        { "phrase": "Let's switch to audio only, video's lagging", "meaning": "Suggests turning off video to fix lag.", "example": "Let's switch to audio only, video's lagging for me." },
+        { "phrase": "I'll share my screen now", "meaning": "Announces starting a screen share.", "example": "I'll share my screen now to show the deck." },
+        { "phrase": "Sorry, I got disconnected for a second", "meaning": "Explains a brief connectivity issue.", "example": "Sorry, I got disconnected for a second, could you repeat that?" },
+        { "phrase": "Let's do a quick roll call", "meaning": "Confirms who is present on the call.", "example": "Let's do a quick roll call before we start." },
+        { "phrase": "I'll dial in from my phone instead", "meaning": "Switches to phone audio for a call.", "example": "I'll dial in from my phone instead, my Wi-Fi is unstable." }
+      ]
+    },
+    {
+      "category": "Working Across Time Zones and Async",
+      "phrases": [
+        { "phrase": "What time zone works best for everyone?", "meaning": "Coordinates scheduling across regions.", "example": "What time zone works best for everyone for this call?" },
+        { "phrase": "That's a bit late for my time zone", "meaning": "Notes a scheduling conflict due to time difference.", "example": "That's a bit late for my time zone, can we do it earlier?" },
+        { "phrase": "Let's find a time that overlaps for both teams", "meaning": "Seeks a mutually convenient time.", "example": "Let's find a time that overlaps for both teams." },
+        { "phrase": "I'll leave detailed notes for the next shift", "meaning": "Ensures handoff between different working hours.", "example": "I'll leave detailed notes for the next shift to pick up." },
+        { "phrase": "Let's keep this async so no one has to stay up late", "meaning": "Suggests written communication instead of a live call.", "example": "Let's keep this async so no one has to stay up late." },
+        { "phrase": "I'll record this for anyone who can't make it live", "meaning": "Offers a recording for those unable to attend.", "example": "I'll record this for anyone who can't make it live." },
+        { "phrase": "This falls outside my working hours", "meaning": "Notes a request is outside one's schedule.", "example": "This falls outside my working hours, can it wait until tomorrow?" },
+        { "phrase": "I'll follow up first thing in my morning", "meaning": "Commits to responding early in your workday.", "example": "I'll follow up first thing in my morning your time." },
+        { "phrase": "Let's document this so it's clear across time zones", "meaning": "Ensures information is accessible asynchronously.", "example": "Let's document this so it's clear across time zones." },
+        { "phrase": "Thanks for staying flexible with the schedule", "meaning": "Appreciates accommodating scheduling changes.", "example": "Thanks for staying flexible with the schedule this week." },
+        { "phrase": "I'll respond by end of my day", "meaning": "Sets a response expectation for async communication.", "example": "I'll respond by end of my day, which is your morning." },
+        { "phrase": "Let's rotate meeting times to be fair to everyone", "meaning": "Balances inconvenience across time zones.", "example": "Let's rotate meeting times to be fair to everyone." },
+        { "phrase": "I'll catch up on the recording later", "meaning": "Plans to review a missed meeting.", "example": "I'll catch up on the recording later today." },
+        { "phrase": "Let's use a shared doc to track decisions", "meaning": "Suggests a written record for cross-timezone teams.", "example": "Let's use a shared doc to track decisions across time zones." },
+        { "phrase": "I'll be offline during my night hours", "meaning": "Clarifies unavailability during sleep hours.", "example": "I'll be offline during my night hours, back online at 9 AM." },
+        { "phrase": "Let's not expect instant replies given the time difference", "meaning": "Sets realistic expectations for async work.", "example": "Let's not expect instant replies given the time difference." },
+        { "phrase": "I'll pick this up when my day starts", "meaning": "Commits to addressing something at the start of your workday.", "example": "I'll pick this up when my day starts tomorrow." }
+      ]
+    },
+    {
+      "category": "Remote Work Culture and Communication",
+      "phrases": [
+        { "phrase": "Let's over-communicate rather than under-communicate", "meaning": "Emphasizes clarity in remote settings.", "example": "Let's over-communicate rather than under-communicate on this." },
+        { "phrase": "I'll put this in writing so it's clear", "meaning": "Documents a decision for clarity.", "example": "I'll put this in writing so it's clear for everyone." },
+        { "phrase": "Let's default to video for important conversations", "meaning": "Prefers face-to-face for sensitive topics.", "example": "Let's default to video for important conversations like this." },
+        { "phrase": "I'm working from home today", "meaning": "Informs others of your remote work location.", "example": "I'm working from home today, reachable as usual." },
+        { "phrase": "Let's set some core hours for the team", "meaning": "Establishes overlapping availability.", "example": "Let's set some core hours for the team to collaborate live." },
+        { "phrase": "I'll be heads-down for the next hour", "meaning": "Signals focused, uninterrupted work time.", "example": "I'll be heads-down for the next hour, ping me after." },
+        { "phrase": "Let's use status updates to stay visible", "meaning": "Encourages transparency about availability/work.", "example": "Let's use status updates to stay visible to the team." },
+        { "phrase": "I'll block my calendar for focus time", "meaning": "Reserves time for uninterrupted work.", "example": "I'll block my calendar for focus time this afternoon." },
+        { "phrase": "Let's default to async unless it's urgent", "meaning": "Prefers non-live communication for most matters.", "example": "Let's default to async unless it's urgent." },
+        { "phrase": "I appreciate the flexibility of remote work", "meaning": "Expresses gratitude for remote work benefits.", "example": "I appreciate the flexibility of remote work, especially for family time." },
+        { "phrase": "Let's make sure remote folks feel included", "meaning": "Ensures inclusivity for distributed team members.", "example": "Let's make sure remote folks feel included in office discussions." },
+        { "phrase": "I'll set my status to away if I step out", "meaning": "Communicates availability changes.", "example": "I'll set my status to away if I step out for lunch." },
+        { "phrase": "Let's avoid meeting overload this week", "meaning": "Limits excessive scheduled calls.", "example": "Let's avoid meeting overload this week, keep it lean." },
+        { "phrase": "I'll ping you on chat instead of scheduling a call", "meaning": "Prefers a quick message over a meeting.", "example": "I'll ping you on chat instead of scheduling a call." },
+        { "phrase": "Let's default to camera-on for team bonding", "meaning": "Encourages video for connection.", "example": "Let's default to camera-on for team bonding calls." },
+        { "phrase": "I'm balancing a few things at home right now", "meaning": "Explains competing demands while working remotely.", "example": "I'm balancing a few things at home right now, give me a minute." },
+        { "phrase": "Let's respect everyone's working hours", "meaning": "Encourages boundaries in remote work.", "example": "Let's respect everyone's working hours when scheduling." },
+        { "phrase": "Thanks for being understanding about the time difference", "meaning": "Appreciates patience with scheduling across zones.", "example": "Thanks for being understanding about the time difference." },
+        { "phrase": "Let's keep our remote culture strong", "meaning": "Prioritizes team cohesion despite distance.", "example": "Let's keep our remote culture strong with regular check-ins." },
+        { "phrase": "I'll make sure to over-index on documentation", "meaning": "Prioritizes thorough written records for remote clarity.", "example": "I'll make sure to over-index on documentation for this handoff." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase informs someone their microphone is off?", "options": ["You're on mute", "Let's give it a minute for everyone to join", "I'll share my screen now", "Can everyone hear me okay?"], "answer": "You're on mute", "explanation": "This directly tells someone their mic isn't transmitting audio." },
+    { "type": "mcq", "question": "Which phrase means communicating without needing a live response?", "options": ["Let's keep this async so no one has to stay up late", "Let's default to video for important conversations", "I'll be heads-down for the next hour", "Let's do a quick roll call"], "answer": "Let's keep this async so no one has to stay up late", "explanation": "'Async' communication doesn't require real-time response." },
+    { "type": "mcq", "question": "Which phrase signals dedicated, uninterrupted work time?", "options": ["I'll be heads-down for the next hour", "I'll dial in from my phone instead", "Let's rotate meeting times to be fair to everyone", "Your connection is a bit choppy"], "answer": "I'll be heads-down for the next hour", "explanation": "'Heads-down' means focused, uninterrupted work." },
+    { "type": "fill", "question": "Let's ___ communicate rather than under-communicate. (do more than needed)", "answer": "over", "explanation": "'Over-communicate' means to share more information than might seem necessary, to ensure clarity." },
+    { "type": "mcq", "question": "Which phrase ensures remote team members aren't excluded?", "options": ["Let's make sure remote folks feel included", "I'll set my status to away if I step out", "Let's avoid meeting overload this week", "I'm working from home today"], "answer": "Let's make sure remote folks feel included", "explanation": "This directly addresses inclusivity for distributed team members." }
+  ]
+}

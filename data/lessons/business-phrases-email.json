@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Email & Written Communication - 50 Phrases",
+  "definition": "50 phrases for writing clear, professional emails and messages - openings, requests, follow-ups, and closings.",
+  "phraseGroups": [
+    {
+      "category": "Openings and Context",
+      "phrases": [
+        { "phrase": "I hope this email finds you well", "meaning": "A common polite opening line.", "example": "Hi Raj, I hope this email finds you well." },
+        { "phrase": "I'm writing to follow up on...", "meaning": "States the purpose is a follow-up.", "example": "I'm writing to follow up on our call last week." },
+        { "phrase": "I wanted to reach out about...", "meaning": "Introduces the topic of the email.", "example": "I wanted to reach out about the upcoming deadline." },
+        { "phrase": "Thanks for your patience", "meaning": "Acknowledges a delay politely.", "example": "Thanks for your patience while we resolved this." },
+        { "phrase": "Apologies for the delayed response", "meaning": "Apologizes for replying late.", "example": "Apologies for the delayed response - it's been a busy week." },
+        { "phrase": "As discussed in our meeting...", "meaning": "References a prior conversation.", "example": "As discussed in our meeting, here's the updated proposal." },
+        { "phrase": "Per our conversation...", "meaning": "Refers back to an earlier discussion.", "example": "Per our conversation, I've attached the revised contract." },
+        { "phrase": "Just a quick note to say...", "meaning": "Introduces a brief message.", "example": "Just a quick note to say the shipment has arrived." },
+        { "phrase": "I hope you had a great weekend", "meaning": "A friendly, casual opener.", "example": "Hi team, I hope you had a great weekend." },
+        { "phrase": "Following up on my previous email...", "meaning": "References an earlier unanswered message.", "example": "Following up on my previous email regarding the invoice." },
+        { "phrase": "I'm circling back on this", "meaning": "Reintroduces a topic after some time.", "example": "I'm circling back on this since I haven't heard back." },
+        { "phrase": "Thank you for reaching out", "meaning": "Acknowledges receiving a message.", "example": "Thank you for reaching out - happy to help." },
+        { "phrase": "It was great connecting with you", "meaning": "A warm follow-up after meeting someone.", "example": "It was great connecting with you at the conference." },
+        { "phrase": "I'm reaching out on behalf of...", "meaning": "Clarifies who you're representing.", "example": "I'm reaching out on behalf of the product team." },
+        { "phrase": "Just looping back on this", "meaning": "Returns to a previously discussed topic.", "example": "Just looping back on this before the deadline." },
+        { "phrase": "Thanks for the quick turnaround", "meaning": "Appreciates a fast response.", "example": "Thanks for the quick turnaround on the report." }
+      ]
+    },
+    {
+      "category": "Requests and Actions",
+      "phrases": [
+        { "phrase": "Could you please confirm by Friday?", "meaning": "Politely requests confirmation with a deadline.", "example": "Could you please confirm by Friday so we can proceed?" },
+        { "phrase": "Would you mind sending over the file?", "meaning": "A polite request for a document.", "example": "Would you mind sending over the file when you get a chance?" },
+        { "phrase": "Please find attached the report", "meaning": "Points to an email attachment.", "example": "Please find attached the report for your review." },
+        { "phrase": "Let me know if you have any questions", "meaning": "Offers to clarify further.", "example": "Let me know if you have any questions about the proposal." },
+        { "phrase": "Could you loop in the design team?", "meaning": "Asks to include others in the conversation.", "example": "Could you loop in the design team on this thread?" },
+        { "phrase": "I'd appreciate your feedback on this", "meaning": "Requests input or opinion.", "example": "I'd appreciate your feedback on this draft." },
+        { "phrase": "Please let me know your availability", "meaning": "Asks for scheduling information.", "example": "Please let me know your availability next week." },
+        { "phrase": "Kindly review and revert", "meaning": "Requests review and a reply.", "example": "Kindly review and revert with your comments." },
+        { "phrase": "Could you clarify a couple of points?", "meaning": "Requests clarification on specific items.", "example": "Could you clarify a couple of points in section two?" },
+        { "phrase": "I'd like to schedule some time to discuss", "meaning": "Requests a meeting.", "example": "I'd like to schedule some time to discuss the next steps." },
+        { "phrase": "Please see my comments below", "meaning": "Directs the reader to inline feedback.", "example": "Please see my comments below in blue." },
+        { "phrase": "Can we set up a quick call?", "meaning": "Suggests a brief phone/video conversation.", "example": "Can we set up a quick call to go over this?" },
+        { "phrase": "I've attached the updated version", "meaning": "Notes a revised file is attached.", "example": "I've attached the updated version with your changes." },
+        { "phrase": "Please disregard my previous email", "meaning": "Retracts an earlier message.", "example": "Please disregard my previous email - the issue is resolved." },
+        { "phrase": "Could you cc me on that thread?", "meaning": "Requests to be copied on an email.", "example": "Could you cc me on that thread going forward?" },
+        { "phrase": "Happy to jump on a call if easier", "meaning": "Offers a call as an alternative to email.", "example": "Happy to jump on a call if easier to explain." },
+        { "phrase": "Let's align on the next steps", "meaning": "Suggests agreeing on what happens next.", "example": "Let's align on the next steps before Friday." }
+      ]
+    },
+    {
+      "category": "Closings and Tone",
+      "phrases": [
+        { "phrase": "Looking forward to hearing from you", "meaning": "A polite closing expressing anticipation.", "example": "Looking forward to hearing from you soon." },
+        { "phrase": "Thanks again for your help", "meaning": "Expresses gratitude at the end of a message.", "example": "Thanks again for your help with this." },
+        { "phrase": "Please don't hesitate to reach out", "meaning": "Invites further contact.", "example": "Please don't hesitate to reach out if anything's unclear." },
+        { "phrase": "Best regards", "meaning": "A standard professional sign-off.", "example": "Best regards, Ananya" },
+        { "phrase": "Warm regards", "meaning": "A slightly friendlier professional sign-off.", "example": "Warm regards, the Support Team" },
+        { "phrase": "Thanks in advance", "meaning": "Expresses gratitude before a request is fulfilled.", "example": "Thanks in advance for your quick response." },
+        { "phrase": "I appreciate your understanding", "meaning": "Acknowledges patience about an inconvenience.", "example": "I appreciate your understanding during this transition." },
+        { "phrase": "Have a great rest of your week", "meaning": "A friendly closing remark.", "example": "Have a great rest of your week!" },
+        { "phrase": "Let me know if anything changes", "meaning": "Invites updates on a situation.", "example": "Let me know if anything changes on your end." },
+        { "phrase": "Talk soon", "meaning": "A casual, friendly sign-off.", "example": "Talk soon, and thanks again." },
+        { "phrase": "Please keep me posted", "meaning": "Requests ongoing updates.", "example": "Please keep me posted on how the testing goes." },
+        { "phrase": "I trust this clarifies things", "meaning": "Closes after providing an explanation.", "example": "I trust this clarifies things - let me know if not." },
+        { "phrase": "Excited to move forward on this", "meaning": "Expresses enthusiasm about next steps.", "example": "Excited to move forward on this together." },
+        { "phrase": "Sorry for any inconvenience caused", "meaning": "Apologizes for a problem.", "example": "Sorry for any inconvenience caused by the delay." },
+        { "phrase": "Please treat this as urgent", "meaning": "Flags high priority.", "example": "Please treat this as urgent - the client is waiting." },
+        { "phrase": "Thank you for your continued support", "meaning": "Expresses appreciation over time.", "example": "Thank you for your continued support this quarter." },
+        { "phrase": "Wishing you a productive week ahead", "meaning": "A polite, friendly closing.", "example": "Wishing you a productive week ahead!" }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase politely retracts an earlier email?", "options": ["Please disregard my previous email", "Looking forward to hearing from you", "Thanks in advance", "Could you loop in the design team?"], "answer": "Please disregard my previous email", "explanation": "This tells the reader to ignore the earlier message." },
+    { "type": "mcq", "question": "Which phrase is a standard professional email sign-off?", "options": ["Talk soon", "Best regards", "Excited to move forward", "Kindly review and revert"], "answer": "Best regards", "explanation": "'Best regards' is a widely used professional closing." },
+    { "type": "mcq", "question": "Which phrase requests being copied on an email thread?", "options": ["Could you cc me on that thread?", "Please find attached the report", "I'd appreciate your feedback on this", "Thanks for the quick turnaround"], "answer": "Could you cc me on that thread?", "explanation": "'CC' means to copy someone on an email." },
+    { "type": "fill", "question": "___ for the delayed response - it's been a busy week. (apology)", "answer": "Apologies", "explanation": "'Apologies' is a polite way to say sorry in professional writing." },
+    { "type": "mcq", "question": "Which phrase flags a message as high priority?", "options": ["Please treat this as urgent", "Have a great rest of your week", "Talk soon", "I trust this clarifies things"], "answer": "Please treat this as urgent", "explanation": "This clearly signals the message needs immediate attention." }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Sales & Persuasion - 50 Phrases",
+  "definition": "50 phrases for pitching, persuading, handling objections, and closing sales conversations professionally.",
+  "phraseGroups": [
+    {
+      "category": "Pitching and Presenting Value",
+      "phrases": [
+        { "phrase": "Let me walk you through what we offer", "meaning": "Introduces a product/service explanation.", "example": "Let me walk you through what we offer for small businesses." },
+        { "phrase": "This solves a real pain point for you", "meaning": "Highlights the practical benefit of a product.", "example": "This solves a real pain point for you around manual reporting." },
+        { "phrase": "Here's what sets us apart", "meaning": "Highlights competitive advantage.", "example": "Here's what sets us apart from other vendors." },
+        { "phrase": "Our clients typically see results within...", "meaning": "Shares expected outcomes with a timeframe.", "example": "Our clients typically see results within the first month." },
+        { "phrase": "Let me show you a quick demo", "meaning": "Offers a product demonstration.", "example": "Let me show you a quick demo of how it works." },
+        { "phrase": "This is designed specifically for your needs", "meaning": "Positions a product as tailored to the customer.", "example": "This is designed specifically for your needs as a growing team." },
+        { "phrase": "Imagine how this could save you time", "meaning": "Invites the prospect to visualize a benefit.", "example": "Imagine how this could save you time every single week." },
+        { "phrase": "Here's some social proof", "meaning": "Introduces testimonials or case studies.", "example": "Here's some social proof - a case study from a similar client." },
+        { "phrase": "Let me tailor this to your specific situation", "meaning": "Offers a customized approach.", "example": "Let me tailor this to your specific situation and budget." },
+        { "phrase": "Our top clients include...", "meaning": "References notable customers for credibility.", "example": "Our top clients include several Fortune 500 companies." },
+        { "phrase": "This has a proven track record", "meaning": "Emphasizes reliability based on past success.", "example": "This has a proven track record across the industry." },
+        { "phrase": "Let's look at the return on investment", "meaning": "Focuses on financial benefit.", "example": "Let's look at the return on investment over 12 months." },
+        { "phrase": "This pays for itself within months", "meaning": "Emphasizes quick value/payback.", "example": "This pays for itself within months through time savings." }
+      ]
+    },
+    {
+      "category": "Handling Objections",
+      "phrases": [
+        { "phrase": "I hear that a lot, and here's why it's not a concern", "meaning": "Addresses a common objection directly.", "example": "I hear that a lot, and here's why it's not a concern for you." },
+        { "phrase": "What's holding you back from moving forward?", "meaning": "Asks about hesitation directly.", "example": "What's holding you back from moving forward today?" },
+        { "phrase": "Let's address that concern directly", "meaning": "Signals willingness to tackle an objection.", "example": "Let's address that concern directly before we continue." },
+        { "phrase": "I understand the hesitation, but consider this", "meaning": "Acknowledges doubt while offering reassurance.", "example": "I understand the hesitation, but consider this success story." },
+        { "phrase": "That's a fair concern - here's how we handle it", "meaning": "Validates an objection then responds.", "example": "That's a fair concern - here's how we handle onboarding." },
+        { "phrase": "A lot of our clients felt the same way initially", "meaning": "Normalizes hesitation using social proof.", "example": "A lot of our clients felt the same way initially about the price." },
+        { "phrase": "Let me show you how others overcame that", "meaning": "Uses examples to counter objections.", "example": "Let me show you how others overcame that exact challenge." },
+        { "phrase": "Is price the only thing holding you back?", "meaning": "Narrows down the objection to isolate the real issue.", "example": "Is price the only thing holding you back, or is it something else?" },
+        { "phrase": "What would need to be true for you to move forward?", "meaning": "Identifies conditions for a decision.", "example": "What would need to be true for you to move forward today?" },
+        { "phrase": "Let's break down the cost versus the value", "meaning": "Reframes price in terms of benefit.", "example": "Let's break down the cost versus the value you'd get." },
+        { "phrase": "I don't want to push, but I do want to help", "meaning": "Softens persistence with genuine intent.", "example": "I don't want to push, but I do want to help you solve this." },
+        { "phrase": "Let's revisit your priorities", "meaning": "Refocuses on what matters most to the buyer.", "example": "Let's revisit your priorities to see what fits best." }
+      ]
+    },
+    {
+      "category": "Closing and Follow-up",
+      "phrases": [
+        { "phrase": "Shall we move forward with this?", "meaning": "Asks directly if the buyer wants to proceed.", "example": "Shall we move forward with this today?" },
+        { "phrase": "What would it take to get this signed today?", "meaning": "Directly asks about closing conditions.", "example": "What would it take to get this signed today?" },
+        { "phrase": "I can hold this pricing for 48 hours", "meaning": "Creates urgency with a limited-time offer.", "example": "I can hold this pricing for 48 hours only." },
+        { "phrase": "Let's get the paperwork started", "meaning": "Moves toward finalizing a deal.", "example": "Let's get the paperwork started so we can kick off soon." },
+        { "phrase": "I'll send over the contract for signature", "meaning": "Advances the deal to formal agreement.", "example": "I'll send over the contract for signature this afternoon." },
+        { "phrase": "When would you like to get started?", "meaning": "Assumes agreement and asks about timing.", "example": "When would you like to get started - this month or next?" },
+        { "phrase": "Let's pencil in an onboarding date", "meaning": "Suggests scheduling next steps.", "example": "Let's pencil in an onboarding date for next week." },
+        { "phrase": "I'll follow up early next week if I don't hear back", "meaning": "Sets expectations for a follow-up.", "example": "I'll follow up early next week if I don't hear back." },
+        { "phrase": "Thanks for considering us", "meaning": "A polite closing after a pitch.", "example": "Thanks for considering us for this project." },
+        { "phrase": "I'm confident this is the right fit for you", "meaning": "Expresses conviction in the product's suitability.", "example": "I'm confident this is the right fit for you and your team." },
+        { "phrase": "Let's schedule a follow-up to check progress", "meaning": "Plans a check-in after the sale.", "example": "Let's schedule a follow-up to check progress in a month." },
+        { "phrase": "Welcome aboard!", "meaning": "A warm greeting after closing a deal.", "example": "Welcome aboard! We're excited to work with you." },
+        { "phrase": "I'll be your point of contact going forward", "meaning": "Establishes ongoing support after closing.", "example": "I'll be your point of contact going forward for any questions." },
+        { "phrase": "Referrals are always appreciated", "meaning": "Politely asks for referrals from satisfied customers.", "example": "Referrals are always appreciated if you know others who'd benefit." },
+        { "phrase": "Let's check in after the first month", "meaning": "Plans a post-sale review.", "example": "Let's check in after the first month to see how it's going." },
+        { "phrase": "I appreciate you giving us a shot", "meaning": "Thanks a new customer for their trust.", "example": "I appreciate you giving us a shot - we won't let you down." },
+        { "phrase": "Let's make sure onboarding goes smoothly", "meaning": "Signals commitment to a good start.", "example": "Let's make sure onboarding goes smoothly from day one." },
+        { "phrase": "I'll check back in to see how things are going", "meaning": "Plans a future customer success touchpoint.", "example": "I'll check back in to see how things are going in a few weeks." },
+        { "phrase": "Excited to see the results together", "meaning": "Expresses shared enthusiasm about outcomes.", "example": "Excited to see the results together over the next quarter." },
+        { "phrase": "Thanks for trusting us with this", "meaning": "Expresses appreciation for the business relationship.", "example": "Thanks for trusting us with this - we're all in." },
+        { "phrase": "Let's set some success metrics together", "meaning": "Defines what success looks like post-sale.", "example": "Let's set some success metrics together for the first quarter." },
+        { "phrase": "I'll make sure the team is ready to support you", "meaning": "Reassures the client of ongoing support.", "example": "I'll make sure the team is ready to support you from day one." },
+        { "phrase": "This is just the beginning of our partnership", "meaning": "Frames the sale as the start of a relationship.", "example": "This is just the beginning of our partnership - excited for what's next." },
+        { "phrase": "Let's stay close on this in the first few weeks", "meaning": "Suggests frequent check-ins after onboarding.", "example": "Let's stay close on this in the first few weeks to iron out any issues." },
+        { "phrase": "I'll be checking in regularly to make sure you're happy", "meaning": "Commits to ongoing customer satisfaction checks.", "example": "I'll be checking in regularly to make sure you're happy with the results." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase directly asks about a customer's hesitation?", "options": ["What's holding you back from moving forward?", "Welcome aboard!", "Here's some social proof", "Let's get the paperwork started"], "answer": "What's holding you back from moving forward?", "explanation": "This directly probes the reason for hesitation." },
+    { "type": "mcq", "question": "Which phrase creates urgency in a sales conversation?", "options": ["I can hold this pricing for 48 hours", "Thanks for considering us", "Let's revisit your priorities", "I'll be your point of contact going forward"], "answer": "I can hold this pricing for 48 hours", "explanation": "A time-limited offer creates urgency to decide." },
+    { "type": "mcq", "question": "Which phrase is a warm greeting right after closing a deal?", "options": ["Welcome aboard!", "Is price the only thing holding you back?", "Let's break down the cost versus the value", "I hear that a lot"], "answer": "Welcome aboard!", "explanation": "This is a friendly way to welcome a new customer." },
+    { "type": "fill", "question": "Let's look at the return on ___. (financial benefit)", "answer": "investment", "explanation": "'Return on investment' (ROI) measures financial benefit relative to cost." },
+    { "type": "mcq", "question": "Which phrase reframes an objection about price?", "options": ["Let's break down the cost versus the value", "Welcome aboard!", "When would you like to get started?", "Referrals are always appreciated"], "answer": "Let's break down the cost versus the value", "explanation": "This reframes price concerns in terms of overall value." }
+  ]
+}

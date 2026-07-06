@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Conflict Resolution - 50 Phrases",
+  "definition": "50 phrases for handling disagreements, tension, and difficult conversations at work calmly and professionally.",
+  "phraseGroups": [
+    {
+      "category": "Addressing Tension Calmly",
+      "phrases": [
+        { "phrase": "I sense some tension here, let's talk it through", "meaning": "Names discomfort directly and invites discussion.", "example": "I sense some tension here, let's talk it through." },
+        { "phrase": "Can we take a step back and reset?", "meaning": "Suggests pausing to de-escalate.", "example": "Can we take a step back and reset before continuing?" },
+        { "phrase": "I don't think we're on the same page", "meaning": "Notes a misalignment in understanding.", "example": "I don't think we're on the same page about priorities." },
+        { "phrase": "Let's separate the issue from the emotion", "meaning": "Suggests focusing on facts over feelings.", "example": "Let's separate the issue from the emotion and look at the facts." },
+        { "phrase": "I want to understand your side of this", "meaning": "Invites the other person's perspective.", "example": "I want to understand your side of this before responding." },
+        { "phrase": "Let's lower the temperature a bit", "meaning": "Suggests calming down a heated discussion.", "example": "Let's lower the temperature a bit and talk calmly." },
+        { "phrase": "I don't think that came out the way you intended", "meaning": "Gives someone the benefit of the doubt.", "example": "I don't think that came out the way you intended." },
+        { "phrase": "Let's not make this personal", "meaning": "Redirects focus away from blame.", "example": "Let's not make this personal - it's about the process." },
+        { "phrase": "I want us to resolve this, not win it", "meaning": "Reframes the goal away from winning an argument.", "example": "I want us to resolve this, not win it." },
+        { "phrase": "Can we press pause and revisit this later?", "meaning": "Suggests a cooling-off period.", "example": "Can we press pause and revisit this later today?" },
+        { "phrase": "I think we both want the same outcome here", "meaning": "Highlights shared goals despite disagreement.", "example": "I think we both want the same outcome here, just different paths." },
+        { "phrase": "Let's approach this with an open mind", "meaning": "Encourages receptiveness during conflict.", "example": "Let's approach this with an open mind on both sides." },
+        { "phrase": "I didn't mean for it to come across that way", "meaning": "Clarifies unintended tone or impact.", "example": "I didn't mean for it to come across that way, I apologize." }
+      ]
+    },
+    {
+      "category": "Expressing Disagreement Respectfully",
+      "phrases": [
+        { "phrase": "I see this differently, can I explain why?", "meaning": "Politely introduces a differing view.", "example": "I see this differently, can I explain why?" },
+        { "phrase": "I hear your point, but I have concerns", "meaning": "Acknowledges before raising an objection.", "example": "I hear your point, but I have concerns about the timeline." },
+        { "phrase": "Let's agree on the facts first", "meaning": "Suggests establishing common ground before debating.", "example": "Let's agree on the facts first before deciding next steps." },
+        { "phrase": "I'm not comfortable with this approach", "meaning": "Politely states discomfort with a plan.", "example": "I'm not comfortable with this approach, can we discuss alternatives?" },
+        { "phrase": "That's not quite how I remember it", "meaning": "Politely disputes a version of events.", "example": "That's not quite how I remember it, let me clarify." },
+        { "phrase": "I'd push back on that a little", "meaning": "Politely challenges a statement.", "example": "I'd push back on that a little based on the data." },
+        { "phrase": "Let's make sure both perspectives are heard", "meaning": "Ensures fairness in a disagreement.", "example": "Let's make sure both perspectives are heard before deciding." },
+        { "phrase": "I think we need to revisit this decision", "meaning": "Suggests reconsidering a prior choice.", "example": "I think we need to revisit this decision given new information." },
+        { "phrase": "That's a valid point, though I'd add...", "meaning": "Acknowledges a point while adding nuance.", "example": "That's a valid point, though I'd add some context." },
+        { "phrase": "I want to raise this without pointing fingers", "meaning": "Frames concerns without assigning blame.", "example": "I want to raise this without pointing fingers at anyone." },
+        { "phrase": "Let's focus on what we can control", "meaning": "Redirects attention to actionable matters.", "example": "Let's focus on what we can control moving forward." },
+        { "phrase": "I respectfully disagree", "meaning": "A polite, direct way to express disagreement.", "example": "I respectfully disagree with that assessment." },
+        { "phrase": "Can we look at this from another angle?", "meaning": "Suggests reconsidering from a fresh perspective.", "example": "Can we look at this from another angle before deciding?" }
+      ]
+    },
+    {
+      "category": "Resolving and Moving Forward",
+      "phrases": [
+        { "phrase": "Let's find a solution that works for both of us", "meaning": "Aims for a mutually beneficial resolution.", "example": "Let's find a solution that works for both of us." },
+        { "phrase": "What can we agree on right now?", "meaning": "Identifies immediate common ground.", "example": "What can we agree on right now, even if not everything?" },
+        { "phrase": "Let's put this behind us and move forward", "meaning": "Suggests letting go of a past conflict.", "example": "Let's put this behind us and move forward together." },
+        { "phrase": "I appreciate you hearing me out", "meaning": "Thanks someone for listening during a disagreement.", "example": "I appreciate you hearing me out on this." },
+        { "phrase": "Let's agree to disagree on this one point", "meaning": "Accepts a specific unresolved difference.", "example": "Let's agree to disagree on this one point and move on." },
+        { "phrase": "I think we've reached a good compromise", "meaning": "Confirms satisfaction with a resolution.", "example": "I think we've reached a good compromise here." },
+        { "phrase": "Thank you for working through this with me", "meaning": "Appreciates collaborative conflict resolution.", "example": "Thank you for working through this with me." },
+        { "phrase": "Let's set some ground rules to avoid this in future", "meaning": "Proposes preventive measures.", "example": "Let's set some ground rules to avoid this in future." },
+        { "phrase": "I don't want this to affect our working relationship", "meaning": "Prioritizes the relationship over the disagreement.", "example": "I don't want this to affect our working relationship." },
+        { "phrase": "Let's shake hands and move on", "meaning": "A friendly gesture to end a disagreement (idiom).", "example": "Let's shake hands and move on from this." },
+        { "phrase": "I value your perspective even when we disagree", "meaning": "Respects differing opinions.", "example": "I value your perspective even when we disagree." },
+        { "phrase": "Let's bring in a neutral third party if needed", "meaning": "Suggests mediation for unresolved conflict.", "example": "Let's bring in a neutral third party if needed." },
+        { "phrase": "I'm glad we could clear the air", "meaning": "Expresses relief after resolving tension.", "example": "I'm glad we could clear the air about this." },
+        { "phrase": "Let's check in again in a week to see how it's going", "meaning": "Plans a follow-up after resolving conflict.", "example": "Let's check in again in a week to see how it's going." },
+        { "phrase": "I don't hold any grudges over this", "meaning": "Reassures there's no lasting resentment.", "example": "I don't hold any grudges over this, let's move forward." },
+        { "phrase": "This conversation took courage, thank you", "meaning": "Acknowledges the difficulty of raising an issue.", "example": "This conversation took courage, thank you for having it." },
+        { "phrase": "Let's make sure we both walk away feeling heard", "meaning": "Ensures a fair resolution for both sides.", "example": "Let's make sure we both walk away feeling heard." },
+        { "phrase": "I'm confident we can avoid this in the future", "meaning": "Expresses optimism about preventing recurrence.", "example": "I'm confident we can avoid this in the future with clearer process." },
+        { "phrase": "Thanks for staying professional through this", "meaning": "Appreciates composure during a difficult conversation.", "example": "Thanks for staying professional through this." },
+        { "phrase": "Let's rebuild trust from here", "meaning": "Focuses on restoring a working relationship.", "example": "Let's rebuild trust from here, one step at a time." },
+        { "phrase": "I'm glad we handled this like adults", "meaning": "A light-hearted note of relief after a mature resolution.", "example": "I'm glad we handled this like adults, honestly." },
+        { "phrase": "Let's not let this happen again", "meaning": "Commits to preventing a repeat issue.", "example": "Let's not let this happen again - we've learned from it." },
+        { "phrase": "I respect how you handled that disagreement", "meaning": "Compliments someone's conduct during conflict.", "example": "I respect how you handled that disagreement." },
+        { "phrase": "We're stronger for having worked through this", "meaning": "Frames conflict resolution as relationship-building.", "example": "We're stronger for having worked through this together." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase suggests pausing a heated discussion to cool down?", "options": ["Can we press pause and revisit this later?", "I respectfully disagree", "Let's shake hands and move on", "This conversation took courage, thank you"], "answer": "Can we press pause and revisit this later?", "explanation": "This proposes a cooling-off period before continuing." },
+    { "type": "mcq", "question": "Which phrase politely and directly expresses disagreement?", "options": ["I respectfully disagree", "Let's rebuild trust from here", "I don't hold any grudges over this", "Let's set some ground rules to avoid this in future"], "answer": "I respectfully disagree", "explanation": "This is a polite, direct way to disagree without hostility." },
+    { "type": "mcq", "question": "Which phrase reframes a conflict's goal away from 'winning'?", "options": ["I want us to resolve this, not win it", "That's not quite how I remember it", "Let's agree on the facts first", "I'd push back on that a little"], "answer": "I want us to resolve this, not win it", "explanation": "This reframes the goal toward resolution instead of victory." },
+    { "type": "fill", "question": "Let's ___ this behind us and move forward. (leave in the past)", "answer": "put", "explanation": "'Put this behind us' means to leave a conflict in the past." },
+    { "type": "mcq", "question": "Which phrase suggests bringing in outside help for unresolved conflict?", "options": ["Let's bring in a neutral third party if needed", "I sense some tension here, let's talk it through", "Let's lower the temperature a bit", "I think we've reached a good compromise"], "answer": "Let's bring in a neutral third party if needed", "explanation": "A neutral third party can mediate when two sides can't resolve things alone." }
+  ]
+}

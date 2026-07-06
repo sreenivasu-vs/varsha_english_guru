@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Negotiations - 50 Phrases",
+  "definition": "50 phrases for negotiating deals, prices, deadlines, and terms professionally and confidently.",
+  "phraseGroups": [
+    {
+      "category": "Opening a Negotiation",
+      "phrases": [
+        { "phrase": "Let's discuss the terms", "meaning": "Opens a conversation about deal conditions.", "example": "Let's discuss the terms before we sign anything." },
+        { "phrase": "What did you have in mind?", "meaning": "Asks the other party for their proposal.", "example": "What did you have in mind for the budget?" },
+        { "phrase": "Here's where we stand", "meaning": "States your current position.", "example": "Here's where we stand on pricing right now." },
+        { "phrase": "We're looking for a win-win", "meaning": "Signals a goal of mutual benefit.", "example": "We're looking for a win-win that works for both sides." },
+        { "phrase": "Let's find some common ground", "meaning": "Seeks shared points of agreement.", "example": "Let's find some common ground before discussing numbers." },
+        { "phrase": "I'd like to understand your priorities", "meaning": "Asks what matters most to the other side.", "example": "I'd like to understand your priorities before we proceed." },
+        { "phrase": "Our starting point is...", "meaning": "States an initial offer or position.", "example": "Our starting point is a 10% discount on bulk orders." },
+        { "phrase": "Let's put our cards on the table", "meaning": "Suggests being open and honest about positions.", "example": "Let's put our cards on the table so we can move faster." },
+        { "phrase": "What's most important to you here?", "meaning": "Identifies the other party's key concern.", "example": "What's most important to you here - price or timeline?" },
+        { "phrase": "We're open to discussion", "meaning": "Signals flexibility.", "example": "We're open to discussion on the delivery schedule." },
+        { "phrase": "Let's talk numbers", "meaning": "Moves the conversation to specific figures.", "example": "Let's talk numbers once we agree on scope." },
+        { "phrase": "I appreciate you being upfront", "meaning": "Acknowledges honesty in the negotiation.", "example": "I appreciate you being upfront about your budget constraints." },
+        { "phrase": "Let's establish some parameters first", "meaning": "Suggests agreeing on boundaries before details.", "example": "Let's establish some parameters first, like budget range and timeline." },
+        { "phrase": "I want this to be fair for both sides", "meaning": "Signals a good-faith approach to negotiation.", "example": "I want this to be fair for both sides, not just favorable to us." },
+        { "phrase": "Walk me through your requirements", "meaning": "Asks the other party to explain their needs.", "example": "Walk me through your requirements before we propose numbers." },
+        { "phrase": "Let's set expectations early", "meaning": "Suggests clarifying goals at the start.", "example": "Let's set expectations early so there are no surprises later." },
+        { "phrase": "I want to avoid any misunderstandings later", "meaning": "Signals a wish for clarity upfront.", "example": "I want to avoid any misunderstandings later, so let's be specific now." },
+        { "phrase": "What's your ideal outcome here?", "meaning": "Asks what the other party ultimately wants.", "example": "What's your ideal outcome here in terms of timeline and cost?" }
+      ]
+    },
+    {
+      "category": "Making and Responding to Offers",
+      "phrases": [
+        { "phrase": "Here's what we can offer", "meaning": "Presents a proposal.", "example": "Here's what we can offer within your budget." },
+        { "phrase": "Would you be open to...?", "meaning": "Politely proposes an alternative.", "example": "Would you be open to a longer contract for a lower rate?" },
+        { "phrase": "That's a bit steep for us", "meaning": "Politely says a price is too high.", "example": "That's a bit steep for us given the current budget." },
+        { "phrase": "Can we meet in the middle?", "meaning": "Suggests a compromise.", "example": "Can we meet in the middle on the delivery date?" },
+        { "phrase": "I can sweeten the deal by...", "meaning": "Offers an added incentive.", "example": "I can sweeten the deal by including free onboarding." },
+        { "phrase": "That works for us", "meaning": "Accepts a proposal.", "example": "That works for us - let's move forward." },
+        { "phrase": "We'd need some flexibility on...", "meaning": "Requests adjustment on a specific term.", "example": "We'd need some flexibility on the payment schedule." },
+        { "phrase": "Let me run this by my team", "meaning": "Delays a decision to consult others.", "example": "Let me run this by my team before confirming." },
+        { "phrase": "Is there any room to negotiate?", "meaning": "Asks if the price/terms are flexible.", "example": "Is there any room to negotiate on the annual fee?" },
+        { "phrase": "That's close to what we had in mind", "meaning": "Signals near-agreement.", "example": "That's close to what we had in mind - just a small gap left." },
+        { "phrase": "We'd need that in writing", "meaning": "Requests formal confirmation of a term.", "example": "We'd need that in writing before we proceed." },
+        { "phrase": "Let's lock this in", "meaning": "Suggests finalizing an agreed term.", "example": "Let's lock this in before the offer expires." },
+        { "phrase": "I'll need to check on that and get back to you", "meaning": "Delays answering to verify details.", "example": "I'll need to check on that and get back to you tomorrow." }
+      ]
+    },
+    {
+      "category": "Handling Pushback and Closing",
+      "phrases": [
+        { "phrase": "I understand your concern, but...", "meaning": "Acknowledges an objection before responding.", "example": "I understand your concern, but the quality justifies the cost." },
+        { "phrase": "Let's revisit this point later", "meaning": "Defers a sticking point for now.", "example": "Let's revisit this point later once we've covered the basics." },
+        { "phrase": "That's our final offer", "meaning": "Signals no further negotiation on price.", "example": "That's our final offer given the current market." },
+        { "phrase": "We're at an impasse", "meaning": "Signals negotiations have stalled.", "example": "We're at an impasse on the delivery timeline." },
+        { "phrase": "Let's take a step back and reassess", "meaning": "Suggests pausing to reconsider the approach.", "example": "Let's take a step back and reassess our options." },
+        { "phrase": "What would it take to make this work?", "meaning": "Asks what conditions would lead to agreement.", "example": "What would it take to make this work for both of us?" },
+        { "phrase": "I don't think we can go lower than that", "meaning": "States a firm limit.", "example": "I don't think we can go lower than that and still be profitable." },
+        { "phrase": "Let's shake on it", "meaning": "Signals informal agreement (idiom).", "example": "Deal - let's shake on it." },
+        { "phrase": "We have a deal", "meaning": "Confirms agreement has been reached.", "example": "We have a deal - I'll send the contract today." },
+        { "phrase": "Let's get this in a formal agreement", "meaning": "Moves to formalize the deal.", "example": "Let's get this in a formal agreement by end of week." },
+        { "phrase": "I'll draft the contract based on this", "meaning": "Commits to writing up the agreed terms.", "example": "I'll draft the contract based on this and send it over." },
+        { "phrase": "Pleasure doing business with you", "meaning": "A polite closing remark after a deal.", "example": "Pleasure doing business with you - looking forward to working together." },
+        { "phrase": "Let's touch base once the paperwork is signed", "meaning": "Suggests a follow-up after formalizing.", "example": "Let's touch base once the paperwork is signed." },
+        { "phrase": "I'll hold this offer open until Friday", "meaning": "Sets a deadline on an offer.", "example": "I'll hold this offer open until Friday, after that it may change." },
+        { "phrase": "We're happy to move forward on these terms", "meaning": "Confirms acceptance of conditions.", "example": "We're happy to move forward on these terms." },
+        { "phrase": "Let's not let this fall through", "meaning": "Urges keeping the deal on track.", "example": "Let's not let this fall through over small details." },
+        { "phrase": "I'll need sign-off from my manager first", "meaning": "Notes approval is needed before finalizing.", "example": "I'll need sign-off from my manager first before we confirm." },
+        { "phrase": "Thanks for negotiating in good faith", "meaning": "Acknowledges honest, fair negotiation.", "example": "Thanks for negotiating in good faith - it made this easy." },
+        { "phrase": "Let's finalize the details over email", "meaning": "Moves remaining logistics to writing.", "example": "Let's finalize the details over email so we have it in writing." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase suggests a compromise between two positions?", "options": ["That's our final offer", "Can we meet in the middle?", "We're at an impasse", "Let's shake on it"], "answer": "Can we meet in the middle?", "explanation": "This proposes a compromise between two differing positions." },
+    { "type": "mcq", "question": "Which phrase signals negotiations have stalled?", "options": ["We have a deal", "We're at an impasse", "That works for us", "Let's lock this in"], "answer": "We're at an impasse", "explanation": "An 'impasse' means neither side can move forward." },
+    { "type": "mcq", "question": "Which phrase confirms an agreement has been reached?", "options": ["Let's talk numbers", "We have a deal", "Is there any room to negotiate?", "Let's take a step back"], "answer": "We have a deal", "explanation": "This directly confirms the negotiation concluded successfully." },
+    { "type": "fill", "question": "I appreciate you being ___ about your budget constraints. (honest)", "answer": "upfront", "explanation": "'Upfront' means honest and direct." },
+    { "type": "mcq", "question": "Which phrase offers an added incentive to close a deal?", "options": ["I can sweeten the deal by...", "We're at an impasse", "Let's revisit this point later", "That's a bit steep for us"], "answer": "I can sweeten the deal by...", "explanation": "'Sweeten the deal' means to add extra value to make an offer more attractive." }
+  ]
+}

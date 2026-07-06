@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Interviews & Career Growth - 50 Phrases",
+  "definition": "50 phrases for job interviews, career conversations, and discussing growth and promotions professionally.",
+  "phraseGroups": [
+    {
+      "category": "Interview Introductions and Strengths",
+      "phrases": [
+        { "phrase": "Tell me a bit about yourself", "meaning": "A common opening interview question.", "example": "Tell me a bit about yourself and your background." },
+        { "phrase": "I have a strong background in...", "meaning": "Introduces relevant experience.", "example": "I have a strong background in project management." },
+        { "phrase": "One of my key strengths is...", "meaning": "Highlights a specific skill.", "example": "One of my key strengths is problem-solving under pressure." },
+        { "phrase": "I'm particularly proud of...", "meaning": "Introduces a notable achievement.", "example": "I'm particularly proud of leading my first cross-team project." },
+        { "phrase": "In my previous role, I was responsible for...", "meaning": "Describes past job duties.", "example": "In my previous role, I was responsible for the entire onboarding process." },
+        { "phrase": "I bring a unique perspective because...", "meaning": "Explains what makes you distinct.", "example": "I bring a unique perspective because of my cross-industry experience." },
+        { "phrase": "I thrive in fast-paced environments", "meaning": "Describes a work style preference.", "example": "I thrive in fast-paced environments with shifting priorities." },
+        { "phrase": "I'm a quick learner and adapt easily", "meaning": "Highlights adaptability.", "example": "I'm a quick learner and adapt easily to new tools." },
+        { "phrase": "I take initiative without needing to be asked", "meaning": "Describes proactive behavior.", "example": "I take initiative without needing to be asked, even in ambiguous situations." },
+        { "phrase": "I enjoy mentoring junior team members", "meaning": "Highlights leadership/coaching inclination.", "example": "I enjoy mentoring junior team members whenever I can." },
+        { "phrase": "My biggest achievement so far is...", "meaning": "Introduces a career highlight.", "example": "My biggest achievement so far is scaling our support team." },
+        { "phrase": "I'm known for being detail-oriented", "meaning": "Describes a reputation trait.", "example": "I'm known for being detail-oriented, even under deadline pressure." },
+        { "phrase": "I work well independently and in teams", "meaning": "Describes flexible working style.", "example": "I work well independently and in teams, depending on the project." }
+      ]
+    },
+    {
+      "category": "Answering Tough Questions",
+      "phrases": [
+        { "phrase": "One area I'm actively working on is...", "meaning": "A constructive way to discuss a weakness.", "example": "One area I'm actively working on is public speaking." },
+        { "phrase": "That's a fair question, let me think", "meaning": "Buys a moment to consider a hard question.", "example": "That's a fair question, let me think about a good example." },
+        { "phrase": "I learned a lot from that experience", "meaning": "Frames a failure or mistake positively.", "example": "I learned a lot from that experience, especially about communication." },
+        { "phrase": "Looking back, I would approach it differently", "meaning": "Reflects on how you'd change a past decision.", "example": "Looking back, I would approach it differently by asking for help sooner." },
+        { "phrase": "I left that role to pursue new challenges", "meaning": "Explains a career transition positively.", "example": "I left that role to pursue new challenges in product management." },
+        { "phrase": "I'm looking for more growth opportunities", "meaning": "Explains motivation for a job change.", "example": "I'm looking for more growth opportunities than my current role offers." },
+        { "phrase": "I handle pressure by staying organized", "meaning": "Describes a coping strategy for stress.", "example": "I handle pressure by staying organized and prioritizing." },
+        { "phrase": "I welcome feedback as a chance to grow", "meaning": "Describes a positive attitude toward criticism.", "example": "I welcome feedback as a chance to grow professionally." },
+        { "phrase": "That situation taught me the value of...", "meaning": "Extracts a lesson from a difficult experience.", "example": "That situation taught me the value of clear communication." },
+        { "phrase": "I'd describe my work style as collaborative", "meaning": "Describes preferred way of working.", "example": "I'd describe my work style as collaborative but self-directed." },
+        { "phrase": "I stay calm and focus on solutions", "meaning": "Describes handling of difficult situations.", "example": "I stay calm and focus on solutions rather than the problem." },
+        { "phrase": "I'm comfortable with ambiguity", "meaning": "Signals adaptability to unclear situations.", "example": "I'm comfortable with ambiguity and figuring things out as I go." },
+        { "phrase": "I always ask for clarification when unsure", "meaning": "Describes proactive communication habits.", "example": "I always ask for clarification when unsure rather than guessing." },
+        { "phrase": "I see that as a growth opportunity, not a setback", "meaning": "Reframes challenges positively.", "example": "I see that as a growth opportunity, not a setback." }
+      ]
+    },
+    {
+      "category": "Career Growth and Promotion Conversations",
+      "phrases": [
+        { "phrase": "I'd like to discuss my career path here", "meaning": "Opens a conversation about advancement.", "example": "I'd like to discuss my career path here with you." },
+        { "phrase": "What would it take for me to reach the next level?", "meaning": "Asks about promotion criteria.", "example": "What would it take for me to reach the next level?" },
+        { "phrase": "I'm ready to take on more responsibility", "meaning": "Signals readiness for growth.", "example": "I'm ready to take on more responsibility this year." },
+        { "phrase": "I've been reflecting on my next steps", "meaning": "Introduces a discussion about future direction.", "example": "I've been reflecting on my next steps in my career." },
+        { "phrase": "I'd love your feedback on my growth areas", "meaning": "Requests input on development opportunities.", "example": "I'd love your feedback on my growth areas this quarter." },
+        { "phrase": "I want to make sure I'm on the right track for promotion", "meaning": "Checks alignment with advancement goals.", "example": "I want to make sure I'm on the right track for promotion." },
+        { "phrase": "What skills should I develop to grow into this role?", "meaning": "Asks about skill gaps for advancement.", "example": "What skills should I develop to grow into this role?" },
+        { "phrase": "I'd like to be considered for the next opening", "meaning": "Expresses interest in a future role.", "example": "I'd like to be considered for the next opening on the team." },
+        { "phrase": "I've taken on stretch projects to grow my skills", "meaning": "Describes proactive skill development.", "example": "I've taken on stretch projects to grow my skills this year." },
+        { "phrase": "I'm hoping to move into a leadership role", "meaning": "States a career goal.", "example": "I'm hoping to move into a leadership role within a year." },
+        { "phrase": "Can we set some development goals together?", "meaning": "Proposes collaborative goal-setting.", "example": "Can we set some development goals together for this quarter?" },
+        { "phrase": "I appreciate the opportunities I've had here", "meaning": "Expresses gratitude for career experiences.", "example": "I appreciate the opportunities I've had here to grow." },
+        { "phrase": "I'm exploring what's next for my career", "meaning": "Signals openness to new directions.", "example": "I'm exploring what's next for my career at this point." },
+        { "phrase": "I'd welcome a stretch assignment", "meaning": "Expresses interest in a challenging opportunity.", "example": "I'd welcome a stretch assignment to build new skills." },
+        { "phrase": "Thank you for considering me for this opportunity", "meaning": "A polite, appreciative statement in a career context.", "example": "Thank you for considering me for this opportunity." },
+        { "phrase": "I'm excited about where this role could lead", "meaning": "Expresses enthusiasm about long-term potential.", "example": "I'm excited about where this role could lead in the future." },
+        { "phrase": "I want to make sure my contributions are visible", "meaning": "Advocates for recognition of one's work.", "example": "I want to make sure my contributions are visible to leadership." },
+        { "phrase": "I'd like a clear timeline for this promotion discussion", "meaning": "Requests clarity on advancement plans.", "example": "I'd like a clear timeline for this promotion discussion." },
+        { "phrase": "I'm committed to growing within this company", "meaning": "Signals long-term intent to stay and develop.", "example": "I'm committed to growing within this company." },
+        { "phrase": "Thank you for investing in my development", "meaning": "Expresses appreciation for career support.", "example": "Thank you for investing in my development this year." },
+        { "phrase": "I look forward to taking on this new challenge", "meaning": "Expresses enthusiasm for a new role or task.", "example": "I look forward to taking on this new challenge." },
+        { "phrase": "I'm grateful for the trust you've placed in me", "meaning": "Thanks someone for career opportunities given.", "example": "I'm grateful for the trust you've placed in me on this project." },
+        { "phrase": "Do you have any questions for me?", "meaning": "A standard closing question in interviews.", "example": "Do you have any questions for me about the role?" }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase is a constructive way to talk about a weakness in an interview?", "options": ["One area I'm actively working on is...", "I'm ready to take on more responsibility", "Do you have any questions for me?", "I'd love your feedback on my growth areas"], "answer": "One area I'm actively working on is...", "explanation": "This frames a weakness as an active area of improvement." },
+    { "type": "mcq", "question": "Which phrase asks what's needed for a promotion?", "options": ["What would it take for me to reach the next level?", "Tell me a bit about yourself", "I stay calm and focus on solutions", "I'm comfortable with ambiguity"], "answer": "What would it take for me to reach the next level?", "explanation": "This directly asks about promotion criteria." },
+    { "type": "mcq", "question": "Which phrase reframes a past failure positively?", "options": ["I learned a lot from that experience", "I'm known for being detail-oriented", "I'd like to be considered for the next opening", "I take initiative without needing to be asked"], "answer": "I learned a lot from that experience", "explanation": "This frames a difficult experience as a learning opportunity." },
+    { "type": "fill", "question": "I'm looking for more growth ___ than my current role offers.", "answer": "opportunities", "explanation": "This explains motivation for seeking a new role." },
+    { "type": "mcq", "question": "Which is a standard closing question asked in interviews?", "options": ["Do you have any questions for me?", "I bring a unique perspective because...", "I've taken on stretch projects to grow my skills", "I'd welcome a stretch assignment"], "answer": "Do you have any questions for me?", "explanation": "This is a common closing question interviewers ask candidates." }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Meetings & Discussions - 50 Phrases",
+  "definition": "50 phrases for running, joining, and contributing to meetings - from opening the agenda to wrapping up with action items.",
+  "phraseGroups": [
+    {
+      "category": "Starting and Structuring a Meeting",
+      "phrases": [
+        { "phrase": "Let's get started", "meaning": "Signals the meeting is beginning.", "example": "Let's get started - we have a lot to cover today." },
+        { "phrase": "Thanks for joining, everyone", "meaning": "A polite opening acknowledging attendees.", "example": "Thanks for joining, everyone, especially those calling in late at night." },
+        { "phrase": "Let's run through the agenda", "meaning": "Signals you'll go over the planned topics.", "example": "Let's run through the agenda before we dive in." },
+        { "phrase": "We have three items to cover today", "meaning": "States how many topics will be discussed.", "example": "We have three items to cover today: budget, hiring, and the roadmap." },
+        { "phrase": "First on the agenda is...", "meaning": "Introduces the first topic.", "example": "First on the agenda is the Q3 sales report." },
+        { "phrase": "Let's keep this to 30 minutes", "meaning": "Sets a time limit for the meeting.", "example": "Let's keep this to 30 minutes since everyone has back-to-back calls." },
+        { "phrase": "I'll be taking notes today", "meaning": "Announces who is recording minutes.", "example": "I'll be taking notes today and share them afterward." },
+        { "phrase": "Feel free to jump in at any time", "meaning": "Invites open participation.", "example": "Feel free to jump in at any time if you have questions." },
+        { "phrase": "Let's go around the room", "meaning": "Asks each person to speak in turn.", "example": "Let's go around the room and hear everyone's update." },
+        { "phrase": "Who wants to kick things off?", "meaning": "Asks for a volunteer to start the discussion.", "example": "Who wants to kick things off with their department update?" },
+        { "phrase": "Let's set some ground rules", "meaning": "Establishes expectations for the meeting.", "example": "Let's set some ground rules - one speaker at a time, please." },
+        { "phrase": "I'll hand it over to Priya to start", "meaning": "Passes control of the meeting to someone else.", "example": "I'll hand it over to Priya to start with the budget update." },
+        { "phrase": "Let's dive right in", "meaning": "Signals moving straight into the discussion.", "example": "No small talk today - let's dive right in." },
+        { "phrase": "Before we begin, any quick updates?", "meaning": "Opens the floor for brief announcements first.", "example": "Before we begin, any quick updates from last week?" },
+        { "phrase": "This meeting is being recorded", "meaning": "Informs attendees the session is recorded.", "example": "Just a heads-up, this meeting is being recorded for those who can't attend." },
+        { "phrase": "Let's confirm everyone can hear me", "meaning": "Checks audio is working before starting.", "example": "Let's confirm everyone can hear me before we start." }
+      ]
+    },
+    {
+      "category": "Participating and Contributing",
+      "phrases": [
+        { "phrase": "Can I add something here?", "meaning": "Politely requests to contribute a point.", "example": "Can I add something here about the timeline?" },
+        { "phrase": "Building on what Raj said...", "meaning": "Adds to a previous point without repeating it.", "example": "Building on what Raj said, I think we also need QA sign-off." },
+        { "phrase": "To piggyback on that idea...", "meaning": "Extends someone else's point.", "example": "To piggyback on that idea, we could automate this step too." },
+        { "phrase": "I'd like to raise a concern", "meaning": "Introduces a worry or objection.", "example": "I'd like to raise a concern about the current timeline." },
+        { "phrase": "Just to play devil's advocate...", "meaning": "Introduces a counter-argument for discussion's sake.", "example": "Just to play devil's advocate, what if the client says no?" },
+        { "phrase": "I see it a bit differently", "meaning": "Politely shares an alternative view.", "example": "I see it a bit differently - I think we should prioritize stability first." },
+        { "phrase": "Let's put a pin in that", "meaning": "Suggests postponing a topic for later.", "example": "Let's put a pin in that and come back to it after the demo." },
+        { "phrase": "Can we table this for now?", "meaning": "Suggests deferring a discussion.", "example": "Can we table this for now and revisit next week?" },
+        { "phrase": "I want to make sure we're aligned", "meaning": "Checks that everyone agrees on the plan.", "example": "I want to make sure we're aligned before we move forward." },
+        { "phrase": "Let's stay on track", "meaning": "Redirects a conversation back to the agenda.", "example": "Let's stay on track - we can discuss that in the next meeting." },
+        { "phrase": "That's a bit out of scope for today", "meaning": "Notes a topic doesn't belong in the current meeting.", "example": "That's a bit out of scope for today, let's park it." },
+        { "phrase": "Can we get a temperature check?", "meaning": "Asks for a quick sense of group opinion.", "example": "Can we get a temperature check on this proposal?" },
+        { "phrase": "I'll defer to the team on this", "meaning": "Lets others make the final call.", "example": "I'll defer to the team on this since they know the codebase better." },
+        { "phrase": "Let's not lose sight of the goal", "meaning": "Refocuses attention on the main objective.", "example": "Let's not lose sight of the goal - shipping by Friday." },
+        { "phrase": "Can you unpack that a bit more?", "meaning": "Asks someone to explain their point in more detail.", "example": "Can you unpack that a bit more? I want to understand the risk." },
+        { "phrase": "I'm hearing two different opinions here", "meaning": "Notes disagreement in the room.", "example": "I'm hearing two different opinions here - let's vote on it." },
+        { "phrase": "Let's take this offline", "meaning": "Suggests discussing something outside the meeting.", "example": "Let's take this offline - it's a side conversation for two people." }
+      ]
+    },
+    {
+      "category": "Closing and Follow-up",
+      "phrases": [
+        { "phrase": "Let's wrap up", "meaning": "Signals the meeting is ending.", "example": "Let's wrap up - we're almost out of time." },
+        { "phrase": "To summarize what we discussed...", "meaning": "Recaps the main points.", "example": "To summarize what we discussed, we're moving the launch to Monday." },
+        { "phrase": "Let's confirm the action items", "meaning": "Reviews the tasks assigned.", "example": "Let's confirm the action items before we drop off." },
+        { "phrase": "Who owns this task?", "meaning": "Asks who is responsible for a follow-up.", "example": "Who owns this task going forward?" },
+        { "phrase": "I'll send out the minutes by EOD", "meaning": "Promises to share meeting notes by end of day.", "example": "I'll send out the minutes by EOD for anyone who missed it." },
+        { "phrase": "Same time next week?", "meaning": "Proposes scheduling a follow-up meeting.", "example": "Same time next week to check progress?" },
+        { "phrase": "Thanks for your time, everyone", "meaning": "A polite closing remark.", "example": "Thanks for your time, everyone - great discussion today." },
+        { "phrase": "Let's circle back on this next sprint", "meaning": "Defers a topic to a future check-in.", "example": "Let's circle back on this next sprint once we have more data." },
+        { "phrase": "Does anyone have anything to add before we close?", "meaning": "Gives a final chance to speak.", "example": "Does anyone have anything to add before we close the call?" },
+        { "phrase": "I think we've covered everything", "meaning": "Confirms the agenda is complete.", "example": "I think we've covered everything on the agenda today." },
+        { "phrase": "Great meeting, thanks all", "meaning": "A friendly, casual sign-off.", "example": "Great meeting, thanks all - talk soon." },
+        { "phrase": "Let's follow up over email", "meaning": "Suggests continuing the discussion in writing.", "example": "Let's follow up over email with the final numbers." },
+        { "phrase": "I'll block time on the calendar for this", "meaning": "Promises to schedule dedicated time for a task.", "example": "I'll block time on the calendar for this next week." },
+        { "phrase": "Appreciate everyone making time today", "meaning": "Thanks attendees for their time.", "example": "Appreciate everyone making time today, especially on short notice." },
+        { "phrase": "Let's reconvene once we have updates", "meaning": "Suggests meeting again after more information is available.", "example": "Let's reconvene once we have updates from the vendor." },
+        { "phrase": "I'll keep you posted on next steps", "meaning": "Promises to share updates going forward.", "example": "I'll keep you posted on next steps as soon as I hear back." },
+        { "phrase": "That's a wrap", "meaning": "A casual way to say the meeting has ended.", "example": "That's a wrap - see everyone at the next stand-up." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase politely defers a topic to later?", "options": ["Let's dive right in", "Let's put a pin in that", "Let's get started", "That's a wrap"], "answer": "Let's put a pin in that", "explanation": "It suggests returning to the topic later without dismissing it." },
+    { "type": "mcq", "question": "Which phrase asks who is responsible for a task?", "options": ["Who owns this task?", "Who wants to kick things off?", "Can I add something here?", "Same time next week?"], "answer": "Who owns this task?", "explanation": "This directly asks for ownership/accountability." },
+    { "type": "mcq", "question": "Which phrase suggests moving a side discussion outside the meeting?", "options": ["Let's stay on track", "Let's take this offline", "Let's wrap up", "Let's dive right in"], "answer": "Let's take this offline", "explanation": "'Take this offline' means discuss it separately, outside the main meeting." },
+    { "type": "fill", "question": "___ what we discussed, we're moving the launch to Monday.", "answer": "To summarize", "explanation": "'To summarize' introduces a recap of key points." },
+    { "type": "mcq", "question": "Which phrase invites a quick group opinion?", "options": ["Can we get a temperature check?", "I'll send out the minutes by EOD", "Let's set some ground rules", "That's a wrap"], "answer": "Can we get a temperature check?", "explanation": "A 'temperature check' asks for a quick read of the room's opinion." }
+  ]
+}

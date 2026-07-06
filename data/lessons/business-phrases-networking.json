@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Networking & Small Talk - 50 Phrases",
+  "definition": "50 phrases for introducing yourself, making small talk, and building professional connections at events, conferences, and casual work moments.",
+  "phraseGroups": [
+    {
+      "category": "Introductions and Icebreakers",
+      "phrases": [
+        { "phrase": "I don't think we've met - I'm Ravi", "meaning": "A polite way to introduce yourself.", "example": "I don't think we've met - I'm Ravi, from the marketing team." },
+        { "phrase": "What brings you here today?", "meaning": "Asks why someone is attending an event.", "example": "What brings you here today - are you speaking or attending?" },
+        { "phrase": "How do you know the organizer?", "meaning": "A common icebreaker question.", "example": "How do you know the organizer? I used to work with her." },
+        { "phrase": "Mind if I join you?", "meaning": "Politely asks to join a conversation.", "example": "Mind if I join you? I couldn't help overhearing your discussion." },
+        { "phrase": "I've heard a lot about you", "meaning": "A friendly opener when meeting someone by reputation.", "example": "I've heard a lot about you from Priya." },
+        { "phrase": "Small world!", "meaning": "An expression of surprise at a coincidental connection.", "example": "Small world! I used to work at the same company." },
+        { "phrase": "What line of work are you in?", "meaning": "Asks about someone's profession.", "example": "What line of work are you in these days?" },
+        { "phrase": "I recognize you from LinkedIn", "meaning": "References an online connection in person.", "example": "I recognize you from LinkedIn - great to finally meet in person." },
+        { "phrase": "Let's exchange contact details", "meaning": "Suggests sharing contact information.", "example": "Let's exchange contact details before we head out." },
+        { "phrase": "Here's my card", "meaning": "Offers a business card.", "example": "Here's my card - feel free to reach out anytime." },
+        { "phrase": "I'd love to stay in touch", "meaning": "Expresses interest in maintaining contact.", "example": "I'd love to stay in touch - let's connect on LinkedIn." },
+        { "phrase": "This is my first time at this event", "meaning": "Shares context about your experience level with the event.", "example": "This is my first time at this event - any recommendations?" },
+        { "phrase": "I go way back with the host", "meaning": "Indicates a long-standing relationship.", "example": "I go way back with the host - we studied together." },
+        { "phrase": "Have you been to one of these before?", "meaning": "Asks about prior attendance at similar events.", "example": "Have you been to one of these before? It's my first time." },
+        { "phrase": "What made you get into this field?", "meaning": "Asks about someone's career path.", "example": "What made you get into this field originally?" },
+        { "phrase": "I'll let you get back to mingling", "meaning": "Politely ends a brief conversation.", "example": "I'll let you get back to mingling - great chatting with you." }
+      ]
+    },
+    {
+      "category": "Casual Conversation and Rapport",
+      "phrases": [
+        { "phrase": "How's business been treating you?", "meaning": "Asks how someone's work is going.", "example": "How's business been treating you this year?" },
+        { "phrase": "Busy season for you too?", "meaning": "Asks if the other person is also busy.", "example": "Busy season for you too, or is it just us?" },
+        { "phrase": "I could use a coffee break myself", "meaning": "A casual, relatable comment.", "example": "I could use a coffee break myself after that session." },
+        { "phrase": "That session was really insightful", "meaning": "Comments positively on a talk or presentation.", "example": "That session was really insightful, wasn't it?" },
+        { "phrase": "Are you enjoying the conference so far?", "meaning": "Asks about someone's experience at an event.", "example": "Are you enjoying the conference so far?" },
+        { "phrase": "Any sessions you'd recommend?", "meaning": "Asks for suggestions at an event.", "example": "Any sessions you'd recommend for tomorrow?" },
+        { "phrase": "The traffic getting here was brutal", "meaning": "Casual small talk about commuting.", "example": "The traffic getting here was brutal this morning." },
+        { "phrase": "How long have you been with the company?", "meaning": "Asks about someone's tenure.", "example": "How long have you been with the company?" },
+        { "phrase": "What's keeping you busy these days?", "meaning": "A casual way to ask about someone's work.", "example": "What's keeping you busy these days at work?" },
+        { "phrase": "I hear you're expanding the team", "meaning": "References something you've heard about their company.", "example": "I hear you're expanding the team - congrats!" },
+        { "phrase": "It's been a whirlwind of a year", "meaning": "Describes a busy, eventful year.", "example": "It's been a whirlwind of a year for us too." },
+        { "phrase": "Same here, no complaints", "meaning": "A casual, positive response to small talk.", "example": "Same here, no complaints - business is good." },
+        { "phrase": "That's a great point you raised earlier", "meaning": "Compliments something said previously.", "example": "That's a great point you raised earlier in the panel." },
+        { "phrase": "I really enjoyed your talk", "meaning": "Compliments a presentation.", "example": "I really enjoyed your talk on remote leadership." },
+        { "phrase": "We should grab coffee sometime", "meaning": "Suggests meeting up casually later.", "example": "We should grab coffee sometime and swap notes." },
+        { "phrase": "Let's catch up properly soon", "meaning": "Suggests a longer conversation later.", "example": "Let's catch up properly soon, this was too quick." },
+        { "phrase": "How do you like working there?", "meaning": "Asks about someone's experience at their company.", "example": "How do you like working there so far?" }
+      ]
+    },
+    {
+      "category": "Following Up and Building Relationships",
+      "phrases": [
+        { "phrase": "It was a pleasure meeting you", "meaning": "A polite closing remark after a conversation.", "example": "It was a pleasure meeting you, hope to see you again." },
+        { "phrase": "Let's continue this conversation over email", "meaning": "Suggests following up later in writing.", "example": "Let's continue this conversation over email next week." },
+        { "phrase": "I'll send you that article I mentioned", "meaning": "Promises to share something discussed.", "example": "I'll send you that article I mentioned about AI in retail." },
+        { "phrase": "Thanks for the introduction", "meaning": "Expresses gratitude for being connected with someone.", "example": "Thanks for the introduction, really appreciate it." },
+        { "phrase": "I'd love to pick your brain sometime", "meaning": "Requests advice or insight from someone experienced.", "example": "I'd love to pick your brain sometime about your career path." },
+        { "phrase": "Let's find a time to connect properly", "meaning": "Suggests a dedicated follow-up meeting.", "example": "Let's find a time to connect properly next month." },
+        { "phrase": "I'll add you on LinkedIn", "meaning": "Suggests connecting on a professional network.", "example": "I'll add you on LinkedIn so we stay in touch." },
+        { "phrase": "Great meeting you - let's stay connected", "meaning": "A friendly closing with intent to keep in touch.", "example": "Great meeting you - let's stay connected." },
+        { "phrase": "I really valued this conversation", "meaning": "Expresses appreciation for a meaningful discussion.", "example": "I really valued this conversation, thank you for your time." },
+        { "phrase": "Let me know if I can ever help", "meaning": "Offers future assistance.", "example": "Let me know if I can ever help with your hiring." },
+        { "phrase": "Would you be open to a mentorship chat?", "meaning": "Requests guidance from a more experienced person.", "example": "Would you be open to a mentorship chat sometime?" },
+        { "phrase": "I'll introduce you to a few people here", "meaning": "Offers to connect someone with others.", "example": "I'll introduce you to a few people here you should know." },
+        { "phrase": "Let's schedule a proper call to explore this", "meaning": "Suggests a follow-up conversation for a specific idea.", "example": "Let's schedule a proper call to explore this partnership." },
+        { "phrase": "I'll keep you in mind for future opportunities", "meaning": "Notes intent to consider someone later.", "example": "I'll keep you in mind for future opportunities on our team." },
+        { "phrase": "Thanks for taking the time to chat", "meaning": "Expresses gratitude for someone's time.", "example": "Thanks for taking the time to chat today." },
+        { "phrase": "Looking forward to crossing paths again", "meaning": "A warm way to say goodbye at an event.", "example": "Looking forward to crossing paths again soon." },
+        { "phrase": "Let's plan to attend the next one together", "meaning": "Suggests future collaboration at similar events.", "example": "Let's plan to attend the next one together." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase is a polite way to introduce yourself to a stranger?", "options": ["I don't think we've met - I'm Ravi", "Same here, no complaints", "Let's find a time to connect properly", "Thanks for the introduction"], "answer": "I don't think we've met - I'm Ravi", "explanation": "This is a standard, polite self-introduction." },
+    { "type": "mcq", "question": "Which phrase asks for career advice from someone experienced?", "options": ["I'd love to pick your brain sometime", "How's business been treating you?", "Small world!", "What brings you here today?"], "answer": "I'd love to pick your brain sometime", "explanation": "'Pick your brain' means to ask for insight/advice." },
+    { "type": "mcq", "question": "Which phrase politely offers a business card?", "options": ["Here's my card", "That's a great point you raised earlier", "We should grab coffee sometime", "I go way back with the host"], "answer": "Here's my card", "explanation": "This directly offers your contact information." },
+    { "type": "fill", "question": "___ meeting you - hope to see you again. (polite closing)", "answer": "It was a pleasure", "explanation": "'It was a pleasure meeting you' is a standard polite closing." },
+    { "type": "mcq", "question": "Which phrase expresses surprise at an unexpected shared connection?", "options": ["Small world!", "Let's stay connected", "Any sessions you'd recommend?", "I'll add you on LinkedIn"], "answer": "Small world!", "explanation": "This idiom expresses surprise at a coincidental connection." }
+  ]
+}

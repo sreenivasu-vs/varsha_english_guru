@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Client Relations - 50 Phrases",
+  "definition": "50 phrases for managing client relationships - updates, expectations, escalations, and building long-term trust.",
+  "phraseGroups": [
+    {
+      "category": "Managing Expectations and Updates",
+      "phrases": [
+        { "phrase": "I want to keep you in the loop on this", "meaning": "Commits to ongoing communication.", "example": "I want to keep you in the loop on this project's progress." },
+        { "phrase": "Here's a status update on where things stand", "meaning": "Provides a progress summary.", "example": "Here's a status update on where things stand with the delivery." },
+        { "phrase": "We're on track to meet the agreed timeline", "meaning": "Confirms a project is progressing as planned.", "example": "We're on track to meet the agreed timeline." },
+        { "phrase": "I want to set realistic expectations upfront", "meaning": "Avoids overpromising from the start.", "example": "I want to set realistic expectations upfront about the scope." },
+        { "phrase": "Let's align on what success looks like for this project", "meaning": "Clarifies shared goals with the client.", "example": "Let's align on what success looks like for this project." },
+        { "phrase": "I'll send you a weekly progress report", "meaning": "Commits to regular status updates.", "example": "I'll send you a weekly progress report every Friday." },
+        { "phrase": "There's been a slight change in scope", "meaning": "Notes an adjustment to project requirements.", "example": "There's been a slight change in scope since our last call." },
+        { "phrase": "We anticipate this will take a bit longer than planned", "meaning": "Prepares the client for a possible delay.", "example": "We anticipate this will take a bit longer than planned." },
+        { "phrase": "I'll flag any risks as soon as I see them", "meaning": "Commits to proactive communication about issues.", "example": "I'll flag any risks as soon as I see them, no surprises." },
+        { "phrase": "Let's schedule a regular check-in call", "meaning": "Establishes a recurring update meeting.", "example": "Let's schedule a regular check-in call every two weeks." },
+        { "phrase": "I want to make sure we're delivering what you need", "meaning": "Confirms alignment with client requirements.", "example": "I want to make sure we're delivering what you need, not just what we planned." },
+        { "phrase": "We'll adjust the plan based on your feedback", "meaning": "Commits to being responsive to client input.", "example": "We'll adjust the plan based on your feedback from today." },
+        { "phrase": "I appreciate your patience as we work through this", "meaning": "Thanks the client for tolerance during a process.", "example": "I appreciate your patience as we work through this issue." }
+      ]
+    },
+    {
+      "category": "Handling Concerns and Escalations",
+      "phrases": [
+        { "phrase": "I understand your frustration, let's resolve this", "meaning": "Validates concern and commits to a fix.", "example": "I understand your frustration, let's resolve this together." },
+        { "phrase": "I want to personally look into this for you", "meaning": "Takes personal ownership of an issue.", "example": "I want to personally look into this for you right away." },
+        { "phrase": "This is not the experience we want you to have", "meaning": "Acknowledges a service failure.", "example": "This is not the experience we want you to have with us." },
+        { "phrase": "Let me escalate this internally", "meaning": "Notes an issue will be raised to higher authority.", "example": "Let me escalate this internally to get a faster resolution." },
+        { "phrase": "I take full responsibility for this delay", "meaning": "Owns a mistake or shortfall.", "example": "I take full responsibility for this delay, I should have flagged it sooner." },
+        { "phrase": "We're treating this as a top priority", "meaning": "Signals urgent attention to an issue.", "example": "We're treating this as a top priority on our end." },
+        { "phrase": "Let's set up a call to talk through your concerns", "meaning": "Offers direct dialogue to address issues.", "example": "Let's set up a call to talk through your concerns in detail." },
+        { "phrase": "I hear you, and I want to make this right", "meaning": "Validates concern with commitment to fix it.", "example": "I hear you, and I want to make this right for you." },
+        { "phrase": "We're implementing changes to prevent this in future", "meaning": "Describes preventive action after an issue.", "example": "We're implementing changes to prevent this in future projects." },
+        { "phrase": "I know this isn't the update you were hoping for", "meaning": "Softens delivering unwelcome news.", "example": "I know this isn't the update you were hoping for, I'm sorry." },
+        { "phrase": "Let's discuss how we can regain your trust", "meaning": "Directly addresses damaged confidence.", "example": "Let's discuss how we can regain your trust going forward." },
+        { "phrase": "I'll make sure this gets the attention it deserves", "meaning": "Commits to giving an issue proper focus.", "example": "I'll make sure this gets the attention it deserves internally." },
+        { "phrase": "We value this relationship and want to fix this", "meaning": "Reaffirms commitment to the client relationship.", "example": "We value this relationship and want to fix this properly." },
+        { "phrase": "Thank you for your candor about this issue", "meaning": "Appreciates honest feedback from a client.", "example": "Thank you for your candor about this issue, it helps us improve." }
+      ]
+    },
+    {
+      "category": "Building Long-Term Relationships",
+      "phrases": [
+        { "phrase": "We're invested in your long-term success", "meaning": "Emphasizes commitment beyond a single project.", "example": "We're invested in your long-term success, not just this deliverable." },
+        { "phrase": "Let's discuss what's next for our partnership", "meaning": "Explores future collaboration opportunities.", "example": "Let's discuss what's next for our partnership this year." },
+        { "phrase": "I appreciate you trusting us with this project", "meaning": "Thanks the client for their business.", "example": "I appreciate you trusting us with this project." },
+        { "phrase": "We'd love to expand our work together", "meaning": "Proposes growing the business relationship.", "example": "We'd love to expand our work together into new areas." },
+        { "phrase": "Your feedback helps us improve our service", "meaning": "Values client input for growth.", "example": "Your feedback helps us improve our service continually." },
+        { "phrase": "We consider you a valued partner, not just a client", "meaning": "Elevates the relationship beyond transactional.", "example": "We consider you a valued partner, not just a client." },
+        { "phrase": "Let's do an annual review of our partnership", "meaning": "Suggests a periodic relationship check-in.", "example": "Let's do an annual review of our partnership's progress." },
+        { "phrase": "I'm grateful for the relationship we've built", "meaning": "Expresses appreciation for a long-term connection.", "example": "I'm grateful for the relationship we've built over the years." },
+        { "phrase": "We're always here if you need anything", "meaning": "Reassures ongoing availability.", "example": "We're always here if you need anything, day or night." },
+        { "phrase": "Let's explore how we can add more value for you", "meaning": "Seeks to deepen the client relationship.", "example": "Let's explore how we can add more value for you this year." },
+        { "phrase": "We'd welcome the opportunity to renew our contract", "meaning": "Expresses interest in continuing the relationship.", "example": "We'd welcome the opportunity to renew our contract." },
+        { "phrase": "Thank you for being a long-standing client", "meaning": "Appreciates a client's loyalty over time.", "example": "Thank you for being a long-standing client of ours." },
+        { "phrase": "We'd be honored to take on this next phase with you", "meaning": "Expresses enthusiasm for continued collaboration.", "example": "We'd be honored to take on this next phase with you." },
+        { "phrase": "Let's celebrate this milestone in our partnership", "meaning": "Marks a significant achievement together.", "example": "Let's celebrate this milestone in our partnership - five years!" },
+        { "phrase": "We're always looking for ways to serve you better", "meaning": "Expresses ongoing commitment to improvement.", "example": "We're always looking for ways to serve you better." },
+        { "phrase": "I'd love to hear how we're doing from your perspective", "meaning": "Invites honest feedback on performance.", "example": "I'd love to hear how we're doing from your perspective." },
+        { "phrase": "Thank you for the continued trust in our team", "meaning": "Expresses gratitude for ongoing confidence.", "example": "Thank you for the continued trust in our team." },
+        { "phrase": "We look forward to many more years of collaboration", "meaning": "Expresses hope for a lasting relationship.", "example": "We look forward to many more years of collaboration." },
+        { "phrase": "Please don't hesitate to reach out anytime", "meaning": "Reassures easy accessibility.", "example": "Please don't hesitate to reach out anytime you need us." },
+        { "phrase": "It's been a pleasure working with you on this", "meaning": "A warm closing remark on a project.", "example": "It's been a pleasure working with you on this, truly." },
+        { "phrase": "We appreciate you being a great partner throughout", "meaning": "Thanks the client for good collaboration.", "example": "We appreciate you being a great partner throughout this project." },
+        { "phrase": "Here's to a successful continued partnership", "meaning": "A toast-like phrase celebrating ongoing collaboration.", "example": "Here's to a successful continued partnership!" },
+        { "phrase": "Thank you for choosing us again", "meaning": "Appreciates repeat business.", "example": "Thank you for choosing us again for this project." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase takes personal ownership of resolving a client issue?", "options": ["I want to personally look into this for you", "Let's discuss what's next for our partnership", "We're always here if you need anything", "Thank you for choosing us again"], "answer": "I want to personally look into this for you", "explanation": "This directly commits to personal ownership of the issue." },
+    { "type": "mcq", "question": "Which phrase directly addresses damaged trust with a client?", "options": ["Let's discuss how we can regain your trust", "We'd love to expand our work together", "I'll send you a weekly progress report", "We're on track to meet the agreed timeline"], "answer": "Let's discuss how we can regain your trust", "explanation": "This directly addresses rebuilding trust after an issue." },
+    { "type": "mcq", "question": "Which phrase elevates a client relationship beyond a simple transaction?", "options": ["We consider you a valued partner, not just a client", "Let's set up a call to talk through your concerns", "There's been a slight change in scope", "I take full responsibility for this delay"], "answer": "We consider you a valued partner, not just a client", "explanation": "This frames the relationship as a genuine partnership." },
+    { "type": "fill", "question": "I want to keep you in the ___ on this project's progress. (informed)", "answer": "loop", "explanation": "'Keep in the loop' means to keep someone informed regularly." },
+    { "type": "mcq", "question": "Which phrase proactively communicates risk to a client?", "options": ["I'll flag any risks as soon as I see them", "We'd welcome the opportunity to renew our contract", "Thank you for your candor about this issue", "Let's celebrate this milestone in our partnership"], "answer": "I'll flag any risks as soon as I see them", "explanation": "This commits to proactive, transparent risk communication." }
+  ]
+}

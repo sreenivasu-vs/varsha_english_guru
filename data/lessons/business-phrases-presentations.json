@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Presentations & Public Speaking - 50 Phrases",
+  "definition": "50 phrases for structuring, delivering, and handling questions during presentations and public speaking.",
+  "phraseGroups": [
+    {
+      "category": "Opening and Structuring",
+      "phrases": [
+        { "phrase": "Thank you all for being here", "meaning": "A polite opening greeting.", "example": "Thank you all for being here this morning." },
+        { "phrase": "Today I'll cover three main areas", "meaning": "Outlines the structure of the talk.", "example": "Today I'll cover three main areas: results, challenges, and next steps." },
+        { "phrase": "By the end of this talk, you'll understand...", "meaning": "States the goal/outcome of the presentation.", "example": "By the end of this talk, you'll understand our new pricing model." },
+        { "phrase": "Let's set the context first", "meaning": "Provides background before details.", "example": "Let's set the context first before looking at the numbers." },
+        { "phrase": "I'll keep this brief", "meaning": "Signals a short presentation.", "example": "I'll keep this brief since we have a packed agenda." },
+        { "phrase": "Feel free to hold questions until the end", "meaning": "Requests questions be saved for later.", "example": "Feel free to hold questions until the end, and I'll open the floor then." },
+        { "phrase": "Let's jump straight into the data", "meaning": "Moves quickly to the main content.", "example": "Let's jump straight into the data - I know everyone's busy." },
+        { "phrase": "Here's a quick overview", "meaning": "Introduces a summary before details.", "example": "Here's a quick overview of what changed this quarter." },
+        { "phrase": "I'll structure this into three parts", "meaning": "Explains the presentation's organization.", "example": "I'll structure this into three parts: problem, solution, and results." },
+        { "phrase": "Let's set the stage with some background", "meaning": "Introduces context before the main content.", "example": "Let's set the stage with some background on the market." },
+        { "phrase": "I promise to keep an eye on the time", "meaning": "Reassures the audience about pacing.", "example": "I promise to keep an eye on the time so we finish on schedule." },
+        { "phrase": "Let's start with the big picture", "meaning": "Begins with an overview before details.", "example": "Let's start with the big picture before we get into specifics." },
+        { "phrase": "I'll try to make this as interactive as possible", "meaning": "Invites participation throughout.", "example": "I'll try to make this as interactive as possible, so jump in anytime." },
+        { "phrase": "Here's the agenda for today's session", "meaning": "Lists the topics to be covered.", "example": "Here's the agenda for today's session, in order." },
+        { "phrase": "Let me give you some quick background", "meaning": "Provides brief context.", "example": "Let me give you some quick background on why this matters." },
+        { "phrase": "I want to start with a quick story", "meaning": "Opens with an anecdote to engage the audience.", "example": "I want to start with a quick story that illustrates the problem." }
+      ]
+    },
+    {
+      "category": "Delivering and Engaging the Audience",
+      "phrases": [
+        { "phrase": "As you can see from this chart...", "meaning": "Directs attention to a visual.", "example": "As you can see from this chart, growth accelerated in Q2." },
+        { "phrase": "Let's zoom in on this part", "meaning": "Focuses on a specific detail.", "example": "Let's zoom in on this part of the report." },
+        { "phrase": "This is where it gets interesting", "meaning": "Builds anticipation for an important point.", "example": "This is where it gets interesting - the results surprised us too." },
+        { "phrase": "Let me pause here for a second", "meaning": "Signals a brief break in the flow.", "example": "Let me pause here for a second to let that sink in." },
+        { "phrase": "I want to highlight this point", "meaning": "Emphasizes an important detail.", "example": "I want to highlight this point because it changes our strategy." },
+        { "phrase": "Let's take a closer look", "meaning": "Invites deeper examination of a topic.", "example": "Let's take a closer look at what caused the delay." },
+        { "phrase": "Does this resonate with your experience?", "meaning": "Checks if the audience relates to the point.", "example": "Does this resonate with your experience in your own teams?" },
+        { "phrase": "Let me put this in perspective", "meaning": "Provides context to help understanding.", "example": "Let me put this in perspective - that's a 40% improvement." },
+        { "phrase": "I'll show you exactly how this works", "meaning": "Promises a clear demonstration.", "example": "I'll show you exactly how this works with a live example." },
+        { "phrase": "Let's bring this to life with an example", "meaning": "Illustrates a point concretely.", "example": "Let's bring this to life with an example from last month." },
+        { "phrase": "Notice how this trend changes here", "meaning": "Points out a specific pattern.", "example": "Notice how this trend changes here after the update launched." },
+        { "phrase": "I know this is a lot to take in", "meaning": "Acknowledges complex or dense content.", "example": "I know this is a lot to take in, so feel free to ask questions." },
+        { "phrase": "Let's put this into context with last year's numbers", "meaning": "Compares data to a previous period.", "example": "Let's put this into context with last year's numbers." },
+        { "phrase": "I want to make sure this lands clearly", "meaning": "Emphasizes wanting the point understood.", "example": "I want to make sure this lands clearly since it's our key message." },
+        { "phrase": "Here's a visual that sums it up", "meaning": "Introduces a summarizing chart/image.", "example": "Here's a visual that sums it up nicely." },
+        { "phrase": "Let's take a quick poll", "meaning": "Asks the audience to vote or respond.", "example": "Let's take a quick poll - how many of you have faced this issue?" },
+        { "phrase": "I'll pause for questions here", "meaning": "Opens the floor mid-presentation.", "example": "I'll pause for questions here before moving to the next section." }
+      ]
+    },
+    {
+      "category": "Handling Questions and Closing",
+      "phrases": [
+        { "phrase": "Great question, let me address that", "meaning": "Acknowledges and responds to a question.", "example": "Great question, let me address that directly." },
+        { "phrase": "I'll come back to that in a moment", "meaning": "Defers answering a question briefly.", "example": "I'll come back to that in a moment, it's covered in the next slide." },
+        { "phrase": "That's outside the scope of today's talk", "meaning": "Politely declines to cover an unrelated topic.", "example": "That's outside the scope of today's talk, but happy to discuss after." },
+        { "phrase": "Let me clarify what I meant by that", "meaning": "Explains a point more precisely.", "example": "Let me clarify what I meant by that - I wasn't clear earlier." },
+        { "phrase": "I don't have that number off the top of my head", "meaning": "Admits not knowing a specific detail immediately.", "example": "I don't have that number off the top of my head, but I'll follow up." },
+        { "phrase": "Let's take that conversation offline", "meaning": "Suggests discussing a topic separately later.", "example": "Let's take that conversation offline after the session." },
+        { "phrase": "I'll follow up with more details by email", "meaning": "Promises additional information later.", "example": "I'll follow up with more details by email tomorrow." },
+        { "phrase": "Does that answer your question?", "meaning": "Checks if the response was sufficient.", "example": "Does that answer your question, or should I go deeper?" },
+        { "phrase": "Any final questions before we close?", "meaning": "Gives a last chance for questions.", "example": "Any final questions before we close the session?" },
+        { "phrase": "To wrap things up...", "meaning": "Signals moving to the conclusion.", "example": "To wrap things up, here are the three key takeaways." },
+        { "phrase": "The key takeaway here is...", "meaning": "States the main point to remember.", "example": "The key takeaway here is that speed matters more than perfection." },
+        { "phrase": "Thank you for your attention today", "meaning": "A polite closing remark.", "example": "Thank you for your attention today - I really appreciate it." },
+        { "phrase": "I'll leave you with this thought", "meaning": "Ends with a final, memorable idea.", "example": "I'll leave you with this thought: small changes add up." },
+        { "phrase": "Feel free to reach out with questions afterward", "meaning": "Invites follow-up contact.", "example": "Feel free to reach out with questions afterward - my email is on the slide." },
+        { "phrase": "That brings us to the end of the presentation", "meaning": "Formally closes the talk.", "example": "That brings us to the end of the presentation - thanks again." },
+        { "phrase": "I really appreciate your engagement today", "meaning": "Thanks the audience for participation.", "example": "I really appreciate your engagement today, great questions all around." },
+        { "phrase": "Let's open it up for a broader discussion", "meaning": "Invites a wider group conversation.", "example": "Let's open it up for a broader discussion now." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase signals moving to the conclusion of a talk?", "options": ["Let's jump straight into the data", "To wrap things up...", "As you can see from this chart...", "Thank you all for being here"], "answer": "To wrap things up...", "explanation": "This phrase signals the presentation is concluding." },
+    { "type": "mcq", "question": "Which phrase politely declines an off-topic question?", "options": ["Great question, let me address that", "That's outside the scope of today's talk", "Does that answer your question?", "I'll come back to that in a moment"], "answer": "That's outside the scope of today's talk", "explanation": "This politely signals the topic isn't part of the current talk." },
+    { "type": "mcq", "question": "Which phrase invites audience participation through voting?", "options": ["Let's take a quick poll", "Let's zoom in on this part", "I'll pause for questions here", "Let me put this in perspective"], "answer": "Let's take a quick poll", "explanation": "A poll directly engages the audience for a quick response." },
+    { "type": "fill", "question": "The key ___ here is that speed matters more than perfection. (main point)", "answer": "takeaway", "explanation": "'Takeaway' means the main point to remember." },
+    { "type": "mcq", "question": "Which phrase is used to defer a question briefly?", "options": ["I'll come back to that in a moment", "Thank you for your attention today", "Let's set the context first", "I'll keep this brief"], "answer": "I'll come back to that in a moment", "explanation": "This tells the audience the question will be answered shortly, just not right now." }
+  ]
+}

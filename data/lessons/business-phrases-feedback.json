@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Feedback & Performance Reviews - 50 Phrases",
+  "definition": "50 phrases for giving and receiving feedback, and navigating performance review conversations professionally.",
+  "phraseGroups": [
+    {
+      "category": "Giving Positive Feedback",
+      "phrases": [
+        { "phrase": "I wanted to call out your work on this", "meaning": "Highlights someone's contribution specifically.", "example": "I wanted to call out your work on this project." },
+        { "phrase": "You really nailed this one", "meaning": "Compliments excellent work.", "example": "You really nailed this one - great presentation." },
+        { "phrase": "This is exactly the level of quality we need", "meaning": "Confirms work meets high standards.", "example": "This is exactly the level of quality we need going forward." },
+        { "phrase": "Keep doing what you're doing", "meaning": "Encourages continuing good performance.", "example": "Keep doing what you're doing, it's working well." },
+        { "phrase": "Your attention to detail really shows", "meaning": "Praises thoroughness.", "example": "Your attention to detail really shows in this report." },
+        { "phrase": "I've noticed real improvement here", "meaning": "Acknowledges growth over time.", "example": "I've noticed real improvement here since last quarter." },
+        { "phrase": "This is a great example for others to follow", "meaning": "Highlights work as a model for the team.", "example": "This is a great example for others to follow." },
+        { "phrase": "You went above and beyond on this", "meaning": "Recognizes exceptional effort.", "example": "You went above and beyond on this deadline." },
+        { "phrase": "I'm impressed with how you handled that", "meaning": "Compliments handling of a situation.", "example": "I'm impressed with how you handled that client escalation." },
+        { "phrase": "Your contribution made a real difference", "meaning": "Acknowledges meaningful impact.", "example": "Your contribution made a real difference to the launch." },
+        { "phrase": "This reflects really well on you", "meaning": "Notes positive impact on someone's reputation.", "example": "This reflects really well on you and the team." },
+        { "phrase": "I'd like to recognize your work publicly", "meaning": "Offers to highlight achievement to a wider audience.", "example": "I'd like to recognize your work publicly at the town hall." },
+        { "phrase": "You're setting a great example for the team", "meaning": "Notes positive influence on others.", "example": "You're setting a great example for the team." }
+      ]
+    },
+    {
+      "category": "Giving Constructive Feedback",
+      "phrases": [
+        { "phrase": "There's room for improvement here", "meaning": "Politely notes an area needing work.", "example": "There's room for improvement here in terms of clarity." },
+        { "phrase": "Let's talk about what could go better next time", "meaning": "Opens a discussion about improvement.", "example": "Let's talk about what could go better next time." },
+        { "phrase": "I'd like to see more consistency in...", "meaning": "Notes a need for more reliable performance.", "example": "I'd like to see more consistency in your reporting." },
+        { "phrase": "This didn't quite land the way we hoped", "meaning": "Softly notes something fell short.", "example": "This didn't quite land the way we hoped with the client." },
+        { "phrase": "Let's dig into what happened here", "meaning": "Investigates the cause of an issue.", "example": "Let's dig into what happened here to avoid repeating it." },
+        { "phrase": "I think there's a gap between the goal and the result", "meaning": "Notes a discrepancy between expectation and outcome.", "example": "I think there's a gap between the goal and the result here." },
+        { "phrase": "Can we talk through what got in the way?", "meaning": "Asks about obstacles to success.", "example": "Can we talk through what got in the way of the deadline?" },
+        { "phrase": "I want to be direct with you about this", "meaning": "Signals honest, straightforward feedback.", "example": "I want to be direct with you about this concern." },
+        { "phrase": "This needs more attention going forward", "meaning": "Notes an area requiring more focus.", "example": "This needs more attention going forward, please." },
+        { "phrase": "Let's set a clearer benchmark for next time", "meaning": "Suggests defining expectations more precisely.", "example": "Let's set a clearer benchmark for next time." },
+        { "phrase": "I noticed a pattern I want to address", "meaning": "Points out a recurring issue.", "example": "I noticed a pattern I want to address around deadlines." },
+        { "phrase": "This wasn't up to your usual standard", "meaning": "Notes work fell below someone's typical quality.", "example": "This wasn't up to your usual standard, is everything okay?" },
+        { "phrase": "Let's work on this together going forward", "meaning": "Offers collaborative support for improvement.", "example": "Let's work on this together going forward." },
+        { "phrase": "I want to help you get to the next level", "meaning": "Frames feedback around growth.", "example": "I want to help you get to the next level in your role." },
+        { "phrase": "This is an area of opportunity for you", "meaning": "A softer way to note a weakness.", "example": "This is an area of opportunity for you this year." },
+        { "phrase": "Let's identify what's causing the gap", "meaning": "Investigates the root cause of underperformance.", "example": "Let's identify what's causing the gap in output." },
+        { "phrase": "I believe you're capable of more than this", "meaning": "Expresses confidence while noting underperformance.", "example": "I believe you're capable of more than this - let's talk." }
+      ]
+    },
+    {
+      "category": "Receiving Feedback and Reviews",
+      "phrases": [
+        { "phrase": "Thank you for the honest feedback", "meaning": "Appreciates candid input.", "example": "Thank you for the honest feedback, I'll work on it." },
+        { "phrase": "I appreciate you telling me directly", "meaning": "Thanks someone for straightforward communication.", "example": "I appreciate you telling me directly instead of avoiding it." },
+        { "phrase": "That's fair, I can see where I fell short", "meaning": "Acknowledges valid criticism.", "example": "That's fair, I can see where I fell short on this one." },
+        { "phrase": "Can you give me a specific example?", "meaning": "Asks for clarity on vague feedback.", "example": "Can you give me a specific example of what you mean?" },
+        { "phrase": "I'll take this on board", "meaning": "Commits to considering the feedback.", "example": "I'll take this on board and adjust my approach." },
+        { "phrase": "What would you suggest I do differently?", "meaning": "Asks for actionable advice.", "example": "What would you suggest I do differently next time?" },
+        { "phrase": "I hear you, and I'll work on it", "meaning": "Acknowledges and commits to improvement.", "example": "I hear you, and I'll work on it starting now." },
+        { "phrase": "This is helpful, thank you for sharing", "meaning": "Appreciates useful feedback.", "example": "This is helpful, thank you for sharing your perspective." },
+        { "phrase": "I want to understand this better", "meaning": "Seeks deeper clarity on feedback.", "example": "I want to understand this better so I can improve." },
+        { "phrase": "Let me reflect on this and follow up", "meaning": "Takes time to process feedback before responding.", "example": "Let me reflect on this and follow up with you tomorrow." },
+        { "phrase": "I appreciate you taking the time to share this", "meaning": "Thanks someone for investing effort in feedback.", "example": "I appreciate you taking the time to share this with me." },
+        { "phrase": "How can I demonstrate improvement here?", "meaning": "Asks how to show growth in a specific area.", "example": "How can I demonstrate improvement here going forward?" },
+        { "phrase": "I want to set some goals based on this feedback", "meaning": "Turns feedback into actionable objectives.", "example": "I want to set some goals based on this feedback." },
+        { "phrase": "This aligns with what I've been thinking too", "meaning": "Confirms agreement with the feedback.", "example": "This aligns with what I've been thinking too, honestly." },
+        { "phrase": "I'll check back in with you on my progress", "meaning": "Commits to a future update on improvement.", "example": "I'll check back in with you on my progress next month." },
+        { "phrase": "Thank you for believing in my potential", "meaning": "Expresses gratitude for encouragement alongside feedback.", "example": "Thank you for believing in my potential to grow here." },
+        { "phrase": "I'm glad we're having this conversation", "meaning": "Expresses appreciation for open dialogue.", "example": "I'm glad we're having this conversation, it's useful." },
+        { "phrase": "Noted, I'll make the adjustment", "meaning": "A brief, direct acknowledgment of feedback.", "example": "Noted, I'll make the adjustment for next time." },
+        { "phrase": "I want to make sure I'm meeting expectations", "meaning": "Checks alignment with what's required.", "example": "I want to make sure I'm meeting expectations going forward." },
+        { "phrase": "Let's revisit this in our next one-on-one", "meaning": "Suggests following up on feedback later.", "example": "Let's revisit this in our next one-on-one." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase softly notes a recurring performance issue?", "options": ["I noticed a pattern I want to address", "You really nailed this one", "Thank you for the honest feedback", "Let's revisit this in our next one-on-one"], "answer": "I noticed a pattern I want to address", "explanation": "This points out a recurring issue in a professional tone." },
+    { "type": "mcq", "question": "Which phrase asks for concrete detail on vague feedback?", "options": ["Can you give me a specific example?", "I'll take this on board", "This is exactly the level of quality we need", "Let's set a clearer benchmark for next time"], "answer": "Can you give me a specific example?", "explanation": "This requests concrete detail to clarify vague feedback." },
+    { "type": "mcq", "question": "Which phrase acknowledges valid criticism gracefully?", "options": ["That's fair, I can see where I fell short", "You went above and beyond on this", "I want to be direct with you about this", "This needs more attention going forward"], "answer": "That's fair, I can see where I fell short", "explanation": "This gracefully accepts valid criticism without being defensive." },
+    { "type": "fill", "question": "I'll take this ___ and adjust my approach. (consider it)", "answer": "on board", "explanation": "'Take on board' means to accept and consider feedback seriously." },
+    { "type": "mcq", "question": "Which phrase frames a weakness in a softer, growth-oriented way?", "options": ["This is an area of opportunity for you", "This wasn't up to your usual standard", "I need to hold you accountable for this", "I think there's a gap between the goal and the result"], "answer": "This is an area of opportunity for you", "explanation": "This frames a weakness positively as a growth opportunity." }
+  ]
+}

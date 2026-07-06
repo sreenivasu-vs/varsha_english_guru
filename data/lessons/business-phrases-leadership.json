@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Leadership & Management - 50 Phrases",
+  "definition": "50 phrases for managers and leaders - delegating, motivating, setting direction, and supporting a team.",
+  "phraseGroups": [
+    {
+      "category": "Setting Direction and Delegating",
+      "phrases": [
+        { "phrase": "Here's the vision for this quarter", "meaning": "States a clear goal or direction.", "example": "Here's the vision for this quarter - focus on retention." },
+        { "phrase": "I'd like you to take ownership of this", "meaning": "Delegates responsibility for a task.", "example": "I'd like you to take ownership of this project." },
+        { "phrase": "Let's align on priorities", "meaning": "Suggests agreeing on what matters most.", "example": "Let's align on priorities before the sprint starts." },
+        { "phrase": "I trust your judgment on this", "meaning": "Expresses confidence in someone's decision-making.", "example": "I trust your judgment on this - go ahead and decide." },
+        { "phrase": "Here's what success looks like", "meaning": "Defines clear expectations for an outcome.", "example": "Here's what success looks like for this initiative." },
+        { "phrase": "I'll give you full autonomy on this", "meaning": "Grants independence to make decisions.", "example": "I'll give you full autonomy on this - just keep me posted." },
+        { "phrase": "Let's break this down into smaller milestones", "meaning": "Suggests dividing a big goal into steps.", "example": "Let's break this down into smaller milestones for clarity." },
+        { "phrase": "I want you to lead this initiative", "meaning": "Assigns leadership of a project.", "example": "I want you to lead this initiative going forward." },
+        { "phrase": "Let's set clear expectations upfront", "meaning": "Suggests defining goals before starting work.", "example": "Let's set clear expectations upfront to avoid confusion." },
+        { "phrase": "I'll support you however you need", "meaning": "Offers help without dictating the approach.", "example": "I'll support you however you need on this." },
+        { "phrase": "Feel empowered to make this decision", "meaning": "Encourages independent decision-making.", "example": "Feel empowered to make this decision without checking with me." },
+        { "phrase": "Let's map out a plan together", "meaning": "Suggests collaborative planning.", "example": "Let's map out a plan together before we start." },
+        { "phrase": "This is your call to make", "meaning": "Places decision-making authority with someone else.", "example": "This is your call to make - I trust you." }
+      ]
+    },
+    {
+      "category": "Motivating and Supporting",
+      "phrases": [
+        { "phrase": "I really appreciate the effort you've put in", "meaning": "Recognizes hard work.", "example": "I really appreciate the effort you've put in this month." },
+        { "phrase": "You've made great progress", "meaning": "Acknowledges improvement or achievement.", "example": "You've made great progress since last quarter." },
+        { "phrase": "I believe in your ability to pull this off", "meaning": "Expresses confidence in someone's capability.", "example": "I believe in your ability to pull this off." },
+        { "phrase": "Let me know if you're feeling overwhelmed", "meaning": "Checks in on workload/wellbeing.", "example": "Let me know if you're feeling overwhelmed with the deadlines." },
+        { "phrase": "Your work hasn't gone unnoticed", "meaning": "Acknowledges effort that might feel invisible.", "example": "Your work hasn't gone unnoticed - great job." },
+        { "phrase": "I want to invest in your growth", "meaning": "Expresses commitment to someone's development.", "example": "I want to invest in your growth this year." },
+        { "phrase": "What support do you need from me?", "meaning": "Asks how to help a team member.", "example": "What support do you need from me to hit this deadline?" },
+        { "phrase": "Let's celebrate this win as a team", "meaning": "Suggests recognizing a group achievement.", "example": "Let's celebrate this win as a team on Friday." },
+        { "phrase": "I'm proud of how far this team has come", "meaning": "Expresses pride in collective progress.", "example": "I'm proud of how far this team has come this year." },
+        { "phrase": "Take the time you need to recharge", "meaning": "Encourages rest and work-life balance.", "example": "Take the time you need to recharge after this launch." },
+        { "phrase": "I've got your back on this", "meaning": "Offers reassurance and support.", "example": "I've got your back on this if things get tough." },
+        { "phrase": "Let's turn this challenge into an opportunity", "meaning": "Reframes difficulty positively.", "example": "Let's turn this challenge into an opportunity to improve." },
+        { "phrase": "I want to hear your honest thoughts", "meaning": "Invites candid feedback.", "example": "I want to hear your honest thoughts on this plan." },
+        { "phrase": "You handled that really well", "meaning": "Compliments someone's handling of a situation.", "example": "You handled that really well under pressure." },
+        { "phrase": "Don't hesitate to come to me with concerns", "meaning": "Encourages open communication.", "example": "Don't hesitate to come to me with concerns, anytime." },
+        { "phrase": "Let's find ways to make your job easier", "meaning": "Offers to remove obstacles for the team.", "example": "Let's find ways to make your job easier going forward." },
+        { "phrase": "This team's success is because of your work", "meaning": "Attributes team success to an individual's contribution.", "example": "This team's success is because of your work behind the scenes." }
+      ]
+    },
+    {
+      "category": "Managing Performance and Change",
+      "phrases": [
+        { "phrase": "Let's discuss where things stand", "meaning": "Opens a performance or status conversation.", "example": "Let's discuss where things stand with your goals." },
+        { "phrase": "I want to give you some constructive feedback", "meaning": "Introduces feedback meant to help improve.", "example": "I want to give you some constructive feedback on the report." },
+        { "phrase": "Let's set some clear goals for next quarter", "meaning": "Establishes future objectives.", "example": "Let's set some clear goals for next quarter together." },
+        { "phrase": "I'd like to understand what's blocking you", "meaning": "Asks about obstacles to performance.", "example": "I'd like to understand what's blocking you from hitting targets." },
+        { "phrase": "Let's create an improvement plan together", "meaning": "Collaboratively addresses performance issues.", "example": "Let's create an improvement plan together over the next month." },
+        { "phrase": "I need to hold you accountable for this", "meaning": "States responsibility clearly, firmly.", "example": "I need to hold you accountable for this deadline." },
+        { "phrase": "This isn't meeting the bar we've set", "meaning": "Notes work falls short of expectations.", "example": "This isn't meeting the bar we've set for quality." },
+        { "phrase": "Let's course-correct before this becomes a bigger issue", "meaning": "Suggests early intervention.", "example": "Let's course-correct before this becomes a bigger issue." },
+        { "phrase": "I want to be transparent with you about this", "meaning": "Signals honesty about a difficult topic.", "example": "I want to be transparent with you about the reorg." },
+        { "phrase": "Change is coming, and here's how we'll manage it", "meaning": "Introduces organizational change.", "example": "Change is coming, and here's how we'll manage it together." },
+        { "phrase": "Let's keep communication open during this transition", "meaning": "Encourages dialogue during change.", "example": "Let's keep communication open during this transition." },
+        { "phrase": "I know this is a big adjustment", "meaning": "Acknowledges the difficulty of change.", "example": "I know this is a big adjustment for the whole team." },
+        { "phrase": "Let's revisit your goals given the new priorities", "meaning": "Adjusts objectives due to changing circumstances.", "example": "Let's revisit your goals given the new priorities." },
+        { "phrase": "I appreciate your flexibility during this time", "meaning": "Thanks the team for adapting to change.", "example": "I appreciate your flexibility during this time of change." },
+        { "phrase": "We're going to get through this together", "meaning": "Reassures the team during uncertainty.", "example": "We're going to get through this together as a team." },
+        { "phrase": "Let's document the lessons learned", "meaning": "Suggests capturing insights from a project.", "example": "Let's document the lessons learned before we move on." },
+        { "phrase": "I want this team to thrive, not just survive", "meaning": "Sets an ambitious, positive tone for the team.", "example": "I want this team to thrive, not just survive this reorg." },
+        { "phrase": "Let's do a retro on what went well and what didn't", "meaning": "Suggests a retrospective review.", "example": "Let's do a retro on what went well and what didn't." },
+        { "phrase": "I'll make sure leadership hears about your work", "meaning": "Promises to advocate for someone's visibility.", "example": "I'll make sure leadership hears about your work on this." },
+        { "phrase": "Your growth matters to me as much as the results", "meaning": "Balances development with outcomes.", "example": "Your growth matters to me as much as the results." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase grants someone independence in decision-making?", "options": ["I'll give you full autonomy on this", "This isn't meeting the bar we've set", "I need to hold you accountable for this", "Let's course-correct"], "answer": "I'll give you full autonomy on this", "explanation": "'Autonomy' means independence to decide and act." },
+    { "type": "mcq", "question": "Which phrase introduces feedback meant to help someone improve?", "options": ["I want to give you some constructive feedback", "Let's celebrate this win as a team", "I've got your back on this", "You've made great progress"], "answer": "I want to give you some constructive feedback", "explanation": "'Constructive feedback' is meant to help, not just criticize." },
+    { "type": "mcq", "question": "Which phrase reassures a team during organizational change?", "options": ["We're going to get through this together", "Let's align on priorities", "I trust your judgment on this", "Let's map out a plan together"], "answer": "We're going to get through this together", "explanation": "This reassures and unites the team during uncertainty." },
+    { "type": "fill", "question": "Let's do a ___ on what went well and what didn't. (review session)", "answer": "retro", "explanation": "A 'retro' (retrospective) reviews a project's successes and failures." },
+    { "type": "mcq", "question": "Which phrase asks what's preventing someone from succeeding?", "options": ["I'd like to understand what's blocking you", "I believe in your ability to pull this off", "Let's set some clear goals for next quarter", "This is your call to make"], "answer": "I'd like to understand what's blocking you", "explanation": "This directly asks about obstacles to performance." }
+  ]
+}

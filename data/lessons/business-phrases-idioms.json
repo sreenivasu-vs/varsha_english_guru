@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "General Office Idioms & Expressions - 50 Phrases",
+  "definition": "50 common workplace idioms and expressions used casually across business conversations - not tied to one specific situation.",
+  "phraseGroups": [
+    {
+      "category": "Getting Things Done",
+      "phrases": [
+        { "phrase": "Let's hit the ground running", "meaning": "Start working energetically and immediately.", "example": "New quarter, new goals - let's hit the ground running." },
+        { "phrase": "We need to think outside the box", "meaning": "Think creatively, beyond conventional ideas.", "example": "We need to think outside the box to solve this." },
+        { "phrase": "Let's not reinvent the wheel", "meaning": "Avoid unnecessarily recreating something that already exists.", "example": "Let's not reinvent the wheel, use the existing template." },
+        { "phrase": "That's low-hanging fruit", "meaning": "An easy win requiring little effort.", "example": "Let's grab that low-hanging fruit before tackling the harder stuff." },
+        { "phrase": "Let's put all our cards on the table", "meaning": "Be completely open and honest.", "example": "Let's put all our cards on the table in this negotiation." },
+        { "phrase": "We're all in the same boat", "meaning": "Everyone is facing the same situation.", "example": "Don't worry, we're all in the same boat with this deadline." },
+        { "phrase": "Let's touch base next week", "meaning": "Check in or reconnect briefly.", "example": "Let's touch base next week once you've reviewed it." },
+        { "phrase": "That's the tip of the iceberg", "meaning": "Only a small visible part of a much bigger issue.", "example": "This bug is just the tip of the iceberg, there's more underneath." },
+        { "phrase": "Let's get the ball rolling", "meaning": "Start a process moving.", "example": "Let's get the ball rolling on this project today." },
+        { "phrase": "We're back to square one", "meaning": "Starting over after failing.", "example": "The client rejected the design, we're back to square one." },
+        { "phrase": "Let's cross that bridge when we come to it", "meaning": "Deal with a problem when it actually arises.", "example": "We'll cross that bridge when we come to it, don't worry now." },
+        { "phrase": "I'm swamped this week", "meaning": "Extremely busy.", "example": "I'm swamped this week, can this wait until Monday?" },
+        { "phrase": "Let's keep our eye on the ball", "meaning": "Stay focused on the main goal.", "example": "Let's keep our eye on the ball despite the distractions." },
+        { "phrase": "That ship has sailed", "meaning": "An opportunity has passed.", "example": "That ship has sailed - the deadline for proposals was yesterday." },
+        { "phrase": "Let's not put all our eggs in one basket", "meaning": "Avoid relying on a single option.", "example": "Let's not put all our eggs in one basket with just one vendor." },
+        { "phrase": "We're up against the clock", "meaning": "Working with very limited time.", "example": "We're up against the clock, so let's move fast." },
+        { "phrase": "Let's get down to business", "meaning": "Start focusing on the main task.", "example": "Enough small talk, let's get down to business." }
+      ]
+    },
+    {
+      "category": "Describing Situations",
+      "phrases": [
+        { "phrase": "It's back to the drawing board", "meaning": "We need to start planning again from scratch.", "example": "The client hated it - back to the drawing board." },
+        { "phrase": "That's a game changer", "meaning": "Something that significantly changes the situation.", "example": "This new tool is a game changer for our workflow." },
+        { "phrase": "We're spread too thin", "meaning": "Trying to do too much with limited resources.", "example": "The team is spread too thin across five projects." },
+        { "phrase": "That's a red flag", "meaning": "A warning sign of a problem.", "example": "The vendor missing three deadlines is a red flag." },
+        { "phrase": "Let's not beat around the bush", "meaning": "Be direct instead of avoiding the topic.", "example": "Let's not beat around the bush - the numbers are bad." },
+        { "phrase": "This is a step in the right direction", "meaning": "Progress toward a goal.", "example": "This is a step in the right direction for the team." },
+        { "phrase": "We hit a snag", "meaning": "Encountered an unexpected problem.", "example": "We hit a snag with the vendor's approval process." },
+        { "phrase": "That's water under the bridge", "meaning": "A past issue that's no longer relevant.", "example": "Let's not dwell on it, that's water under the bridge now." },
+        { "phrase": "This is uncharted territory for us", "meaning": "A new, unfamiliar situation.", "example": "Expanding to this market is uncharted territory for us." },
+        { "phrase": "We're on thin ice with this client", "meaning": "In a precarious, risky position.", "example": "We're on thin ice with this client after the last delay." },
+        { "phrase": "Let's not jump the gun", "meaning": "Avoid acting too soon.", "example": "Let's not jump the gun before we have all the details." },
+        { "phrase": "That's the elephant in the room", "meaning": "An obvious problem no one wants to discuss.", "example": "Budget cuts are the elephant in the room in this meeting." },
+        { "phrase": "We're in a bit of a gray area here", "meaning": "An ambiguous, unclear situation.", "example": "This policy is a bit of a gray area, let's clarify it." },
+        { "phrase": "This is a blessing in disguise", "meaning": "Something that seems bad but turns out beneficial.", "example": "Losing that client was a blessing in disguise, honestly." },
+        { "phrase": "We're burning the midnight oil", "meaning": "Working late into the night.", "example": "The team's been burning the midnight oil to hit this deadline." },
+        { "phrase": "That's a drop in the bucket", "meaning": "A very small amount compared to what's needed.", "example": "This budget increase is a drop in the bucket for our needs." },
+        { "phrase": "We're going back and forth on this", "meaning": "Repeatedly discussing without resolution.", "example": "We're going back and forth on this decision for weeks now." }
+      ]
+    },
+    {
+      "category": "Reactions and Casual Expressions",
+      "phrases": [
+        { "phrase": "That's music to my ears", "meaning": "Very welcome, good news.", "example": "The client approved the budget - that's music to my ears." },
+        { "phrase": "Let's play it by ear", "meaning": "Decide spontaneously as things unfold.", "example": "We don't have a fixed plan, let's play it by ear." },
+        { "phrase": "That's a piece of cake", "meaning": "Something very easy.", "example": "Don't worry, this task is a piece of cake for the team." },
+        { "phrase": "I'm on the same page as you", "meaning": "In agreement or understanding.", "example": "I'm on the same page as you on this approach." },
+        { "phrase": "Let's not rock the boat", "meaning": "Avoid disrupting a stable situation.", "example": "Things are going well, let's not rock the boat right now." },
+        { "phrase": "That caught me off guard", "meaning": "Something unexpected surprised you.", "example": "That question caught me off guard in the meeting." },
+        { "phrase": "Let's give it our best shot", "meaning": "Try as hard as possible.", "example": "We might not win the bid, but let's give it our best shot." },
+        { "phrase": "That's par for the course", "meaning": "A normal, expected occurrence.", "example": "Delays like this are par for the course in construction." },
+        { "phrase": "I'm keeping my fingers crossed", "meaning": "Hoping for a good outcome.", "example": "I'm keeping my fingers crossed the proposal gets approved." },
+        { "phrase": "That's a tough nut to crack", "meaning": "A difficult problem to solve.", "example": "This client's requirements are a tough nut to crack." },
+        { "phrase": "Let's not put the cart before the horse", "meaning": "Avoid doing things in the wrong order.", "example": "Let's not put the cart before the horse - finalize the budget first." },
+        { "phrase": "We're in good shape for the launch", "meaning": "Well-prepared and on track.", "example": "We're in good shape for the launch next week." },
+        { "phrase": "That's easier said than done", "meaning": "Something sounds simple but is actually hard.", "example": "Cutting costs by 20% is easier said than done." },
+        { "phrase": "I'll believe it when I see it", "meaning": "Skepticism until proven otherwise.", "example": "They promised the fix by Friday - I'll believe it when I see it." },
+        { "phrase": "That's the million-dollar question", "meaning": "The key, most important question.", "example": "Will this scale? That's the million-dollar question." },
+        { "phrase": "Let's wait and see how it plays out", "meaning": "Be patient and observe developments.", "example": "Let's wait and see how it plays out before reacting." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "What does 'let's not reinvent the wheel' mean?", "options": ["Avoid unnecessarily recreating something that exists", "Start a project quickly", "Take a big risk", "Work through the night"], "answer": "Avoid unnecessarily recreating something that exists", "explanation": "This idiom means using existing solutions instead of creating new ones unnecessarily." },
+    { "type": "mcq", "question": "What does 'that's a red flag' mean?", "options": ["A warning sign of a problem", "A great achievement", "An easy task", "A friendly greeting"], "answer": "A warning sign of a problem", "explanation": "A 'red flag' signals a potential problem or warning." },
+    { "type": "mcq", "question": "What does 'burning the midnight oil' mean?", "options": ["Working late into the night", "Wasting resources", "Starting a new project", "Taking a break"], "answer": "Working late into the night", "explanation": "This idiom describes working late, often to meet a deadline." },
+    { "type": "fill", "question": "That's water under the ___. (past issue, no longer relevant)", "answer": "bridge", "explanation": "'Water under the bridge' means something from the past that's no longer worth discussing." },
+    { "type": "mcq", "question": "What does 'the elephant in the room' refer to?", "options": ["An obvious problem no one wants to discuss", "A very large office", "An important client", "A difficult employee"], "answer": "An obvious problem no one wants to discuss", "explanation": "This idiom refers to an obvious issue that everyone avoids addressing directly." }
+  ]
+}

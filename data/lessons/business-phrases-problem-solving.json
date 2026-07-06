@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Problem Solving & Decision Making - 50 Phrases",
+  "definition": "50 phrases for diagnosing problems, weighing options, and making confident business decisions.",
+  "phraseGroups": [
+    {
+      "category": "Diagnosing the Problem",
+      "phrases": [
+        { "phrase": "Let's get to the root cause", "meaning": "Suggests finding the underlying issue.", "example": "Let's get to the root cause instead of patching symptoms." },
+        { "phrase": "What exactly is going wrong here?", "meaning": "Asks for a precise description of a problem.", "example": "What exactly is going wrong here with the checkout flow?" },
+        { "phrase": "Let's map out the whole issue", "meaning": "Suggests fully understanding a problem before acting.", "example": "Let's map out the whole issue before jumping to solutions." },
+        { "phrase": "This seems to be a symptom of a bigger problem", "meaning": "Notes an issue may point to a larger underlying cause.", "example": "This seems to be a symptom of a bigger problem in our process." },
+        { "phrase": "Let's isolate the variables here", "meaning": "Suggests separating factors to understand causes.", "example": "Let's isolate the variables here to find what's actually broken." },
+        { "phrase": "When did this start happening?", "meaning": "Asks about the timeline of an issue.", "example": "When did this start happening exactly?" },
+        { "phrase": "Let's gather more data before concluding anything", "meaning": "Suggests avoiding premature conclusions.", "example": "Let's gather more data before concluding anything." },
+        { "phrase": "Is this a one-off or a recurring issue?", "meaning": "Distinguishes between isolated and repeated problems.", "example": "Is this a one-off or a recurring issue we should track?" },
+        { "phrase": "Let's understand the impact before we react", "meaning": "Assesses severity before responding.", "example": "Let's understand the impact before we react to this." },
+        { "phrase": "What's the worst-case scenario here?", "meaning": "Considers the most severe possible outcome.", "example": "What's the worst-case scenario here if we don't fix this?" },
+        { "phrase": "Let's reproduce the issue to understand it better", "meaning": "Suggests recreating a problem to study it.", "example": "Let's reproduce the issue to understand it better." },
+        { "phrase": "This looks like a process gap, not a people problem", "meaning": "Attributes an issue to process rather than individuals.", "example": "This looks like a process gap, not a people problem." },
+        { "phrase": "Let's ask the five whys to dig deeper", "meaning": "Uses a root-cause analysis technique.", "example": "Let's ask the five whys to dig deeper into this failure." }
+      ]
+    },
+    {
+      "category": "Exploring Options",
+      "phrases": [
+        { "phrase": "Let's brainstorm a few possible solutions", "meaning": "Suggests generating multiple ideas.", "example": "Let's brainstorm a few possible solutions before deciding." },
+        { "phrase": "What are our options here?", "meaning": "Asks for available choices.", "example": "What are our options here given the timeline?" },
+        { "phrase": "Let's weigh the pros and cons", "meaning": "Suggests evaluating advantages and disadvantages.", "example": "Let's weigh the pros and cons of each approach." },
+        { "phrase": "There's more than one way to solve this", "meaning": "Notes multiple viable approaches exist.", "example": "There's more than one way to solve this, let's explore them." },
+        { "phrase": "Let's think outside the box on this one", "meaning": "Encourages unconventional solutions.", "example": "Let's think outside the box on this one, nothing standard is working." },
+        { "phrase": "What would happen if we did nothing?", "meaning": "Considers the outcome of inaction.", "example": "What would happen if we did nothing about this?" },
+        { "phrase": "Let's consider the trade-offs of each option", "meaning": "Weighs compromises involved in choices.", "example": "Let's consider the trade-offs of each option carefully." },
+        { "phrase": "This is a quick fix, not a long-term solution", "meaning": "Distinguishes temporary from permanent solutions.", "example": "This is a quick fix, not a long-term solution." },
+        { "phrase": "Let's pilot this on a small scale first", "meaning": "Suggests testing before full rollout.", "example": "Let's pilot this on a small scale first before committing fully." },
+        { "phrase": "What's the simplest solution that could work?", "meaning": "Seeks an uncomplicated approach.", "example": "What's the simplest solution that could work here?" },
+        { "phrase": "Let's not overthink this", "meaning": "Encourages a straightforward, quick decision.", "example": "Let's not overthink this, the answer is pretty clear." },
+        { "phrase": "Let's get input from people closer to the problem", "meaning": "Seeks perspectives from those directly affected.", "example": "Let's get input from people closer to the problem." },
+        { "phrase": "This option has the least risk", "meaning": "Highlights a safer choice among alternatives.", "example": "This option has the least risk, even if it's slower." },
+        { "phrase": "Let's consider the long-term implications", "meaning": "Looks beyond immediate effects.", "example": "Let's consider the long-term implications of this decision." }
+      ]
+    },
+    {
+      "category": "Deciding and Moving Forward",
+      "phrases": [
+        { "phrase": "Let's make a call and move forward", "meaning": "Encourages deciding and progressing.", "example": "Let's make a call and move forward, we're overanalyzing this." },
+        { "phrase": "I'm confident this is the right decision", "meaning": "Expresses certainty about a choice.", "example": "I'm confident this is the right decision given what we know." },
+        { "phrase": "Let's go with option B for now", "meaning": "Selects a specific choice tentatively.", "example": "Let's go with option B for now and reassess later." },
+        { "phrase": "We can always adjust course later", "meaning": "Reassures flexibility in decision-making.", "example": "We can always adjust course later if this doesn't work." },
+        { "phrase": "Let's commit to this and see it through", "meaning": "Encourages follow-through on a decision.", "example": "Let's commit to this and see it through fully." },
+        { "phrase": "This decision is final", "meaning": "States a choice is not open for further debate.", "example": "This decision is final - let's focus on execution now." },
+        { "phrase": "Let's set a date to revisit this decision", "meaning": "Plans to reassess a choice later.", "example": "Let's set a date to revisit this decision in a month." },
+        { "phrase": "I'll take responsibility for this call", "meaning": "Accepts accountability for a decision.", "example": "I'll take responsibility for this call either way." },
+        { "phrase": "Let's not let perfect be the enemy of good", "meaning": "An idiom encouraging action over endless refinement.", "example": "Let's not let perfect be the enemy of good, ship it." },
+        { "phrase": "We've gathered enough information to decide", "meaning": "Confirms readiness to make a choice.", "example": "We've gathered enough information to decide now." },
+        { "phrase": "Let's align before we finalize this", "meaning": "Ensures agreement before committing.", "example": "Let's align before we finalize this decision." },
+        { "phrase": "I trust the data on this one", "meaning": "Bases confidence in a decision on evidence.", "example": "I trust the data on this one, let's proceed." },
+        { "phrase": "Let's document why we made this choice", "meaning": "Records the rationale behind a decision.", "example": "Let's document why we made this choice for future reference." },
+        { "phrase": "This is a reversible decision, so let's move quickly", "meaning": "Notes low risk allows for faster action.", "example": "This is a reversible decision, so let's move quickly." },
+        { "phrase": "Let's not second-guess this once we've decided", "meaning": "Discourages doubt after a decision is made.", "example": "Let's not second-guess this once we've decided, let's execute." },
+        { "phrase": "I'll own the outcome of this decision", "meaning": "Takes accountability for results.", "example": "I'll own the outcome of this decision, good or bad." },
+        { "phrase": "Let's build in a checkpoint to assess progress", "meaning": "Plans a review point after implementation.", "example": "Let's build in a checkpoint to assess progress in two weeks." },
+        { "phrase": "We made the best decision with the information we had", "meaning": "Reassures a decision was sound given available data.", "example": "We made the best decision with the information we had." },
+        { "phrase": "Let's learn from this decision either way", "meaning": "Frames outcomes as learning opportunities.", "example": "Let's learn from this decision either way it turns out." },
+        { "phrase": "Time to pull the trigger on this", "meaning": "An idiom meaning it's time to act decisively.", "example": "We've discussed enough - time to pull the trigger on this." },
+        { "phrase": "Let's not delay this any further", "meaning": "Urges prompt action.", "example": "Let's not delay this any further, we need to move." },
+        { "phrase": "I'll stand behind this decision fully", "meaning": "Expresses full support for a choice.", "example": "I'll stand behind this decision fully once we make it." },
+        { "phrase": "Let's revisit if new information comes to light", "meaning": "Keeps the decision open to future review.", "example": "Let's revisit if new information comes to light later." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase suggests finding the underlying cause of a problem?", "options": ["Let's get to the root cause", "Let's go with option B for now", "This is a quick fix, not a long-term solution", "What are our options here?"], "answer": "Let's get to the root cause", "explanation": "This directly seeks the fundamental cause of an issue." },
+    { "type": "mcq", "question": "Which idiom means it's time to act decisively?", "options": ["Time to pull the trigger on this", "Let's not overthink this", "Let's pilot this on a small scale first", "This decision is final"], "answer": "Time to pull the trigger on this", "explanation": "This idiom means the time has come to take decisive action." },
+    { "type": "mcq", "question": "Which phrase encourages progress over endless refinement?", "options": ["Let's not let perfect be the enemy of good", "Let's weigh the pros and cons", "Let's isolate the variables here", "What's the worst-case scenario here?"], "answer": "Let's not let perfect be the enemy of good", "explanation": "This idiom warns against over-perfecting at the cost of progress." },
+    { "type": "fill", "question": "Let's ___ this on a small scale first before committing fully. (test)", "answer": "pilot", "explanation": "'Pilot' means to test something small before a full rollout." },
+    { "type": "mcq", "question": "Which phrase suggests testing multiple ideas before choosing one?", "options": ["Let's brainstorm a few possible solutions", "I'll take responsibility for this call", "Let's not delay this any further", "This is a reversible decision, so let's move quickly"], "answer": "Let's brainstorm a few possible solutions", "explanation": "This encourages generating multiple ideas before deciding." }
+  ]
+}

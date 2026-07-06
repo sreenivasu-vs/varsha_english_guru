@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Marketing & Branding - 50 Phrases",
+  "definition": "50 phrases for discussing marketing strategy, campaigns, branding, and audience growth.",
+  "phraseGroups": [
+    {
+      "category": "Strategy and Positioning",
+      "phrases": [
+        { "phrase": "Let's define our target audience", "meaning": "Suggests identifying the ideal customer.", "example": "Let's define our target audience before writing copy." },
+        { "phrase": "What's our unique value proposition?", "meaning": "Asks what makes a product distinct.", "example": "What's our unique value proposition compared to competitors?" },
+        { "phrase": "Let's sharpen our brand positioning", "meaning": "Suggests clarifying how a brand is perceived.", "example": "Let's sharpen our brand positioning in this market." },
+        { "phrase": "This needs to align with our brand voice", "meaning": "Ensures consistency with brand tone.", "example": "This needs to align with our brand voice - more casual, less corporate." },
+        { "phrase": "Let's map out the customer journey", "meaning": "Suggests outlining the customer's experience path.", "example": "Let's map out the customer journey from awareness to purchase." },
+        { "phrase": "Who are we really competing against here?", "meaning": "Identifies true competitors.", "example": "Who are we really competing against here in this segment?" },
+        { "phrase": "Let's differentiate ourselves from competitors", "meaning": "Suggests standing out in the market.", "example": "Let's differentiate ourselves from competitors with better support." },
+        { "phrase": "This messaging needs to resonate more", "meaning": "Notes messaging isn't connecting well.", "example": "This messaging needs to resonate more with young professionals." },
+        { "phrase": "Let's test a few different angles", "meaning": "Suggests experimenting with messaging approaches.", "example": "Let's test a few different angles before committing." },
+        { "phrase": "We need a stronger brand narrative", "meaning": "Notes the brand story needs improvement.", "example": "We need a stronger brand narrative for this launch." },
+        { "phrase": "Let's align marketing and sales on messaging", "meaning": "Ensures cross-team consistency.", "example": "Let's align marketing and sales on messaging before launch." },
+        { "phrase": "This campaign needs a clear call to action", "meaning": "Notes the need for a specific desired action.", "example": "This campaign needs a clear call to action at the end." },
+        { "phrase": "Let's build out our brand guidelines", "meaning": "Suggests documenting brand standards.", "example": "Let's build out our brand guidelines for consistency." }
+      ]
+    },
+    {
+      "category": "Campaigns and Content",
+      "phrases": [
+        { "phrase": "Let's launch this campaign next month", "meaning": "Plans the timing of a marketing push.", "example": "Let's launch this campaign next month to hit the season." },
+        { "phrase": "What's the reach on this post?", "meaning": "Asks how many people saw content.", "example": "What's the reach on this post so far?" },
+        { "phrase": "Let's A/B test the subject line", "meaning": "Suggests comparing two versions to see which performs better.", "example": "Let's A/B test the subject line before the full send." },
+        { "phrase": "This content is performing really well", "meaning": "Reports strong engagement.", "example": "This content is performing really well on social media." },
+        { "phrase": "Let's repurpose this into a few formats", "meaning": "Suggests adapting content for multiple channels.", "example": "Let's repurpose this into a few formats - video, blog, and carousel." },
+        { "phrase": "Engagement has dropped this month", "meaning": "Notes a decline in audience interaction.", "example": "Engagement has dropped this month across all channels." },
+        { "phrase": "Let's boost this post to reach a wider audience", "meaning": "Suggests paid promotion for a post.", "example": "Let's boost this post to reach a wider audience." },
+        { "phrase": "This is going viral", "meaning": "Notes content spreading rapidly.", "example": "This is going viral - shares are through the roof." },
+        { "phrase": "Let's plan our content calendar for next quarter", "meaning": "Suggests scheduling upcoming content.", "example": "Let's plan our content calendar for next quarter." },
+        { "phrase": "We need more user-generated content", "meaning": "Notes a desire for customer-created content.", "example": "We need more user-generated content to build trust." },
+        { "phrase": "Let's partner with an influencer for this", "meaning": "Suggests influencer marketing collaboration.", "example": "Let's partner with an influencer for this product launch." },
+        { "phrase": "This creative isn't landing with our audience", "meaning": "Notes an ad/design isn't resonating.", "example": "This creative isn't landing with our audience, let's revise it." },
+        { "phrase": "Let's optimize this for SEO", "meaning": "Suggests improving search visibility.", "example": "Let's optimize this for SEO before publishing." },
+        { "phrase": "The click-through rate is higher than expected", "meaning": "Reports strong ad performance.", "example": "The click-through rate is higher than expected on this ad." },
+        { "phrase": "Let's refresh this creative, it's getting stale", "meaning": "Suggests updating outdated content.", "example": "Let's refresh this creative, it's getting stale after months of use." },
+        { "phrase": "This landing page needs a stronger headline", "meaning": "Notes weak messaging on a webpage.", "example": "This landing page needs a stronger headline to hook visitors." },
+        { "phrase": "Let's segment our email list for this campaign", "meaning": "Suggests targeting specific audience groups.", "example": "Let's segment our email list for this campaign." }
+      ]
+    },
+    {
+      "category": "Metrics, Feedback, and Brand Health",
+      "phrases": [
+        { "phrase": "Let's look at the conversion rate", "meaning": "Focuses on how many leads became customers.", "example": "Let's look at the conversion rate for this funnel." },
+        { "phrase": "What's our customer acquisition cost?", "meaning": "Asks how much it costs to gain a new customer.", "example": "What's our customer acquisition cost for this channel?" },
+        { "phrase": "Let's track this campaign's ROI", "meaning": "Measures the return on marketing spend.", "example": "Let's track this campaign's ROI over the next month." },
+        { "phrase": "Brand awareness is growing steadily", "meaning": "Notes increasing recognition of a brand.", "example": "Brand awareness is growing steadily in this region." },
+        { "phrase": "Let's gather customer sentiment on this", "meaning": "Suggests collecting audience opinions.", "example": "Let's gather customer sentiment on this rebrand." },
+        { "phrase": "Our Net Promoter Score improved this quarter", "meaning": "Reports on a customer loyalty metric.", "example": "Our Net Promoter Score improved this quarter." },
+        { "phrase": "Let's benchmark against our competitors", "meaning": "Compares performance to rivals.", "example": "Let's benchmark against our competitors on social presence." },
+        { "phrase": "This campaign exceeded our KPIs", "meaning": "Confirms surpassing key performance targets.", "example": "This campaign exceeded our KPIs across the board." },
+        { "phrase": "Let's do a post-campaign review", "meaning": "Suggests analyzing results after a campaign ends.", "example": "Let's do a post-campaign review next week." },
+        { "phrase": "We're seeing a dip in brand sentiment", "meaning": "Notes declining public perception.", "example": "We're seeing a dip in brand sentiment after the price change." },
+        { "phrase": "Let's survey our customers for feedback", "meaning": "Suggests directly asking customers their opinions.", "example": "Let's survey our customers for feedback on the new feature." },
+        { "phrase": "This is resonating well with our core audience", "meaning": "Confirms strong connection with key customers.", "example": "This is resonating well with our core audience." },
+        { "phrase": "Let's monitor brand mentions online", "meaning": "Suggests tracking public conversation about the brand.", "example": "Let's monitor brand mentions online after the launch." },
+        { "phrase": "Our retention numbers are improving", "meaning": "Notes more customers staying engaged.", "example": "Our retention numbers are improving month over month." },
+        { "phrase": "Let's double down on what's working", "meaning": "Suggests investing more in successful tactics.", "example": "Let's double down on what's working in this channel." },
+        { "phrase": "This positioning isn't quite landing yet", "meaning": "Notes brand messaging needs refinement.", "example": "This positioning isn't quite landing yet, let's iterate." },
+        { "phrase": "Let's get qualitative feedback, not just numbers", "meaning": "Suggests gathering opinions alongside data.", "example": "Let's get qualitative feedback, not just numbers, on this." },
+        { "phrase": "Our brand reputation matters more than a quick win", "meaning": "Prioritizes long-term brand health.", "example": "Our brand reputation matters more than a quick win here." },
+        { "phrase": "Let's celebrate this campaign's success with the team", "meaning": "Suggests recognizing a marketing win.", "example": "Let's celebrate this campaign's success with the team." },
+        { "phrase": "We should iterate based on what we learned", "meaning": "Suggests improving future campaigns using lessons learned.", "example": "We should iterate based on what we learned from this launch." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase asks what makes a product different from competitors?", "options": ["What's our unique value proposition?", "Let's launch this campaign next month", "This is going viral", "Let's monitor brand mentions online"], "answer": "What's our unique value proposition?", "explanation": "This asks what makes the product distinct and valuable." },
+    { "type": "mcq", "question": "Which phrase means comparing two versions to see which performs better?", "options": ["Let's A/B test the subject line", "Let's benchmark against our competitors", "Let's track this campaign's ROI", "Let's segment our email list"], "answer": "Let's A/B test the subject line", "explanation": "A/B testing compares two versions to determine the better performer." },
+    { "type": "mcq", "question": "Which phrase measures how much it costs to gain a new customer?", "options": ["What's our customer acquisition cost?", "Brand awareness is growing steadily", "Let's refresh this creative, it's getting stale", "This creative isn't landing with our audience"], "answer": "What's our customer acquisition cost?", "explanation": "'Customer acquisition cost' (CAC) measures the cost of gaining a new customer." },
+    { "type": "fill", "question": "Let's ___ down on what's working in this channel. (invest more)", "answer": "double", "explanation": "'Double down' means to invest more in something that's working." },
+    { "type": "mcq", "question": "Which phrase suggests analyzing results after a campaign ends?", "options": ["Let's do a post-campaign review", "Let's define our target audience", "This messaging needs to resonate more", "Let's partner with an influencer for this"], "answer": "Let's do a post-campaign review", "explanation": "This reviews the campaign's performance after it concludes." }
+  ]
+}

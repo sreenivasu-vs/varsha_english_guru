@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Change Management - 50 Phrases",
+  "definition": "50 phrases for announcing, explaining, and navigating organizational change - reorgs, new processes, and transitions.",
+  "phraseGroups": [
+    {
+      "category": "Announcing and Explaining Change",
+      "phrases": [
+        { "phrase": "I want to share an important update", "meaning": "Introduces a significant announcement.", "example": "I want to share an important update about the team structure." },
+        { "phrase": "We're making some changes to how we work", "meaning": "Introduces a process or structural change.", "example": "We're making some changes to how we work starting next month." },
+        { "phrase": "Here's the reasoning behind this change", "meaning": "Explains the rationale for a decision.", "example": "Here's the reasoning behind this change in reporting lines." },
+        { "phrase": "This change is designed to help us scale", "meaning": "Frames change as supporting growth.", "example": "This change is designed to help us scale more efficiently." },
+        { "phrase": "I know this might come as a surprise", "meaning": "Acknowledges unexpected news.", "example": "I know this might come as a surprise, so let's discuss it." },
+        { "phrase": "Let me explain what's driving this decision", "meaning": "Provides context behind a change.", "example": "Let me explain what's driving this decision before questions." },
+        { "phrase": "This won't happen overnight", "meaning": "Sets expectations for a gradual transition.", "example": "This won't happen overnight, we'll roll it out in phases." },
+        { "phrase": "We're taking a phased approach to this rollout", "meaning": "Describes gradual implementation.", "example": "We're taking a phased approach to this rollout over two months." },
+        { "phrase": "This is part of a bigger strategic shift", "meaning": "Contextualizes change within larger goals.", "example": "This is part of a bigger strategic shift toward automation." },
+        { "phrase": "I want to be transparent about what's changing and why", "meaning": "Commits to open communication about change.", "example": "I want to be transparent about what's changing and why." },
+        { "phrase": "Nothing is set in stone yet", "meaning": "Notes a plan is still flexible.", "example": "Nothing is set in stone yet, we welcome your input." },
+        { "phrase": "This change affects everyone differently", "meaning": "Acknowledges varied impact across the team.", "example": "This change affects everyone differently, let's discuss individually." },
+        { "phrase": "We'll share more details as they become available", "meaning": "Sets expectations for ongoing communication.", "example": "We'll share more details as they become available." }
+      ]
+    },
+    {
+      "category": "Supporting the Team Through Change",
+      "phrases": [
+        { "phrase": "I know change can be unsettling", "meaning": "Acknowledges discomfort with transitions.", "example": "I know change can be unsettling, and that's okay." },
+        { "phrase": "Your questions and concerns are welcome", "meaning": "Invites open dialogue about the change.", "example": "Your questions and concerns are welcome anytime." },
+        { "phrase": "We'll support you through this transition", "meaning": "Commits to helping the team adapt.", "example": "We'll support you through this transition every step of the way." },
+        { "phrase": "Let's address any concerns you might have", "meaning": "Opens space for worries to be discussed.", "example": "Let's address any concerns you might have about this." },
+        { "phrase": "This is an adjustment period for all of us", "meaning": "Normalizes difficulty during change.", "example": "This is an adjustment period for all of us, be patient." },
+        { "phrase": "I'll be available for one-on-ones if you need to talk", "meaning": "Offers personal support during change.", "example": "I'll be available for one-on-ones if you need to talk." },
+        { "phrase": "We're all learning this together", "meaning": "Frames change as a shared experience.", "example": "We're all learning this together, no one has all the answers yet." },
+        { "phrase": "Let's give this new process a fair chance", "meaning": "Encourages patience with new systems.", "example": "Let's give this new process a fair chance before judging it." },
+        { "phrase": "I appreciate everyone's patience during this time", "meaning": "Thanks the team for tolerance during change.", "example": "I appreciate everyone's patience during this time of transition." },
+        { "phrase": "We'll adjust based on your feedback", "meaning": "Commits to iterating based on team input.", "example": "We'll adjust based on your feedback as we go." },
+        { "phrase": "Let's focus on what stays the same, not just what's changing", "meaning": "Provides reassurance through stability.", "example": "Let's focus on what stays the same, not just what's changing." },
+        { "phrase": "I know it's a lot to take in at once", "meaning": "Acknowledges the volume of new information.", "example": "I know it's a lot to take in at once, let's go slowly." },
+        { "phrase": "We'll check in regularly as this rolls out", "meaning": "Plans ongoing communication during implementation.", "example": "We'll check in regularly as this rolls out over the coming weeks." },
+        { "phrase": "This is a safe space to voice hesitations", "meaning": "Encourages honest expression of concerns.", "example": "This is a safe space to voice hesitations about the change." },
+        { "phrase": "I want to hear how this is landing with you", "meaning": "Checks in on individual reactions to change.", "example": "I want to hear how this is landing with you personally." },
+        { "phrase": "Let's not rush to judgment before we've tried it", "meaning": "Encourages patience before evaluating change.", "example": "Let's not rush to judgment before we've tried it for a while." },
+        { "phrase": "We're committed to making this work for everyone", "meaning": "Reassures inclusivity in the transition.", "example": "We're committed to making this work for everyone on the team." }
+      ]
+    },
+    {
+      "category": "Adapting and Moving Forward",
+      "phrases": [
+        { "phrase": "Let's embrace this as an opportunity", "meaning": "Reframes change positively.", "example": "Let's embrace this as an opportunity to improve our process." },
+        { "phrase": "Change is the only constant in this industry", "meaning": "Normalizes frequent change as part of business.", "example": "Change is the only constant in this industry, we adapt fast." },
+        { "phrase": "Let's find the silver lining in this transition", "meaning": "Looks for positives during a difficult change.", "example": "Let's find the silver lining in this transition together." },
+        { "phrase": "I'm optimistic about where this is heading", "meaning": "Expresses positive outlook about change.", "example": "I'm optimistic about where this is heading for the team." },
+        { "phrase": "Let's not resist this, let's adapt to it", "meaning": "Encourages flexibility rather than opposition.", "example": "Let's not resist this, let's adapt to it and move forward." },
+        { "phrase": "This new way of working will take some getting used to", "meaning": "Sets realistic expectations for adjustment.", "example": "This new way of working will take some getting used to." },
+        { "phrase": "Let's give ourselves grace during this adjustment", "meaning": "Encourages self-compassion during change.", "example": "Let's give ourselves grace during this adjustment period." },
+        { "phrase": "We'll come out stronger on the other side", "meaning": "Expresses confidence in the outcome of change.", "example": "We'll come out stronger on the other side of this." },
+        { "phrase": "Let's keep an open mind about the new process", "meaning": "Encourages receptiveness to new ways of working.", "example": "Let's keep an open mind about the new process for now." },
+        { "phrase": "Old habits die hard, but let's try", "meaning": "Acknowledges difficulty of changing routines.", "example": "Old habits die hard, but let's try to adopt the new workflow." },
+        { "phrase": "Let's celebrate small wins as we adjust", "meaning": "Recognizes progress during a transition.", "example": "Let's celebrate small wins as we adjust to this." },
+        { "phrase": "I'll champion this change with the team", "meaning": "Commits to advocating for a new initiative.", "example": "I'll champion this change with the team going forward." },
+        { "phrase": "Let's treat this as a pilot we can refine", "meaning": "Frames change as an evolving experiment.", "example": "Let's treat this as a pilot we can refine over time." },
+        { "phrase": "This transition is temporary discomfort for long-term gain", "meaning": "Justifies short-term difficulty for future benefit.", "example": "This transition is temporary discomfort for long-term gain." },
+        { "phrase": "Let's stay flexible as we figure this out together", "meaning": "Encourages adaptability during uncertainty.", "example": "Let's stay flexible as we figure this out together." },
+        { "phrase": "I've seen teams thrive after changes like this", "meaning": "Offers reassurance based on past experience.", "example": "I've seen teams thrive after changes like this before." },
+        { "phrase": "Let's revisit how this is going in a month", "meaning": "Plans a follow-up assessment of the change.", "example": "Let's revisit how this is going in a month and adjust." },
+        { "phrase": "Thank you all for adapting so quickly", "meaning": "Appreciates the team's flexibility.", "example": "Thank you all for adapting so quickly to this change." },
+        { "phrase": "We're better positioned now because of this change", "meaning": "Confirms the change achieved its purpose.", "example": "We're better positioned now because of this change." },
+        { "phrase": "Let's use this momentum to keep improving", "meaning": "Builds on progress from a successful change.", "example": "Let's use this momentum to keep improving further." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase reassures the team that change will happen gradually?", "options": ["This won't happen overnight", "This decision is final", "Let's not delay this any further", "Time to pull the trigger on this"], "answer": "This won't happen overnight", "explanation": "This sets expectations for a gradual, phased transition." },
+    { "type": "mcq", "question": "Which phrase reframes change as a positive opportunity?", "options": ["Let's embrace this as an opportunity", "I know change can be unsettling", "Old habits die hard, but let's try", "Nothing is set in stone yet"], "answer": "Let's embrace this as an opportunity", "explanation": "This positively frames change as a chance for improvement." },
+    { "type": "mcq", "question": "Which phrase acknowledges the difficulty of breaking old routines?", "options": ["Old habits die hard, but let's try", "We'll come out stronger on the other side", "Let's celebrate small wins as we adjust", "I'll champion this change with the team"], "answer": "Old habits die hard, but let's try", "explanation": "This idiom acknowledges how hard it is to change established habits." },
+    { "type": "fill", "question": "We're taking a ___ approach to this rollout over two months. (gradual, step-by-step)", "answer": "phased", "explanation": "'Phased approach' means implementing something in stages." },
+    { "type": "mcq", "question": "Which phrase invites open dialogue about concerns during change?", "options": ["Your questions and concerns are welcome", "This change affects everyone differently", "We're all learning this together", "Change is the only constant in this industry"], "answer": "Your questions and concerns are welcome", "explanation": "This directly invites team members to voice their concerns." }
+  ]
+}

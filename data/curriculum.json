@@ -168,6 +168,31 @@
             { "id": "business-vocabulary", "title": "Business Vocabulary" },
             { "id": "email-etiquette", "title": "Email Etiquette" }
           ]
+        },
+        {
+          "title": "Phrase Bank (1000 Phrases)",
+          "lessons": [
+            { "id": "business-phrases-meetings", "title": "Meetings & Discussions - 50 Phrases" },
+            { "id": "business-phrases-negotiations", "title": "Negotiations - 50 Phrases" },
+            { "id": "business-phrases-presentations", "title": "Presentations & Public Speaking - 50 Phrases" },
+            { "id": "business-phrases-email", "title": "Email & Written Communication - 50 Phrases" },
+            { "id": "business-phrases-networking", "title": "Networking & Small Talk - 50 Phrases" },
+            { "id": "business-phrases-sales", "title": "Sales & Persuasion - 50 Phrases" },
+            { "id": "business-phrases-customer-service", "title": "Customer Service - 50 Phrases" },
+            { "id": "business-phrases-leadership", "title": "Leadership & Management - 50 Phrases" },
+            { "id": "business-phrases-feedback", "title": "Feedback & Performance Reviews - 50 Phrases" },
+            { "id": "business-phrases-conflict", "title": "Conflict Resolution - 50 Phrases" },
+            { "id": "business-phrases-teamwork", "title": "Teamwork & Collaboration - 50 Phrases" },
+            { "id": "business-phrases-deadlines", "title": "Deadlines & Time Management - 50 Phrases" },
+            { "id": "business-phrases-interviews", "title": "Interviews & Career Growth - 50 Phrases" },
+            { "id": "business-phrases-finance", "title": "Finance & Numbers - 50 Phrases" },
+            { "id": "business-phrases-marketing", "title": "Marketing & Branding - 50 Phrases" },
+            { "id": "business-phrases-remote-work", "title": "Remote Work & Virtual Meetings - 50 Phrases" },
+            { "id": "business-phrases-problem-solving", "title": "Problem Solving & Decision Making - 50 Phrases" },
+            { "id": "business-phrases-change", "title": "Change Management - 50 Phrases" },
+            { "id": "business-phrases-clients", "title": "Client Relations - 50 Phrases" },
+            { "id": "business-phrases-idioms", "title": "General Office Idioms & Expressions - 50 Phrases" }
+          ]
         }
       ]
     },

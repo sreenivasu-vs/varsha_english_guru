@@ -1,0 +1,80 @@
+{
+  "level": 9,
+  "module": "Phrase Bank (1000 Phrases)",
+  "title": "Finance & Numbers - 50 Phrases",
+  "definition": "50 phrases for discussing budgets, revenue, costs, and financial performance in a business context.",
+  "phraseGroups": [
+    {
+      "category": "Budgets and Costs",
+      "phrases": [
+        { "phrase": "We're operating within budget", "meaning": "Confirms spending is under control.", "example": "We're operating within budget for this quarter." },
+        { "phrase": "This is over budget by 10%", "meaning": "States spending exceeded the plan.", "example": "This is over budget by 10% due to vendor costs." },
+        { "phrase": "Let's cut unnecessary costs", "meaning": "Suggests reducing spending.", "example": "Let's cut unnecessary costs before the next review." },
+        { "phrase": "We need to justify this expense", "meaning": "Requires explaining a cost.", "example": "We need to justify this expense to finance." },
+        { "phrase": "Let's allocate more budget to marketing", "meaning": "Proposes reassigning funds.", "example": "Let's allocate more budget to marketing this year." },
+        { "phrase": "This falls within our approved budget", "meaning": "Confirms compliance with financial limits.", "example": "This falls within our approved budget for the project." },
+        { "phrase": "We need to trim the budget by 15%", "meaning": "Requires reducing spending by a specific amount.", "example": "We need to trim the budget by 15% this year." },
+        { "phrase": "Let's do a cost-benefit analysis", "meaning": "Suggests weighing costs against benefits.", "example": "Let's do a cost-benefit analysis before deciding." },
+        { "phrase": "This is a sunk cost at this point", "meaning": "Notes money already spent that can't be recovered.", "example": "This is a sunk cost at this point, let's focus forward." },
+        { "phrase": "Let's request additional budget for this", "meaning": "Asks for more funding.", "example": "Let's request additional budget for this initiative." },
+        { "phrase": "We came in under budget", "meaning": "Confirms spending less than planned.", "example": "We came in under budget by 5% this quarter." },
+        { "phrase": "Let's get finance to sign off on this spend", "meaning": "Requires financial approval.", "example": "Let's get finance to sign off on this spend first." },
+        { "phrase": "This expense needs pre-approval", "meaning": "Notes a cost requires authorization beforehand.", "example": "This expense needs pre-approval from your manager." }
+      ]
+    },
+    {
+      "category": "Revenue and Performance",
+      "phrases": [
+        { "phrase": "Revenue is up 20% year over year", "meaning": "Reports growth compared to the previous year.", "example": "Revenue is up 20% year over year, great progress." },
+        { "phrase": "We hit our quarterly target", "meaning": "Confirms achieving a financial goal.", "example": "We hit our quarterly target ahead of schedule." },
+        { "phrase": "Let's look at the profit margins", "meaning": "Focuses on profitability.", "example": "Let's look at the profit margins on this product line." },
+        { "phrase": "Our bottom line improved this quarter", "meaning": "Notes overall profit increased.", "example": "Our bottom line improved this quarter despite costs rising." },
+        { "phrase": "We're seeing strong growth in this segment", "meaning": "Highlights positive performance in an area.", "example": "We're seeing strong growth in this segment of the market." },
+        { "phrase": "Let's forecast next quarter's numbers", "meaning": "Suggests projecting future results.", "example": "Let's forecast next quarter's numbers based on current trends." },
+        { "phrase": "This is a key revenue driver", "meaning": "Identifies a significant income source.", "example": "This is a key revenue driver for the business." },
+        { "phrase": "We're falling short of projections", "meaning": "Notes underperformance versus expectations.", "example": "We're falling short of projections this month." },
+        { "phrase": "Let's dig into what's driving this trend", "meaning": "Investigates the cause of a financial pattern.", "example": "Let's dig into what's driving this trend in churn." },
+        { "phrase": "Our numbers are trending in the right direction", "meaning": "Confirms positive financial movement.", "example": "Our numbers are trending in the right direction this quarter." },
+        { "phrase": "Let's compare this to last year's figures", "meaning": "Suggests a year-over-year comparison.", "example": "Let's compare this to last year's figures for context." },
+        { "phrase": "This is our best quarter to date", "meaning": "Highlights a record performance period.", "example": "This is our best quarter to date for new customer growth." },
+        { "phrase": "We need to close the gap to our target", "meaning": "Notes work needed to reach a financial goal.", "example": "We need to close the gap to our target by year-end." },
+        { "phrase": "Let's review the P&L for this project", "meaning": "Suggests examining profit and loss statements.", "example": "Let's review the P&L for this project before deciding." },
+        { "phrase": "Our churn rate has improved", "meaning": "Notes fewer customers leaving.", "example": "Our churn rate has improved since the new pricing model." },
+        { "phrase": "Let's set more aggressive revenue targets", "meaning": "Suggests raising financial goals.", "example": "Let's set more aggressive revenue targets for next year." },
+        { "phrase": "This investment paid off", "meaning": "Confirms a spend generated good returns.", "example": "This investment paid off within six months." }
+      ]
+    },
+    {
+      "category": "Financial Discussions and Reporting",
+      "phrases": [
+        { "phrase": "Let's walk through the numbers together", "meaning": "Suggests reviewing financials collaboratively.", "example": "Let's walk through the numbers together before the board meeting." },
+        { "phrase": "Can you break this down by department?", "meaning": "Requests a detailed financial breakdown.", "example": "Can you break this down by department for clarity?" },
+        { "phrase": "Let's flag any discrepancies in the report", "meaning": "Identifies inconsistencies in data.", "example": "Let's flag any discrepancies in the report before submission." },
+        { "phrase": "I'll prepare the financial summary for the meeting", "meaning": "Commits to preparing financial documentation.", "example": "I'll prepare the financial summary for the meeting tomorrow." },
+        { "phrase": "Let's double-check these figures before we present", "meaning": "Verifies accuracy before sharing data.", "example": "Let's double-check these figures before we present them." },
+        { "phrase": "This needs to be reconciled with accounting", "meaning": "Requires matching records with the accounting team.", "example": "This needs to be reconciled with accounting by Friday." },
+        { "phrase": "Let's get a clearer picture of our cash flow", "meaning": "Suggests reviewing incoming and outgoing funds.", "example": "Let's get a clearer picture of our cash flow this month." },
+        { "phrase": "I'll share the updated numbers by end of day", "meaning": "Promises to send financial updates soon.", "example": "I'll share the updated numbers by end of day." },
+        { "phrase": "Let's present this in a simpler format for stakeholders", "meaning": "Suggests simplifying financial data for clarity.", "example": "Let's present this in a simpler format for stakeholders." },
+        { "phrase": "These are preliminary numbers, subject to change", "meaning": "Notes data isn't finalized yet.", "example": "These are preliminary numbers, subject to change after audit." },
+        { "phrase": "Let's align on assumptions before forecasting", "meaning": "Ensures agreement on inputs before projections.", "example": "Let's align on assumptions before forecasting next year." },
+        { "phrase": "I'll loop in finance for their input on this", "meaning": "Includes the finance team in a decision.", "example": "I'll loop in finance for their input on this proposal." },
+        { "phrase": "Let's be conservative with our estimates", "meaning": "Suggests cautious financial projections.", "example": "Let's be conservative with our estimates given the uncertainty." },
+        { "phrase": "This number seems off, let's verify it", "meaning": "Questions the accuracy of a figure.", "example": "This number seems off, let's verify it with the source data." },
+        { "phrase": "Let's make sure this aligns with our fiscal year", "meaning": "Ensures consistency with the financial calendar.", "example": "Let's make sure this aligns with our fiscal year timeline." },
+        { "phrase": "I'll circulate the final report after review", "meaning": "Promises to share the finished document.", "example": "I'll circulate the final report after review by leadership." },
+        { "phrase": "Let's schedule a budget review meeting", "meaning": "Suggests a dedicated financial planning session.", "example": "Let's schedule a budget review meeting for next week." },
+        { "phrase": "These figures are audited and verified", "meaning": "Confirms data accuracy through formal review.", "example": "These figures are audited and verified by our accounting team." },
+        { "phrase": "Let's model out a few different scenarios", "meaning": "Suggests exploring multiple financial outcomes.", "example": "Let's model out a few different scenarios before deciding." },
+        { "phrase": "I want full transparency on where this money is going", "meaning": "Requests clarity on fund allocation.", "example": "I want full transparency on where this money is going." }
+      ]
+    }
+  ],
+  "quiz": [
+    { "type": "mcq", "question": "Which phrase means spending was less than planned?", "options": ["We came in under budget", "This is over budget by 10%", "We need to trim the budget by 15%", "This needs pre-approval"], "answer": "We came in under budget", "explanation": "'Under budget' means spending less than what was planned." },
+    { "type": "mcq", "question": "Which phrase describes money already spent that can't be recovered?", "options": ["This is a sunk cost at this point", "Revenue is up 20% year over year", "Let's forecast next quarter's numbers", "This investment paid off"], "answer": "This is a sunk cost at this point", "explanation": "'Sunk cost' refers to money already spent that cannot be recovered." },
+    { "type": "mcq", "question": "Which phrase requests a detailed breakdown of numbers?", "options": ["Can you break this down by department?", "Let's be conservative with our estimates", "We hit our quarterly target", "This falls within our approved budget"], "answer": "Can you break this down by department?", "explanation": "This asks for financial data organized by a specific category." },
+    { "type": "fill", "question": "Our ___ rate has improved since the new pricing model. (customers leaving)", "answer": "churn", "explanation": "'Churn rate' measures how many customers stop using a service." },
+    { "type": "mcq", "question": "Which phrase means examining costs versus benefits before deciding?", "options": ["Let's do a cost-benefit analysis", "Let's align on assumptions before forecasting", "This falls within our approved budget", "We're falling short of projections"], "answer": "Let's do a cost-benefit analysis", "explanation": "This compares the costs and benefits of a decision." }
+  ]
+}

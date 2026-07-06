@@ -110,6 +110,31 @@
           "lessons": [
             { "id": "vocab-day-1", "title": "Daily Words - Day 1" }
           ]
+        },
+        {
+          "title": "IT Vocabulary Bank (1000 Words)",
+          "lessons": [
+            { "id": "it-vocab-programming-fundamentals", "title": "Programming Fundamentals - 50 Words" },
+            { "id": "it-vocab-data-structures", "title": "Data Structures & Algorithms - 50 Words" },
+            { "id": "it-vocab-web-development", "title": "Web Development - 50 Words" },
+            { "id": "it-vocab-databases", "title": "Databases & SQL - 50 Words" },
+            { "id": "it-vocab-networking", "title": "Networking - 50 Words" },
+            { "id": "it-vocab-cloud-computing", "title": "Cloud Computing - 50 Words" },
+            { "id": "it-vocab-cybersecurity", "title": "Cybersecurity - 50 Words" },
+            { "id": "it-vocab-devops", "title": "DevOps & CI/CD - 50 Words" },
+            { "id": "it-vocab-operating-systems", "title": "Operating Systems - 50 Words" },
+            { "id": "it-vocab-software-engineering", "title": "Software Engineering Practices - 50 Words" },
+            { "id": "it-vocab-git", "title": "Version Control & Git - 50 Words" },
+            { "id": "it-vocab-apis", "title": "APIs & Web Services - 50 Words" },
+            { "id": "it-vocab-ai-ml", "title": "Artificial Intelligence & Machine Learning - 50 Words" },
+            { "id": "it-vocab-mobile-development", "title": "Mobile Development - 50 Words" },
+            { "id": "it-vocab-system-design", "title": "System Design & Architecture - 50 Words" },
+            { "id": "it-vocab-hardware-support", "title": "IT Support & Hardware - 50 Words" },
+            { "id": "it-vocab-project-management", "title": "IT Project Management - 50 Words" },
+            { "id": "it-vocab-testing-qa", "title": "Testing & QA - 50 Words" },
+            { "id": "it-vocab-emerging-tech", "title": "Emerging Tech - 50 Words" },
+            { "id": "it-vocab-general-acronyms", "title": "General Tech Acronyms & Terms - 50 Words" }
+          ]
         }
       ]
     },

@@ -232,6 +232,37 @@
           ]
         }
       ]
+    },
+    {
+      "id": 11,
+      "title": "Common Mistakes Bank",
+      "modules": [
+        {
+          "title": "1000 Common Mistakes",
+          "lessons": [
+            { "id": "mistakes-subject-verb-agreement", "title": "Subject-Verb Agreement Mistakes - 50 Mistakes" },
+            { "id": "mistakes-articles", "title": "Article Mistakes (a/an/the) - 50 Mistakes" },
+            { "id": "mistakes-prepositions", "title": "Preposition Mistakes - 50 Mistakes" },
+            { "id": "mistakes-tenses", "title": "Tense Mistakes - 50 Mistakes" },
+            { "id": "mistakes-countable-uncountable", "title": "Countable & Uncountable Noun Mistakes - 50 Mistakes" },
+            { "id": "mistakes-word-order", "title": "Word Order Mistakes - 50 Mistakes" },
+            { "id": "mistakes-pronouns", "title": "Pronoun Mistakes - 50 Mistakes" },
+            { "id": "mistakes-confusing-words", "title": "Confusing Word Pairs - 50 Mistakes" },
+            { "id": "mistakes-double-negatives-redundancy", "title": "Double Negatives & Redundancy Mistakes - 50 Mistakes" },
+            { "id": "mistakes-run-on-sentences", "title": "Run-on Sentences & Comma Splice Mistakes - 50 Mistakes" },
+            { "id": "mistakes-sentence-fragments", "title": "Sentence Fragment Mistakes - 50 Mistakes" },
+            { "id": "mistakes-modifiers", "title": "Modifier Placement Mistakes - 50 Mistakes" },
+            { "id": "mistakes-conjunctions", "title": "Conjunction Mistakes - 50 Mistakes" },
+            { "id": "mistakes-question-formation", "title": "Question Formation Mistakes - 50 Mistakes" },
+            { "id": "mistakes-negative-sentences", "title": "Negative Sentence Mistakes - 50 Mistakes" },
+            { "id": "mistakes-comparatives-superlatives", "title": "Comparative & Superlative Mistakes - 50 Mistakes" },
+            { "id": "mistakes-reported-speech", "title": "Reported Speech Mistakes - 50 Mistakes" },
+            { "id": "mistakes-capitalization-punctuation", "title": "Capitalization & Punctuation Mistakes - 50 Mistakes" },
+            { "id": "mistakes-indian-english", "title": "Common Indian English Mistakes - 50 Mistakes" },
+            { "id": "mistakes-wordy-phrases", "title": "Wordy Phrases & Simplification Mistakes - 50 Mistakes" }
+          ]
+        }
+      ]
     }
   ]
 }

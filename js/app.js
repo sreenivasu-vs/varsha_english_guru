@@ -181,8 +181,46 @@ async function initDashboard() {
   renderLevels();
 
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("service-worker.js").catch(() => {});
+    setupServiceWorkerUpdates();
   }
+}
+
+/* Installed PWAs only get a new service worker check automatically once
+   every ~24h by default. registration.update() forces an immediate check on
+   load and whenever the app returns to the foreground, and the banner below
+   lets the user pick up new content the moment it's ready instead of
+   waiting on the browser's internal timer. */
+function setupServiceWorkerUpdates() {
+  navigator.serviceWorker.register("service-worker.js").then((registration) => {
+    registration.update();
+
+    registration.addEventListener("updatefound", () => {
+      const newWorker = registration.installing;
+      if (!newWorker) return;
+      newWorker.addEventListener("statechange", () => {
+        if (newWorker.state === "activated" && navigator.serviceWorker.controller) {
+          showUpdateBanner();
+        }
+      });
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible") registration.update();
+    });
+  }).catch(() => {});
+}
+
+function showUpdateBanner() {
+  if (document.getElementById("swUpdateBanner")) return;
+  const banner = document.createElement("div");
+  banner.id = "swUpdateBanner";
+  banner.className = "sw-update-banner";
+  banner.innerHTML = `
+    <span>A new version is ready.</span>
+    <button type="button" id="swUpdateBtn">Refresh</button>
+  `;
+  document.body.appendChild(banner);
+  document.getElementById("swUpdateBtn").addEventListener("click", () => window.location.reload());
 }
 
 /* Dashboard rendering only starts after the login gate (js/auth-gate.js)

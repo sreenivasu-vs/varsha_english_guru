@@ -7,7 +7,7 @@
 // See DEPLOY.md.
 const API_BASE = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
   ? "http://localhost:8000"
-  : "https://YOUR-BACKEND-URL.onrender.com";
+  : "https://english-master-api.onrender.com";
 
 const SESSION_KEY = "em_session";
 

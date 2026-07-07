@@ -42,7 +42,7 @@ The lessons, quizzes, dashboard, and PWA install all work with **just the fronte
 ## Step 3: Backend - Render
 
 1. Sign up at [render.com](https://render.com) and connect your GitHub account.
-2. Click **New +** → **Blueprint**, select your `english-master` repo. Render will detect `backend/render.yaml` automatically.
+2. Click **New +** → **Blueprint**, select your `english-master` repo. Render will detect `render.yaml` at the repo root automatically - leave the "Blueprint Path" field as the default (don't point it at a subfolder; Render only auto-scans the root).
    - If you'd rather set it up manually instead: **New +** → **Web Service** → select the repo → set **Root Directory** to `backend`, **Build Command** to `pip install -r requirements.txt`, **Start Command** to `uvicorn main:app --host 0.0.0.0 --port $PORT`.
 3. Under **Environment**, set:
    - `DATABASE_URL` = the Neon connection string from Step 2

@@ -13,6 +13,7 @@ function defaultProgress() {
     streak: { count: 0, lastActiveDate: null },
     badges: [],
     theme: "light",
+    dailyConversation: { lastCompletedDate: null },
   };
 }
 
@@ -106,6 +107,19 @@ function recordPracticeTest(score, total) {
   p = addXP(p, 10 + score * 4);
   saveProgress(p);
   return p;
+}
+
+function recordDailyConversation() {
+  let p = getProgress();
+  const today = todayStr();
+  if (p.dailyConversation.lastCompletedDate === today) {
+    return { progress: p, awarded: false };
+  }
+  p.dailyConversation.lastCompletedDate = today;
+  p = touchStreak(p);
+  p = addXP(p, 25);
+  saveProgress(p);
+  return { progress: p, awarded: true };
 }
 
 function setTheme(theme) {

@@ -179,9 +179,34 @@ async function initDashboard() {
   renderContinue();
   renderWeak();
   renderLevels();
+  renderDailyConversationCard();
 
   if ("serviceWorker" in navigator) {
     setupServiceWorkerUpdates();
+  }
+}
+
+function dayOfYear(d = new Date()) {
+  const start = new Date(d.getFullYear(), 0, 0);
+  const diff = d - start;
+  return Math.floor(diff / 86400000);
+}
+
+async function renderDailyConversationCard() {
+  const topicEl = document.getElementById("dailyConvTopic");
+  const doneEl = document.getElementById("dailyConvDone");
+  if (!topicEl) return;
+  try {
+    const res = await fetch("data/daily-conversations.json");
+    const scenarios = await res.json();
+    const today = scenarios[dayOfYear() % scenarios.length];
+    topicEl.textContent = today.topic;
+  } catch (e) {
+    topicEl.textContent = "Available now";
+  }
+  const progress = getProgress();
+  if (progress.dailyConversation && progress.dailyConversation.lastCompletedDate === todayStr()) {
+    doneEl.style.display = "inline";
   }
 }
 

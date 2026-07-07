@@ -365,6 +365,15 @@ table.conjugation th { background: var(--surface-2); }
 }
 .dialogue-text { flex: 1; font-size: 14.5px; }
 
+.dialogue-line.your-turn {
+  display: block;
+  background: var(--surface-2);
+  border-left: 3px solid var(--primary);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 14px;
+}
+
 /* Quiz */
 .quiz-progress { font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
 .quiz-question { font-size: 16px; font-weight: 700; margin-bottom: 14px; }

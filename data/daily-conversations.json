@@ -1,0 +1,322 @@
+[
+  {
+    "id": "standup-update",
+    "topic": "Daily Stand-up Update",
+    "scenario": "Your team lead is asking for your stand-up update in the morning meeting.",
+    "exchange": [
+      { "speaker": "Team Lead", "line": "Morning! Can you give us a quick update on your tasks?" },
+      { "speaker": "You", "line": "Sure. Yesterday I finished the login bug fix, and today I'm starting on the API integration.", "yourTurn": true },
+      { "speaker": "Team Lead", "line": "Sounds good. Any blockers?" },
+      { "speaker": "You", "line": "Not right now, but I might need help reviewing the pull request later.", "yourTurn": true }
+    ],
+    "tips": [
+      "Follow the three-part shape everyone expects: what you did, what you're doing next, and what's blocking you. Stand-ups move fast, and this order is what your team is scanning for.",
+      "Keep each part to one sentence. A stand-up update is a headline, not a status report - if someone needs more detail, they'll ask after the meeting.",
+      "Say 'no blockers' out loud even when there aren't any. Silence makes people wonder if you forgot the question - a short confirmation shows you're on top of things."
+    ]
+  },
+  {
+    "id": "deadline-extension",
+    "topic": "Requesting a Deadline Extension",
+    "scenario": "You realize you need two more days to finish a task and have to ask your manager.",
+    "exchange": [
+      { "speaker": "Manager", "line": "How's the report coming along? It's due tomorrow, right?" },
+      { "speaker": "You", "line": "I've made good progress, but I've run into a data issue that will take about two extra days to fix properly.", "yourTurn": true },
+      { "speaker": "Manager", "line": "I see. Can you tell me more about the issue?" },
+      { "speaker": "You", "line": "Some of the source numbers don't match, so I want to verify them before submitting anything.", "yourTurn": true }
+    ],
+    "tips": [
+      "State the new timeline before you explain the reason. Managers want the answer first ('I need two more days') - if you lead with the excuse, it can sound like you're avoiding the real point.",
+      "Never say 'I didn't have time.' Instead, name a specific, factual reason ('a data mismatch', 'a dependency wasn't ready'). Specific reasons sound like problem-solving; vague ones sound like excuses.",
+      "Offer a plan, not just a delay. Adding 'so I want to verify them before submitting' shows you're protecting quality, not just running late - that turns a bad-news message into a responsible one."
+    ]
+  },
+  {
+    "id": "code-review-feedback",
+    "topic": "Giving Code Review Feedback",
+    "scenario": "A teammate has asked you to review their pull request, and you've found a few issues.",
+    "exchange": [
+      { "speaker": "Teammate", "line": "Hey, did you get a chance to look at my pull request?" },
+      { "speaker": "You", "line": "Yes, overall it looks solid - I just left a couple of comments about error handling in the payment function.", "yourTurn": true },
+      { "speaker": "Teammate", "line": "Oh, what did you find?" },
+      { "speaker": "You", "line": "If the API call fails, the code doesn't catch the error, so it could crash the app - could you add a try-catch there?", "yourTurn": true }
+    ],
+    "tips": [
+      "Open with something positive before the criticism. 'Overall it looks solid' costs you nothing and makes the person far more receptive to the feedback that follows - this is called the 'praise sandwich' and it works.",
+      "Point at the code, not the person. Say 'the code doesn't catch the error' instead of 'you didn't catch the error' - the first is a neutral fact, the second can feel like a personal attack even when you don't mean it that way.",
+      "End with a question or suggestion ('could you add a try-catch there?') rather than a command ('add a try-catch'). It turns feedback into a collaboration instead of an order."
+    ]
+  },
+  {
+    "id": "incident-escalation",
+    "topic": "Escalating a Production Incident",
+    "scenario": "The production server just went down, and you need to alert your manager immediately.",
+    "exchange": [
+      { "speaker": "Manager", "line": "What's going on? I'm seeing alerts everywhere." },
+      { "speaker": "You", "line": "The production server went down about five minutes ago - I'm already looking into the cause.", "yourTurn": true },
+      { "speaker": "Manager", "line": "Do we know the impact yet?" },
+      { "speaker": "You", "line": "All users are affected right now. I'll have an update for you within fifteen minutes.", "yourTurn": true }
+    ],
+    "tips": [
+      "In a crisis, speak in short, plain sentences. Long, complicated explanations slow everyone down when speed matters most - save the detailed story for the post-incident report.",
+      "Always state three things fast: what happened, when it happened, and what you're doing about it right now. This is the exact information a manager needs to decide their next move.",
+      "Never say 'I don't know' and stop there. Say 'I don't know yet, but I'll update you by [specific time]' - a time commitment turns uncertainty into a plan, which keeps people calm."
+    ]
+  },
+  {
+    "id": "onboarding-new-teammate",
+    "topic": "Onboarding a New Teammate",
+    "scenario": "It's a new team member's first day, and you're showing them around the project.",
+    "exchange": [
+      { "speaker": "New Teammate", "line": "Hi! I'm not sure where to start - could you walk me through the project?" },
+      { "speaker": "You", "line": "Of course! Let's start with the codebase structure, and then I'll show you how we handle deployments.", "yourTurn": true },
+      { "speaker": "New Teammate", "line": "That would be great, thanks. Who should I go to if I get stuck?" },
+      { "speaker": "You", "line": "Feel free to message me directly - no question is too small in your first few weeks.", "yourTurn": true }
+    ],
+    "tips": [
+      "Announce the plan before you start explaining ('Let's start with X, then Y'). It gives a nervous new joiner a map, so they aren't lost wondering how much more there is to learn.",
+      "Say 'no question is too small' explicitly. New employees often stay quiet out of fear of looking unprepared - giving them direct permission to ask removes that fear.",
+      "Offer yourself as the first point of contact by name, not just 'ask the team.' A specific person feels far more approachable than an anonymous group on someone's first day."
+    ]
+  },
+  {
+    "id": "negotiating-scope",
+    "topic": "Negotiating Scope with a Client",
+    "scenario": "A client is asking for extra features that weren't part of the original agreement.",
+    "exchange": [
+      { "speaker": "Client", "line": "Can we also add a dashboard and export feature to this release?" },
+      { "speaker": "You", "line": "Those are great ideas, but they're outside our current scope - I'd suggest we add them to the next phase.", "yourTurn": true },
+      { "speaker": "Client", "line": "We were really hoping to have them soon." },
+      { "speaker": "You", "line": "I understand. Let's finish the current milestone first, and I'll send you a proposal for the new features by Friday.", "yourTurn": true }
+    ],
+    "tips": [
+      "Validate the request before you say no. 'Those are great ideas' shows you're not dismissing the client - you're just managing timing, which keeps the relationship friendly.",
+      "Never say a flat 'no' to a client without offering a next step. 'Let's add them to the next phase' turns a rejection into a plan, so the conversation ends on a positive note.",
+      "Give a specific date ('by Friday') instead of 'soon.' Vague promises create anxiety and follow-up emails; a concrete date builds trust and closes the topic for now."
+    ]
+  },
+  {
+    "id": "constructive-feedback-teammate",
+    "topic": "Giving Constructive Feedback to a Teammate",
+    "scenario": "A teammate has been missing small details in their recent work, and you need to raise it kindly.",
+    "exchange": [
+      { "speaker": "Teammate", "line": "Did you notice anything I should improve on the last few tasks?" },
+      { "speaker": "You", "line": "You're doing well overall - I've just noticed a few small details getting missed, like edge cases in testing.", "yourTurn": true },
+      { "speaker": "Teammate", "line": "Yeah, I've been a bit rushed lately." },
+      { "speaker": "You", "line": "That makes sense. Maybe we could build in a quick self-review step before submitting - want to try that?", "yourTurn": true }
+    ],
+    "tips": [
+      "Use 'I've noticed' instead of 'you always' or 'you never.' 'I've noticed' describes a specific pattern you observed; 'you always' sounds like a permanent character judgment and puts people on the defensive.",
+      "Name the behavior, not the person's ability. 'Edge cases in testing got missed' is about a task; 'you're careless' is about their character - always aim at the first one.",
+      "Turn the feedback into a joint experiment ('want to try that?'). People accept change far more easily when they feel it's a shared solution rather than a correction handed down to them."
+    ]
+  },
+  {
+    "id": "asking-manager-clarification",
+    "topic": "Asking Your Manager for Clarification",
+    "scenario": "You've been given a task, but the instructions are a bit unclear, and you need to ask before starting.",
+    "exchange": [
+      { "speaker": "Manager", "line": "Can you take care of the client report by end of week?" },
+      { "speaker": "You", "line": "Sure, just to confirm - should I include last quarter's numbers, or only this quarter's?", "yourTurn": true },
+      { "speaker": "Manager", "line": "Good question - just this quarter for now." },
+      { "speaker": "You", "line": "Got it, that's clear. I'll send you a draft by Thursday for a quick check.", "yourTurn": true }
+    ],
+    "tips": [
+      "Say 'just to confirm' before your question. It signals that you're not questioning the task itself, only making sure you execute it correctly - this makes the question sound sharp, not unsure.",
+      "Ask 'either/or' questions instead of open-ended ones when possible ('this quarter or last quarter?' rather than 'what numbers do you want?'). It's faster for your manager to answer and shows you've already thought it through.",
+      "Close the loop by restating the answer back ('Got it, that's clear'). This confirms you understood correctly and gives your manager a chance to correct you immediately if you didn't."
+    ]
+  },
+  {
+    "id": "project-status-update",
+    "topic": "Presenting a Project Status Update",
+    "scenario": "You're presenting the current status of your project to stakeholders in a meeting.",
+    "exchange": [
+      { "speaker": "Stakeholder", "line": "Can you walk us through where the project stands right now?" },
+      { "speaker": "You", "line": "Sure. We're currently on track, about seventy percent complete, with the final testing phase starting next week.", "yourTurn": true },
+      { "speaker": "Stakeholder", "line": "Any risks we should be aware of?" },
+      { "speaker": "You", "line": "One risk is a third-party vendor delay, but we have a backup plan in case it happens.", "yourTurn": true }
+    ],
+    "tips": [
+      "Start with the headline number or status ('seventy percent complete, on track') before any details. Stakeholders remember the first sentence best, so put the most important fact there.",
+      "Always pair a risk with a mitigation in the same breath. Saying only 'there's a risk' creates worry; adding 'but we have a backup plan' shows you're already managing it.",
+      "Use round, simple numbers when speaking aloud ('about seventy percent') rather than precise ones ('seventy-three point two percent'). Spoken updates are easier to follow when the numbers are simple to picture."
+    ]
+  },
+  {
+    "id": "declining-meeting",
+    "topic": "Declining a Meeting Politely",
+    "scenario": "You've been invited to a meeting that overlaps with another commitment, and you need to decline politely.",
+    "exchange": [
+      { "speaker": "Colleague", "line": "Can you join our 3 PM sync tomorrow?" },
+      { "speaker": "You", "line": "I actually have a conflicting call at that time - could we move it to 4 PM, or should I send someone in my place?", "yourTurn": true },
+      { "speaker": "Colleague", "line": "4 PM works for us too." },
+      { "speaker": "You", "line": "Perfect, I'll update the invite and send my notes beforehand in case anything comes up.", "yourTurn": true }
+    ],
+    "tips": [
+      "Never just say 'I can't make it' and stop. Always offer an alternative in the same sentence ('could we move it to 4 PM?') so the other person doesn't have to do the extra work of rescheduling.",
+      "Give a brief, honest reason ('a conflicting call') without over-explaining. One short reason sounds confident; a long justification can sound like you're trying too hard to be excused.",
+      "If you truly can't attend even the new time, offer to send notes or a delegate. It shows the meeting still matters to you even though your body won't be in the room."
+    ]
+  },
+  {
+    "id": "job-interview-followup",
+    "topic": "Following Up After a Job Interview",
+    "scenario": "It's been a week since your interview, and you want to politely check on the status.",
+    "exchange": [
+      { "speaker": "Recruiter", "line": "Hi! Thanks for waiting - how can I help?" },
+      { "speaker": "You", "line": "I wanted to follow up on the developer position I interviewed for last week, if there's any update.", "yourTurn": true },
+      { "speaker": "Recruiter", "line": "We're still finalizing decisions, thanks for checking in." },
+      { "speaker": "You", "line": "No problem at all, I appreciate the update - please let me know if you need anything further from me.", "yourTurn": true }
+    ],
+    "tips": [
+      "Name the exact role and timeframe ('the developer position I interviewed for last week'). Recruiters talk to many candidates, and specifics save them time and make you memorable for the right reasons.",
+      "Use 'if there's any update' rather than 'when will I hear back?' The first sounds patient and professional; the second can come across as pressuring, even if that's not your intention.",
+      "Whatever the answer, respond warmly ('no problem at all, I appreciate the update'). How you handle a non-answer often matters as much to the interviewer as the interview itself."
+    ]
+  },
+  {
+    "id": "apologizing-missed-deadline",
+    "topic": "Apologizing for a Missed Deadline",
+    "scenario": "You missed a deadline and need to explain the situation to your manager honestly.",
+    "exchange": [
+      { "speaker": "Manager", "line": "I noticed the deliverable wasn't sent yesterday - what happened?" },
+      { "speaker": "You", "line": "You're right, I'm sorry - I underestimated how long the testing would take, and I should have flagged it earlier.", "yourTurn": true },
+      { "speaker": "Manager", "line": "Okay, when can I expect it now?" },
+      { "speaker": "You", "line": "I'll have it to you by tomorrow morning, and I'll build in more buffer time for testing going forward.", "yourTurn": true }
+    ],
+    "tips": [
+      "Say 'I'm sorry' plainly and early, without hiding it behind 'unfortunately' or 'due to circumstances.' A direct apology builds more trust than a vague one that avoids ownership.",
+      "Add what you'll do differently next time ('I should have flagged it earlier'). This shows the mistake taught you something, which matters more to most managers than the mistake itself.",
+      "Give a new, realistic deadline immediately ('by tomorrow morning'). An apology without a new commitment leaves the real problem - the missing deliverable - still unsolved."
+    ]
+  },
+  {
+    "id": "explaining-technical-issue",
+    "topic": "Explaining a Technical Issue to a Non-Technical Stakeholder",
+    "scenario": "You need to explain a technical bug to a stakeholder who doesn't have an engineering background.",
+    "exchange": [
+      { "speaker": "Stakeholder", "line": "Why is the checkout page showing an error for some customers?" },
+      { "speaker": "You", "line": "Think of it like a form that's missing one required field for certain customers - our system doesn't know how to process it, so it shows an error.", "yourTurn": true },
+      { "speaker": "Stakeholder", "line": "I see - how long will it take to fix?" },
+      { "speaker": "You", "line": "We expect to have it resolved within a few hours, and I'll confirm once it's live.", "yourTurn": true }
+    ],
+    "tips": [
+      "Use an everyday comparison ('like a form that's missing one required field') instead of technical terms like 'null pointer exception.' A simple analogy lets a non-technical listener follow along without feeling lost.",
+      "Avoid acronyms and internal jargon completely in this kind of conversation - even common ones like 'API' or 'backend' can stop a stakeholder from following the rest of your sentence.",
+      "Always close with a timeframe and a promise to confirm ('I'll confirm once it's live'). Stakeholders care less about the cause than about when it's fixed and how they'll know."
+    ]
+  },
+  {
+    "id": "requesting-time-off",
+    "topic": "Requesting Time Off",
+    "scenario": "You need to ask your manager for a few days off next month.",
+    "exchange": [
+      { "speaker": "Manager", "line": "Hey, what did you want to discuss?" },
+      { "speaker": "You", "line": "I'd like to request three days off next month, from the 10th to the 12th, if that works for the team.", "yourTurn": true },
+      { "speaker": "Manager", "line": "Let me check the calendar - is there anything urgent during that time?" },
+      { "speaker": "You", "line": "Nothing urgent that I know of, and I'll make sure my tasks are covered before I leave.", "yourTurn": true }
+    ],
+    "tips": [
+      "Give exact dates ('from the 10th to the 12th') instead of 'sometime next month.' Precise dates are easier to approve quickly, since your manager can check the calendar in seconds.",
+      "Add 'if that works for the team' to show you're being considerate of workload, not just announcing an absence - it turns a request into a collaborative check-in.",
+      "Offer a coverage plan before you're asked ('I'll make sure my tasks are covered'). This is often the first thing a manager worries about, so addressing it early speeds up a 'yes.'"
+    ]
+  },
+  {
+    "id": "sprint-retro-wrapup",
+    "topic": "Sprint Retrospective Wrap-up",
+    "scenario": "You're wrapping up a sprint retrospective meeting and sharing one key takeaway.",
+    "exchange": [
+      { "speaker": "Scrum Master", "line": "Before we close, does anyone have a final takeaway from this sprint?" },
+      { "speaker": "You", "line": "For me, the biggest win was catching issues earlier through code reviews - I'd like us to keep that habit going.", "yourTurn": true },
+      { "speaker": "Scrum Master", "line": "Great point. Anything we should improve next sprint?" },
+      { "speaker": "You", "line": "I think we could plan tasks a bit more realistically - a few of us underestimated how long testing would take.", "yourTurn": true }
+    ],
+    "tips": [
+      "Structure your takeaway as 'what went well' plus 'what to keep doing.' A retrospective isn't just reflection - it should always end in an action people can carry into the next sprint.",
+      "When raising an improvement, speak about the team's shared experience ('a few of us underestimated') rather than singling anyone out. This keeps the retro a safe space instead of a blame session.",
+      "Keep your takeaway to one clear sentence. In a group retro, several people are waiting to speak - a short, focused comment respects everyone's time and lands better than a long story."
+    ]
+  },
+  {
+    "id": "reporting-bug-to-qa",
+    "topic": "Reporting a Bug to QA",
+    "scenario": "You found a bug while testing and need to describe it clearly to the QA team.",
+    "exchange": [
+      { "speaker": "QA Engineer", "line": "What did you find in your testing today?" },
+      { "speaker": "You", "line": "When I click 'submit' on the form with an empty email field, the page freezes instead of showing an error message.", "yourTurn": true },
+      { "speaker": "QA Engineer", "line": "Can you reproduce it consistently?" },
+      { "speaker": "You", "line": "Yes, it happens every time on Chrome - I haven't tested it on other browsers yet.", "yourTurn": true }
+    ],
+    "tips": [
+      "Describe a bug as 'steps plus result': what you clicked, and what happened instead of what should have happened. This exact structure is what QA needs to reproduce and fix it quickly.",
+      "Say 'instead of' to highlight the gap ('freezes instead of showing an error'). This one word makes the expected vs. actual behavior crystal clear in a single sentence.",
+      "Always mention what you have and haven't tested yet ('I haven't tested it on other browsers'). This tells QA exactly where the known information ends, so they don't assume more than you've confirmed."
+    ]
+  },
+  {
+    "id": "salary-review-discussion",
+    "topic": "Discussing a Salary Review",
+    "scenario": "You're meeting with your manager to discuss your annual salary review.",
+    "exchange": [
+      { "speaker": "Manager", "line": "So, let's talk about your salary review this year." },
+      { "speaker": "You", "line": "Thank you. Based on the projects I've led this year, I'd like to discuss a raise in line with my added responsibilities.", "yourTurn": true },
+      { "speaker": "Manager", "line": "That's fair - can you share some specific examples?" },
+      { "speaker": "You", "line": "Sure, I took ownership of the client migration project and mentored two new team members this year.", "yourTurn": true }
+    ],
+    "tips": [
+      "Anchor your request in evidence ('based on the projects I've led') rather than personal need ('I need more money'). Business conversations respond better to contribution than to circumstance.",
+      "Have two or three concrete examples ready before the meeting, like 'took ownership of X' or 'mentored Y.' Specific, countable achievements are far more persuasive than a general 'I worked hard this year.'",
+      "Stay calm and factual even if the answer isn't what you hoped. Saying 'that's fair, can you share examples?' shows the manager is engaging seriously - match that same steady, professional tone back."
+    ]
+  },
+  {
+    "id": "handing-off-project",
+    "topic": "Handing Off a Project to a Colleague",
+    "scenario": "You're going on leave and need to hand off your current project to a colleague.",
+    "exchange": [
+      { "speaker": "Colleague", "line": "Thanks for looping me in - what do I need to know before you're out?" },
+      { "speaker": "You", "line": "The main thing is the client demo on Thursday - I've already prepared the slides, so you'll just need to present them.", "yourTurn": true },
+      { "speaker": "Colleague", "line": "Got it. Anything else I should watch for?" },
+      { "speaker": "You", "line": "Just keep an eye on the deployment pipeline - it failed once last week, but restarting the job fixed it.", "yourTurn": true }
+    ],
+    "tips": [
+      "Lead with the single most important item ('the main thing is the client demo'). When handing off work, people remember what they hear first far better than a long, evenly-weighted list.",
+      "Always say what's already done, not just what's left. 'I've already prepared the slides' removes a worry instantly and tells your colleague exactly where to pick up.",
+      "Mention any known quirks with their fix ('it failed once, but restarting the job fixed it'). This turns a scary warning into a calm, already-solved problem."
+    ]
+  },
+  {
+    "id": "responding-angry-client",
+    "topic": "Responding to an Angry Client on a Call",
+    "scenario": "A client is upset about a delay and calls you directly to express frustration.",
+    "exchange": [
+      { "speaker": "Client", "line": "This is the third delay in a row - I'm honestly frustrated with how this project is going." },
+      { "speaker": "You", "line": "I completely understand your frustration, and I'm sorry for the impact these delays have had on your plans.", "yourTurn": true },
+      { "speaker": "Client", "line": "So what are you going to do about it?" },
+      { "speaker": "You", "line": "I'm going to personally review the timeline today and send you a realistic, final schedule by tomorrow morning.", "yourTurn": true }
+    ],
+    "tips": [
+      "Acknowledge the emotion before defending the timeline. 'I completely understand your frustration' costs nothing and instantly lowers the tension - people need to feel heard before they can listen to a solution.",
+      "Avoid the word 'but' right after an apology (e.g. 'I'm sorry, but...'). 'But' erases the apology that came before it - use 'and' or a full stop instead.",
+      "Promise a specific action with your name attached ('I'm going to personally review'). This tells the client someone is accountable, not just that 'the team will look into it.'"
+    ]
+  },
+  {
+    "id": "welcoming-new-client",
+    "topic": "Welcoming a New Client on a Call",
+    "scenario": "It's your first call with a new client, and you're introducing yourself and the project plan.",
+    "exchange": [
+      { "speaker": "Client", "line": "Hi, thanks for setting up this call - excited to get started." },
+      { "speaker": "You", "line": "Likewise! I'll be your main point of contact, and I'd love to hear more about your goals for this project.", "yourTurn": true },
+      { "speaker": "Client", "line": "Sounds great. What are the next steps from here?" },
+      { "speaker": "You", "line": "I'll send over a project timeline by end of day, and we can schedule a kickoff meeting for early next week.", "yourTurn": true }
+    ],
+    "tips": [
+      "State your role clearly and early ('I'll be your main point of contact'). New clients feel more at ease the moment they know exactly who to reach out to.",
+      "Ask about their goals before describing your process. Opening with 'tell me about your goals' shows genuine interest in their outcome, not just your own workflow.",
+      "End the call with concrete next steps and a timeframe ('by end of day', 'early next week'). A clear next action leaves a strong, organized first impression."
+    ]
+  }
+]

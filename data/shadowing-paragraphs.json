@@ -48,5 +48,205 @@
     "id": "para-technical-question",
     "title": "Handling a Technical Question",
     "text": "That's a good question. Basically, the system checks for errors before it saves any data, so nothing gets lost if something goes wrong. It's not the most exciting part of the code, but it's one of the most important."
+  },
+  {
+    "id": "para-debugging-production",
+    "title": "Debugging a Production Issue",
+    "text": "Okay, let's not panic. I've pulled up the logs, and it looks like the error started right after the last deploy. I'm going to roll back the change first, and then we can figure out exactly what caused it once things are stable again."
+  },
+  {
+    "id": "para-explaining-estimate",
+    "title": "Explaining an Estimate",
+    "text": "So, based on what we've discussed, I'd estimate this will take about two weeks. That includes some buffer time in case we run into anything unexpected. If the scope changes at all, I'll let you know right away so we can adjust the timeline."
+  },
+  {
+    "id": "para-requesting-access",
+    "title": "Requesting Access",
+    "text": "Hi, could you grant me access to the staging server when you get a chance? I don't currently have permission to view the logs, and I'll need that to finish debugging this issue. No rush, just whenever you're free."
+  },
+  {
+    "id": "para-giving-demo",
+    "title": "Giving a Product Demo",
+    "text": "Alright, let me walk you through what we've built so far. I'll start with the login flow, and then I'll show you how the dashboard updates in real time. Feel free to stop me anytime if you've got questions."
+  },
+  {
+    "id": "para-sprint-wrapup",
+    "title": "Wrapping Up a Sprint",
+    "text": "We're at the end of the sprint, so let's take stock. We finished most of what we planned, though a couple of tasks got pushed to next week. Overall, I'd say it went pretty well, and I'm proud of what the team pulled off."
+  },
+  {
+    "id": "para-asking-availability",
+    "title": "Asking About Availability",
+    "text": "Are you free sometime this week for a quick call? I don't think it'll take more than twenty minutes. I just want to walk through a few details before we finalize the plan. Let me know what time works best for you."
+  },
+  {
+    "id": "para-sharing-good-news",
+    "title": "Sharing Good News",
+    "text": "I've got some good news to share. We just closed the deal with the client we've been talking to for months. It wasn't easy, but everyone's hard work really paid off. Let's celebrate a little before we dive into the next steps."
+  },
+  {
+    "id": "para-missed-call",
+    "title": "Handling a Missed Call",
+    "text": "Hey, sorry I missed your call earlier, I was stuck in another meeting. Was it something urgent? If it can wait, let's grab ten minutes this afternoon. Otherwise, just message me and I'll get back to you as soon as I can."
+  },
+  {
+    "id": "para-rescheduling-meeting",
+    "title": "Rescheduling a Meeting",
+    "text": "I'm afraid I won't be able to make our meeting tomorrow, something's come up unexpectedly. Would it be possible to move it to Thursday instead? I'm really sorry for the short notice, and I appreciate you being flexible with me."
+  },
+  {
+    "id": "para-new-feature",
+    "title": "Introducing a New Feature",
+    "text": "We've just rolled out a new feature that lets users export their reports directly to a spreadsheet. It's something a lot of customers have been asking for, so we're expecting good feedback. Let me know if you run into any issues while testing it."
+  },
+  {
+    "id": "para-performance-review",
+    "title": "Discussing a Performance Review",
+    "text": "Overall, I think you've had a really strong quarter. You've taken on more responsibility, and it shows in the results. There's still room to grow when it comes to delegating tasks, but that's something we can work on together going forward."
+  },
+  {
+    "id": "para-apologizing-customer",
+    "title": "Apologizing to a Customer",
+    "text": "I completely understand your frustration, and I'm sorry for the trouble this has caused. We're looking into what went wrong, and I'll personally make sure it gets resolved as quickly as possible. Thank you for your patience while we sort this out."
+  },
+  {
+    "id": "para-explaining-workaround",
+    "title": "Explaining a Workaround",
+    "text": "Until the fix is deployed, here's a quick workaround. Just clear your browser cache and log in again, that should resolve the issue for now. It's not a permanent solution, but it'll keep things running smoothly in the meantime."
+  },
+  {
+    "id": "para-proposing-idea",
+    "title": "Proposing an Idea",
+    "text": "I've been thinking about this for a while, and I'd like to propose something. What if we automated this part of the process instead of doing it manually every week? It would take some upfront work, but it'd save us a lot of time later on."
+  },
+  {
+    "id": "para-following-up-email",
+    "title": "Following Up on an Email",
+    "text": "Hey, just wanted to follow up on the email I sent last week. I know things get busy, so no worries if you haven't had a chance to look at it yet. Just let me know whenever you're able to take a look."
+  },
+  {
+    "id": "para-weekend-trip",
+    "title": "Describing a Weekend Trip",
+    "text": "We went on a little road trip this weekend, just a couple of hours out of the city. The weather was great, and it was nice to finally disconnect from work for a bit. I definitely feel more relaxed now that I'm back."
+  },
+  {
+    "id": "para-talking-hobby",
+    "title": "Talking About a Hobby",
+    "text": "I've actually started learning to play the guitar recently. It's harder than I expected, but I'm enjoying the process so far. I try to practice for about twenty minutes most evenings, just to keep building up some muscle memory."
+  },
+  {
+    "id": "para-office-directions",
+    "title": "Asking for Directions in the Office",
+    "text": "Excuse me, do you know where the meeting room on the third floor is? I'm supposed to be there in five minutes, and I'm still finding my way around the building. Thanks so much, I really appreciate the help."
+  },
+  {
+    "id": "para-ordering-lunch",
+    "title": "Ordering Lunch",
+    "text": "I'm thinking about ordering from that new place down the street, do you want anything? I'm probably going to get a sandwich and maybe a coffee. Let me know if you want to split an order or grab something together."
+  },
+  {
+    "id": "para-small-talk-meeting",
+    "title": "Small Talk Before a Meeting",
+    "text": "Hey, how's it going? Did you have a good weekend? I'm still waiting on a couple more people to join before we get started, so we've got a minute or two. How's that project you were working on coming along?"
+  },
+  {
+    "id": "para-congratulating-colleague",
+    "title": "Congratulating a Colleague",
+    "text": "I just heard the news, congratulations! You've worked really hard for this, and it's great to see it pay off. Let me know if you want to grab lunch sometime to celebrate properly, I'd love to hear more about it."
+  },
+  {
+    "id": "para-explaining-process",
+    "title": "Explaining a Process to a New Hire",
+    "text": "So here's how the process usually works. Once a ticket comes in, it gets assigned automatically based on priority. You'll want to check the queue first thing every morning, just to make sure nothing urgent slips through overnight."
+  },
+  {
+    "id": "para-scope-creep",
+    "title": "Handling Scope Creep",
+    "text": "I want to flag something before we go further. This request is a bit outside what we originally agreed on, and it'll likely affect the timeline. I'm happy to make it work, but I think we should discuss the impact first."
+  },
+  {
+    "id": "para-remote-work",
+    "title": "Discussing Remote Work",
+    "text": "I've really enjoyed working remotely these past few months. It's given me a lot more flexibility, though I do miss some of the casual conversations you'd normally have in the office. I think a mix of both would probably work best for me."
+  },
+  {
+    "id": "para-interview-prep",
+    "title": "Preparing for an Interview",
+    "text": "I've got an interview coming up next week, so I've been brushing up on some common questions. I'm a bit nervous, to be honest, but I've prepared a few examples from past projects that I think will really help."
+  },
+  {
+    "id": "para-negotiating-contract",
+    "title": "Negotiating a Contract",
+    "text": "We're happy with most of the terms, but there are a couple of points we'd like to revisit. Specifically, we were hoping to negotiate a bit more flexibility around the delivery dates. Would that be something you're open to discussing?"
+  },
+  {
+    "id": "para-requesting-reference",
+    "title": "Requesting a Reference",
+    "text": "Would you be comfortable being a reference for me? I'm applying for a new role, and I think you'd be able to speak well to the work we did together. I completely understand if you're too busy right now, though."
+  },
+  {
+    "id": "para-talking-weather",
+    "title": "Talking About the Weather",
+    "text": "Can you believe how hot it's been lately? I heard it's supposed to cool down a bit by the weekend, which would be a nice change. I'm definitely not looking forward to walking to the station in this heat again."
+  },
+  {
+    "id": "para-discussing-book",
+    "title": "Discussing a Book or Show",
+    "text": "Have you started that new show everyone's been talking about? I just finished the first season, and I honestly couldn't stop watching. I'd definitely recommend it if you're looking for something to watch this weekend."
+  },
+  {
+    "id": "para-team-outing",
+    "title": "Planning a Team Outing",
+    "text": "I was thinking we could organize a team outing sometime next month, just to unwind a bit outside of work. Maybe something low-key, like a dinner or a games night. Let me know if you have any ideas or preferences."
+  },
+  {
+    "id": "para-delay-to-manager",
+    "title": "Explaining a Delay to a Manager",
+    "text": "I wanted to give you a heads-up that this task is going to take a bit longer than expected. We ran into a dependency issue that wasn't part of the original plan. I'll have a revised estimate for you by tomorrow."
+  },
+  {
+    "id": "para-reporting-progress",
+    "title": "Reporting Progress on a Task",
+    "text": "Just wanted to give you a quick update. I've finished about eighty percent of the work, and everything's on track so far. I should be able to wrap up the remaining pieces by the end of the day tomorrow."
+  },
+  {
+    "id": "para-clarifying-requirements",
+    "title": "Asking for Clarification on Requirements",
+    "text": "Before I get started, I just want to make sure I understand this correctly. Are we building this for both desktop and mobile, or just desktop for now? I don't want to assume anything and end up redoing work later."
+  },
+  {
+    "id": "para-difficult-client",
+    "title": "Handling a Difficult Client",
+    "text": "I hear your concerns, and I want to make sure we get this right. Let's go through everything step by step so we're both on the same page. I really appreciate you being patient with us while we sort this out."
+  },
+  {
+    "id": "para-wrapping-call",
+    "title": "Wrapping Up a Call",
+    "text": "Alright, I think that covers everything for today. Just to recap, I'll send over the updated document, and you'll get back to us with feedback by Friday. Thanks so much for your time, and I'll follow up with the notes shortly."
+  },
+  {
+    "id": "para-describing-role",
+    "title": "Describing Your Role",
+    "text": "In my current role, I mostly focus on the backend side of things, though I do get involved in some frontend work occasionally. I really enjoy the problem-solving side of it, especially when something tricky finally clicks into place."
+  },
+  {
+    "id": "para-career-goals",
+    "title": "Talking About Career Goals",
+    "text": "Looking ahead, I'd really like to grow into more of a leadership role over the next couple of years. I still enjoy hands-on work, but I'm also interested in mentoring others and helping shape how the team approaches projects."
+  },
+  {
+    "id": "para-technical-decision",
+    "title": "Explaining a Technical Decision",
+    "text": "We decided to go with this approach mainly because it scales better in the long run. It took a bit more effort upfront, but it should save us a lot of headaches once we start handling more traffic."
+  },
+  {
+    "id": "para-checking-sick-colleague",
+    "title": "Checking In on a Sick Colleague",
+    "text": "Hey, I heard you weren't feeling well, I hope you're doing better today. Don't worry about anything on your plate right now, I've got it covered. Just focus on resting, and let me know if you need anything at all."
+  },
+  {
+    "id": "para-closing-day",
+    "title": "Closing Out the Day",
+    "text": "Alright, I think that's it for me today. I'll pick this back up first thing tomorrow morning. Thanks for all the help earlier, it made a big difference. Have a good evening, and I'll see you at the stand-up tomorrow."
   }
 ]

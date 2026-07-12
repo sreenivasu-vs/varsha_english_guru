@@ -21,6 +21,19 @@ function setupThemeToggle() {
   });
 }
 
+function el(tag, className, html) {
+  const e = document.createElement(tag);
+  if (className) e.className = className;
+  if (html !== undefined) e.innerHTML = html;
+  return e;
+}
+
+function showToast(msg) {
+  const t = el("div", "toast", msg);
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 3000);
+}
+
 function renderStats() {
   const progress = getProgress();
   const total = countAllLessons(CURRICULUM);
@@ -181,10 +194,54 @@ async function initDashboard() {
   renderLevels();
   renderDailyConversationCard();
   renderFlashcardsCard();
+  setupMicPermissionPrompt();
 
   if ("serviceWorker" in navigator) {
     setupServiceWorkerUpdates();
   }
+}
+
+/* Browsers give web apps no way to request permissions during the actual
+   "Install" step - there's no API hook into that native OS prompt. The
+   closest practical equivalent is asking right when the app is first
+   opened, before the user ever reaches a mic-based feature, instead of
+   surprising them with a permission prompt deep inside Speaking Practice. */
+const MIC_PROMPT_DISMISSED_KEY = "em_mic_prompt_dismissed";
+
+async function setupMicPermissionPrompt() {
+  const card = document.getElementById("micPermissionCard");
+  if (!card || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return;
+  if (localStorage.getItem(MIC_PROMPT_DISMISSED_KEY)) return;
+
+  if (navigator.permissions && navigator.permissions.query) {
+    try {
+      const status = await navigator.permissions.query({ name: "microphone" });
+      if (status.state === "granted" || status.state === "denied") return;
+    } catch (e) {
+      // Permissions API doesn't support querying "microphone" in this browser (e.g. Safari) - fall through and show the prompt once.
+    }
+  }
+
+  card.style.display = "block";
+
+  document.getElementById("enableMicBtn").onclick = async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      stream.getTracks().forEach((t) => t.stop());
+      localStorage.setItem(MIC_PROMPT_DISMISSED_KEY, "1");
+      card.style.display = "none";
+      showToast("✅ Microphone enabled - you're all set for speaking practice.");
+    } catch (e) {
+      localStorage.setItem(MIC_PROMPT_DISMISSED_KEY, "1");
+      card.style.display = "none";
+      showToast("Microphone access wasn't granted. You can enable it later in your phone's Settings.");
+    }
+  };
+
+  document.getElementById("dismissMicBtn").onclick = () => {
+    localStorage.setItem(MIC_PROMPT_DISMISSED_KEY, "1");
+    card.style.display = "none";
+  };
 }
 
 function dayOfYear(d = new Date()) {

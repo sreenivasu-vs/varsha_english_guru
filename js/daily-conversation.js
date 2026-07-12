@@ -40,6 +40,10 @@ function speakButton(text) {
   return btn;
 }
 
+function capitalizeSentences(text) {
+  return text.replace(/(^\s*\w|[.!?]\s+\w)/g, (m) => m.toUpperCase());
+}
+
 function dayOfYear(d = new Date()) {
   const start = new Date(d.getFullYear(), 0, 0);
   const diff = d - start;
@@ -187,7 +191,7 @@ function renderYourTurnLine(item, username, onChecked) {
         if (event.results[i].isFinal) finalText += chunk;
         else interimText += chunk;
       }
-      transcriptBox.value = (finalText || interimText).trim();
+      transcriptBox.value = capitalizeSentences((finalText || interimText).trim());
     };
   }
 

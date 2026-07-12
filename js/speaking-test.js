@@ -39,6 +39,10 @@ function showToast(msg) {
   setTimeout(() => t.remove(), 3000);
 }
 
+function capitalizeSentences(text) {
+  return text.replace(/(^\s*\w|[.!?]\s+\w)/g, (m) => m.toUpperCase());
+}
+
 function shuffleArray(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -193,7 +197,7 @@ function runRecordingPhase(container, username, topic) {
         if (event.results[i].isFinal) accumulatedText += chunk + " ";
         else interim += chunk;
       }
-      transcriptBox.value = (accumulatedText + interim).trim();
+      transcriptBox.value = capitalizeSentences((accumulatedText + interim).trim());
     };
     recognition.onerror = (e) => {
       if (e.error !== "no-speech") statusText.textContent = `Microphone error: ${e.error}.`;

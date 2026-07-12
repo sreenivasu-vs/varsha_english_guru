@@ -32,6 +32,15 @@ function escapeHtml(str) {
   return d.innerHTML;
 }
 
+/* Browser speech-to-text almost always returns lowercase text (e.g. "i went
+   to the store"), which the grammar checker then flags as a capitalization
+   mistake even though the user said nothing wrong. Capitalize the start of
+   the transcript and after any sentence-ending punctuation before it's
+   shown or checked. */
+function capitalizeSentences(text) {
+  return text.replace(/(^\s*\w|[.!?]\s+\w)/g, (m) => m.toUpperCase());
+}
+
 const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 let recognition = null;
@@ -104,7 +113,7 @@ function renderPracticeCard(container, username) {
         if (event.results[i].isFinal) finalText += chunk;
         else interimText += chunk;
       }
-      transcriptBox.value = (finalText || interimText).trim();
+      transcriptBox.value = capitalizeSentences((finalText || interimText).trim());
     };
   }
 

@@ -43,18 +43,45 @@ function escapeHtml(str) {
 let SENTENCES = [];
 let PARAGRAPHS = [];
 let NATURAL_SPEECH = [];
-let sentenceIndex = 0;
-let paragraphIndex = 0;
 let activeMode = "sentences";
 
-function pickRandomIndex(list, excludeIndex) {
-  if (list.length <= 1) return 0;
-  let i;
-  do {
-    i = Math.floor(Math.random() * list.length);
-  } while (i === excludeIndex);
-  return i;
+/* Shuffle-bag: walks through every item once in a random order before
+   reshuffling, so practice never repeats an item until the whole set has
+   been covered (instead of picking a fresh random index each time, which
+   can resurface the same few items often by chance). */
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
+
+function makeShuffleState(length) {
+  return { order: shuffleArray(Array.from({ length }, (_, i) => i)), pos: 0 };
+}
+
+function currentItemIndex(state) {
+  return state.order[state.pos];
+}
+
+function advanceShuffleState(state) {
+  state.pos += 1;
+  if (state.pos >= state.order.length) {
+    const lastIndex = state.order[state.order.length - 1];
+    let reshuffled = shuffleArray(state.order);
+    if (reshuffled.length > 1 && reshuffled[0] === lastIndex) {
+      [reshuffled[0], reshuffled[1]] = [reshuffled[1], reshuffled[0]];
+    }
+    state.order = reshuffled;
+    state.pos = 0;
+  }
+}
+
+let sentenceState = { order: [], pos: 0 };
+let paragraphState = { order: [], pos: 0 };
+let naturalState = { order: [], pos: 0 };
 
 /* One independent record/playback widget, reused for sentences, paragraphs
    and natural-speech examples. Each call gets its own mic stream and
@@ -164,12 +191,17 @@ function buildShadowCard({ tag, text, extraHtml }) {
 
 function renderSentenceMode(container) {
   container.innerHTML = "";
-  const sentence = SENTENCES[sentenceIndex];
+  const sentence = SENTENCES[currentItemIndex(sentenceState)];
   container.appendChild(buildShadowCard({ tag: sentence.category, text: sentence.text }));
+
+  const counter = el("div", "", `${sentenceState.pos + 1} of ${SENTENCES.length}`);
+  counter.style.cssText = "text-align:center;font-size:13px;color:var(--text-muted);margin-top:10px;";
+  container.appendChild(counter);
+
   const nextBtn = el("button", "btn block", "Next Sentence →");
-  nextBtn.style.marginTop = "14px";
+  nextBtn.style.marginTop = "10px";
   nextBtn.onclick = () => {
-    sentenceIndex = pickRandomIndex(SENTENCES, sentenceIndex);
+    advanceShuffleState(sentenceState);
     renderSentenceMode(container);
   };
   container.appendChild(nextBtn);
@@ -177,18 +209,21 @@ function renderSentenceMode(container) {
 
 function renderParagraphMode(container) {
   container.innerHTML = "";
-  const paragraph = PARAGRAPHS[paragraphIndex];
+  const paragraph = PARAGRAPHS[currentItemIndex(paragraphState)];
   container.appendChild(buildShadowCard({ tag: paragraph.title, text: paragraph.text }));
+
+  const counter = el("div", "", `${paragraphState.pos + 1} of ${PARAGRAPHS.length}`);
+  counter.style.cssText = "text-align:center;font-size:13px;color:var(--text-muted);margin-top:10px;";
+  container.appendChild(counter);
+
   const nextBtn = el("button", "btn block", "Next Paragraph →");
-  nextBtn.style.marginTop = "14px";
+  nextBtn.style.marginTop = "10px";
   nextBtn.onclick = () => {
-    paragraphIndex = pickRandomIndex(PARAGRAPHS, paragraphIndex);
+    advanceShuffleState(paragraphState);
     renderParagraphMode(container);
   };
   container.appendChild(nextBtn);
 }
-
-let naturalIndex = 0;
 
 function renderNaturalSpeechMode(container) {
   container.innerHTML = "";
@@ -198,7 +233,7 @@ function renderNaturalSpeechMode(container) {
   intro.style.background = "var(--surface-2)";
   container.appendChild(intro);
 
-  const item = NATURAL_SPEECH[naturalIndex];
+  const item = NATURAL_SPEECH[currentItemIndex(naturalState)];
   const tagHtml = `<span class="mistake-wrong">${escapeHtml(item.formal)}</span> → <span class="mistake-right">${escapeHtml(item.natural)}</span>`;
   const card = buildShadowCard({
     text: item.example,
@@ -206,14 +241,14 @@ function renderNaturalSpeechMode(container) {
   });
   container.appendChild(card);
 
-  const counter = el("div", "", `${naturalIndex + 1} of ${NATURAL_SPEECH.length}`);
+  const counter = el("div", "", `${naturalState.pos + 1} of ${NATURAL_SPEECH.length}`);
   counter.style.cssText = "text-align:center;font-size:13px;color:var(--text-muted);margin-top:10px;";
   container.appendChild(counter);
 
   const nextBtn = el("button", "btn block", "Next Example →");
   nextBtn.style.marginTop = "10px";
   nextBtn.onclick = () => {
-    naturalIndex = pickRandomIndex(NATURAL_SPEECH, naturalIndex);
+    advanceShuffleState(naturalState);
     renderNaturalSpeechMode(container);
   };
   container.appendChild(nextBtn);
@@ -261,9 +296,9 @@ async function init() {
     SENTENCES = await sRes.json();
     PARAGRAPHS = await pRes.json();
     NATURAL_SPEECH = await nRes.json();
-    sentenceIndex = Math.floor(Math.random() * SENTENCES.length);
-    paragraphIndex = Math.floor(Math.random() * PARAGRAPHS.length);
-    naturalIndex = Math.floor(Math.random() * NATURAL_SPEECH.length);
+    sentenceState = makeShuffleState(SENTENCES.length);
+    paragraphState = makeShuffleState(PARAGRAPHS.length);
+    naturalState = makeShuffleState(NATURAL_SPEECH.length);
     renderActiveMode();
   } catch (e) {
     container.innerHTML = `<div class="empty-state">Couldn't load shadowing content. Please try again later.</div>`;

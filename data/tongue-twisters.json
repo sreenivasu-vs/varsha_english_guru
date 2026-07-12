@@ -1,0 +1,112 @@
+[
+  {
+    "id": "set-s-sh",
+    "title": "S & SH Sounds",
+    "focus": "Crisp, clean S and SH - don't let them blur into each other.",
+    "twisters": [
+      "She sells seashells by the seashore.",
+      "Six sleek swans swam swiftly southwards.",
+      "The sixth sick sheikh's sixth sheep's sick.",
+      "Shy Shelly says she should share her sushi."
+    ]
+  },
+  {
+    "id": "set-r-l",
+    "title": "R & L Sounds",
+    "focus": "A common mix-up - keep R and L clearly separate, especially at speed.",
+    "twisters": [
+      "Red lorry, yellow lorry, red lorry, yellow lorry.",
+      "Really leery, rarely Larry.",
+      "The lazy lion roared loudly near the river.",
+      "Round the rugged rock the ragged rascal ran."
+    ]
+  },
+  {
+    "id": "set-th",
+    "title": "TH Sounds",
+    "focus": "Put your tongue between your teeth for TH - don't swap it for T or D.",
+    "twisters": [
+      "Think of three thin things.",
+      "That thing on the third shelf belongs to them.",
+      "The thirty-three thieves thought they thrilled the throne.",
+      "This thick thread is thoroughly thin."
+    ]
+  },
+  {
+    "id": "set-p-b",
+    "title": "P & B Sounds",
+    "focus": "P is a sharp puff of air, B is a soft vibration - feel the difference.",
+    "twisters": [
+      "Peter Piper picked a peck of pickled peppers.",
+      "Betty bought a bit of butter, but the butter was bitter.",
+      "A big bug bit a big black bear.",
+      "Please pack up the plastic pickup packet."
+    ]
+  },
+  {
+    "id": "set-v-w",
+    "title": "V & W Sounds",
+    "focus": "One of the trickiest for English learners - V touches your teeth, W doesn't.",
+    "twisters": [
+      "We wondered whether the weather would worsen.",
+      "Vivian's video went viral very quickly.",
+      "Wendy's wolf watched Vincent's van vanish.",
+      "Very well, we will visit the village on Wednesday."
+    ]
+  },
+  {
+    "id": "set-ch-j",
+    "title": "CH & J Sounds",
+    "focus": "CH is a sharp, unvoiced sound; J is soft and voiced - keep them distinct.",
+    "twisters": [
+      "Chop shops stock chops.",
+      "Chesty chicken chewed cheese chunks cheerfully.",
+      "Jenny's giant jelly jiggled joyfully.",
+      "Which witch switched the Swiss wristwatches?"
+    ]
+  },
+  {
+    "id": "set-k-g",
+    "title": "Fast K & G Sounds",
+    "focus": "Sharp, quick consonants - great for building overall speaking speed.",
+    "twisters": [
+      "A big black bug bit a big black bear.",
+      "Can you can a can as a canner can can a can?",
+      "Greek grapes, Greek grapes, Greek grapes.",
+      "Kindly keep the King's key in the kitchen."
+    ]
+  },
+  {
+    "id": "set-multisyllable",
+    "title": "Numbers & Multi-Syllable Words",
+    "focus": "Long words trip people up - break them into syllables first, then speed up.",
+    "twisters": [
+      "Thirty-three thieves thought they thrilled the throne throughout Thursday.",
+      "Eleven benevolent elephants elegantly ambled.",
+      "The statistical analysis required particularly meticulous methodology.",
+      "Unquestionably, the entrepreneurship opportunity was extraordinarily lucrative."
+    ]
+  },
+  {
+    "id": "set-it-business",
+    "title": "Tricky IT & Business Words",
+    "focus": "The exact words that trip people up in real meetings - worth over-practicing.",
+    "twisters": [
+      "Authentication, infrastructure, vulnerability, asynchronous.",
+      "The algorithm's architecture requires careful reconfiguration.",
+      "Specifically, particularly, comfortably, thoroughly.",
+      "The entrepreneur's collaborative infrastructure strategy was extraordinarily comprehensive."
+    ]
+  },
+  {
+    "id": "set-mixed",
+    "title": "Mixed Rapid-Fire Challenge",
+    "focus": "Everything at once - the real test of clear, confident articulation.",
+    "twisters": [
+      "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+      "Fuzzy Wuzzy was a bear, Fuzzy Wuzzy had no hair.",
+      "I scream, you scream, we all scream for ice cream.",
+      "She sells seashells, Peter Piper picked pickled peppers, and the sixth sick sheikh's sheep is sick."
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "para-morning-standup",
+    "title": "Starting the Work Day",
+    "text": "Good morning, everyone. Let's quickly go over today's priorities before we get started. I'll be working on the client presentation, and I should have a draft ready by lunchtime. If anyone needs help with anything urgent, just let me know."
+  },
+  {
+    "id": "para-explaining-delay",
+    "title": "Explaining a Delay",
+    "text": "I'm really sorry about the delay on this one. We ran into a couple of unexpected issues during testing, and I didn't want to rush it and risk more bugs down the line. I'll have an updated timeline for you by tomorrow morning."
+  },
+  {
+    "id": "para-client-checkin",
+    "title": "Client Check-in Call",
+    "text": "Hi, thanks for hopping on the call today. I wanted to give you a quick update on where things stand. We're on track with the main features, and we should be ready for your review by the end of the week."
+  },
+  {
+    "id": "para-team-announcement",
+    "title": "Team Announcement",
+    "text": "Hey team, I've got a quick update to share. Starting next week, we'll be moving our daily stand-up to nine thirty instead of nine. It's a small change, but it should give everyone a bit more time to settle in before the meeting."
+  },
+  {
+    "id": "para-weekend-plans",
+    "title": "Weekend Plans",
+    "text": "So, do you have any plans for the weekend? I'm thinking about finally finishing that book I started last month. Other than that, I might just relax and catch up on some sleep. It's been a pretty busy week."
+  },
+  {
+    "id": "para-requesting-feedback",
+    "title": "Requesting Feedback",
+    "text": "Would you mind taking a look at this when you get a chance? I'd really appreciate your feedback before I send it out. There's no rush, but if you could get back to me by Thursday, that would be great."
+  },
+  {
+    "id": "para-onboarding-welcome",
+    "title": "Welcoming a New Hire",
+    "text": "Welcome to the team! We're really glad to have you here. Don't worry if things feel a bit overwhelming at first, that's completely normal. Feel free to ask questions anytime, and I'll check in with you at the end of each day this week."
+  },
+  {
+    "id": "para-project-wrapup",
+    "title": "Project Wrap-up",
+    "text": "I just wanted to say thanks for all the hard work everyone put into this project. It wasn't always easy, but we pulled through and delivered something we can be proud of. Let's take a moment to celebrate before we jump into the next one."
+  },
+  {
+    "id": "para-coffee-chat",
+    "title": "Coffee Break Chat",
+    "text": "Hey, do you want to grab a coffee before the next meeting? I could really use a break. It's been non-stop all morning, and I think a quick walk would help clear my head a little."
+  },
+  {
+    "id": "para-technical-question",
+    "title": "Handling a Technical Question",
+    "text": "That's a good question. Basically, the system checks for errors before it saves any data, so nothing gets lost if something goes wrong. It's not the most exciting part of the code, but it's one of the most important."
+  }
+]

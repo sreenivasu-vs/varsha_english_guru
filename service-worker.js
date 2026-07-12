@@ -1,4 +1,4 @@
-const CACHE_NAME = "english-master-v15";
+const CACHE_NAME = "english-master-v16";
 const APP_SHELL = [
   "./manifest.json",
   "./css/style.css",
@@ -18,6 +18,8 @@ const APP_SHELL = [
   "./data/curriculum.json",
   "./data/daily-conversations.json",
   "./data/shadowing-sentences.json",
+  "./data/shadowing-paragraphs.json",
+  "./data/natural-speech.json",
 ];
 
 self.addEventListener("install", (event) => {

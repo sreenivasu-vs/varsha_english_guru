@@ -253,6 +253,11 @@ button { font-family: inherit; cursor: pointer; }
   border: 1px solid var(--border);
 }
 .btn.block { width: 100%; }
+.btn.secondary.active-tab {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
 .btn:disabled { opacity: .5; cursor: default; }
 
 /* Lesson page */

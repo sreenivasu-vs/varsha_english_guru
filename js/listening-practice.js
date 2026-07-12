@@ -70,6 +70,15 @@ function advanceShuffleState(state) {
 
 let dictationState = { order: [], pos: 0 };
 let comprehensionState = { order: [], pos: 0 };
+let dictationLevelFilter = "All";
+let filteredDictationList = [];
+
+function applyDictationFilter() {
+  filteredDictationList = dictationLevelFilter === "All"
+    ? DICTATION
+    : DICTATION.filter((d) => d.level === dictationLevelFilter);
+  dictationState = makeShuffleState(filteredDictationList.length);
+}
 
 function normalizeWords(text) {
   return text
@@ -79,9 +88,11 @@ function normalizeWords(text) {
     .filter(Boolean);
 }
 
-/* Longest-common-subsequence word diff: returns the set of expected-word
-   indices that the user actually said, in the right relative order (so
-   words said out of order don't falsely count as correct). */
+/* Longest-common-subsequence word diff: returns which expected-word indices
+   the user actually said (in the right relative order, so words said out of
+   order don't falsely count as correct) and which actual-word indices were
+   part of that match - the complement of the latter is "extra" words the
+   user said that weren't in the original sentence at all. */
 function diffWords(expectedWords, actualWords) {
   const m = expectedWords.length;
   const n = actualWords.length;
@@ -93,11 +104,13 @@ function diffWords(expectedWords, actualWords) {
         : Math.max(dp[i - 1][j], dp[i][j - 1]);
     }
   }
-  const matched = new Set();
+  const matchedExpected = new Set();
+  const matchedActual = new Set();
   let i = m, j = n;
   while (i > 0 && j > 0) {
     if (expectedWords[i - 1] === actualWords[j - 1]) {
-      matched.add(i - 1);
+      matchedExpected.add(i - 1);
+      matchedActual.add(j - 1);
       i--; j--;
     } else if (dp[i - 1][j] >= dp[i][j - 1]) {
       i--;
@@ -105,12 +118,36 @@ function diffWords(expectedWords, actualWords) {
       j--;
     }
   }
-  return matched;
+  return { matchedExpected, matchedActual };
+}
+
+function renderDictationLevelFilter(container) {
+  const row = el("div");
+  row.style.cssText = "display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap;";
+  ["All", "Easy", "Medium", "Hard"].forEach((level) => {
+    const btn = el("button", "btn secondary", level);
+    btn.style.cssText = "flex:1;padding:8px 6px;font-size:13px;min-width:60px;";
+    if (level === dictationLevelFilter) btn.classList.add("active-tab");
+    btn.onclick = () => {
+      dictationLevelFilter = level;
+      applyDictationFilter();
+      renderDictationMode(document.getElementById("listeningContainer"));
+    };
+    row.appendChild(btn);
+  });
+  container.appendChild(row);
 }
 
 function renderDictationMode(container) {
   container.innerHTML = "";
-  const item = DICTATION[currentItemIndex(dictationState)];
+  renderDictationLevelFilter(container);
+
+  if (filteredDictationList.length === 0) {
+    container.appendChild(el("div", "empty-state", "No sentences at this level yet."));
+    return;
+  }
+
+  const item = filteredDictationList[currentItemIndex(dictationState)];
 
   const card = el("div", "card");
   card.innerHTML = `<div class="tag">${escapeHtml(item.level)}</div>`;
@@ -133,19 +170,22 @@ function renderDictationMode(container) {
   checkBtn.onclick = () => {
     const expected = normalizeWords(item.text);
     const actual = normalizeWords(answerBox.value);
-    const matched = diffWords(expected, actual);
-    const accuracy = Math.round((matched.size / expected.length) * 100);
+    const { matchedExpected, matchedActual } = diffWords(expected, actual);
+    const accuracy = Math.round((matchedExpected.size / expected.length) * 100);
 
     const highlighted = expected
-      .map((w, idx) => matched.has(idx)
+      .map((w, idx) => matchedExpected.has(idx)
         ? `<span class="mistake-right">${escapeHtml(w)}</span>`
         : `<span class="mistake-wrong" style="text-decoration:line-through;">${escapeHtml(w)}</span>`)
       .join(" ");
+
+    const extraWords = actual.filter((w, idx) => !matchedActual.has(idx));
 
     resultArea.innerHTML = `
       <div class="feedback-box ${accuracy >= 80 ? "correct" : "incorrect"}">${accuracy}% accuracy</div>
       <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Correct sentence (green = you got it, struck through = missed):</div>
       <div style="margin-top:6px;font-size:15px;line-height:1.7;">${highlighted}</div>
+      ${extraWords.length ? `<div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Extra words you typed that weren't in the sentence:</div><div style="margin-top:4px;"><span class="mistake-wrong">${extraWords.map(escapeHtml).join(", ")}</span></div>` : ""}
     `;
   };
 
@@ -153,7 +193,7 @@ function renderDictationMode(container) {
   card.appendChild(resultArea);
   container.appendChild(card);
 
-  const counter = el("div", "", `${dictationState.pos + 1} of ${DICTATION.length}`);
+  const counter = el("div", "", `${dictationState.pos + 1} of ${filteredDictationList.length}${dictationLevelFilter !== "All" ? " · " + dictationLevelFilter : ""}`);
   counter.style.cssText = "text-align:center;font-size:13px;color:var(--text-muted);margin-top:10px;";
   container.appendChild(counter);
 
@@ -259,7 +299,7 @@ async function init() {
     ]);
     DICTATION = await dRes.json();
     COMPREHENSION = await cRes.json();
-    dictationState = makeShuffleState(DICTATION.length);
+    applyDictationFilter();
     comprehensionState = makeShuffleState(COMPREHENSION.length);
     renderActiveMode();
   } catch (e) {

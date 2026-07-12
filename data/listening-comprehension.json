@@ -88,5 +88,86 @@
       { "question": "Why did the company discontinue the product?", "options": ["It was too popular", "It was no longer profitable", "Legal issues", "Employee requests"], "answer": "It was no longer profitable" },
       { "question": "What is the team focusing on now?", "options": ["The discontinued product", "Newer products", "Reducing staff", "Opening new offices"], "answer": "Newer products" }
     ]
+  },
+  {
+    "id": "comp-security-audit",
+    "title": "A Security Audit",
+    "passage": "The IT department conducted a routine security audit last week and found a few outdated software packages that needed patching. None of the vulnerabilities had been exploited, but the team moved quickly to update all affected systems. They also recommended running audits like this every quarter going forward.",
+    "questions": [
+      { "question": "What did the audit find?", "options": ["A data breach", "Outdated software", "A hardware failure", "Missing backups"], "answer": "Outdated software" },
+      { "question": "How often did the team recommend running audits?", "options": ["Every month", "Every quarter", "Every year", "Only when needed"], "answer": "Every quarter" }
+    ]
+  },
+  {
+    "id": "comp-team-offsite",
+    "title": "The Team Offsite",
+    "passage": "The team spent two days at an offsite retreat focused on planning for the next quarter. The first day was dedicated to reviewing past performance, while the second day focused on setting new goals. Everyone agreed the change of scenery helped generate more creative ideas than usual.",
+    "questions": [
+      { "question": "How many days was the offsite?", "options": ["One", "Two", "Three", "A week"], "answer": "Two" },
+      { "question": "What was the second day focused on?", "options": ["Reviewing the past", "Setting new goals", "Team lunch", "Office cleanup"], "answer": "Setting new goals" }
+    ]
+  },
+  {
+    "id": "comp-app-update",
+    "title": "A Major App Update",
+    "passage": "The company released a major update to its mobile app, introducing a redesigned interface and faster load times. Early user feedback has been mostly positive, though some users reported difficulty finding a few features that were moved during the redesign. The team is preparing a short tutorial to help with the transition.",
+    "questions": [
+      { "question": "What are two changes mentioned in the update?", "options": ["New logo and colors", "Redesigned interface and faster load times", "Lower price and new ads", "New name and icon"], "answer": "Redesigned interface and faster load times" },
+      { "question": "What complaint did some users have?", "options": ["The app crashes often", "Difficulty finding moved features", "Too many notifications", "The app is too slow"], "answer": "Difficulty finding moved features" }
+    ]
+  },
+  {
+    "id": "comp-budget-meeting",
+    "title": "The Budget Meeting",
+    "passage": "During the quarterly budget meeting, the finance team presented an overview of spending across departments. Marketing had gone slightly over budget due to an unplanned campaign, while engineering came in under budget thanks to delayed hiring. Overall, the company remained within its annual budget target.",
+    "questions": [
+      { "question": "Why did marketing go over budget?", "options": ["Office renovations", "An unplanned campaign", "New hires", "Higher rent"], "answer": "An unplanned campaign" },
+      { "question": "Why did engineering come in under budget?", "options": ["Delayed hiring", "Fewer projects", "A pay cut", "Outsourcing work"], "answer": "Delayed hiring" }
+    ]
+  },
+  {
+    "id": "comp-mentorship-program",
+    "title": "A New Mentorship Program",
+    "passage": "The company launched a mentorship program pairing junior employees with senior staff for monthly check-ins. The goal is to support career growth and help new employees navigate the company culture. So far, over sixty employees have signed up to participate on both sides.",
+    "questions": [
+      { "question": "How often do mentors and mentees check in?", "options": ["Weekly", "Monthly", "Quarterly", "Only once"], "answer": "Monthly" },
+      { "question": "How many employees have signed up?", "options": ["About twenty", "About forty", "Over sixty", "Over two hundred"], "answer": "Over sixty" }
+    ]
+  },
+  {
+    "id": "comp-server-upgrade",
+    "title": "A Planned Server Upgrade",
+    "passage": "The engineering team scheduled a server upgrade for Saturday night to minimize impact on users. The upgrade is expected to take about three hours, during which the website will be temporarily unavailable. Customers were notified by email a week in advance.",
+    "questions": [
+      { "question": "When is the upgrade scheduled?", "options": ["Monday morning", "Saturday night", "Sunday afternoon", "Friday evening"], "answer": "Saturday night" },
+      { "question": "How were customers notified?", "options": ["By phone call", "By email", "Through a text message", "They weren't notified"], "answer": "By email" }
+    ]
+  },
+  {
+    "id": "comp-internship-program",
+    "title": "The Summer Internship Program",
+    "passage": "The company's summer internship program welcomed twelve students this year, the largest group so far. Interns are assigned to real projects alongside full-time engineers rather than working on simulated tasks. At the end of the program, several interns are typically offered full-time positions.",
+    "questions": [
+      { "question": "How many interns joined this year?", "options": ["Six", "Ten", "Twelve", "Twenty"], "answer": "Twelve" },
+      { "question": "What kind of projects do interns work on?", "options": ["Simulated tasks", "Real projects", "No projects", "Only research"], "answer": "Real projects" }
+    ]
+  },
+  {
+    "id": "comp-office-relocation",
+    "title": "An Office Relocation",
+    "passage": "The company announced it will be relocating its main office to a larger building across town next quarter. The move is driven by rapid team growth over the past year, which left the current space overcrowded. Employees will have the option to work remotely during the two-week transition period.",
+    "questions": [
+      { "question": "Why is the company relocating?", "options": ["The lease ended", "Rapid team growth", "Cost savings", "A merger"], "answer": "Rapid team growth" },
+      { "question": "What can employees do during the transition?", "options": ["Take unpaid leave", "Work remotely", "Nothing changes", "Work extra hours"], "answer": "Work remotely" }
+    ]
+  },
+  {
+    "id": "comp-customer-survey",
+    "title": "Customer Survey Results",
+    "passage": "The company recently ran its annual customer satisfaction survey, receiving responses from over two thousand users. The results showed high satisfaction with product quality but lower scores for customer support response times. The support team is now hiring additional staff to address the gap.",
+    "questions": [
+      { "question": "How many users responded to the survey?", "options": ["About two hundred", "About one thousand", "Over two thousand", "Over ten thousand"], "answer": "Over two thousand" },
+      { "question": "What area scored lower in the survey?", "options": ["Product quality", "Pricing", "Customer support response times", "Website design"], "answer": "Customer support response times" }
+    ]
   }
 ]

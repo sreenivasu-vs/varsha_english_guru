@@ -108,5 +108,60 @@
       "I scream, you scream, we all scream for ice cream.",
       "She sells seashells, Peter Piper picked pickled peppers, and the sixth sick sheikh's sheep is sick."
     ]
+  },
+  {
+    "id": "set-f-v",
+    "title": "F & V Sounds",
+    "focus": "F and V use the same mouth shape - F is a quiet puff of air, V adds a voiced buzz. Feel the vibration only on V.",
+    "twisters": [
+      "Five fine friends found fresh vegetables.",
+      "Vera's five favorite films are very funny.",
+      "The ferry driver drove fervently through five villages.",
+      "Frank's van has four flat front tires."
+    ]
+  },
+  {
+    "id": "set-m-n",
+    "title": "M & N Sounds",
+    "focus": "Both are nasal sounds - M closes your lips together, N touches your tongue behind your top teeth.",
+    "twisters": [
+      "Many men mentioned nine new numbers.",
+      "Nancy's mom made nine mini muffins.",
+      "The manager mentioned a minor new number nine.",
+      "My neighbor's name is Norman Newman."
+    ]
+  },
+  {
+    "id": "set-vowel-length",
+    "title": "Long & Short Vowel Sounds",
+    "focus": "Vowel length changes meaning in English - stretch the long vowels and keep the short ones crisp and clipped.",
+    "twisters": [
+      "The sheep sleep deep in the green field.",
+      "Six thick sticks stick in the ditch.",
+      "Blue moon, true tune, cool pool.",
+      "The cat sat flat on the black mat."
+    ]
+  },
+  {
+    "id": "set-consonant-clusters",
+    "title": "Consonant Clusters",
+    "focus": "Blended sounds like STR, SPL and SCR need extra clarity - say them slowly first, then build up speed.",
+    "twisters": [
+      "Strange strawberries stretch across the street.",
+      "Splash, splutter, and spring straight through the spray.",
+      "Three throngs threw three throws through three thrones.",
+      "Scream, scratch, and scramble through the scrubby brush."
+    ]
+  },
+  {
+    "id": "set-question-intonation",
+    "title": "Question Intonation & Rhythm",
+    "focus": "Yes/no questions rise in pitch at the end, statements fall - rhythm and melody matter as much as individual sounds.",
+    "twisters": [
+      "Are you really ready to read already?",
+      "Would you rather wander or wonder, Wendy?",
+      "Should Sheila share her seashells, or shouldn't she?",
+      "Can Kim's kitten keep the King's kite, or can't it?"
+    ]
   }
 ]

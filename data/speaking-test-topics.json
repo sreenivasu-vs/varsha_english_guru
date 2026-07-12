@@ -2,76 +2,151 @@
   {
     "id": "topic-influential-person",
     "title": "Describe a person who has influenced you.",
-    "bullets": ["who this person is", "how you know them", "what qualities they have", "explain why they have influenced you"]
+    "bullets": ["who this person is", "how you know them", "what qualities they have", "explain why they have influenced you"],
+    "followUps": ["Do you think people are more influenced by family or by friends?", "How has the way people influence each other changed with social media?"]
   },
   {
     "id": "topic-memorable-trip",
     "title": "Describe a memorable trip you have taken.",
-    "bullets": ["where you went", "who you went with", "what you did there", "explain why it was memorable"]
+    "bullets": ["where you went", "who you went with", "what you did there", "explain why it was memorable"],
+    "followUps": ["Do you think travel changes the way people think?", "What are the benefits of traveling with others versus traveling alone?"]
   },
   {
     "id": "topic-skill-to-learn",
     "title": "Describe a skill you would like to learn.",
-    "bullets": ["what the skill is", "why you want to learn it", "how you would learn it", "explain how it would benefit you"]
+    "bullets": ["what the skill is", "why you want to learn it", "how you would learn it", "explain how it would benefit you"],
+    "followUps": ["Why do you think some people continue learning new skills throughout their life while others don't?", "Do you think it's more effective to learn skills through a class or by self-study?"]
   },
   {
     "id": "topic-helped-someone",
     "title": "Describe a time you helped someone.",
-    "bullets": ["who you helped", "what the situation was", "what you did", "explain how you felt about it"]
+    "bullets": ["who you helped", "what the situation was", "what you did", "explain how you felt about it"],
+    "followUps": ["Do you think people today help strangers as much as in the past?", "Why do you think some people are more willing to help others than others?"]
   },
   {
     "id": "topic-technology-used",
     "title": "Describe a piece of technology you use often.",
-    "bullets": ["what it is", "how you use it", "when you started using it", "explain why it's useful to you"]
+    "bullets": ["what it is", "how you use it", "when you started using it", "explain why it's useful to you"],
+    "followUps": ["How do you think technology will change the way we communicate in the future?", "Do you think people rely too much on technology nowadays?"]
   },
   {
     "id": "topic-important-decision",
     "title": "Describe an important decision you made.",
-    "bullets": ["what the decision was", "when you made it", "what factors you considered", "explain how it affected your life"]
+    "bullets": ["what the decision was", "when you made it", "what factors you considered", "explain how it affected your life"],
+    "followUps": ["Do you think it's better to make decisions quickly or take time to think them through?", "How do you think culture influences the way people make decisions?"]
   },
   {
     "id": "topic-work-project",
     "title": "Describe a project you worked on at work or school.",
-    "bullets": ["what the project was", "who you worked with", "what challenges you faced", "explain what you learned from it"]
+    "bullets": ["what the project was", "who you worked with", "what challenges you faced", "explain what you learned from it"],
+    "followUps": ["What do you think makes a project successful?", "Do you think working in a team is more effective than working alone?"]
   },
   {
     "id": "topic-book-impressed",
     "title": "Describe a book or article that impressed you.",
-    "bullets": ["what it was about", "when you read it", "why you chose to read it", "explain why it impressed you"]
+    "bullets": ["what it was about", "when you read it", "why you chose to read it", "explain why it impressed you"],
+    "followUps": ["Do you think reading habits have changed because of the internet?", "What kinds of books do you think will remain popular in the future?"]
   },
   {
     "id": "topic-future-goal",
     "title": "Describe a goal you want to achieve in the next few years.",
-    "bullets": ["what the goal is", "why it's important to you", "how you plan to achieve it", "explain what challenges you might face"]
+    "bullets": ["what the goal is", "why it's important to you", "how you plan to achieve it", "explain what challenges you might face"],
+    "followUps": ["Do you think it's important for people to set long-term goals?", "How do you think people's goals change as they get older?"]
   },
   {
     "id": "topic-difficult-problem",
     "title": "Describe a time you had to solve a difficult problem.",
-    "bullets": ["what the problem was", "how you approached it", "what the outcome was", "explain what you learned"]
+    "bullets": ["what the problem was", "how you approached it", "what the outcome was", "explain what you learned"],
+    "followUps": ["Do you think people are better at solving problems alone or in groups?", "What skills do you think are most important for solving difficult problems?"]
   },
   {
     "id": "topic-admired-colleague",
     "title": "Describe a colleague or classmate you admire.",
-    "bullets": ["who they are", "how you know them", "what makes them stand out", "explain why you admire them"]
+    "bullets": ["who they are", "how you know them", "what makes them stand out", "explain why you admire them"],
+    "followUps": ["What qualities do you think make someone a good colleague?", "Do you think it's important to have friends at work?"]
   },
   {
     "id": "topic-workplace-change",
     "title": "Describe a change you would like to make at your workplace.",
-    "bullets": ["what the change is", "why it's needed", "how you would implement it", "explain what impact it would have"]
+    "bullets": ["what the change is", "why it's needed", "how you would implement it", "explain what impact it would have"],
+    "followUps": ["Do you think employees should have more say in workplace decisions?", "How do you think workplaces will change in the next ten years?"]
   },
   {
     "id": "topic-under-pressure",
     "title": "Describe a time you had to work under pressure.",
-    "bullets": ["what the situation was", "why there was pressure", "how you handled it", "explain how you felt afterward"]
+    "bullets": ["what the situation was", "why there was pressure", "how you handled it", "explain how you felt afterward"],
+    "followUps": ["Do you think some people work better under pressure than others?", "What can companies do to help employees manage stress?"]
   },
   {
     "id": "topic-place-to-visit",
     "title": "Describe a city or place you would like to visit.",
-    "bullets": ["where it is", "why you want to go there", "what you would do there", "explain why it interests you"]
+    "bullets": ["where it is", "why you want to go there", "what you would do there", "explain why it interests you"],
+    "followUps": ["Do you think tourism has more positive or negative effects on a place?", "How has travel become easier or harder in recent years?"]
   },
   {
     "id": "topic-proud-achievement",
     "title": "Describe an achievement you are proud of.",
-    "bullets": ["what the achievement was", "how you accomplished it", "who helped you", "explain why you are proud of it"]
+    "bullets": ["what the achievement was", "how you accomplished it", "who helped you", "explain why you are proud of it"],
+    "followUps": ["Do you think achievements are more meaningful when they're recognized by others?", "How important is it for children to be praised for their achievements?"]
+  },
+  {
+    "id": "topic-tech-learned",
+    "title": "Describe a time you learned something new about technology.",
+    "bullets": ["what you learned", "how you learned it", "why you decided to learn it", "explain how it has helped you"],
+    "followUps": ["Do you think older people find it harder to learn new technology?", "How has access to online learning changed education?"]
+  },
+  {
+    "id": "topic-mistake-learned",
+    "title": "Describe a mistake you learned from.",
+    "bullets": ["what the mistake was", "when it happened", "what you did about it", "explain what you learned from it"],
+    "followUps": ["Do you think schools should teach students that making mistakes is a normal part of learning?", "Why do you think some people are afraid of admitting their mistakes?"]
+  },
+  {
+    "id": "topic-important-rule",
+    "title": "Describe a rule you think is important.",
+    "bullets": ["what the rule is", "where it applies", "why it exists", "explain why you think it's important"],
+    "followUps": ["Do you think rules should be the same for everyone, or should there be exceptions?", "How do rules in the workplace differ from rules at home?"]
+  },
+  {
+    "id": "topic-gave-advice",
+    "title": "Describe a time you gave someone advice.",
+    "bullets": ["who you gave advice to", "what the situation was", "what advice you gave", "explain whether they followed it"],
+    "followUps": ["Do you think people are more likely to take advice from friends or from experts?", "Why do you think some people find it hard to accept advice?"]
+  },
+  {
+    "id": "topic-useful-website",
+    "title": "Describe a website or app you find useful.",
+    "bullets": ["what it is", "how you use it", "when you started using it", "explain why you find it useful"],
+    "followUps": ["Do you think apps have made daily life easier or more complicated?", "How do you think people decide which apps or websites to trust?"]
+  },
+  {
+    "id": "topic-proud-event",
+    "title": "Describe an event that made you proud of your community.",
+    "bullets": ["what the event was", "when it happened", "who was involved", "explain why it made you proud"],
+    "followUps": ["Do you think community events are important for bringing people together?", "How has the way communities celebrate changed over time?"]
+  },
+  {
+    "id": "topic-disagreed",
+    "title": "Describe a time you disagreed with someone.",
+    "bullets": ["who you disagreed with", "what the disagreement was about", "how you handled it", "explain how it was resolved"],
+    "followUps": ["Do you think it's healthy for people to disagree openly?", "What's the best way to resolve a disagreement at work?"]
+  },
+  {
+    "id": "topic-admired-leader",
+    "title": "Describe a leader you admire.",
+    "bullets": ["who this person is", "what they have done", "what qualities they have", "explain why you admire them"],
+    "followUps": ["What qualities do you think make someone a good leader?", "Do you think leadership qualities can be learned, or are people born with them?"]
+  },
+  {
+    "id": "topic-habit-change",
+    "title": "Describe a habit you would like to change.",
+    "bullets": ["what the habit is", "when it started", "why you want to change it", "explain how you plan to change it"],
+    "followUps": ["Why do you think it's difficult for people to change their habits?", "Do you think it's easier to change habits alone or with support from others?"]
+  },
+  {
+    "id": "topic-team-worked",
+    "title": "Describe a time you worked in a team.",
+    "bullets": ["what the team's goal was", "who was on the team", "what your role was", "explain how the team worked together"],
+    "followUps": ["What do you think makes a team work well together?", "Do you think some people are better suited to teamwork than others?"]
   }
 ]

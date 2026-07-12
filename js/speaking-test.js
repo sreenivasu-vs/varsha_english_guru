@@ -225,7 +225,8 @@ function runRecordingPhase(container, username, topic) {
       recognition.stop();
     }
     statusText.textContent = "";
-    renderReview(container, username, topic, transcriptBox.value);
+    const elapsedSeconds = 120 - Math.max(secondsLeft, 0);
+    renderReview(container, username, topic, transcriptBox.value, elapsedSeconds);
   }
 
   stopBtn.onclick = finish;
@@ -245,7 +246,35 @@ function renderHighlighted(text, matches) {
   return html;
 }
 
-function renderReview(container, username, topic, transcript) {
+function computeFluencyStats(text, elapsedSeconds) {
+  const words = text.trim().split(/\s+/).filter(Boolean);
+  const wordCount = words.length;
+  const minutes = Math.max(elapsedSeconds, 1) / 60;
+  const wpm = Math.round(wordCount / minutes);
+  let note;
+  if (elapsedSeconds < 20) note = "Try to speak for longer next time - aim to fill closer to the full two minutes.";
+  else if (wpm < 80) note = "Your pace is a bit slow - try to keep talking without long pauses.";
+  else if (wpm > 180) note = "You're speaking quite fast - make sure you're staying clear and easy to follow.";
+  else note = "Good pace for natural spoken English.";
+  return { wordCount, wpm, note };
+}
+
+function renderFluencyStats(stats, elapsedSeconds) {
+  const card = el("div", "card");
+  card.style.background = "var(--surface-2)";
+  card.innerHTML = `
+    <div class="section-title" style="margin-top:0">Fluency Snapshot</div>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:8px;">
+      <div><div style="font-size:20px;font-weight:800;">${stats.wordCount}</div><div style="font-size:12px;color:var(--text-muted);">words</div></div>
+      <div><div style="font-size:20px;font-weight:800;">${formatTime(elapsedSeconds)}</div><div style="font-size:12px;color:var(--text-muted);">spoken</div></div>
+      <div><div style="font-size:20px;font-weight:800;">${stats.wpm}</div><div style="font-size:12px;color:var(--text-muted);">words/min</div></div>
+    </div>
+    <div style="font-size:13.5px;color:var(--text-muted);">${escapeHtml(stats.note)}</div>
+  `;
+  return card;
+}
+
+function renderReview(container, username, topic, transcript, elapsedSeconds) {
   container.innerHTML = "";
   const card = el("div", "card");
   card.innerHTML = `
@@ -280,10 +309,15 @@ function renderReview(container, username, topic, transcript) {
       });
       if (!res.ok) throw new Error("Request failed");
       const data = await res.json();
+
+      const stats = computeFluencyStats(trimmed, elapsedSeconds);
+      resultArea.appendChild(renderFluencyStats(stats, elapsedSeconds));
       renderResult(resultArea, data);
 
       const result = recordSpeakingTest();
       if (result.awarded) showToast("✅ Speaking test complete · +30 XP earned");
+
+      container.appendChild(renderFollowUpSection(username, topic));
     } catch (e) {
       resultArea.innerHTML = `<div class="feedback-box incorrect">Couldn't reach the grammar checker backend. Make sure it's running at ${API_BASE}.</div>`;
     } finally {
@@ -300,6 +334,120 @@ function renderReview(container, username, topic, transcript) {
   nextBtn.style.marginTop = "10px";
   nextBtn.onclick = () => renderCueCard(container, username, nextTopic());
   container.appendChild(nextBtn);
+}
+
+/* Part 3-style follow-up: shorter, unprepared discussion questions related
+   to the Part 2 topic, each with its own independent mic-recording widget
+   so the user can answer one, both, or skip - mirrors how the real IELTS
+   speaking test moves from a prepared cue card into open discussion. */
+function renderFollowUpSection(username, topic) {
+  const wrap = el("div");
+  wrap.style.marginTop = "16px";
+  const heading = el("div", "section-title", "Part 3: Follow-up Discussion");
+  wrap.appendChild(heading);
+  const intro = el("p", "", "Answer these follow-up questions the same way you would in a real interview - no preparation time, just speak naturally.");
+  intro.style.cssText = "margin:0 0 12px;font-size:13.5px;color:var(--text-muted);";
+  wrap.appendChild(intro);
+
+  topic.followUps.forEach((question) => {
+    wrap.appendChild(renderFollowUpQuestion(username, question));
+  });
+  return wrap;
+}
+
+function renderFollowUpQuestion(username, question) {
+  const card = el("div", "card");
+  card.style.marginBottom = "10px";
+  card.innerHTML = `<p style="margin:0 0 10px;font-weight:700;">${escapeHtml(question)}</p>`;
+
+  const micBtn = el("button", "btn secondary block", "🎤 Record Answer");
+  const transcriptBox = el("textarea", "text-input", "");
+  transcriptBox.rows = 2;
+  transcriptBox.placeholder = "Your answer will appear here - you can also type it directly.";
+  transcriptBox.style.cssText = "resize:vertical;margin-top:8px;display:none;";
+  const statusText = el("div", "", "");
+  statusText.style.cssText = "font-size:13px;color:var(--text-muted);margin:8px 0;min-height:18px;";
+  const checkBtn = el("button", "btn block", "Check Grammar");
+  checkBtn.style.cssText = "margin-top:8px;display:none;";
+  const resultArea = el("div");
+  resultArea.style.marginTop = "10px";
+
+  let recognition = null;
+  let isListening = false;
+
+  micBtn.onclick = () => {
+    transcriptBox.style.display = "block";
+    checkBtn.style.display = "block";
+    if (!SpeechRecognitionCtor) {
+      statusText.textContent = "Speech recognition isn't supported in this browser. You can type your answer instead.";
+      return;
+    }
+    if (isListening) {
+      recognition.stop();
+      return;
+    }
+    recognition = new SpeechRecognitionCtor();
+    recognition.lang = "en-US";
+    recognition.interimResults = true;
+    recognition.continuous = false;
+    recognition.onstart = () => {
+      isListening = true;
+      micBtn.textContent = "⏹ Stop Listening";
+      statusText.textContent = "Listening... speak now.";
+    };
+    recognition.onend = () => {
+      isListening = false;
+      micBtn.textContent = "🎤 Record Answer";
+      if (statusText.textContent === "Listening... speak now.") statusText.textContent = "";
+    };
+    recognition.onerror = (e) => {
+      statusText.textContent = `Microphone error: ${e.error}.`;
+    };
+    recognition.onresult = (event) => {
+      let finalText = "";
+      let interimText = "";
+      for (let i = 0; i < event.results.length; i++) {
+        const chunk = event.results[i][0].transcript;
+        if (event.results[i].isFinal) finalText += chunk;
+        else interimText += chunk;
+      }
+      transcriptBox.value = capitalizeSentences((finalText || interimText).trim());
+    };
+    recognition.start();
+  };
+
+  checkBtn.onclick = async () => {
+    const trimmed = transcriptBox.value.trim();
+    if (!trimmed) {
+      statusText.textContent = "Say or type an answer first.";
+      return;
+    }
+    checkBtn.disabled = true;
+    checkBtn.textContent = "Checking...";
+    resultArea.innerHTML = "";
+    try {
+      const res = await fetch(`${API_BASE}/api/check`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, text: trimmed }),
+      });
+      if (!res.ok) throw new Error("Request failed");
+      const data = await res.json();
+      renderResult(resultArea, data);
+    } catch (e) {
+      resultArea.innerHTML = `<div class="feedback-box incorrect">Couldn't reach the grammar checker backend.</div>`;
+    } finally {
+      checkBtn.disabled = false;
+      checkBtn.textContent = "Check Grammar";
+    }
+  };
+
+  card.appendChild(micBtn);
+  card.appendChild(transcriptBox);
+  card.appendChild(statusText);
+  card.appendChild(checkBtn);
+  card.appendChild(resultArea);
+  return card;
 }
 
 function renderResult(resultArea, data) {

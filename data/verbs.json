@@ -3036,5 +3036,2276 @@
       "present": "I feel nervous before every exam.",
       "future": "I will feel nervous before the exam tomorrow."
     }
+  },
+  {
+    "verb": "Say",
+    "telugu": "చెప్పు (ceppu)",
+    "v1": "say",
+    "v2": "said",
+    "v3": "said",
+    "v4": "saying",
+    "v5": "says",
+    "pronunciation": "/seɪ/ (rhymes with 'day')",
+    "definition": "To speak or utter words; to express something in words.",
+    "commonUses": [
+      "Reporting what someone said",
+      "Expressing an opinion",
+      "Quoting speech directly",
+      "Fixed expressions (say hello, say sorry, say goodbye)"
+    ],
+    "beginnerSentences": [
+      "I say hello every morning.",
+      "She says thank you politely.",
+      "We said goodbye at the door.",
+      "He said he was busy.",
+      "Did you say something?",
+      "I am saying this for your benefit.",
+      "They said yes to the offer.",
+      "Can you say that again?",
+      "This sign says 'no parking'.",
+      "I didn't say anything wrong."
+    ],
+    "intermediateSentences": [
+      "I've said this before, but it's worth repeating.",
+      "She said she'd think about it and get back to us.",
+      "We should say something before it's too late.",
+      "He's not one to say things he doesn't mean.",
+      "I said I would help, and I intend to keep my word.",
+      "They said the delay was due to a technical issue.",
+      "I can't say for certain what will happen.",
+      "She always says exactly what she thinks.",
+      "We were told to say nothing until it's confirmed.",
+      "He said something that really made me think."
+    ],
+    "businessSentences": [
+      "The client said they need more time to review.",
+      "I'll say a few words at the beginning of the meeting.",
+      "What did the manager say about the budget?",
+      "We need to say clearly what our expectations are.",
+      "She said the numbers looked promising.",
+      "The report says sales increased by ten percent.",
+      "I have to say, this proposal exceeded expectations.",
+      "They said they'd get back to us by Friday.",
+      "Let's say what we mean and avoid confusion.",
+      "He said the project was on track for launch."
+    ],
+    "questions": [
+      "What did she say about the meeting?",
+      "Did you say you were coming?",
+      "What does the report say?",
+      "Can you say that more clearly?",
+      "What would you say is the biggest challenge?",
+      "Did he say when he'd arrive?",
+      "What did the doctor say?",
+      "Would you say this is a good idea?",
+      "What did they say about the delay?",
+      "Did you say goodbye to everyone?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She said me the news.",
+        "right": "She told me the news.",
+        "why": "'Say' doesn't take a personal object directly - use 'tell' instead ('tell me'), or add 'to' before the person with 'say' ('said to me')."
+      },
+      {
+        "wrong": "I sayed hello.",
+        "right": "I said hello.",
+        "why": "'Say' is irregular - its past tense is 'said', not 'sayed'."
+      },
+      {
+        "wrong": "He said that he will come tomorrow.",
+        "right": "He said that he would come the next day.",
+        "why": "In reported speech, tenses usually shift backward - 'will' becomes 'would' and 'tomorrow' becomes 'the next day'."
+      }
+    ],
+    "grammarTips": [
+      "'Say' is irregular with a shared past form: say, said, said - notice the pronunciation changes from /seɪ/ to /sɛd/.",
+      "'Say' and 'tell' are frequently confused: 'say' doesn't take a direct personal object ('say to me'), while 'tell' does ('tell me').",
+      "In reported speech, 'say' is often followed by 'that' + a clause with shifted tense: 'She says she is tired' becomes 'She said she was tired'."
+    ],
+    "synonyms": [
+      "state",
+      "speak",
+      "declare",
+      "utter"
+    ],
+    "antonyms": [],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What did the teacher say about the assignment?"
+      },
+      {
+        "speaker": "B",
+        "line": "She said it's due next Monday."
+      },
+      {
+        "speaker": "A",
+        "line": "Did she say if we could work in pairs?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, she said pairs are fine."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'He ___ he would call later.'",
+        "options": [
+          "say",
+          "sayed",
+          "said",
+          "saying"
+        ],
+        "answer": "said",
+        "explanation": "'Said' is the correct irregular past tense of 'say'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "She said me the news.",
+          "She told me the news.",
+          "She says me the news.",
+          "She said to I the news."
+        ],
+        "answer": "She told me the news.",
+        "explanation": "'Say' doesn't take a direct personal object - use 'tell' instead."
+      },
+      {
+        "type": "fill",
+        "question": "The sign clearly ___ (say) 'No Entry'.",
+        "answer": "says",
+        "explanation": "Present simple 'says' agrees with the singular subject 'the sign'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I said hello to my neighbor yesterday.",
+      "present": "I say hello to my neighbor every day.",
+      "future": "I will say hello to my neighbor tomorrow."
+    }
+  },
+  {
+    "verb": "Talk",
+    "telugu": "మాట్లాడు (māṭlāḍu)",
+    "v1": "talk",
+    "v2": "talked",
+    "v3": "talked",
+    "v4": "talking",
+    "v5": "talks",
+    "pronunciation": "/tɔːk/ (rhymes with 'walk')",
+    "definition": "To speak with someone in order to communicate or exchange information.",
+    "commonUses": [
+      "Having a conversation",
+      "Discussing a topic ('talk about')",
+      "Giving a talk or presentation",
+      "Fixed expressions (talk over, talk into, small talk)"
+    ],
+    "beginnerSentences": [
+      "I talk to my friends every day.",
+      "She talks fast when excited.",
+      "We talked about our plans.",
+      "He talked to his manager.",
+      "Did you talk to her yet?",
+      "I am talking to my sister now.",
+      "They talked for hours.",
+      "Can we talk later?",
+      "This topic is worth talking about.",
+      "I didn't talk much today."
+    ],
+    "intermediateSentences": [
+      "I've been meaning to talk to you about something.",
+      "She talked me into trying the new restaurant.",
+      "We talked through all the options before deciding.",
+      "He's talking about changing careers.",
+      "I need to talk to my manager about this issue.",
+      "They talked openly about the challenges they faced.",
+      "Let's talk this over before making a final decision.",
+      "She's easy to talk to about anything.",
+      "We should talk soon to catch up.",
+      "He talked confidently during the interview."
+    ],
+    "businessSentences": [
+      "I need to talk to the client about the delay.",
+      "We talked through the proposal in detail.",
+      "Let's talk about the budget for next quarter.",
+      "She talked to the team about the new process.",
+      "I'll talk to my manager and get back to you.",
+      "We should talk before making any final decisions.",
+      "He talked the client through the entire proposal.",
+      "Can we talk privately about this matter?",
+      "The CEO talked about the company's future plans.",
+      "We talked over the details during the call."
+    ],
+    "questions": [
+      "Can we talk for a minute?",
+      "Did you talk to him about the issue?",
+      "What did you talk about in the meeting?",
+      "Who did you talk to today?",
+      "Can I talk to you privately?",
+      "Did she talk about her plans?",
+      "What are you talking about?",
+      "Have you talked to the client yet?",
+      "Can we talk this through together?",
+      "Did you talk to your manager about the raise?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I talk him yesterday.",
+        "right": "I talked to him yesterday.",
+        "why": "'Talk' needs 'to' (or 'with') before the person you're speaking to - it doesn't take a direct object."
+      },
+      {
+        "wrong": "We talked about that we should leave.",
+        "right": "We talked about leaving.",
+        "why": "'Talk about' is followed by a noun or -ing form, not a 'that' clause."
+      },
+      {
+        "wrong": "She talked loud.",
+        "right": "She talked loudly.",
+        "why": "Use the adverb 'loudly' to describe how someone talks, not the adjective 'loud'."
+      }
+    ],
+    "grammarTips": [
+      "'Talk' is a regular verb (talk, talked, talked).",
+      "'Talk to' and 'talk with' both mean having a conversation with someone - 'talk to' is slightly more common.",
+      "'Talk about' + noun/-ing introduces the topic of conversation: 'talk about the weather', 'talk about leaving'."
+    ],
+    "synonyms": [
+      "speak",
+      "converse",
+      "chat",
+      "discuss"
+    ],
+    "antonyms": [
+      "listen",
+      "stay silent"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Do you have a minute to talk?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, what do you want to talk about?"
+      },
+      {
+        "speaker": "A",
+        "line": "I wanted to talk about the weekend plans."
+      },
+      {
+        "speaker": "B",
+        "line": "Sounds good, let's talk over coffee."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I talked him yesterday.",
+          "I talked to him yesterday.",
+          "I talked at him yesterday.",
+          "I talking him yesterday."
+        ],
+        "answer": "I talked to him yesterday.",
+        "explanation": "'Talk' needs 'to' before the person being spoken to."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "She talked loud.",
+          "She talked loudly.",
+          "She talk loud.",
+          "She was talked loudly."
+        ],
+        "answer": "She talked loudly.",
+        "explanation": "Use the adverb 'loudly', not the adjective 'loud'."
+      },
+      {
+        "type": "fill",
+        "question": "We have been ___ (talk) about this for an hour.",
+        "answer": "talking",
+        "explanation": "Present perfect continuous uses 'have been' + -ing form."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I talked to my friend yesterday.",
+      "present": "I talk to my friend every day.",
+      "future": "I will talk to my friend tomorrow."
+    }
+  },
+  {
+    "verb": "Speak",
+    "telugu": "మాట్లాడు (māṭlāḍu)",
+    "v1": "speak",
+    "v2": "spoke",
+    "v3": "spoken",
+    "v4": "speaking",
+    "v5": "speaks",
+    "pronunciation": "/spiːk/ (rhymes with 'seek')",
+    "definition": "To say words aloud; to communicate in a particular language; to express thoughts or opinions formally.",
+    "commonUses": [
+      "Talking about language ability ('speak English')",
+      "Formal communication (public speaking)",
+      "Expressing an opinion formally",
+      "Fixed expressions (speak up, speak out, so to speak)"
+    ],
+    "beginnerSentences": [
+      "I speak English and Hindi.",
+      "She speaks three languages.",
+      "We spoke to the manager.",
+      "He spoke clearly during the meeting.",
+      "Do you speak French?",
+      "I am speaking to the class now.",
+      "They spoke about the new policy.",
+      "Can you speak louder, please?",
+      "This app helps you speak better English.",
+      "I didn't speak much at the party."
+    ],
+    "intermediateSentences": [
+      "I've been practicing to speak more confidently.",
+      "She spoke passionately about the cause.",
+      "We need to speak honestly about the challenges.",
+      "He's speaking at the conference next week.",
+      "I spoke to her about the misunderstanding.",
+      "They spoke highly of your work.",
+      "Let's speak frankly about what went wrong.",
+      "She's not afraid to speak her mind.",
+      "We should speak up if something feels wrong.",
+      "He spoke for nearly an hour without notes."
+    ],
+    "businessSentences": [
+      "I'll speak to the client about the delay.",
+      "She spoke confidently during the presentation.",
+      "We need to speak with the vendor about pricing.",
+      "He's speaking at the industry conference this year.",
+      "Let's speak candidly about our concerns.",
+      "I spoke to the team about the new deadline.",
+      "The CEO spoke about the company's vision.",
+      "We should speak to legal before proceeding.",
+      "She spoke on behalf of the entire department.",
+      "I'll speak with my manager and update you."
+    ],
+    "questions": [
+      "Do you speak any other languages?",
+      "Did you speak to him about the issue?",
+      "Who spoke at the event?",
+      "Can I speak with you for a moment?",
+      "How well do you speak English?",
+      "Did she speak about her plans?",
+      "Who's speaking at the conference?",
+      "Can you speak up, please?",
+      "Have you spoken to the client yet?",
+      "What language do they speak there?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I speaked English at work.",
+        "right": "I spoke English at work.",
+        "why": "'Speak' is irregular - its past tense is 'spoke', not 'speaked'."
+      },
+      {
+        "wrong": "I have spoke to him.",
+        "right": "I have spoken to him.",
+        "why": "After 'have', use the past participle (V3) 'spoken', not the simple past 'spoke'."
+      },
+      {
+        "wrong": "She speaks well english.",
+        "right": "She speaks English well.",
+        "why": "Word order matters - the adverb 'well' should come after the object 'English', not between the verb and object."
+      }
+    ],
+    "grammarTips": [
+      "'Speak' is irregular across all three forms: speak, spoke, spoken.",
+      "'Speak' and 'talk' overlap in meaning, but 'speak' feels slightly more formal and is standard for languages and formal addresses.",
+      "'Speak up' means to talk louder or to voice an opinion you might otherwise keep quiet."
+    ],
+    "synonyms": [
+      "talk",
+      "converse",
+      "communicate",
+      "utter"
+    ],
+    "antonyms": [
+      "listen",
+      "stay silent"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Could I speak with you for a moment?"
+      },
+      {
+        "speaker": "B",
+        "line": "Of course, what would you like to speak about?"
+      },
+      {
+        "speaker": "A",
+        "line": "I wanted to speak about the upcoming project."
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, let's speak in my office."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'She ___ to the audience for an hour.'",
+        "options": [
+          "speak",
+          "speaked",
+          "spoke",
+          "spoken"
+        ],
+        "answer": "spoke",
+        "explanation": "'Spoke' is the correct simple past tense of 'speak'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "I have spoke to him.",
+          "I have spoken to him.",
+          "I have speak to him.",
+          "I has spoken to him."
+        ],
+        "answer": "I have spoken to him.",
+        "explanation": "After 'have', use the past participle 'spoken'."
+      },
+      {
+        "type": "fill",
+        "question": "She ___ (speak) three languages fluently.",
+        "answer": "speaks",
+        "explanation": "Present simple 'speaks' agrees with the third-person subject 'she'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I spoke to my manager yesterday.",
+      "present": "I speak to my manager every week.",
+      "future": "I will speak to my manager tomorrow."
+    }
+  },
+  {
+    "verb": "Eat",
+    "telugu": "తిను (tinu)",
+    "v1": "eat",
+    "v2": "ate",
+    "v3": "eaten",
+    "v4": "eating",
+    "v5": "eats",
+    "pronunciation": "/iːt/ (rhymes with 'seat')",
+    "definition": "To put food in the mouth, chew, and swallow it.",
+    "commonUses": [
+      "Talking about meals and food",
+      "Describing eating habits",
+      "Fixed expressions (eat out, eat up, grab a bite)",
+      "Talking about health and diet"
+    ],
+    "beginnerSentences": [
+      "I eat breakfast every morning.",
+      "She eats vegetables every day.",
+      "We ate dinner together last night.",
+      "He ate all his food.",
+      "Did you eat lunch yet?",
+      "I am eating right now.",
+      "They ate at a new restaurant.",
+      "Can you eat spicy food?",
+      "This fruit is good to eat.",
+      "I didn't eat breakfast today."
+    ],
+    "intermediateSentences": [
+      "I've been trying to eat healthier lately.",
+      "She eats out with friends every weekend.",
+      "We ate way too much at the buffet.",
+      "He's eating better since starting the new diet.",
+      "I don't usually eat before exercising.",
+      "They ate quickly before rushing to the meeting.",
+      "This restaurant is a great place to eat.",
+      "I've eaten here a few times before.",
+      "We should eat something before the long trip.",
+      "She eats very little in the mornings."
+    ],
+    "businessSentences": [
+      "Let's grab something to eat before the meeting.",
+      "We ate lunch with the client to discuss the deal.",
+      "The team ate together to celebrate the launch.",
+      "I haven't had time to eat all day.",
+      "We should eat before the presentation starts.",
+      "They took the client out to eat after the negotiation.",
+      "I'll eat quickly and be right back.",
+      "We ate at a nice place near the office.",
+      "Let's schedule the meeting after we eat lunch.",
+      "The team hasn't eaten since this morning."
+    ],
+    "questions": [
+      "What do you usually eat for breakfast?",
+      "Did you eat lunch already?",
+      "Where do you want to eat tonight?",
+      "Have you eaten anything today?",
+      "What time do you usually eat dinner?",
+      "Did you eat all your vegetables?",
+      "What did you eat for lunch?",
+      "Do you eat meat?",
+      "Have you eaten here before?",
+      "What's your favorite thing to eat?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I eated breakfast.",
+        "right": "I ate breakfast.",
+        "why": "'Eat' is irregular - its past tense is 'ate', not 'eated'."
+      },
+      {
+        "wrong": "I have ate lunch already.",
+        "right": "I have eaten lunch already.",
+        "why": "After 'have', use the past participle (V3) 'eaten', not the simple past 'ate'."
+      },
+      {
+        "wrong": "I eat rice yesterday.",
+        "right": "I ate rice yesterday.",
+        "why": "With a specific past time word like 'yesterday', use the simple past 'ate', not the present form 'eat'."
+      }
+    ],
+    "grammarTips": [
+      "'Eat' is irregular across all three forms: eat, ate, eaten.",
+      "Note the pronunciation shift: 'eat' is /iːt/, but 'ate' is pronounced /eɪt/, not /iːt/ with a 'd' sound.",
+      "'Eat out' means to have a meal at a restaurant rather than at home - a very common everyday expression."
+    ],
+    "synonyms": [
+      "consume",
+      "dine",
+      "devour"
+    ],
+    "antonyms": [
+      "fast",
+      "starve"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Have you eaten lunch yet?"
+      },
+      {
+        "speaker": "B",
+        "line": "Not yet, I was waiting for you. Want to eat together?"
+      },
+      {
+        "speaker": "A",
+        "line": "Sure, where should we eat?"
+      },
+      {
+        "speaker": "B",
+        "line": "Let's eat at that new place down the street."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'I ___ breakfast at seven this morning.'",
+        "options": [
+          "eat",
+          "eated",
+          "ate",
+          "eaten"
+        ],
+        "answer": "ate",
+        "explanation": "'Ate' is the correct irregular past tense of 'eat'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "I have ate lunch.",
+          "I have eaten lunch.",
+          "I have eat lunch.",
+          "I has eaten lunch."
+        ],
+        "answer": "I have eaten lunch.",
+        "explanation": "After 'have', use the past participle 'eaten'."
+      },
+      {
+        "type": "fill",
+        "question": "She is currently ___ (eat) her dinner.",
+        "answer": "eating",
+        "explanation": "Present continuous uses 'is' + -ing form."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I ate breakfast this morning.",
+      "present": "I eat breakfast every morning.",
+      "future": "I will eat breakfast tomorrow."
+    }
+  },
+  {
+    "verb": "Drink",
+    "telugu": "త్రాగు (trāgu)",
+    "v1": "drink",
+    "v2": "drank",
+    "v3": "drunk",
+    "v4": "drinking",
+    "v5": "drinks",
+    "pronunciation": "/drɪŋk/ (rhymes with 'think' with 'dr')",
+    "definition": "To take liquid into the mouth and swallow it.",
+    "commonUses": [
+      "Talking about beverages",
+      "Describing habits related to drinking",
+      "Health and hydration talk",
+      "Fixed expressions (drink up, drink to something)"
+    ],
+    "beginnerSentences": [
+      "I drink water every day.",
+      "She drinks coffee in the morning.",
+      "We drank tea together.",
+      "He drank all the juice.",
+      "Did you drink enough water today?",
+      "I am drinking water now.",
+      "They drank coffee before the meeting.",
+      "Can I drink this?",
+      "This drink tastes great.",
+      "I didn't drink anything yet."
+    ],
+    "intermediateSentences": [
+      "I've been drinking more water lately.",
+      "She drinks herbal tea before bed.",
+      "We drank to celebrate the good news.",
+      "He's cut back on how much coffee he drinks.",
+      "I drank too much coffee this morning.",
+      "They drank a toast to the new project.",
+      "This tea is best when drunk fresh.",
+      "I've never drunk anything quite like this before.",
+      "We should drink more water during the summer.",
+      "She drank her coffee while reviewing the report."
+    ],
+    "businessSentences": [
+      "Let's grab a coffee to drink during the meeting.",
+      "We drank a toast to the successful launch.",
+      "I drank too much coffee before the presentation.",
+      "The team stopped to drink some water during the long session.",
+      "We should drink to a productive partnership.",
+      "I'll drink my coffee quickly before the call starts.",
+      "They drank coffee together while discussing the proposal.",
+      "Let's drink to a successful quarter.",
+      "I need something to drink before this next meeting.",
+      "We drank water throughout the long negotiation."
+    ],
+    "questions": [
+      "What do you usually drink in the morning?",
+      "Did you drink enough water today?",
+      "Would you like something to drink?",
+      "Do you drink coffee or tea?",
+      "How much water do you drink daily?",
+      "Did you drink your coffee already?",
+      "What are you drinking?",
+      "Have you ever drunk green tea?",
+      "Do you drink alcohol?",
+      "What's your favorite drink?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I drinked water.",
+        "right": "I drank water.",
+        "why": "'Drink' is irregular - its past tense is 'drank', not 'drinked'."
+      },
+      {
+        "wrong": "I have drank the coffee.",
+        "right": "I have drunk the coffee.",
+        "why": "After 'have', use the past participle (V3) 'drunk', not the simple past 'drank'."
+      },
+      {
+        "wrong": "She is drink coffee.",
+        "right": "She is drinking coffee.",
+        "why": "Continuous tenses need the -ing form after 'am/is/are' - don't use the base form."
+      }
+    ],
+    "grammarTips": [
+      "'Drink' is irregular with three different forms: drink, drank, drunk - 'drunk' is also an adjective meaning intoxicated, so context matters.",
+      "Use 'drank' for a completed past action, and 'have/has drunk' for the present perfect.",
+      "'Drink to' something means to toast or celebrate: 'Let's drink to your success'."
+    ],
+    "synonyms": [
+      "sip",
+      "gulp",
+      "consume"
+    ],
+    "antonyms": [
+      "abstain"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Would you like something to drink?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, I'll drink some water, thanks."
+      },
+      {
+        "speaker": "A",
+        "line": "Do you want tea instead? I'm drinking tea."
+      },
+      {
+        "speaker": "B",
+        "line": "Actually, tea sounds great, I'll drink that instead."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'I ___ a glass of orange juice this morning.'",
+        "options": [
+          "drink",
+          "drinked",
+          "drank",
+          "drunk"
+        ],
+        "answer": "drank",
+        "explanation": "'Drank' is the correct simple past tense of 'drink'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "I have drank the coffee.",
+          "I have drunk the coffee.",
+          "I have drink the coffee.",
+          "I has drunk the coffee."
+        ],
+        "answer": "I have drunk the coffee.",
+        "explanation": "After 'have', use the past participle 'drunk'."
+      },
+      {
+        "type": "fill",
+        "question": "She is ___ (drink) her tea slowly.",
+        "answer": "drinking",
+        "explanation": "Present continuous uses 'is' + -ing form."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I drank coffee this morning.",
+      "present": "I drink coffee every morning.",
+      "future": "I will drink coffee tomorrow morning."
+    }
+  },
+  {
+    "verb": "Sleep",
+    "telugu": "నిద్రపో (nidrapō)",
+    "v1": "sleep",
+    "v2": "slept",
+    "v3": "slept",
+    "v4": "sleeping",
+    "v5": "sleeps",
+    "pronunciation": "/sliːp/ (rhymes with 'keep')",
+    "definition": "To rest with your eyes closed and mind and body inactive, typically at night.",
+    "commonUses": [
+      "Talking about rest and sleep habits",
+      "Describing sleep quality",
+      "Fixed expressions (sleep in, sleep on it, sleep like a baby)",
+      "Health and wellness talk"
+    ],
+    "beginnerSentences": [
+      "I sleep eight hours every night.",
+      "She sleeps early on weekdays.",
+      "We slept well last night.",
+      "He slept until noon.",
+      "Did you sleep well?",
+      "I am sleeping now, please be quiet.",
+      "They slept in a hotel.",
+      "Can you sleep on the plane?",
+      "This bed is comfortable to sleep in.",
+      "I didn't sleep much last night."
+    ],
+    "intermediateSentences": [
+      "I've been sleeping poorly this week.",
+      "She sleeps better with the window open.",
+      "We slept in a bit later than planned.",
+      "He's been sleeping in his office during crunch time.",
+      "I need to sleep on this decision before deciding.",
+      "They slept through the entire flight.",
+      "I haven't slept properly in days.",
+      "She sleeps with earplugs to block out noise.",
+      "We should sleep early tonight before the big day.",
+      "He slept soundly after the exhausting trip."
+    ],
+    "businessSentences": [
+      "I didn't sleep much before the big presentation.",
+      "Let me sleep on this proposal and get back to you.",
+      "The team has been sleeping very little during crunch time.",
+      "I'll sleep on it and give you my answer tomorrow.",
+      "He slept through his alarm and missed the meeting.",
+      "We need to make sure the team isn't sleeping too little.",
+      "I couldn't sleep worrying about the deadline.",
+      "She always sleeps well before an important meeting.",
+      "The travel schedule left us sleeping very little.",
+      "Let's sleep on this before making a final decision."
+    ],
+    "questions": [
+      "How many hours do you usually sleep?",
+      "Did you sleep well last night?",
+      "What time do you usually go to sleep?",
+      "Do you sleep better with the lights off?",
+      "Have you slept enough this week?",
+      "Did you sleep on the plane?",
+      "Do you sleep in on weekends?",
+      "How did you sleep after the trip?",
+      "Can you sleep with noise around you?",
+      "Did the baby sleep through the night?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I sleeped eight hours.",
+        "right": "I slept eight hours.",
+        "why": "'Sleep' is irregular - its past tense is 'slept', not 'sleeped'."
+      },
+      {
+        "wrong": "I am sleeping eight hours every night.",
+        "right": "I sleep eight hours every night.",
+        "why": "For habits and general facts, use the simple present ('sleep'), not the continuous ('am sleeping')."
+      },
+      {
+        "wrong": "I have slept eight hours yesterday.",
+        "right": "I slept eight hours yesterday.",
+        "why": "With a specific past time word like 'yesterday', use the simple past 'slept', not the present perfect."
+      }
+    ],
+    "grammarTips": [
+      "'Sleep' is irregular with a shared past form: sleep, slept, slept.",
+      "Use the simple present for habits and the continuous only for a specific, temporary situation.",
+      "'Sleep on it' is a common idiom meaning to delay a decision until after a night's rest."
+    ],
+    "synonyms": [
+      "rest",
+      "doze",
+      "nap",
+      "slumber"
+    ],
+    "antonyms": [
+      "wake",
+      "stay awake"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Did you sleep well last night?"
+      },
+      {
+        "speaker": "B",
+        "line": "Not really, I only slept about five hours."
+      },
+      {
+        "speaker": "A",
+        "line": "That's not much. Are you going to sleep early tonight?"
+      },
+      {
+        "speaker": "B",
+        "line": "Definitely, I really need to catch up on sleep."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'I ___ for nine hours last night.'",
+        "options": [
+          "sleep",
+          "sleeped",
+          "slept",
+          "sleeping"
+        ],
+        "answer": "slept",
+        "explanation": "'Slept' is the correct irregular past tense of 'sleep'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct for a daily habit?",
+        "options": [
+          "I am sleeping eight hours every night.",
+          "I sleep eight hours every night.",
+          "I slept eight hours every night.",
+          "I have sleeping eight hours every night."
+        ],
+        "answer": "I sleep eight hours every night.",
+        "explanation": "Habits and general facts use the simple present tense."
+      },
+      {
+        "type": "fill",
+        "question": "She has already ___ (sleep) for ten hours.",
+        "answer": "slept",
+        "explanation": "After 'has', use the past participle 'slept'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I slept eight hours last night.",
+      "present": "I sleep eight hours every night.",
+      "future": "I will sleep eight hours tonight."
+    }
+  },
+  {
+    "verb": "Wash",
+    "telugu": "కడుగు (kaḍugu)",
+    "v1": "wash",
+    "v2": "washed",
+    "v3": "washed",
+    "v4": "washing",
+    "v5": "washes",
+    "pronunciation": "/wɒʃ/ (rhymes with 'gosh')",
+    "definition": "To clean something using water and usually soap.",
+    "commonUses": [
+      "Talking about cleaning routines",
+      "Household chores",
+      "Personal hygiene",
+      "Fixed expressions (wash up, wash away, wash your hands of something)"
+    ],
+    "beginnerSentences": [
+      "I wash my hands before eating.",
+      "She washes the dishes every night.",
+      "We washed the car yesterday.",
+      "He washed his face this morning.",
+      "Did you wash your hands?",
+      "I am washing the clothes now.",
+      "They washed the windows.",
+      "Can you wash this shirt for me?",
+      "This detergent washes clothes well.",
+      "I didn't wash the dishes yet."
+    ],
+    "intermediateSentences": [
+      "I've been washing my hands more often lately.",
+      "She washes her hair every other day.",
+      "We washed all the laundry over the weekend.",
+      "He's washing the car before the trip.",
+      "I need to wash these dishes before guests arrive.",
+      "They washed away the mud from their boots.",
+      "This fabric should be washed by hand.",
+      "I've already washed the towels twice this week.",
+      "We should wash the sheets before company comes.",
+      "She washed her hands of the whole situation."
+    ],
+    "businessSentences": [
+      "The cleaning staff washes the office every evening.",
+      "We need to wash out the old inventory system.",
+      "I washed my hands of that failed project long ago.",
+      "The uniforms are washed and pressed daily.",
+      "Let's wash away any doubts with clear communication.",
+      "The team washed their hands of the outdated process.",
+      "We should wash the equipment regularly for maintenance.",
+      "I'll make sure the meeting room is washed and ready.",
+      "The company washes all its delivery vehicles weekly.",
+      "We need everything washed and prepared before the client visit."
+    ],
+    "questions": [
+      "Did you wash your hands?",
+      "How often do you wash your car?",
+      "Can you wash the dishes tonight?",
+      "Did you wash the clothes yet?",
+      "What temperature should I wash this at?",
+      "Do you wash your hair every day?",
+      "Did you wash the vegetables before cooking?",
+      "Who washes the dishes in your house?",
+      "Have you washed the towels this week?",
+      "Can this be washed in the machine?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I washed my hands with soap and water yesterday for keeping clean.",
+        "right": "I washed my hands with soap and water yesterday to keep clean.",
+        "why": "Use 'to' + base verb to express purpose, not 'for' + -ing."
+      },
+      {
+        "wrong": "She wash the dishes every night.",
+        "right": "She washes the dishes every night.",
+        "why": "With he/she/it in the present simple, add 's' - 'washes', not 'wash'."
+      },
+      {
+        "wrong": "I have washing my car.",
+        "right": "I have washed my car.",
+        "why": "After 'have', use the past participle 'washed', not the -ing form."
+      }
+    ],
+    "grammarTips": [
+      "'Wash' is a regular verb (wash, washed, washed).",
+      "Use 'to' + base verb to express purpose, not 'for' + -ing.",
+      "'Wash up' can mean different things: in British English it often means washing dishes, while in American English it usually means washing your hands and face."
+    ],
+    "synonyms": [
+      "clean",
+      "rinse",
+      "scrub"
+    ],
+    "antonyms": [
+      "dirty",
+      "soil"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Can you wash the dishes tonight? I washed them yesterday."
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, no problem. I'll wash them after dinner."
+      },
+      {
+        "speaker": "A",
+        "line": "Thanks. Did you already wash the towels too?"
+      },
+      {
+        "speaker": "B",
+        "line": "Not yet, I'll wash those tomorrow."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "She wash the dishes every night.",
+          "She washes the dishes every night.",
+          "She washing the dishes every night.",
+          "She is wash the dishes every night."
+        ],
+        "answer": "She washes the dishes every night.",
+        "explanation": "With 'she' in the present simple, add 's': 'washes'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have washing my car.",
+          "I have washed my car.",
+          "I have wash my car.",
+          "I has washed my car."
+        ],
+        "answer": "I have washed my car.",
+        "explanation": "After 'have', use the past participle 'washed'."
+      },
+      {
+        "type": "fill",
+        "question": "I ___ (wash) my hands before every meal.",
+        "answer": "wash",
+        "explanation": "Base present tense 'wash' fits the habitual context."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I washed my hands before dinner.",
+      "present": "I wash my hands before every meal.",
+      "future": "I will wash my hands before dinner tonight."
+    }
+  },
+  {
+    "verb": "Buy",
+    "telugu": "కొను (konu)",
+    "v1": "buy",
+    "v2": "bought",
+    "v3": "bought",
+    "v4": "buying",
+    "v5": "buys",
+    "pronunciation": "/baɪ/ (rhymes with 'sky')",
+    "definition": "To obtain something by paying money for it.",
+    "commonUses": [
+      "Shopping and purchases",
+      "Talking about spending money",
+      "Fixed expressions (buy time, buy into something)",
+      "Making offers ('I'll buy you lunch')"
+    ],
+    "beginnerSentences": [
+      "I buy groceries every week.",
+      "She buys new shoes often.",
+      "We bought a new car.",
+      "He bought a gift for her.",
+      "Did you buy milk?",
+      "I am buying a house.",
+      "They bought tickets for the show.",
+      "Can you buy some bread?",
+      "This store sells things people buy often.",
+      "I didn't buy anything today."
+    ],
+    "intermediateSentences": [
+      "I've been thinking about buying a new laptop.",
+      "She bought the house after months of searching.",
+      "We bought into the idea right away.",
+      "He's buying time until the deal is finalized.",
+      "I bought this on sale, so it was a great deal.",
+      "They bought the company's story without question.",
+      "I've never bought anything so expensive before.",
+      "We should buy some extra supplies just in case.",
+      "She bought herself some time to think it over.",
+      "He bought his way into a leadership position."
+    ],
+    "businessSentences": [
+      "We bought new equipment for the office.",
+      "The company is buying a smaller competitor.",
+      "I bought some time by asking for an extension.",
+      "We need to buy new licenses for the software.",
+      "They bought into our vision for the product.",
+      "I'll buy the necessary supplies for the event.",
+      "We bought the domain name years ago.",
+      "The client isn't buying our current pricing model.",
+      "We're planning to buy more server capacity.",
+      "I bought a subscription to the analytics tool."
+    ],
+    "questions": [
+      "What did you buy at the store?",
+      "Did you buy the tickets yet?",
+      "How much did you buy this for?",
+      "What are you planning to buy this weekend?",
+      "Did you buy anything on sale?",
+      "Where did you buy that jacket?",
+      "Have you bought a gift for her yet?",
+      "What would you buy if you won the lottery?",
+      "Did the company buy new equipment?",
+      "Are you buying or renting a house?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I buyed a new phone.",
+        "right": "I bought a new phone.",
+        "why": "'Buy' is irregular - its past tense is 'bought', not 'buyed'."
+      },
+      {
+        "wrong": "I have buy a car.",
+        "right": "I have bought a car.",
+        "why": "After 'have', use the past participle (V3) 'bought', not the base form 'buy'."
+      },
+      {
+        "wrong": "I bought to her a gift.",
+        "right": "I bought her a gift.",
+        "why": "'Buy' can take two objects without 'to' - 'buy her a gift' - don't add 'to' before the person."
+      }
+    ],
+    "grammarTips": [
+      "'Buy' is irregular with a shared past form: buy, bought, bought.",
+      "'Buy' can take two objects: 'buy someone something' or 'buy something for someone' - both are correct.",
+      "'Buy into' means to accept or believe in an idea: 'The team bought into the new strategy'."
+    ],
+    "synonyms": [
+      "purchase",
+      "acquire",
+      "obtain"
+    ],
+    "antonyms": [
+      "sell"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Did you buy everything on the list?"
+      },
+      {
+        "speaker": "B",
+        "line": "Almost, I still need to buy some fruit."
+      },
+      {
+        "speaker": "A",
+        "line": "I can buy that on my way home."
+      },
+      {
+        "speaker": "B",
+        "line": "Thanks, that would help a lot."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'I ___ a new laptop last week.'",
+        "options": [
+          "buy",
+          "buyed",
+          "bought",
+          "buying"
+        ],
+        "answer": "bought",
+        "explanation": "'Bought' is the correct irregular past tense of 'buy'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "I bought to her a gift.",
+          "I bought her a gift.",
+          "I bought for she a gift.",
+          "I bought she a gift."
+        ],
+        "answer": "I bought her a gift.",
+        "explanation": "'Buy' can take two objects directly without 'to'."
+      },
+      {
+        "type": "fill",
+        "question": "We have already ___ (buy) the tickets for the concert.",
+        "answer": "bought",
+        "explanation": "After 'have', use the past participle 'bought'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I bought groceries yesterday.",
+      "present": "I buy groceries every week.",
+      "future": "I will buy groceries tomorrow."
+    }
+  },
+  {
+    "verb": "Sit",
+    "telugu": "కూర్చొను (kūrconu)",
+    "v1": "sit",
+    "v2": "sat",
+    "v3": "sat",
+    "v4": "sitting",
+    "v5": "sits",
+    "pronunciation": "/sɪt/ (rhymes with 'bit')",
+    "definition": "To rest your body in a position supported by the buttocks, typically on a chair or the ground.",
+    "commonUses": [
+      "Talking about posture and seating",
+      "Giving instructions ('Please sit down')",
+      "Fixed expressions (sit back, sit through, sit tight)",
+      "Describing waiting or attending"
+    ],
+    "beginnerSentences": [
+      "I sit at my desk all day.",
+      "She sits near the window.",
+      "We sat together at lunch.",
+      "He sat down quickly.",
+      "Did you sit in the front row?",
+      "I am sitting on the sofa.",
+      "They sat in silence for a while.",
+      "Can I sit here?",
+      "This chair is comfortable to sit in.",
+      "I didn't sit down all day."
+    ],
+    "intermediateSentences": [
+      "I've been sitting at my desk for hours.",
+      "She sat through the entire lecture without complaint.",
+      "We sat down to discuss the issue calmly.",
+      "He's been sitting on this decision for weeks.",
+      "I sat back and let the team handle it.",
+      "They sat quietly, waiting for their names to be called.",
+      "I've sat in on a few of their meetings before.",
+      "We should sit down and talk this through properly.",
+      "She sat patiently while the technician fixed the issue.",
+      "He sat up straight when the manager walked in."
+    ],
+    "businessSentences": [
+      "Let's sit down and go over the numbers together.",
+      "I sat in on the client call this morning.",
+      "The proposal has been sitting on his desk for a week.",
+      "We should sit together and finalize the agenda.",
+      "She sat through three back-to-back meetings today.",
+      "I'll sit with the new hire during onboarding.",
+      "The report is just sitting there unreviewed.",
+      "Let's sit down with the team and clarify expectations.",
+      "We sat across from the client during negotiations.",
+      "He's been sitting on this data without sharing it."
+    ],
+    "questions": [
+      "Where do you usually sit at work?",
+      "Did you sit through the whole presentation?",
+      "Can I sit next to you?",
+      "Who sat in on the interview?",
+      "How long have you been sitting here?",
+      "Did you sit at the front or the back?",
+      "Where should I sit?",
+      "Did everyone sit down for the meeting?",
+      "How long did you sit and wait?",
+      "Would you like to sit down?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I sitted down.",
+        "right": "I sat down.",
+        "why": "'Sit' is irregular - its past tense is 'sat', not 'sitted'."
+      },
+      {
+        "wrong": "I am sit here.",
+        "right": "I am sitting here.",
+        "why": "After 'am/is/are', use the -ing form 'sitting', not the base form."
+      },
+      {
+        "wrong": "Please sit down please.",
+        "right": "Please sit down.",
+        "why": "Don't repeat 'please' twice in the same sentence."
+      }
+    ],
+    "grammarTips": [
+      "'Sit' is irregular with a shared past form: sit, sat, sat.",
+      "'Sit' is intransitive (doesn't take a direct object) - you sit ON a chair, not 'sit a chair'.",
+      "'Sit down' emphasizes the action of moving into a seated position, while 'sit' can describe the state of already being seated."
+    ],
+    "synonyms": [
+      "rest",
+      "settle",
+      "perch"
+    ],
+    "antonyms": [
+      "stand",
+      "rise"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Where should we sit?"
+      },
+      {
+        "speaker": "B",
+        "line": "Let's sit by the window - the view is nice."
+      },
+      {
+        "speaker": "A",
+        "line": "Good idea, I've been sitting all day so I want a nice view."
+      },
+      {
+        "speaker": "B",
+        "line": "Same here. Let's sit and relax for a bit."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'We ___ together during the meeting.'",
+        "options": [
+          "sit",
+          "sitted",
+          "sat",
+          "sitting"
+        ],
+        "answer": "sat",
+        "explanation": "'Sat' is the correct irregular past tense of 'sit'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "I am sit here.",
+          "I am sitting here.",
+          "I sit here now.",
+          "I sitting here."
+        ],
+        "answer": "I am sitting here.",
+        "explanation": "After 'am', use the -ing form 'sitting'."
+      },
+      {
+        "type": "fill",
+        "question": "She has been ___ (sit) at her desk since morning.",
+        "answer": "sitting",
+        "explanation": "Present perfect continuous uses 'has been' + -ing form."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I sat at my desk all day yesterday.",
+      "present": "I sit at my desk every day.",
+      "future": "I will sit at my desk tomorrow too."
+    }
+  },
+  {
+    "verb": "Stand",
+    "telugu": "నిలబడు (nilabaḍu)",
+    "v1": "stand",
+    "v2": "stood",
+    "v3": "stood",
+    "v4": "standing",
+    "v5": "stands",
+    "pronunciation": "/stænd/ (rhymes with 'hand')",
+    "definition": "To be in an upright position supported by your feet; to tolerate something; to hold a particular position or opinion.",
+    "commonUses": [
+      "Talking about posture",
+      "Expressing tolerance ('I can't stand it')",
+      "Describing a position on an issue ('stand for something')",
+      "Fixed expressions (stand out, stand up for, stand by)"
+    ],
+    "beginnerSentences": [
+      "I stand at the bus stop every morning.",
+      "She stands near the door.",
+      "We stood in line for an hour.",
+      "He stood up to greet me.",
+      "Did you stand during the ceremony?",
+      "I am standing outside the building.",
+      "They stood together for the photo.",
+      "Can you stand here for a moment?",
+      "This company stands for quality.",
+      "I didn't stand the whole time."
+    ],
+    "intermediateSentences": [
+      "I've been standing for hours and my feet hurt.",
+      "She stood up for her team during the meeting.",
+      "We stood by our decision despite the criticism.",
+      "He's standing out as a strong candidate for the role.",
+      "I can't stand it when meetings run late.",
+      "They stood their ground during the negotiation.",
+      "I've always stood behind my colleagues.",
+      "We should stand together on this issue.",
+      "She stood out because of her attention to detail.",
+      "He stood firm on his original proposal."
+    ],
+    "businessSentences": [
+      "We stand by the quality of our product.",
+      "She stood out during the interview process.",
+      "The company stands for innovation and integrity.",
+      "I stood up for my team during the budget review.",
+      "We need to stand firm on this pricing decision.",
+      "He stood in for the manager during her absence.",
+      "Our brand stands for reliability and trust.",
+      "The team stood together despite the setback.",
+      "I can't stand how slow this process is.",
+      "We should stand by our commitments to the client."
+    ],
+    "questions": [
+      "Can you stand for a photo?",
+      "How long did you stand in line?",
+      "What does your company stand for?",
+      "Did you stand up for yourself?",
+      "Can you stand this heat?",
+      "Who stood out during the presentation?",
+      "Did everyone stand for the announcement?",
+      "Can you stand in for me tomorrow?",
+      "How do you feel about where you stand on this issue?",
+      "Did you stand by your original decision?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I standed in line.",
+        "right": "I stood in line.",
+        "why": "'Stand' is irregular - its past tense is 'stood', not 'standed'."
+      },
+      {
+        "wrong": "I can't stand for this noise.",
+        "right": "I can't stand this noise.",
+        "why": "'Can't stand' meaning 'can't tolerate' takes a direct object, without 'for'."
+      },
+      {
+        "wrong": "She stands for company values everyday.",
+        "right": "She stands up for the company's values every day.",
+        "why": "'Stand for' means to represent an idea; 'stand up for' means to defend or support - use the right phrase for the right meaning."
+      }
+    ],
+    "grammarTips": [
+      "'Stand' is irregular with a shared past form: stand, stood, stood.",
+      "'Can't stand' + noun/-ing is a common way to express strong dislike.",
+      "'Stand for' means to represent an idea or value, while 'stand up for' means to defend or support someone or something."
+    ],
+    "synonyms": [
+      "rise",
+      "tolerate",
+      "endure",
+      "represent"
+    ],
+    "antonyms": [
+      "sit",
+      "lie down"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "My feet hurt from standing all day."
+      },
+      {
+        "speaker": "B",
+        "line": "You should sit down for a bit. How long have you been standing?"
+      },
+      {
+        "speaker": "A",
+        "line": "Since this morning, honestly."
+      },
+      {
+        "speaker": "B",
+        "line": "That's rough. I can't stand being on my feet that long either."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'We ___ in line for two hours.'",
+        "options": [
+          "stand",
+          "standed",
+          "stood",
+          "standing"
+        ],
+        "answer": "stood",
+        "explanation": "'Stood' is the correct irregular past tense of 'stand'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence correctly expresses strong dislike?",
+        "options": [
+          "I can't stand for this noise.",
+          "I can't stand this noise.",
+          "I can't standing this noise.",
+          "I don't stand this noise."
+        ],
+        "answer": "I can't stand this noise.",
+        "explanation": "'Can't stand' + noun expresses strong dislike, without 'for'."
+      },
+      {
+        "type": "fill",
+        "question": "She has been ___ (stand) at the counter for an hour.",
+        "answer": "standing",
+        "explanation": "Present perfect continuous uses 'has been' + -ing form."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I stood in line yesterday.",
+      "present": "I stand in line every morning.",
+      "future": "I will stand in line tomorrow."
+    }
+  },
+  {
+    "verb": "Stop",
+    "telugu": "ఆపు (āpu)",
+    "v1": "stop",
+    "v2": "stopped",
+    "v3": "stopped",
+    "v4": "stopping",
+    "v5": "stops",
+    "pronunciation": "/stɒp/ (rhymes with 'top')",
+    "definition": "To cease moving or doing something; to prevent something from continuing.",
+    "commonUses": [
+      "Talking about ending an action",
+      "Giving instructions or commands ('Stop!')",
+      "Preventing something",
+      "Fixed expressions (stop by, stop over, stop short)"
+    ],
+    "beginnerSentences": [
+      "I stop at the red light.",
+      "She stops working at five.",
+      "We stopped to take a photo.",
+      "He stopped the car suddenly.",
+      "Did you stop at the store?",
+      "I am stopping here for a break.",
+      "They stopped talking when I entered.",
+      "Can you stop the noise?",
+      "This medicine stops the pain.",
+      "I didn't stop to think about it."
+    ],
+    "intermediateSentences": [
+      "I've stopped drinking coffee after 3 PM.",
+      "She stopped by the office to drop off some documents.",
+      "We should stop and reconsider our approach.",
+      "He's trying to stop biting his nails.",
+      "I stopped myself before saying something I'd regret.",
+      "They stopped the project halfway through.",
+      "I can't stop thinking about this problem.",
+      "We stopped for lunch on the way there.",
+      "She stopped short of promising a specific date.",
+      "He stopped to help a stranger on the road."
+    ],
+    "businessSentences": [
+      "We need to stop this process and reassess.",
+      "The client asked us to stop the current campaign.",
+      "I stopped by the client's office for a quick update.",
+      "We should stop wasting resources on this approach.",
+      "The team stopped the release due to a critical bug.",
+      "Let's stop and review our progress so far.",
+      "I'll stop the payment until we confirm the invoice.",
+      "We stopped short of finalizing the contract.",
+      "The manager stopped the meeting to address a concern.",
+      "We need to stop and think about the long-term impact."
+    ],
+    "questions": [
+      "Can you stop here for a second?",
+      "Did you stop at the grocery store?",
+      "What made you stop the project?",
+      "Can we stop for coffee on the way?",
+      "Did the rain stop yet?",
+      "Why did you stop working there?",
+      "Can you stop that noise, please?",
+      "Did you stop to think about the consequences?",
+      "What time does the store stop taking orders?",
+      "Can you stop by later today?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I stoped the car.",
+        "right": "I stopped the car.",
+        "why": "'Stop' doubles its final consonant before adding '-ed' - 'stopped', not 'stoped'."
+      },
+      {
+        "wrong": "I stopped to eat sweets.",
+        "right": "I stopped eating sweets.",
+        "why": "'Stop' + -ing means to quit doing something; 'stop' + 'to' + verb means to pause in order to do something else - very different meanings."
+      },
+      {
+        "wrong": "Stop to make noise.",
+        "right": "Stop making noise.",
+        "why": "To ask someone to quit an activity, use 'stop' + -ing, not 'stop to' + verb."
+      }
+    ],
+    "grammarTips": [
+      "'Stop' is regular but doubles its final consonant in the past tense: stop, stopped, stopped.",
+      "'Stop' + -ing means to quit an activity, while 'stop' + 'to' + verb means pausing one activity to do another - this distinction changes the meaning completely.",
+      "'Stop by' means to make a brief visit."
+    ],
+    "synonyms": [
+      "halt",
+      "cease",
+      "end",
+      "pause"
+    ],
+    "antonyms": [
+      "start",
+      "continue",
+      "proceed"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Can we stop for coffee on the way to work?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, but let's not stop for too long, we can't be late."
+      },
+      {
+        "speaker": "A",
+        "line": "Agreed, we'll stop for just five minutes."
+      },
+      {
+        "speaker": "B",
+        "line": "Perfect, that place near the corner should stop being busy by now."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'The car ___ suddenly at the light.'",
+        "options": [
+          "stop",
+          "stoped",
+          "stopped",
+          "stopping"
+        ],
+        "answer": "stopped",
+        "explanation": "'Stopped' is the correct past tense, with the final consonant doubled."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence means 'quit smoking permanently'?",
+        "options": [
+          "I stopped to smoke.",
+          "I stopped smoking.",
+          "I stop to smoke.",
+          "I am stopping to smoke."
+        ],
+        "answer": "I stopped smoking.",
+        "explanation": "'Stop' + -ing means to quit an activity entirely."
+      },
+      {
+        "type": "fill",
+        "question": "Please ___ (stop) making so much noise.",
+        "answer": "stop",
+        "explanation": "Base form 'stop' is used in an imperative/request."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I stopped at the store yesterday.",
+      "present": "I stop at the store every day.",
+      "future": "I will stop at the store tomorrow."
+    }
+  },
+  {
+    "verb": "Start",
+    "telugu": "ప్రారంభించు (prārambhin̄cu)",
+    "v1": "start",
+    "v2": "started",
+    "v3": "started",
+    "v4": "starting",
+    "v5": "starts",
+    "pronunciation": "/stɑːrt/ (rhymes with 'art' with 'st')",
+    "definition": "To begin an action, process, or event.",
+    "commonUses": [
+      "Talking about beginnings",
+      "Discussing new projects or activities",
+      "Fixed expressions (start over, start up, start off)",
+      "Talking about starting a business or career"
+    ],
+    "beginnerSentences": [
+      "I start work at nine.",
+      "She starts school next week.",
+      "We started the project yesterday.",
+      "He started his own business.",
+      "Did you start the homework?",
+      "I am starting a new job.",
+      "They started early this morning.",
+      "Can we start the meeting now?",
+      "This app helps you start learning quickly.",
+      "I didn't start yet."
+    ],
+    "intermediateSentences": [
+      "I've started going to the gym regularly.",
+      "She started her own company last year.",
+      "We started over after the first attempt failed.",
+      "He's starting to understand the process better.",
+      "I started reading this book but haven't finished it.",
+      "They started the meeting late due to technical issues.",
+      "I've started noticing small improvements already.",
+      "We should start planning for next year now.",
+      "She started her career in a completely different field.",
+      "He started to doubt whether this was the right choice."
+    ],
+    "businessSentences": [
+      "We started the project ahead of schedule.",
+      "The client wants us to start the campaign next week.",
+      "I've started drafting the proposal already.",
+      "We need to start preparing for the audit.",
+      "The company started as a small startup ten years ago.",
+      "Let's start the meeting with a quick recap.",
+      "We started seeing results within the first month.",
+      "I'll start working on this first thing tomorrow.",
+      "The team started implementing the new process.",
+      "We should start considering alternative vendors."
+    ],
+    "questions": [
+      "What time do you start work?",
+      "When did you start this job?",
+      "Have you started the project yet?",
+      "What made you start your own business?",
+      "Can we start the meeting a bit earlier?",
+      "When does the new policy start?",
+      "Did you start packing for the trip?",
+      "What time does the store start opening?",
+      "How did you start learning English?",
+      "Did the presentation start on time?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I start to work at nine.",
+        "right": "I start work at nine.",
+        "why": "When 'start' is followed by a noun (not another verb), don't add 'to' - 'start work', not 'start to work'."
+      },
+      {
+        "wrong": "I am starting work at nine every day.",
+        "right": "I start work at nine every day.",
+        "why": "For habits and routines, use the simple present ('start'), not the continuous ('am starting')."
+      },
+      {
+        "wrong": "We will start since Monday.",
+        "right": "We will start from Monday.",
+        "why": "Use 'from' with a starting point in time, not 'since', when talking about a future start date."
+      }
+    ],
+    "grammarTips": [
+      "'Start' is a regular verb (start, started, started).",
+      "'Start' can be followed directly by a noun, by 'to' + verb, or by -ing - the last two are usually interchangeable.",
+      "'Start over' means to begin again from the beginning, often after a mistake or failure."
+    ],
+    "synonyms": [
+      "begin",
+      "commence",
+      "launch",
+      "initiate"
+    ],
+    "antonyms": [
+      "stop",
+      "finish",
+      "end"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What time does the movie start?"
+      },
+      {
+        "speaker": "B",
+        "line": "It starts at seven, so we should leave soon."
+      },
+      {
+        "speaker": "A",
+        "line": "Great, I'll start getting ready now."
+      },
+      {
+        "speaker": "B",
+        "line": "Same here, let's start heading out in ten minutes."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I start to work at nine.",
+          "I start work at nine.",
+          "I starting work at nine.",
+          "I am start work at nine."
+        ],
+        "answer": "I start work at nine.",
+        "explanation": "When followed directly by a noun, 'start' doesn't need 'to'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence describes a daily routine correctly?",
+        "options": [
+          "I am starting work at nine every day.",
+          "I start work at nine every day.",
+          "I started work at nine every day.",
+          "I have starting work at nine."
+        ],
+        "answer": "I start work at nine every day.",
+        "explanation": "Habits and routines use the simple present tense."
+      },
+      {
+        "type": "fill",
+        "question": "The meeting has already ___ (start).",
+        "answer": "started",
+        "explanation": "After 'has', use the past participle 'started'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I started work at nine yesterday.",
+      "present": "I start work at nine every day.",
+      "future": "I will start work at nine tomorrow."
+    }
+  },
+  {
+    "verb": "Open",
+    "telugu": "తెరుచు (teruc̄u)",
+    "v1": "open",
+    "v2": "opened",
+    "v3": "opened",
+    "v4": "opening",
+    "v5": "opens",
+    "pronunciation": "/ˈoʊpən/ (OH-pen)",
+    "definition": "To move something so that it is no longer closed; to make something available or accessible.",
+    "commonUses": [
+      "Talking about doors, windows, and containers",
+      "Describing business hours ('The store opens at nine')",
+      "Starting something new ('open a business')",
+      "Fixed expressions (open up, open a discussion)"
+    ],
+    "beginnerSentences": [
+      "I open the door every morning.",
+      "She opens the shop at nine.",
+      "We opened the window for fresh air.",
+      "He opened the box carefully.",
+      "Did you open the email?",
+      "I am opening the file now.",
+      "They opened a new restaurant.",
+      "Can you open this jar for me?",
+      "This app opens quickly.",
+      "I didn't open the letter yet."
+    ],
+    "intermediateSentences": [
+      "I've been meaning to open a savings account.",
+      "She opened up about her struggles at work.",
+      "We opened the discussion with a few key questions.",
+      "He's opening a new branch next month.",
+      "I opened myself up to new opportunities this year.",
+      "They opened the floor for questions after the presentation.",
+      "This opportunity opened doors I never expected.",
+      "We should open a dialogue with the other department.",
+      "She opened the meeting by outlining the agenda.",
+      "He finally opened up about the real reason for the delay."
+    ],
+    "businessSentences": [
+      "We opened a new office in the city last month.",
+      "The client opened the meeting with a summary of goals.",
+      "I'll open the floor for questions at the end.",
+      "We're opening applications for the new position.",
+      "The company opened its first international branch this year.",
+      "Let's open a dialogue with the vendor about pricing.",
+      "She opened the presentation with impressive statistics.",
+      "We need to open new channels for customer feedback.",
+      "The store opens at nine and closes at six.",
+      "I opened the email as soon as I saw it."
+    ],
+    "questions": [
+      "What time does the store open?",
+      "Did you open the package yet?",
+      "Can you open the window, please?",
+      "When did you open your business?",
+      "Did you open the email I sent?",
+      "What time do you open the office?",
+      "Can you open this file for me?",
+      "Did the meeting open on time?",
+      "How do I open a new account?",
+      "Did you open up about how you felt?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The shop open at nine.",
+        "right": "The shop opens at nine.",
+        "why": "With a singular subject like 'the shop' (third person), the verb needs an 's' - 'opens', not 'open'."
+      },
+      {
+        "wrong": "I opened the door for enter the room.",
+        "right": "I opened the door to enter the room.",
+        "why": "Use 'to' + base verb to express purpose, not 'for' + base verb."
+      },
+      {
+        "wrong": "Please open your book in page ten.",
+        "right": "Please open your book to page ten.",
+        "why": "Use 'to' with 'open' when referring to a specific page, not 'in'."
+      }
+    ],
+    "grammarTips": [
+      "'Open' is a regular verb (open, opened, opened).",
+      "Use 'to' + base verb to express purpose after 'open'.",
+      "'Open up' often means to become more communicative or emotionally honest."
+    ],
+    "synonyms": [
+      "unlock",
+      "unseal",
+      "launch",
+      "reveal"
+    ],
+    "antonyms": [
+      "close",
+      "shut"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What time does the café open?"
+      },
+      {
+        "speaker": "B",
+        "line": "It opens at seven, I think."
+      },
+      {
+        "speaker": "A",
+        "line": "Great, can you open the door for me? My hands are full."
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, I'll open it right now."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "The shop open at nine.",
+          "The shop opens at nine.",
+          "The shop opening at nine.",
+          "The shop are open at nine."
+        ],
+        "answer": "The shop opens at nine.",
+        "explanation": "With a singular subject in the present simple, add 's': 'opens'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence expresses purpose correctly?",
+        "options": [
+          "I opened the window for get fresh air.",
+          "I opened the window to get fresh air.",
+          "I opened the window for getting fresh air.",
+          "I opened the window get fresh air."
+        ],
+        "answer": "I opened the window to get fresh air.",
+        "explanation": "Use 'to' + base verb to express purpose."
+      },
+      {
+        "type": "fill",
+        "question": "The store has just ___ (open) for the day.",
+        "answer": "opened",
+        "explanation": "After 'has', use the past participle 'opened'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I opened the door this morning.",
+      "present": "I open the door every morning.",
+      "future": "I will open the door tomorrow morning."
+    }
+  },
+  {
+    "verb": "Close",
+    "telugu": "మూయు (mūyu)",
+    "v1": "close",
+    "v2": "closed",
+    "v3": "closed",
+    "v4": "closing",
+    "v5": "closes",
+    "pronunciation": "/kloʊz/ (rhymes with 'nose')",
+    "definition": "To shut something so it is no longer open; to end or bring something to a conclusion.",
+    "commonUses": [
+      "Talking about doors, windows, and containers",
+      "Describing business hours ('The store closes at six')",
+      "Ending something ('close a deal', 'close a case')",
+      "Fixed expressions (close down, close in, close up)"
+    ],
+    "beginnerSentences": [
+      "I close the door at night.",
+      "She closes the shop at six.",
+      "We closed the windows before the storm.",
+      "He closed his eyes and rested.",
+      "Did you close the file?",
+      "I am closing the store now.",
+      "They closed the deal yesterday.",
+      "Can you close the door, please?",
+      "This app closes automatically after use.",
+      "I didn't close the account yet."
+    ],
+    "intermediateSentences": [
+      "I've been trying to close this deal for weeks.",
+      "She closed the gap between the two teams.",
+      "We closed the meeting with a summary of action items.",
+      "He's closing in on finishing the project.",
+      "I closed my eyes and took a deep breath.",
+      "They closed the store early due to the weather.",
+      "I've never closed a sale this quickly before.",
+      "We should close this chapter and move forward.",
+      "She closed the discussion by thanking everyone.",
+      "He closed the door on that opportunity for good."
+    ],
+    "businessSentences": [
+      "We closed the deal after months of negotiation.",
+      "The sales team closed five new accounts this month.",
+      "I'll close the meeting with a summary of next steps.",
+      "We need to close this gap in our budget.",
+      "The store closes at nine on weekdays.",
+      "She closed the round of funding successfully.",
+      "Let's close out this quarter on a strong note.",
+      "We closed the office early for the holiday.",
+      "I'm confident we can close this deal by Friday.",
+      "The company closed its outdated branch last year."
+    ],
+    "questions": [
+      "What time does the office close?",
+      "Did you close the deal with the client?",
+      "Can you close the window, please?",
+      "Did you close your old account?",
+      "What time do you close the store?",
+      "Did the meeting close on time?",
+      "Can you close this file when you're done?",
+      "Did you close the gap in the report?",
+      "How did the negotiation close?",
+      "Did you close the door behind you?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The store close at nine.",
+        "right": "The store closes at nine.",
+        "why": "With a singular subject in the present simple, add 's' - 'closes', not 'close'."
+      },
+      {
+        "wrong": "I closed the door for keep it warm.",
+        "right": "I closed the door to keep it warm.",
+        "why": "Use 'to' + base verb to express purpose, not 'for' + base verb."
+      },
+      {
+        "wrong": "I have close the deal.",
+        "right": "I have closed the deal.",
+        "why": "After 'have', use the past participle 'closed', not the base form 'close'."
+      }
+    ],
+    "grammarTips": [
+      "'Close' is a regular verb (close, closed, closed).",
+      "'Close' is the opposite of 'open' in almost every context - doors, businesses, deals, discussions.",
+      "'Close' as an adjective (meaning 'near', pronounced with an 's' sound) is different from 'close' as a verb (meaning 'shut', pronounced with a 'z' sound)."
+    ],
+    "synonyms": [
+      "shut",
+      "seal",
+      "conclude",
+      "finalize"
+    ],
+    "antonyms": [
+      "open",
+      "start"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What time does the gym close tonight?"
+      },
+      {
+        "speaker": "B",
+        "line": "I think it closes at ten."
+      },
+      {
+        "speaker": "A",
+        "line": "Perfect, that gives us enough time. Can you close the car door? It's not fully shut."
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, I'll close it now."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "The store close at nine.",
+          "The store closes at nine.",
+          "The store closing at nine.",
+          "The store are close at nine."
+        ],
+        "answer": "The store closes at nine.",
+        "explanation": "With a singular subject in the present simple, add 's': 'closes'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have close the deal.",
+          "I have closed the deal.",
+          "I has closed the deal.",
+          "I have closing the deal."
+        ],
+        "answer": "I have closed the deal.",
+        "explanation": "After 'have', use the past participle 'closed'."
+      },
+      {
+        "type": "fill",
+        "question": "Please ___ (close) the door when you leave.",
+        "answer": "close",
+        "explanation": "Base form 'close' is used in a polite request/imperative."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I closed the door last night.",
+      "present": "I close the door every night.",
+      "future": "I will close the door tonight."
+    }
+  },
+  {
+    "verb": "Listen",
+    "telugu": "వినండి (vinaṇḍi)",
+    "v1": "listen",
+    "v2": "listened",
+    "v3": "listened",
+    "v4": "listening",
+    "v5": "listens",
+    "pronunciation": "/ˈlɪsən/ (LISS-en, silent 't')",
+    "definition": "To pay attention to sound, especially someone speaking or music.",
+    "commonUses": [
+      "Talking about paying attention to sound or speech",
+      "Giving advice or requesting attention ('Listen to me')",
+      "Talking about music and audio",
+      "Fixed expressions (listen up, listen in, listen out for)"
+    ],
+    "beginnerSentences": [
+      "I listen to music every day.",
+      "She listens to the radio in the morning.",
+      "We listened to the whole speech.",
+      "He listened carefully to the instructions.",
+      "Did you listen to the podcast?",
+      "I am listening to you now.",
+      "They listened to the teacher attentively.",
+      "Can you listen for a moment?",
+      "This song is nice to listen to.",
+      "I didn't listen to the announcement."
+    ],
+    "intermediateSentences": [
+      "I've been listening to a lot of podcasts lately.",
+      "She listens carefully before responding to feedback.",
+      "We listened to both sides before making a decision.",
+      "He's not really listening when he's on his phone.",
+      "I listened closely to understand the accent.",
+      "They listened patiently to all our concerns.",
+      "I've never really listened to jazz before this.",
+      "We should listen more and talk less in meetings.",
+      "She listened attentively throughout the entire presentation.",
+      "He listened to his gut instinct and it paid off."
+    ],
+    "businessSentences": [
+      "We need to listen more closely to customer feedback.",
+      "The manager listened to each team member's concerns.",
+      "I listened to the recorded call to understand the issue.",
+      "We should listen carefully to what the client is really asking for.",
+      "She listened attentively during the entire negotiation.",
+      "The team listened to the presentation without interrupting.",
+      "I'll listen to the voicemail and get back to you.",
+      "We listened to the feedback and revised our approach.",
+      "Let's listen to what the data is telling us.",
+      "He listened carefully before offering his opinion."
+    ],
+    "questions": [
+      "Do you listen to podcasts?",
+      "Did you listen to the meeting recording?",
+      "Are you listening to me?",
+      "What kind of music do you listen to?",
+      "Did you listen to the client's concerns?",
+      "Can you listen for a second?",
+      "Did everyone listen during the presentation?",
+      "How closely did you listen to the instructions?",
+      "Do you listen to the news every day?",
+      "Did you listen to what she said?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I listen you.",
+        "right": "I listen to you.",
+        "why": "'Listen' needs 'to' before the person or thing being heard - it doesn't take a direct object without it."
+      },
+      {
+        "wrong": "I am listen to music.",
+        "right": "I am listening to music.",
+        "why": "After 'am/is/are', use the -ing form 'listening', not the base form 'listen'."
+      },
+      {
+        "wrong": "She hear music every day.",
+        "right": "She listens to music every day.",
+        "why": "'Listen' involves paying deliberate attention, while 'hear' is passive perception - use 'listen to' for intentional listening."
+      }
+    ],
+    "grammarTips": [
+      "'Listen' is a regular verb (listen, listened, listened) - note the silent 't'.",
+      "'Listen' always needs 'to' before its object: 'listen to me', 'listen to music'.",
+      "'Listen' vs 'hear': 'listen' is an active, intentional action, while 'hear' is passive perception that can happen without effort."
+    ],
+    "synonyms": [
+      "hear",
+      "pay attention",
+      "heed"
+    ],
+    "antonyms": [
+      "ignore",
+      "disregard"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Are you listening to me?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sorry, I was listening to a podcast. What did you say?"
+      },
+      {
+        "speaker": "A",
+        "line": "I just wanted to ask if you'd listen to this song."
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, let's listen to it together."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I listen you carefully.",
+          "I listen to you carefully.",
+          "I am listen to you.",
+          "I listened you carefully."
+        ],
+        "answer": "I listen to you carefully.",
+        "explanation": "'Listen' needs 'to' before its object."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "I am listen to music.",
+          "I am listening to music.",
+          "I listen music.",
+          "I is listening to music."
+        ],
+        "answer": "I am listening to music.",
+        "explanation": "After 'am', use the -ing form 'listening'."
+      },
+      {
+        "type": "fill",
+        "question": "She has been ___ (listen) to the same song all day.",
+        "answer": "listening",
+        "explanation": "Present perfect continuous uses 'has been' + -ing form."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I listened to music yesterday.",
+      "present": "I listen to music every day.",
+      "future": "I will listen to music tomorrow."
+    }
   }
 ]

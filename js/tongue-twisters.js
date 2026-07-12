@@ -33,7 +33,10 @@ function escapeHtml(str) {
 }
 
 let SETS = [];
-const SPEED_DURATIONS = { slow: 40, normal: 25, fast: 15 }; // seconds per full loop
+// Seconds of scroll time per twister sentence, not a fixed total - so the
+// scroll duration scales with however many unique twisters a set has,
+// instead of a fixed loop time that forces short sets to repeat content.
+const SECONDS_PER_TWISTER = { slow: 10, normal: 6, fast: 3.5 };
 let currentSpeed = "normal";
 let countdownInterval = null;
 
@@ -44,7 +47,7 @@ function ensureScrollAnimationStyle() {
   style.textContent = `
     @keyframes scrollTwisters {
       from { transform: translateY(0); }
-      to { transform: translateY(-50%); }
+      to { transform: translateY(-100%); }
     }
   `;
   document.head.appendChild(style);
@@ -94,7 +97,8 @@ function renderPracticeView(container, set) {
   });
   speedSelect.onchange = () => {
     currentSpeed = speedSelect.value;
-    scrollContent.style.animationDuration = SPEED_DURATIONS[currentSpeed] + "s";
+    const duration = set.twisters.length * SECONDS_PER_TWISTER[currentSpeed];
+    scrollContent.style.animationDuration = duration + "s";
   };
   controlsRow.appendChild(speedSelect);
   header.appendChild(controlsRow);
@@ -107,11 +111,12 @@ function renderPracticeView(container, set) {
   const viewport = el("div");
   viewport.style.cssText = "height:220px;overflow:hidden;position:relative;background:var(--surface-2);border-radius:var(--radius);border:1px solid var(--border);";
   const scrollContent = el("div");
-  scrollContent.style.cssText = `animation: scrollTwisters ${SPEED_DURATIONS[currentSpeed]}s linear infinite; padding:16px;`;
-  const doubledText = [...set.twisters, ...set.twisters]
+  const initialDuration = set.twisters.length * SECONDS_PER_TWISTER[currentSpeed];
+  scrollContent.style.cssText = `animation: scrollTwisters ${initialDuration}s linear 1 forwards; padding:16px;`;
+  const twisterText = set.twisters
     .map((t) => `<p style="font-size:22px;font-weight:700;line-height:1.7;margin:0 0 28px;">"${escapeHtml(t)}"</p>`)
     .join("");
-  scrollContent.innerHTML = doubledText;
+  scrollContent.innerHTML = twisterText;
   viewport.appendChild(scrollContent);
   container.appendChild(viewport);
 

@@ -1,0 +1,22 @@
+[
+  { "id": "dict-01", "level": "Easy", "text": "Please send me the report by tomorrow." },
+  { "id": "dict-02", "level": "Easy", "text": "The meeting starts at ten o'clock." },
+  { "id": "dict-03", "level": "Easy", "text": "I need to update the client today." },
+  { "id": "dict-04", "level": "Easy", "text": "Can you review this document for me?" },
+  { "id": "dict-05", "level": "Easy", "text": "The server is running slowly today." },
+  { "id": "dict-06", "level": "Medium", "text": "We should schedule a call to discuss the budget." },
+  { "id": "dict-07", "level": "Medium", "text": "The deployment failed because of a configuration error." },
+  { "id": "dict-08", "level": "Medium", "text": "She's currently reviewing the pull request you submitted." },
+  { "id": "dict-09", "level": "Medium", "text": "Our team missed the deadline due to unexpected delays." },
+  { "id": "dict-10", "level": "Medium", "text": "The client asked for a few changes to the proposal." },
+  { "id": "dict-11", "level": "Hard", "text": "Although the system passed all the tests, we still noticed a few minor issues during the final review." },
+  { "id": "dict-12", "level": "Hard", "text": "The quarterly report shows a significant improvement in customer satisfaction compared to last year." },
+  { "id": "dict-13", "level": "Hard", "text": "We need to prioritize the security vulnerabilities before releasing the next version." },
+  { "id": "dict-14", "level": "Hard", "text": "Despite the tight deadline, the team managed to deliver a fully functional prototype." },
+  { "id": "dict-15", "level": "Hard", "text": "The new authentication system requires users to verify their identity through multiple steps." },
+  { "id": "dict-16", "level": "Medium", "text": "Could you clarify what you meant by that comment?" },
+  { "id": "dict-17", "level": "Medium", "text": "The database migration is scheduled for this weekend." },
+  { "id": "dict-18", "level": "Medium", "text": "He mentioned that the client wants a faster turnaround." },
+  { "id": "dict-19", "level": "Medium", "text": "We're currently investigating the root cause of the outage." },
+  { "id": "dict-20", "level": "Easy", "text": "Let's make sure everyone is aligned before the presentation." }
+]

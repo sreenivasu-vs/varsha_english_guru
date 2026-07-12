@@ -1,0 +1,92 @@
+[
+  {
+    "id": "comp-standup",
+    "title": "The Morning Stand-up",
+    "passage": "Every morning at nine, the development team gathers for a fifteen-minute stand-up meeting. Each person shares what they completed yesterday, what they plan to do today, and any blockers they're facing. The goal is to keep everyone aligned without taking up too much time.",
+    "questions": [
+      { "question": "How long does the stand-up meeting last?", "options": ["Nine minutes", "Fifteen minutes", "Thirty minutes", "One hour"], "answer": "Fifteen minutes" },
+      { "question": "What is NOT something team members share?", "options": ["What they did yesterday", "What they'll do today", "Their salary", "Any blockers"], "answer": "Their salary" }
+    ]
+  },
+  {
+    "id": "comp-escalation",
+    "title": "A Client Escalation",
+    "passage": "A client called in frustrated because their dashboard had been down for two hours. The support team immediately opened a priority ticket and looped in the engineering team. Within thirty minutes, they identified the issue was a database connection failure and restored service by rebooting the affected server.",
+    "questions": [
+      { "question": "How long was the dashboard down before the client called?", "options": ["Thirty minutes", "One hour", "Two hours", "Four hours"], "answer": "Two hours" },
+      { "question": "What caused the outage?", "options": ["A software bug", "A database connection failure", "A power outage", "A security breach"], "answer": "A database connection failure" }
+    ]
+  },
+  {
+    "id": "comp-remote-policy",
+    "title": "Remote Work Policy",
+    "passage": "The company recently updated its remote work policy to allow employees to work from home up to three days a week. Employees who wish to work remotely full-time must get approval from their manager. The policy aims to balance flexibility with the benefits of in-person collaboration.",
+    "questions": [
+      { "question": "How many days a week can employees work from home without special approval?", "options": ["One", "Two", "Three", "Five"], "answer": "Three" },
+      { "question": "What must an employee do to work remotely full-time?", "options": ["Nothing extra", "Get manager approval", "Resign", "Change departments"], "answer": "Get manager approval" }
+    ]
+  },
+  {
+    "id": "comp-launch-delay",
+    "title": "Product Launch Delay",
+    "passage": "The product team announced that the launch of their new mobile app would be delayed by two weeks. This decision came after beta testers reported several bugs related to login and payment processing. The team decided it was better to fix these issues before releasing the app publicly.",
+    "questions": [
+      { "question": "Why was the launch delayed?", "options": ["Marketing wasn't ready", "Bugs found by beta testers", "Lack of budget", "Legal issues"], "answer": "Bugs found by beta testers" },
+      { "question": "How long is the delay?", "options": ["One week", "Two weeks", "One month", "Indefinitely"], "answer": "Two weeks" }
+    ]
+  },
+  {
+    "id": "comp-performance-review",
+    "title": "Performance Review Season",
+    "passage": "It's performance review season at the company, and managers are busy scheduling one-on-one meetings with their team members. Employees are asked to complete a self-assessment before the meeting, highlighting their achievements and areas for growth. The reviews will determine bonuses and promotions for the upcoming year.",
+    "questions": [
+      { "question": "What must employees complete before their review meeting?", "options": ["A survey", "A self-assessment", "A resignation letter", "A budget report"], "answer": "A self-assessment" },
+      { "question": "What do the reviews determine?", "options": ["Vacation days", "Office seating", "Bonuses and promotions", "Team assignments"], "answer": "Bonuses and promotions" }
+    ]
+  },
+  {
+    "id": "comp-new-hire",
+    "title": "A New Hire's First Week",
+    "passage": "Priya joined the company as a software engineer this week. On her first day, she met her team, set up her laptop, and got access to the company's systems. By the end of the week, she had already fixed her first small bug and attended her first sprint planning meeting.",
+    "questions": [
+      { "question": "What is Priya's job title?", "options": ["Product Manager", "Software Engineer", "Sales Representative", "Designer"], "answer": "Software Engineer" },
+      { "question": "What did she accomplish by the end of her first week?", "options": ["Led a project", "Fixed her first bug", "Became a manager", "Resigned"], "answer": "Fixed her first bug" }
+    ]
+  },
+  {
+    "id": "comp-cloud-migration",
+    "title": "Cloud Migration Project",
+    "passage": "The company is migrating its infrastructure from physical servers to the cloud. This project is expected to take six months and will involve moving over fifty applications. The main benefits include reduced costs, better scalability, and improved disaster recovery.",
+    "questions": [
+      { "question": "How long is the migration expected to take?", "options": ["Three months", "Six months", "One year", "Two years"], "answer": "Six months" },
+      { "question": "Which is NOT mentioned as a benefit?", "options": ["Reduced costs", "Better scalability", "Improved disaster recovery", "Faster hiring"], "answer": "Faster hiring" }
+    ]
+  },
+  {
+    "id": "comp-customer-feedback",
+    "title": "Handling Customer Feedback",
+    "passage": "The customer support team reviews feedback every Friday to identify common complaints and suggestions. Last week, several customers mentioned that the checkout process was confusing. The product team is now working on simplifying it based on this feedback.",
+    "questions": [
+      { "question": "How often does the team review feedback?", "options": ["Daily", "Every Friday", "Monthly", "Quarterly"], "answer": "Every Friday" },
+      { "question": "What complaint did customers mention?", "options": ["Slow shipping", "Confusing checkout", "High prices", "Poor customer service"], "answer": "Confusing checkout" }
+    ]
+  },
+  {
+    "id": "comp-conference",
+    "title": "The Annual Conference",
+    "passage": "The company is hosting its annual tech conference next month, bringing together employees from all its global offices. The two-day event will feature keynote speeches, workshops, and networking sessions. Registration is required, and spots are limited to five hundred attendees.",
+    "questions": [
+      { "question": "How many days does the conference last?", "options": ["One", "Two", "Three", "Five"], "answer": "Two" },
+      { "question": "How many attendees are allowed?", "options": ["One hundred", "Two hundred", "Five hundred", "Unlimited"], "answer": "Five hundred" }
+    ]
+  },
+  {
+    "id": "comp-difficult-decision",
+    "title": "A Difficult Decision",
+    "passage": "After months of declining sales, the company decided to discontinue one of its older products. This was a difficult decision because the product had a loyal customer base, but it was no longer profitable. The team is now focusing resources on newer, more promising products instead.",
+    "questions": [
+      { "question": "Why did the company discontinue the product?", "options": ["It was too popular", "It was no longer profitable", "Legal issues", "Employee requests"], "answer": "It was no longer profitable" },
+      { "question": "What is the team focusing on now?", "options": ["The discontinued product", "Newer products", "Reducing staff", "Opening new offices"], "answer": "Newer products" }
+    ]
+  }
+]

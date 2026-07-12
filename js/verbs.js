@@ -126,6 +126,21 @@ function renderVerbDetail(container, v) {
   formsCard.appendChild(formsTable);
   container.appendChild(formsCard);
 
+  container.appendChild(section("Past, Present & Future Tense"));
+  const tenseCard = el("div", "card");
+  [
+    { label: "Past", text: v.tenseUsage.past },
+    { label: "Present", text: v.tenseUsage.present },
+    { label: "Future", text: v.tenseUsage.future },
+  ].forEach((t) => {
+    const row = el("div");
+    row.style.cssText = "display:flex;align-items:center;gap:10px;margin-bottom:10px;";
+    row.innerHTML = `<div style="min-width:64px;font-weight:700;color:var(--primary);font-size:13px;">${t.label}</div><div style="flex:1;font-size:14.5px;">${escapeHtml(t.text)}</div>`;
+    row.appendChild(speakButton(t.text));
+    tenseCard.appendChild(row);
+  });
+  container.appendChild(tenseCard);
+
   container.appendChild(section("Common Uses"));
   const usesCard = el("div", "card");
   const usesList = el("ul", "plain-list");

@@ -188,6 +188,8 @@ function renderParagraphMode(container) {
   container.appendChild(nextBtn);
 }
 
+let naturalIndex = 0;
+
 function renderNaturalSpeechMode(container) {
   container.innerHTML = "";
   const intro = el("div", "card", `
@@ -196,14 +198,25 @@ function renderNaturalSpeechMode(container) {
   intro.style.background = "var(--surface-2)";
   container.appendChild(intro);
 
-  NATURAL_SPEECH.forEach((item) => {
-    const tagHtml = `<span class="mistake-wrong">${escapeHtml(item.formal)}</span> → <span class="mistake-right">${escapeHtml(item.natural)}</span>`;
-    const card = buildShadowCard({
-      text: item.example,
-      extraHtml: `<div style="margin-top:10px;"><div style="font-weight:700;margin-bottom:4px;">${tagHtml}</div><div class="mistake-why">${escapeHtml(item.tip)}</div></div>`,
-    });
-    container.appendChild(card);
+  const item = NATURAL_SPEECH[naturalIndex];
+  const tagHtml = `<span class="mistake-wrong">${escapeHtml(item.formal)}</span> → <span class="mistake-right">${escapeHtml(item.natural)}</span>`;
+  const card = buildShadowCard({
+    text: item.example,
+    extraHtml: `<div style="margin-top:10px;"><div style="font-weight:700;margin-bottom:4px;">${tagHtml}</div><div class="mistake-why">${escapeHtml(item.tip)}</div></div>`,
   });
+  container.appendChild(card);
+
+  const counter = el("div", "", `${naturalIndex + 1} of ${NATURAL_SPEECH.length}`);
+  counter.style.cssText = "text-align:center;font-size:13px;color:var(--text-muted);margin-top:10px;";
+  container.appendChild(counter);
+
+  const nextBtn = el("button", "btn block", "Next Example →");
+  nextBtn.style.marginTop = "10px";
+  nextBtn.onclick = () => {
+    naturalIndex = pickRandomIndex(NATURAL_SPEECH, naturalIndex);
+    renderNaturalSpeechMode(container);
+  };
+  container.appendChild(nextBtn);
 }
 
 function renderActiveMode() {
@@ -250,6 +263,7 @@ async function init() {
     NATURAL_SPEECH = await nRes.json();
     sentenceIndex = Math.floor(Math.random() * SENTENCES.length);
     paragraphIndex = Math.floor(Math.random() * PARAGRAPHS.length);
+    naturalIndex = Math.floor(Math.random() * NATURAL_SPEECH.length);
     renderActiveMode();
   } catch (e) {
     container.innerHTML = `<div class="empty-state">Couldn't load shadowing content. Please try again later.</div>`;

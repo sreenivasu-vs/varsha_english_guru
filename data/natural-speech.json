@@ -1,22 +1,1826 @@
 [
-  { "formal": "can not", "natural": "can't", "example": "I can't make it to the meeting today.", "tip": "Native speakers almost always contract 'cannot' to 'can't' in speech. Keeping the two words fully separate can sound overly formal, or add unintended emphasis, like you're stressing a firm refusal." },
-  { "formal": "do not", "natural": "don't", "example": "I don't think that's the right approach.", "tip": "Saying 'do not' fully separated is usually reserved for strong emphasis, like 'I do NOT agree.' In everyday conversation, 'don't' is the natural, neutral choice - use it by default." },
-  { "formal": "will not", "natural": "won't", "example": "She won't be in the office tomorrow.", "tip": "'Won't' is the everyday spoken form of 'will not'. Practicing it as one smooth sound will make your speech flow far more naturally than pronouncing two separate words." },
-  { "formal": "is not", "natural": "isn't", "example": "This isn't the version we agreed on.", "tip": "Blending 'is' and 'not' into 'isn't' keeps your sentence rhythm even. Native speakers rarely pause between the two words in casual speech." },
-  { "formal": "are not", "natural": "aren't", "example": "We aren't ready to launch just yet.", "tip": "'Aren't' is used for both statements and questions, like 'Aren't you coming?' Getting comfortable with the contracted form in both cases is a strong sign of natural, confident English." },
-  { "formal": "was not", "natural": "wasn't", "example": "He wasn't aware of the new deadline.", "tip": "In the past tense, 'wasn't' is the default spoken form of 'was not'. Try softening the final 't' slightly - overly hard consonants can make your speech sound clipped rather than smooth." },
-  { "formal": "were not", "natural": "weren't", "example": "They weren't expecting the change so soon.", "tip": "'Weren't' can be tricky to say quickly - it's essentially 'weren' plus a soft 't'. Practicing it inside full sentences, not just alone, helps your mouth learn the natural flow around it." },
-  { "formal": "have not", "natural": "haven't", "example": "I haven't finished the report yet.", "tip": "'Haven't' is far more common in speech than the full 'have not', which tends to sound like a formal announcement. Use the contraction by default in everyday and workplace conversation." },
-  { "formal": "has not", "natural": "hasn't", "example": "She hasn't replied to my email yet.", "tip": "Just like 'haven't', native speakers default to 'hasn't' in spoken English. Save the fully separated 'has not' for writing or moments where you want clear emphasis." },
-  { "formal": "would not", "natural": "wouldn't", "example": "I wouldn't recommend skipping that step.", "tip": "'Wouldn't' softens advice or opinions and sounds much more natural than 'would not' in conversation, especially when giving feedback to a teammate or client." },
-  { "formal": "could not", "natural": "couldn't", "example": "We couldn't reach the client this morning.", "tip": "'Couldn't' flows more smoothly in a sentence than 'could not', especially when explaining something that didn't work out - it's the natural choice when reporting a problem." },
-  { "formal": "should not", "natural": "shouldn't", "example": "You shouldn't worry about that too much.", "tip": "Contracting 'should not' to 'shouldn't' keeps advice sounding friendly and conversational rather than like a formal instruction." },
-  { "formal": "I am", "natural": "I'm", "example": "I'm working on the report right now.", "tip": "'I am' almost always becomes 'I'm' in spoken English - saying the two words separately is reserved for strong emphasis, like 'I AM finished, I promise.'" },
-  { "formal": "you are", "natural": "you're", "example": "You're doing a great job on this.", "tip": "Mixing up 'you're' and 'your' is a common written mistake, but in speech, the contraction 'you're' should flow as one smooth sound rather than two separated words." },
-  { "formal": "we are", "natural": "we're", "example": "We're almost done with the first draft.", "tip": "'We're' blends 'we' and 'are' into a single beat. Practicing it in full sentences helps you avoid the choppy sound of saying 'we are' with a pause in between." },
-  { "formal": "they are", "natural": "they're", "example": "They're joining the call in five minutes.", "tip": "'They're' sounds identical to 'their' and 'there' - focus on using it smoothly in speech, since listeners hear only the sound, not the spelling." },
-  { "formal": "I have", "natural": "I've", "example": "I've already sent you the updated file.", "tip": "'I have' becomes 'I've' in almost all everyday speech. The full form can sound stiff unless you're specifically emphasizing possession or completion, like 'I HAVE done this before.'" },
-  { "formal": "I will", "natural": "I'll", "example": "I'll follow up with you by tomorrow.", "tip": "'I will' contracts to 'I'll' constantly in spoken English, especially when making quick promises or plans. Practicing this contraction helps you sound decisive and natural rather than overly formal." },
-  { "formal": "that is", "natural": "that's", "example": "That's exactly what I was thinking too.", "tip": "'That is' becomes 'that's' in nearly every spoken sentence. It's one of the most frequent contractions in English, so getting comfortable with it instantly makes your speech sound more fluent." },
-  { "formal": "let us", "natural": "let's", "example": "Let's schedule a call for later today.", "tip": "'Let us' is almost never used in modern spoken English outside of formal or ceremonial contexts. 'Let's' is the natural, default way to suggest doing something together." }
+  {
+    "formal": "I am",
+    "natural": "I'm",
+    "example": "I'm working on the report right now.",
+    "tip": "'I am' almost always becomes 'I'm' in spoken English - saying the two words separately is reserved for strong emphasis, like 'I AM finished, I promise.'"
+  },
+  {
+    "formal": "I am",
+    "natural": "I'm",
+    "example": "I'm not sure what time the call starts.",
+    "tip": "'I am' almost always becomes 'I'm' in spoken English - saying the two words separately is reserved for strong emphasis, like 'I AM finished, I promise.'"
+  },
+  {
+    "formal": "I am",
+    "natural": "I'm",
+    "example": "I'm really happy with how this turned out.",
+    "tip": "'I am' almost always becomes 'I'm' in spoken English - saying the two words separately is reserved for strong emphasis, like 'I AM finished, I promise.'"
+  },
+  {
+    "formal": "I am",
+    "natural": "I'm",
+    "example": "I'm heading to the client site tomorrow.",
+    "tip": "'I am' almost always becomes 'I'm' in spoken English - saying the two words separately is reserved for strong emphasis, like 'I AM finished, I promise.'"
+  },
+  {
+    "formal": "you are",
+    "natural": "you're",
+    "example": "You're doing a great job on this.",
+    "tip": "Mixing up 'you're' and 'your' is a common written mistake, but in speech, the contraction 'you're' should flow as one smooth sound rather than two separated words."
+  },
+  {
+    "formal": "you are",
+    "natural": "you're",
+    "example": "You're going to need the updated file.",
+    "tip": "Mixing up 'you're' and 'your' is a common written mistake, but in speech, the contraction 'you're' should flow as one smooth sound rather than two separated words."
+  },
+  {
+    "formal": "you are",
+    "natural": "you're",
+    "example": "You're right, I hadn't thought of that.",
+    "tip": "Mixing up 'you're' and 'your' is a common written mistake, but in speech, the contraction 'you're' should flow as one smooth sound rather than two separated words."
+  },
+  {
+    "formal": "you are",
+    "natural": "you're",
+    "example": "You're welcome to join the call anytime.",
+    "tip": "Mixing up 'you're' and 'your' is a common written mistake, but in speech, the contraction 'you're' should flow as one smooth sound rather than two separated words."
+  },
+  {
+    "formal": "he is",
+    "natural": "he's",
+    "example": "He's presenting the demo this afternoon.",
+    "tip": "'He's' can mean either 'he is' or 'he has' - context tells you which. Either way, native speakers contract it by default in conversation."
+  },
+  {
+    "formal": "he is",
+    "natural": "he's",
+    "example": "He's already reviewed the proposal.",
+    "tip": "'He's' can mean either 'he is' or 'he has' - context tells you which. Either way, native speakers contract it by default in conversation."
+  },
+  {
+    "formal": "he is",
+    "natural": "he's",
+    "example": "He's not available until Thursday.",
+    "tip": "'He's' can mean either 'he is' or 'he has' - context tells you which. Either way, native speakers contract it by default in conversation."
+  },
+  {
+    "formal": "he is",
+    "natural": "he's",
+    "example": "He's the one leading the migration project.",
+    "tip": "'He's' can mean either 'he is' or 'he has' - context tells you which. Either way, native speakers contract it by default in conversation."
+  },
+  {
+    "formal": "she is",
+    "natural": "she's",
+    "example": "She's joining us from the London office.",
+    "tip": "Just like 'he's', 'she's' covers both 'she is' and 'she has'. Practicing it as a single smooth sound is what makes your speech sound natural rather than textbook-formal."
+  },
+  {
+    "formal": "she is",
+    "natural": "she's",
+    "example": "She's finished the first draft already.",
+    "tip": "Just like 'he's', 'she's' covers both 'she is' and 'she has'. Practicing it as a single smooth sound is what makes your speech sound natural rather than textbook-formal."
+  },
+  {
+    "formal": "she is",
+    "natural": "she's",
+    "example": "She's out of the office this week.",
+    "tip": "Just like 'he's', 'she's' covers both 'she is' and 'she has'. Practicing it as a single smooth sound is what makes your speech sound natural rather than textbook-formal."
+  },
+  {
+    "formal": "she is",
+    "natural": "she's",
+    "example": "She's the best person to ask about this.",
+    "tip": "Just like 'he's', 'she's' covers both 'she is' and 'she has'. Practicing it as a single smooth sound is what makes your speech sound natural rather than textbook-formal."
+  },
+  {
+    "formal": "it is",
+    "natural": "it's",
+    "example": "It's almost time for the meeting.",
+    "tip": "'It's' (with an apostrophe) always means 'it is' or 'it has' - never confuse it with 'its' (no apostrophe, meaning belonging to it). In speech both sound identical, so focus on using the contraction naturally."
+  },
+  {
+    "formal": "it is",
+    "natural": "it's",
+    "example": "It's been a long week already.",
+    "tip": "'It's' (with an apostrophe) always means 'it is' or 'it has' - never confuse it with 'its' (no apostrophe, meaning belonging to it). In speech both sound identical, so focus on using the contraction naturally."
+  },
+  {
+    "formal": "it is",
+    "natural": "it's",
+    "example": "It's not working the way we expected.",
+    "tip": "'It's' (with an apostrophe) always means 'it is' or 'it has' - never confuse it with 'its' (no apostrophe, meaning belonging to it). In speech both sound identical, so focus on using the contraction naturally."
+  },
+  {
+    "formal": "it is",
+    "natural": "it's",
+    "example": "It's the last item on today's agenda.",
+    "tip": "'It's' (with an apostrophe) always means 'it is' or 'it has' - never confuse it with 'its' (no apostrophe, meaning belonging to it). In speech both sound identical, so focus on using the contraction naturally."
+  },
+  {
+    "formal": "we are",
+    "natural": "we're",
+    "example": "We're almost done with the first draft.",
+    "tip": "'We're' blends 'we' and 'are' into a single beat. Practicing it in full sentences helps you avoid the choppy sound of saying 'we are' with a pause in between."
+  },
+  {
+    "formal": "we are",
+    "natural": "we're",
+    "example": "We're planning to launch next month.",
+    "tip": "'We're' blends 'we' and 'are' into a single beat. Practicing it in full sentences helps you avoid the choppy sound of saying 'we are' with a pause in between."
+  },
+  {
+    "formal": "we are",
+    "natural": "we're",
+    "example": "We're a bit behind schedule this week.",
+    "tip": "'We're' blends 'we' and 'are' into a single beat. Practicing it in full sentences helps you avoid the choppy sound of saying 'we are' with a pause in between."
+  },
+  {
+    "formal": "we are",
+    "natural": "we're",
+    "example": "We're excited to get started on this.",
+    "tip": "'We're' blends 'we' and 'are' into a single beat. Practicing it in full sentences helps you avoid the choppy sound of saying 'we are' with a pause in between."
+  },
+  {
+    "formal": "they are",
+    "natural": "they're",
+    "example": "They're joining the call in five minutes.",
+    "tip": "'They're' sounds identical to 'their' and 'there' - focus on using it smoothly in speech, since listeners hear only the sound, not the spelling."
+  },
+  {
+    "formal": "they are",
+    "natural": "they're",
+    "example": "They're not happy with the current design.",
+    "tip": "'They're' sounds identical to 'their' and 'there' - focus on using it smoothly in speech, since listeners hear only the sound, not the spelling."
+  },
+  {
+    "formal": "they are",
+    "natural": "they're",
+    "example": "They're sending over the contract today.",
+    "tip": "'They're' sounds identical to 'their' and 'there' - focus on using it smoothly in speech, since listeners hear only the sound, not the spelling."
+  },
+  {
+    "formal": "they are",
+    "natural": "they're",
+    "example": "They're based out of the Singapore office.",
+    "tip": "'They're' sounds identical to 'their' and 'there' - focus on using it smoothly in speech, since listeners hear only the sound, not the spelling."
+  },
+  {
+    "formal": "I have",
+    "natural": "I've",
+    "example": "I've already sent you the updated file.",
+    "tip": "'I have' becomes 'I've' in almost all everyday speech. The full form can sound stiff unless you're specifically emphasizing possession or completion, like 'I HAVE done this before.'"
+  },
+  {
+    "formal": "I have",
+    "natural": "I've",
+    "example": "I've never seen this error before.",
+    "tip": "'I have' becomes 'I've' in almost all everyday speech. The full form can sound stiff unless you're specifically emphasizing possession or completion, like 'I HAVE done this before.'"
+  },
+  {
+    "formal": "I have",
+    "natural": "I've",
+    "example": "I've been working on this since morning.",
+    "tip": "'I have' becomes 'I've' in almost all everyday speech. The full form can sound stiff unless you're specifically emphasizing possession or completion, like 'I HAVE done this before.'"
+  },
+  {
+    "formal": "I have",
+    "natural": "I've",
+    "example": "I've got a few questions about the spec.",
+    "tip": "'I have' becomes 'I've' in almost all everyday speech. The full form can sound stiff unless you're specifically emphasizing possession or completion, like 'I HAVE done this before.'"
+  },
+  {
+    "formal": "you have",
+    "natural": "you've",
+    "example": "You've done really well on this project.",
+    "tip": "'You've' is the natural spoken form whenever you're telling someone what they possess or have done - keeping it separate can sound like an accusation rather than a simple statement."
+  },
+  {
+    "formal": "you have",
+    "natural": "you've",
+    "example": "You've got a good point there.",
+    "tip": "'You've' is the natural spoken form whenever you're telling someone what they possess or have done - keeping it separate can sound like an accusation rather than a simple statement."
+  },
+  {
+    "formal": "you have",
+    "natural": "you've",
+    "example": "You've already covered that in your update.",
+    "tip": "'You've' is the natural spoken form whenever you're telling someone what they possess or have done - keeping it separate can sound like an accusation rather than a simple statement."
+  },
+  {
+    "formal": "you have",
+    "natural": "you've",
+    "example": "You've been a huge help this week.",
+    "tip": "'You've' is the natural spoken form whenever you're telling someone what they possess or have done - keeping it separate can sound like an accusation rather than a simple statement."
+  },
+  {
+    "formal": "we have",
+    "natural": "we've",
+    "example": "We've finished testing the new feature.",
+    "tip": "'We've' flows naturally when describing something the team has done together - it's the default choice in status updates and casual reporting."
+  },
+  {
+    "formal": "we have",
+    "natural": "we've",
+    "example": "We've made great progress this sprint.",
+    "tip": "'We've' flows naturally when describing something the team has done together - it's the default choice in status updates and casual reporting."
+  },
+  {
+    "formal": "we have",
+    "natural": "we've",
+    "example": "We've run into a small issue with the API.",
+    "tip": "'We've' flows naturally when describing something the team has done together - it's the default choice in status updates and casual reporting."
+  },
+  {
+    "formal": "we have",
+    "natural": "we've",
+    "example": "We've already scheduled the kickoff call.",
+    "tip": "'We've' flows naturally when describing something the team has done together - it's the default choice in status updates and casual reporting."
+  },
+  {
+    "formal": "they have",
+    "natural": "they've",
+    "example": "They've agreed to the new timeline.",
+    "tip": "Just like the other 'have' contractions, 'they've' is the natural default in speech - full 'they have' tends to sound like a formal report rather than a conversation."
+  },
+  {
+    "formal": "they have",
+    "natural": "they've",
+    "example": "They've asked for a few more changes.",
+    "tip": "Just like the other 'have' contractions, 'they've' is the natural default in speech - full 'they have' tends to sound like a formal report rather than a conversation."
+  },
+  {
+    "formal": "they have",
+    "natural": "they've",
+    "example": "They've already onboarded two new hires.",
+    "tip": "Just like the other 'have' contractions, 'they've' is the natural default in speech - full 'they have' tends to sound like a formal report rather than a conversation."
+  },
+  {
+    "formal": "they have",
+    "natural": "they've",
+    "example": "They've moved the deadline to Friday.",
+    "tip": "Just like the other 'have' contractions, 'they've' is the natural default in speech - full 'they have' tends to sound like a formal report rather than a conversation."
+  },
+  {
+    "formal": "I will",
+    "natural": "I'll",
+    "example": "I'll follow up with you by tomorrow.",
+    "tip": "'I will' contracts to 'I'll' constantly in spoken English, especially when making quick promises or plans. Practicing this contraction helps you sound decisive and natural rather than overly formal."
+  },
+  {
+    "formal": "I will",
+    "natural": "I'll",
+    "example": "I'll take care of that right away.",
+    "tip": "'I will' contracts to 'I'll' constantly in spoken English, especially when making quick promises or plans. Practicing this contraction helps you sound decisive and natural rather than overly formal."
+  },
+  {
+    "formal": "I will",
+    "natural": "I'll",
+    "example": "I'll be there in about ten minutes.",
+    "tip": "'I will' contracts to 'I'll' constantly in spoken English, especially when making quick promises or plans. Practicing this contraction helps you sound decisive and natural rather than overly formal."
+  },
+  {
+    "formal": "I will",
+    "natural": "I'll",
+    "example": "I'll send the updated file tonight.",
+    "tip": "'I will' contracts to 'I'll' constantly in spoken English, especially when making quick promises or plans. Practicing this contraction helps you sound decisive and natural rather than overly formal."
+  },
+  {
+    "formal": "you will",
+    "natural": "you'll",
+    "example": "You'll need to restart the server after this.",
+    "tip": "'You'll' is the natural way to tell someone what to expect - the full 'you will' can sound like a warning or a formal instruction rather than friendly guidance."
+  },
+  {
+    "formal": "you will",
+    "natural": "you'll",
+    "example": "You'll get an email confirmation shortly.",
+    "tip": "'You'll' is the natural way to tell someone what to expect - the full 'you will' can sound like a warning or a formal instruction rather than friendly guidance."
+  },
+  {
+    "formal": "you will",
+    "natural": "you'll",
+    "example": "You'll probably find this useful later.",
+    "tip": "'You'll' is the natural way to tell someone what to expect - the full 'you will' can sound like a warning or a formal instruction rather than friendly guidance."
+  },
+  {
+    "formal": "you will",
+    "natural": "you'll",
+    "example": "You'll see the changes once you refresh.",
+    "tip": "'You'll' is the natural way to tell someone what to expect - the full 'you will' can sound like a warning or a formal instruction rather than friendly guidance."
+  },
+  {
+    "formal": "he will",
+    "natural": "he'll",
+    "example": "He'll be presenting the results tomorrow.",
+    "tip": "'He'll' keeps the sentence rhythm smooth - pronouncing 'he will' as two separate words is unusual outside of very formal writing."
+  },
+  {
+    "formal": "he will",
+    "natural": "he'll",
+    "example": "He'll follow up once he's back online.",
+    "tip": "'He'll' keeps the sentence rhythm smooth - pronouncing 'he will' as two separate words is unusual outside of very formal writing."
+  },
+  {
+    "formal": "he will",
+    "natural": "he'll",
+    "example": "He'll need access to the shared folder.",
+    "tip": "'He'll' keeps the sentence rhythm smooth - pronouncing 'he will' as two separate words is unusual outside of very formal writing."
+  },
+  {
+    "formal": "he will",
+    "natural": "he'll",
+    "example": "He'll probably have questions about this.",
+    "tip": "'He'll' keeps the sentence rhythm smooth - pronouncing 'he will' as two separate words is unusual outside of very formal writing."
+  },
+  {
+    "formal": "she will",
+    "natural": "she'll",
+    "example": "She'll be joining the team next week.",
+    "tip": "Just like 'he'll', 'she'll' is the default spoken form - use it whenever you're describing a plan or expectation about someone."
+  },
+  {
+    "formal": "she will",
+    "natural": "she'll",
+    "example": "She'll walk you through the process.",
+    "tip": "Just like 'he'll', 'she'll' is the default spoken form - use it whenever you're describing a plan or expectation about someone."
+  },
+  {
+    "formal": "she will",
+    "natural": "she'll",
+    "example": "She'll get back to you by end of day.",
+    "tip": "Just like 'he'll', 'she'll' is the default spoken form - use it whenever you're describing a plan or expectation about someone."
+  },
+  {
+    "formal": "she will",
+    "natural": "she'll",
+    "example": "She'll be leading the client call today.",
+    "tip": "Just like 'he'll', 'she'll' is the default spoken form - use it whenever you're describing a plan or expectation about someone."
+  },
+  {
+    "formal": "it will",
+    "natural": "it'll",
+    "example": "It'll take about an hour to deploy.",
+    "tip": "'It'll' can feel awkward to pronounce at first because of the double 'l' sound - practice it slowly, then speed up until it feels natural in a full sentence."
+  },
+  {
+    "formal": "it will",
+    "natural": "it'll",
+    "example": "It'll be ready before the deadline.",
+    "tip": "'It'll' can feel awkward to pronounce at first because of the double 'l' sound - practice it slowly, then speed up until it feels natural in a full sentence."
+  },
+  {
+    "formal": "it will",
+    "natural": "it'll",
+    "example": "It'll probably need another round of testing.",
+    "tip": "'It'll' can feel awkward to pronounce at first because of the double 'l' sound - practice it slowly, then speed up until it feels natural in a full sentence."
+  },
+  {
+    "formal": "it will",
+    "natural": "it'll",
+    "example": "It'll make the process much faster.",
+    "tip": "'It'll' can feel awkward to pronounce at first because of the double 'l' sound - practice it slowly, then speed up until it feels natural in a full sentence."
+  },
+  {
+    "formal": "we will",
+    "natural": "we'll",
+    "example": "We'll have the update ready by Friday.",
+    "tip": "'We'll' is the natural way to make a team commitment sound confident and immediate, rather than distant and formal."
+  },
+  {
+    "formal": "we will",
+    "natural": "we'll",
+    "example": "We'll circle back on this next week.",
+    "tip": "'We'll' is the natural way to make a team commitment sound confident and immediate, rather than distant and formal."
+  },
+  {
+    "formal": "we will",
+    "natural": "we'll",
+    "example": "We'll need a bit more time on this one.",
+    "tip": "'We'll' is the natural way to make a team commitment sound confident and immediate, rather than distant and formal."
+  },
+  {
+    "formal": "we will",
+    "natural": "we'll",
+    "example": "We'll make sure everyone is looped in.",
+    "tip": "'We'll' is the natural way to make a team commitment sound confident and immediate, rather than distant and formal."
+  },
+  {
+    "formal": "they will",
+    "natural": "they'll",
+    "example": "They'll review the proposal by Monday.",
+    "tip": "'They'll' keeps your sentence light and conversational - saving 'they will' for moments where you want to add real emphasis or formality."
+  },
+  {
+    "formal": "they will",
+    "natural": "they'll",
+    "example": "They'll be arriving a bit later than planned.",
+    "tip": "'They'll' keeps your sentence light and conversational - saving 'they will' for moments where you want to add real emphasis or formality."
+  },
+  {
+    "formal": "they will",
+    "natural": "they'll",
+    "example": "They'll want to see the final numbers.",
+    "tip": "'They'll' keeps your sentence light and conversational - saving 'they will' for moments where you want to add real emphasis or formality."
+  },
+  {
+    "formal": "they will",
+    "natural": "they'll",
+    "example": "They'll probably ask for more details.",
+    "tip": "'They'll' keeps your sentence light and conversational - saving 'they will' for moments where you want to add real emphasis or formality."
+  },
+  {
+    "formal": "I would",
+    "natural": "I'd",
+    "example": "I'd recommend testing this before we launch.",
+    "tip": "'I'd' can mean 'I would' or 'I had' - listen for context. As 'I would', it's the natural way to soften an opinion or suggestion."
+  },
+  {
+    "formal": "I would",
+    "natural": "I'd",
+    "example": "I'd love to hear your thoughts on this.",
+    "tip": "'I'd' can mean 'I would' or 'I had' - listen for context. As 'I would', it's the natural way to soften an opinion or suggestion."
+  },
+  {
+    "formal": "I would",
+    "natural": "I'd",
+    "example": "I'd rather we finish this today.",
+    "tip": "'I'd' can mean 'I would' or 'I had' - listen for context. As 'I would', it's the natural way to soften an opinion or suggestion."
+  },
+  {
+    "formal": "I would",
+    "natural": "I'd",
+    "example": "I'd appreciate a quick update when you can.",
+    "tip": "'I'd' can mean 'I would' or 'I had' - listen for context. As 'I would', it's the natural way to soften an opinion or suggestion."
+  },
+  {
+    "formal": "you would",
+    "natural": "you'd",
+    "example": "You'd probably enjoy working on this one.",
+    "tip": "'You'd' softens advice so it sounds like a suggestion rather than a command - much more natural in everyday conversation than the full 'you would'."
+  },
+  {
+    "formal": "you would",
+    "natural": "you'd",
+    "example": "You'd need to check with the client first.",
+    "tip": "'You'd' softens advice so it sounds like a suggestion rather than a command - much more natural in everyday conversation than the full 'you would'."
+  },
+  {
+    "formal": "you would",
+    "natural": "you'd",
+    "example": "You'd be surprised how quickly this works.",
+    "tip": "'You'd' softens advice so it sounds like a suggestion rather than a command - much more natural in everyday conversation than the full 'you would'."
+  },
+  {
+    "formal": "you would",
+    "natural": "you'd",
+    "example": "You'd get better results with the other approach.",
+    "tip": "'You'd' softens advice so it sounds like a suggestion rather than a command - much more natural in everyday conversation than the full 'you would'."
+  },
+  {
+    "formal": "he would",
+    "natural": "he'd",
+    "example": "He'd probably agree with that approach.",
+    "tip": "'He'd' is the natural spoken form whenever you're describing what someone would likely do or think."
+  },
+  {
+    "formal": "he would",
+    "natural": "he'd",
+    "example": "He'd rather we schedule it for next week.",
+    "tip": "'He'd' is the natural spoken form whenever you're describing what someone would likely do or think."
+  },
+  {
+    "formal": "he would",
+    "natural": "he'd",
+    "example": "He'd already suggested something similar.",
+    "tip": "'He'd' is the natural spoken form whenever you're describing what someone would likely do or think."
+  },
+  {
+    "formal": "he would",
+    "natural": "he'd",
+    "example": "He'd be a good person to loop in.",
+    "tip": "'He'd' is the natural spoken form whenever you're describing what someone would likely do or think."
+  },
+  {
+    "formal": "she would",
+    "natural": "she'd",
+    "example": "She'd probably want to review this first.",
+    "tip": "Just like 'he'd', 'she'd' keeps a hypothetical or polite suggestion sounding natural instead of stiff."
+  },
+  {
+    "formal": "she would",
+    "natural": "she'd",
+    "example": "She'd be happy to help if you ask.",
+    "tip": "Just like 'he'd', 'she'd' keeps a hypothetical or polite suggestion sounding natural instead of stiff."
+  },
+  {
+    "formal": "she would",
+    "natural": "she'd",
+    "example": "She'd already flagged that same issue.",
+    "tip": "Just like 'he'd', 'she'd' keeps a hypothetical or polite suggestion sounding natural instead of stiff."
+  },
+  {
+    "formal": "she would",
+    "natural": "she'd",
+    "example": "She'd rather we wait until Monday.",
+    "tip": "Just like 'he'd', 'she'd' keeps a hypothetical or polite suggestion sounding natural instead of stiff."
+  },
+  {
+    "formal": "it would",
+    "natural": "it'd",
+    "example": "It'd help if we had more test data.",
+    "tip": "'It'd' is less common than the others but still natural in casual speech, especially when talking about outcomes or possibilities."
+  },
+  {
+    "formal": "it would",
+    "natural": "it'd",
+    "example": "It'd be great to get this done today.",
+    "tip": "'It'd' is less common than the others but still natural in casual speech, especially when talking about outcomes or possibilities."
+  },
+  {
+    "formal": "it would",
+    "natural": "it'd",
+    "example": "It'd make sense to automate that step.",
+    "tip": "'It'd' is less common than the others but still natural in casual speech, especially when talking about outcomes or possibilities."
+  },
+  {
+    "formal": "it would",
+    "natural": "it'd",
+    "example": "It'd take less time with a smaller team.",
+    "tip": "'It'd' is less common than the others but still natural in casual speech, especially when talking about outcomes or possibilities."
+  },
+  {
+    "formal": "we would",
+    "natural": "we'd",
+    "example": "We'd love to get your feedback on this.",
+    "tip": "'We'd' is the natural way to describe a team's likely action or preference without sounding overly formal."
+  },
+  {
+    "formal": "we would",
+    "natural": "we'd",
+    "example": "We'd need another day to finish testing.",
+    "tip": "'We'd' is the natural way to describe a team's likely action or preference without sounding overly formal."
+  },
+  {
+    "formal": "we would",
+    "natural": "we'd",
+    "example": "We'd already considered that option.",
+    "tip": "'We'd' is the natural way to describe a team's likely action or preference without sounding overly formal."
+  },
+  {
+    "formal": "we would",
+    "natural": "we'd",
+    "example": "We'd rather ship this next sprint.",
+    "tip": "'We'd' is the natural way to describe a team's likely action or preference without sounding overly formal."
+  },
+  {
+    "formal": "they would",
+    "natural": "they'd",
+    "example": "They'd probably prefer a shorter meeting.",
+    "tip": "'They'd' keeps a description of someone else's likely action sounding natural and conversational."
+  },
+  {
+    "formal": "they would",
+    "natural": "they'd",
+    "example": "They'd already agreed to the new scope.",
+    "tip": "'They'd' keeps a description of someone else's likely action sounding natural and conversational."
+  },
+  {
+    "formal": "they would",
+    "natural": "they'd",
+    "example": "They'd rather review it in person.",
+    "tip": "'They'd' keeps a description of someone else's likely action sounding natural and conversational."
+  },
+  {
+    "formal": "they would",
+    "natural": "they'd",
+    "example": "They'd need sign-off before moving forward.",
+    "tip": "'They'd' keeps a description of someone else's likely action sounding natural and conversational."
+  },
+  {
+    "formal": "I had",
+    "natural": "I'd",
+    "example": "I'd already finished the report before the call.",
+    "tip": "'I'd' also stands for 'I had' when describing something that happened before another past event - the spoken form is identical to 'I would', so pay attention to context."
+  },
+  {
+    "formal": "I had",
+    "natural": "I'd",
+    "example": "I'd never seen that error until yesterday.",
+    "tip": "'I'd' also stands for 'I had' when describing something that happened before another past event - the spoken form is identical to 'I would', so pay attention to context."
+  },
+  {
+    "formal": "I had",
+    "natural": "I'd",
+    "example": "I'd just started testing when it crashed.",
+    "tip": "'I'd' also stands for 'I had' when describing something that happened before another past event - the spoken form is identical to 'I would', so pay attention to context."
+  },
+  {
+    "formal": "I had",
+    "natural": "I'd",
+    "example": "I'd sent the email before I saw your message.",
+    "tip": "'I'd' also stands for 'I had' when describing something that happened before another past event - the spoken form is identical to 'I would', so pay attention to context."
+  },
+  {
+    "formal": "you had",
+    "natural": "you'd",
+    "example": "You'd mentioned that issue last week too.",
+    "tip": "As 'you had', this contraction usually appears in a story about something that happened earlier - it's still the natural spoken choice over the full form."
+  },
+  {
+    "formal": "you had",
+    "natural": "you'd",
+    "example": "You'd already fixed it by the time I checked.",
+    "tip": "As 'you had', this contraction usually appears in a story about something that happened earlier - it's still the natural spoken choice over the full form."
+  },
+  {
+    "formal": "you had",
+    "natural": "you'd",
+    "example": "You'd left before the announcement was made.",
+    "tip": "As 'you had', this contraction usually appears in a story about something that happened earlier - it's still the natural spoken choice over the full form."
+  },
+  {
+    "formal": "you had",
+    "natural": "you'd",
+    "example": "You'd warned us this might happen.",
+    "tip": "As 'you had', this contraction usually appears in a story about something that happened earlier - it's still the natural spoken choice over the full form."
+  },
+  {
+    "formal": "he had",
+    "natural": "he'd",
+    "example": "He'd finished the migration before the outage.",
+    "tip": "'He'd' as 'he had' describes something that was already true before a later point in the story - keep the contraction natural in narration."
+  },
+  {
+    "formal": "he had",
+    "natural": "he'd",
+    "example": "He'd already reviewed it once before.",
+    "tip": "'He'd' as 'he had' describes something that was already true before a later point in the story - keep the contraction natural in narration."
+  },
+  {
+    "formal": "he had",
+    "natural": "he'd",
+    "example": "He'd left the office by the time we called.",
+    "tip": "'He'd' as 'he had' describes something that was already true before a later point in the story - keep the contraction natural in narration."
+  },
+  {
+    "formal": "he had",
+    "natural": "he'd",
+    "example": "He'd warned the team about that risk.",
+    "tip": "'He'd' as 'he had' describes something that was already true before a later point in the story - keep the contraction natural in narration."
+  },
+  {
+    "formal": "she had",
+    "natural": "she'd",
+    "example": "She'd already spotted the bug before QA did.",
+    "tip": "Same pattern as 'he'd' - 'she'd' as 'she had' sets up an earlier action in a story, and native speakers always contract it in speech."
+  },
+  {
+    "formal": "she had",
+    "natural": "she'd",
+    "example": "She'd sent the invite before the meeting changed.",
+    "tip": "Same pattern as 'he'd' - 'she'd' as 'she had' sets up an earlier action in a story, and native speakers always contract it in speech."
+  },
+  {
+    "formal": "she had",
+    "natural": "she'd",
+    "example": "She'd left a comment on the pull request.",
+    "tip": "Same pattern as 'he'd' - 'she'd' as 'she had' sets up an earlier action in a story, and native speakers always contract it in speech."
+  },
+  {
+    "formal": "she had",
+    "natural": "she'd",
+    "example": "She'd warned us about the tight deadline.",
+    "tip": "Same pattern as 'he'd' - 'she'd' as 'she had' sets up an earlier action in a story, and native speakers always contract it in speech."
+  },
+  {
+    "formal": "it had",
+    "natural": "it'd",
+    "example": "It'd already crashed twice before we noticed.",
+    "tip": "'It'd' as 'it had' is less frequent but still natural, usually describing a system or situation before a later event."
+  },
+  {
+    "formal": "it had",
+    "natural": "it'd",
+    "example": "It'd been running fine until the update.",
+    "tip": "'It'd' as 'it had' is less frequent but still natural, usually describing a system or situation before a later event."
+  },
+  {
+    "formal": "it had",
+    "natural": "it'd",
+    "example": "It'd taken longer than expected to build.",
+    "tip": "'It'd' as 'it had' is less frequent but still natural, usually describing a system or situation before a later event."
+  },
+  {
+    "formal": "it had",
+    "natural": "it'd",
+    "example": "It'd passed every test before that point.",
+    "tip": "'It'd' as 'it had' is less frequent but still natural, usually describing a system or situation before a later event."
+  },
+  {
+    "formal": "we had",
+    "natural": "we'd",
+    "example": "We'd already discussed this in the last sync.",
+    "tip": "'We'd' as 'we had' describes something the team had already done - contracting it keeps the story flowing naturally."
+  },
+  {
+    "formal": "we had",
+    "natural": "we'd",
+    "example": "We'd finished the setup before lunch.",
+    "tip": "'We'd' as 'we had' describes something the team had already done - contracting it keeps the story flowing naturally."
+  },
+  {
+    "formal": "we had",
+    "natural": "we'd",
+    "example": "We'd tested it thoroughly before release.",
+    "tip": "'We'd' as 'we had' describes something the team had already done - contracting it keeps the story flowing naturally."
+  },
+  {
+    "formal": "we had",
+    "natural": "we'd",
+    "example": "We'd agreed on the approach earlier.",
+    "tip": "'We'd' as 'we had' describes something the team had already done - contracting it keeps the story flowing naturally."
+  },
+  {
+    "formal": "they had",
+    "natural": "they'd",
+    "example": "They'd already approved the budget by then.",
+    "tip": "'They'd' as 'they had' works the same way - a natural contraction describing an earlier completed action."
+  },
+  {
+    "formal": "they had",
+    "natural": "they'd",
+    "example": "They'd sent feedback before the deadline.",
+    "tip": "'They'd' as 'they had' works the same way - a natural contraction describing an earlier completed action."
+  },
+  {
+    "formal": "they had",
+    "natural": "they'd",
+    "example": "They'd moved to the new office last year.",
+    "tip": "'They'd' as 'they had' works the same way - a natural contraction describing an earlier completed action."
+  },
+  {
+    "formal": "they had",
+    "natural": "they'd",
+    "example": "They'd flagged the risk weeks earlier.",
+    "tip": "'They'd' as 'they had' works the same way - a natural contraction describing an earlier completed action."
+  },
+  {
+    "formal": "is not",
+    "natural": "isn't",
+    "example": "This isn't the version we agreed on.",
+    "tip": "Blending 'is' and 'not' into 'isn't' keeps your sentence rhythm even. Native speakers rarely pause between the two words in casual speech."
+  },
+  {
+    "formal": "is not",
+    "natural": "isn't",
+    "example": "It isn't ready for release yet.",
+    "tip": "Blending 'is' and 'not' into 'isn't' keeps your sentence rhythm even. Native speakers rarely pause between the two words in casual speech."
+  },
+  {
+    "formal": "is not",
+    "natural": "isn't",
+    "example": "That isn't quite what I meant.",
+    "tip": "Blending 'is' and 'not' into 'isn't' keeps your sentence rhythm even. Native speakers rarely pause between the two words in casual speech."
+  },
+  {
+    "formal": "is not",
+    "natural": "isn't",
+    "example": "The server isn't responding right now.",
+    "tip": "Blending 'is' and 'not' into 'isn't' keeps your sentence rhythm even. Native speakers rarely pause between the two words in casual speech."
+  },
+  {
+    "formal": "are not",
+    "natural": "aren't",
+    "example": "We aren't ready to launch just yet.",
+    "tip": "'Aren't' is used for both statements and questions, like 'Aren't you coming?' Getting comfortable with the contracted form in both cases is a strong sign of natural, confident English."
+  },
+  {
+    "formal": "are not",
+    "natural": "aren't",
+    "example": "They aren't available until next week.",
+    "tip": "'Aren't' is used for both statements and questions, like 'Aren't you coming?' Getting comfortable with the contracted form in both cases is a strong sign of natural, confident English."
+  },
+  {
+    "formal": "are not",
+    "natural": "aren't",
+    "example": "These numbers aren't adding up.",
+    "tip": "'Aren't' is used for both statements and questions, like 'Aren't you coming?' Getting comfortable with the contracted form in both cases is a strong sign of natural, confident English."
+  },
+  {
+    "formal": "are not",
+    "natural": "aren't",
+    "example": "You aren't the only one confused by this.",
+    "tip": "'Aren't' is used for both statements and questions, like 'Aren't you coming?' Getting comfortable with the contracted form in both cases is a strong sign of natural, confident English."
+  },
+  {
+    "formal": "was not",
+    "natural": "wasn't",
+    "example": "He wasn't aware of the new deadline.",
+    "tip": "In the past tense, 'wasn't' is the default spoken form of 'was not'. Try softening the final 't' slightly - overly hard consonants can make your speech sound clipped rather than smooth."
+  },
+  {
+    "formal": "was not",
+    "natural": "wasn't",
+    "example": "That wasn't part of the original plan.",
+    "tip": "In the past tense, 'wasn't' is the default spoken form of 'was not'. Try softening the final 't' slightly - overly hard consonants can make your speech sound clipped rather than smooth."
+  },
+  {
+    "formal": "was not",
+    "natural": "wasn't",
+    "example": "The fix wasn't as simple as we thought.",
+    "tip": "In the past tense, 'wasn't' is the default spoken form of 'was not'. Try softening the final 't' slightly - overly hard consonants can make your speech sound clipped rather than smooth."
+  },
+  {
+    "formal": "was not",
+    "natural": "wasn't",
+    "example": "I wasn't able to join the call today.",
+    "tip": "In the past tense, 'wasn't' is the default spoken form of 'was not'. Try softening the final 't' slightly - overly hard consonants can make your speech sound clipped rather than smooth."
+  },
+  {
+    "formal": "were not",
+    "natural": "weren't",
+    "example": "They weren't expecting the change so soon.",
+    "tip": "'Weren't' can be tricky to say quickly - it's essentially 'weren' plus a soft 't'. Practicing it inside full sentences, not just alone, helps your mouth learn the natural flow around it."
+  },
+  {
+    "formal": "were not",
+    "natural": "weren't",
+    "example": "We weren't told about the update.",
+    "tip": "'Weren't' can be tricky to say quickly - it's essentially 'weren' plus a soft 't'. Practicing it inside full sentences, not just alone, helps your mouth learn the natural flow around it."
+  },
+  {
+    "formal": "were not",
+    "natural": "weren't",
+    "example": "The tests weren't passing this morning.",
+    "tip": "'Weren't' can be tricky to say quickly - it's essentially 'weren' plus a soft 't'. Practicing it inside full sentences, not just alone, helps your mouth learn the natural flow around it."
+  },
+  {
+    "formal": "were not",
+    "natural": "weren't",
+    "example": "You weren't on the invite list, sorry.",
+    "tip": "'Weren't' can be tricky to say quickly - it's essentially 'weren' plus a soft 't'. Practicing it inside full sentences, not just alone, helps your mouth learn the natural flow around it."
+  },
+  {
+    "formal": "do not",
+    "natural": "don't",
+    "example": "I don't think that's the right approach.",
+    "tip": "Saying 'do not' fully separated is usually reserved for strong emphasis, like 'I do NOT agree.' In everyday conversation, 'don't' is the natural, neutral choice - use it by default."
+  },
+  {
+    "formal": "do not",
+    "natural": "don't",
+    "example": "We don't have all the data yet.",
+    "tip": "Saying 'do not' fully separated is usually reserved for strong emphasis, like 'I do NOT agree.' In everyday conversation, 'don't' is the natural, neutral choice - use it by default."
+  },
+  {
+    "formal": "do not",
+    "natural": "don't",
+    "example": "They don't usually reply this quickly.",
+    "tip": "Saying 'do not' fully separated is usually reserved for strong emphasis, like 'I do NOT agree.' In everyday conversation, 'don't' is the natural, neutral choice - use it by default."
+  },
+  {
+    "formal": "do not",
+    "natural": "don't",
+    "example": "You don't need to worry about that part.",
+    "tip": "Saying 'do not' fully separated is usually reserved for strong emphasis, like 'I do NOT agree.' In everyday conversation, 'don't' is the natural, neutral choice - use it by default."
+  },
+  {
+    "formal": "does not",
+    "natural": "doesn't",
+    "example": "This doesn't match what the client asked for.",
+    "tip": "'Doesn't' is the natural third-person form - keeping 'does not' fully separated is unusual unless you're deliberately emphasizing a point."
+  },
+  {
+    "formal": "does not",
+    "natural": "doesn't",
+    "example": "The build doesn't pass on the latest commit.",
+    "tip": "'Doesn't' is the natural third-person form - keeping 'does not' fully separated is unusual unless you're deliberately emphasizing a point."
+  },
+  {
+    "formal": "does not",
+    "natural": "doesn't",
+    "example": "She doesn't usually work late.",
+    "tip": "'Doesn't' is the natural third-person form - keeping 'does not' fully separated is unusual unless you're deliberately emphasizing a point."
+  },
+  {
+    "formal": "does not",
+    "natural": "doesn't",
+    "example": "It doesn't seem like a big issue to me.",
+    "tip": "'Doesn't' is the natural third-person form - keeping 'does not' fully separated is unusual unless you're deliberately emphasizing a point."
+  },
+  {
+    "formal": "did not",
+    "natural": "didn't",
+    "example": "I didn't get your last message.",
+    "tip": "'Didn't' is the everyday spoken form when talking about the past - it keeps your storytelling sounding natural and fluid."
+  },
+  {
+    "formal": "did not",
+    "natural": "didn't",
+    "example": "We didn't expect the delay to be this long.",
+    "tip": "'Didn't' is the everyday spoken form when talking about the past - it keeps your storytelling sounding natural and fluid."
+  },
+  {
+    "formal": "did not",
+    "natural": "didn't",
+    "example": "They didn't mention that in the call.",
+    "tip": "'Didn't' is the everyday spoken form when talking about the past - it keeps your storytelling sounding natural and fluid."
+  },
+  {
+    "formal": "did not",
+    "natural": "didn't",
+    "example": "It didn't work the first time I tried.",
+    "tip": "'Didn't' is the everyday spoken form when talking about the past - it keeps your storytelling sounding natural and fluid."
+  },
+  {
+    "formal": "have not",
+    "natural": "haven't",
+    "example": "I haven't finished the report yet.",
+    "tip": "'Haven't' is far more common in speech than the full 'have not', which tends to sound like a formal announcement. Use the contraction by default in everyday and workplace conversation."
+  },
+  {
+    "formal": "have not",
+    "natural": "haven't",
+    "example": "We haven't heard back from the client.",
+    "tip": "'Haven't' is far more common in speech than the full 'have not', which tends to sound like a formal announcement. Use the contraction by default in everyday and workplace conversation."
+  },
+  {
+    "formal": "have not",
+    "natural": "haven't",
+    "example": "They haven't updated the documentation.",
+    "tip": "'Haven't' is far more common in speech than the full 'have not', which tends to sound like a formal announcement. Use the contraction by default in everyday and workplace conversation."
+  },
+  {
+    "formal": "have not",
+    "natural": "haven't",
+    "example": "You haven't tried the new version yet, have you?",
+    "tip": "'Haven't' is far more common in speech than the full 'have not', which tends to sound like a formal announcement. Use the contraction by default in everyday and workplace conversation."
+  },
+  {
+    "formal": "has not",
+    "natural": "hasn't",
+    "example": "She hasn't replied to my email yet.",
+    "tip": "Just like 'haven't', native speakers default to 'hasn't' in spoken English. Save the fully separated 'has not' for writing or moments where you want clear emphasis."
+  },
+  {
+    "formal": "has not",
+    "natural": "hasn't",
+    "example": "The build hasn't finished running.",
+    "tip": "Just like 'haven't', native speakers default to 'hasn't' in spoken English. Save the fully separated 'has not' for writing or moments where you want clear emphasis."
+  },
+  {
+    "formal": "has not",
+    "natural": "hasn't",
+    "example": "He hasn't seen the latest changes.",
+    "tip": "Just like 'haven't', native speakers default to 'hasn't' in spoken English. Save the fully separated 'has not' for writing or moments where you want clear emphasis."
+  },
+  {
+    "formal": "has not",
+    "natural": "hasn't",
+    "example": "It hasn't been an issue until now.",
+    "tip": "Just like 'haven't', native speakers default to 'hasn't' in spoken English. Save the fully separated 'has not' for writing or moments where you want clear emphasis."
+  },
+  {
+    "formal": "had not",
+    "natural": "hadn't",
+    "example": "I hadn't seen that error before today.",
+    "tip": "'Hadn't' keeps a past-tense story sounding natural, especially when explaining what hadn't happened yet before something else occurred."
+  },
+  {
+    "formal": "had not",
+    "natural": "hadn't",
+    "example": "We hadn't planned for this scenario.",
+    "tip": "'Hadn't' keeps a past-tense story sounding natural, especially when explaining what hadn't happened yet before something else occurred."
+  },
+  {
+    "formal": "had not",
+    "natural": "hadn't",
+    "example": "They hadn't finished testing when it shipped.",
+    "tip": "'Hadn't' keeps a past-tense story sounding natural, especially when explaining what hadn't happened yet before something else occurred."
+  },
+  {
+    "formal": "had not",
+    "natural": "hadn't",
+    "example": "She hadn't been told about the change.",
+    "tip": "'Hadn't' keeps a past-tense story sounding natural, especially when explaining what hadn't happened yet before something else occurred."
+  },
+  {
+    "formal": "will not",
+    "natural": "won't",
+    "example": "She won't be in the office tomorrow.",
+    "tip": "'Won't' is the everyday spoken form of 'will not'. Practicing it as one smooth sound will make your speech flow far more naturally than pronouncing two separate words."
+  },
+  {
+    "formal": "will not",
+    "natural": "won't",
+    "example": "This won't take more than a few minutes.",
+    "tip": "'Won't' is the everyday spoken form of 'will not'. Practicing it as one smooth sound will make your speech flow far more naturally than pronouncing two separate words."
+  },
+  {
+    "formal": "will not",
+    "natural": "won't",
+    "example": "They won't approve it without more detail.",
+    "tip": "'Won't' is the everyday spoken form of 'will not'. Practicing it as one smooth sound will make your speech flow far more naturally than pronouncing two separate words."
+  },
+  {
+    "formal": "will not",
+    "natural": "won't",
+    "example": "It won't work unless we fix the config first.",
+    "tip": "'Won't' is the everyday spoken form of 'will not'. Practicing it as one smooth sound will make your speech flow far more naturally than pronouncing two separate words."
+  },
+  {
+    "formal": "would not",
+    "natural": "wouldn't",
+    "example": "I wouldn't recommend skipping that step.",
+    "tip": "'Wouldn't' softens advice or opinions and sounds much more natural than 'would not' in conversation, especially when giving feedback to a teammate or client."
+  },
+  {
+    "formal": "would not",
+    "natural": "wouldn't",
+    "example": "That wouldn't be my first choice either.",
+    "tip": "'Wouldn't' softens advice or opinions and sounds much more natural than 'would not' in conversation, especially when giving feedback to a teammate or client."
+  },
+  {
+    "formal": "would not",
+    "natural": "wouldn't",
+    "example": "He wouldn't mind if you asked him directly.",
+    "tip": "'Wouldn't' softens advice or opinions and sounds much more natural than 'would not' in conversation, especially when giving feedback to a teammate or client."
+  },
+  {
+    "formal": "would not",
+    "natural": "wouldn't",
+    "example": "It wouldn't hurt to double-check the numbers.",
+    "tip": "'Wouldn't' softens advice or opinions and sounds much more natural than 'would not' in conversation, especially when giving feedback to a teammate or client."
+  },
+  {
+    "formal": "can not",
+    "natural": "can't",
+    "example": "I can't make it to the meeting today.",
+    "tip": "Native speakers almost always contract 'cannot' to 'can't' in speech. Keeping the two words fully separate can sound overly formal, or add unintended emphasis, like you're stressing a firm refusal."
+  },
+  {
+    "formal": "can not",
+    "natural": "can't",
+    "example": "We can't access the server right now.",
+    "tip": "Native speakers almost always contract 'cannot' to 'can't' in speech. Keeping the two words fully separate can sound overly formal, or add unintended emphasis, like you're stressing a firm refusal."
+  },
+  {
+    "formal": "can not",
+    "natural": "can't",
+    "example": "This can't be right, let me check again.",
+    "tip": "Native speakers almost always contract 'cannot' to 'can't' in speech. Keeping the two words fully separate can sound overly formal, or add unintended emphasis, like you're stressing a firm refusal."
+  },
+  {
+    "formal": "can not",
+    "natural": "can't",
+    "example": "They can't approve the budget without sign-off.",
+    "tip": "Native speakers almost always contract 'cannot' to 'can't' in speech. Keeping the two words fully separate can sound overly formal, or add unintended emphasis, like you're stressing a firm refusal."
+  },
+  {
+    "formal": "could not",
+    "natural": "couldn't",
+    "example": "We couldn't reach the client this morning.",
+    "tip": "'Couldn't' flows more smoothly in a sentence than 'could not', especially when explaining something that didn't work out - it's the natural choice when reporting a problem."
+  },
+  {
+    "formal": "could not",
+    "natural": "couldn't",
+    "example": "I couldn't find the file you mentioned.",
+    "tip": "'Couldn't' flows more smoothly in a sentence than 'could not', especially when explaining something that didn't work out - it's the natural choice when reporting a problem."
+  },
+  {
+    "formal": "could not",
+    "natural": "couldn't",
+    "example": "They couldn't finish the migration on time.",
+    "tip": "'Couldn't' flows more smoothly in a sentence than 'could not', especially when explaining something that didn't work out - it's the natural choice when reporting a problem."
+  },
+  {
+    "formal": "could not",
+    "natural": "couldn't",
+    "example": "It couldn't have gone any better, honestly.",
+    "tip": "'Couldn't' flows more smoothly in a sentence than 'could not', especially when explaining something that didn't work out - it's the natural choice when reporting a problem."
+  },
+  {
+    "formal": "should not",
+    "natural": "shouldn't",
+    "example": "You shouldn't worry about that too much.",
+    "tip": "Contracting 'should not' to 'shouldn't' keeps advice sounding friendly and conversational rather than like a formal instruction."
+  },
+  {
+    "formal": "should not",
+    "natural": "shouldn't",
+    "example": "We shouldn't rush this decision.",
+    "tip": "Contracting 'should not' to 'shouldn't' keeps advice sounding friendly and conversational rather than like a formal instruction."
+  },
+  {
+    "formal": "should not",
+    "natural": "shouldn't",
+    "example": "That shouldn't take more than an hour.",
+    "tip": "Contracting 'should not' to 'shouldn't' keeps advice sounding friendly and conversational rather than like a formal instruction."
+  },
+  {
+    "formal": "should not",
+    "natural": "shouldn't",
+    "example": "He shouldn't have to redo all of it.",
+    "tip": "Contracting 'should not' to 'shouldn't' keeps advice sounding friendly and conversational rather than like a formal instruction."
+  },
+  {
+    "formal": "might not",
+    "natural": "mightn't",
+    "example": "It mightn't be ready by Friday.",
+    "tip": "'Mightn't' is less common in everyday speech than the others and sounds fairly formal even contracted - many speakers simply say 'might not' here, but recognizing the contracted form is still useful."
+  },
+  {
+    "formal": "might not",
+    "natural": "mightn't",
+    "example": "She mightn't have seen your message yet.",
+    "tip": "'Mightn't' is less common in everyday speech than the others and sounds fairly formal even contracted - many speakers simply say 'might not' here, but recognizing the contracted form is still useful."
+  },
+  {
+    "formal": "might not",
+    "natural": "mightn't",
+    "example": "We mightn't need the extra server after all.",
+    "tip": "'Mightn't' is less common in everyday speech than the others and sounds fairly formal even contracted - many speakers simply say 'might not' here, but recognizing the contracted form is still useful."
+  },
+  {
+    "formal": "might not",
+    "natural": "mightn't",
+    "example": "That mightn't be the actual cause of the bug.",
+    "tip": "'Mightn't' is less common in everyday speech than the others and sounds fairly formal even contracted - many speakers simply say 'might not' here, but recognizing the contracted form is still useful."
+  },
+  {
+    "formal": "must not",
+    "natural": "mustn't",
+    "example": "We mustn't miss this deadline again.",
+    "tip": "'Mustn't' is more common in British English than American English, and is used for strong prohibition - practice it as a smooth single unit rather than two stressed words."
+  },
+  {
+    "formal": "must not",
+    "natural": "mustn't",
+    "example": "You mustn't share the credentials with anyone.",
+    "tip": "'Mustn't' is more common in British English than American English, and is used for strong prohibition - practice it as a smooth single unit rather than two stressed words."
+  },
+  {
+    "formal": "must not",
+    "natural": "mustn't",
+    "example": "This mustn't happen during the live demo.",
+    "tip": "'Mustn't' is more common in British English than American English, and is used for strong prohibition - practice it as a smooth single unit rather than two stressed words."
+  },
+  {
+    "formal": "must not",
+    "natural": "mustn't",
+    "example": "They mustn't be kept waiting too long.",
+    "tip": "'Mustn't' is more common in British English than American English, and is used for strong prohibition - practice it as a smooth single unit rather than two stressed words."
+  },
+  {
+    "formal": "need not",
+    "natural": "needn't",
+    "example": "You needn't worry about the small details.",
+    "tip": "'Needn't' is a more formal-sounding contraction, common in British English, meaning something isn't necessary - useful to recognize even if 'don't need to' feels more natural to say yourself."
+  },
+  {
+    "formal": "need not",
+    "natural": "needn't",
+    "example": "We needn't finish everything today.",
+    "tip": "'Needn't' is a more formal-sounding contraction, common in British English, meaning something isn't necessary - useful to recognize even if 'don't need to' feels more natural to say yourself."
+  },
+  {
+    "formal": "need not",
+    "natural": "needn't",
+    "example": "She needn't attend if she's busy.",
+    "tip": "'Needn't' is a more formal-sounding contraction, common in British English, meaning something isn't necessary - useful to recognize even if 'don't need to' feels more natural to say yourself."
+  },
+  {
+    "formal": "need not",
+    "natural": "needn't",
+    "example": "They needn't repeat the whole process.",
+    "tip": "'Needn't' is a more formal-sounding contraction, common in British English, meaning something isn't necessary - useful to recognize even if 'don't need to' feels more natural to say yourself."
+  },
+  {
+    "formal": "what is",
+    "natural": "what's",
+    "example": "What's the status on the deployment?",
+    "tip": "'What's' is one of the most common contractions in spoken English - it appears constantly in questions, so getting it fluent is high-value for sounding natural."
+  },
+  {
+    "formal": "what is",
+    "natural": "what's",
+    "example": "What's the best way to reach you?",
+    "tip": "'What's' is one of the most common contractions in spoken English - it appears constantly in questions, so getting it fluent is high-value for sounding natural."
+  },
+  {
+    "formal": "what is",
+    "natural": "what's",
+    "example": "What's causing the delay this time?",
+    "tip": "'What's' is one of the most common contractions in spoken English - it appears constantly in questions, so getting it fluent is high-value for sounding natural."
+  },
+  {
+    "formal": "what is",
+    "natural": "what's",
+    "example": "What's next on the agenda?",
+    "tip": "'What's' is one of the most common contractions in spoken English - it appears constantly in questions, so getting it fluent is high-value for sounding natural."
+  },
+  {
+    "formal": "where is",
+    "natural": "where's",
+    "example": "Where's the latest version of the file?",
+    "tip": "'Where's' contracts naturally in almost every question about location - the separated form 'where is' sounds noticeably stiffer in casual conversation."
+  },
+  {
+    "formal": "where is",
+    "natural": "where's",
+    "example": "Where's the meeting being held today?",
+    "tip": "'Where's' contracts naturally in almost every question about location - the separated form 'where is' sounds noticeably stiffer in casual conversation."
+  },
+  {
+    "formal": "where is",
+    "natural": "where's",
+    "example": "Where's he working from this week?",
+    "tip": "'Where's' contracts naturally in almost every question about location - the separated form 'where is' sounds noticeably stiffer in casual conversation."
+  },
+  {
+    "formal": "where is",
+    "natural": "where's",
+    "example": "Where's the best place to start?",
+    "tip": "'Where's' contracts naturally in almost every question about location - the separated form 'where is' sounds noticeably stiffer in casual conversation."
+  },
+  {
+    "formal": "who is",
+    "natural": "who's",
+    "example": "Who's leading the call today?",
+    "tip": "'Who's' sounds identical to 'whose' - focus on natural pronunciation in speech, since the difference only matters in writing."
+  },
+  {
+    "formal": "who is",
+    "natural": "who's",
+    "example": "Who's responsible for this module?",
+    "tip": "'Who's' sounds identical to 'whose' - focus on natural pronunciation in speech, since the difference only matters in writing."
+  },
+  {
+    "formal": "who is",
+    "natural": "who's",
+    "example": "Who's available to help right now?",
+    "tip": "'Who's' sounds identical to 'whose' - focus on natural pronunciation in speech, since the difference only matters in writing."
+  },
+  {
+    "formal": "who is",
+    "natural": "who's",
+    "example": "Who's joining us from the client side?",
+    "tip": "'Who's' sounds identical to 'whose' - focus on natural pronunciation in speech, since the difference only matters in writing."
+  },
+  {
+    "formal": "when is",
+    "natural": "when's",
+    "example": "When's the next release scheduled?",
+    "tip": "'When's' is the natural contracted form when asking about timing - common in everyday scheduling questions."
+  },
+  {
+    "formal": "when is",
+    "natural": "when's",
+    "example": "When's a good time to talk?",
+    "tip": "'When's' is the natural contracted form when asking about timing - common in everyday scheduling questions."
+  },
+  {
+    "formal": "when is",
+    "natural": "when's",
+    "example": "When's the deadline for this task?",
+    "tip": "'When's' is the natural contracted form when asking about timing - common in everyday scheduling questions."
+  },
+  {
+    "formal": "when is",
+    "natural": "when's",
+    "example": "When's she back from leave?",
+    "tip": "'When's' is the natural contracted form when asking about timing - common in everyday scheduling questions."
+  },
+  {
+    "formal": "why is",
+    "natural": "why's",
+    "example": "Why's the build failing again?",
+    "tip": "'Why's' is common in casual spoken questions, though it's used a little less often than 'what's' or 'where's' in writing."
+  },
+  {
+    "formal": "why is",
+    "natural": "why's",
+    "example": "Why's this taking longer than expected?",
+    "tip": "'Why's' is common in casual spoken questions, though it's used a little less often than 'what's' or 'where's' in writing."
+  },
+  {
+    "formal": "why is",
+    "natural": "why's",
+    "example": "Why's he not on the call yet?",
+    "tip": "'Why's' is common in casual spoken questions, though it's used a little less often than 'what's' or 'where's' in writing."
+  },
+  {
+    "formal": "why is",
+    "natural": "why's",
+    "example": "Why's the page loading so slowly?",
+    "tip": "'Why's' is common in casual spoken questions, though it's used a little less often than 'what's' or 'where's' in writing."
+  },
+  {
+    "formal": "how is",
+    "natural": "how's",
+    "example": "How's the project coming along?",
+    "tip": "'How's' is extremely common in everyday greetings and check-ins - a natural, friendly way to open a conversation."
+  },
+  {
+    "formal": "how is",
+    "natural": "how's",
+    "example": "How's your day going so far?",
+    "tip": "'How's' is extremely common in everyday greetings and check-ins - a natural, friendly way to open a conversation."
+  },
+  {
+    "formal": "how is",
+    "natural": "how's",
+    "example": "How's the new hire settling in?",
+    "tip": "'How's' is extremely common in everyday greetings and check-ins - a natural, friendly way to open a conversation."
+  },
+  {
+    "formal": "how is",
+    "natural": "how's",
+    "example": "How's the client feeling about the timeline?",
+    "tip": "'How's' is extremely common in everyday greetings and check-ins - a natural, friendly way to open a conversation."
+  },
+  {
+    "formal": "that is",
+    "natural": "that's",
+    "example": "That's exactly what I was thinking too.",
+    "tip": "'That is' becomes 'that's' in nearly every spoken sentence. It's one of the most frequent contractions in English, so getting comfortable with it instantly makes your speech sound more fluent."
+  },
+  {
+    "formal": "that is",
+    "natural": "that's",
+    "example": "That's a fair point, let's revisit it.",
+    "tip": "'That is' becomes 'that's' in nearly every spoken sentence. It's one of the most frequent contractions in English, so getting comfortable with it instantly makes your speech sound more fluent."
+  },
+  {
+    "formal": "that is",
+    "natural": "that's",
+    "example": "That's not quite what we agreed on.",
+    "tip": "'That is' becomes 'that's' in nearly every spoken sentence. It's one of the most frequent contractions in English, so getting comfortable with it instantly makes your speech sound more fluent."
+  },
+  {
+    "formal": "that is",
+    "natural": "that's",
+    "example": "That's great news, thanks for the update.",
+    "tip": "'That is' becomes 'that's' in nearly every spoken sentence. It's one of the most frequent contractions in English, so getting comfortable with it instantly makes your speech sound more fluent."
+  },
+  {
+    "formal": "there is",
+    "natural": "there's",
+    "example": "There's a small issue with the config.",
+    "tip": "'There's' is used constantly to introduce something, and native speakers contract it automatically - separating the words sounds unnaturally formal."
+  },
+  {
+    "formal": "there is",
+    "natural": "there's",
+    "example": "There's still time to make the deadline.",
+    "tip": "'There's' is used constantly to introduce something, and native speakers contract it automatically - separating the words sounds unnaturally formal."
+  },
+  {
+    "formal": "there is",
+    "natural": "there's",
+    "example": "There's someone waiting for you in reception.",
+    "tip": "'There's' is used constantly to introduce something, and native speakers contract it automatically - separating the words sounds unnaturally formal."
+  },
+  {
+    "formal": "there is",
+    "natural": "there's",
+    "example": "There's a lot to cover in today's meeting.",
+    "tip": "'There's' is used constantly to introduce something, and native speakers contract it automatically - separating the words sounds unnaturally formal."
+  },
+  {
+    "formal": "here is",
+    "natural": "here's",
+    "example": "Here's the report you asked for.",
+    "tip": "'Here's' is the natural way to hand something over or introduce information, both in speech and in casual writing."
+  },
+  {
+    "formal": "here is",
+    "natural": "here's",
+    "example": "Here's a quick summary of the changes.",
+    "tip": "'Here's' is the natural way to hand something over or introduce information, both in speech and in casual writing."
+  },
+  {
+    "formal": "here is",
+    "natural": "here's",
+    "example": "Here's what I found after testing.",
+    "tip": "'Here's' is the natural way to hand something over or introduce information, both in speech and in casual writing."
+  },
+  {
+    "formal": "here is",
+    "natural": "here's",
+    "example": "Here's the link to the shared folder.",
+    "tip": "'Here's' is the natural way to hand something over or introduce information, both in speech and in casual writing."
+  },
+  {
+    "formal": "should have",
+    "natural": "should've",
+    "example": "I should've tested this before deploying.",
+    "tip": "'Should've' is the natural spoken form - and note it's spelled 'should've', not 'should of', which is a common written mistake caused by how similar they sound."
+  },
+  {
+    "formal": "should have",
+    "natural": "should've",
+    "example": "We should've caught that bug earlier.",
+    "tip": "'Should've' is the natural spoken form - and note it's spelled 'should've', not 'should of', which is a common written mistake caused by how similar they sound."
+  },
+  {
+    "formal": "should have",
+    "natural": "should've",
+    "example": "You should've mentioned that in the standup.",
+    "tip": "'Should've' is the natural spoken form - and note it's spelled 'should've', not 'should of', which is a common written mistake caused by how similar they sound."
+  },
+  {
+    "formal": "should have",
+    "natural": "should've",
+    "example": "They should've asked before changing the scope.",
+    "tip": "'Should've' is the natural spoken form - and note it's spelled 'should've', not 'should of', which is a common written mistake caused by how similar they sound."
+  },
+  {
+    "formal": "would have",
+    "natural": "would've",
+    "example": "I would've done the same thing.",
+    "tip": "Just like 'should've', 'would've' is often misspelled as 'would of' because they sound alike - remember it's always 'have', never 'of'."
+  },
+  {
+    "formal": "would have",
+    "natural": "would've",
+    "example": "We would've finished sooner with more time.",
+    "tip": "Just like 'should've', 'would've' is often misspelled as 'would of' because they sound alike - remember it's always 'have', never 'of'."
+  },
+  {
+    "formal": "would have",
+    "natural": "would've",
+    "example": "She would've mentioned it if it mattered.",
+    "tip": "Just like 'should've', 'would've' is often misspelled as 'would of' because they sound alike - remember it's always 'have', never 'of'."
+  },
+  {
+    "formal": "would have",
+    "natural": "would've",
+    "example": "That would've been a better approach.",
+    "tip": "Just like 'should've', 'would've' is often misspelled as 'would of' because they sound alike - remember it's always 'have', never 'of'."
+  },
+  {
+    "formal": "could have",
+    "natural": "could've",
+    "example": "We could've avoided this with more testing.",
+    "tip": "'Could've' follows the same pattern - practice hearing the difference between 'could've' and 'could of' so you never make that spelling mistake in writing."
+  },
+  {
+    "formal": "could have",
+    "natural": "could've",
+    "example": "I could've sworn I sent that email.",
+    "tip": "'Could've' follows the same pattern - practice hearing the difference between 'could've' and 'could of' so you never make that spelling mistake in writing."
+  },
+  {
+    "formal": "could have",
+    "natural": "could've",
+    "example": "They could've given us more notice.",
+    "tip": "'Could've' follows the same pattern - practice hearing the difference between 'could've' and 'could of' so you never make that spelling mistake in writing."
+  },
+  {
+    "formal": "could have",
+    "natural": "could've",
+    "example": "It could've been a much bigger problem.",
+    "tip": "'Could've' follows the same pattern - practice hearing the difference between 'could've' and 'could of' so you never make that spelling mistake in writing."
+  },
+  {
+    "formal": "might have",
+    "natural": "might've",
+    "example": "I might've missed that message earlier.",
+    "tip": "'Might've' is common when speculating about something that possibly happened - a natural, softer alternative to a firm statement."
+  },
+  {
+    "formal": "might have",
+    "natural": "might've",
+    "example": "They might've already fixed it upstream.",
+    "tip": "'Might've' is common when speculating about something that possibly happened - a natural, softer alternative to a firm statement."
+  },
+  {
+    "formal": "might have",
+    "natural": "might've",
+    "example": "She might've been in a different meeting.",
+    "tip": "'Might've' is common when speculating about something that possibly happened - a natural, softer alternative to a firm statement."
+  },
+  {
+    "formal": "might have",
+    "natural": "might've",
+    "example": "It might've been a temporary network issue.",
+    "tip": "'Might've' is common when speculating about something that possibly happened - a natural, softer alternative to a firm statement."
+  },
+  {
+    "formal": "must have",
+    "natural": "must've",
+    "example": "Something must've gone wrong during the deploy.",
+    "tip": "'Must've' expresses a confident guess about the past - very common in everyday troubleshooting conversations."
+  },
+  {
+    "formal": "must have",
+    "natural": "must've",
+    "example": "You must've missed the email I sent.",
+    "tip": "'Must've' expresses a confident guess about the past - very common in everyday troubleshooting conversations."
+  },
+  {
+    "formal": "must have",
+    "natural": "must've",
+    "example": "That must've taken a lot of effort.",
+    "tip": "'Must've' expresses a confident guess about the past - very common in everyday troubleshooting conversations."
+  },
+  {
+    "formal": "must have",
+    "natural": "must've",
+    "example": "It must've been fixed in the last update.",
+    "tip": "'Must've' expresses a confident guess about the past - very common in everyday troubleshooting conversations."
+  },
+  {
+    "formal": "want to",
+    "natural": "wanna",
+    "example": "Do you wanna grab lunch before the call?",
+    "tip": "'Wanna' is extremely common in relaxed spoken English, though it's too casual for formal writing or client-facing emails - save it for informal conversation with colleagues you know well."
+  },
+  {
+    "formal": "want to",
+    "natural": "wanna",
+    "example": "I wanna double-check this before we ship it.",
+    "tip": "'Wanna' is extremely common in relaxed spoken English, though it's too casual for formal writing or client-facing emails - save it for informal conversation with colleagues you know well."
+  },
+  {
+    "formal": "want to",
+    "natural": "wanna",
+    "example": "Do you wanna join the sync tomorrow?",
+    "tip": "'Wanna' is extremely common in relaxed spoken English, though it's too casual for formal writing or client-facing emails - save it for informal conversation with colleagues you know well."
+  },
+  {
+    "formal": "want to",
+    "natural": "wanna",
+    "example": "I don't wanna rush this decision.",
+    "tip": "'Wanna' is extremely common in relaxed spoken English, though it's too casual for formal writing or client-facing emails - save it for informal conversation with colleagues you know well."
+  },
+  {
+    "formal": "going to",
+    "natural": "gonna",
+    "example": "I'm gonna finish this by end of day.",
+    "tip": "'Gonna' is one of the most common reductions in spoken English for talking about future plans - again, keep it for casual speech rather than professional writing."
+  },
+  {
+    "formal": "going to",
+    "natural": "gonna",
+    "example": "We're gonna need more time on this one.",
+    "tip": "'Gonna' is one of the most common reductions in spoken English for talking about future plans - again, keep it for casual speech rather than professional writing."
+  },
+  {
+    "formal": "going to",
+    "natural": "gonna",
+    "example": "Are you gonna join the stand-up today?",
+    "tip": "'Gonna' is one of the most common reductions in spoken English for talking about future plans - again, keep it for casual speech rather than professional writing."
+  },
+  {
+    "formal": "going to",
+    "natural": "gonna",
+    "example": "It's gonna take a while to fix properly.",
+    "tip": "'Gonna' is one of the most common reductions in spoken English for talking about future plans - again, keep it for casual speech rather than professional writing."
+  },
+  {
+    "formal": "got to",
+    "natural": "gotta",
+    "example": "I've gotta run to another meeting.",
+    "tip": "'Gotta' is the casual spoken form of 'have got to', used constantly in relaxed conversation to mean 'need to' or 'must'."
+  },
+  {
+    "formal": "got to",
+    "natural": "gotta",
+    "example": "We've gotta fix this before the release.",
+    "tip": "'Gotta' is the casual spoken form of 'have got to', used constantly in relaxed conversation to mean 'need to' or 'must'."
+  },
+  {
+    "formal": "got to",
+    "natural": "gotta",
+    "example": "You gotta see the new dashboard, it's great.",
+    "tip": "'Gotta' is the casual spoken form of 'have got to', used constantly in relaxed conversation to mean 'need to' or 'must'."
+  },
+  {
+    "formal": "got to",
+    "natural": "gotta",
+    "example": "I gotta follow up with the client today.",
+    "tip": "'Gotta' is the casual spoken form of 'have got to', used constantly in relaxed conversation to mean 'need to' or 'must'."
+  },
+  {
+    "formal": "have to",
+    "natural": "hafta",
+    "example": "I hafta finish this before I leave.",
+    "tip": "'Hafta' is a very informal spoken reduction of 'have to' - useful to recognize when listening to fast native speech, though you'd rarely write it this way."
+  },
+  {
+    "formal": "have to",
+    "natural": "hafta",
+    "example": "We hafta wait for approval first.",
+    "tip": "'Hafta' is a very informal spoken reduction of 'have to' - useful to recognize when listening to fast native speech, though you'd rarely write it this way."
+  },
+  {
+    "formal": "have to",
+    "natural": "hafta",
+    "example": "You hafta try the new build, it's much faster.",
+    "tip": "'Hafta' is a very informal spoken reduction of 'have to' - useful to recognize when listening to fast native speech, though you'd rarely write it this way."
+  },
+  {
+    "formal": "have to",
+    "natural": "hafta",
+    "example": "She hafta reschedule the call to Friday.",
+    "tip": "'Hafta' is a very informal spoken reduction of 'have to' - useful to recognize when listening to fast native speech, though you'd rarely write it this way."
+  },
+  {
+    "formal": "kind of",
+    "natural": "kinda",
+    "example": "It's kinda hard to explain over email.",
+    "tip": "'Kinda' softens a statement in casual speech - useful for sounding natural, though in professional contexts 'somewhat' or 'a little' may fit better."
+  },
+  {
+    "formal": "kind of",
+    "natural": "kinda",
+    "example": "I'm kinda busy right now, can we talk later?",
+    "tip": "'Kinda' softens a statement in casual speech - useful for sounding natural, though in professional contexts 'somewhat' or 'a little' may fit better."
+  },
+  {
+    "formal": "kind of",
+    "natural": "kinda",
+    "example": "That's kinda what I was expecting, actually.",
+    "tip": "'Kinda' softens a statement in casual speech - useful for sounding natural, though in professional contexts 'somewhat' or 'a little' may fit better."
+  },
+  {
+    "formal": "kind of",
+    "natural": "kinda",
+    "example": "This bug is kinda tricky to reproduce.",
+    "tip": "'Kinda' softens a statement in casual speech - useful for sounding natural, though in professional contexts 'somewhat' or 'a little' may fit better."
+  },
+  {
+    "formal": "sort of",
+    "natural": "sorta",
+    "example": "It sorta depends on how the tests go.",
+    "tip": "'Sorta' works the same way as 'kinda' - a natural hedge in casual speech, less appropriate in formal writing or client communication."
+  },
+  {
+    "formal": "sort of",
+    "natural": "sorta",
+    "example": "I sorta expected that outcome already.",
+    "tip": "'Sorta' works the same way as 'kinda' - a natural hedge in casual speech, less appropriate in formal writing or client communication."
+  },
+  {
+    "formal": "sort of",
+    "natural": "sorta",
+    "example": "We're sorta stuck until the API is fixed.",
+    "tip": "'Sorta' works the same way as 'kinda' - a natural hedge in casual speech, less appropriate in formal writing or client communication."
+  },
+  {
+    "formal": "sort of",
+    "natural": "sorta",
+    "example": "That's sorta the plan for now.",
+    "tip": "'Sorta' works the same way as 'kinda' - a natural hedge in casual speech, less appropriate in formal writing or client communication."
+  },
+  {
+    "formal": "out of",
+    "natural": "outta",
+    "example": "We're running outta time before the demo.",
+    "tip": "'Outta' is a casual spoken reduction, common in phrases like 'out of time' or 'out of office' when speaking quickly and informally."
+  },
+  {
+    "formal": "out of",
+    "natural": "outta",
+    "example": "I'm outta office ideas for this one.",
+    "tip": "'Outta' is a casual spoken reduction, common in phrases like 'out of time' or 'out of office' when speaking quickly and informally."
+  },
+  {
+    "formal": "out of",
+    "natural": "outta",
+    "example": "He's outta the loop on this decision.",
+    "tip": "'Outta' is a casual spoken reduction, common in phrases like 'out of time' or 'out of office' when speaking quickly and informally."
+  },
+  {
+    "formal": "out of",
+    "natural": "outta",
+    "example": "That came outta nowhere, honestly.",
+    "tip": "'Outta' is a casual spoken reduction, common in phrases like 'out of time' or 'out of office' when speaking quickly and informally."
+  },
+  {
+    "formal": "a lot of",
+    "natural": "a lotta",
+    "example": "There's a lotta work left on this feature.",
+    "tip": "'A lotta' is a very informal spoken reduction - fine for casual chats with colleagues, but stick to 'a lot of' in writing or formal presentations."
+  },
+  {
+    "formal": "a lot of",
+    "natural": "a lotta",
+    "example": "We got a lotta good feedback from the demo.",
+    "tip": "'A lotta' is a very informal spoken reduction - fine for casual chats with colleagues, but stick to 'a lot of' in writing or formal presentations."
+  },
+  {
+    "formal": "a lot of",
+    "natural": "a lotta",
+    "example": "That's a lotta data to process at once.",
+    "tip": "'A lotta' is a very informal spoken reduction - fine for casual chats with colleagues, but stick to 'a lot of' in writing or formal presentations."
+  },
+  {
+    "formal": "a lot of",
+    "natural": "a lotta",
+    "example": "I've got a lotta respect for how you handled that.",
+    "tip": "'A lotta' is a very informal spoken reduction - fine for casual chats with colleagues, but stick to 'a lot of' in writing or formal presentations."
+  },
+  {
+    "formal": "give me",
+    "natural": "gimme",
+    "example": "Gimme a second, I'll pull up the file.",
+    "tip": "'Gimme' is casual spoken English for 'give me' - common with friends or close teammates, but avoid it in professional writing."
+  },
+  {
+    "formal": "give me",
+    "natural": "gimme",
+    "example": "Gimme a call once you're free.",
+    "tip": "'Gimme' is casual spoken English for 'give me' - common with friends or close teammates, but avoid it in professional writing."
+  },
+  {
+    "formal": "give me",
+    "natural": "gimme",
+    "example": "Can you gimme a quick summary?",
+    "tip": "'Gimme' is casual spoken English for 'give me' - common with friends or close teammates, but avoid it in professional writing."
+  },
+  {
+    "formal": "give me",
+    "natural": "gimme",
+    "example": "Gimme your thoughts when you get a chance.",
+    "tip": "'Gimme' is casual spoken English for 'give me' - common with friends or close teammates, but avoid it in professional writing."
+  },
+  {
+    "formal": "let me",
+    "natural": "lemme",
+    "example": "Lemme know if you need anything else.",
+    "tip": "'Lemme' is the casual spoken form of 'let me' - very common in relaxed conversation, though 'let me' is still the safer choice in professional settings."
+  },
+  {
+    "formal": "let me",
+    "natural": "lemme",
+    "example": "Lemme check that and get back to you.",
+    "tip": "'Lemme' is the casual spoken form of 'let me' - very common in relaxed conversation, though 'let me' is still the safer choice in professional settings."
+  },
+  {
+    "formal": "let me",
+    "natural": "lemme",
+    "example": "Lemme walk you through the process quickly.",
+    "tip": "'Lemme' is the casual spoken form of 'let me' - very common in relaxed conversation, though 'let me' is still the safer choice in professional settings."
+  },
+  {
+    "formal": "let me",
+    "natural": "lemme",
+    "example": "Lemme grab my notes before we start.",
+    "tip": "'Lemme' is the casual spoken form of 'let me' - very common in relaxed conversation, though 'let me' is still the safer choice in professional settings."
+  },
+  {
+    "formal": "do not know",
+    "natural": "dunno",
+    "example": "Honestly, I dunno what caused that error.",
+    "tip": "'Dunno' is a very casual spoken contraction of 'don't know' - useful to recognize in fast native speech, but stick to 'I'm not sure' in professional conversation."
+  },
+  {
+    "formal": "do not know",
+    "natural": "dunno",
+    "example": "Dunno if we'll finish by Friday.",
+    "tip": "'Dunno' is a very casual spoken contraction of 'don't know' - useful to recognize in fast native speech, but stick to 'I'm not sure' in professional conversation."
+  },
+  {
+    "formal": "do not know",
+    "natural": "dunno",
+    "example": "I dunno, maybe we should ask the client.",
+    "tip": "'Dunno' is a very casual spoken contraction of 'don't know' - useful to recognize in fast native speech, but stick to 'I'm not sure' in professional conversation."
+  },
+  {
+    "formal": "do not know",
+    "natural": "dunno",
+    "example": "She dunno about the schedule change yet.",
+    "tip": "'Dunno' is a very casual spoken contraction of 'don't know' - useful to recognize in fast native speech, but stick to 'I'm not sure' in professional conversation."
+  },
+  {
+    "formal": "ought to",
+    "natural": "oughta",
+    "example": "We oughta review this before it ships.",
+    "tip": "'Oughta' is a casual spoken reduction of 'ought to', roughly meaning 'should' - more common in American English conversation than in writing."
+  },
+  {
+    "formal": "ought to",
+    "natural": "oughta",
+    "example": "You oughta mention that in the retro.",
+    "tip": "'Oughta' is a casual spoken reduction of 'ought to', roughly meaning 'should' - more common in American English conversation than in writing."
+  },
+  {
+    "formal": "ought to",
+    "natural": "oughta",
+    "example": "I oughta double-check those numbers again.",
+    "tip": "'Oughta' is a casual spoken reduction of 'ought to', roughly meaning 'should' - more common in American English conversation than in writing."
+  },
+  {
+    "formal": "ought to",
+    "natural": "oughta",
+    "example": "They oughta know about the delay by now.",
+    "tip": "'Oughta' is a casual spoken reduction of 'ought to', roughly meaning 'should' - more common in American English conversation than in writing."
+  }
 ]

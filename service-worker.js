@@ -1,4 +1,4 @@
-const CACHE_NAME = "english-master-v22";
+const CACHE_NAME = "english-master-v23";
 const APP_SHELL = [
   "./manifest.json",
   "./css/style.css",
@@ -18,6 +18,7 @@ const APP_SHELL = [
   "./js/tongue-twisters.js",
   "./js/flashcards.js",
   "./js/listening-practice.js",
+  "./js/speaking-test.js",
   "./icons/icon.svg",
   "./data/curriculum.json",
   "./data/daily-conversations.json",
@@ -27,6 +28,7 @@ const APP_SHELL = [
   "./data/tongue-twisters.json",
   "./data/listening-dictation.json",
   "./data/listening-comprehension.json",
+  "./data/speaking-test-topics.json",
 ];
 
 self.addEventListener("install", (event) => {

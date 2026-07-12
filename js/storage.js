@@ -15,6 +15,7 @@ function defaultProgress() {
     theme: "light",
     dailyConversation: { lastCompletedDate: null },
     flashcards: { lastSessionCompletedDate: null },
+    speakingTest: { lastCompletedDate: null },
   };
 }
 
@@ -132,6 +133,19 @@ function recordFlashcardSession() {
   p.flashcards.lastSessionCompletedDate = today;
   p = touchStreak(p);
   p = addXP(p, 20);
+  saveProgress(p);
+  return { progress: p, awarded: true };
+}
+
+function recordSpeakingTest() {
+  let p = getProgress();
+  const today = todayStr();
+  if (p.speakingTest.lastCompletedDate === today) {
+    return { progress: p, awarded: false };
+  }
+  p.speakingTest.lastCompletedDate = today;
+  p = touchStreak(p);
+  p = addXP(p, 30);
   saveProgress(p);
   return { progress: p, awarded: true };
 }

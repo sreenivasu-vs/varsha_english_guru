@@ -1,0 +1,77 @@
+[
+  {
+    "id": "topic-influential-person",
+    "title": "Describe a person who has influenced you.",
+    "bullets": ["who this person is", "how you know them", "what qualities they have", "explain why they have influenced you"]
+  },
+  {
+    "id": "topic-memorable-trip",
+    "title": "Describe a memorable trip you have taken.",
+    "bullets": ["where you went", "who you went with", "what you did there", "explain why it was memorable"]
+  },
+  {
+    "id": "topic-skill-to-learn",
+    "title": "Describe a skill you would like to learn.",
+    "bullets": ["what the skill is", "why you want to learn it", "how you would learn it", "explain how it would benefit you"]
+  },
+  {
+    "id": "topic-helped-someone",
+    "title": "Describe a time you helped someone.",
+    "bullets": ["who you helped", "what the situation was", "what you did", "explain how you felt about it"]
+  },
+  {
+    "id": "topic-technology-used",
+    "title": "Describe a piece of technology you use often.",
+    "bullets": ["what it is", "how you use it", "when you started using it", "explain why it's useful to you"]
+  },
+  {
+    "id": "topic-important-decision",
+    "title": "Describe an important decision you made.",
+    "bullets": ["what the decision was", "when you made it", "what factors you considered", "explain how it affected your life"]
+  },
+  {
+    "id": "topic-work-project",
+    "title": "Describe a project you worked on at work or school.",
+    "bullets": ["what the project was", "who you worked with", "what challenges you faced", "explain what you learned from it"]
+  },
+  {
+    "id": "topic-book-impressed",
+    "title": "Describe a book or article that impressed you.",
+    "bullets": ["what it was about", "when you read it", "why you chose to read it", "explain why it impressed you"]
+  },
+  {
+    "id": "topic-future-goal",
+    "title": "Describe a goal you want to achieve in the next few years.",
+    "bullets": ["what the goal is", "why it's important to you", "how you plan to achieve it", "explain what challenges you might face"]
+  },
+  {
+    "id": "topic-difficult-problem",
+    "title": "Describe a time you had to solve a difficult problem.",
+    "bullets": ["what the problem was", "how you approached it", "what the outcome was", "explain what you learned"]
+  },
+  {
+    "id": "topic-admired-colleague",
+    "title": "Describe a colleague or classmate you admire.",
+    "bullets": ["who they are", "how you know them", "what makes them stand out", "explain why you admire them"]
+  },
+  {
+    "id": "topic-workplace-change",
+    "title": "Describe a change you would like to make at your workplace.",
+    "bullets": ["what the change is", "why it's needed", "how you would implement it", "explain what impact it would have"]
+  },
+  {
+    "id": "topic-under-pressure",
+    "title": "Describe a time you had to work under pressure.",
+    "bullets": ["what the situation was", "why there was pressure", "how you handled it", "explain how you felt afterward"]
+  },
+  {
+    "id": "topic-place-to-visit",
+    "title": "Describe a city or place you would like to visit.",
+    "bullets": ["where it is", "why you want to go there", "what you would do there", "explain why it interests you"]
+  },
+  {
+    "id": "topic-proud-achievement",
+    "title": "Describe an achievement you are proud of.",
+    "bullets": ["what the achievement was", "how you accomplished it", "who helped you", "explain why you are proud of it"]
+  }
+]

@@ -1,9 +1,10 @@
-const CACHE_NAME = "english-master-v20";
+const CACHE_NAME = "english-master-v21";
 const APP_SHELL = [
   "./manifest.json",
   "./css/style.css",
   "./js/app.js",
   "./js/storage.js",
+  "./js/srs.js",
   "./js/gamification.js",
   "./js/auth.js",
   "./js/auth-gate.js",
@@ -15,6 +16,7 @@ const APP_SHELL = [
   "./js/daily-conversation.js",
   "./js/shadowing-practice.js",
   "./js/tongue-twisters.js",
+  "./js/flashcards.js",
   "./icons/icon.svg",
   "./data/curriculum.json",
   "./data/daily-conversations.json",
@@ -50,7 +52,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== self.location.origin) return;
 
-  if (url.pathname.includes("/data/lessons/")) {
+  if (url.pathname.includes("/data/lessons/") || url.pathname.endsWith("/data/flashcards.json")) {
     event.respondWith(
       caches.open(CACHE_NAME).then(async (cache) => {
         const cached = await cache.match(event.request);

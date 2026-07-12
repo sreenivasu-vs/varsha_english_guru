@@ -180,6 +180,7 @@ async function initDashboard() {
   renderWeak();
   renderLevels();
   renderDailyConversationCard();
+  renderFlashcardsCard();
 
   if ("serviceWorker" in navigator) {
     setupServiceWorkerUpdates();
@@ -207,6 +208,19 @@ async function renderDailyConversationCard() {
   const progress = getProgress();
   if (progress.dailyConversation && progress.dailyConversation.lastCompletedDate === todayStr()) {
     doneEl.style.display = "inline";
+  }
+}
+
+async function renderFlashcardsCard() {
+  const dueEl = document.getElementById("flashcardsDue");
+  if (!dueEl) return;
+  try {
+    const res = await fetch("data/flashcards.json");
+    const cards = await res.json();
+    const due = peekDueCount(cards);
+    dueEl.textContent = due === 0 ? "No cards" : `${due} card${due === 1 ? "" : "s"}`;
+  } catch (e) {
+    dueEl.textContent = "Ready now";
   }
 }
 

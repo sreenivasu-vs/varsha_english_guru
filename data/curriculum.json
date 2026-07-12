@@ -178,7 +178,8 @@
         {
           "title": "Common Idioms",
           "lessons": [
-            { "id": "idioms-set-1", "title": "Everyday Idioms - Set 1" }
+            { "id": "idioms-set-1", "title": "Everyday Idioms - Set 1" },
+            { "id": "idioms-daily-conversation", "title": "Daily Conversation - 50 Common Phrases & Idioms" }
           ]
         }
       ]

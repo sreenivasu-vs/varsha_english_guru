@@ -1,0 +1,312 @@
+[
+  {
+    "verb": "Go",
+    "telugu": "వెళ్ళు (veḷḷu)",
+    "v1": "go", "v2": "went", "v3": "gone", "v4": "going", "v5": "goes",
+    "pronunciation": "/ɡoʊ/ (rhymes with 'know')",
+    "definition": "To move or travel from one place to another; to proceed or leave.",
+    "commonUses": ["Talking about travel or movement", "Describing daily routines and habits", "Making future plans ('going to')", "Talking about a state or condition changing ('go wrong', 'go bad')"],
+    "beginnerSentences": ["I go to school every day.", "She goes to the market on Sundays.", "We go home at six o'clock.", "He went to bed early last night.", "They have gone to the airport.", "Do you go to the gym often?", "Let's go for a walk.", "I am going to the store.", "My father goes to work by bus.", "Where did you go yesterday?"],
+    "intermediateSentences": ["I've been going to this doctor for years, and she's always thorough.", "The meeting went smoothly, and everyone left satisfied.", "If the plan goes well, we'll expand to two more cities.", "She's going through a difficult time right now.", "The milk has gone bad, so we need to throw it out.", "He's going to great lengths to fix this problem.", "Things went downhill after the manager left.", "I'm not sure this color goes with the curtains.", "The negotiations are going nowhere without more information.", "We should let the matter go and move forward."],
+    "businessSentences": ["The project is going according to schedule.", "Let's go over the quarterly numbers before the call.", "I'll go ahead and send the proposal today.", "The client wants to go with a different vendor.", "We need to go through the contract line by line.", "Profits went up by fifteen percent this quarter.", "She's going to present the findings at the board meeting.", "Let's go with plan B if the client doesn't respond.", "The budget approval has gone through finance.", "I'll go check with the team and get back to you."],
+    "questions": ["Where do you usually go on weekends?", "What time did you go to bed last night?", "Have you ever gone abroad for work?", "How often do you go to the gym?", "Where are you going after this meeting?", "Did the presentation go well?", "What made you go into this profession?", "How did the interview go?", "Are you going to the office tomorrow?", "Who did you go with to the conference?"],
+    "commonMistakes": [
+      { "wrong": "I goed to the market.", "right": "I went to the market.", "why": "'Go' is an irregular verb - its past tense is 'went', not 'goed'. Irregular verbs don't follow the add '-ed' rule, so they must be memorized individually." },
+      { "wrong": "She go to school every day.", "right": "She goes to school every day.", "why": "With he/she/it in the present simple, the verb needs an 's' - 'goes', not 'go'." },
+      { "wrong": "I have go there before.", "right": "I have gone there before.", "why": "After 'have/has', use the past participle (V3) 'gone', not the base form 'go'." }
+    ],
+    "grammarTips": ["'Go' is one of the most irregular verbs in English - go, went, gone - so it's worth memorizing these three forms as a set rather than guessing a pattern.", "Use 'going to' for planned future actions ('I'm going to call him'), and 'will' for spontaneous decisions or predictions ('I think it will rain').", "'Go' pairs with many prepositions to create different meanings: go out (leave for fun), go on (continue), go through (experience or examine), go over (review)."],
+    "synonyms": ["move", "travel", "proceed", "depart", "head"],
+    "antonyms": ["come", "stay", "remain", "arrive"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "Are you going to the party tonight?" },
+      { "speaker": "B", "line": "I'm not sure yet. Are you going?" },
+      { "speaker": "A", "line": "Yeah, I think I'll go for a couple of hours." },
+      { "speaker": "B", "line": "Okay, let me know how it goes!" }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct past tense: 'Yesterday, I ___ to the market.'", "options": ["go", "goed", "went", "gone"], "answer": "went", "explanation": "'Went' is the correct past simple (V2) form of 'go'." },
+      { "type": "mcq", "question": "Choose the correct sentence.", "options": ["She go to work by car.", "She goes to work by car.", "She going to work by car.", "She gone to work by car."], "answer": "She goes to work by car.", "explanation": "With 'she' (third person singular) in the present simple, the verb needs an 's': 'goes'." },
+      { "type": "fill", "question": "I have already ___ (go) to that restaurant twice.", "answer": "gone", "explanation": "After 'have', use the past participle (V3) form: 'gone'." }
+    ]
+  },
+  {
+    "verb": "Be",
+    "telugu": "ఉండు (uṇḍu)",
+    "v1": "be", "v2": "was/were", "v3": "been", "v4": "being", "v5": "is/am/are",
+    "pronunciation": "/biː/ (rhymes with 'see')",
+    "definition": "To exist; to have a particular identity, quality, or state; used as a linking verb to connect a subject with a description.",
+    "commonUses": ["Describing identity and characteristics", "Talking about location", "Forming continuous tenses (is/am/are + -ing)", "Forming the passive voice (be + past participle)"],
+    "beginnerSentences": ["I am a student.", "She is my sister.", "We are from India.", "He was tired yesterday.", "They were at home.", "It is cold today.", "You are very kind.", "I was happy to see you.", "The book is on the table.", "Is she your friend?"],
+    "intermediateSentences": ["I've been working here for three years.", "She was being unusually quiet during the meeting.", "If I were you, I would apologize first.", "The report is being reviewed by the legal team.", "He's been through a lot this year.", "We were about to leave when you called.", "This has been one of the busiest weeks of the year.", "The decision will be made by Friday.", "They've always been supportive of new ideas.", "It would be great if you could join us."],
+    "businessSentences": ["The meeting is scheduled for 3 PM.", "This proposal has been approved by the board.", "We are currently reviewing the budget.", "The client was satisfied with the final deliverable.", "I am confident this approach will work.", "The report is being finalized as we speak.", "Our goal is to increase revenue by 20 percent.", "The team has been working overtime this month.", "This issue is a top priority for us.", "The contract will be signed next week."],
+    "questions": ["Where are you from?", "How long have you been working here?", "What time is the meeting?", "Were you at the conference last week?", "Is this seat taken?", "How was your weekend?", "Are you free this afternoon?", "Have you ever been to Japan?", "Who is responsible for this project?", "What would you be doing if not this job?"],
+    "commonMistakes": [
+      { "wrong": "She are my friend.", "right": "She is my friend.", "why": "'Are' goes with 'you/we/they', but 'she' (third person singular) needs 'is'." },
+      { "wrong": "I am agree with you.", "right": "I agree with you.", "why": "'Agree' is already a full verb - don't add 'am' before it. Only use 'am/is/are' before adjectives, nouns, or -ing forms, not before ordinary verbs." },
+      { "wrong": "He is knowing the answer.", "right": "He knows the answer.", "why": "'Know' is a stative verb (describing a mental state, not an action), so it's not normally used in the continuous (-ing) form." }
+    ],
+    "grammarTips": ["'Be' changes form more than any other English verb: am, is, are, was, were, been, being - there's no way around memorizing all of them.", "Use 'been' after 'have/has/had' (I have been there), and 'being' after am/is/are/was/were for the continuous or passive (She is being helpful).", "Stative verbs like 'know', 'want', 'believe', and 'love' are rarely used with 'be + -ing' because they describe states, not actions in progress."],
+    "synonyms": ["exist", "occur", "live"],
+    "antonyms": [],
+    "dailyConversation": [
+      { "speaker": "A", "line": "Hi, how are you?" },
+      { "speaker": "B", "line": "I'm good, thanks! How about you?" },
+      { "speaker": "A", "line": "I'm doing well. Is this your first time here?" },
+      { "speaker": "B", "line": "Yes, it is. I'm really enjoying it so far." }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct form: 'They ___ at the park now.'", "options": ["is", "am", "are", "be"], "answer": "are", "explanation": "'They' takes 'are' in the present simple." },
+      { "type": "mcq", "question": "Choose the correct sentence.", "options": ["I am knowing him well.", "I know him well.", "I am know him well.", "I knows him well."], "answer": "I know him well.", "explanation": "'Know' is a stative verb and isn't normally used with 'am' or in the -ing form." },
+      { "type": "fill", "question": "This report has ___ (be) reviewed twice already.", "answer": "been", "explanation": "After 'has', use the past participle 'been'." }
+    ]
+  },
+  {
+    "verb": "Have",
+    "telugu": "కలిగి ఉండు (kaligi uṇḍu)",
+    "v1": "have", "v2": "had", "v3": "had", "v4": "having", "v5": "has",
+    "pronunciation": "/hæv/ (rhymes with 'have' in 'have fun')",
+    "definition": "To possess, own, or hold something; also used as an auxiliary verb to form perfect tenses.",
+    "commonUses": ["Talking about possession", "Describing relationships and experiences", "Forming perfect tenses (have/has + past participle)", "Talking about obligations ('have to')"],
+    "beginnerSentences": ["I have a car.", "She has two brothers.", "We have a meeting today.", "He had a good time at the party.", "They have a big house.", "Do you have a pen?", "I have to go now.", "She has a headache.", "We had lunch together.", "Does he have a laptop?"],
+    "intermediateSentences": ["I've had this phone for almost three years now.", "She has to finish the report before she leaves.", "We've had some disagreements, but we always work it out.", "Having reviewed the data, I think we should proceed.", "He had already left by the time I arrived.", "You'll have plenty of time to prepare before the exam.", "I've never had a problem with this supplier before.", "They had been waiting for over an hour.", "Do you have any experience with this software?", "She has a habit of double-checking everything."],
+    "businessSentences": ["We have a call scheduled with the client at noon.", "The team has completed the first phase of the project.", "I'll have the report ready by tomorrow morning.", "We had a productive discussion about the roadmap.", "Do you have any concerns about the timeline?", "The company has grown significantly this year.", "We're having some issues with the server today.", "I have a few questions about the proposal.", "They've had positive feedback from most clients.", "We need to have this finalized by end of week."],
+    "questions": ["Do you have any siblings?", "How long have you had this job?", "Do you have time to talk right now?", "Have you had breakfast yet?", "What do you have planned for the weekend?", "Does she have any experience in marketing?", "Have you ever had to deal with a difficult client?", "What do you have to do before the deadline?", "Did you have a good trip?", "Do we have everything we need for the meeting?"],
+    "commonMistakes": [
+      { "wrong": "I have 25 years old.", "right": "I am 25 years old.", "why": "Age in English uses 'be', not 'have' - this is a very common translation mistake from languages where age uses 'have'. Say 'I am' + age, not 'I have' + age." },
+      { "wrong": "She have a car.", "right": "She has a car.", "why": "With he/she/it, 'have' becomes 'has' in the present simple." },
+      { "wrong": "I have go there yesterday.", "right": "I went there yesterday.", "why": "Don't mix 'have' with a simple past time word like 'yesterday'. Use plain past tense ('went') for a finished, specific past time; save 'have + past participle' for unspecified or recent past." }
+    ],
+    "grammarTips": ["'Have' does double duty in English: as a main verb meaning 'possess' (I have a car), and as a helper verb for perfect tenses (I have finished).", "'Have to' expresses obligation, similar to 'must': 'I have to submit this by Friday' means it's required, not optional.", "Don't use 'have' to talk about age, hunger, or temperature the way some languages do - English uses 'be' instead: 'I am hungry', not 'I have hunger'."],
+    "synonyms": ["possess", "own", "hold"],
+    "antonyms": ["lack", "want"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "Do you have a minute to talk?" },
+      { "speaker": "B", "line": "Sure, I have about ten minutes before my next call." },
+      { "speaker": "A", "line": "Great, I just have a couple of quick questions." },
+      { "speaker": "B", "line": "No problem, go ahead." }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct sentence.", "options": ["I have 30 years old.", "I am 30 years old.", "I has 30 years old.", "I am having 30 years."], "answer": "I am 30 years old.", "explanation": "English uses 'be' (am/is/are), not 'have', to talk about age." },
+      { "type": "mcq", "question": "Choose the correct form: 'He ___ a meeting every Monday.'", "options": ["have", "has", "having", "had"], "answer": "has", "explanation": "With 'he' (third person singular), 'have' becomes 'has'." },
+      { "type": "fill", "question": "By the time we arrived, the meeting had already ___ (start).", "answer": "started", "explanation": "Past perfect (had + past participle) describes an action completed before another past action." }
+    ]
+  },
+  {
+    "verb": "Do",
+    "telugu": "చేయు (cēyu)",
+    "v1": "do", "v2": "did", "v3": "done", "v4": "doing", "v5": "does",
+    "pronunciation": "/duː/ (rhymes with 'too')",
+    "definition": "To perform an action or task; also used as an auxiliary verb to form questions and negatives in the simple tenses.",
+    "commonUses": ["Talking about tasks and activities", "Forming questions in the simple present/past ('Do you...?', 'Did she...?')", "Forming negatives ('I don't...', 'She doesn't...')", "Emphasizing a statement ('I do agree')"],
+    "beginnerSentences": ["I do my homework every evening.", "She does the dishes after dinner.", "We did our best in the exam.", "He doesn't like coffee.", "Do you speak English?", "I am doing my project now.", "They did a great job.", "Does she work here?", "What are you doing?", "I didn't see him yesterday."],
+    "intermediateSentences": ["I've done everything I can to help with this project.", "She's doing really well in her new role.", "Did you manage to finish the report on time?", "We're doing a full review of the process next month.", "He does his best work early in the morning.", "I don't think this approach will work.", "What has she done to improve her performance?", "They did mention some concerns during the call.", "I do believe this is the right decision.", "We've been doing this for over five years now."],
+    "businessSentences": ["What does this department do exactly?", "We did some research before launching the product.", "I'll do a quick review before sending it out.", "The team is doing well against this quarter's targets.", "Did the client sign off on the final version?", "We don't have the budget for that right now.", "She's doing a fantastic job leading this project.", "What can we do to improve customer satisfaction?", "I've done a preliminary analysis of the numbers.", "Let's do a quick recap before we wrap up."],
+    "questions": ["What do you do for a living?", "Did you finish the assignment?", "What are you doing this weekend?", "Does this train go to the city center?", "How did the presentation go?", "What can I do to help?", "Have you done this kind of work before?", "Do you usually work from home?", "What did you do during your last vacation?", "Does she know about the change of plans?"],
+    "commonMistakes": [
+      { "wrong": "She don't like tea.", "right": "She doesn't like tea.", "why": "With he/she/it, 'don't' becomes 'doesn't'. Using 'don't' with a third-person singular subject is one of the most common ESL errors." },
+      { "wrong": "What you do do?", "right": "What do you do?", "why": "In questions, 'do' comes right after the question word and before the subject: 'What do you do?' not 'What you do do?'" },
+      { "wrong": "I am doing agree.", "right": "I agree.", "why": "Don't add 'am doing' before an ordinary verb like 'agree'. 'Do' is only needed as a helper for questions/negatives in simple tenses, not as a filler before every verb." }
+    ],
+    "grammarTips": ["'Do' as a helper verb disappears in statements but reappears in questions and negatives: 'I like tea' becomes 'Do you like tea?' and 'I don't like tea'.", "Never use 'do/does/did' together with another helper like 'am/is/are' or 'have' in the same clause - 'do' has one specific job per sentence.", "'Do' can add emphasis to a statement: compare 'I like it' (neutral) with 'I do like it' (strong emphasis, often used to contradict doubt)."],
+    "synonyms": ["perform", "carry out", "accomplish", "complete"],
+    "antonyms": ["neglect", "abandon"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "What do you do on weekends?" },
+      { "speaker": "B", "line": "I usually do some reading or go for a walk. What about you?" },
+      { "speaker": "A", "line": "I did some gardening last weekend, actually." },
+      { "speaker": "B", "line": "That sounds relaxing!" }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct sentence.", "options": ["She don't like coffee.", "She doesn't like coffee.", "She not like coffee.", "She isn't like coffee."], "answer": "She doesn't like coffee.", "explanation": "With 'she' (third person singular), the negative helper is 'doesn't', not 'don't'." },
+      { "type": "mcq", "question": "Choose the correct question: '___ you speak French?'", "options": ["Do", "Does", "Are", "Is"], "answer": "Do", "explanation": "With 'you', the question helper in the present simple is 'do'." },
+      { "type": "fill", "question": "I have already ___ (do) my part of the project.", "answer": "done", "explanation": "After 'have', use the past participle 'done'." }
+    ]
+  },
+  {
+    "verb": "Get",
+    "telugu": "పొందు (pondu)",
+    "v1": "get", "v2": "got", "v3": "gotten (US) / got (UK)", "v4": "getting", "v5": "gets",
+    "pronunciation": "/ɡɛt/ (rhymes with 'let')",
+    "definition": "To obtain, receive, or acquire something; also used to describe a change of state (get tired) or arrival (get home).",
+    "commonUses": ["Talking about obtaining or receiving something", "Describing a change of condition ('get sick', 'get better')", "Talking about arrival ('get home', 'get there')", "Common in informal spoken English as a substitute for 'become', 'buy', 'receive', or 'understand'"],
+    "beginnerSentences": ["I get up at seven every morning.", "She got a new phone yesterday.", "We get home late on Fridays.", "He gets tired after work.", "Did you get my message?", "I am getting ready for the party.", "They got married last year.", "Can you get me some water?", "It's getting cold outside.", "I didn't get the joke."],
+    "intermediateSentences": ["I finally got the promotion I've been working toward.", "She's getting better at handling difficult clients.", "We should get this sorted out before the deadline.", "He got really frustrated when the system crashed.", "I'm getting used to the new schedule.", "Did you get a chance to review my email?", "It took a while, but I finally got the hang of it.", "They got stuck in traffic on the way to the airport.", "I don't quite get what you're trying to say.", "We've got a lot of work to do before the launch."],
+    "businessSentences": ["We got positive feedback from the client on the demo.", "I'll get back to you by the end of the day.", "Let's get this project moving as soon as possible.", "She got promoted to team lead last month.", "We need to get approval before proceeding.", "I got the numbers you asked for.", "The team is getting close to finishing the release.", "Did you get a chance to speak with the vendor?", "We've got a tight deadline for this deliverable.", "Let's get everyone aligned before the call."],
+    "questions": ["What time do you usually get up?", "Did you get my email?", "How did you get into this field?", "What did you get for your birthday?", "Have you got any questions for me?", "How do I get to the train station from here?", "When will you get back from your trip?", "Did you get the results of your test?", "How long did it take you to get used to the job?", "Can you get this done by Friday?"],
+    "commonMistakes": [
+      { "wrong": "I am getting to home.", "right": "I am getting home.", "why": "'Get home' doesn't need 'to' - 'home' acts like an adverb here. Say 'get home', 'get there', 'get here' without a preposition." },
+      { "wrong": "She getted a new job.", "right": "She got a new job.", "why": "'Get' is irregular - its past tense is 'got', not 'getted'." },
+      { "wrong": "I don't get what means this.", "right": "I don't get what this means.", "why": "Word order matters in embedded questions - keep the subject before the verb ('what this means'), not question order ('what means this')." }
+    ],
+    "grammarTips": ["'Get' is extremely flexible in spoken English and can replace 'become' (get tired), 'receive' (get a letter), 'buy' (get some milk), 'arrive' (get home), or 'understand' (I get it) - context tells you which meaning applies.", "'Get' + past participle forms a common informal passive: 'get married', 'get fired', 'get invited' - these work like 'be married/fired/invited' but feel more everyday.", "In American English the past participle is usually 'gotten' (I have gotten better), while British English typically keeps 'got' (I have got better)."],
+    "synonyms": ["obtain", "acquire", "receive", "become"],
+    "antonyms": ["lose", "give"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "Did you get my text about tonight?" },
+      { "speaker": "B", "line": "Yeah, I got it. What time should I get there?" },
+      { "speaker": "A", "line": "Around eight should be fine." },
+      { "speaker": "B", "line": "Great, I'll get going soon then." }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct past tense: 'I ___ your message this morning.'", "options": ["get", "getted", "got", "gets"], "answer": "got", "explanation": "'Got' is the correct irregular past tense of 'get'." },
+      { "type": "mcq", "question": "Which sentence uses 'get' correctly?", "options": ["I am getting to home now.", "I am getting home now.", "I am get home now.", "I getting home now."], "answer": "I am getting home now.", "explanation": "'Get home' takes no preposition - 'home' functions like an adverb here." },
+      { "type": "fill", "question": "She has finally ___ (get) used to the new system.", "answer": "gotten", "explanation": "In American English, the past participle of 'get' is 'gotten' (British English often uses 'got')." }
+    ]
+  },
+  {
+    "verb": "Make",
+    "telugu": "తయారు చేయు (tayāru cēyu)",
+    "v1": "make", "v2": "made", "v3": "made", "v4": "making", "v5": "makes",
+    "pronunciation": "/meɪk/ (rhymes with 'cake')",
+    "definition": "To create, produce, or cause something to exist; also used in many fixed expressions (make a decision, make sense).",
+    "commonUses": ["Talking about creating or producing something", "Fixed expressions (make a decision, make an effort, make sense)", "Talking about causing a result (make someone happy)", "Talking about earning money (make a living)"],
+    "beginnerSentences": ["I make breakfast every morning.", "She makes delicious cakes.", "We made a mistake.", "He made a phone call.", "Did you make this dress?", "I am making dinner now.", "They made a plan for the weekend.", "Can you make some coffee?", "This makes me happy.", "I didn't make the deadline."],
+    "intermediateSentences": ["We need to make a decision by tomorrow.", "She's made a real effort to improve her English.", "That doesn't make sense to me.", "He made a good impression at the interview.", "I'm trying to make the most of this opportunity.", "They made significant progress on the project.", "This news made everyone in the office excited.", "I've made a few changes to the original plan.", "Would you mind making a copy of this document?", "We're making good time on this trip."],
+    "businessSentences": ["We need to make a decision on the vendor by Friday.", "The company made a profit this quarter.", "Let's make sure everyone is on the same page.", "I'll make the necessary changes to the report.", "This partnership will make a big difference for us.", "We made a strong pitch to the investors.", "Can you make time for a quick call today?", "The new policy is making things easier for the team.", "We're making progress, but there's still work to do.", "I want to make sure the client is satisfied."],
+    "questions": ["What do you usually make for breakfast?", "Have you made a decision yet?", "What makes you happy at work?", "Did the presentation make sense to you?", "How much money do you make in this job?", "What time does that make it in your time zone?", "Who made this decision?", "What would make this project better?", "Can you make it to the meeting tomorrow?", "What made you choose this career?"],
+    "commonMistakes": [
+      { "wrong": "I will do a decision.", "right": "I will make a decision.", "why": "'Make' and 'do' are often confused - use 'make' for creating something or reaching an outcome (make a decision, make a mistake, make progress), and 'do' for general activities or tasks (do homework, do the dishes)." },
+      { "wrong": "This makes sense to me sense.", "right": "This makes sense to me.", "why": "'Make sense' is a fixed phrase - don't repeat 'sense' or rearrange the words." },
+      { "wrong": "She maked a cake.", "right": "She made a cake.", "why": "'Make' is irregular - its past tense and past participle are both 'made', not 'maked'." }
+    ],
+    "grammarTips": ["'Make' and 'do' are frequently mixed up - as a rule of thumb, 'make' is for producing or creating something (make a cake, make money, make a decision), while 'do' is for activities without a specific end product (do exercise, do the laundry, do a favor).", "Many fixed expressions use 'make', not 'do': make a mistake, make progress, make an effort, make sense, make a difference - these are worth memorizing as whole phrases.", "'Make' can be followed by an object plus a base-form verb to show causation: 'This makes me think', 'The news made her cry' - no 'to' is used here."],
+    "synonyms": ["create", "produce", "build", "form"],
+    "antonyms": ["destroy", "break"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "Have you made a decision about the new apartment?" },
+      { "speaker": "B", "line": "Not yet, but I'm making progress. I should decide by this weekend." },
+      { "speaker": "A", "line": "That makes sense - it's a big decision." },
+      { "speaker": "B", "line": "Exactly, I want to make sure I get it right." }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct sentence.", "options": ["I need to do a decision.", "I need to make a decision.", "I need to make decision.", "I need to do decision."], "answer": "I need to make a decision.", "explanation": "'Make a decision' is the correct fixed expression - 'do' is not used here." },
+      { "type": "mcq", "question": "Which pair uses 'make' vs 'do' correctly?", "options": ["make the dishes / do a cake", "do the dishes / make a cake", "make the dishes / make a cake", "do the dishes / do a cake"], "answer": "do the dishes / make a cake", "explanation": "'Do' is for general tasks (do the dishes); 'make' is for creating something (make a cake)." },
+      { "type": "fill", "question": "She has ___ (make) a lot of progress this year.", "answer": "made", "explanation": "'Made' is the correct past participle of 'make', used after 'has'." }
+    ]
+  },
+  {
+    "verb": "Take",
+    "telugu": "తీసుకొను (tīsukonu)",
+    "v1": "take", "v2": "took", "v3": "taken", "v4": "taking", "v5": "takes",
+    "pronunciation": "/teɪk/ (rhymes with 'cake')",
+    "definition": "To pick up, carry, or move something; to require (time or effort); used in many fixed expressions (take a break, take care).",
+    "commonUses": ["Talking about carrying or moving something", "Describing how long something requires ('This will take an hour')", "Fixed expressions (take a break, take a look, take care)", "Talking about transportation (take a bus, take a taxi)"],
+    "beginnerSentences": ["I take the bus to work.", "She takes her dog for a walk.", "We took a lot of photos.", "He took my pen by mistake.", "Did you take your medicine?", "I am taking a break now.", "They took a taxi to the airport.", "Can you take this box for me?", "This test takes one hour.", "I didn't take any notes."],
+    "intermediateSentences": ["It took me a while to understand the new system.", "She's taking on more responsibility at work these days.", "We need to take this issue seriously.", "He took the news better than I expected.", "I'm going to take some time off next month.", "Have you taken a look at the latest report?", "This project will take longer than we initially planned.", "They took a chance on a new approach, and it paid off.", "I've taken your feedback into account.", "We should take advantage of this opportunity while we can."],
+    "businessSentences": ["This will take about two weeks to complete.", "Let's take a step back and reassess the strategy.", "I'll take care of scheduling the follow-up call.", "She took the lead on the client presentation.", "We need to take these risks into consideration.", "The company is taking steps to reduce costs.", "Can you take notes during today's meeting?", "We've taken on three new clients this month.", "Let's take a moment to review the key points.", "I'll take responsibility for the delay."],
+    "questions": ["How long does it take to get to the office?", "Did you take the day off yesterday?", "Who's taking notes in this meeting?", "How long will this project take?", "Have you taken any breaks today?", "What size do you take?", "Can you take my shift tomorrow?", "Did you take the bus or drive?", "Who took responsibility for the mistake?", "What would it take to convince you?"],
+    "commonMistakes": [
+      { "wrong": "I taked a photo.", "right": "I took a photo.", "why": "'Take' is irregular - the past tense is 'took', not 'taked'." },
+      { "wrong": "This work takes me happy.", "right": "This work makes me happy.", "why": "Use 'make', not 'take', to describe causing a feeling or result. 'Take' is for duration, carrying, or acquiring, not for causing emotions." },
+      { "wrong": "I have took the exam.", "right": "I have taken the exam.", "why": "After 'have', use the past participle (V3) 'taken', not the past simple 'took'." }
+    ],
+    "grammarTips": ["'Take' is irregular across all three key forms: take, took, taken - practice them together so 'have took' doesn't slip out by mistake.", "Use 'take' to talk about duration: 'It takes 20 minutes to get there' - this is a very common structure worth mastering early.", "Many everyday expressions use 'take': take a break, take a seat, take a look, take care, take your time - learning these as whole chunks makes your speech sound much more natural."],
+    "synonyms": ["grab", "obtain", "carry", "seize"],
+    "antonyms": ["give", "provide", "return"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "How long will this meeting take?" },
+      { "speaker": "B", "line": "Probably about thirty minutes. Do you need to take off early?" },
+      { "speaker": "A", "line": "Yeah, I have to take my car to the mechanic." },
+      { "speaker": "B", "line": "No problem, we'll take care of it before then." }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct past tense: 'She ___ the last train home.'", "options": ["take", "taked", "took", "taken"], "answer": "took", "explanation": "'Took' is the correct simple past tense of 'take'." },
+      { "type": "mcq", "question": "Choose the correct sentence.", "options": ["I have took the exam.", "I have taken the exam.", "I have take the exam.", "I has taken the exam."], "answer": "I have taken the exam.", "explanation": "After 'have', use the past participle 'taken', not 'took'." },
+      { "type": "fill", "question": "How long does it usually ___ (take) to finish this task?", "answer": "take", "explanation": "Base form 'take' is used after 'does' in a present simple question." }
+    ]
+  },
+  {
+    "verb": "Come",
+    "telugu": "రా (rā)",
+    "v1": "come", "v2": "came", "v3": "come", "v4": "coming", "v5": "comes",
+    "pronunciation": "/kʌm/ (rhymes with 'sum')",
+    "definition": "To move toward the speaker or a particular place; to arrive or approach.",
+    "commonUses": ["Talking about arrival or approach", "Invitations ('Come to the party')", "Describing origin ('come from')", "Fixed expressions (come up, come across, come along)"],
+    "beginnerSentences": ["Please come here.", "She comes to class every day.", "We came home late.", "He came to see me yesterday.", "Did you come by car?", "I am coming to the party.", "They came from a small town.", "Can you come with me?", "Winter is coming soon.", "I didn't come to school today."],
+    "intermediateSentences": ["A great opportunity has just come up at work.", "She's coming along well in her new role.", "I came across an interesting article this morning.", "We came to an agreement after a long discussion.", "He's finally coming to terms with the decision.", "This idea came from a conversation we had last week.", "The results are coming in slower than expected.", "I'm confident things will come together in the end.", "She came up with a clever solution to the problem.", "Let's see how the negotiations come out."],
+    "businessSentences": ["The client is coming to the office next Tuesday.", "A few issues have come up during testing.", "We came to a mutual agreement on the pricing.", "The results are coming in ahead of schedule.", "This proposal came from the marketing team.", "Let's see what ideas come out of the brainstorm.", "The budget approval finally came through.", "She came prepared with all the data we needed.", "We're coming close to finishing the first phase.", "New opportunities keep coming our way this quarter."],
+    "questions": ["Where do you come from?", "What time will you come tomorrow?", "Did anything interesting come up today?", "How did you come up with this idea?", "Are you coming to the meeting?", "When did this problem first come to light?", "How did the interview come along?", "Have you come across this issue before?", "What made you come to this decision?", "Will the package come today?"],
+    "commonMistakes": [
+      { "wrong": "I comed here yesterday.", "right": "I came here yesterday.", "why": "'Come' is irregular - its past tense is 'came', not 'comed'." },
+      { "wrong": "I come from India since five years.", "right": "I've been living in India for five years.", "why": "'Come from' describes origin, not duration - it doesn't combine naturally with 'since' or 'for'. Use present perfect continuous ('have been living') to talk about duration." },
+      { "wrong": "Come to here.", "right": "Come here.", "why": "'Here' and 'there' don't take 'to' before them - say 'come here', not 'come to here'." }
+    ],
+    "grammarTips": ["'Come' describes movement toward the speaker or a shared point of reference, while 'go' describes movement away from it - 'Come here' vs 'Go there' captures this difference clearly.", "The past tense and past participle of 'come' look different from most verbs you'll learn: came (V2) but come (V3) - notice that V1 and V3 are spelled the same.", "'Come' combines with many particles to form phrasal verbs with distinct meanings: come across (find by chance), come up (arise), come along (make progress), come out (be revealed)."],
+    "synonyms": ["arrive", "approach", "appear"],
+    "antonyms": ["go", "leave", "depart"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "Are you coming to dinner tonight?" },
+      { "speaker": "B", "line": "I'd love to! What time should I come?" },
+      { "speaker": "A", "line": "Around seven. Come whenever works for you, though." },
+      { "speaker": "B", "line": "Great, I'll come straight from work then." }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct past tense: 'She ___ to visit us last summer.'", "options": ["come", "comed", "came", "coming"], "answer": "came", "explanation": "'Came' is the correct simple past tense of 'come'." },
+      { "type": "mcq", "question": "Which sentence is correct?", "options": ["I have came here before.", "I have come here before.", "I have come here for before.", "I has come here before."], "answer": "I have come here before.", "explanation": "After 'have', use the past participle 'come' (which happens to look like the base form here)." },
+      { "type": "fill", "question": "A great idea just ___ (come) up during the meeting.", "answer": "came", "explanation": "Simple past 'came' is correct here since the meeting already happened." }
+    ]
+  },
+  {
+    "verb": "See",
+    "telugu": "చూడు (cūḍu)",
+    "v1": "see", "v2": "saw", "v3": "seen", "v4": "seeing", "v5": "sees",
+    "pronunciation": "/siː/ (rhymes with 'bee')",
+    "definition": "To perceive with the eyes; to understand or recognize; to meet or visit someone.",
+    "commonUses": ["Talking about visual perception", "Meeting or visiting someone ('see a friend', 'see a doctor')", "Understanding something ('I see what you mean')", "Talking about relationships ('see someone' = dating)"],
+    "beginnerSentences": ["I see a bird in the tree.", "She sees her friends every weekend.", "We saw a movie last night.", "He saw his old teacher at the store.", "Did you see the news today?", "I am seeing the doctor tomorrow.", "They saw a beautiful sunset.", "Can you see the board from there?", "I don't see him here.", "I didn't see your message."],
+    "intermediateSentences": ["I see what you mean about the schedule now.", "She's been seeing a specialist about her back pain.", "We saw a significant improvement after the changes.", "I can see why you're worried about this.", "Have you seen the latest version of the report?", "It's good to see the team working together so well.", "I saw this coming a mile away.", "We'll have to wait and see how things turn out.", "I've never seen him this frustrated before.", "Let's see if we can find a better solution."],
+    "businessSentences": ["I see your point, but let's consider the risks too.", "We saw a strong response to the new campaign.", "Have you seen the updated figures from finance?", "I'll see what I can do to speed up the process.", "We're seeing steady growth in this market segment.", "Let's see how the pilot program performs first.", "I can see this becoming a bigger issue if we wait.", "She saw an opportunity and acted on it quickly.", "We'd like to see more detail before approving this.", "I'll see you at the client meeting on Thursday."],
+    "questions": ["Did you see the email I sent this morning?", "When was the last time you saw him?", "Do you see any problems with this plan?", "Have you seen this movie before?", "Can you see what I'm talking about?", "What do you see happening in the next few years?", "Did you see anyone at the office today?", "How often do you see your family?", "Do you see yourself staying in this role long-term?", "Have you seen my keys anywhere?"],
+    "commonMistakes": [
+      { "wrong": "I seed the movie.", "right": "I saw the movie.", "why": "'See' is irregular - its past tense is 'saw', not 'seed'." },
+      { "wrong": "I am seeing what you mean.", "right": "I see what you mean.", "why": "When 'see' means 'understand', it's a stative verb and isn't used in the continuous form - say 'I see', not 'I am seeing', when you mean 'I understand'." },
+      { "wrong": "I have saw that film.", "right": "I have seen that film.", "why": "After 'have', use the past participle (V3) 'seen', not the simple past 'saw'." }
+    ],
+    "grammarTips": ["'See' has three different forms worth keeping straight: see (base), saw (past), seen (past participle, always paired with have/has/had).", "When 'see' means 'understand' ('I see what you're saying'), it's a stative verb and should stay in the simple form, not the continuous - avoid 'I am seeing' in this meaning.", "'See', 'watch', and 'look at' aren't interchangeable: 'see' is about perceiving without much effort, 'watch' implies attention over time (watch a movie), and 'look at' implies deliberately directing your eyes (look at this photo)."],
+    "synonyms": ["notice", "observe", "spot", "witness"],
+    "antonyms": ["miss", "overlook"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "Did you see the game last night?" },
+      { "speaker": "B", "line": "I did! I couldn't believe that last-minute goal." },
+      { "speaker": "A", "line": "I know, I've never seen anything like it." },
+      { "speaker": "B", "line": "We should watch the next one together." }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct past tense: 'I ___ her at the conference last year.'", "options": ["see", "seed", "saw", "seen"], "answer": "saw", "explanation": "'Saw' is the correct simple past tense of 'see'." },
+      { "type": "mcq", "question": "Which sentence is correct?", "options": ["I am seeing what you mean.", "I see what you mean.", "I sees what you mean.", "I seeing what you mean."], "answer": "I see what you mean.", "explanation": "'See' meaning 'understand' is a stative verb and isn't used in the continuous form." },
+      { "type": "fill", "question": "Have you ever ___ (see) a total solar eclipse?", "answer": "seen", "explanation": "After 'have', use the past participle 'seen'." }
+    ]
+  },
+  {
+    "verb": "Know",
+    "telugu": "తెలుసుకొను (telusukonu) / తెలుసు (telusu)",
+    "v1": "know", "v2": "knew", "v3": "known", "v4": "knowing", "v5": "knows",
+    "pronunciation": "/noʊ/ (silent K - rhymes with 'no')",
+    "definition": "To have information or understanding about something; to be familiar with a person, place, or fact.",
+    "commonUses": ["Talking about facts or information", "Talking about familiarity with people or places", "Expressing certainty or awareness", "Common in polite disagreement ('I know, but...')"],
+    "beginnerSentences": ["I know your name.", "She knows the answer.", "We knew the way home.", "He knew my father.", "Did you know about the meeting?", "I don't know the time.", "They knew each other in school.", "Do you know this song?", "I know how to swim.", "I didn't know you were here."],
+    "intermediateSentences": ["I've known her since we were in college together.", "She knows this project inside and out.", "We didn't know what to expect from the new system.", "As far as I know, the meeting is still on.", "He knew something was wrong the moment he walked in.", "I wish I had known about this earlier.", "You never really know how someone will react.", "I know for a fact that the numbers are accurate.", "She's known for being extremely detail-oriented.", "Let me know if anything changes."],
+    "businessSentences": ["As far as I know, the budget hasn't been approved yet.", "She knows the client's requirements better than anyone.", "Let me know if you need any additional information.", "We knew the risks going into this project.", "I don't know if the vendor can meet this deadline.", "He's known in the industry for his innovative ideas.", "Do you know who's leading this initiative?", "We need to know the exact figures before proceeding.", "I knew this would come up eventually.", "Please let the team know about the schedule change."],
+    "questions": ["Do you know how to use this software?", "Did you know about the change in plans?", "How long have you known each other?", "Do you know where the nearest station is?", "Did you know he was leaving the company?", "How did you know I was here?", "Do you know anyone who could help with this?", "What do you know about this topic?", "Did you know that this policy has changed?", "How well do you know this city?"],
+    "commonMistakes": [
+      { "wrong": "I am knowing the answer.", "right": "I know the answer.", "why": "'Know' is a stative verb describing a mental state, not an action - it's not normally used in the continuous (-ing) form." },
+      { "wrong": "I knowed him for years.", "right": "I have known him for years.", "why": "'Know' is irregular (know, knew, known), and duration up to now needs the present perfect: 'have known', not the simple past 'knowed'." },
+      { "wrong": "She knows to swim.", "right": "She knows how to swim.", "why": "To talk about a skill, use 'know how to' + verb, not 'know to' + verb." }
+    ],
+    "grammarTips": ["'Know' is a classic stative verb - like 'want', 'believe', and 'love' - so avoid the continuous form: say 'I know', not 'I am knowing'.", "For duration that continues into the present ('I've known her for ten years'), use the present perfect, not the simple past - the action of 'knowing' hasn't stopped.", "'Know how to' + verb expresses a learned skill ('I know how to drive'), while 'know' + noun expresses information or familiarity ('I know the answer', 'I know him')."],
+    "synonyms": ["understand", "realize", "recognize", "be aware of"],
+    "antonyms": ["ignore", "misunderstand"],
+    "dailyConversation": [
+      { "speaker": "A", "line": "Do you know if the store is open today?" },
+      { "speaker": "B", "line": "I'm not sure, actually. Let me check." },
+      { "speaker": "A", "line": "Thanks, I know you're busy, so no rush." },
+      { "speaker": "B", "line": "No problem, I'll let you know in a few minutes." }
+    ],
+    "miniQuiz": [
+      { "type": "mcq", "question": "Choose the correct sentence.", "options": ["I am knowing the answer.", "I know the answer.", "I knows the answer.", "I be knowing the answer."], "answer": "I know the answer.", "explanation": "'Know' is a stative verb and isn't used in the continuous (-ing) form." },
+      { "type": "mcq", "question": "Choose the correct past participle: 'I have ___ him for ten years.'", "options": ["know", "knew", "known", "knowed"], "answer": "known", "explanation": "'Known' is the correct past participle of 'know', used after 'have'." },
+      { "type": "fill", "question": "She ___ (know) how to fix this problem right away.", "answer": "knew", "explanation": "Simple past 'knew' fits a completed past action." }
+    ]
+  }
+]

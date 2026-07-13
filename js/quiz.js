@@ -93,13 +93,12 @@ function renderQuiz(container, questions, onFinish) {
         const tok = document.createElement("button");
         tok.className = "token";
         tok.textContent = word;
+        /* One toggle handler based on where the token currently lives - never
+           reassign onclick, so a word moved back to the bank stays clickable. */
         tok.onclick = () => {
           if (answered) return;
-          answerZone.appendChild(tok);
-          tok.onclick = () => {
-            if (answered) return;
-            bank.appendChild(tok);
-          };
+          if (tok.parentElement === bank) answerZone.appendChild(tok);
+          else bank.appendChild(tok);
         };
         bank.appendChild(tok);
       });

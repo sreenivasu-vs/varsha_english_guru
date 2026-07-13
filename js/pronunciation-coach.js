@@ -339,6 +339,16 @@ function wpmFromAttempt(transcript, durationMs) {
   return Math.round(words / minutes);
 }
 
+/* Time from the first voiced sample to the last one - the window the user
+   was actually speaking. Using the raw capture duration instead would count
+   recognition startup latency, the gap before the user starts reading, and
+   the trailing silence, all of which deflate the computed WPM. */
+function voicedDurationMs(samples, silenceThreshold = 0.02) {
+  const voiced = samples.filter((s) => s.v > silenceThreshold);
+  if (voiced.length < 2) return null;
+  return voiced[voiced.length - 1].t - voiced[0].t;
+}
+
 function pauseCountFromSamples(samples, silenceThreshold = 0.02, minPauseMs = 180) {
   const voicedIdx = samples.map((s, i) => (s.v > silenceThreshold ? i : -1)).filter((i) => i >= 0);
   if (voicedIdx.length < 2) return 0;
@@ -750,13 +760,28 @@ function renderStress(container, item) {
   });
 }
 
+/* Uses the long-form continuous capture, not the single-utterance one: a
+   paragraph read has natural pauses between sentences, and single-utterance
+   recognition stops at the first such pause - it would transcribe only the
+   opening sentence while the clock kept counting overheads, which made this
+   round report "Too slow" on nearly every attempt. */
 function renderSpeed(container, item) {
-  renderMicRound(container, {
+  renderLongMicRound(container, {
     promptHtml: `<div class="section-title" style="margin-top:0">Speed Control</div>
-      <p style="margin:0 0 8px;font-size:13.5px;color:var(--text-muted);">Read this paragraph at a natural pace - target ${item.targetWpm} words per minute.</p>
+      <p style="margin:0 0 8px;font-size:13.5px;color:var(--text-muted);">Read this paragraph at a natural pace - target ${item.targetWpm} words per minute. Tap Stop when you finish reading.</p>
       <div style="font-size:15.5px;line-height:1.7;margin:10px 0;">${escapeHtml(item.text)}</div>`,
+    maxMs: 120000,
     onAnalyze: (attempt, area) => {
-      const wpm = wpmFromAttempt(attempt.transcript, attempt.durationMs);
+      const wordCount = normalizeWords(attempt.transcript).length;
+      if (wordCount < 15) {
+        area.innerHTML = feedbackBox(false, "We only caught a few words - try again", `
+          <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Read a bit closer to the microphone, and tap Stop only after you finish the paragraph.</div>
+        `);
+        return;
+      }
+
+      const speakingMs = voicedDurationMs(attempt.samples) || attempt.durationMs;
+      const wpm = wpmFromAttempt(attempt.transcript, speakingMs);
       const diffPct = Math.abs(wpm - item.targetWpm) / item.targetWpm;
       let label, score;
       if (diffPct <= 0.12) { label = "Excellent"; score = 100; }
@@ -764,10 +789,10 @@ function renderSpeed(container, item) {
       else { label = wpm > item.targetWpm ? "Too fast" : "Too slow"; score = 45; }
 
       recordScore("fluency", score);
-      recordScore("accuracy", Math.round((normalizeWords(attempt.transcript).length / normalizeWords(item.text).length) * 100));
+      recordScore("accuracy", Math.min(100, Math.round((wordCount / normalizeWords(item.text).length) * 100)));
 
       area.innerHTML = feedbackBox(score >= 75, `Speed: <b>${wpm} WPM</b> - ${label}`, `
-        <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Target: ${item.targetWpm} WPM</div>
+        <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Target: ${item.targetWpm} WPM · ${wordCount} words recognized in ${Math.round(speakingMs / 1000)}s of speaking</div>
       `);
     },
   });
@@ -983,7 +1008,7 @@ function renderOneMinuteSpeech(container, item) {
       const longPauses = pauseCountFromSamples(attempt.samples, 0.02, 700);
       const segments = pauseCountFromSamples(attempt.samples, 0.02, 180) + 1;
       const wordsPerSegment = words.length / segments;
-      const wpm = wpmFromAttempt(attempt.transcript, attempt.durationMs);
+      const wpm = wpmFromAttempt(attempt.transcript, voicedDurationMs(attempt.samples) || attempt.durationMs);
 
       const grammarScore = await fetchGrammarScore(attempt.transcript);
       const vocabularyScore = Math.max(0, Math.min(100, Math.round(uniqueRatio * 170)));

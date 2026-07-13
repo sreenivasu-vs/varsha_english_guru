@@ -285,12 +285,14 @@ function renderWordBuilderRound(card, round, onDone) {
   let scrambled = shuffleArray(item.words);
   let tries = 0;
   while (scrambled.join(" ") === item.words.join(" ") && tries < 10) { scrambled = shuffleArray(item.words); tries += 1; }
+  /* One toggle handler based on where the token currently lives - never
+     reassign onclick, so a word moved back to the bank stays clickable. */
   scrambled.forEach((word) => {
     const tok = el("button", "token", escapeHtml(word));
     tok.onclick = () => {
       if (checked) return;
-      answerZone.appendChild(tok);
-      tok.onclick = () => { if (!checked) bank.appendChild(tok); };
+      if (tok.parentElement === bank) answerZone.appendChild(tok);
+      else bank.appendChild(tok);
     };
     bank.appendChild(tok);
   });

@@ -97,15 +97,14 @@ function renderRound(container) {
   const answerZone = el("div", "rearrange-tokens");
   const bank = el("div", "rearrange-bank");
 
+  /* One toggle handler based on where the token currently lives - never
+     reassign onclick, so a word moved back to the bank stays clickable. */
   scrambledWords(item.words).forEach((word) => {
     const tok = el("button", "token", escapeHtml(word));
     tok.onclick = () => {
       if (checked) return;
-      answerZone.appendChild(tok);
-      tok.onclick = () => {
-        if (checked) return;
-        bank.appendChild(tok);
-      };
+      if (tok.parentElement === bank) answerZone.appendChild(tok);
+      else bank.appendChild(tok);
     };
     bank.appendChild(tok);
   });

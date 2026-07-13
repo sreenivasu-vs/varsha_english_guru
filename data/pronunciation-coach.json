@@ -57,7 +57,22 @@
     { "text": "Naturally, we were nervous, but things went fine." },
     { "text": "In short, the meeting helped, and we're moving forward." },
     { "text": "Given the circumstances, we did our best, and that's enough." },
-    { "text": "Frankly, I was surprised, but pleasantly so." }
+    { "text": "Frankly, I was surprised, but pleasantly so." },
+    { "text": "Of course, I'll take care of it, right away." },
+    { "text": "Sure, that works for me, just let me know." },
+    { "text": "Believe it or not, I finished early, for once." },
+    { "text": "Truthfully, I forgot completely, until you mentioned it." },
+    { "text": "In fact, we already discussed this, last week." },
+    { "text": "Somehow, everything worked out, in the end." },
+    { "text": "Apparently, the flight got delayed, again." },
+    { "text": "Interestingly, nobody noticed, until much later." },
+    { "text": "Eventually, we found a solution, together." },
+    { "text": "Surprisingly, the test was easy, this time." },
+    { "text": "Meanwhile, back at the office, things were quiet." },
+    { "text": "Clearly, something went wrong, during the setup." },
+    { "text": "Basically, we just need approval, before we start." },
+    { "text": "Luckily, someone had a spare key, in their bag." },
+    { "text": "Admittedly, I was wrong, about the schedule." }
   ],
   "stress": [
     { "word": "development", "syllables": ["de", "VEL", "op", "ment"], "stressIndex": 1 },
@@ -83,7 +98,23 @@
     { "word": "chocolate", "syllables": ["CHOC", "o", "late"], "stressIndex": 0 },
     { "word": "family", "syllables": ["FAM", "i", "ly"], "stressIndex": 0 },
     { "word": "hospital", "syllables": ["HOS", "pi", "tal"], "stressIndex": 0 },
-    { "word": "recommend", "syllables": ["rec", "om", "MEND"], "stressIndex": 2 }
+    { "word": "recommend", "syllables": ["rec", "om", "MEND"], "stressIndex": 2 },
+    { "word": "elephant", "syllables": ["EL", "e", "phant"], "stressIndex": 0 },
+    { "word": "president", "syllables": ["PRES", "i", "dent"], "stressIndex": 0 },
+    { "word": "camera", "syllables": ["CAM", "er", "a"], "stressIndex": 0 },
+    { "word": "tomorrow", "syllables": ["to", "MOR", "row"], "stressIndex": 1 },
+    { "word": "october", "syllables": ["Oc", "TO", "ber"], "stressIndex": 1 },
+    { "word": "november", "syllables": ["No", "VEM", "ber"], "stressIndex": 1 },
+    { "word": "september", "syllables": ["Sep", "TEM", "ber"], "stressIndex": 1 },
+    { "word": "guitar", "syllables": ["gui", "TAR"], "stressIndex": 1 },
+    { "word": "hotel", "syllables": ["ho", "TEL"], "stressIndex": 1 },
+    { "word": "police", "syllables": ["po", "LICE"], "stressIndex": 1 },
+    { "word": "japanese", "syllables": ["Jap", "a", "NESE"], "stressIndex": 2 },
+    { "word": "seventeen", "syllables": ["sev", "en", "TEEN"], "stressIndex": 2 },
+    { "word": "volunteer", "syllables": ["vol", "un", "TEER"], "stressIndex": 2 },
+    { "word": "magazine", "syllables": ["mag", "a", "ZINE"], "stressIndex": 2 },
+    { "word": "population", "syllables": ["pop", "u", "LA", "tion"], "stressIndex": 2 },
+    { "word": "television", "syllables": ["TEL", "e", "vi", "sion"], "stressIndex": 0 }
   ],
   "speed": [
     {
@@ -109,6 +140,22 @@
     {
       "targetWpm": 120,
       "text": "Preparing for a job interview can feel overwhelming, especially if it's been a while since your last one. The key is to research the company thoroughly, practice answering common questions out loud, and prepare a few thoughtful questions of your own to ask at the end. Confidence matters just as much as your answers, so try to relax, breathe, and remind yourself that the interviewer wants you to succeed just as much as you do. Preparation is what turns nervousness into genuine confidence."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Managing money well is a skill that takes practice, not just knowledge. Many people know they should save more, but putting that into action is a different story. A simple approach is to set aside a fixed amount every month before spending on anything else, rather than saving whatever happens to be left over. Building an emergency fund, even a small one, can also reduce a lot of daily stress. Over time, these habits make a real difference, even if the progress feels slow at first."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Small daily choices can add up to a real difference for the environment over time. Carrying a reusable bottle, walking instead of driving for short trips, and reducing food waste are all simple habits that don't require much effort. Of course, individual actions alone won't solve every problem, but they do build awareness and often inspire people around us to think differently too. Change usually starts small, spreads gradually, and eventually becomes part of how a community lives."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Maintaining close friendships as an adult is harder than most people expect it to be. Between work, family responsibilities, and simply being tired, it's easy to let months slip by without checking in on people who matter. The friendships that last are usually the ones where both people make a small, consistent effort - a quick message, a short call, or making time to meet even when schedules are busy. It rarely takes much, just consistency."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Public speaking is one of the most common fears people report, even more than the fear of failure itself. Yet almost everyone who becomes comfortable speaking in front of others started out nervous, with shaky hands and a racing heart. The difference is practice - rehearsing out loud, recording yourself, and gradually exposing yourself to slightly bigger audiences over time. Confidence rarely arrives before you start; it shows up gradually, built through repetition rather than talent."
     }
   ],
   "missingSound": [
@@ -131,7 +178,22 @@
     { "word": "friendship", "commonMistake": "frenship", "tip": "Keep the d sound: FRIEND-ship." },
     { "word": "sandwich", "commonMistake": "sanwich", "tip": "Keep the d sound: SAND-wich." },
     { "word": "arctic", "commonMistake": "artic", "tip": "Keep both c sounds: ARC-tic, not \"artic\"." },
-    { "word": "quantity", "commonMistake": "quanity", "tip": "Keep the t sound: QUAN-ti-ty." }
+    { "word": "quantity", "commonMistake": "quanity", "tip": "Keep the t sound: QUAN-ti-ty." },
+    { "word": "wanted", "commonMistake": "wanned", "tip": "Keep the t sound: want-ED, not \"wanned\"." },
+    { "word": "hundred", "commonMistake": "hunerd", "tip": "Keep both sounds: HUN-dred." },
+    { "word": "husband", "commonMistake": "husban", "tip": "Keep the final d: HUS-band." },
+    { "word": "students", "commonMistake": "studens", "tip": "Keep the t before the s: STU-dents." },
+    { "word": "asks", "commonMistake": "aks", "tip": "Keep the order: a-s-k-s, not \"aks\"." },
+    { "word": "texts", "commonMistake": "tex", "tip": "Keep the final cluster: tex-ts." },
+    { "word": "widths", "commonMistake": "wits", "tip": "Keep the d and th sounds: wid-ths." },
+    { "word": "fifths", "commonMistake": "fifs", "tip": "Keep all the sounds: fif-ths." },
+    { "word": "isn't", "commonMistake": "isn", "tip": "Keep the final t sound: is-n't." },
+    { "word": "didn't", "commonMistake": "didn", "tip": "Keep the final t sound: did-n't." },
+    { "word": "wouldn't", "commonMistake": "wouldn", "tip": "Keep the final t sound: would-n't." },
+    { "word": "next", "commonMistake": "nex", "tip": "Keep the final t sound: nex-t." },
+    { "word": "facts", "commonMistake": "facs", "tip": "Keep the t before the s: fac-ts." },
+    { "word": "attempts", "commonMistake": "atempts", "tip": "Keep the p sound: at-tem-pts." },
+    { "word": "strengths", "commonMistake": "strenks", "tip": "Keep the ng and th sounds: streng-ths." }
   ],
   "minimalPairs": [
     { "a": "ship", "b": "sheep", "tip": "Short \"i\" (ship) vs long \"ee\" (sheep)." },
@@ -151,7 +213,19 @@
     { "a": "rice", "b": "lice", "tip": "\"r\" (tongue doesn't touch the roof of your mouth) vs \"l\" (tongue touches the roof of your mouth)." },
     { "a": "light", "b": "right", "tip": "\"l\" (tongue touches the roof of your mouth) vs \"r\" (tongue doesn't touch)." },
     { "a": "sing", "b": "thing", "tip": "\"s\" (tongue behind your teeth) vs \"th\" (tongue between your teeth)." },
-    { "a": "free", "b": "three", "tip": "\"f\" (top teeth on lip) vs \"th\" (tongue between your teeth)." }
+    { "a": "free", "b": "three", "tip": "\"f\" (top teeth on lip) vs \"th\" (tongue between your teeth)." },
+    { "a": "pan", "b": "pen", "tip": "\"a\" (pan) vs \"e\" (pen)." },
+    { "a": "hat", "b": "hot", "tip": "\"a\" (hat) vs \"o\" (hot)." },
+    { "a": "boat", "b": "bought", "tip": "Long \"oh\" (boat) vs \"aw\" (bought)." },
+    { "a": "hurt", "b": "hut", "tip": "\"er\" (hurt) vs \"u\" (hut)." },
+    { "a": "fan", "b": "van", "tip": "\"f\" (voiceless, no vocal cords) vs \"v\" (voiced, vocal cords buzz) - same lip position." },
+    { "a": "pig", "b": "big", "tip": "\"p\" (voiceless) vs \"b\" (voiced) - same lip position." },
+    { "a": "cap", "b": "cab", "tip": "\"p\" (voiceless) vs \"b\" (voiced) at the end of the word." },
+    { "a": "wine", "b": "vine", "tip": "\"w\" (rounded lips, no teeth) vs \"v\" (top teeth on lip)." },
+    { "a": "zip", "b": "sip", "tip": "\"z\" (voiced, buzzing) vs \"s\" (voiceless, hissing)." },
+    { "a": "batch", "b": "badge", "tip": "\"ch\" (voiceless) vs \"j\" (voiced) - same tongue position." },
+    { "a": "class", "b": "glass", "tip": "\"cl\" vs \"gl\" - voiceless vs voiced first sound." },
+    { "a": "law", "b": "raw", "tip": "\"l\" (tongue touches the roof of your mouth) vs \"r\" (tongue doesn't touch)." }
   ],
   "intonationEmotions": [
     { "id": "happy", "label": "😄 Happy", "hint": "Bright, bouncy pitch with a lot of up-and-down variation." },
@@ -167,6 +241,14 @@
     "This is exactly what I needed today.",
     "Wow, I did not see that coming.",
     "That is the last thing I expected.",
-    "Honestly, I wasn't ready for this."
+    "Honestly, I wasn't ready for this.",
+    "I really need your help with this.",
+    "You have no idea what just happened.",
+    "This changes absolutely everything.",
+    "I've never seen anything like it.",
+    "Please tell me you're joking right now.",
+    "That was completely unexpected.",
+    "I think we need to talk about this.",
+    "Nobody warned me about this at all."
   ]
 }

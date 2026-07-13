@@ -248,5 +248,95 @@
     "id": "para-closing-day",
     "title": "Closing Out the Day",
     "text": "Alright, I think that's it for me today. I'll pick this back up first thing tomorrow morning. Thanks for all the help earlier, it made a big difference. Have a good evening, and I'll see you at the stand-up tomorrow."
+  },
+  {
+    "id": "news-cycling-network",
+    "title": "News Report: City Cycling Network",
+    "text": "In local news, the city council announced plans yesterday to expand the downtown cycling network by over twenty kilometers. Officials say the project aims to reduce traffic congestion and encourage healthier commuting options. Construction is expected to begin early next year, with the first phase completed within eighteen months."
+  },
+  {
+    "id": "news-new-frog-species",
+    "title": "News Report: New Species Discovered",
+    "text": "Scientists have discovered a new species of frog in a remote rainforest region, according to a study published this week. Researchers say the species had likely gone unnoticed due to its small size and nocturnal habits. The finding highlights just how much of the natural world remains unexplored."
+  },
+  {
+    "id": "news-interest-rates",
+    "title": "News Report: Interest Rates Held Steady",
+    "text": "The central bank held interest rates steady today, citing signs that inflation is beginning to slow. Analysts had expected the decision, though some warned that another rate hike could still be on the table later this year if prices don't continue to cool."
+  },
+  {
+    "id": "news-viral-bakery",
+    "title": "News Report: Bakery Goes Viral",
+    "text": "A local bakery has become an unexpected online sensation after a video of its sourdough-making process went viral last week. The owner says orders have tripled since the video was posted, and she's now hiring three new staff members to keep up with demand."
+  },
+  {
+    "id": "news-weather-warning",
+    "title": "News Report: Heavy Rainfall Warning",
+    "text": "Weather forecasters are warning residents to prepare for heavy rainfall over the coming weekend, with some areas expected to see up to eighty millimeters. Officials are urging people living near rivers to stay alert for possible flooding and to follow any evacuation notices."
+  },
+  {
+    "id": "news-remote-work-commuting",
+    "title": "News Report: Remote Work and Commuting",
+    "text": "A new report suggests that remote work has permanently changed commuting patterns in major cities, with average rush-hour traffic down nearly fifteen percent compared to five years ago. Transportation planners say this shift is already influencing how future infrastructure projects are designed."
+  },
+  {
+    "id": "story-marias-move",
+    "title": "Short Story: The Move to the Coast",
+    "text": "When Maria was twelve years old, her family moved to a small town by the coast. She remembers feeling nervous on her first day of school, not knowing a single person in her new class. By the end of that year, though, she had made friends she would keep for the rest of her life."
+  },
+  {
+    "id": "story-wooden-box",
+    "title": "Short Story: The Wooden Box",
+    "text": "The old man had walked the same path through the forest every morning for thirty years. He knew every bend in the trail, every tree that had fallen and been cleared away. One morning, he noticed something he had never seen before: a small wooden box resting at the base of an oak tree."
+  },
+  {
+    "id": "story-power-outage",
+    "title": "Short Story: The Night the Power Went Out",
+    "text": "It was raining heavily the night the power went out across the whole neighborhood. Instead of panicking, the families on the street gathered candles and flashlights and ended up spending the evening together on someone's porch, telling stories until the lights came back on hours later."
+  },
+  {
+    "id": "story-james-speech",
+    "title": "Short Story: Facing an Old Fear",
+    "text": "James had always been terrified of public speaking, ever since a presentation went badly in high school. Years later, when his manager asked him to lead a company-wide meeting, his first instinct was to say no. But he decided to prepare carefully instead, and the meeting turned out better than he ever expected."
+  },
+  {
+    "id": "story-old-letter",
+    "title": "Short Story: The Old Letter",
+    "text": "She found the letter tucked inside an old book at a secondhand shop, written in handwriting she didn't recognize. It was dated almost forty years earlier and addressed to someone named Eleanor. Curious, she spent the next few weeks trying to track down who Eleanor might have been."
+  },
+  {
+    "id": "story-brothers-reunion",
+    "title": "Short Story: The Brothers' Reunion",
+    "text": "The two brothers hadn't spoken in nearly a decade after a disagreement over their father's business. It wasn't until their mother's birthday that they found themselves in the same room again, and within an hour, they were laughing about the same old jokes as if no time had passed at all."
+  },
+  {
+    "id": "explainer-honey",
+    "title": "Did You Know: Honey Never Spoils",
+    "text": "Honey never really spoils if it's stored properly. Archaeologists have found pots of honey in ancient tombs that are thousands of years old and still perfectly edible. This is because honey has very little water content and is naturally acidic, which makes it extremely difficult for bacteria to survive in it."
+  },
+  {
+    "id": "explainer-brain-energy",
+    "title": "Did You Know: The Brain's Energy Use",
+    "text": "The human brain uses about twenty percent of the body's total energy, even though it only makes up around two percent of total body weight. This is one reason why mental tasks, like studying for a difficult exam, can leave you feeling just as tired as physical exercise."
+  },
+  {
+    "id": "explainer-octopus-hearts",
+    "title": "Did You Know: Octopus Hearts",
+    "text": "Octopuses have three hearts and blue blood. Two of the hearts pump blood to the gills, while the third pumps it to the rest of the body. Interestingly, that main heart actually stops beating when the octopus swims, which is part of why they prefer crawling over swimming most of the time."
+  },
+  {
+    "id": "explainer-facial-expressions",
+    "title": "Did You Know: Reading Facial Expressions",
+    "text": "Learning to read facial expressions is something most people develop naturally, without ever being taught directly. Studies suggest that certain basic expressions, like fear, anger and happiness, are recognized similarly across almost every culture in the world, regardless of language or upbringing."
+  },
+  {
+    "id": "explainer-rainbows",
+    "title": "Did You Know: Rainbows Are Personal",
+    "text": "A rainbow is not actually a fixed object in the sky. It's a personal optical effect created by light bouncing around inside raindrops at a very specific angle relative to the viewer. That means no two people ever technically see the exact same rainbow, even if they're standing right next to each other."
+  },
+  {
+    "id": "explainer-standing-desks",
+    "title": "Did You Know: Standing Desks",
+    "text": "Standing desks became popular based on studies suggesting that sitting for long periods increases health risks. However, more recent research suggests that simply standing all day isn't a perfect fix either - the real benefit comes from regularly changing position and moving throughout the day."
   }
 ]

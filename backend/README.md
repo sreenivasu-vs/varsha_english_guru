@@ -31,6 +31,28 @@ the user + each practice attempt to PostgreSQL.
 Tables are created automatically on first run (no migration tool needed for
 this minimal setup).
 
+## Quick local run without PostgreSQL (SQLite)
+
+For local testing you can skip Postgres entirely and use the bundled SQLite
+database instead - no database server needed:
+
+```powershell
+# PowerShell, from the backend folder
+$env:DATABASE_URL = "sqlite:///./dev.db"
+venv\Scripts\python.exe -m uvicorn main:app --port 8000
+```
+
+```bash
+# Git Bash / macOS / Linux
+DATABASE_URL="sqlite:///./dev.db" ./venv/Scripts/python.exe -m uvicorn main:app --port 8000
+```
+
+The frontend served at localhost automatically points at
+`http://localhost:8000`, so once this is running, Speaking Practice, Daily
+Conversation, the Speaking Test and grammar scoring all work locally.
+(The deployed Netlify site uses the Render backend instead - this is only
+for local testing.)
+
 ## Endpoints
 
 - `GET /api/users/check?username=xxx` - `{ available }` - checks if a username is free

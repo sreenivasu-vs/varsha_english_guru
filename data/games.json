@@ -14,6 +14,13 @@
     "page": "verb-challenge.html"
   },
   {
+    "id": "fill-blank",
+    "title": "Fill in the Blank",
+    "icon": "📝",
+    "description": "A sentence is missing a word - pick the correct verb form to complete it. 475 sentences from the Verb Mastery Bank.",
+    "page": "fill-blank.html"
+  },
+  {
     "id": "find-the-mistake",
     "title": "Find the Mistake",
     "icon": "🎯",

@@ -1,0 +1,5826 @@
+[
+  {
+    "id": 1,
+    "verb": "Go",
+    "blankSentence": "I ____ to school every day.",
+    "answer": "go",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 2,
+    "verb": "Go",
+    "blankSentence": "She ____ to the market on Sundays.",
+    "answer": "goes",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 3,
+    "verb": "Go",
+    "blankSentence": "We ____ home at six o'clock.",
+    "answer": "go",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 4,
+    "verb": "Go",
+    "blankSentence": "He ____ to bed early last night.",
+    "answer": "went",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 5,
+    "verb": "Go",
+    "blankSentence": "They have ____ to the airport.",
+    "answer": "gone",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 6,
+    "verb": "Go",
+    "blankSentence": "Do you ____ to the gym often?",
+    "answer": "go",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 7,
+    "verb": "Go",
+    "blankSentence": "Let's ____ for a walk.",
+    "answer": "go",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 8,
+    "verb": "Go",
+    "blankSentence": "I am ____ to the store.",
+    "answer": "going",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 9,
+    "verb": "Go",
+    "blankSentence": "My father ____ to work by bus.",
+    "answer": "goes",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 10,
+    "verb": "Go",
+    "blankSentence": "Where did you ____ yesterday?",
+    "answer": "go",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going",
+      "goes"
+    ]
+  },
+  {
+    "id": 11,
+    "verb": "Have",
+    "blankSentence": "I ____ a car.",
+    "answer": "have",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 12,
+    "verb": "Have",
+    "blankSentence": "She ____ two brothers.",
+    "answer": "has",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 13,
+    "verb": "Have",
+    "blankSentence": "We ____ a meeting today.",
+    "answer": "have",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 14,
+    "verb": "Have",
+    "blankSentence": "He ____ a good time at the party.",
+    "answer": "had",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 15,
+    "verb": "Have",
+    "blankSentence": "They ____ a big house.",
+    "answer": "have",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 16,
+    "verb": "Have",
+    "blankSentence": "Do you ____ a pen?",
+    "answer": "have",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 17,
+    "verb": "Have",
+    "blankSentence": "I ____ to go now.",
+    "answer": "have",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 18,
+    "verb": "Have",
+    "blankSentence": "She ____ a headache.",
+    "answer": "has",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 19,
+    "verb": "Have",
+    "blankSentence": "We ____ lunch together.",
+    "answer": "had",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 20,
+    "verb": "Have",
+    "blankSentence": "Does he ____ a laptop?",
+    "answer": "have",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "has"
+    ]
+  },
+  {
+    "id": 21,
+    "verb": "Do",
+    "blankSentence": "I ____ my homework every evening.",
+    "answer": "do",
+    "options": [
+      "do",
+      "did",
+      "done",
+      "doing",
+      "does"
+    ]
+  },
+  {
+    "id": 22,
+    "verb": "Do",
+    "blankSentence": "She ____ the dishes after dinner.",
+    "answer": "does",
+    "options": [
+      "do",
+      "did",
+      "done",
+      "doing",
+      "does"
+    ]
+  },
+  {
+    "id": 23,
+    "verb": "Do",
+    "blankSentence": "We ____ our best in the exam.",
+    "answer": "did",
+    "options": [
+      "do",
+      "did",
+      "done",
+      "doing",
+      "does"
+    ]
+  },
+  {
+    "id": 24,
+    "verb": "Do",
+    "blankSentence": "____ you speak English?",
+    "answer": "do",
+    "options": [
+      "do",
+      "did",
+      "done",
+      "doing",
+      "does"
+    ]
+  },
+  {
+    "id": 25,
+    "verb": "Do",
+    "blankSentence": "I am ____ my project now.",
+    "answer": "doing",
+    "options": [
+      "do",
+      "did",
+      "done",
+      "doing",
+      "does"
+    ]
+  },
+  {
+    "id": 26,
+    "verb": "Do",
+    "blankSentence": "They ____ a great job.",
+    "answer": "did",
+    "options": [
+      "do",
+      "did",
+      "done",
+      "doing",
+      "does"
+    ]
+  },
+  {
+    "id": 27,
+    "verb": "Do",
+    "blankSentence": "____ she work here?",
+    "answer": "does",
+    "options": [
+      "do",
+      "did",
+      "done",
+      "doing",
+      "does"
+    ]
+  },
+  {
+    "id": 28,
+    "verb": "Do",
+    "blankSentence": "What are you ____?",
+    "answer": "doing",
+    "options": [
+      "do",
+      "did",
+      "done",
+      "doing",
+      "does"
+    ]
+  },
+  {
+    "id": 29,
+    "verb": "Get",
+    "blankSentence": "I ____ up at seven every morning.",
+    "answer": "get",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 30,
+    "verb": "Get",
+    "blankSentence": "She ____ a new phone yesterday.",
+    "answer": "got",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 31,
+    "verb": "Get",
+    "blankSentence": "We ____ home late on Fridays.",
+    "answer": "get",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 32,
+    "verb": "Get",
+    "blankSentence": "He ____ tired after work.",
+    "answer": "gets",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 33,
+    "verb": "Get",
+    "blankSentence": "Did you ____ my message?",
+    "answer": "get",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 34,
+    "verb": "Get",
+    "blankSentence": "I am ____ ready for the party.",
+    "answer": "getting",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 35,
+    "verb": "Get",
+    "blankSentence": "They ____ married last year.",
+    "answer": "got",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 36,
+    "verb": "Get",
+    "blankSentence": "Can you ____ me some water?",
+    "answer": "get",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 37,
+    "verb": "Get",
+    "blankSentence": "It's ____ cold outside.",
+    "answer": "getting",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 38,
+    "verb": "Get",
+    "blankSentence": "I didn't ____ the joke.",
+    "answer": "get",
+    "options": [
+      "get",
+      "got",
+      "gotten (US) / got (UK)",
+      "getting",
+      "gets"
+    ]
+  },
+  {
+    "id": 39,
+    "verb": "Make",
+    "blankSentence": "I ____ breakfast every morning.",
+    "answer": "make",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 40,
+    "verb": "Make",
+    "blankSentence": "She ____ delicious cakes.",
+    "answer": "makes",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 41,
+    "verb": "Make",
+    "blankSentence": "We ____ a mistake.",
+    "answer": "made",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 42,
+    "verb": "Make",
+    "blankSentence": "He ____ a phone call.",
+    "answer": "made",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 43,
+    "verb": "Make",
+    "blankSentence": "Did you ____ this dress?",
+    "answer": "make",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 44,
+    "verb": "Make",
+    "blankSentence": "I am ____ dinner now.",
+    "answer": "making",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 45,
+    "verb": "Make",
+    "blankSentence": "They ____ a plan for the weekend.",
+    "answer": "made",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 46,
+    "verb": "Make",
+    "blankSentence": "Can you ____ some coffee?",
+    "answer": "make",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 47,
+    "verb": "Make",
+    "blankSentence": "This ____ me happy.",
+    "answer": "makes",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 48,
+    "verb": "Make",
+    "blankSentence": "I didn't ____ the deadline.",
+    "answer": "make",
+    "options": [
+      "make",
+      "made",
+      "making",
+      "makes"
+    ]
+  },
+  {
+    "id": 49,
+    "verb": "Take",
+    "blankSentence": "I ____ the bus to work.",
+    "answer": "take",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 50,
+    "verb": "Take",
+    "blankSentence": "She ____ her dog for a walk.",
+    "answer": "takes",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 51,
+    "verb": "Take",
+    "blankSentence": "We ____ a lot of photos.",
+    "answer": "took",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 52,
+    "verb": "Take",
+    "blankSentence": "He ____ my pen by mistake.",
+    "answer": "took",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 53,
+    "verb": "Take",
+    "blankSentence": "Did you ____ your medicine?",
+    "answer": "take",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 54,
+    "verb": "Take",
+    "blankSentence": "I am ____ a break now.",
+    "answer": "taking",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 55,
+    "verb": "Take",
+    "blankSentence": "They ____ a taxi to the airport.",
+    "answer": "took",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 56,
+    "verb": "Take",
+    "blankSentence": "Can you ____ this box for me?",
+    "answer": "take",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 57,
+    "verb": "Take",
+    "blankSentence": "This test ____ one hour.",
+    "answer": "takes",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 58,
+    "verb": "Take",
+    "blankSentence": "I didn't ____ any notes.",
+    "answer": "take",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking",
+      "takes"
+    ]
+  },
+  {
+    "id": 59,
+    "verb": "Come",
+    "blankSentence": "Please ____ here.",
+    "answer": "come",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 60,
+    "verb": "Come",
+    "blankSentence": "She ____ to class every day.",
+    "answer": "comes",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 61,
+    "verb": "Come",
+    "blankSentence": "We ____ home late.",
+    "answer": "came",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 62,
+    "verb": "Come",
+    "blankSentence": "He ____ to see me yesterday.",
+    "answer": "came",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 63,
+    "verb": "Come",
+    "blankSentence": "Did you ____ by car?",
+    "answer": "come",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 64,
+    "verb": "Come",
+    "blankSentence": "I am ____ to the party.",
+    "answer": "coming",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 65,
+    "verb": "Come",
+    "blankSentence": "They ____ from a small town.",
+    "answer": "came",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 66,
+    "verb": "Come",
+    "blankSentence": "Can you ____ with me?",
+    "answer": "come",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 67,
+    "verb": "Come",
+    "blankSentence": "Winter is ____ soon.",
+    "answer": "coming",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 68,
+    "verb": "Come",
+    "blankSentence": "I didn't ____ to school today.",
+    "answer": "come",
+    "options": [
+      "come",
+      "came",
+      "coming",
+      "comes"
+    ]
+  },
+  {
+    "id": 69,
+    "verb": "See",
+    "blankSentence": "I ____ a bird in the tree.",
+    "answer": "see",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 70,
+    "verb": "See",
+    "blankSentence": "She ____ her friends every weekend.",
+    "answer": "sees",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 71,
+    "verb": "See",
+    "blankSentence": "We ____ a movie last night.",
+    "answer": "saw",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 72,
+    "verb": "See",
+    "blankSentence": "He ____ his old teacher at the store.",
+    "answer": "saw",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 73,
+    "verb": "See",
+    "blankSentence": "Did you ____ the news today?",
+    "answer": "see",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 74,
+    "verb": "See",
+    "blankSentence": "I am ____ the doctor tomorrow.",
+    "answer": "seeing",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 75,
+    "verb": "See",
+    "blankSentence": "They ____ a beautiful sunset.",
+    "answer": "saw",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 76,
+    "verb": "See",
+    "blankSentence": "Can you ____ the board from there?",
+    "answer": "see",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 77,
+    "verb": "See",
+    "blankSentence": "I don't ____ him here.",
+    "answer": "see",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 78,
+    "verb": "See",
+    "blankSentence": "I didn't ____ your message.",
+    "answer": "see",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing",
+      "sees"
+    ]
+  },
+  {
+    "id": 79,
+    "verb": "Know",
+    "blankSentence": "I ____ your name.",
+    "answer": "know",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 80,
+    "verb": "Know",
+    "blankSentence": "She ____ the answer.",
+    "answer": "knows",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 81,
+    "verb": "Know",
+    "blankSentence": "We ____ the way home.",
+    "answer": "knew",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 82,
+    "verb": "Know",
+    "blankSentence": "He ____ my father.",
+    "answer": "knew",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 83,
+    "verb": "Know",
+    "blankSentence": "Did you ____ about the meeting?",
+    "answer": "know",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 84,
+    "verb": "Know",
+    "blankSentence": "I don't ____ the time.",
+    "answer": "know",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 85,
+    "verb": "Know",
+    "blankSentence": "They ____ each other in school.",
+    "answer": "knew",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 86,
+    "verb": "Know",
+    "blankSentence": "Do you ____ this song?",
+    "answer": "know",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 87,
+    "verb": "Know",
+    "blankSentence": "I ____ how to swim.",
+    "answer": "know",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 88,
+    "verb": "Know",
+    "blankSentence": "I didn't ____ you were here.",
+    "answer": "know",
+    "options": [
+      "know",
+      "knew",
+      "known",
+      "knowing",
+      "knows"
+    ]
+  },
+  {
+    "id": 89,
+    "verb": "Think",
+    "blankSentence": "I ____ this is a good idea.",
+    "answer": "think",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 90,
+    "verb": "Think",
+    "blankSentence": "She ____ about her family often.",
+    "answer": "thinks",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 91,
+    "verb": "Think",
+    "blankSentence": "We ____ about it carefully.",
+    "answer": "thought",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 92,
+    "verb": "Think",
+    "blankSentence": "He ____ the movie was great.",
+    "answer": "thought",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 93,
+    "verb": "Think",
+    "blankSentence": "Do you ____ it will rain?",
+    "answer": "think",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 94,
+    "verb": "Think",
+    "blankSentence": "I am ____ about my next vacation.",
+    "answer": "thinking",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 95,
+    "verb": "Think",
+    "blankSentence": "They ____ the test was easy.",
+    "answer": "thought",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 96,
+    "verb": "Think",
+    "blankSentence": "Can you ____ of a solution?",
+    "answer": "think",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 97,
+    "verb": "Think",
+    "blankSentence": "I don't ____ that's correct.",
+    "answer": "think",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 98,
+    "verb": "Think",
+    "blankSentence": "What do you ____ about this plan?",
+    "answer": "think",
+    "options": [
+      "think",
+      "thought",
+      "thinking",
+      "thinks"
+    ]
+  },
+  {
+    "id": 99,
+    "verb": "Look",
+    "blankSentence": "____ at this picture.",
+    "answer": "look",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 100,
+    "verb": "Look",
+    "blankSentence": "She ____ happy today.",
+    "answer": "looks",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 101,
+    "verb": "Look",
+    "blankSentence": "We ____ for the keys everywhere.",
+    "answer": "looked",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 102,
+    "verb": "Look",
+    "blankSentence": "Did you ____ at the menu?",
+    "answer": "look",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 103,
+    "verb": "Look",
+    "blankSentence": "I am ____ for my phone.",
+    "answer": "looking",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 104,
+    "verb": "Look",
+    "blankSentence": "They ____ surprised.",
+    "answer": "looked",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 105,
+    "verb": "Look",
+    "blankSentence": "Can you ____ after my bag?",
+    "answer": "look",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 106,
+    "verb": "Look",
+    "blankSentence": "This ____ delicious.",
+    "answer": "looks",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 107,
+    "verb": "Look",
+    "blankSentence": "I didn't ____ at the clock.",
+    "answer": "look",
+    "options": [
+      "look",
+      "looked",
+      "looking",
+      "looks"
+    ]
+  },
+  {
+    "id": 108,
+    "verb": "Want",
+    "blankSentence": "I ____ a cup of coffee.",
+    "answer": "want",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 109,
+    "verb": "Want",
+    "blankSentence": "She ____ a new phone.",
+    "answer": "wants",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 110,
+    "verb": "Want",
+    "blankSentence": "We ____ to go home early.",
+    "answer": "wanted",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 111,
+    "verb": "Want",
+    "blankSentence": "He ____ to see the movie.",
+    "answer": "wanted",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 112,
+    "verb": "Want",
+    "blankSentence": "Do you ____ some water?",
+    "answer": "want",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 113,
+    "verb": "Want",
+    "blankSentence": "I ____ to learn Spanish.",
+    "answer": "want",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 114,
+    "verb": "Want",
+    "blankSentence": "They ____ a bigger house.",
+    "answer": "wanted",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 115,
+    "verb": "Want",
+    "blankSentence": "What do you ____ for dinner?",
+    "answer": "want",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 116,
+    "verb": "Want",
+    "blankSentence": "I don't ____ to be late.",
+    "answer": "want",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 117,
+    "verb": "Want",
+    "blankSentence": "She ____ to say thank you.",
+    "answer": "wanted",
+    "options": [
+      "want",
+      "wanted",
+      "wanting",
+      "wants"
+    ]
+  },
+  {
+    "id": 118,
+    "verb": "Give",
+    "blankSentence": "I ____ her a gift every year.",
+    "answer": "give",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 119,
+    "verb": "Give",
+    "blankSentence": "She ____ good advice.",
+    "answer": "gives",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 120,
+    "verb": "Give",
+    "blankSentence": "We ____ him our address.",
+    "answer": "gave",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 121,
+    "verb": "Give",
+    "blankSentence": "He ____ a speech yesterday.",
+    "answer": "gave",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 122,
+    "verb": "Give",
+    "blankSentence": "Did you ____ her the message?",
+    "answer": "give",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 123,
+    "verb": "Give",
+    "blankSentence": "I am ____ a presentation tomorrow.",
+    "answer": "giving",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 124,
+    "verb": "Give",
+    "blankSentence": "They ____ us a warm welcome.",
+    "answer": "gave",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 125,
+    "verb": "Give",
+    "blankSentence": "Can you ____ me a hand?",
+    "answer": "give",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 126,
+    "verb": "Give",
+    "blankSentence": "This ____ me an idea.",
+    "answer": "gives",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 127,
+    "verb": "Give",
+    "blankSentence": "I didn't ____ him my number.",
+    "answer": "give",
+    "options": [
+      "give",
+      "gave",
+      "given",
+      "giving",
+      "gives"
+    ]
+  },
+  {
+    "id": 128,
+    "verb": "Use",
+    "blankSentence": "I ____ my phone every day.",
+    "answer": "use",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 129,
+    "verb": "Use",
+    "blankSentence": "She ____ a laptop for work.",
+    "answer": "uses",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 130,
+    "verb": "Use",
+    "blankSentence": "We ____ a map to find the way.",
+    "answer": "used",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 131,
+    "verb": "Use",
+    "blankSentence": "He ____ my pen without asking.",
+    "answer": "used",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 132,
+    "verb": "Use",
+    "blankSentence": "Did you ____ the new app?",
+    "answer": "use",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 133,
+    "verb": "Use",
+    "blankSentence": "I am ____ this software now.",
+    "answer": "using",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 134,
+    "verb": "Use",
+    "blankSentence": "They ____ to live in this city.",
+    "answer": "used",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 135,
+    "verb": "Use",
+    "blankSentence": "Can you ____ this tool?",
+    "answer": "use",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 136,
+    "verb": "Use",
+    "blankSentence": "This app is easy to ____.",
+    "answer": "use",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 137,
+    "verb": "Use",
+    "blankSentence": "I didn't ____ the coupon.",
+    "answer": "use",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ]
+  },
+  {
+    "id": 138,
+    "verb": "Find",
+    "blankSentence": "I ____ my keys every morning in the same place.",
+    "answer": "find",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 139,
+    "verb": "Find",
+    "blankSentence": "She ____ the exercises easy.",
+    "answer": "finds",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 140,
+    "verb": "Find",
+    "blankSentence": "We ____ a great restaurant nearby.",
+    "answer": "found",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 141,
+    "verb": "Find",
+    "blankSentence": "He ____ his phone under the couch.",
+    "answer": "found",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 142,
+    "verb": "Find",
+    "blankSentence": "Did you ____ the answer?",
+    "answer": "find",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 143,
+    "verb": "Find",
+    "blankSentence": "I am ____ this book difficult.",
+    "answer": "finding",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 144,
+    "verb": "Find",
+    "blankSentence": "They ____ a new apartment.",
+    "answer": "found",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 145,
+    "verb": "Find",
+    "blankSentence": "Can you ____ my glasses?",
+    "answer": "find",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 146,
+    "verb": "Find",
+    "blankSentence": "This app ____ nearby stores.",
+    "answer": "finds",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 147,
+    "verb": "Find",
+    "blankSentence": "I didn't ____ the file.",
+    "answer": "find",
+    "options": [
+      "find",
+      "found",
+      "finding",
+      "finds"
+    ]
+  },
+  {
+    "id": 148,
+    "verb": "Tell",
+    "blankSentence": "I ____ the truth always.",
+    "answer": "tell",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 149,
+    "verb": "Tell",
+    "blankSentence": "She ____ great stories.",
+    "answer": "tells",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 150,
+    "verb": "Tell",
+    "blankSentence": "We ____ him the news.",
+    "answer": "told",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 151,
+    "verb": "Tell",
+    "blankSentence": "He ____ me a secret.",
+    "answer": "told",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 152,
+    "verb": "Tell",
+    "blankSentence": "Did you ____ her about the party?",
+    "answer": "tell",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 153,
+    "verb": "Tell",
+    "blankSentence": "I am ____ you the truth.",
+    "answer": "telling",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 154,
+    "verb": "Tell",
+    "blankSentence": "They ____ us to wait outside.",
+    "answer": "told",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 155,
+    "verb": "Tell",
+    "blankSentence": "Can you ____ me the time?",
+    "answer": "tell",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 156,
+    "verb": "Tell",
+    "blankSentence": "This ____ me a lot about her character.",
+    "answer": "tells",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 157,
+    "verb": "Tell",
+    "blankSentence": "I didn't ____ anyone about this.",
+    "answer": "tell",
+    "options": [
+      "tell",
+      "told",
+      "telling",
+      "tells"
+    ]
+  },
+  {
+    "id": 158,
+    "verb": "Ask",
+    "blankSentence": "I ____ questions in class.",
+    "answer": "ask",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 159,
+    "verb": "Ask",
+    "blankSentence": "She ____ for help when needed.",
+    "answer": "asks",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 160,
+    "verb": "Ask",
+    "blankSentence": "We ____ him about his day.",
+    "answer": "asked",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 161,
+    "verb": "Ask",
+    "blankSentence": "He ____ for a glass of water.",
+    "answer": "asked",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 162,
+    "verb": "Ask",
+    "blankSentence": "Did you ____ your teacher?",
+    "answer": "ask",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 163,
+    "verb": "Ask",
+    "blankSentence": "I am ____ for your opinion.",
+    "answer": "asking",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 164,
+    "verb": "Ask",
+    "blankSentence": "They ____ us to join them.",
+    "answer": "asked",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 165,
+    "verb": "Ask",
+    "blankSentence": "Can I ____ you something?",
+    "answer": "ask",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 166,
+    "verb": "Ask",
+    "blankSentence": "This question ____ about your experience.",
+    "answer": "asks",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 167,
+    "verb": "Ask",
+    "blankSentence": "I didn't ____ for permission.",
+    "answer": "ask",
+    "options": [
+      "ask",
+      "asked",
+      "asking",
+      "asks"
+    ]
+  },
+  {
+    "id": 168,
+    "verb": "Work",
+    "blankSentence": "I ____ in an office.",
+    "answer": "work",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 169,
+    "verb": "Work",
+    "blankSentence": "She ____ as a teacher.",
+    "answer": "works",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 170,
+    "verb": "Work",
+    "blankSentence": "We ____ hard yesterday.",
+    "answer": "worked",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 171,
+    "verb": "Work",
+    "blankSentence": "He ____ late last night.",
+    "answer": "worked",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 172,
+    "verb": "Work",
+    "blankSentence": "Does this machine ____?",
+    "answer": "work",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 173,
+    "verb": "Work",
+    "blankSentence": "I am ____ on a project.",
+    "answer": "working",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 174,
+    "verb": "Work",
+    "blankSentence": "They ____ together on the report.",
+    "answer": "worked",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 175,
+    "verb": "Work",
+    "blankSentence": "Can you ____ this weekend?",
+    "answer": "work",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 176,
+    "verb": "Work",
+    "blankSentence": "This plan ____ well.",
+    "answer": "works",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 177,
+    "verb": "Work",
+    "blankSentence": "I didn't ____ today.",
+    "answer": "work",
+    "options": [
+      "work",
+      "worked",
+      "working",
+      "works"
+    ]
+  },
+  {
+    "id": 178,
+    "verb": "Feel",
+    "blankSentence": "I ____ happy today.",
+    "answer": "feel",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 179,
+    "verb": "Feel",
+    "blankSentence": "She ____ tired.",
+    "answer": "feels",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 180,
+    "verb": "Feel",
+    "blankSentence": "We ____ nervous before the exam.",
+    "answer": "felt",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 181,
+    "verb": "Feel",
+    "blankSentence": "He ____ sick yesterday.",
+    "answer": "felt",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 182,
+    "verb": "Feel",
+    "blankSentence": "Do you ____ okay?",
+    "answer": "feel",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 183,
+    "verb": "Feel",
+    "blankSentence": "I am ____ much better now.",
+    "answer": "feeling",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 184,
+    "verb": "Feel",
+    "blankSentence": "They ____ relieved after the news.",
+    "answer": "felt",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 185,
+    "verb": "Feel",
+    "blankSentence": "Can you ____ the cold wind?",
+    "answer": "feel",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 186,
+    "verb": "Feel",
+    "blankSentence": "This fabric ____ soft.",
+    "answer": "feels",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 187,
+    "verb": "Feel",
+    "blankSentence": "I didn't ____ well this morning.",
+    "answer": "feel",
+    "options": [
+      "feel",
+      "felt",
+      "feeling",
+      "feels"
+    ]
+  },
+  {
+    "id": 188,
+    "verb": "Say",
+    "blankSentence": "I ____ hello every morning.",
+    "answer": "say",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 189,
+    "verb": "Say",
+    "blankSentence": "She ____ thank you politely.",
+    "answer": "says",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 190,
+    "verb": "Say",
+    "blankSentence": "We ____ goodbye at the door.",
+    "answer": "said",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 191,
+    "verb": "Say",
+    "blankSentence": "He ____ he was busy.",
+    "answer": "said",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 192,
+    "verb": "Say",
+    "blankSentence": "Did you ____ something?",
+    "answer": "say",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 193,
+    "verb": "Say",
+    "blankSentence": "I am ____ this for your benefit.",
+    "answer": "saying",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 194,
+    "verb": "Say",
+    "blankSentence": "They ____ yes to the offer.",
+    "answer": "said",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 195,
+    "verb": "Say",
+    "blankSentence": "Can you ____ that again?",
+    "answer": "say",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 196,
+    "verb": "Say",
+    "blankSentence": "This sign ____ 'no parking'.",
+    "answer": "says",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 197,
+    "verb": "Say",
+    "blankSentence": "I didn't ____ anything wrong.",
+    "answer": "say",
+    "options": [
+      "say",
+      "said",
+      "saying",
+      "says"
+    ]
+  },
+  {
+    "id": 198,
+    "verb": "Talk",
+    "blankSentence": "I ____ to my friends every day.",
+    "answer": "talk",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 199,
+    "verb": "Talk",
+    "blankSentence": "She ____ fast when excited.",
+    "answer": "talks",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 200,
+    "verb": "Talk",
+    "blankSentence": "We ____ about our plans.",
+    "answer": "talked",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 201,
+    "verb": "Talk",
+    "blankSentence": "He ____ to his manager.",
+    "answer": "talked",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 202,
+    "verb": "Talk",
+    "blankSentence": "Did you ____ to her yet?",
+    "answer": "talk",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 203,
+    "verb": "Talk",
+    "blankSentence": "I am ____ to my sister now.",
+    "answer": "talking",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 204,
+    "verb": "Talk",
+    "blankSentence": "They ____ for hours.",
+    "answer": "talked",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 205,
+    "verb": "Talk",
+    "blankSentence": "Can we ____ later?",
+    "answer": "talk",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 206,
+    "verb": "Talk",
+    "blankSentence": "This topic is worth ____ about.",
+    "answer": "talking",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 207,
+    "verb": "Talk",
+    "blankSentence": "I didn't ____ much today.",
+    "answer": "talk",
+    "options": [
+      "talk",
+      "talked",
+      "talking",
+      "talks"
+    ]
+  },
+  {
+    "id": 208,
+    "verb": "Speak",
+    "blankSentence": "I ____ English and Hindi.",
+    "answer": "speak",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 209,
+    "verb": "Speak",
+    "blankSentence": "She ____ three languages.",
+    "answer": "speaks",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 210,
+    "verb": "Speak",
+    "blankSentence": "We ____ to the manager.",
+    "answer": "spoke",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 211,
+    "verb": "Speak",
+    "blankSentence": "He ____ clearly during the meeting.",
+    "answer": "spoke",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 212,
+    "verb": "Speak",
+    "blankSentence": "Do you ____ French?",
+    "answer": "speak",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 213,
+    "verb": "Speak",
+    "blankSentence": "I am ____ to the class now.",
+    "answer": "speaking",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 214,
+    "verb": "Speak",
+    "blankSentence": "They ____ about the new policy.",
+    "answer": "spoke",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 215,
+    "verb": "Speak",
+    "blankSentence": "Can you ____ louder, please?",
+    "answer": "speak",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 216,
+    "verb": "Speak",
+    "blankSentence": "This app helps you ____ better English.",
+    "answer": "speak",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 217,
+    "verb": "Speak",
+    "blankSentence": "I didn't ____ much at the party.",
+    "answer": "speak",
+    "options": [
+      "speak",
+      "spoke",
+      "spoken",
+      "speaking",
+      "speaks"
+    ]
+  },
+  {
+    "id": 218,
+    "verb": "Eat",
+    "blankSentence": "She ____ vegetables every day.",
+    "answer": "eats",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 219,
+    "verb": "Eat",
+    "blankSentence": "We ____ dinner together last night.",
+    "answer": "ate",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 220,
+    "verb": "Eat",
+    "blankSentence": "He ____ all his food.",
+    "answer": "ate",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 221,
+    "verb": "Eat",
+    "blankSentence": "Did you ____ lunch yet?",
+    "answer": "eat",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 222,
+    "verb": "Eat",
+    "blankSentence": "I am ____ right now.",
+    "answer": "eating",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 223,
+    "verb": "Eat",
+    "blankSentence": "They ____ at a new restaurant.",
+    "answer": "ate",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 224,
+    "verb": "Eat",
+    "blankSentence": "Can you ____ spicy food?",
+    "answer": "eat",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 225,
+    "verb": "Eat",
+    "blankSentence": "This fruit is good to ____.",
+    "answer": "eat",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 226,
+    "verb": "Eat",
+    "blankSentence": "I didn't ____ breakfast today.",
+    "answer": "eat",
+    "options": [
+      "eat",
+      "ate",
+      "eaten",
+      "eating",
+      "eats"
+    ]
+  },
+  {
+    "id": 227,
+    "verb": "Drink",
+    "blankSentence": "I ____ water every day.",
+    "answer": "drink",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 228,
+    "verb": "Drink",
+    "blankSentence": "She ____ coffee in the morning.",
+    "answer": "drinks",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 229,
+    "verb": "Drink",
+    "blankSentence": "We ____ tea together.",
+    "answer": "drank",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 230,
+    "verb": "Drink",
+    "blankSentence": "He ____ all the juice.",
+    "answer": "drank",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 231,
+    "verb": "Drink",
+    "blankSentence": "Did you ____ enough water today?",
+    "answer": "drink",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 232,
+    "verb": "Drink",
+    "blankSentence": "I am ____ water now.",
+    "answer": "drinking",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 233,
+    "verb": "Drink",
+    "blankSentence": "They ____ coffee before the meeting.",
+    "answer": "drank",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 234,
+    "verb": "Drink",
+    "blankSentence": "Can I ____ this?",
+    "answer": "drink",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 235,
+    "verb": "Drink",
+    "blankSentence": "This ____ tastes great.",
+    "answer": "drink",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 236,
+    "verb": "Drink",
+    "blankSentence": "I didn't ____ anything yet.",
+    "answer": "drink",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking",
+      "drinks"
+    ]
+  },
+  {
+    "id": 237,
+    "verb": "Sleep",
+    "blankSentence": "I ____ eight hours every night.",
+    "answer": "sleep",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 238,
+    "verb": "Sleep",
+    "blankSentence": "She ____ early on weekdays.",
+    "answer": "sleeps",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 239,
+    "verb": "Sleep",
+    "blankSentence": "We ____ well last night.",
+    "answer": "slept",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 240,
+    "verb": "Sleep",
+    "blankSentence": "He ____ until noon.",
+    "answer": "slept",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 241,
+    "verb": "Sleep",
+    "blankSentence": "Did you ____ well?",
+    "answer": "sleep",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 242,
+    "verb": "Sleep",
+    "blankSentence": "I am ____ now, please be quiet.",
+    "answer": "sleeping",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 243,
+    "verb": "Sleep",
+    "blankSentence": "They ____ in a hotel.",
+    "answer": "slept",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 244,
+    "verb": "Sleep",
+    "blankSentence": "Can you ____ on the plane?",
+    "answer": "sleep",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 245,
+    "verb": "Sleep",
+    "blankSentence": "This bed is comfortable to ____ in.",
+    "answer": "sleep",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 246,
+    "verb": "Sleep",
+    "blankSentence": "I didn't ____ much last night.",
+    "answer": "sleep",
+    "options": [
+      "sleep",
+      "slept",
+      "sleeping",
+      "sleeps"
+    ]
+  },
+  {
+    "id": 247,
+    "verb": "Wash",
+    "blankSentence": "I ____ my hands before eating.",
+    "answer": "wash",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 248,
+    "verb": "Wash",
+    "blankSentence": "She ____ the dishes every night.",
+    "answer": "washes",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 249,
+    "verb": "Wash",
+    "blankSentence": "We ____ the car yesterday.",
+    "answer": "washed",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 250,
+    "verb": "Wash",
+    "blankSentence": "He ____ his face this morning.",
+    "answer": "washed",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 251,
+    "verb": "Wash",
+    "blankSentence": "Did you ____ your hands?",
+    "answer": "wash",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 252,
+    "verb": "Wash",
+    "blankSentence": "I am ____ the clothes now.",
+    "answer": "washing",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 253,
+    "verb": "Wash",
+    "blankSentence": "They ____ the windows.",
+    "answer": "washed",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 254,
+    "verb": "Wash",
+    "blankSentence": "Can you ____ this shirt for me?",
+    "answer": "wash",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 255,
+    "verb": "Wash",
+    "blankSentence": "This detergent ____ clothes well.",
+    "answer": "washes",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 256,
+    "verb": "Wash",
+    "blankSentence": "I didn't ____ the dishes yet.",
+    "answer": "wash",
+    "options": [
+      "wash",
+      "washed",
+      "washing",
+      "washes"
+    ]
+  },
+  {
+    "id": 257,
+    "verb": "Buy",
+    "blankSentence": "I ____ groceries every week.",
+    "answer": "buy",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 258,
+    "verb": "Buy",
+    "blankSentence": "She ____ new shoes often.",
+    "answer": "buys",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 259,
+    "verb": "Buy",
+    "blankSentence": "We ____ a new car.",
+    "answer": "bought",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 260,
+    "verb": "Buy",
+    "blankSentence": "He ____ a gift for her.",
+    "answer": "bought",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 261,
+    "verb": "Buy",
+    "blankSentence": "Did you ____ milk?",
+    "answer": "buy",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 262,
+    "verb": "Buy",
+    "blankSentence": "I am ____ a house.",
+    "answer": "buying",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 263,
+    "verb": "Buy",
+    "blankSentence": "They ____ tickets for the show.",
+    "answer": "bought",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 264,
+    "verb": "Buy",
+    "blankSentence": "Can you ____ some bread?",
+    "answer": "buy",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 265,
+    "verb": "Buy",
+    "blankSentence": "This store sells things people ____ often.",
+    "answer": "buy",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 266,
+    "verb": "Buy",
+    "blankSentence": "I didn't ____ anything today.",
+    "answer": "buy",
+    "options": [
+      "buy",
+      "bought",
+      "buying",
+      "buys"
+    ]
+  },
+  {
+    "id": 267,
+    "verb": "Sit",
+    "blankSentence": "I ____ at my desk all day.",
+    "answer": "sit",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 268,
+    "verb": "Sit",
+    "blankSentence": "She ____ near the window.",
+    "answer": "sits",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 269,
+    "verb": "Sit",
+    "blankSentence": "We ____ together at lunch.",
+    "answer": "sat",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 270,
+    "verb": "Sit",
+    "blankSentence": "He ____ down quickly.",
+    "answer": "sat",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 271,
+    "verb": "Sit",
+    "blankSentence": "Did you ____ in the front row?",
+    "answer": "sit",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 272,
+    "verb": "Sit",
+    "blankSentence": "I am ____ on the sofa.",
+    "answer": "sitting",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 273,
+    "verb": "Sit",
+    "blankSentence": "They ____ in silence for a while.",
+    "answer": "sat",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 274,
+    "verb": "Sit",
+    "blankSentence": "Can I ____ here?",
+    "answer": "sit",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 275,
+    "verb": "Sit",
+    "blankSentence": "This chair is comfortable to ____ in.",
+    "answer": "sit",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 276,
+    "verb": "Sit",
+    "blankSentence": "I didn't ____ down all day.",
+    "answer": "sit",
+    "options": [
+      "sit",
+      "sat",
+      "sitting",
+      "sits"
+    ]
+  },
+  {
+    "id": 277,
+    "verb": "Stand",
+    "blankSentence": "I ____ at the bus stop every morning.",
+    "answer": "stand",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 278,
+    "verb": "Stand",
+    "blankSentence": "She ____ near the door.",
+    "answer": "stands",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 279,
+    "verb": "Stand",
+    "blankSentence": "We ____ in line for an hour.",
+    "answer": "stood",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 280,
+    "verb": "Stand",
+    "blankSentence": "He ____ up to greet me.",
+    "answer": "stood",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 281,
+    "verb": "Stand",
+    "blankSentence": "Did you ____ during the ceremony?",
+    "answer": "stand",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 282,
+    "verb": "Stand",
+    "blankSentence": "I am ____ outside the building.",
+    "answer": "standing",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 283,
+    "verb": "Stand",
+    "blankSentence": "They ____ together for the photo.",
+    "answer": "stood",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 284,
+    "verb": "Stand",
+    "blankSentence": "Can you ____ here for a moment?",
+    "answer": "stand",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 285,
+    "verb": "Stand",
+    "blankSentence": "This company ____ for quality.",
+    "answer": "stands",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 286,
+    "verb": "Stand",
+    "blankSentence": "I didn't ____ the whole time.",
+    "answer": "stand",
+    "options": [
+      "stand",
+      "stood",
+      "standing",
+      "stands"
+    ]
+  },
+  {
+    "id": 287,
+    "verb": "Stop",
+    "blankSentence": "I ____ at the red light.",
+    "answer": "stop",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 288,
+    "verb": "Stop",
+    "blankSentence": "She ____ working at five.",
+    "answer": "stops",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 289,
+    "verb": "Stop",
+    "blankSentence": "We ____ to take a photo.",
+    "answer": "stopped",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 290,
+    "verb": "Stop",
+    "blankSentence": "He ____ the car suddenly.",
+    "answer": "stopped",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 291,
+    "verb": "Stop",
+    "blankSentence": "Did you ____ at the store?",
+    "answer": "stop",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 292,
+    "verb": "Stop",
+    "blankSentence": "I am ____ here for a break.",
+    "answer": "stopping",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 293,
+    "verb": "Stop",
+    "blankSentence": "They ____ talking when I entered.",
+    "answer": "stopped",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 294,
+    "verb": "Stop",
+    "blankSentence": "Can you ____ the noise?",
+    "answer": "stop",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 295,
+    "verb": "Stop",
+    "blankSentence": "This medicine ____ the pain.",
+    "answer": "stops",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 296,
+    "verb": "Stop",
+    "blankSentence": "I didn't ____ to think about it.",
+    "answer": "stop",
+    "options": [
+      "stop",
+      "stopped",
+      "stopping",
+      "stops"
+    ]
+  },
+  {
+    "id": 297,
+    "verb": "Start",
+    "blankSentence": "I ____ work at nine.",
+    "answer": "start",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 298,
+    "verb": "Start",
+    "blankSentence": "She ____ school next week.",
+    "answer": "starts",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 299,
+    "verb": "Start",
+    "blankSentence": "We ____ the project yesterday.",
+    "answer": "started",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 300,
+    "verb": "Start",
+    "blankSentence": "He ____ his own business.",
+    "answer": "started",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 301,
+    "verb": "Start",
+    "blankSentence": "Did you ____ the homework?",
+    "answer": "start",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 302,
+    "verb": "Start",
+    "blankSentence": "I am ____ a new job.",
+    "answer": "starting",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 303,
+    "verb": "Start",
+    "blankSentence": "They ____ early this morning.",
+    "answer": "started",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 304,
+    "verb": "Start",
+    "blankSentence": "Can we ____ the meeting now?",
+    "answer": "start",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 305,
+    "verb": "Start",
+    "blankSentence": "This app helps you ____ learning quickly.",
+    "answer": "start",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 306,
+    "verb": "Start",
+    "blankSentence": "I didn't ____ yet.",
+    "answer": "start",
+    "options": [
+      "start",
+      "started",
+      "starting",
+      "starts"
+    ]
+  },
+  {
+    "id": 307,
+    "verb": "Open",
+    "blankSentence": "I ____ the door every morning.",
+    "answer": "open",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 308,
+    "verb": "Open",
+    "blankSentence": "She ____ the shop at nine.",
+    "answer": "opens",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 309,
+    "verb": "Open",
+    "blankSentence": "We ____ the window for fresh air.",
+    "answer": "opened",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 310,
+    "verb": "Open",
+    "blankSentence": "He ____ the box carefully.",
+    "answer": "opened",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 311,
+    "verb": "Open",
+    "blankSentence": "Did you ____ the email?",
+    "answer": "open",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 312,
+    "verb": "Open",
+    "blankSentence": "I am ____ the file now.",
+    "answer": "opening",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 313,
+    "verb": "Open",
+    "blankSentence": "They ____ a new restaurant.",
+    "answer": "opened",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 314,
+    "verb": "Open",
+    "blankSentence": "Can you ____ this jar for me?",
+    "answer": "open",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 315,
+    "verb": "Open",
+    "blankSentence": "This app ____ quickly.",
+    "answer": "opens",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 316,
+    "verb": "Open",
+    "blankSentence": "I didn't ____ the letter yet.",
+    "answer": "open",
+    "options": [
+      "open",
+      "opened",
+      "opening",
+      "opens"
+    ]
+  },
+  {
+    "id": 317,
+    "verb": "Close",
+    "blankSentence": "I ____ the door at night.",
+    "answer": "close",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 318,
+    "verb": "Close",
+    "blankSentence": "She ____ the shop at six.",
+    "answer": "closes",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 319,
+    "verb": "Close",
+    "blankSentence": "We ____ the windows before the storm.",
+    "answer": "closed",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 320,
+    "verb": "Close",
+    "blankSentence": "He ____ his eyes and rested.",
+    "answer": "closed",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 321,
+    "verb": "Close",
+    "blankSentence": "Did you ____ the file?",
+    "answer": "close",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 322,
+    "verb": "Close",
+    "blankSentence": "I am ____ the store now.",
+    "answer": "closing",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 323,
+    "verb": "Close",
+    "blankSentence": "They ____ the deal yesterday.",
+    "answer": "closed",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 324,
+    "verb": "Close",
+    "blankSentence": "Can you ____ the door, please?",
+    "answer": "close",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 325,
+    "verb": "Close",
+    "blankSentence": "This app ____ automatically after use.",
+    "answer": "closes",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 326,
+    "verb": "Close",
+    "blankSentence": "I didn't ____ the account yet.",
+    "answer": "close",
+    "options": [
+      "close",
+      "closed",
+      "closing",
+      "closes"
+    ]
+  },
+  {
+    "id": 327,
+    "verb": "Listen",
+    "blankSentence": "I ____ to music every day.",
+    "answer": "listen",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 328,
+    "verb": "Listen",
+    "blankSentence": "She ____ to the radio in the morning.",
+    "answer": "listens",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 329,
+    "verb": "Listen",
+    "blankSentence": "We ____ to the whole speech.",
+    "answer": "listened",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 330,
+    "verb": "Listen",
+    "blankSentence": "He ____ carefully to the instructions.",
+    "answer": "listened",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 331,
+    "verb": "Listen",
+    "blankSentence": "Did you ____ to the podcast?",
+    "answer": "listen",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 332,
+    "verb": "Listen",
+    "blankSentence": "I am ____ to you now.",
+    "answer": "listening",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 333,
+    "verb": "Listen",
+    "blankSentence": "They ____ to the teacher attentively.",
+    "answer": "listened",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 334,
+    "verb": "Listen",
+    "blankSentence": "Can you ____ for a moment?",
+    "answer": "listen",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 335,
+    "verb": "Listen",
+    "blankSentence": "This song is nice to ____ to.",
+    "answer": "listen",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 336,
+    "verb": "Listen",
+    "blankSentence": "I didn't ____ to the announcement.",
+    "answer": "listen",
+    "options": [
+      "listen",
+      "listened",
+      "listening",
+      "listens"
+    ]
+  },
+  {
+    "id": 337,
+    "verb": "Walk",
+    "blankSentence": "I ____ to work every day.",
+    "answer": "walk",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 338,
+    "verb": "Walk",
+    "blankSentence": "She ____ her dog in the evening.",
+    "answer": "walks",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 339,
+    "verb": "Walk",
+    "blankSentence": "We ____ to the store together.",
+    "answer": "walked",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 340,
+    "verb": "Walk",
+    "blankSentence": "He ____ into the room quietly.",
+    "answer": "walked",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 341,
+    "verb": "Walk",
+    "blankSentence": "Did you ____ here today?",
+    "answer": "walk",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 342,
+    "verb": "Walk",
+    "blankSentence": "I am ____ to the station now.",
+    "answer": "walking",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 343,
+    "verb": "Walk",
+    "blankSentence": "They ____ for an hour in the park.",
+    "answer": "walked",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 344,
+    "verb": "Walk",
+    "blankSentence": "Can you ____ a little faster?",
+    "answer": "walk",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 345,
+    "verb": "Walk",
+    "blankSentence": "This path is nice to ____ along.",
+    "answer": "walk",
+    "options": [
+      "walk",
+      "walked",
+      "walking",
+      "walks"
+    ]
+  },
+  {
+    "id": 346,
+    "verb": "Run",
+    "blankSentence": "I ____ every morning.",
+    "answer": "run",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 347,
+    "verb": "Run",
+    "blankSentence": "She ____ a small business.",
+    "answer": "runs",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 348,
+    "verb": "Run",
+    "blankSentence": "We ____ to catch the bus.",
+    "answer": "ran",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 349,
+    "verb": "Run",
+    "blankSentence": "He ____ five kilometers today.",
+    "answer": "ran",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 350,
+    "verb": "Run",
+    "blankSentence": "Did you ____ this morning?",
+    "answer": "run",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 351,
+    "verb": "Run",
+    "blankSentence": "I am ____ late.",
+    "answer": "running",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 352,
+    "verb": "Run",
+    "blankSentence": "They ____ out of milk.",
+    "answer": "ran",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 353,
+    "verb": "Run",
+    "blankSentence": "Can you ____ this errand for me?",
+    "answer": "run",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 354,
+    "verb": "Run",
+    "blankSentence": "This machine ____ smoothly.",
+    "answer": "runs",
+    "options": [
+      "run",
+      "ran",
+      "running",
+      "runs"
+    ]
+  },
+  {
+    "id": 355,
+    "verb": "Drive",
+    "blankSentence": "She ____ a red car.",
+    "answer": "drives",
+    "options": [
+      "drive",
+      "drove",
+      "driven",
+      "driving",
+      "drives"
+    ]
+  },
+  {
+    "id": 356,
+    "verb": "Drive",
+    "blankSentence": "We ____ to the beach last weekend.",
+    "answer": "drove",
+    "options": [
+      "drive",
+      "drove",
+      "driven",
+      "driving",
+      "drives"
+    ]
+  },
+  {
+    "id": 357,
+    "verb": "Drive",
+    "blankSentence": "He ____ me to the airport.",
+    "answer": "drove",
+    "options": [
+      "drive",
+      "drove",
+      "driven",
+      "driving",
+      "drives"
+    ]
+  },
+  {
+    "id": 358,
+    "verb": "Drive",
+    "blankSentence": "I am ____ to the office now.",
+    "answer": "driving",
+    "options": [
+      "drive",
+      "drove",
+      "driven",
+      "driving",
+      "drives"
+    ]
+  },
+  {
+    "id": 359,
+    "verb": "Drive",
+    "blankSentence": "They ____ all night to get there.",
+    "answer": "drove",
+    "options": [
+      "drive",
+      "drove",
+      "driven",
+      "driving",
+      "drives"
+    ]
+  },
+  {
+    "id": 360,
+    "verb": "Drive",
+    "blankSentence": "Can you ____ me to the station?",
+    "answer": "drive",
+    "options": [
+      "drive",
+      "drove",
+      "driven",
+      "driving",
+      "drives"
+    ]
+  },
+  {
+    "id": 361,
+    "verb": "Drive",
+    "blankSentence": "This car ____ smoothly.",
+    "answer": "drives",
+    "options": [
+      "drive",
+      "drove",
+      "driven",
+      "driving",
+      "drives"
+    ]
+  },
+  {
+    "id": 362,
+    "verb": "Wear",
+    "blankSentence": "I ____ a uniform to work.",
+    "answer": "wear",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 363,
+    "verb": "Wear",
+    "blankSentence": "She ____ glasses every day.",
+    "answer": "wears",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 364,
+    "verb": "Wear",
+    "blankSentence": "We ____ jackets because it was cold.",
+    "answer": "wore",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 365,
+    "verb": "Wear",
+    "blankSentence": "He ____ a suit to the interview.",
+    "answer": "wore",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 366,
+    "verb": "Wear",
+    "blankSentence": "Did you ____ the blue dress?",
+    "answer": "wear",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 367,
+    "verb": "Wear",
+    "blankSentence": "I am ____ new shoes today.",
+    "answer": "wearing",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 368,
+    "verb": "Wear",
+    "blankSentence": "They ____ matching outfits.",
+    "answer": "wore",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 369,
+    "verb": "Wear",
+    "blankSentence": "Can you ____ something formal?",
+    "answer": "wear",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 370,
+    "verb": "Wear",
+    "blankSentence": "This fabric is comfortable to ____.",
+    "answer": "wear",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 371,
+    "verb": "Wear",
+    "blankSentence": "I didn't ____ a coat today.",
+    "answer": "wear",
+    "options": [
+      "wear",
+      "wore",
+      "worn",
+      "wearing",
+      "wears"
+    ]
+  },
+  {
+    "id": 372,
+    "verb": "Read",
+    "blankSentence": "I ____ the news every morning.",
+    "answer": "read",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 373,
+    "verb": "Read",
+    "blankSentence": "She ____ a book every week.",
+    "answer": "reads",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 374,
+    "verb": "Read",
+    "blankSentence": "We ____ the instructions carefully.",
+    "answer": "read",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 375,
+    "verb": "Read",
+    "blankSentence": "He ____ the email twice.",
+    "answer": "read",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 376,
+    "verb": "Read",
+    "blankSentence": "I am ____ a new novel.",
+    "answer": "reading",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 377,
+    "verb": "Read",
+    "blankSentence": "They ____ the report together.",
+    "answer": "read",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 378,
+    "verb": "Read",
+    "blankSentence": "Can you ____ this for me?",
+    "answer": "read",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 379,
+    "verb": "Read",
+    "blankSentence": "This book is easy to ____.",
+    "answer": "read",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 380,
+    "verb": "Read",
+    "blankSentence": "I didn't ____ the terms and conditions.",
+    "answer": "read",
+    "options": [
+      "read",
+      "reading",
+      "reads"
+    ]
+  },
+  {
+    "id": 381,
+    "verb": "Write",
+    "blankSentence": "I ____ emails every day.",
+    "answer": "write",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 382,
+    "verb": "Write",
+    "blankSentence": "She ____ in her diary every night.",
+    "answer": "writes",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 383,
+    "verb": "Write",
+    "blankSentence": "We ____ a letter to our teacher.",
+    "answer": "wrote",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 384,
+    "verb": "Write",
+    "blankSentence": "He ____ his name on the form.",
+    "answer": "wrote",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 385,
+    "verb": "Write",
+    "blankSentence": "Did you ____ the report?",
+    "answer": "write",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 386,
+    "verb": "Write",
+    "blankSentence": "I am ____ a message now.",
+    "answer": "writing",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 387,
+    "verb": "Write",
+    "blankSentence": "They ____ down the address.",
+    "answer": "wrote",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 388,
+    "verb": "Write",
+    "blankSentence": "Can you ____ this in English?",
+    "answer": "write",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 389,
+    "verb": "Write",
+    "blankSentence": "This pen ____ smoothly.",
+    "answer": "writes",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing",
+      "writes"
+    ]
+  },
+  {
+    "id": 390,
+    "verb": "Learn",
+    "blankSentence": "I ____ something new every day.",
+    "answer": "learn",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 391,
+    "verb": "Learn",
+    "blankSentence": "She ____ quickly.",
+    "answer": "learns",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 392,
+    "verb": "Learn",
+    "blankSentence": "We ____ a lot from the training.",
+    "answer": "learned",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 393,
+    "verb": "Learn",
+    "blankSentence": "He ____ to swim last summer.",
+    "answer": "learned",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 394,
+    "verb": "Learn",
+    "blankSentence": "Did you ____ anything new today?",
+    "answer": "learn",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 395,
+    "verb": "Learn",
+    "blankSentence": "I am ____ English online.",
+    "answer": "learning",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 396,
+    "verb": "Learn",
+    "blankSentence": "They ____ the rules of the game.",
+    "answer": "learned",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 397,
+    "verb": "Learn",
+    "blankSentence": "Can you ____ this by tomorrow?",
+    "answer": "learn",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 398,
+    "verb": "Learn",
+    "blankSentence": "This course helps you ____ quickly.",
+    "answer": "learn",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 399,
+    "verb": "Learn",
+    "blankSentence": "I didn't ____ much from that class.",
+    "answer": "learn",
+    "options": [
+      "learn",
+      "learned",
+      "learning",
+      "learns"
+    ]
+  },
+  {
+    "id": 400,
+    "verb": "Remember",
+    "blankSentence": "She ____ everything.",
+    "answer": "remembers",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 401,
+    "verb": "Remember",
+    "blankSentence": "We ____ to bring the documents.",
+    "answer": "remembered",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 402,
+    "verb": "Remember",
+    "blankSentence": "He ____ her birthday.",
+    "answer": "remembered",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 403,
+    "verb": "Remember",
+    "blankSentence": "Did you ____ to call him?",
+    "answer": "remember",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 404,
+    "verb": "Remember",
+    "blankSentence": "I am ____ the good times we had.",
+    "answer": "remembering",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 405,
+    "verb": "Remember",
+    "blankSentence": "They ____ the address correctly.",
+    "answer": "remembered",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 406,
+    "verb": "Remember",
+    "blankSentence": "Can you ____ the password?",
+    "answer": "remember",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 407,
+    "verb": "Remember",
+    "blankSentence": "I ____ visiting this place before.",
+    "answer": "remember",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 408,
+    "verb": "Remember",
+    "blankSentence": "I didn't ____ the meeting time.",
+    "answer": "remember",
+    "options": [
+      "remember",
+      "remembered",
+      "remembering",
+      "remembers"
+    ]
+  },
+  {
+    "id": 409,
+    "verb": "Forget",
+    "blankSentence": "I ____ things sometimes.",
+    "answer": "forget",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 410,
+    "verb": "Forget",
+    "blankSentence": "She ____ her umbrella often.",
+    "answer": "forgets",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 411,
+    "verb": "Forget",
+    "blankSentence": "We ____ to lock the door.",
+    "answer": "forgot",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 412,
+    "verb": "Forget",
+    "blankSentence": "He ____ his password.",
+    "answer": "forgot",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 413,
+    "verb": "Forget",
+    "blankSentence": "Did you ____ your keys?",
+    "answer": "forget",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 414,
+    "verb": "Forget",
+    "blankSentence": "I am ____ the details already.",
+    "answer": "forgetting",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 415,
+    "verb": "Forget",
+    "blankSentence": "They ____ to call back.",
+    "answer": "forgot",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 416,
+    "verb": "Forget",
+    "blankSentence": "Can you ____ about it?",
+    "answer": "forget",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 417,
+    "verb": "Forget",
+    "blankSentence": "This is easy to ____.",
+    "answer": "forget",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 418,
+    "verb": "Forget",
+    "blankSentence": "I didn't ____ your birthday.",
+    "answer": "forget",
+    "options": [
+      "forget",
+      "forgot",
+      "forgotten",
+      "forgetting",
+      "forgets"
+    ]
+  },
+  {
+    "id": 419,
+    "verb": "Understand",
+    "blankSentence": "I ____ the instructions.",
+    "answer": "understand",
+    "options": [
+      "understand",
+      "understood",
+      "understanding",
+      "understands"
+    ]
+  },
+  {
+    "id": 420,
+    "verb": "Understand",
+    "blankSentence": "We ____ the lesson well.",
+    "answer": "understood",
+    "options": [
+      "understand",
+      "understood",
+      "understanding",
+      "understands"
+    ]
+  },
+  {
+    "id": 421,
+    "verb": "Understand",
+    "blankSentence": "He ____ my concern.",
+    "answer": "understood",
+    "options": [
+      "understand",
+      "understood",
+      "understanding",
+      "understands"
+    ]
+  },
+  {
+    "id": 422,
+    "verb": "Understand",
+    "blankSentence": "Did you ____ the question?",
+    "answer": "understand",
+    "options": [
+      "understand",
+      "understood",
+      "understanding",
+      "understands"
+    ]
+  },
+  {
+    "id": 423,
+    "verb": "Understand",
+    "blankSentence": "I am ____ the topic better now.",
+    "answer": "understanding",
+    "options": [
+      "understand",
+      "understood",
+      "understanding",
+      "understands"
+    ]
+  },
+  {
+    "id": 424,
+    "verb": "Understand",
+    "blankSentence": "They ____ the risks involved.",
+    "answer": "understood",
+    "options": [
+      "understand",
+      "understood",
+      "understanding",
+      "understands"
+    ]
+  },
+  {
+    "id": 425,
+    "verb": "Understand",
+    "blankSentence": "Can you ____ this document?",
+    "answer": "understand",
+    "options": [
+      "understand",
+      "understood",
+      "understanding",
+      "understands"
+    ]
+  },
+  {
+    "id": 426,
+    "verb": "Understand",
+    "blankSentence": "This explanation is easy to ____.",
+    "answer": "understand",
+    "options": [
+      "understand",
+      "understood",
+      "understanding",
+      "understands"
+    ]
+  },
+  {
+    "id": 427,
+    "verb": "Help",
+    "blankSentence": "I ____ my mother in the kitchen.",
+    "answer": "help",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 428,
+    "verb": "Help",
+    "blankSentence": "She ____ her students after class.",
+    "answer": "helps",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 429,
+    "verb": "Help",
+    "blankSentence": "We ____ him move his furniture.",
+    "answer": "helped",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 430,
+    "verb": "Help",
+    "blankSentence": "He ____ me with my homework.",
+    "answer": "helped",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 431,
+    "verb": "Help",
+    "blankSentence": "Did you ____ her with the project?",
+    "answer": "help",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 432,
+    "verb": "Help",
+    "blankSentence": "I am ____ my friend today.",
+    "answer": "helping",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 433,
+    "verb": "Help",
+    "blankSentence": "They ____ clean up after the party.",
+    "answer": "helped",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 434,
+    "verb": "Help",
+    "blankSentence": "Can you ____ me with this?",
+    "answer": "help",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 435,
+    "verb": "Help",
+    "blankSentence": "This tool ____ you save time.",
+    "answer": "helps",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 436,
+    "verb": "Help",
+    "blankSentence": "I didn't ____ much yesterday.",
+    "answer": "help",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ]
+  },
+  {
+    "id": 437,
+    "verb": "Meet",
+    "blankSentence": "I ____ my friends on weekends.",
+    "answer": "meet",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 438,
+    "verb": "Meet",
+    "blankSentence": "She ____ new people easily.",
+    "answer": "meets",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 439,
+    "verb": "Meet",
+    "blankSentence": "We ____ at a conference last year.",
+    "answer": "met",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 440,
+    "verb": "Meet",
+    "blankSentence": "He ____ his wife in college.",
+    "answer": "met",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 441,
+    "verb": "Meet",
+    "blankSentence": "Did you ____ the new manager?",
+    "answer": "meet",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 442,
+    "verb": "Meet",
+    "blankSentence": "I am ____ a client today.",
+    "answer": "meeting",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 443,
+    "verb": "Meet",
+    "blankSentence": "They ____ for coffee yesterday.",
+    "answer": "met",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 444,
+    "verb": "Meet",
+    "blankSentence": "Can we ____ tomorrow?",
+    "answer": "meet",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 445,
+    "verb": "Meet",
+    "blankSentence": "This app helps you ____ new friends.",
+    "answer": "meet",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 446,
+    "verb": "Meet",
+    "blankSentence": "I didn't ____ anyone new today.",
+    "answer": "meet",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ]
+  },
+  {
+    "id": 447,
+    "verb": "Call",
+    "blankSentence": "I ____ my mother every Sunday.",
+    "answer": "call",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 448,
+    "verb": "Call",
+    "blankSentence": "She ____ her friends often.",
+    "answer": "calls",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 449,
+    "verb": "Call",
+    "blankSentence": "We ____ the restaurant to book a table.",
+    "answer": "called",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 450,
+    "verb": "Call",
+    "blankSentence": "He ____ me last night.",
+    "answer": "called",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 451,
+    "verb": "Call",
+    "blankSentence": "Did you ____ the doctor?",
+    "answer": "call",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 452,
+    "verb": "Call",
+    "blankSentence": "I am ____ you about the meeting.",
+    "answer": "calling",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 453,
+    "verb": "Call",
+    "blankSentence": "They ____ off the event.",
+    "answer": "called",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 454,
+    "verb": "Call",
+    "blankSentence": "Can you ____ me later?",
+    "answer": "call",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 455,
+    "verb": "Call",
+    "blankSentence": "This is ____ a smartphone.",
+    "answer": "called",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 456,
+    "verb": "Call",
+    "blankSentence": "I didn't ____ him back yet.",
+    "answer": "call",
+    "options": [
+      "call",
+      "called",
+      "calling",
+      "calls"
+    ]
+  },
+  {
+    "id": 457,
+    "verb": "Play",
+    "blankSentence": "I ____ football on weekends.",
+    "answer": "play",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 458,
+    "verb": "Play",
+    "blankSentence": "She ____ the piano beautifully.",
+    "answer": "plays",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 459,
+    "verb": "Play",
+    "blankSentence": "We ____ cards last night.",
+    "answer": "played",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 460,
+    "verb": "Play",
+    "blankSentence": "He ____ well in the match.",
+    "answer": "played",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 461,
+    "verb": "Play",
+    "blankSentence": "Did you ____ any sports today?",
+    "answer": "play",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 462,
+    "verb": "Play",
+    "blankSentence": "I am ____ a game right now.",
+    "answer": "playing",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 463,
+    "verb": "Play",
+    "blankSentence": "They ____ in the park all afternoon.",
+    "answer": "played",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 464,
+    "verb": "Play",
+    "blankSentence": "Can you ____ the guitar?",
+    "answer": "play",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 465,
+    "verb": "Play",
+    "blankSentence": "This game is fun to ____.",
+    "answer": "play",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 466,
+    "verb": "Play",
+    "blankSentence": "I didn't ____ well in the tournament.",
+    "answer": "play",
+    "options": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ]
+  },
+  {
+    "id": 467,
+    "verb": "Watch",
+    "blankSentence": "I ____ TV in the evening.",
+    "answer": "watch",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  },
+  {
+    "id": 468,
+    "verb": "Watch",
+    "blankSentence": "She ____ movies every weekend.",
+    "answer": "watches",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  },
+  {
+    "id": 469,
+    "verb": "Watch",
+    "blankSentence": "We ____ a great film last night.",
+    "answer": "watched",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  },
+  {
+    "id": 470,
+    "verb": "Watch",
+    "blankSentence": "He ____ the game closely.",
+    "answer": "watched",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  },
+  {
+    "id": 471,
+    "verb": "Watch",
+    "blankSentence": "I am ____ a show right now.",
+    "answer": "watching",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  },
+  {
+    "id": 472,
+    "verb": "Watch",
+    "blankSentence": "They ____ the sunset together.",
+    "answer": "watched",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  },
+  {
+    "id": 473,
+    "verb": "Watch",
+    "blankSentence": "Can you ____ my bag for a minute?",
+    "answer": "watch",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  },
+  {
+    "id": 474,
+    "verb": "Watch",
+    "blankSentence": "This series is fun to ____.",
+    "answer": "watch",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  },
+  {
+    "id": 475,
+    "verb": "Watch",
+    "blankSentence": "I didn't ____ the match yesterday.",
+    "answer": "watch",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ]
+  }
+]

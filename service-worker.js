@@ -1,4 +1,4 @@
-const CACHE_NAME = "english-master-v38";
+const CACHE_NAME = "english-master-v39";
 const APP_SHELL = [
   "./manifest.json",
   "./css/style.css",
@@ -23,6 +23,7 @@ const APP_SHELL = [
   "./js/find-the-mistake.js",
   "./js/word-builder.js",
   "./js/verb-challenge.js",
+  "./js/fill-blank.js",
   "./js/games.js",
   "./icons/icon.svg",
   "./data/curriculum.json",
@@ -63,7 +64,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== self.location.origin) return;
 
-  if (url.pathname.includes("/data/lessons/") || url.pathname.endsWith("/data/flashcards.json") || url.pathname.endsWith("/data/verbs.json") || url.pathname.endsWith("/data/mistake-game.json") || url.pathname.endsWith("/data/word-builder.json")) {
+  if (url.pathname.includes("/data/lessons/") || url.pathname.endsWith("/data/flashcards.json") || url.pathname.endsWith("/data/verbs.json") || url.pathname.endsWith("/data/mistake-game.json") || url.pathname.endsWith("/data/word-builder.json") || url.pathname.endsWith("/data/fill-blank.json")) {
     event.respondWith(
       caches.open(CACHE_NAME).then(async (cache) => {
         const cached = await cache.match(event.request);

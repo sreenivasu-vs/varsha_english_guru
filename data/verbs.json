@@ -5307,5 +5307,2277 @@
       "present": "I listen to music every day.",
       "future": "I will listen to music tomorrow."
     }
+  },
+  {
+    "verb": "Walk",
+    "telugu": "నడువు (naḍuvu)",
+    "v1": "walk",
+    "v2": "walked",
+    "v3": "walked",
+    "v4": "walking",
+    "v5": "walks",
+    "pronunciation": "/wɔːk/ (rhymes with 'talk')",
+    "definition": "To move on foot at a normal pace.",
+    "commonUses": [
+      "Talking about movement on foot",
+      "Describing exercise and daily routine",
+      "Fixed expressions (walk away, walk in, walk someone through)",
+      "Giving directions"
+    ],
+    "beginnerSentences": [
+      "I walk to work every day.",
+      "She walks her dog in the evening.",
+      "We walked to the store together.",
+      "He walked into the room quietly.",
+      "Did you walk here today?",
+      "I am walking to the station now.",
+      "They walked for an hour in the park.",
+      "Can you walk a little faster?",
+      "This path is nice to walk along.",
+      "I didn't walk much today."
+    ],
+    "intermediateSentences": [
+      "I've been walking more to stay healthy.",
+      "She walked away from the argument calmly.",
+      "We walked through the proposal step by step.",
+      "He's walking a fine line between honesty and rudeness.",
+      "I walked in just as the meeting started.",
+      "They walked me through the entire process.",
+      "I've walked this route so many times I know it by heart.",
+      "We should walk and talk to save time.",
+      "She walked out of the meeting feeling confident.",
+      "He walked back his earlier comment after reconsidering."
+    ],
+    "businessSentences": [
+      "I'll walk you through the new process.",
+      "She walked into the interview fully prepared.",
+      "We walked away from the deal after reviewing the terms.",
+      "Let's walk through the presentation before the client call.",
+      "He walked the team through the updated timeline.",
+      "I walked out of that meeting with a lot of new ideas.",
+      "We should walk before we run with this new strategy.",
+      "She walked confidently into the boardroom.",
+      "I'll walk you through the report line by line.",
+      "They walked back their initial offer during negotiations."
+    ],
+    "questions": [
+      "Do you walk to work?",
+      "How long did you walk today?",
+      "Can you walk me through this process?",
+      "Did you walk or drive here?",
+      "How far do you usually walk?",
+      "Did you walk the dog this morning?",
+      "Can we walk and talk about this?",
+      "Did you walk out of the meeting early?",
+      "How long does it take to walk there?",
+      "Did you walk through the proposal with the client?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I walked to school yesterday for exercise for my health.",
+        "right": "I walked to school yesterday for exercise.",
+        "why": "Avoid stacking multiple purpose phrases - choose one clear reason instead of repeating similar ideas."
+      },
+      {
+        "wrong": "She walk to work every day.",
+        "right": "She walks to work every day.",
+        "why": "With he/she/it in the present simple, add 's' - 'walks', not 'walk'."
+      },
+      {
+        "wrong": "I have walking five kilometers today.",
+        "right": "I have walked five kilometers today.",
+        "why": "After 'have', use the past participle 'walked', not the -ing form."
+      }
+    ],
+    "grammarTips": [
+      "'Walk' is a regular verb (walk, walked, walked).",
+      "'Walk someone through' something means to explain it step by step.",
+      "'Walk' can be transitive (walk the dog) or intransitive (I walk every day)."
+    ],
+    "synonyms": [
+      "stroll",
+      "stride",
+      "amble",
+      "march"
+    ],
+    "antonyms": [
+      "run",
+      "stand still"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Do you want to walk to the café?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, it's a nice day for a walk."
+      },
+      {
+        "speaker": "A",
+        "line": "Great, it's only a ten-minute walk from here."
+      },
+      {
+        "speaker": "B",
+        "line": "Perfect, let's walk and catch up on the way."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "She walk to work every day.",
+          "She walks to work every day.",
+          "She walking to work every day.",
+          "She is walk to work every day."
+        ],
+        "answer": "She walks to work every day.",
+        "explanation": "With 'she' in the present simple, add 's': 'walks'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have walking five kilometers.",
+          "I have walked five kilometers.",
+          "I have walk five kilometers.",
+          "I has walked five kilometers."
+        ],
+        "answer": "I have walked five kilometers.",
+        "explanation": "After 'have', use the past participle 'walked'."
+      },
+      {
+        "type": "fill",
+        "question": "Can you ___ (walk) me through the report?",
+        "answer": "walk",
+        "explanation": "Base form 'walk' is used after 'can you' in a request."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I walked to work yesterday.",
+      "present": "I walk to work every day.",
+      "future": "I will walk to work tomorrow."
+    }
+  },
+  {
+    "verb": "Run",
+    "telugu": "పరుగెత్తు (parugettu)",
+    "v1": "run",
+    "v2": "ran",
+    "v3": "run",
+    "v4": "running",
+    "v5": "runs",
+    "pronunciation": "/rʌn/ (rhymes with 'fun')",
+    "definition": "To move quickly on foot; to operate or manage something; to function.",
+    "commonUses": [
+      "Talking about physical exercise",
+      "Managing or operating something ('run a business')",
+      "Describing something functioning ('the app is running')",
+      "Fixed expressions (run late, run out of, run into)"
+    ],
+    "beginnerSentences": [
+      "I run every morning.",
+      "She runs a small business.",
+      "We ran to catch the bus.",
+      "He ran five kilometers today.",
+      "Did you run this morning?",
+      "I am running late.",
+      "They ran out of milk.",
+      "Can you run this errand for me?",
+      "This machine runs smoothly.",
+      "I didn't run today."
+    ],
+    "intermediateSentences": [
+      "I've been running three times a week.",
+      "She runs the department very efficiently.",
+      "We ran into an old friend at the mall.",
+      "He's running a bit behind schedule.",
+      "I ran out of ideas halfway through the project.",
+      "They ran the numbers again to double-check.",
+      "I've never run a marathon before.",
+      "We should run this by legal before proceeding.",
+      "She ran the meeting smoothly despite the tech issues.",
+      "He ran the risk of losing the client's trust."
+    ],
+    "businessSentences": [
+      "Let's run the numbers before making a decision.",
+      "She runs a successful startup in the city.",
+      "We're running a bit behind on the project timeline.",
+      "I'll run this idea by the team first.",
+      "The system has been running smoothly since the update.",
+      "We ran into a few technical issues during testing.",
+      "He runs the sales department very effectively.",
+      "Let's run a quick test before the full launch.",
+      "We're running low on budget for this quarter.",
+      "I'll run through the agenda before we start."
+    ],
+    "questions": [
+      "Do you run every day?",
+      "How far did you run today?",
+      "Who runs this department?",
+      "Are we running late for the meeting?",
+      "Did you run into anyone you know?",
+      "How long has this business been running?",
+      "Can you run me through the details?",
+      "Did we run out of supplies?",
+      "How often do you run for exercise?",
+      "Is the software running properly now?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I runned five kilometers.",
+        "right": "I ran five kilometers.",
+        "why": "'Run' is irregular - its past tense is 'ran', not 'runned'."
+      },
+      {
+        "wrong": "I have ran the marathon.",
+        "right": "I have run the marathon.",
+        "why": "After 'have', use the past participle (V3) 'run', not the simple past 'ran'."
+      },
+      {
+        "wrong": "She run the company since ten years.",
+        "right": "She has run the company for ten years.",
+        "why": "Duration up to now needs the present perfect ('has run') with 'for'."
+      }
+    ],
+    "grammarTips": [
+      "'Run' is irregular with a tricky pattern: run, ran, run - V1 and V3 share the same spelling.",
+      "'Run' extends beyond physical movement: run a business, run a program, run late, run out of something.",
+      "'Run into' means to meet someone unexpectedly."
+    ],
+    "synonyms": [
+      "sprint",
+      "jog",
+      "operate",
+      "manage"
+    ],
+    "antonyms": [
+      "walk",
+      "stop"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Sorry I'm late, I had to run some errands."
+      },
+      {
+        "speaker": "B",
+        "line": "No worries, I just got here myself."
+      },
+      {
+        "speaker": "A",
+        "line": "Do you still run every morning?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, I try to run at least three times a week."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'I ___ five kilometers this morning.'",
+        "options": [
+          "run",
+          "runned",
+          "ran",
+          "running"
+        ],
+        "answer": "ran",
+        "explanation": "'Ran' is the correct irregular past tense of 'run'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have ran the marathon.",
+          "I have run the marathon.",
+          "I have running the marathon.",
+          "I has run the marathon."
+        ],
+        "answer": "I have run the marathon.",
+        "explanation": "After 'have', use the past participle 'run'."
+      },
+      {
+        "type": "fill",
+        "question": "She has ___ (run) this company for ten years.",
+        "answer": "run",
+        "explanation": "After 'has', use the past participle 'run'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I ran five kilometers yesterday.",
+      "present": "I run five kilometers every day.",
+      "future": "I will run five kilometers tomorrow."
+    }
+  },
+  {
+    "verb": "Drive",
+    "telugu": "డ్రైవ్ చేయు (ḍraiv cēyu)",
+    "v1": "drive",
+    "v2": "drove",
+    "v3": "driven",
+    "v4": "driving",
+    "v5": "drives",
+    "pronunciation": "/draɪv/ (rhymes with 'five')",
+    "definition": "To operate and control the movement of a vehicle.",
+    "commonUses": [
+      "Talking about operating a vehicle",
+      "Describing commutes",
+      "Fixed expressions (drive someone crazy, drive a point home)",
+      "Talking about motivation ('what drives you')"
+    ],
+    "beginnerSentences": [
+      "I drive to work every day.",
+      "She drives a red car.",
+      "We drove to the beach last weekend.",
+      "He drove me to the airport.",
+      "Did you drive here today?",
+      "I am driving to the office now.",
+      "They drove all night to get there.",
+      "Can you drive me to the station?",
+      "This car drives smoothly.",
+      "I didn't drive today."
+    ],
+    "intermediateSentences": [
+      "I've been driving for over ten years.",
+      "She drove through terrible traffic to get here on time.",
+      "We drove around for an hour looking for parking.",
+      "He's driving himself too hard lately.",
+      "I drove past your house yesterday.",
+      "They drove a hard bargain during the negotiation.",
+      "This noise is driving me crazy.",
+      "We should drive separately in case plans change.",
+      "She drove the point home with a clear example.",
+      "He's driven by a strong desire to succeed."
+    ],
+    "businessSentences": [
+      "This campaign is designed to drive more sales.",
+      "She drives the marketing strategy for the whole company.",
+      "We need something that will drive customer engagement.",
+      "I drove to the client's office for the meeting.",
+      "He's driven to succeed in this competitive market.",
+      "This data should drive our next decision.",
+      "We're driving toward a more efficient process.",
+      "The new pricing is driving customers away.",
+      "Let's drive this initiative forward together.",
+      "I'll drive over to discuss this in person."
+    ],
+    "questions": [
+      "Do you drive to work?",
+      "How long does it take to drive there?",
+      "Did you drive or take the train?",
+      "Can you drive a manual car?",
+      "What's driving this decision?",
+      "Did you drive all the way alone?",
+      "How long have you been driving?",
+      "Can you drive me to the airport tomorrow?",
+      "What car do you drive?",
+      "Did the traffic drive you crazy?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I drived to work.",
+        "right": "I drove to work.",
+        "why": "'Drive' is irregular - its past tense is 'drove', not 'drived'."
+      },
+      {
+        "wrong": "I have drove this car before.",
+        "right": "I have driven this car before.",
+        "why": "After 'have', use the past participle (V3) 'driven', not the simple past 'drove'."
+      },
+      {
+        "wrong": "She drives good.",
+        "right": "She drives well.",
+        "why": "Use the adverb 'well', not the adjective 'good', to describe how someone drives."
+      }
+    ],
+    "grammarTips": [
+      "'Drive' is irregular across all three forms: drive, drove, driven.",
+      "'Drive' extends beyond vehicles: 'What drives you?' asks about motivation.",
+      "'Driven' as an adjective means highly motivated: 'She's a very driven person'."
+    ],
+    "synonyms": [
+      "operate",
+      "steer",
+      "motivate"
+    ],
+    "antonyms": [
+      "park",
+      "stop"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Are you driving to the event tonight?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, I can drive. Do you need a ride?"
+      },
+      {
+        "speaker": "A",
+        "line": "That would be great, thanks for driving."
+      },
+      {
+        "speaker": "B",
+        "line": "No problem, I'll drive us both there."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'She ___ to the airport yesterday.'",
+        "options": [
+          "drive",
+          "drived",
+          "drove",
+          "driven"
+        ],
+        "answer": "drove",
+        "explanation": "'Drove' is the correct simple past tense of 'drive'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have drove this car.",
+          "I have driven this car.",
+          "I have drive this car.",
+          "I has driven this car."
+        ],
+        "answer": "I have driven this car.",
+        "explanation": "After 'have', use the past participle 'driven'."
+      },
+      {
+        "type": "fill",
+        "question": "She ___ (drive) very carefully in the rain.",
+        "answer": "drives",
+        "explanation": "Present simple 'drives' agrees with the third-person subject 'she'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I drove to work yesterday.",
+      "present": "I drive to work every day.",
+      "future": "I will drive to work tomorrow."
+    }
+  },
+  {
+    "verb": "Wear",
+    "telugu": "ధరించు (dharin̄cu)",
+    "v1": "wear",
+    "v2": "wore",
+    "v3": "worn",
+    "v4": "wearing",
+    "v5": "wears",
+    "pronunciation": "/wɛr/ (rhymes with 'air' with 'w')",
+    "definition": "To have clothing or an accessory on your body.",
+    "commonUses": [
+      "Talking about clothing",
+      "Describing appearance",
+      "Fixed expressions (wear out, wear off, wear thin)",
+      "Talking about fashion choices"
+    ],
+    "beginnerSentences": [
+      "I wear a uniform to work.",
+      "She wears glasses every day.",
+      "We wore jackets because it was cold.",
+      "He wore a suit to the interview.",
+      "Did you wear the blue dress?",
+      "I am wearing new shoes today.",
+      "They wore matching outfits.",
+      "Can you wear something formal?",
+      "This fabric is comfortable to wear.",
+      "I didn't wear a coat today."
+    ],
+    "intermediateSentences": [
+      "I've been wearing this jacket for years.",
+      "She always wears something professional to meetings.",
+      "We wore ourselves out after the long hike.",
+      "His patience is wearing thin with all the delays.",
+      "I wore my best outfit for the presentation.",
+      "They wore expressions of disbelief when they heard the news.",
+      "This routine is starting to wear on me.",
+      "We should wear comfortable shoes for the tour.",
+      "She wore her heart on her sleeve during the speech.",
+      "The excitement wore off after the first few days."
+    ],
+    "businessSentences": [
+      "Employees are expected to wear business casual attire.",
+      "She wore a confident expression throughout the negotiation.",
+      "The constant pressure is wearing on the team.",
+      "I'll wear a formal suit for the client meeting.",
+      "We need uniforms that are comfortable to wear all day.",
+      "His enthusiasm never seems to wear off.",
+      "She wore her professionalism well under pressure.",
+      "The team's patience is wearing thin with the delays.",
+      "I always wear my badge at the office.",
+      "We should wear name tags at the conference."
+    ],
+    "questions": [
+      "What are you wearing to the party?",
+      "Did you wear a jacket today?",
+      "What size do you usually wear?",
+      "Do you wear glasses?",
+      "What did you wear to the interview?",
+      "Is this appropriate to wear to work?",
+      "Did everyone wear the uniform?",
+      "What color are you wearing today?",
+      "Do you have to wear a badge at work?",
+      "What shoes should I wear for the hike?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I weared a jacket.",
+        "right": "I wore a jacket.",
+        "why": "'Wear' is irregular - its past tense is 'wore', not 'weared'."
+      },
+      {
+        "wrong": "I have wore this before.",
+        "right": "I have worn this before.",
+        "why": "After 'have', use the past participle (V3) 'worn', not the simple past 'wore'."
+      },
+      {
+        "wrong": "I wear this shirt yesterday.",
+        "right": "I wore this shirt yesterday.",
+        "why": "With a specific past time word like 'yesterday', use the simple past 'wore'."
+      }
+    ],
+    "grammarTips": [
+      "'Wear' is irregular across all three forms: wear, wore, worn.",
+      "'Wear' describes having clothing ON your body (a state), while 'put on' describes the action of dressing.",
+      "'Wear out' means to become damaged from use, and 'wear thin' means patience is running low."
+    ],
+    "synonyms": [
+      "dress in",
+      "have on",
+      "sport"
+    ],
+    "antonyms": [
+      "remove",
+      "take off"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What are you wearing to the wedding?"
+      },
+      {
+        "speaker": "B",
+        "line": "I'm wearing a blue suit. What about you?"
+      },
+      {
+        "speaker": "A",
+        "line": "I wore that same suit to the last one, so I need something new."
+      },
+      {
+        "speaker": "B",
+        "line": "You should wear that green jacket, it looked great on you."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'She ___ a red dress to the party.'",
+        "options": [
+          "wear",
+          "weared",
+          "wore",
+          "worn"
+        ],
+        "answer": "wore",
+        "explanation": "'Wore' is the correct simple past tense of 'wear'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have wore this jacket.",
+          "I have worn this jacket.",
+          "I have wear this jacket.",
+          "I has worn this jacket."
+        ],
+        "answer": "I have worn this jacket.",
+        "explanation": "After 'have', use the past participle 'worn'."
+      },
+      {
+        "type": "fill",
+        "question": "What are you ___ (wear) to the event tonight?",
+        "answer": "wearing",
+        "explanation": "Present continuous 'wearing' is used with 'are' for a planned/current action."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I wore a jacket yesterday.",
+      "present": "I wear a jacket every winter morning.",
+      "future": "I will wear a jacket tomorrow."
+    }
+  },
+  {
+    "verb": "Read",
+    "telugu": "చదువు (caduvu)",
+    "v1": "read",
+    "v2": "read",
+    "v3": "read",
+    "v4": "reading",
+    "v5": "reads",
+    "pronunciation": "/riːd/ (present, rhymes with 'seed'); /rɛd/ (past, rhymes with 'red')",
+    "definition": "To look at written words and understand their meaning.",
+    "commonUses": [
+      "Talking about books and reading habits",
+      "Describing understanding written information",
+      "Fixed expressions (read between the lines, read up on)",
+      "Talking about interpreting situations"
+    ],
+    "beginnerSentences": [
+      "I read the news every morning.",
+      "She reads a book every week.",
+      "We read the instructions carefully.",
+      "He read the email twice.",
+      "Did you read my message?",
+      "I am reading a new novel.",
+      "They read the report together.",
+      "Can you read this for me?",
+      "This book is easy to read.",
+      "I didn't read the terms and conditions."
+    ],
+    "intermediateSentences": [
+      "I've been reading a lot of business books lately.",
+      "She read between the lines and understood his real concern.",
+      "We read up on the topic before the meeting.",
+      "He's reading through the contract carefully.",
+      "I read that article you sent me.",
+      "They read the room and changed their approach.",
+      "I've read this report three times and still have questions.",
+      "We should read the fine print before signing.",
+      "She read his expression and knew something was wrong.",
+      "He read the situation correctly and stayed calm."
+    ],
+    "businessSentences": [
+      "I read through the proposal before our call.",
+      "She read the client's feedback carefully.",
+      "We need to read the contract terms closely.",
+      "I'll read up on the topic before the presentation.",
+      "He read the market well and made a smart investment.",
+      "We should read between the lines of this feedback.",
+      "I've read the report, and I have a few questions.",
+      "She reads every email carefully before replying.",
+      "Let's read through the agenda before we start.",
+      "I read the room and decided to postpone the announcement."
+    ],
+    "questions": [
+      "What are you reading these days?",
+      "Did you read the email I sent?",
+      "How often do you read the news?",
+      "Have you read this book before?",
+      "Did you read the whole report?",
+      "What's your favorite thing to read?",
+      "Can you read this document for accuracy?",
+      "Did you read between the lines of his message?",
+      "How fast do you read?",
+      "Did you read up on the company before the interview?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I readed the book.",
+        "right": "I read the book.",
+        "why": "'Read' is irregular but keeps the same spelling in all three forms - only the pronunciation changes for the past tense, never add '-ed'."
+      },
+      {
+        "wrong": "I am reading this book since Monday.",
+        "right": "I have been reading this book since Monday.",
+        "why": "Duration from a starting point to now needs the present perfect continuous, not the plain continuous."
+      },
+      {
+        "wrong": "She read good.",
+        "right": "She reads well.",
+        "why": "Use the adverb 'well', not the adjective 'good', and remember the 's' for third person present."
+      }
+    ],
+    "grammarTips": [
+      "'Read' is unusual - all three forms are spelled the same (read, read, read), but the pronunciation changes.",
+      "'Read up on' means to study or research a topic.",
+      "'Read between the lines' means to understand a hidden or implied meaning."
+    ],
+    "synonyms": [
+      "peruse",
+      "study",
+      "skim",
+      "interpret"
+    ],
+    "antonyms": [
+      "skip",
+      "ignore"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Have you read the news today?"
+      },
+      {
+        "speaker": "B",
+        "line": "Not yet, I've been reading a novel instead."
+      },
+      {
+        "speaker": "A",
+        "line": "Any good? I'm looking for something to read."
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, I'd definitely recommend it once you read the first chapter."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday I ___ the whole book.' (spelled the same as present)",
+        "options": [
+          "read",
+          "readed",
+          "reading",
+          "reads"
+        ],
+        "answer": "read",
+        "explanation": "'Read' keeps the same spelling in the past tense, but is pronounced /rɛd/."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence is correct?",
+        "options": [
+          "I am reading this since Monday.",
+          "I have been reading this since Monday.",
+          "I read this since Monday.",
+          "I am read this since Monday."
+        ],
+        "answer": "I have been reading this since Monday.",
+        "explanation": "Duration from a past point to now needs present perfect continuous."
+      },
+      {
+        "type": "fill",
+        "question": "She ___ (read) the newspaper every morning.",
+        "answer": "reads",
+        "explanation": "Present simple 'reads' agrees with the third-person subject 'she'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I read the news yesterday.",
+      "present": "I read the news every morning.",
+      "future": "I will read the news tomorrow."
+    }
+  },
+  {
+    "verb": "Write",
+    "telugu": "వ్రాయు (vrāyu)",
+    "v1": "write",
+    "v2": "wrote",
+    "v3": "written",
+    "v4": "writing",
+    "v5": "writes",
+    "pronunciation": "/raɪt/ (rhymes with 'right')",
+    "definition": "To form letters, words, or symbols on a surface to communicate information.",
+    "commonUses": [
+      "Talking about writing documents, emails, or messages",
+      "Describing creative writing",
+      "Fixed expressions (write off, write up, write down)",
+      "Talking about correspondence"
+    ],
+    "beginnerSentences": [
+      "I write emails every day.",
+      "She writes in her diary every night.",
+      "We wrote a letter to our teacher.",
+      "He wrote his name on the form.",
+      "Did you write the report?",
+      "I am writing a message now.",
+      "They wrote down the address.",
+      "Can you write this in English?",
+      "This pen writes smoothly.",
+      "I didn't write anything today."
+    ],
+    "intermediateSentences": [
+      "I've been writing a blog for the past year.",
+      "She wrote a detailed summary of the meeting.",
+      "We wrote up our findings for the report.",
+      "He's writing a proposal for the new project.",
+      "I wrote down everything he said during the call.",
+      "They wrote off the loss as a learning experience.",
+      "I've written several drafts of this email.",
+      "We should write this down before we forget.",
+      "She wrote a thoughtful response to the complaint.",
+      "He wrote the entire report in just one day."
+    ],
+    "businessSentences": [
+      "I'll write up the minutes from today's meeting.",
+      "She wrote a compelling proposal for the client.",
+      "We need to write clear instructions for the new hires.",
+      "I wrote to the vendor about the delayed shipment.",
+      "He's writing the quarterly report right now.",
+      "We wrote off the bad debt at the end of the year.",
+      "I'll write down the key points during the call.",
+      "She writes very clear and concise emails.",
+      "We should write this policy down for future reference.",
+      "I wrote a formal complaint to the supplier."
+    ],
+    "questions": [
+      "Can you write that down for me?",
+      "Did you write the report yet?",
+      "What are you writing about?",
+      "Have you written to them yet?",
+      "Can you write in English fluently?",
+      "Did you write down the address?",
+      "What did you write in your email?",
+      "Have you ever written a book?",
+      "Can you write a summary of this?",
+      "Did you write back to the client?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I writed a letter.",
+        "right": "I wrote a letter.",
+        "why": "'Write' is irregular - its past tense is 'wrote', not 'writed'."
+      },
+      {
+        "wrong": "I have wrote the report.",
+        "right": "I have written the report.",
+        "why": "After 'have', use the past participle (V3) 'written', not the simple past 'wrote'."
+      },
+      {
+        "wrong": "Write to me an email.",
+        "right": "Write me an email. / Write an email to me.",
+        "why": "'Write' can take two objects, but don't reverse the natural word order by putting 'to me' before the object."
+      }
+    ],
+    "grammarTips": [
+      "'Write' is irregular across all three forms: write, wrote, written.",
+      "'Write' can take two objects: 'write her a letter' or 'write a letter to her'.",
+      "'Write up' means to prepare a formal written record of something."
+    ],
+    "synonyms": [
+      "compose",
+      "draft",
+      "pen",
+      "jot down"
+    ],
+    "antonyms": [
+      "erase",
+      "delete"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Can you write down my phone number?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, I'll write it in my notes."
+      },
+      {
+        "speaker": "A",
+        "line": "Thanks, I'll write you an email later with more details."
+      },
+      {
+        "speaker": "B",
+        "line": "Perfect, I'll look out for it."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'She ___ a long email last night.'",
+        "options": [
+          "write",
+          "writed",
+          "wrote",
+          "written"
+        ],
+        "answer": "wrote",
+        "explanation": "'Wrote' is the correct simple past tense of 'write'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have wrote the report.",
+          "I have written the report.",
+          "I have write the report.",
+          "I has written the report."
+        ],
+        "answer": "I have written the report.",
+        "explanation": "After 'have', use the past participle 'written'."
+      },
+      {
+        "type": "fill",
+        "question": "Please ___ (write) your name at the top of the form.",
+        "answer": "write",
+        "explanation": "Base form 'write' is used after 'please' in a polite request."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I wrote an email yesterday.",
+      "present": "I write emails every day.",
+      "future": "I will write an email tomorrow."
+    }
+  },
+  {
+    "verb": "Learn",
+    "telugu": "నేర్చుకొను (nērcukonu)",
+    "v1": "learn",
+    "v2": "learned",
+    "v3": "learned",
+    "v4": "learning",
+    "v5": "learns",
+    "pronunciation": "/lɜːrn/ (rhymes with 'turn')",
+    "definition": "To gain knowledge or skill through study, experience, or being taught.",
+    "commonUses": [
+      "Talking about acquiring new skills or knowledge",
+      "Describing education",
+      "Talking about lessons from experience",
+      "Fixed expressions (learn the ropes, learn from mistakes)"
+    ],
+    "beginnerSentences": [
+      "I learn something new every day.",
+      "She learns quickly.",
+      "We learned a lot from the training.",
+      "He learned to swim last summer.",
+      "Did you learn anything new today?",
+      "I am learning English online.",
+      "They learned the rules of the game.",
+      "Can you learn this by tomorrow?",
+      "This course helps you learn quickly.",
+      "I didn't learn much from that class."
+    ],
+    "intermediateSentences": [
+      "I've been learning to code in my free time.",
+      "She learned the ropes quickly in her new role.",
+      "We learned a valuable lesson from that failed project.",
+      "He's learning to manage his time more effectively.",
+      "I learned about the change through a colleague.",
+      "They learned from their mistakes and improved.",
+      "I've learned so much from this experience.",
+      "We should learn from what went wrong last time.",
+      "She learned to trust her instincts over time.",
+      "He learned the hard way that shortcuts don't always work."
+    ],
+    "businessSentences": [
+      "We learned a lot from the client's feedback.",
+      "She's learning the new software quickly.",
+      "I learned about the merger through an internal email.",
+      "We need to learn from this quarter's mistakes.",
+      "He's still learning the ropes in his new position.",
+      "The team learned valuable lessons from the failed launch.",
+      "I learned that flexibility is key in this industry.",
+      "We should learn from our competitors' successes.",
+      "She learned to delegate more effectively over time.",
+      "I'm learning a great deal from this mentorship."
+    ],
+    "questions": [
+      "What did you learn today?",
+      "How long have you been learning English?",
+      "Did you learn anything new at the training?",
+      "What's the best way to learn a new language?",
+      "Have you learned to drive yet?",
+      "What did you learn from that experience?",
+      "How quickly do you learn new skills?",
+      "Did you learn the software easily?",
+      "What are you currently learning?",
+      "Have you learned from your past mistakes?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I am learning English since two years.",
+        "right": "I have been learning English for two years.",
+        "why": "Duration up to now needs the present perfect continuous with 'for', not the plain continuous with 'since' plus a duration."
+      },
+      {
+        "wrong": "She teached me English.",
+        "right": "She taught me English.",
+        "why": "'Teach' (not 'learn') is used when someone gives you knowledge - its past tense is 'taught'."
+      },
+      {
+        "wrong": "I learn to swim when I was young.",
+        "right": "I learned to swim when I was young.",
+        "why": "With a specific past time clause, use the simple past 'learned', not the present form 'learn'."
+      }
+    ],
+    "grammarTips": [
+      "'Learn' is regular in American English (learn, learned, learned), though British English often uses 'learnt' as an alternative.",
+      "'Learn' and 'teach' are opposite in direction: you 'learn' knowledge from someone, while someone 'teaches' you.",
+      "'Learn the ropes' is a common idiom meaning to learn the basics of a new job or activity."
+    ],
+    "synonyms": [
+      "study",
+      "master",
+      "acquire",
+      "pick up"
+    ],
+    "antonyms": [
+      "forget",
+      "unlearn"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "How's your English coming along?"
+      },
+      {
+        "speaker": "B",
+        "line": "Pretty well, I've been learning a lot from this app."
+      },
+      {
+        "speaker": "A",
+        "line": "That's great. What have you learned recently?"
+      },
+      {
+        "speaker": "B",
+        "line": "I just learned how to use different tenses correctly."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I am learning English since two years.",
+          "I have been learning English for two years.",
+          "I learn English since two years.",
+          "I have learning English for two years."
+        ],
+        "answer": "I have been learning English for two years.",
+        "explanation": "Duration up to now needs present perfect continuous with 'for'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "She teached me to drive.",
+          "She taught me to drive.",
+          "She learned me to drive.",
+          "She teach me to drive."
+        ],
+        "answer": "She taught me to drive.",
+        "explanation": "'Teach' is used when someone gives knowledge to another person; its past tense is 'taught'."
+      },
+      {
+        "type": "fill",
+        "question": "I ___ (learn) a lot from that mistake.",
+        "answer": "learned",
+        "explanation": "Simple past 'learned' describes a completed past action."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I learned a new word yesterday.",
+      "present": "I learn a new word every day.",
+      "future": "I will learn a new word tomorrow."
+    }
+  },
+  {
+    "verb": "Remember",
+    "telugu": "గుర్తుంచుకొను (gurtun̄cukonu)",
+    "v1": "remember",
+    "v2": "remembered",
+    "v3": "remembered",
+    "v4": "remembering",
+    "v5": "remembers",
+    "pronunciation": "/rɪˈmɛmbər/ (ri-MEM-ber)",
+    "definition": "To keep or recall information in your mind; to not forget something.",
+    "commonUses": [
+      "Talking about memory and recall",
+      "Reminding someone of something",
+      "Talking about the past",
+      "Polite reminders ('Remember to...')"
+    ],
+    "beginnerSentences": [
+      "I remember your name.",
+      "She remembers everything.",
+      "We remembered to bring the documents.",
+      "He remembered her birthday.",
+      "Did you remember to call him?",
+      "I am remembering the good times we had.",
+      "They remembered the address correctly.",
+      "Can you remember the password?",
+      "I remember visiting this place before.",
+      "I didn't remember the meeting time."
+    ],
+    "intermediateSentences": [
+      "I've been trying to remember where I left my keys.",
+      "She remembered every detail of the conversation.",
+      "We should remember to follow up with the client.",
+      "He's having trouble remembering names lately.",
+      "I remember feeling nervous on my first day.",
+      "They remembered to double-check the numbers this time.",
+      "I've never remembered a dream so clearly before.",
+      "We must remember the lessons from last year's mistakes.",
+      "She remembered his advice and it helped a lot.",
+      "He remembered to thank everyone at the end of the speech."
+    ],
+    "businessSentences": [
+      "Please remember to submit your report by Friday.",
+      "She remembered every point from the last meeting.",
+      "We should remember to follow up with the client next week.",
+      "I remembered the client's preferences from our last call.",
+      "He always remembers important deadlines.",
+      "We need to remember to loop in the legal team.",
+      "I remember discussing this exact issue last quarter.",
+      "She remembered to cc everyone on the email.",
+      "Let's remember to document this decision properly.",
+      "I'll remember to bring the updated slides tomorrow."
+    ],
+    "questions": [
+      "Do you remember my name?",
+      "Did you remember to send the email?",
+      "Do you remember where we met?",
+      "Can you remember the details of the call?",
+      "Did you remember to lock the door?",
+      "Do you remember what she said?",
+      "Can you remember his phone number?",
+      "Did you remember the meeting was moved?",
+      "Do you remember your first day at work?",
+      "Did you remember to bring your ID?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I remember to visit Paris last year.",
+        "right": "I remember visiting Paris last year.",
+        "why": "'Remember' + -ing describes recalling a past action; 'remember to' + verb means not forgetting a future task."
+      },
+      {
+        "wrong": "I don't remember to meet him before.",
+        "right": "I don't remember meeting him before.",
+        "why": "Use -ing form to talk about a memory of a past event, not 'to' + verb."
+      },
+      {
+        "wrong": "Remember me to call you.",
+        "right": "Remind me to call you.",
+        "why": "'Remember' is what YOU do in your own mind; 'remind' is what you ask someone else to help you not forget."
+      }
+    ],
+    "grammarTips": [
+      "'Remember' is a regular verb (remember, remembered, remembered).",
+      "'Remember' + -ing recalls a past action; 'remember to' + verb refers to a future task.",
+      "Don't confuse 'remember' (recall something yourself) with 'remind' (help someone else recall something)."
+    ],
+    "synonyms": [
+      "recall",
+      "recollect",
+      "memorize"
+    ],
+    "antonyms": [
+      "forget"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Do you remember where we parked the car?"
+      },
+      {
+        "speaker": "B",
+        "line": "I think so, I remember it being near the entrance."
+      },
+      {
+        "speaker": "A",
+        "line": "Good, and remember to bring the parking ticket."
+      },
+      {
+        "speaker": "B",
+        "line": "Right, I almost forgot. Thanks for remembering."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I remember to visit Paris last year.",
+          "I remember visiting Paris last year.",
+          "I remembering visit Paris last year.",
+          "I remember visit Paris last year."
+        ],
+        "answer": "I remember visiting Paris last year.",
+        "explanation": "'Remember' + -ing recalls a past action."
+      },
+      {
+        "type": "mcq",
+        "question": "Which sentence correctly asks someone to help you not forget?",
+        "options": [
+          "Remember me to call you.",
+          "Remind me to call you.",
+          "Remembering me to call you.",
+          "Remember to me call you."
+        ],
+        "answer": "Remind me to call you.",
+        "explanation": "'Remind' is used when asking someone else to help you not forget."
+      },
+      {
+        "type": "fill",
+        "question": "Please ___ (remember) to bring your ID tomorrow.",
+        "answer": "remember",
+        "explanation": "Base form 'remember' + 'to' + verb refers to a future task."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I remembered her birthday yesterday.",
+      "present": "I remember her birthday every year.",
+      "future": "I will remember her birthday next year too."
+    }
+  },
+  {
+    "verb": "Forget",
+    "telugu": "మరచిపో (maracipō)",
+    "v1": "forget",
+    "v2": "forgot",
+    "v3": "forgotten",
+    "v4": "forgetting",
+    "v5": "forgets",
+    "pronunciation": "/fərˈɡɛt/ (fer-GET)",
+    "definition": "To fail to remember something; to fail to do something you intended to do.",
+    "commonUses": [
+      "Talking about failing to remember",
+      "Apologizing for an oversight",
+      "Fixed expressions (forget about it, forgive and forget)",
+      "Talking about mistakes"
+    ],
+    "beginnerSentences": [
+      "I forget things sometimes.",
+      "She forgets her umbrella often.",
+      "We forgot to lock the door.",
+      "He forgot his password.",
+      "Did you forget your keys?",
+      "I am forgetting the details already.",
+      "They forgot to call back.",
+      "Can you forget about it?",
+      "This is easy to forget.",
+      "I didn't forget your birthday."
+    ],
+    "intermediateSentences": [
+      "I've been forgetting a lot of small things lately.",
+      "She forgot to mention the change in plans.",
+      "We forgot how difficult this project would be.",
+      "He's always forgetting where he put his glasses.",
+      "I forgot to reply to that important email.",
+      "They forgot about the deadline until the last minute.",
+      "I've never forgotten how kind she was to me.",
+      "We shouldn't forget the lessons from this experience.",
+      "She forgot her notes at home before the presentation.",
+      "He forgot to save the document before closing it."
+    ],
+    "businessSentences": [
+      "I forgot to cc you on that email, sorry.",
+      "She forgot to mention the budget constraints.",
+      "We forgot to update the client on the delay.",
+      "Don't forget to submit your timesheet by Friday.",
+      "He forgot to attach the file to his email.",
+      "We can't forget the lessons learned from last year.",
+      "I forgot to follow up after the call, I'll do it now.",
+      "She forgot to include the latest figures in the report.",
+      "Let's not forget to thank the team for their hard work.",
+      "I forgot my badge at home this morning."
+    ],
+    "questions": [
+      "Did you forget your phone at home?",
+      "Why did you forget to call me back?",
+      "Have you ever forgotten someone's name right after meeting them?",
+      "Did you forget about the meeting today?",
+      "Do you often forget where you put things?",
+      "Did you forget to bring the documents?",
+      "Can you ever forget a moment like that?",
+      "Did you forget your password again?",
+      "Why do we forget things so easily sometimes?",
+      "Did you forget to lock the office?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I forgot to bringing my umbrella.",
+        "right": "I forgot to bring my umbrella.",
+        "why": "'Forget to' + verb is followed by the base form, not the -ing form."
+      },
+      {
+        "wrong": "I forgetted my keys.",
+        "right": "I forgot my keys.",
+        "why": "'Forget' is irregular - its past tense is 'forgot', not 'forgetted'."
+      },
+      {
+        "wrong": "I have forgot the answer.",
+        "right": "I have forgotten the answer.",
+        "why": "After 'have', use the past participle (V3) 'forgotten', not the simple past 'forgot'."
+      }
+    ],
+    "grammarTips": [
+      "'Forget' is irregular with three distinct forms: forget, forgot, forgotten.",
+      "'Forget to' + verb means failing to do a planned task; 'forget' + -ing means not remembering something you did.",
+      "'Forget about it' is a common informal expression meaning 'don't worry about it'."
+    ],
+    "synonyms": [
+      "overlook",
+      "neglect",
+      "lose track of"
+    ],
+    "antonyms": [
+      "remember",
+      "recall"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Did you forget we had a meeting today?"
+      },
+      {
+        "speaker": "B",
+        "line": "Oh no, I completely forgot! I'm so sorry."
+      },
+      {
+        "speaker": "A",
+        "line": "It's okay, don't forget to check your calendar next time."
+      },
+      {
+        "speaker": "B",
+        "line": "I won't forget again, I promise."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'I ___ my umbrella at home.'",
+        "options": [
+          "forget",
+          "forgetted",
+          "forgot",
+          "forgotten"
+        ],
+        "answer": "forgot",
+        "explanation": "'Forgot' is the correct irregular past tense of 'forget'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have forgot the answer.",
+          "I have forgotten the answer.",
+          "I have forget the answer.",
+          "I has forgotten the answer."
+        ],
+        "answer": "I have forgotten the answer.",
+        "explanation": "After 'have', use the past participle 'forgotten'."
+      },
+      {
+        "type": "fill",
+        "question": "Please don't ___ (forget) to bring your ID.",
+        "answer": "forget",
+        "explanation": "Base form 'forget' is used after 'don't' in a negative imperative."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I forgot my keys yesterday.",
+      "present": "I forget my keys sometimes.",
+      "future": "I will forget my keys if I don't check the table."
+    }
+  },
+  {
+    "verb": "Understand",
+    "telugu": "అర్థం చేసుకొను (arthaṁ cēsukonu)",
+    "v1": "understand",
+    "v2": "understood",
+    "v3": "understood",
+    "v4": "understanding",
+    "v5": "understands",
+    "pronunciation": "/ˌʌndərˈstænd/ (un-der-STAND)",
+    "definition": "To grasp the meaning of something; to comprehend a situation or a person's feelings.",
+    "commonUses": [
+      "Talking about comprehension",
+      "Expressing sympathy or empathy",
+      "Confirming instructions",
+      "Fixed expressions (make yourself understood, come to understand)"
+    ],
+    "beginnerSentences": [
+      "I understand the instructions.",
+      "She understands three languages.",
+      "We understood the lesson well.",
+      "He understood my concern.",
+      "Did you understand the question?",
+      "I am understanding the topic better now.",
+      "They understood the risks involved.",
+      "Can you understand this document?",
+      "This explanation is easy to understand.",
+      "I didn't understand the joke."
+    ],
+    "intermediateSentences": [
+      "I've come to understand why she made that decision.",
+      "She understands the market better than anyone on the team.",
+      "We understood each other perfectly despite the language barrier.",
+      "He's still trying to understand the new software.",
+      "I understood the risk but decided to proceed anyway.",
+      "They understood the urgency of the situation immediately.",
+      "I've never fully understood how this process works.",
+      "We should make sure everyone understands the new policy.",
+      "She understood his frustration and offered to help.",
+      "He finally understood what went wrong with the project."
+    ],
+    "businessSentences": [
+      "I understand your concerns about the timeline.",
+      "She understood the client's requirements clearly.",
+      "We need everyone to understand the new procedure.",
+      "I understood the proposal after the second read.",
+      "He understands the industry extremely well.",
+      "We should make sure the team understands the priorities.",
+      "I understand the budget constraints you're working with.",
+      "She understood the feedback and revised the plan accordingly.",
+      "Let's make sure the client understands our approach.",
+      "I understood the risks before signing the contract."
+    ],
+    "questions": [
+      "Do you understand the instructions?",
+      "Did you understand what she meant?",
+      "Do you understand this language?",
+      "Did everyone understand the new policy?",
+      "Can you help me understand this better?",
+      "Do you understand why this happened?",
+      "Did you understand the presentation?",
+      "Do you understand my concern?",
+      "Did they understand the risks involved?",
+      "Do you understand how this process works?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I am understanding the lesson.",
+        "right": "I understand the lesson.",
+        "why": "'Understand' is a stative verb describing a mental state, not an action - it's not normally used in the continuous form."
+      },
+      {
+        "wrong": "I understanded the instructions.",
+        "right": "I understood the instructions.",
+        "why": "'Understand' is irregular - its past tense is 'understood', not 'understanded'."
+      },
+      {
+        "wrong": "I have understand the risk.",
+        "right": "I have understood the risk.",
+        "why": "After 'have', use the past participle (V3) 'understood', not the base form 'understand'."
+      }
+    ],
+    "grammarTips": [
+      "'Understand' is irregular with a shared past form: understand, understood, understood.",
+      "'Understand' is a stative verb, so avoid the continuous form: say 'I understand', not 'I am understanding'.",
+      "'I understand' is also a polite, empathetic way to acknowledge someone's feelings, not just comprehension of facts."
+    ],
+    "synonyms": [
+      "comprehend",
+      "grasp",
+      "realize",
+      "follow"
+    ],
+    "antonyms": [
+      "misunderstand",
+      "confuse"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "I'm sorry, I don't understand what you mean."
+      },
+      {
+        "speaker": "B",
+        "line": "Let me explain it again more clearly."
+      },
+      {
+        "speaker": "A",
+        "line": "Okay, now I understand, thank you."
+      },
+      {
+        "speaker": "B",
+        "line": "Great, I just want to make sure everyone understands before we move on."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I am understanding the lesson.",
+          "I understand the lesson.",
+          "I understands the lesson.",
+          "I be understanding the lesson."
+        ],
+        "answer": "I understand the lesson.",
+        "explanation": "'Understand' is a stative verb and isn't used in the continuous form."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'I finally ___ the instructions.'",
+        "options": [
+          "understand",
+          "understanded",
+          "understood",
+          "understanding"
+        ],
+        "answer": "understood",
+        "explanation": "'Understood' is the correct irregular past tense of 'understand'."
+      },
+      {
+        "type": "fill",
+        "question": "She has always ___ (understand) my point of view.",
+        "answer": "understood",
+        "explanation": "After 'has', use the past participle 'understood'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I understood the lesson yesterday.",
+      "present": "I understand the lesson now.",
+      "future": "I will understand the lesson better after reviewing it."
+    }
+  },
+  {
+    "verb": "Help",
+    "telugu": "సహాయం చేయు (sahāyaṁ cēyu)",
+    "v1": "help",
+    "v2": "helped",
+    "v3": "helped",
+    "v4": "helping",
+    "v5": "helps",
+    "pronunciation": "/hɛlp/ (rhymes with 'kelp')",
+    "definition": "To assist someone by doing something useful for them or making something easier.",
+    "commonUses": [
+      "Offering assistance",
+      "Asking for assistance",
+      "Talking about improving a situation",
+      "Fixed expressions (can't help but, help out, help yourself)"
+    ],
+    "beginnerSentences": [
+      "I help my mother in the kitchen.",
+      "She helps her students after class.",
+      "We helped him move his furniture.",
+      "He helped me with my homework.",
+      "Did you help her with the project?",
+      "I am helping my friend today.",
+      "They helped clean up after the party.",
+      "Can you help me with this?",
+      "This tool helps you save time.",
+      "I didn't help much yesterday."
+    ],
+    "intermediateSentences": [
+      "I've been helping out at the community center.",
+      "She helped me understand the situation better.",
+      "We helped each other get through a difficult time.",
+      "He's always willing to help whenever he can.",
+      "I couldn't help but notice the tension in the room.",
+      "They helped us find a solution to the problem.",
+      "I've helped train several new employees.",
+      "We should help each other whenever possible.",
+      "She helped smooth things over with the client.",
+      "He helped carry the heavy boxes upstairs."
+    ],
+    "businessSentences": [
+      "This tool helps streamline our workflow.",
+      "She helped close the deal with the new client.",
+      "We're here to help you with any questions.",
+      "I helped prepare the report for the board meeting.",
+      "He helped resolve the conflict between the two teams.",
+      "This training will help you improve your skills.",
+      "We helped the client migrate to the new system.",
+      "I'm happy to help however I can.",
+      "She helped identify the root cause of the issue.",
+      "This data will help inform our next decision."
+    ],
+    "questions": [
+      "Can you help me with this task?",
+      "Did you help her finish the report?",
+      "How can I help you today?",
+      "Did the training help you improve?",
+      "Can you help me understand this better?",
+      "Who helped you with this project?",
+      "Did that advice help you?",
+      "Can you help carry these boxes?",
+      "Did you help organize the event?",
+      "Would you like some help with that?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I help him to carrying the boxes.",
+        "right": "I helped him carry the boxes.",
+        "why": "'Help' + object + verb uses the base form, not 'to' + verb or the -ing form."
+      },
+      {
+        "wrong": "I can't help but to laugh.",
+        "right": "I can't help but laugh.",
+        "why": "'Can't help but' is followed by the base form of the verb, without 'to'."
+      },
+      {
+        "wrong": "She helped me with do my homework.",
+        "right": "She helped me do my homework.",
+        "why": "'Help' + object + verb doesn't need 'with' before the verb."
+      }
+    ],
+    "grammarTips": [
+      "'Help' is a regular verb (help, helped, helped).",
+      "'Help' + object + verb (base form) is the standard structure: 'help me finish', 'help her understand'.",
+      "'Can't help but' + base verb means you couldn't stop yourself from doing something."
+    ],
+    "synonyms": [
+      "assist",
+      "aid",
+      "support"
+    ],
+    "antonyms": [
+      "hinder",
+      "obstruct"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Can you help me carry these bags?"
+      },
+      {
+        "speaker": "B",
+        "line": "Of course, happy to help."
+      },
+      {
+        "speaker": "A",
+        "line": "Thanks, that really helps a lot."
+      },
+      {
+        "speaker": "B",
+        "line": "No problem, let me know if you need any more help."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I helped him to carrying the boxes.",
+          "I helped him carry the boxes.",
+          "I helped him carrying the boxes.",
+          "I helped him for carry the boxes."
+        ],
+        "answer": "I helped him carry the boxes.",
+        "explanation": "'Help' + object + verb uses the base form, without 'to' or '-ing'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I can't help but to laugh.",
+          "I can't help but laugh.",
+          "I can't help but laughing.",
+          "I can't help to laugh."
+        ],
+        "answer": "I can't help but laugh.",
+        "explanation": "'Can't help but' is followed directly by the base form of the verb."
+      },
+      {
+        "type": "fill",
+        "question": "Can you ___ (help) me with this report?",
+        "answer": "help",
+        "explanation": "Base form 'help' is used after 'can you' in a request."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I helped my friend yesterday.",
+      "present": "I help my friend every week.",
+      "future": "I will help my friend tomorrow."
+    }
+  },
+  {
+    "verb": "Meet",
+    "telugu": "కలుసుకొను (kalusukonu)",
+    "v1": "meet",
+    "v2": "met",
+    "v3": "met",
+    "v4": "meeting",
+    "v5": "meets",
+    "pronunciation": "/miːt/ (rhymes with 'seat')",
+    "definition": "To come together with someone, either by chance or by arrangement; to be introduced to someone for the first time.",
+    "commonUses": [
+      "Talking about arranging to see someone",
+      "Describing first introductions",
+      "Fixed expressions (meet halfway, meet a deadline)",
+      "Talking about business meetings"
+    ],
+    "beginnerSentences": [
+      "I meet my friends on weekends.",
+      "She meets new people easily.",
+      "We met at a conference last year.",
+      "He met his wife in college.",
+      "Did you meet the new manager?",
+      "I am meeting a client today.",
+      "They met for coffee yesterday.",
+      "Can we meet tomorrow?",
+      "This app helps you meet new friends.",
+      "I didn't meet anyone new today."
+    ],
+    "intermediateSentences": [
+      "I've been meeting a lot of new people lately.",
+      "She met the deadline despite the tight schedule.",
+      "We met halfway on the pricing after some negotiation.",
+      "He's meeting with the client this afternoon.",
+      "I met her once, but I don't remember much about it.",
+      "They met all the requirements for the position.",
+      "I've never met anyone quite like her.",
+      "We should meet to discuss this further.",
+      "She met every challenge with confidence.",
+      "He met his goals for the quarter."
+    ],
+    "businessSentences": [
+      "We met the client to discuss the proposal.",
+      "She met all the deadlines this month.",
+      "I'm meeting with the team at ten tomorrow.",
+      "We need to meet to finalize the budget.",
+      "He met the investor at the conference last week.",
+      "The results met our expectations.",
+      "Let's meet halfway on this pricing disagreement.",
+      "I'll meet you in the conference room at noon.",
+      "We met our sales target for the first time this year.",
+      "She's meeting with HR about the new policy."
+    ],
+    "questions": [
+      "Where did you meet him?",
+      "Can we meet later today?",
+      "Did you meet the deadline?",
+      "Have you met the new colleague yet?",
+      "What time should we meet?",
+      "Did the results meet your expectations?",
+      "Where are we meeting tomorrow?",
+      "Have you ever met someone famous?",
+      "Did you meet all the requirements?",
+      "Can you meet me at the office?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I meeted him yesterday.",
+        "right": "I met him yesterday.",
+        "why": "'Meet' is irregular - its past tense is 'met', not 'meeted'."
+      },
+      {
+        "wrong": "I have meet him before.",
+        "right": "I have met him before.",
+        "why": "After 'have', use the past participle (V3) 'met', not the base form 'meet'."
+      },
+      {
+        "wrong": "Nice to meet you again.",
+        "right": "Nice to see you again.",
+        "why": "'Meet' is for the FIRST time you encounter someone; use 'see' for people you already know."
+      }
+    ],
+    "grammarTips": [
+      "'Meet' is irregular with a shared past form: meet, met, met.",
+      "'Meet' specifically implies a first encounter or an arranged encounter; use 'see' for casual, repeated encounters with people you already know.",
+      "'Meet a deadline' or 'meet expectations' are common figurative uses meaning to satisfy a requirement."
+    ],
+    "synonyms": [
+      "encounter",
+      "run into",
+      "gather",
+      "assemble"
+    ],
+    "antonyms": [
+      "avoid",
+      "miss"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Nice to meet you, I'm Priya."
+      },
+      {
+        "speaker": "B",
+        "line": "Nice to meet you too. Are you meeting anyone else here today?"
+      },
+      {
+        "speaker": "A",
+        "line": "Yes, I'm meeting a colleague for lunch."
+      },
+      {
+        "speaker": "B",
+        "line": "Great, I hope you two have a good meeting."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'We ___ at a conference last year.'",
+        "options": [
+          "meet",
+          "meeted",
+          "met",
+          "meeting"
+        ],
+        "answer": "met",
+        "explanation": "'Met' is the correct irregular past tense of 'meet'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "I have meet him before.",
+          "I have met him before.",
+          "I have meeted him before.",
+          "I has met him before."
+        ],
+        "answer": "I have met him before.",
+        "explanation": "After 'have', use the past participle 'met'."
+      },
+      {
+        "type": "fill",
+        "question": "Did the results ___ (meet) your expectations?",
+        "answer": "meet",
+        "explanation": "Base form 'meet' is used after 'did' in a past-tense question."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I met a client yesterday.",
+      "present": "I meet a client every week.",
+      "future": "I will meet a client tomorrow."
+    }
+  },
+  {
+    "verb": "Call",
+    "telugu": "పిలుచు (piluc̄u)",
+    "v1": "call",
+    "v2": "called",
+    "v3": "called",
+    "v4": "calling",
+    "v5": "calls",
+    "pronunciation": "/kɔːl/ (rhymes with 'ball')",
+    "definition": "To contact someone by phone; to name or address someone or something; to summon.",
+    "commonUses": [
+      "Talking about phone calls",
+      "Naming or referring to someone/something",
+      "Fixed expressions (call it a day, call off, call for)",
+      "Business terminology (a call, on a call)"
+    ],
+    "beginnerSentences": [
+      "I call my mother every Sunday.",
+      "She calls her friends often.",
+      "We called the restaurant to book a table.",
+      "He called me last night.",
+      "Did you call the doctor?",
+      "I am calling you about the meeting.",
+      "They called off the event.",
+      "Can you call me later?",
+      "This is called a smartphone.",
+      "I didn't call him back yet."
+    ],
+    "intermediateSentences": [
+      "I've been meaning to call you for days.",
+      "She called to confirm the appointment.",
+      "We called off the trip due to bad weather.",
+      "He's calling in sick today.",
+      "I called around to compare prices.",
+      "They called for a full investigation into the matter.",
+      "I've never called someone that late before.",
+      "We should call it a day and continue tomorrow.",
+      "She called out the mistake during the meeting.",
+      "He called in a favor to get the tickets."
+    ],
+    "businessSentences": [
+      "I'll call the client to confirm the details.",
+      "She called an emergency meeting this morning.",
+      "We need to call the vendor about the delay.",
+      "I'm calling to follow up on our previous conversation.",
+      "He called off the deal at the last minute.",
+      "We should call a meeting to discuss this issue.",
+      "I'll call you back once I have more information.",
+      "She called out the inconsistency in the report.",
+      "We're calling for volunteers for the new project.",
+      "I called the client this morning to check in."
+    ],
+    "questions": [
+      "Can you call me later?",
+      "Did you call the client yet?",
+      "Who called this meeting?",
+      "What do you call this in English?",
+      "Did you call to confirm the reservation?",
+      "Can you call me back when you're free?",
+      "Did they call off the event?",
+      "Who's calling, please?",
+      "Did you call in sick today?",
+      "Can we call it a day?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I called to him yesterday.",
+        "right": "I called him yesterday.",
+        "why": "'Call' (meaning to phone someone) takes a direct object without 'to'."
+      },
+      {
+        "wrong": "She is called as Maria.",
+        "right": "She is called Maria.",
+        "why": "When naming someone, don't add 'as' after 'called'."
+      },
+      {
+        "wrong": "I calling you tomorrow.",
+        "right": "I will call you tomorrow. / I'm calling you tomorrow.",
+        "why": "Don't drop the helper verb 'am/will' before the main verb."
+      }
+    ],
+    "grammarTips": [
+      "'Call' is a regular verb (call, called, called).",
+      "'Call' meaning to phone someone takes a direct object without 'to': 'call me', 'call her'.",
+      "'Call off' means to cancel something."
+    ],
+    "synonyms": [
+      "phone",
+      "contact",
+      "summon",
+      "name"
+    ],
+    "antonyms": [
+      "ignore",
+      "hang up"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Can you call me when you get home?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, I'll call you around six."
+      },
+      {
+        "speaker": "A",
+        "line": "Perfect, or you can just text if it's easier than calling."
+      },
+      {
+        "speaker": "B",
+        "line": "No, I'll call - it's easier to explain everything that way."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I called to him yesterday.",
+          "I called him yesterday.",
+          "I called at him yesterday.",
+          "I called for him yesterday."
+        ],
+        "answer": "I called him yesterday.",
+        "explanation": "'Call' meaning to phone someone takes a direct object without 'to'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "She is called as Maria.",
+          "She is called Maria.",
+          "She calls as Maria.",
+          "She is calling as Maria."
+        ],
+        "answer": "She is called Maria.",
+        "explanation": "When naming someone, don't add 'as' after 'called'."
+      },
+      {
+        "type": "fill",
+        "question": "I will ___ (call) you as soon as I land.",
+        "answer": "call",
+        "explanation": "Base form 'call' is used after 'will' in the future simple."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I called my mother yesterday.",
+      "present": "I call my mother every Sunday.",
+      "future": "I will call my mother tomorrow."
+    }
+  },
+  {
+    "verb": "Play",
+    "telugu": "ఆడు (āḍu)",
+    "v1": "play",
+    "v2": "played",
+    "v3": "played",
+    "v4": "playing",
+    "v5": "plays",
+    "pronunciation": "/pleɪ/ (rhymes with 'day')",
+    "definition": "To engage in an activity for enjoyment; to participate in a sport or game; to perform music.",
+    "commonUses": [
+      "Talking about sports and games",
+      "Talking about music",
+      "Describing children's activities",
+      "Fixed expressions (play a role, play it safe, play along)"
+    ],
+    "beginnerSentences": [
+      "I play football on weekends.",
+      "She plays the piano beautifully.",
+      "We played cards last night.",
+      "He played well in the match.",
+      "Did you play any sports today?",
+      "I am playing a game right now.",
+      "They played in the park all afternoon.",
+      "Can you play the guitar?",
+      "This game is fun to play.",
+      "I didn't play well in the tournament."
+    ],
+    "intermediateSentences": [
+      "I've been playing tennis twice a week.",
+      "She played a key role in the project's success.",
+      "We played it safe and didn't take any risks.",
+      "He's playing along with the plan for now.",
+      "I played devil's advocate during the discussion.",
+      "They played a significant part in the negotiations.",
+      "I've never played this instrument before.",
+      "We should play to our strengths in this pitch.",
+      "She played it cool despite being nervous.",
+      "He played a crucial role in closing the deal."
+    ],
+    "businessSentences": [
+      "She played a key role in landing this client.",
+      "We need to play to our strengths in the proposal.",
+      "I played it safe and stuck to the original plan.",
+      "He's playing an important part in this transition.",
+      "We should play devil's advocate before finalizing this.",
+      "The marketing team played a big part in the launch's success.",
+      "I'll play along with the client's suggestions for now.",
+      "She played her cards well during the negotiation.",
+      "We're playing catch-up after the delayed start.",
+      "He played a pivotal role in restructuring the department."
+    ],
+    "questions": [
+      "Do you play any sports?",
+      "Did you play well in the game?",
+      "Can you play a musical instrument?",
+      "What role did you play in the project?",
+      "Did the kids play outside today?",
+      "Are you playing tennis this weekend?",
+      "Did you play it safe or take a risk?",
+      "What games do you like to play?",
+      "Did you play along with the joke?",
+      "How long have you been playing the piano?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I play the football.",
+        "right": "I play football.",
+        "why": "Don't use 'the' before the names of sports - say 'play football', 'play tennis'."
+      },
+      {
+        "wrong": "She plays on the piano.",
+        "right": "She plays the piano.",
+        "why": "For musical instruments, use 'play the' + instrument, not 'play on the' + instrument."
+      },
+      {
+        "wrong": "I played to him a trick.",
+        "right": "I played a trick on him.",
+        "why": "'Play a trick on someone' is the correct fixed expression - the preposition is 'on', not 'to'."
+      }
+    ],
+    "grammarTips": [
+      "'Play' is a regular verb (play, played, played).",
+      "Use 'play' + sport with no article ('play football'), but 'play the' + musical instrument ('play the guitar').",
+      "'Play a role/part in' means to be involved in or contribute to something."
+    ],
+    "synonyms": [
+      "compete",
+      "perform",
+      "participate"
+    ],
+    "antonyms": [
+      "work",
+      "rest"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Do you want to play a game after dinner?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, what do you want to play?"
+      },
+      {
+        "speaker": "A",
+        "line": "How about cards? I haven't played in ages."
+      },
+      {
+        "speaker": "B",
+        "line": "Sounds fun, let's play a few rounds."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I play the football every weekend.",
+          "I play football every weekend.",
+          "I play at football every weekend.",
+          "I am play football every weekend."
+        ],
+        "answer": "I play football every weekend.",
+        "explanation": "Don't use 'the' before the names of sports."
+      },
+      {
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "She plays on the piano.",
+          "She plays the piano.",
+          "She plays in the piano.",
+          "She play the piano."
+        ],
+        "answer": "She plays the piano.",
+        "explanation": "For musical instruments, use 'play the' + instrument."
+      },
+      {
+        "type": "fill",
+        "question": "He ___ (play) a key role in the project's success.",
+        "answer": "played",
+        "explanation": "Simple past 'played' describes a completed past action."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I played football yesterday.",
+      "present": "I play football every weekend.",
+      "future": "I will play football tomorrow."
+    }
+  },
+  {
+    "verb": "Watch",
+    "telugu": "వీక్షించు (vīkṣin̄cu)",
+    "v1": "watch",
+    "v2": "watched",
+    "v3": "watched",
+    "v4": "watching",
+    "v5": "watches",
+    "pronunciation": "/wɒtʃ/ (rhymes with 'notch')",
+    "definition": "To look at something attentively over a period of time; to observe carefully; to be careful about something.",
+    "commonUses": [
+      "Talking about watching TV, movies, or sports",
+      "Describing careful observation",
+      "Warning or caution ('watch out')",
+      "Talking about monitoring something"
+    ],
+    "beginnerSentences": [
+      "I watch TV in the evening.",
+      "She watches movies every weekend.",
+      "We watched a great film last night.",
+      "He watched the game closely.",
+      "Did you watch the news today?",
+      "I am watching a show right now.",
+      "They watched the sunset together.",
+      "Can you watch my bag for a minute?",
+      "This series is fun to watch.",
+      "I didn't watch the match yesterday."
+    ],
+    "intermediateSentences": [
+      "I've been watching a lot of documentaries lately.",
+      "She watched the situation carefully before acting.",
+      "We should watch our spending this month.",
+      "He's watching over the project closely.",
+      "I watched him struggle and offered to help.",
+      "They watched the market trends before investing.",
+      "I've never watched anything quite like this before.",
+      "We need to watch out for potential risks.",
+      "She watched her tone during the difficult conversation.",
+      "He watched the numbers closely throughout the quarter."
+    ],
+    "businessSentences": [
+      "We need to watch the budget closely this quarter.",
+      "She's watching the market for the right opportunity.",
+      "I watched the presentation carefully for any gaps.",
+      "We should watch out for potential risks in this deal.",
+      "He's watching the competitor's pricing strategy.",
+      "Let's watch how the pilot program performs first.",
+      "I'll watch this account closely over the next month.",
+      "We watched the client's reaction during the pitch.",
+      "She watches every detail before approving a report.",
+      "We need to watch our costs as we scale."
+    ],
+    "questions": [
+      "What do you like to watch on TV?",
+      "Did you watch the match last night?",
+      "Can you watch my seat for a moment?",
+      "What are you watching these days?",
+      "Did you watch the whole movie?",
+      "Should we watch out for anything specific?",
+      "Did you watch the presentation carefully?",
+      "What show are you currently watching?",
+      "Did you watch the sunset yesterday?",
+      "Are you watching your diet these days?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I watched the news yesterday, and I saw an interesting report for it.",
+        "right": "I watched the news yesterday and saw an interesting report.",
+        "why": "Avoid adding unnecessary words like 'for it' at the end of a sentence that's already complete."
+      },
+      {
+        "wrong": "I watch this movie already.",
+        "right": "I have already watched this movie.",
+        "why": "Use the correct tense - present perfect ('have watched') or simple past, not the bare present form with 'already'."
+      },
+      {
+        "wrong": "Watch out of the step.",
+        "right": "Watch out for the step.",
+        "why": "'Watch out for' is the correct fixed phrase - the preposition is 'for', not 'of'."
+      }
+    ],
+    "grammarTips": [
+      "'Watch' is a regular verb (watch, watched, watched).",
+      "'Watch', 'see', and 'look at' are often confused: 'watch' implies sustained attention over time.",
+      "'Watch out for' means to be careful about a potential danger or problem."
+    ],
+    "synonyms": [
+      "observe",
+      "view",
+      "monitor"
+    ],
+    "antonyms": [
+      "ignore",
+      "overlook"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What are you watching tonight?"
+      },
+      {
+        "speaker": "B",
+        "line": "I'm watching a new series everyone's been talking about."
+      },
+      {
+        "speaker": "A",
+        "line": "Is it good? I need something new to watch too."
+      },
+      {
+        "speaker": "B",
+        "line": "Yeah, you should watch the first episode, it's great."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "Watch out of the step.",
+          "Watch out for the step.",
+          "Watch out to the step.",
+          "Watch out at the step."
+        ],
+        "answer": "Watch out for the step.",
+        "explanation": "'Watch out for' is the correct fixed phrase, with the preposition 'for'."
+      },
+      {
+        "type": "mcq",
+        "question": "Which word best fits: '___ this movie, it's really engaging over time.'",
+        "options": [
+          "See",
+          "Watch",
+          "Look at",
+          "Glance"
+        ],
+        "answer": "Watch",
+        "explanation": "'Watch' implies sustained attention over time, ideal for movies."
+      },
+      {
+        "type": "fill",
+        "question": "She has already ___ (watch) that movie twice.",
+        "answer": "watched",
+        "explanation": "After 'has already', use the past participle 'watched'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I watched a movie yesterday.",
+      "present": "I watch a movie every weekend.",
+      "future": "I will watch a movie tomorrow."
+    }
   }
 ]

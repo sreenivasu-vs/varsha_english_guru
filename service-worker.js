@@ -1,4 +1,4 @@
-const CACHE_NAME = "english-master-v36";
+const CACHE_NAME = "english-master-v37";
 const APP_SHELL = [
   "./manifest.json",
   "./css/style.css",

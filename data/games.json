@@ -1,0 +1,9 @@
+[
+  {
+    "id": "find-the-mistake",
+    "title": "Find the Mistake",
+    "icon": "🎯",
+    "description": "A sentence has one or more wrong words - tap the mistake, check your answer, and see the correction explained. Pulled from 888 real common mistakes.",
+    "page": "find-the-mistake.html"
+  }
+]

@@ -32,6 +32,15 @@ function clearSession() {
   localStorage.removeItem(SESSION_KEY);
 }
 
+/* Every practice feature works without an account: guests' grammar checks go
+   to the backend under a shared "guest" username (the backend auto-creates
+   users, so no server change is needed). Logging in only adds per-account
+   history and the dashboard Growth Board - it never unlocks features. */
+function getPracticeUsername() {
+  const session = getSession();
+  return session && session.username ? session.username : "guest";
+}
+
 async function apiSignup(username) {
   const res = await fetch(`${API_BASE}/api/users/signup`, {
     method: "POST",

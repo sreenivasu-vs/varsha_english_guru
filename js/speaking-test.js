@@ -72,26 +72,13 @@ function formatTime(totalSeconds) {
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
-function renderLoggedOutState(container) {
-  container.innerHTML = "";
-  const card = el("div", "card");
-  card.innerHTML = `
-    <div class="section-title" style="margin-top:0">Log In to Take the Speaking Test</div>
-    <p style="margin:0 0 12px;color:var(--text-muted);">Your response is graded through the grammar-check backend, which saves attempts to your account. Please log in or create an account first.</p>
-  `;
-  const link = el("a", "btn block", "← Go to Dashboard to Log In");
-  link.href = "../index.html";
-  card.appendChild(link);
-  container.appendChild(card);
-}
-
 function renderOverview(container, username) {
   container.innerHTML = "";
   const card = el("div", "card");
   card.innerHTML = `
     <div class="section-title" style="margin-top:0">IELTS/TOEFL-Style Speaking Test</div>
     <p style="margin:0 0 10px;color:var(--text-muted);font-size:14.5px;">You'll get a topic ("cue card"), one minute of silent preparation time, then up to two minutes to speak continuously. Afterward, you'll get grammar feedback on your transcript.</p>
-    <p style="margin:0 0 12px;font-size:13px;color:var(--text-muted);">Practicing as <b style="color:var(--text);">${escapeHtml(username)}</b></p>
+    <p style="margin:0 0 12px;font-size:13px;color:var(--text-muted);">${username === "guest" ? "Practicing as a guest - log in from the dashboard to track your progress over time." : `Practicing as <b style="color:var(--text);">${escapeHtml(username)}</b>`}</p>
   `;
   const startBtn = el("button", "btn block", "▶ Start Test");
   startBtn.onclick = () => renderCueCard(container, username, nextTopic());
@@ -485,12 +472,6 @@ function renderResult(resultArea, data) {
 async function init() {
   setupThemeToggle();
   const container = document.getElementById("speakingTestContainer");
-  const session = getSession();
-
-  if (!session || session.guest) {
-    renderLoggedOutState(container);
-    return;
-  }
 
   container.innerHTML = `<div class="empty-state">Loading topics...</div>`;
   try {
@@ -498,7 +479,7 @@ async function init() {
     TOPICS = await res.json();
     topicOrder = shuffleArray(TOPICS.map((_, i) => i));
     topicPos = -1;
-    renderOverview(container, session.username);
+    renderOverview(container, getPracticeUsername());
   } catch (e) {
     container.innerHTML = `<div class="empty-state">Couldn't load speaking test topics. Please try again later.</div>`;
   }

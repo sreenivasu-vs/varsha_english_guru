@@ -188,6 +188,7 @@ async function initDashboard() {
   setupInstall();
   CURRICULUM = await loadCurriculum();
   renderStats();
+  renderGrowthBoard();
   renderBadges();
   renderContinue();
   renderWeak();
@@ -199,6 +200,103 @@ async function initDashboard() {
   if ("serviceWorker" in navigator) {
     setupServiceWorkerUpdates();
   }
+}
+
+/* Growth Board: the logged-in perk. Every feature works for guests; what an
+   account adds is this dashboard section - progress metrics plus "what to
+   practice next" recommendations built from the last few 360° Practice
+   sessions (localStorage, same data the 360° report uses) and the backend's
+   speaking-practice summary when reachable. */
+const GROWTH_SKILLS = {
+  grammar: { label: "Grammar", icon: "🎯", suggestion: "Play Find the Mistake and revisit the Common Mistakes Bank lessons.", href: "pages/find-the-mistake.html" },
+  sentence: { label: "Sentence Formation", icon: "🧩", suggestion: "Play Word Builder and review the Sentence Formation lessons.", href: "pages/word-builder.html" },
+  verbForms: { label: "Verb Forms in Context", icon: "📝", suggestion: "Play Fill in the Blank and study tenses in the Verb Mastery Bank.", href: "pages/fill-blank.html" },
+  verbs: { label: "Verb Knowledge", icon: "⚡", suggestion: "Play Verb Challenge and browse V1-V5 forms in the Verb Mastery Bank.", href: "pages/verb-challenge.html" },
+  vocabulary: { label: "Vocabulary", icon: "🗂️", suggestion: "Do your daily Flashcard Review.", href: "pages/flashcards.html" },
+  listening: { label: "Listening", icon: "🎧", suggestion: "Practice dictation and comprehension in Listening Practice.", href: "pages/listening-practice.html" },
+  speaking: { label: "Speaking", icon: "🎤", suggestion: "Use Speaking Practice, Shadowing and the Pronunciation Coach.", href: "pages/pronunciation-coach.html" },
+};
+
+async function renderGrowthBoard() {
+  const container = document.getElementById("growthBoard");
+  if (!container) return;
+  const session = getSession();
+
+  if (!session || !session.username) {
+    container.innerHTML = `
+      <div class="card">
+        <div class="section-title" style="margin-top:0">📈 Growth Board</div>
+        <p style="margin:0;color:var(--text-muted);font-size:14px;">You're practicing as a guest - everything works, nothing is locked. Log in (👤 above) to unlock this personal Growth Board: progress metrics plus recommendations on what to practice next for faster results.</p>
+      </div>
+    `;
+    return;
+  }
+
+  let history = [];
+  try {
+    history = JSON.parse(localStorage.getItem("em_practice360_v1")) || [];
+  } catch (e) { /* corrupt/absent history just means no skill data yet */ }
+  const recent = history.slice(-3);
+
+  const skillAvgs = {};
+  Object.keys(GROWTH_SKILLS).forEach((k) => {
+    const vals = recent.map((h) => h.skills[k]).filter((v) => v !== null && v !== undefined);
+    skillAvgs[k] = vals.length ? Math.round(vals.reduce((a, b) => a + b, 0) / vals.length) : null;
+  });
+  const scored = Object.keys(GROWTH_SKILLS).filter((k) => skillAvgs[k] !== null);
+
+  let skillsHtml = "";
+  if (!scored.length) {
+    skillsHtml = `<p style="margin:0 0 10px;color:var(--text-muted);font-size:14px;">Take a <a href="pages/practice-360.html" style="color:var(--primary);font-weight:700;text-decoration:underline;">360° Practice session</a> to see your per-skill strengths here and get personalized recommendations.</p>`;
+  } else {
+    skillsHtml = scored.map((k) => `
+      <div style="margin-bottom:10px;">
+        <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:3px;">
+          <span>${GROWTH_SKILLS[k].icon} ${GROWTH_SKILLS[k].label}</span>
+          <span style="font-weight:700;">${skillAvgs[k]}%</span>
+        </div>
+        <div class="progress-track"><div class="progress-fill" style="width:${skillAvgs[k]}%"></div></div>
+      </div>
+    `).join("");
+
+    let weak = scored.filter((k) => skillAvgs[k] < 70).sort((a, b) => skillAvgs[a] - skillAvgs[b]);
+    if (!weak.length) {
+      const lowest = scored.reduce((a, b) => (skillAvgs[a] <= skillAvgs[b] ? a : b));
+      if (skillAvgs[lowest] < 100) weak = [lowest];
+    }
+    if (weak.length) {
+      skillsHtml += `<div style="font-size:13px;font-weight:700;margin:12px 0 6px;">Practice next for faster results:</div>`;
+      skillsHtml += weak.slice(0, 3).map((k) => `
+        <div class="mistake-item">
+          <div style="font-weight:700;">${GROWTH_SKILLS[k].icon} ${GROWTH_SKILLS[k].label} · ${skillAvgs[k]}%</div>
+          <div class="mistake-why">${GROWTH_SKILLS[k].suggestion}</div>
+          <div style="margin-top:4px;font-size:13px;"><a href="${GROWTH_SKILLS[k].href}" style="color:var(--primary);font-weight:700;text-decoration:underline;">Practice now →</a></div>
+        </div>
+      `).join("");
+    } else {
+      skillsHtml += `<p style="margin:10px 0 0;color:var(--accent);font-size:14px;font-weight:700;">💯 Every skill at 100% recently - outstanding! Keep the streak alive.</p>`;
+    }
+  }
+
+  container.innerHTML = `
+    <div class="card">
+      <div class="section-title" style="margin-top:0">📈 Growth Board</div>
+      <div id="growthSummary" style="font-size:13px;color:var(--text-muted);margin-bottom:12px;"></div>
+      ${skillsHtml}
+    </div>
+  `;
+
+  /* Backend speaking summary - best effort, silently absent if unreachable */
+  try {
+    const summary = await apiGetSummary(session.username);
+    if (summary && summary.total_attempts) {
+      const last = summary.last_practice_at ? new Date(summary.last_practice_at).toLocaleDateString() : null;
+      const summaryEl = document.getElementById("growthSummary");
+      if (summaryEl) {
+        summaryEl.textContent = `🎤 ${summary.total_attempts} speaking attempt${summary.total_attempts === 1 ? "" : "s"} saved · avg ${summary.avg_issues_found} issue${summary.avg_issues_found === 1 ? "" : "s"} per sentence${last ? ` · last practiced ${last}` : ""}`;
+      }
+    }
+  } catch (e) { /* backend offline - board still shows local skill data */ }
 }
 
 /* Browsers give web apps no way to request permissions during the actual

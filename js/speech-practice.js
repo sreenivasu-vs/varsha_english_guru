@@ -46,25 +46,12 @@ const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRec
 let recognition = null;
 let isListening = false;
 
-function renderLoggedOutState(container) {
-  container.innerHTML = "";
-  const card = el("div", "card");
-  card.innerHTML = `
-    <div class="section-title" style="margin-top:0">Log In to Practice Speaking</div>
-    <p style="margin:0 0 12px;color:var(--text-muted);">Speaking Practice saves your attempts to your account so you can track progress over time. Please log in or create an account first.</p>
-  `;
-  const link = el("a", "btn block", "← Go to Dashboard to Log In");
-  link.href = "../index.html";
-  card.appendChild(link);
-  container.appendChild(card);
-}
-
-function renderPracticeCard(container, username) {
+function renderPracticeCard(container, username, isGuest) {
   const card = el("div", "card");
   card.innerHTML = `
     <div class="section-title" style="margin-top:0">Speak a Sentence</div>
     <p style="margin:0 0 6px;color:var(--text-muted);font-size:14.5px;">Press the microphone and say a simple English sentence out loud. We'll transcribe it and check your grammar.</p>
-    <p style="margin:0 0 12px;font-size:13px;color:var(--text-muted);">Practicing as <b style="color:var(--text);">${escapeHtml(username)}</b></p>
+    <p style="margin:0 0 12px;font-size:13px;color:var(--text-muted);">${isGuest ? "Practicing as a guest - log in from the dashboard to track your progress over time." : `Practicing as <b style="color:var(--text);">${escapeHtml(username)}</b>`}</p>
   `;
 
   const micBtn = el("button", "btn block", "🎤 Start Speaking");
@@ -228,13 +215,9 @@ function init() {
   setupThemeToggle();
   const container = document.getElementById("speechContainer");
   const session = getSession();
+  const isGuest = !session || !session.username;
 
-  if (!session || session.guest) {
-    renderLoggedOutState(container);
-    return;
-  }
-
-  renderPracticeCard(container, session.username);
+  renderPracticeCard(container, getPracticeUsername(), isGuest);
 }
 
 init();

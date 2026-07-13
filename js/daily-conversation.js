@@ -54,19 +54,6 @@ function getTodayScenario(scenarios) {
   return scenarios[dayOfYear() % scenarios.length];
 }
 
-function renderLoggedOutState(container) {
-  container.innerHTML = "";
-  const card = el("div", "card");
-  card.innerHTML = `
-    <div class="section-title" style="margin-top:0">Log In to Practice</div>
-    <p style="margin:0 0 12px;color:var(--text-muted);">Daily Conversation saves your attempts to your account so you can track progress over time. Please log in or create an account first.</p>
-  `;
-  const link = el("a", "btn block", "← Go to Dashboard to Log In");
-  link.href = "../index.html";
-  card.appendChild(link);
-  container.appendChild(card);
-}
-
 function renderNarratorLine(item) {
   const line = el("div", "dialogue-line");
   line.innerHTML = `<div class="dialogue-speaker">${escapeHtml(item.speaker)}</div>`;
@@ -303,19 +290,13 @@ function renderScenario(container, scenario, username) {
 async function init() {
   setupThemeToggle();
   const container = document.getElementById("dailyConvContainer");
-  const session = getSession();
-
-  if (!session || session.guest) {
-    renderLoggedOutState(container);
-    return;
-  }
 
   container.innerHTML = `<div class="empty-state">Loading today's conversation...</div>`;
   try {
     const res = await fetch("../data/daily-conversations.json");
     const scenarios = await res.json();
     const scenario = getTodayScenario(scenarios);
-    renderScenario(container, scenario, session.username);
+    renderScenario(container, scenario, getPracticeUsername());
   } catch (e) {
     container.innerHTML = `<div class="empty-state">Couldn't load today's conversation. Please try again later.</div>`;
   }

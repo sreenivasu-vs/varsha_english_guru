@@ -469,19 +469,18 @@ function highlightFillers(transcript) {
   return html;
 }
 
-/* Best-effort: only scores real grammar if the user is logged in and the
-   backend is reachable (same /api/check LanguageTool endpoint Speaking
-   Practice uses) - returns null otherwise so the round can degrade
-   gracefully for guests instead of requiring login just for this one round. */
+/* Best-effort: scores real grammar via the same /api/check LanguageTool
+   endpoint Speaking Practice uses - works for guests too (shared "guest"
+   username). Returns null only when the backend is unreachable, so the
+   round degrades gracefully instead of blocking. */
 async function fetchGrammarScore(text) {
-  if (typeof getSession !== "function" || typeof API_BASE === "undefined") return null;
-  const session = getSession();
-  if (!session || session.guest || !text.trim()) return null;
+  if (typeof getPracticeUsername !== "function" || typeof API_BASE === "undefined") return null;
+  if (!text.trim()) return null;
   try {
     const res = await fetch(`${API_BASE}/api/check`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ username: session.username, text }),
+      body: JSON.stringify({ username: getPracticeUsername(), text }),
     });
     if (!res.ok) return null;
     const data = await res.json();
@@ -1034,7 +1033,7 @@ function renderOneMinuteSpeech(container, item) {
         ${scoreBar("Confidence", confidenceScore)}
         ${scoreBar("Sentence Structure", Math.round(sentenceStructureScore))}
         ${scoreBar("Fluency", fluencyScore)}
-        ${grammarScore === null ? '<div style="font-size:12px;color:var(--text-muted);margin:6px 0 12px;">Log in (from the dashboard) to also get a real grammar score here.</div>' : ""}
+        ${grammarScore === null ? '<div style="font-size:12px;color:var(--text-muted);margin:6px 0 12px;">Grammar couldn\'t be checked - the grammar server wasn\'t reachable this time.</div>' : ""}
         <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Filler words used:</div>
         <div style="margin-top:4px;">${fillerList}</div>
         <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Speed: ${wpm} WPM</div>

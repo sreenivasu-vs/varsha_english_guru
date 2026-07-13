@@ -1,5 +1,12 @@
 [
   {
+    "id": "pronunciation-coach",
+    "title": "Pronunciation Coach",
+    "icon": "🎙️",
+    "description": "9 rounds of speaking practice - echo, pauses, word stress, speed, minimal pairs, voice clarity and intonation - with a live Pronunciation / Clarity / Fluency / Accuracy scorecard.",
+    "page": "pronunciation-coach.html"
+  },
+  {
     "id": "word-builder",
     "title": "Word Builder",
     "icon": "🧩",

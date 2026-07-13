@@ -1,4 +1,4 @@
-const CACHE_NAME = "english-master-v39";
+const CACHE_NAME = "english-master-v40";
 const APP_SHELL = [
   "./manifest.json",
   "./css/style.css",
@@ -24,10 +24,12 @@ const APP_SHELL = [
   "./js/word-builder.js",
   "./js/verb-challenge.js",
   "./js/fill-blank.js",
+  "./js/pronunciation-coach.js",
   "./js/games.js",
   "./icons/icon.svg",
   "./data/curriculum.json",
   "./data/games.json",
+  "./data/pronunciation-coach.json",
   "./data/daily-conversations.json",
   "./data/shadowing-sentences.json",
   "./data/shadowing-paragraphs.json",

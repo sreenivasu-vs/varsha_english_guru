@@ -1,0 +1,74 @@
+{
+  "pause": [
+    { "text": "After the meeting, we reviewed the report, and then we left." },
+    { "text": "If you have time, please call me, or send an email." },
+    { "text": "Well, to be honest, I think we should wait." },
+    { "text": "First, check your email, then join the call." },
+    { "text": "Yes, I understand, but we need more time." },
+    { "text": "Actually, now that I think about it, that makes sense." },
+    { "text": "When you're ready, let me know, and we'll begin." },
+    { "text": "Honestly, I'm not sure, but I'll find out." },
+    { "text": "Before you leave, please submit the form, and lock the door." },
+    { "text": "Overall, the project went well, despite a few delays." }
+  ],
+  "stress": [
+    { "word": "development", "syllables": ["de", "VEL", "op", "ment"], "stressIndex": 1 },
+    { "word": "photograph", "syllables": ["PHO", "to", "graph"], "stressIndex": 0 },
+    { "word": "photography", "syllables": ["pho", "TOG", "ra", "phy"], "stressIndex": 1 },
+    { "word": "important", "syllables": ["im", "POR", "tant"], "stressIndex": 1 },
+    { "word": "economic", "syllables": ["ec", "o", "NOM", "ic"], "stressIndex": 2 },
+    { "word": "comfortable", "syllables": ["COM", "for", "ta", "ble"], "stressIndex": 0 },
+    { "word": "information", "syllables": ["in", "for", "MA", "tion"], "stressIndex": 2 },
+    { "word": "understand", "syllables": ["un", "der", "STAND"], "stressIndex": 2 },
+    { "word": "beautiful", "syllables": ["BEAU", "ti", "ful"], "stressIndex": 0 },
+    { "word": "communication", "syllables": ["com", "mu", "ni", "CA", "tion"], "stressIndex": 3 },
+    { "word": "necessary", "syllables": ["NEC", "es", "sar", "y"], "stressIndex": 0 },
+    { "word": "opportunity", "syllables": ["op", "por", "TU", "ni", "ty"], "stressIndex": 2 }
+  ],
+  "speed": [
+    {
+      "targetWpm": 120,
+      "text": "Every morning, our team meets for a quick stand-up call. Each person shares what they finished yesterday, what they plan to do today, and whether they are facing any blockers. This short meeting helps everyone stay on the same page without needing long email threads. After the call, we usually spend a few minutes reviewing the board together. It keeps the whole team aligned and makes it much easier to catch problems early, before they turn into bigger issues later in the week."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Last weekend, I decided to explore a new part of the city that I had never visited before. I woke up early, packed a small bag, and took the first train out of downtown. The streets were quiet, the shops were just opening, and the smell of fresh coffee filled the air. I spent hours walking around, taking photos, and chatting with local shopkeepers. By the time I got home, I felt refreshed and genuinely grateful for such a simple, relaxing day."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Learning a new language takes patience, consistency, and a genuine willingness to make mistakes along the way. Many people give up too early because they expect to sound perfect within just a few weeks. In reality, real progress happens slowly, through daily practice, small conversations, and constant repetition. The learners who improve the fastest are usually the ones who keep speaking, even when they feel unsure, rather than waiting until they feel completely ready."
+    }
+  ],
+  "missingSound": [
+    { "word": "asked", "commonMistake": "ast", "tip": "Don't drop the ending - say all three sounds: /s/ /k/ /t/." },
+    { "word": "clothes", "commonMistake": "close", "tip": "Keep the soft \"th\" sound before the z - it isn't the same word as \"close\"." },
+    { "word": "months", "commonMistake": "mons", "tip": "Keep the \"th\" sound before the final s." },
+    { "word": "twelfth", "commonMistake": "twelth", "tip": "Don't drop the \"f\" - it's twel-F-th." },
+    { "word": "library", "commonMistake": "libary", "tip": "There are two r sounds - li-BRAR-y, not li-BA-ry." },
+    { "word": "february", "commonMistake": "febuary", "tip": "Keep the first r - FEB-ru-ary." },
+    { "word": "probably", "commonMistake": "probly", "tip": "Say all three syllables: PROB-a-bly." },
+    { "word": "vegetable", "commonMistake": "vegtable", "tip": "Say all four syllables: VEG-e-ta-ble." },
+    { "word": "interesting", "commonMistake": "intresting", "tip": "Say all four syllables: IN-ter-est-ing." },
+    { "word": "sixths", "commonMistake": "siks", "tip": "A hard cluster - try to keep all four sounds: /s/ /ɪ/ /k/ /s/ /θ/ /s/." }
+  ],
+  "minimalPairs": [
+    { "a": "ship", "b": "sheep", "tip": "Short \"i\" (ship) vs long \"ee\" (sheep)." },
+    { "a": "bit", "b": "beat", "tip": "Short \"i\" (bit) vs long \"ee\" (beat)." },
+    { "a": "live", "b": "leave", "tip": "Short \"i\" (live) vs long \"ee\" (leave)." },
+    { "a": "full", "b": "fool", "tip": "Short \"oo\" (full) vs long \"oo\" (fool)." },
+    { "a": "pull", "b": "pool", "tip": "Short \"oo\" (pull) vs long \"oo\" (pool)." },
+    { "a": "bed", "b": "bad", "tip": "\"eh\" (bed) vs \"ah\" (bad)." },
+    { "a": "men", "b": "man", "tip": "\"eh\" (men) vs \"ah\" (man)." },
+    { "a": "thin", "b": "then", "tip": "Voiceless \"th\" (thin) vs voiced \"th\" (then)." },
+    { "a": "very", "b": "berry", "tip": "\"v\" (very, top teeth on lip) vs \"b\" (berry, lips together)." }
+  ],
+  "intonation": {
+    "sentence": "I can't believe you did that.",
+    "emotions": [
+      { "id": "happy", "label": "😄 Happy", "hint": "Bright, bouncy pitch with a lot of up-and-down variation." },
+      { "id": "sad", "label": "😔 Sad", "hint": "Low, flat, and slow - not much pitch variation." },
+      { "id": "angry", "label": "😠 Angry", "hint": "Louder, sharper, with more force behind it." },
+      { "id": "surprised", "label": "😲 Surprised", "hint": "Pitch rises sharply, especially toward the end." }
+    ]
+  }
+}

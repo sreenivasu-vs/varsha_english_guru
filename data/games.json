@@ -1,5 +1,19 @@
 [
   {
+    "id": "word-builder",
+    "title": "Word Builder",
+    "icon": "🧩",
+    "description": "Arrange scrambled words into a correct sentence - practice sentence formation, grammar and word order. 493 sentences.",
+    "page": "word-builder.html"
+  },
+  {
+    "id": "verb-challenge",
+    "title": "Verb Challenge",
+    "icon": "⚡",
+    "description": "See a verb, pick the correct V2 (past) or V3 (past participle) form from the other forms. Covers all 50 verbs in the Verb Mastery Bank.",
+    "page": "verb-challenge.html"
+  },
+  {
     "id": "find-the-mistake",
     "title": "Find the Mistake",
     "icon": "🎯",

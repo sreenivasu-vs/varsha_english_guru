@@ -1,0 +1,5710 @@
+[
+  {
+    "id": 1,
+    "sentence": "I go to school every day.",
+    "words": [
+      "I",
+      "go",
+      "to",
+      "school",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 2,
+    "sentence": "She goes to the market on Sundays.",
+    "words": [
+      "She",
+      "goes",
+      "to",
+      "the",
+      "market",
+      "on",
+      "Sundays."
+    ]
+  },
+  {
+    "id": 3,
+    "sentence": "We go home at six o'clock.",
+    "words": [
+      "We",
+      "go",
+      "home",
+      "at",
+      "six",
+      "o'clock."
+    ]
+  },
+  {
+    "id": 4,
+    "sentence": "He went to bed early last night.",
+    "words": [
+      "He",
+      "went",
+      "to",
+      "bed",
+      "early",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 5,
+    "sentence": "They have gone to the airport.",
+    "words": [
+      "They",
+      "have",
+      "gone",
+      "to",
+      "the",
+      "airport."
+    ]
+  },
+  {
+    "id": 6,
+    "sentence": "Do you go to the gym often?",
+    "words": [
+      "Do",
+      "you",
+      "go",
+      "to",
+      "the",
+      "gym",
+      "often?"
+    ]
+  },
+  {
+    "id": 7,
+    "sentence": "Let's go for a walk.",
+    "words": [
+      "Let's",
+      "go",
+      "for",
+      "a",
+      "walk."
+    ]
+  },
+  {
+    "id": 8,
+    "sentence": "I am going to the store.",
+    "words": [
+      "I",
+      "am",
+      "going",
+      "to",
+      "the",
+      "store."
+    ]
+  },
+  {
+    "id": 9,
+    "sentence": "My father goes to work by bus.",
+    "words": [
+      "My",
+      "father",
+      "goes",
+      "to",
+      "work",
+      "by",
+      "bus."
+    ]
+  },
+  {
+    "id": 10,
+    "sentence": "Where did you go yesterday?",
+    "words": [
+      "Where",
+      "did",
+      "you",
+      "go",
+      "yesterday?"
+    ]
+  },
+  {
+    "id": 11,
+    "sentence": "I am a student.",
+    "words": [
+      "I",
+      "am",
+      "a",
+      "student."
+    ]
+  },
+  {
+    "id": 12,
+    "sentence": "She is my sister.",
+    "words": [
+      "She",
+      "is",
+      "my",
+      "sister."
+    ]
+  },
+  {
+    "id": 13,
+    "sentence": "We are from India.",
+    "words": [
+      "We",
+      "are",
+      "from",
+      "India."
+    ]
+  },
+  {
+    "id": 14,
+    "sentence": "He was tired yesterday.",
+    "words": [
+      "He",
+      "was",
+      "tired",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 15,
+    "sentence": "They were at home.",
+    "words": [
+      "They",
+      "were",
+      "at",
+      "home."
+    ]
+  },
+  {
+    "id": 16,
+    "sentence": "It is cold today.",
+    "words": [
+      "It",
+      "is",
+      "cold",
+      "today."
+    ]
+  },
+  {
+    "id": 17,
+    "sentence": "You are very kind.",
+    "words": [
+      "You",
+      "are",
+      "very",
+      "kind."
+    ]
+  },
+  {
+    "id": 18,
+    "sentence": "I was happy to see you.",
+    "words": [
+      "I",
+      "was",
+      "happy",
+      "to",
+      "see",
+      "you."
+    ]
+  },
+  {
+    "id": 19,
+    "sentence": "The book is on the table.",
+    "words": [
+      "The",
+      "book",
+      "is",
+      "on",
+      "the",
+      "table."
+    ]
+  },
+  {
+    "id": 20,
+    "sentence": "Is she your friend?",
+    "words": [
+      "Is",
+      "she",
+      "your",
+      "friend?"
+    ]
+  },
+  {
+    "id": 21,
+    "sentence": "I have a car.",
+    "words": [
+      "I",
+      "have",
+      "a",
+      "car."
+    ]
+  },
+  {
+    "id": 22,
+    "sentence": "She has two brothers.",
+    "words": [
+      "She",
+      "has",
+      "two",
+      "brothers."
+    ]
+  },
+  {
+    "id": 23,
+    "sentence": "We have a meeting today.",
+    "words": [
+      "We",
+      "have",
+      "a",
+      "meeting",
+      "today."
+    ]
+  },
+  {
+    "id": 24,
+    "sentence": "He had a good time at the party.",
+    "words": [
+      "He",
+      "had",
+      "a",
+      "good",
+      "time",
+      "at",
+      "the",
+      "party."
+    ]
+  },
+  {
+    "id": 25,
+    "sentence": "They have a big house.",
+    "words": [
+      "They",
+      "have",
+      "a",
+      "big",
+      "house."
+    ]
+  },
+  {
+    "id": 26,
+    "sentence": "Do you have a pen?",
+    "words": [
+      "Do",
+      "you",
+      "have",
+      "a",
+      "pen?"
+    ]
+  },
+  {
+    "id": 27,
+    "sentence": "I have to go now.",
+    "words": [
+      "I",
+      "have",
+      "to",
+      "go",
+      "now."
+    ]
+  },
+  {
+    "id": 28,
+    "sentence": "She has a headache.",
+    "words": [
+      "She",
+      "has",
+      "a",
+      "headache."
+    ]
+  },
+  {
+    "id": 29,
+    "sentence": "We had lunch together.",
+    "words": [
+      "We",
+      "had",
+      "lunch",
+      "together."
+    ]
+  },
+  {
+    "id": 30,
+    "sentence": "Does he have a laptop?",
+    "words": [
+      "Does",
+      "he",
+      "have",
+      "a",
+      "laptop?"
+    ]
+  },
+  {
+    "id": 31,
+    "sentence": "I do my homework every evening.",
+    "words": [
+      "I",
+      "do",
+      "my",
+      "homework",
+      "every",
+      "evening."
+    ]
+  },
+  {
+    "id": 32,
+    "sentence": "She does the dishes after dinner.",
+    "words": [
+      "She",
+      "does",
+      "the",
+      "dishes",
+      "after",
+      "dinner."
+    ]
+  },
+  {
+    "id": 33,
+    "sentence": "We did our best in the exam.",
+    "words": [
+      "We",
+      "did",
+      "our",
+      "best",
+      "in",
+      "the",
+      "exam."
+    ]
+  },
+  {
+    "id": 34,
+    "sentence": "He doesn't like coffee.",
+    "words": [
+      "He",
+      "doesn't",
+      "like",
+      "coffee."
+    ]
+  },
+  {
+    "id": 35,
+    "sentence": "Do you speak English?",
+    "words": [
+      "Do",
+      "you",
+      "speak",
+      "English?"
+    ]
+  },
+  {
+    "id": 36,
+    "sentence": "I am doing my project now.",
+    "words": [
+      "I",
+      "am",
+      "doing",
+      "my",
+      "project",
+      "now."
+    ]
+  },
+  {
+    "id": 37,
+    "sentence": "They did a great job.",
+    "words": [
+      "They",
+      "did",
+      "a",
+      "great",
+      "job."
+    ]
+  },
+  {
+    "id": 38,
+    "sentence": "Does she work here?",
+    "words": [
+      "Does",
+      "she",
+      "work",
+      "here?"
+    ]
+  },
+  {
+    "id": 39,
+    "sentence": "What are you doing?",
+    "words": [
+      "What",
+      "are",
+      "you",
+      "doing?"
+    ]
+  },
+  {
+    "id": 40,
+    "sentence": "I didn't see him yesterday.",
+    "words": [
+      "I",
+      "didn't",
+      "see",
+      "him",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 41,
+    "sentence": "I get up at seven every morning.",
+    "words": [
+      "I",
+      "get",
+      "up",
+      "at",
+      "seven",
+      "every",
+      "morning."
+    ]
+  },
+  {
+    "id": 42,
+    "sentence": "She got a new phone yesterday.",
+    "words": [
+      "She",
+      "got",
+      "a",
+      "new",
+      "phone",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 43,
+    "sentence": "We get home late on Fridays.",
+    "words": [
+      "We",
+      "get",
+      "home",
+      "late",
+      "on",
+      "Fridays."
+    ]
+  },
+  {
+    "id": 44,
+    "sentence": "He gets tired after work.",
+    "words": [
+      "He",
+      "gets",
+      "tired",
+      "after",
+      "work."
+    ]
+  },
+  {
+    "id": 45,
+    "sentence": "Did you get my message?",
+    "words": [
+      "Did",
+      "you",
+      "get",
+      "my",
+      "message?"
+    ]
+  },
+  {
+    "id": 46,
+    "sentence": "I am getting ready for the party.",
+    "words": [
+      "I",
+      "am",
+      "getting",
+      "ready",
+      "for",
+      "the",
+      "party."
+    ]
+  },
+  {
+    "id": 47,
+    "sentence": "They got married last year.",
+    "words": [
+      "They",
+      "got",
+      "married",
+      "last",
+      "year."
+    ]
+  },
+  {
+    "id": 48,
+    "sentence": "Can you get me some water?",
+    "words": [
+      "Can",
+      "you",
+      "get",
+      "me",
+      "some",
+      "water?"
+    ]
+  },
+  {
+    "id": 49,
+    "sentence": "It's getting cold outside.",
+    "words": [
+      "It's",
+      "getting",
+      "cold",
+      "outside."
+    ]
+  },
+  {
+    "id": 50,
+    "sentence": "I didn't get the joke.",
+    "words": [
+      "I",
+      "didn't",
+      "get",
+      "the",
+      "joke."
+    ]
+  },
+  {
+    "id": 51,
+    "sentence": "I make breakfast every morning.",
+    "words": [
+      "I",
+      "make",
+      "breakfast",
+      "every",
+      "morning."
+    ]
+  },
+  {
+    "id": 52,
+    "sentence": "She makes delicious cakes.",
+    "words": [
+      "She",
+      "makes",
+      "delicious",
+      "cakes."
+    ]
+  },
+  {
+    "id": 53,
+    "sentence": "We made a mistake.",
+    "words": [
+      "We",
+      "made",
+      "a",
+      "mistake."
+    ]
+  },
+  {
+    "id": 54,
+    "sentence": "He made a phone call.",
+    "words": [
+      "He",
+      "made",
+      "a",
+      "phone",
+      "call."
+    ]
+  },
+  {
+    "id": 55,
+    "sentence": "Did you make this dress?",
+    "words": [
+      "Did",
+      "you",
+      "make",
+      "this",
+      "dress?"
+    ]
+  },
+  {
+    "id": 56,
+    "sentence": "I am making dinner now.",
+    "words": [
+      "I",
+      "am",
+      "making",
+      "dinner",
+      "now."
+    ]
+  },
+  {
+    "id": 57,
+    "sentence": "They made a plan for the weekend.",
+    "words": [
+      "They",
+      "made",
+      "a",
+      "plan",
+      "for",
+      "the",
+      "weekend."
+    ]
+  },
+  {
+    "id": 58,
+    "sentence": "Can you make some coffee?",
+    "words": [
+      "Can",
+      "you",
+      "make",
+      "some",
+      "coffee?"
+    ]
+  },
+  {
+    "id": 59,
+    "sentence": "This makes me happy.",
+    "words": [
+      "This",
+      "makes",
+      "me",
+      "happy."
+    ]
+  },
+  {
+    "id": 60,
+    "sentence": "I didn't make the deadline.",
+    "words": [
+      "I",
+      "didn't",
+      "make",
+      "the",
+      "deadline."
+    ]
+  },
+  {
+    "id": 61,
+    "sentence": "I take the bus to work.",
+    "words": [
+      "I",
+      "take",
+      "the",
+      "bus",
+      "to",
+      "work."
+    ]
+  },
+  {
+    "id": 62,
+    "sentence": "She takes her dog for a walk.",
+    "words": [
+      "She",
+      "takes",
+      "her",
+      "dog",
+      "for",
+      "a",
+      "walk."
+    ]
+  },
+  {
+    "id": 63,
+    "sentence": "We took a lot of photos.",
+    "words": [
+      "We",
+      "took",
+      "a",
+      "lot",
+      "of",
+      "photos."
+    ]
+  },
+  {
+    "id": 64,
+    "sentence": "He took my pen by mistake.",
+    "words": [
+      "He",
+      "took",
+      "my",
+      "pen",
+      "by",
+      "mistake."
+    ]
+  },
+  {
+    "id": 65,
+    "sentence": "Did you take your medicine?",
+    "words": [
+      "Did",
+      "you",
+      "take",
+      "your",
+      "medicine?"
+    ]
+  },
+  {
+    "id": 66,
+    "sentence": "I am taking a break now.",
+    "words": [
+      "I",
+      "am",
+      "taking",
+      "a",
+      "break",
+      "now."
+    ]
+  },
+  {
+    "id": 67,
+    "sentence": "They took a taxi to the airport.",
+    "words": [
+      "They",
+      "took",
+      "a",
+      "taxi",
+      "to",
+      "the",
+      "airport."
+    ]
+  },
+  {
+    "id": 68,
+    "sentence": "Can you take this box for me?",
+    "words": [
+      "Can",
+      "you",
+      "take",
+      "this",
+      "box",
+      "for",
+      "me?"
+    ]
+  },
+  {
+    "id": 69,
+    "sentence": "This test takes one hour.",
+    "words": [
+      "This",
+      "test",
+      "takes",
+      "one",
+      "hour."
+    ]
+  },
+  {
+    "id": 70,
+    "sentence": "I didn't take any notes.",
+    "words": [
+      "I",
+      "didn't",
+      "take",
+      "any",
+      "notes."
+    ]
+  },
+  {
+    "id": 71,
+    "sentence": "She comes to class every day.",
+    "words": [
+      "She",
+      "comes",
+      "to",
+      "class",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 72,
+    "sentence": "We came home late.",
+    "words": [
+      "We",
+      "came",
+      "home",
+      "late."
+    ]
+  },
+  {
+    "id": 73,
+    "sentence": "He came to see me yesterday.",
+    "words": [
+      "He",
+      "came",
+      "to",
+      "see",
+      "me",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 74,
+    "sentence": "Did you come by car?",
+    "words": [
+      "Did",
+      "you",
+      "come",
+      "by",
+      "car?"
+    ]
+  },
+  {
+    "id": 75,
+    "sentence": "I am coming to the party.",
+    "words": [
+      "I",
+      "am",
+      "coming",
+      "to",
+      "the",
+      "party."
+    ]
+  },
+  {
+    "id": 76,
+    "sentence": "They came from a small town.",
+    "words": [
+      "They",
+      "came",
+      "from",
+      "a",
+      "small",
+      "town."
+    ]
+  },
+  {
+    "id": 77,
+    "sentence": "Can you come with me?",
+    "words": [
+      "Can",
+      "you",
+      "come",
+      "with",
+      "me?"
+    ]
+  },
+  {
+    "id": 78,
+    "sentence": "Winter is coming soon.",
+    "words": [
+      "Winter",
+      "is",
+      "coming",
+      "soon."
+    ]
+  },
+  {
+    "id": 79,
+    "sentence": "I didn't come to school today.",
+    "words": [
+      "I",
+      "didn't",
+      "come",
+      "to",
+      "school",
+      "today."
+    ]
+  },
+  {
+    "id": 80,
+    "sentence": "I see a bird in the tree.",
+    "words": [
+      "I",
+      "see",
+      "a",
+      "bird",
+      "in",
+      "the",
+      "tree."
+    ]
+  },
+  {
+    "id": 81,
+    "sentence": "She sees her friends every weekend.",
+    "words": [
+      "She",
+      "sees",
+      "her",
+      "friends",
+      "every",
+      "weekend."
+    ]
+  },
+  {
+    "id": 82,
+    "sentence": "We saw a movie last night.",
+    "words": [
+      "We",
+      "saw",
+      "a",
+      "movie",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 83,
+    "sentence": "He saw his old teacher at the store.",
+    "words": [
+      "He",
+      "saw",
+      "his",
+      "old",
+      "teacher",
+      "at",
+      "the",
+      "store."
+    ]
+  },
+  {
+    "id": 84,
+    "sentence": "Did you see the news today?",
+    "words": [
+      "Did",
+      "you",
+      "see",
+      "the",
+      "news",
+      "today?"
+    ]
+  },
+  {
+    "id": 85,
+    "sentence": "I am seeing the doctor tomorrow.",
+    "words": [
+      "I",
+      "am",
+      "seeing",
+      "the",
+      "doctor",
+      "tomorrow."
+    ]
+  },
+  {
+    "id": 86,
+    "sentence": "They saw a beautiful sunset.",
+    "words": [
+      "They",
+      "saw",
+      "a",
+      "beautiful",
+      "sunset."
+    ]
+  },
+  {
+    "id": 87,
+    "sentence": "Can you see the board from there?",
+    "words": [
+      "Can",
+      "you",
+      "see",
+      "the",
+      "board",
+      "from",
+      "there?"
+    ]
+  },
+  {
+    "id": 88,
+    "sentence": "I don't see him here.",
+    "words": [
+      "I",
+      "don't",
+      "see",
+      "him",
+      "here."
+    ]
+  },
+  {
+    "id": 89,
+    "sentence": "I didn't see your message.",
+    "words": [
+      "I",
+      "didn't",
+      "see",
+      "your",
+      "message."
+    ]
+  },
+  {
+    "id": 90,
+    "sentence": "I know your name.",
+    "words": [
+      "I",
+      "know",
+      "your",
+      "name."
+    ]
+  },
+  {
+    "id": 91,
+    "sentence": "She knows the answer.",
+    "words": [
+      "She",
+      "knows",
+      "the",
+      "answer."
+    ]
+  },
+  {
+    "id": 92,
+    "sentence": "We knew the way home.",
+    "words": [
+      "We",
+      "knew",
+      "the",
+      "way",
+      "home."
+    ]
+  },
+  {
+    "id": 93,
+    "sentence": "He knew my father.",
+    "words": [
+      "He",
+      "knew",
+      "my",
+      "father."
+    ]
+  },
+  {
+    "id": 94,
+    "sentence": "Did you know about the meeting?",
+    "words": [
+      "Did",
+      "you",
+      "know",
+      "about",
+      "the",
+      "meeting?"
+    ]
+  },
+  {
+    "id": 95,
+    "sentence": "I don't know the time.",
+    "words": [
+      "I",
+      "don't",
+      "know",
+      "the",
+      "time."
+    ]
+  },
+  {
+    "id": 96,
+    "sentence": "They knew each other in school.",
+    "words": [
+      "They",
+      "knew",
+      "each",
+      "other",
+      "in",
+      "school."
+    ]
+  },
+  {
+    "id": 97,
+    "sentence": "Do you know this song?",
+    "words": [
+      "Do",
+      "you",
+      "know",
+      "this",
+      "song?"
+    ]
+  },
+  {
+    "id": 98,
+    "sentence": "I know how to swim.",
+    "words": [
+      "I",
+      "know",
+      "how",
+      "to",
+      "swim."
+    ]
+  },
+  {
+    "id": 99,
+    "sentence": "I didn't know you were here.",
+    "words": [
+      "I",
+      "didn't",
+      "know",
+      "you",
+      "were",
+      "here."
+    ]
+  },
+  {
+    "id": 100,
+    "sentence": "I think this is a good idea.",
+    "words": [
+      "I",
+      "think",
+      "this",
+      "is",
+      "a",
+      "good",
+      "idea."
+    ]
+  },
+  {
+    "id": 101,
+    "sentence": "She thinks about her family often.",
+    "words": [
+      "She",
+      "thinks",
+      "about",
+      "her",
+      "family",
+      "often."
+    ]
+  },
+  {
+    "id": 102,
+    "sentence": "We thought about it carefully.",
+    "words": [
+      "We",
+      "thought",
+      "about",
+      "it",
+      "carefully."
+    ]
+  },
+  {
+    "id": 103,
+    "sentence": "He thought the movie was great.",
+    "words": [
+      "He",
+      "thought",
+      "the",
+      "movie",
+      "was",
+      "great."
+    ]
+  },
+  {
+    "id": 104,
+    "sentence": "Do you think it will rain?",
+    "words": [
+      "Do",
+      "you",
+      "think",
+      "it",
+      "will",
+      "rain?"
+    ]
+  },
+  {
+    "id": 105,
+    "sentence": "I am thinking about my next vacation.",
+    "words": [
+      "I",
+      "am",
+      "thinking",
+      "about",
+      "my",
+      "next",
+      "vacation."
+    ]
+  },
+  {
+    "id": 106,
+    "sentence": "They thought the test was easy.",
+    "words": [
+      "They",
+      "thought",
+      "the",
+      "test",
+      "was",
+      "easy."
+    ]
+  },
+  {
+    "id": 107,
+    "sentence": "Can you think of a solution?",
+    "words": [
+      "Can",
+      "you",
+      "think",
+      "of",
+      "a",
+      "solution?"
+    ]
+  },
+  {
+    "id": 108,
+    "sentence": "I don't think that's correct.",
+    "words": [
+      "I",
+      "don't",
+      "think",
+      "that's",
+      "correct."
+    ]
+  },
+  {
+    "id": 109,
+    "sentence": "What do you think about this plan?",
+    "words": [
+      "What",
+      "do",
+      "you",
+      "think",
+      "about",
+      "this",
+      "plan?"
+    ]
+  },
+  {
+    "id": 110,
+    "sentence": "Look at this picture.",
+    "words": [
+      "Look",
+      "at",
+      "this",
+      "picture."
+    ]
+  },
+  {
+    "id": 111,
+    "sentence": "She looks happy today.",
+    "words": [
+      "She",
+      "looks",
+      "happy",
+      "today."
+    ]
+  },
+  {
+    "id": 112,
+    "sentence": "We looked for the keys everywhere.",
+    "words": [
+      "We",
+      "looked",
+      "for",
+      "the",
+      "keys",
+      "everywhere."
+    ]
+  },
+  {
+    "id": 113,
+    "sentence": "He looked tired after work.",
+    "words": [
+      "He",
+      "looked",
+      "tired",
+      "after",
+      "work."
+    ]
+  },
+  {
+    "id": 114,
+    "sentence": "Did you look at the menu?",
+    "words": [
+      "Did",
+      "you",
+      "look",
+      "at",
+      "the",
+      "menu?"
+    ]
+  },
+  {
+    "id": 115,
+    "sentence": "I am looking for my phone.",
+    "words": [
+      "I",
+      "am",
+      "looking",
+      "for",
+      "my",
+      "phone."
+    ]
+  },
+  {
+    "id": 116,
+    "sentence": "Can you look after my bag?",
+    "words": [
+      "Can",
+      "you",
+      "look",
+      "after",
+      "my",
+      "bag?"
+    ]
+  },
+  {
+    "id": 117,
+    "sentence": "I didn't look at the clock.",
+    "words": [
+      "I",
+      "didn't",
+      "look",
+      "at",
+      "the",
+      "clock."
+    ]
+  },
+  {
+    "id": 118,
+    "sentence": "I want a cup of coffee.",
+    "words": [
+      "I",
+      "want",
+      "a",
+      "cup",
+      "of",
+      "coffee."
+    ]
+  },
+  {
+    "id": 119,
+    "sentence": "She wants a new phone.",
+    "words": [
+      "She",
+      "wants",
+      "a",
+      "new",
+      "phone."
+    ]
+  },
+  {
+    "id": 120,
+    "sentence": "We wanted to go home early.",
+    "words": [
+      "We",
+      "wanted",
+      "to",
+      "go",
+      "home",
+      "early."
+    ]
+  },
+  {
+    "id": 121,
+    "sentence": "He wanted to see the movie.",
+    "words": [
+      "He",
+      "wanted",
+      "to",
+      "see",
+      "the",
+      "movie."
+    ]
+  },
+  {
+    "id": 122,
+    "sentence": "Do you want some water?",
+    "words": [
+      "Do",
+      "you",
+      "want",
+      "some",
+      "water?"
+    ]
+  },
+  {
+    "id": 123,
+    "sentence": "I want to learn Spanish.",
+    "words": [
+      "I",
+      "want",
+      "to",
+      "learn",
+      "Spanish."
+    ]
+  },
+  {
+    "id": 124,
+    "sentence": "They wanted a bigger house.",
+    "words": [
+      "They",
+      "wanted",
+      "a",
+      "bigger",
+      "house."
+    ]
+  },
+  {
+    "id": 125,
+    "sentence": "What do you want for dinner?",
+    "words": [
+      "What",
+      "do",
+      "you",
+      "want",
+      "for",
+      "dinner?"
+    ]
+  },
+  {
+    "id": 126,
+    "sentence": "I don't want to be late.",
+    "words": [
+      "I",
+      "don't",
+      "want",
+      "to",
+      "be",
+      "late."
+    ]
+  },
+  {
+    "id": 127,
+    "sentence": "She wanted to say thank you.",
+    "words": [
+      "She",
+      "wanted",
+      "to",
+      "say",
+      "thank",
+      "you."
+    ]
+  },
+  {
+    "id": 128,
+    "sentence": "I give her a gift every year.",
+    "words": [
+      "I",
+      "give",
+      "her",
+      "a",
+      "gift",
+      "every",
+      "year."
+    ]
+  },
+  {
+    "id": 129,
+    "sentence": "She gives good advice.",
+    "words": [
+      "She",
+      "gives",
+      "good",
+      "advice."
+    ]
+  },
+  {
+    "id": 130,
+    "sentence": "We gave him our address.",
+    "words": [
+      "We",
+      "gave",
+      "him",
+      "our",
+      "address."
+    ]
+  },
+  {
+    "id": 131,
+    "sentence": "He gave a speech yesterday.",
+    "words": [
+      "He",
+      "gave",
+      "a",
+      "speech",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 132,
+    "sentence": "Did you give her the message?",
+    "words": [
+      "Did",
+      "you",
+      "give",
+      "her",
+      "the",
+      "message?"
+    ]
+  },
+  {
+    "id": 133,
+    "sentence": "I am giving a presentation tomorrow.",
+    "words": [
+      "I",
+      "am",
+      "giving",
+      "a",
+      "presentation",
+      "tomorrow."
+    ]
+  },
+  {
+    "id": 134,
+    "sentence": "They gave us a warm welcome.",
+    "words": [
+      "They",
+      "gave",
+      "us",
+      "a",
+      "warm",
+      "welcome."
+    ]
+  },
+  {
+    "id": 135,
+    "sentence": "Can you give me a hand?",
+    "words": [
+      "Can",
+      "you",
+      "give",
+      "me",
+      "a",
+      "hand?"
+    ]
+  },
+  {
+    "id": 136,
+    "sentence": "This gives me an idea.",
+    "words": [
+      "This",
+      "gives",
+      "me",
+      "an",
+      "idea."
+    ]
+  },
+  {
+    "id": 137,
+    "sentence": "I didn't give him my number.",
+    "words": [
+      "I",
+      "didn't",
+      "give",
+      "him",
+      "my",
+      "number."
+    ]
+  },
+  {
+    "id": 138,
+    "sentence": "I use my phone every day.",
+    "words": [
+      "I",
+      "use",
+      "my",
+      "phone",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 139,
+    "sentence": "She uses a laptop for work.",
+    "words": [
+      "She",
+      "uses",
+      "a",
+      "laptop",
+      "for",
+      "work."
+    ]
+  },
+  {
+    "id": 140,
+    "sentence": "We used a map to find the way.",
+    "words": [
+      "We",
+      "used",
+      "a",
+      "map",
+      "to",
+      "find",
+      "the",
+      "way."
+    ]
+  },
+  {
+    "id": 141,
+    "sentence": "He used my pen without asking.",
+    "words": [
+      "He",
+      "used",
+      "my",
+      "pen",
+      "without",
+      "asking."
+    ]
+  },
+  {
+    "id": 142,
+    "sentence": "Did you use the new app?",
+    "words": [
+      "Did",
+      "you",
+      "use",
+      "the",
+      "new",
+      "app?"
+    ]
+  },
+  {
+    "id": 143,
+    "sentence": "I am using this software now.",
+    "words": [
+      "I",
+      "am",
+      "using",
+      "this",
+      "software",
+      "now."
+    ]
+  },
+  {
+    "id": 144,
+    "sentence": "They used to live in this city.",
+    "words": [
+      "They",
+      "used",
+      "to",
+      "live",
+      "in",
+      "this",
+      "city."
+    ]
+  },
+  {
+    "id": 145,
+    "sentence": "Can you use this tool?",
+    "words": [
+      "Can",
+      "you",
+      "use",
+      "this",
+      "tool?"
+    ]
+  },
+  {
+    "id": 146,
+    "sentence": "This app is easy to use.",
+    "words": [
+      "This",
+      "app",
+      "is",
+      "easy",
+      "to",
+      "use."
+    ]
+  },
+  {
+    "id": 147,
+    "sentence": "I didn't use the coupon.",
+    "words": [
+      "I",
+      "didn't",
+      "use",
+      "the",
+      "coupon."
+    ]
+  },
+  {
+    "id": 148,
+    "sentence": "She finds the exercises easy.",
+    "words": [
+      "She",
+      "finds",
+      "the",
+      "exercises",
+      "easy."
+    ]
+  },
+  {
+    "id": 149,
+    "sentence": "We found a great restaurant nearby.",
+    "words": [
+      "We",
+      "found",
+      "a",
+      "great",
+      "restaurant",
+      "nearby."
+    ]
+  },
+  {
+    "id": 150,
+    "sentence": "He found his phone under the couch.",
+    "words": [
+      "He",
+      "found",
+      "his",
+      "phone",
+      "under",
+      "the",
+      "couch."
+    ]
+  },
+  {
+    "id": 151,
+    "sentence": "Did you find the answer?",
+    "words": [
+      "Did",
+      "you",
+      "find",
+      "the",
+      "answer?"
+    ]
+  },
+  {
+    "id": 152,
+    "sentence": "I am finding this book difficult.",
+    "words": [
+      "I",
+      "am",
+      "finding",
+      "this",
+      "book",
+      "difficult."
+    ]
+  },
+  {
+    "id": 153,
+    "sentence": "They found a new apartment.",
+    "words": [
+      "They",
+      "found",
+      "a",
+      "new",
+      "apartment."
+    ]
+  },
+  {
+    "id": 154,
+    "sentence": "Can you find my glasses?",
+    "words": [
+      "Can",
+      "you",
+      "find",
+      "my",
+      "glasses?"
+    ]
+  },
+  {
+    "id": 155,
+    "sentence": "This app finds nearby stores.",
+    "words": [
+      "This",
+      "app",
+      "finds",
+      "nearby",
+      "stores."
+    ]
+  },
+  {
+    "id": 156,
+    "sentence": "I didn't find the file.",
+    "words": [
+      "I",
+      "didn't",
+      "find",
+      "the",
+      "file."
+    ]
+  },
+  {
+    "id": 157,
+    "sentence": "I tell the truth always.",
+    "words": [
+      "I",
+      "tell",
+      "the",
+      "truth",
+      "always."
+    ]
+  },
+  {
+    "id": 158,
+    "sentence": "She tells great stories.",
+    "words": [
+      "She",
+      "tells",
+      "great",
+      "stories."
+    ]
+  },
+  {
+    "id": 159,
+    "sentence": "We told him the news.",
+    "words": [
+      "We",
+      "told",
+      "him",
+      "the",
+      "news."
+    ]
+  },
+  {
+    "id": 160,
+    "sentence": "He told me a secret.",
+    "words": [
+      "He",
+      "told",
+      "me",
+      "a",
+      "secret."
+    ]
+  },
+  {
+    "id": 161,
+    "sentence": "Did you tell her about the party?",
+    "words": [
+      "Did",
+      "you",
+      "tell",
+      "her",
+      "about",
+      "the",
+      "party?"
+    ]
+  },
+  {
+    "id": 162,
+    "sentence": "I am telling you the truth.",
+    "words": [
+      "I",
+      "am",
+      "telling",
+      "you",
+      "the",
+      "truth."
+    ]
+  },
+  {
+    "id": 163,
+    "sentence": "They told us to wait outside.",
+    "words": [
+      "They",
+      "told",
+      "us",
+      "to",
+      "wait",
+      "outside."
+    ]
+  },
+  {
+    "id": 164,
+    "sentence": "Can you tell me the time?",
+    "words": [
+      "Can",
+      "you",
+      "tell",
+      "me",
+      "the",
+      "time?"
+    ]
+  },
+  {
+    "id": 165,
+    "sentence": "This tells me a lot about her character.",
+    "words": [
+      "This",
+      "tells",
+      "me",
+      "a",
+      "lot",
+      "about",
+      "her",
+      "character."
+    ]
+  },
+  {
+    "id": 166,
+    "sentence": "I didn't tell anyone about this.",
+    "words": [
+      "I",
+      "didn't",
+      "tell",
+      "anyone",
+      "about",
+      "this."
+    ]
+  },
+  {
+    "id": 167,
+    "sentence": "I ask questions in class.",
+    "words": [
+      "I",
+      "ask",
+      "questions",
+      "in",
+      "class."
+    ]
+  },
+  {
+    "id": 168,
+    "sentence": "She asks for help when needed.",
+    "words": [
+      "She",
+      "asks",
+      "for",
+      "help",
+      "when",
+      "needed."
+    ]
+  },
+  {
+    "id": 169,
+    "sentence": "We asked him about his day.",
+    "words": [
+      "We",
+      "asked",
+      "him",
+      "about",
+      "his",
+      "day."
+    ]
+  },
+  {
+    "id": 170,
+    "sentence": "He asked for a glass of water.",
+    "words": [
+      "He",
+      "asked",
+      "for",
+      "a",
+      "glass",
+      "of",
+      "water."
+    ]
+  },
+  {
+    "id": 171,
+    "sentence": "Did you ask your teacher?",
+    "words": [
+      "Did",
+      "you",
+      "ask",
+      "your",
+      "teacher?"
+    ]
+  },
+  {
+    "id": 172,
+    "sentence": "I am asking for your opinion.",
+    "words": [
+      "I",
+      "am",
+      "asking",
+      "for",
+      "your",
+      "opinion."
+    ]
+  },
+  {
+    "id": 173,
+    "sentence": "They asked us to join them.",
+    "words": [
+      "They",
+      "asked",
+      "us",
+      "to",
+      "join",
+      "them."
+    ]
+  },
+  {
+    "id": 174,
+    "sentence": "Can I ask you something?",
+    "words": [
+      "Can",
+      "I",
+      "ask",
+      "you",
+      "something?"
+    ]
+  },
+  {
+    "id": 175,
+    "sentence": "This question asks about your experience.",
+    "words": [
+      "This",
+      "question",
+      "asks",
+      "about",
+      "your",
+      "experience."
+    ]
+  },
+  {
+    "id": 176,
+    "sentence": "I didn't ask for permission.",
+    "words": [
+      "I",
+      "didn't",
+      "ask",
+      "for",
+      "permission."
+    ]
+  },
+  {
+    "id": 177,
+    "sentence": "I work in an office.",
+    "words": [
+      "I",
+      "work",
+      "in",
+      "an",
+      "office."
+    ]
+  },
+  {
+    "id": 178,
+    "sentence": "She works as a teacher.",
+    "words": [
+      "She",
+      "works",
+      "as",
+      "a",
+      "teacher."
+    ]
+  },
+  {
+    "id": 179,
+    "sentence": "We worked hard yesterday.",
+    "words": [
+      "We",
+      "worked",
+      "hard",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 180,
+    "sentence": "He worked late last night.",
+    "words": [
+      "He",
+      "worked",
+      "late",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 181,
+    "sentence": "Does this machine work?",
+    "words": [
+      "Does",
+      "this",
+      "machine",
+      "work?"
+    ]
+  },
+  {
+    "id": 182,
+    "sentence": "I am working on a project.",
+    "words": [
+      "I",
+      "am",
+      "working",
+      "on",
+      "a",
+      "project."
+    ]
+  },
+  {
+    "id": 183,
+    "sentence": "They worked together on the report.",
+    "words": [
+      "They",
+      "worked",
+      "together",
+      "on",
+      "the",
+      "report."
+    ]
+  },
+  {
+    "id": 184,
+    "sentence": "Can you work this weekend?",
+    "words": [
+      "Can",
+      "you",
+      "work",
+      "this",
+      "weekend?"
+    ]
+  },
+  {
+    "id": 185,
+    "sentence": "This plan works well.",
+    "words": [
+      "This",
+      "plan",
+      "works",
+      "well."
+    ]
+  },
+  {
+    "id": 186,
+    "sentence": "I didn't work today.",
+    "words": [
+      "I",
+      "didn't",
+      "work",
+      "today."
+    ]
+  },
+  {
+    "id": 187,
+    "sentence": "I feel happy today.",
+    "words": [
+      "I",
+      "feel",
+      "happy",
+      "today."
+    ]
+  },
+  {
+    "id": 188,
+    "sentence": "We felt nervous before the exam.",
+    "words": [
+      "We",
+      "felt",
+      "nervous",
+      "before",
+      "the",
+      "exam."
+    ]
+  },
+  {
+    "id": 189,
+    "sentence": "He felt sick yesterday.",
+    "words": [
+      "He",
+      "felt",
+      "sick",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 190,
+    "sentence": "Do you feel okay?",
+    "words": [
+      "Do",
+      "you",
+      "feel",
+      "okay?"
+    ]
+  },
+  {
+    "id": 191,
+    "sentence": "I am feeling much better now.",
+    "words": [
+      "I",
+      "am",
+      "feeling",
+      "much",
+      "better",
+      "now."
+    ]
+  },
+  {
+    "id": 192,
+    "sentence": "They felt relieved after the news.",
+    "words": [
+      "They",
+      "felt",
+      "relieved",
+      "after",
+      "the",
+      "news."
+    ]
+  },
+  {
+    "id": 193,
+    "sentence": "Can you feel the cold wind?",
+    "words": [
+      "Can",
+      "you",
+      "feel",
+      "the",
+      "cold",
+      "wind?"
+    ]
+  },
+  {
+    "id": 194,
+    "sentence": "This fabric feels soft.",
+    "words": [
+      "This",
+      "fabric",
+      "feels",
+      "soft."
+    ]
+  },
+  {
+    "id": 195,
+    "sentence": "I didn't feel well this morning.",
+    "words": [
+      "I",
+      "didn't",
+      "feel",
+      "well",
+      "this",
+      "morning."
+    ]
+  },
+  {
+    "id": 196,
+    "sentence": "I say hello every morning.",
+    "words": [
+      "I",
+      "say",
+      "hello",
+      "every",
+      "morning."
+    ]
+  },
+  {
+    "id": 197,
+    "sentence": "She says thank you politely.",
+    "words": [
+      "She",
+      "says",
+      "thank",
+      "you",
+      "politely."
+    ]
+  },
+  {
+    "id": 198,
+    "sentence": "We said goodbye at the door.",
+    "words": [
+      "We",
+      "said",
+      "goodbye",
+      "at",
+      "the",
+      "door."
+    ]
+  },
+  {
+    "id": 199,
+    "sentence": "He said he was busy.",
+    "words": [
+      "He",
+      "said",
+      "he",
+      "was",
+      "busy."
+    ]
+  },
+  {
+    "id": 200,
+    "sentence": "Did you say something?",
+    "words": [
+      "Did",
+      "you",
+      "say",
+      "something?"
+    ]
+  },
+  {
+    "id": 201,
+    "sentence": "I am saying this for your benefit.",
+    "words": [
+      "I",
+      "am",
+      "saying",
+      "this",
+      "for",
+      "your",
+      "benefit."
+    ]
+  },
+  {
+    "id": 202,
+    "sentence": "They said yes to the offer.",
+    "words": [
+      "They",
+      "said",
+      "yes",
+      "to",
+      "the",
+      "offer."
+    ]
+  },
+  {
+    "id": 203,
+    "sentence": "Can you say that again?",
+    "words": [
+      "Can",
+      "you",
+      "say",
+      "that",
+      "again?"
+    ]
+  },
+  {
+    "id": 204,
+    "sentence": "This sign says 'no parking'.",
+    "words": [
+      "This",
+      "sign",
+      "says",
+      "'no",
+      "parking'."
+    ]
+  },
+  {
+    "id": 205,
+    "sentence": "I didn't say anything wrong.",
+    "words": [
+      "I",
+      "didn't",
+      "say",
+      "anything",
+      "wrong."
+    ]
+  },
+  {
+    "id": 206,
+    "sentence": "I talk to my friends every day.",
+    "words": [
+      "I",
+      "talk",
+      "to",
+      "my",
+      "friends",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 207,
+    "sentence": "She talks fast when excited.",
+    "words": [
+      "She",
+      "talks",
+      "fast",
+      "when",
+      "excited."
+    ]
+  },
+  {
+    "id": 208,
+    "sentence": "We talked about our plans.",
+    "words": [
+      "We",
+      "talked",
+      "about",
+      "our",
+      "plans."
+    ]
+  },
+  {
+    "id": 209,
+    "sentence": "He talked to his manager.",
+    "words": [
+      "He",
+      "talked",
+      "to",
+      "his",
+      "manager."
+    ]
+  },
+  {
+    "id": 210,
+    "sentence": "Did you talk to her yet?",
+    "words": [
+      "Did",
+      "you",
+      "talk",
+      "to",
+      "her",
+      "yet?"
+    ]
+  },
+  {
+    "id": 211,
+    "sentence": "I am talking to my sister now.",
+    "words": [
+      "I",
+      "am",
+      "talking",
+      "to",
+      "my",
+      "sister",
+      "now."
+    ]
+  },
+  {
+    "id": 212,
+    "sentence": "They talked for hours.",
+    "words": [
+      "They",
+      "talked",
+      "for",
+      "hours."
+    ]
+  },
+  {
+    "id": 213,
+    "sentence": "Can we talk later?",
+    "words": [
+      "Can",
+      "we",
+      "talk",
+      "later?"
+    ]
+  },
+  {
+    "id": 214,
+    "sentence": "This topic is worth talking about.",
+    "words": [
+      "This",
+      "topic",
+      "is",
+      "worth",
+      "talking",
+      "about."
+    ]
+  },
+  {
+    "id": 215,
+    "sentence": "I didn't talk much today.",
+    "words": [
+      "I",
+      "didn't",
+      "talk",
+      "much",
+      "today."
+    ]
+  },
+  {
+    "id": 216,
+    "sentence": "I speak English and Hindi.",
+    "words": [
+      "I",
+      "speak",
+      "English",
+      "and",
+      "Hindi."
+    ]
+  },
+  {
+    "id": 217,
+    "sentence": "She speaks three languages.",
+    "words": [
+      "She",
+      "speaks",
+      "three",
+      "languages."
+    ]
+  },
+  {
+    "id": 218,
+    "sentence": "We spoke to the manager.",
+    "words": [
+      "We",
+      "spoke",
+      "to",
+      "the",
+      "manager."
+    ]
+  },
+  {
+    "id": 219,
+    "sentence": "He spoke clearly during the meeting.",
+    "words": [
+      "He",
+      "spoke",
+      "clearly",
+      "during",
+      "the",
+      "meeting."
+    ]
+  },
+  {
+    "id": 220,
+    "sentence": "Do you speak French?",
+    "words": [
+      "Do",
+      "you",
+      "speak",
+      "French?"
+    ]
+  },
+  {
+    "id": 221,
+    "sentence": "I am speaking to the class now.",
+    "words": [
+      "I",
+      "am",
+      "speaking",
+      "to",
+      "the",
+      "class",
+      "now."
+    ]
+  },
+  {
+    "id": 222,
+    "sentence": "They spoke about the new policy.",
+    "words": [
+      "They",
+      "spoke",
+      "about",
+      "the",
+      "new",
+      "policy."
+    ]
+  },
+  {
+    "id": 223,
+    "sentence": "Can you speak louder, please?",
+    "words": [
+      "Can",
+      "you",
+      "speak",
+      "louder,",
+      "please?"
+    ]
+  },
+  {
+    "id": 224,
+    "sentence": "This app helps you speak better English.",
+    "words": [
+      "This",
+      "app",
+      "helps",
+      "you",
+      "speak",
+      "better",
+      "English."
+    ]
+  },
+  {
+    "id": 225,
+    "sentence": "I didn't speak much at the party.",
+    "words": [
+      "I",
+      "didn't",
+      "speak",
+      "much",
+      "at",
+      "the",
+      "party."
+    ]
+  },
+  {
+    "id": 226,
+    "sentence": "I eat breakfast every morning.",
+    "words": [
+      "I",
+      "eat",
+      "breakfast",
+      "every",
+      "morning."
+    ]
+  },
+  {
+    "id": 227,
+    "sentence": "She eats vegetables every day.",
+    "words": [
+      "She",
+      "eats",
+      "vegetables",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 228,
+    "sentence": "We ate dinner together last night.",
+    "words": [
+      "We",
+      "ate",
+      "dinner",
+      "together",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 229,
+    "sentence": "He ate all his food.",
+    "words": [
+      "He",
+      "ate",
+      "all",
+      "his",
+      "food."
+    ]
+  },
+  {
+    "id": 230,
+    "sentence": "Did you eat lunch yet?",
+    "words": [
+      "Did",
+      "you",
+      "eat",
+      "lunch",
+      "yet?"
+    ]
+  },
+  {
+    "id": 231,
+    "sentence": "I am eating right now.",
+    "words": [
+      "I",
+      "am",
+      "eating",
+      "right",
+      "now."
+    ]
+  },
+  {
+    "id": 232,
+    "sentence": "They ate at a new restaurant.",
+    "words": [
+      "They",
+      "ate",
+      "at",
+      "a",
+      "new",
+      "restaurant."
+    ]
+  },
+  {
+    "id": 233,
+    "sentence": "Can you eat spicy food?",
+    "words": [
+      "Can",
+      "you",
+      "eat",
+      "spicy",
+      "food?"
+    ]
+  },
+  {
+    "id": 234,
+    "sentence": "This fruit is good to eat.",
+    "words": [
+      "This",
+      "fruit",
+      "is",
+      "good",
+      "to",
+      "eat."
+    ]
+  },
+  {
+    "id": 235,
+    "sentence": "I didn't eat breakfast today.",
+    "words": [
+      "I",
+      "didn't",
+      "eat",
+      "breakfast",
+      "today."
+    ]
+  },
+  {
+    "id": 236,
+    "sentence": "I drink water every day.",
+    "words": [
+      "I",
+      "drink",
+      "water",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 237,
+    "sentence": "She drinks coffee in the morning.",
+    "words": [
+      "She",
+      "drinks",
+      "coffee",
+      "in",
+      "the",
+      "morning."
+    ]
+  },
+  {
+    "id": 238,
+    "sentence": "We drank tea together.",
+    "words": [
+      "We",
+      "drank",
+      "tea",
+      "together."
+    ]
+  },
+  {
+    "id": 239,
+    "sentence": "He drank all the juice.",
+    "words": [
+      "He",
+      "drank",
+      "all",
+      "the",
+      "juice."
+    ]
+  },
+  {
+    "id": 240,
+    "sentence": "Did you drink enough water today?",
+    "words": [
+      "Did",
+      "you",
+      "drink",
+      "enough",
+      "water",
+      "today?"
+    ]
+  },
+  {
+    "id": 241,
+    "sentence": "I am drinking water now.",
+    "words": [
+      "I",
+      "am",
+      "drinking",
+      "water",
+      "now."
+    ]
+  },
+  {
+    "id": 242,
+    "sentence": "They drank coffee before the meeting.",
+    "words": [
+      "They",
+      "drank",
+      "coffee",
+      "before",
+      "the",
+      "meeting."
+    ]
+  },
+  {
+    "id": 243,
+    "sentence": "Can I drink this?",
+    "words": [
+      "Can",
+      "I",
+      "drink",
+      "this?"
+    ]
+  },
+  {
+    "id": 244,
+    "sentence": "This drink tastes great.",
+    "words": [
+      "This",
+      "drink",
+      "tastes",
+      "great."
+    ]
+  },
+  {
+    "id": 245,
+    "sentence": "I didn't drink anything yet.",
+    "words": [
+      "I",
+      "didn't",
+      "drink",
+      "anything",
+      "yet."
+    ]
+  },
+  {
+    "id": 246,
+    "sentence": "I sleep eight hours every night.",
+    "words": [
+      "I",
+      "sleep",
+      "eight",
+      "hours",
+      "every",
+      "night."
+    ]
+  },
+  {
+    "id": 247,
+    "sentence": "She sleeps early on weekdays.",
+    "words": [
+      "She",
+      "sleeps",
+      "early",
+      "on",
+      "weekdays."
+    ]
+  },
+  {
+    "id": 248,
+    "sentence": "We slept well last night.",
+    "words": [
+      "We",
+      "slept",
+      "well",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 249,
+    "sentence": "He slept until noon.",
+    "words": [
+      "He",
+      "slept",
+      "until",
+      "noon."
+    ]
+  },
+  {
+    "id": 250,
+    "sentence": "Did you sleep well?",
+    "words": [
+      "Did",
+      "you",
+      "sleep",
+      "well?"
+    ]
+  },
+  {
+    "id": 251,
+    "sentence": "I am sleeping now, please be quiet.",
+    "words": [
+      "I",
+      "am",
+      "sleeping",
+      "now,",
+      "please",
+      "be",
+      "quiet."
+    ]
+  },
+  {
+    "id": 252,
+    "sentence": "They slept in a hotel.",
+    "words": [
+      "They",
+      "slept",
+      "in",
+      "a",
+      "hotel."
+    ]
+  },
+  {
+    "id": 253,
+    "sentence": "Can you sleep on the plane?",
+    "words": [
+      "Can",
+      "you",
+      "sleep",
+      "on",
+      "the",
+      "plane?"
+    ]
+  },
+  {
+    "id": 254,
+    "sentence": "This bed is comfortable to sleep in.",
+    "words": [
+      "This",
+      "bed",
+      "is",
+      "comfortable",
+      "to",
+      "sleep",
+      "in."
+    ]
+  },
+  {
+    "id": 255,
+    "sentence": "I didn't sleep much last night.",
+    "words": [
+      "I",
+      "didn't",
+      "sleep",
+      "much",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 256,
+    "sentence": "I wash my hands before eating.",
+    "words": [
+      "I",
+      "wash",
+      "my",
+      "hands",
+      "before",
+      "eating."
+    ]
+  },
+  {
+    "id": 257,
+    "sentence": "She washes the dishes every night.",
+    "words": [
+      "She",
+      "washes",
+      "the",
+      "dishes",
+      "every",
+      "night."
+    ]
+  },
+  {
+    "id": 258,
+    "sentence": "We washed the car yesterday.",
+    "words": [
+      "We",
+      "washed",
+      "the",
+      "car",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 259,
+    "sentence": "He washed his face this morning.",
+    "words": [
+      "He",
+      "washed",
+      "his",
+      "face",
+      "this",
+      "morning."
+    ]
+  },
+  {
+    "id": 260,
+    "sentence": "Did you wash your hands?",
+    "words": [
+      "Did",
+      "you",
+      "wash",
+      "your",
+      "hands?"
+    ]
+  },
+  {
+    "id": 261,
+    "sentence": "I am washing the clothes now.",
+    "words": [
+      "I",
+      "am",
+      "washing",
+      "the",
+      "clothes",
+      "now."
+    ]
+  },
+  {
+    "id": 262,
+    "sentence": "They washed the windows.",
+    "words": [
+      "They",
+      "washed",
+      "the",
+      "windows."
+    ]
+  },
+  {
+    "id": 263,
+    "sentence": "Can you wash this shirt for me?",
+    "words": [
+      "Can",
+      "you",
+      "wash",
+      "this",
+      "shirt",
+      "for",
+      "me?"
+    ]
+  },
+  {
+    "id": 264,
+    "sentence": "This detergent washes clothes well.",
+    "words": [
+      "This",
+      "detergent",
+      "washes",
+      "clothes",
+      "well."
+    ]
+  },
+  {
+    "id": 265,
+    "sentence": "I didn't wash the dishes yet.",
+    "words": [
+      "I",
+      "didn't",
+      "wash",
+      "the",
+      "dishes",
+      "yet."
+    ]
+  },
+  {
+    "id": 266,
+    "sentence": "I buy groceries every week.",
+    "words": [
+      "I",
+      "buy",
+      "groceries",
+      "every",
+      "week."
+    ]
+  },
+  {
+    "id": 267,
+    "sentence": "She buys new shoes often.",
+    "words": [
+      "She",
+      "buys",
+      "new",
+      "shoes",
+      "often."
+    ]
+  },
+  {
+    "id": 268,
+    "sentence": "We bought a new car.",
+    "words": [
+      "We",
+      "bought",
+      "a",
+      "new",
+      "car."
+    ]
+  },
+  {
+    "id": 269,
+    "sentence": "He bought a gift for her.",
+    "words": [
+      "He",
+      "bought",
+      "a",
+      "gift",
+      "for",
+      "her."
+    ]
+  },
+  {
+    "id": 270,
+    "sentence": "Did you buy milk?",
+    "words": [
+      "Did",
+      "you",
+      "buy",
+      "milk?"
+    ]
+  },
+  {
+    "id": 271,
+    "sentence": "I am buying a house.",
+    "words": [
+      "I",
+      "am",
+      "buying",
+      "a",
+      "house."
+    ]
+  },
+  {
+    "id": 272,
+    "sentence": "They bought tickets for the show.",
+    "words": [
+      "They",
+      "bought",
+      "tickets",
+      "for",
+      "the",
+      "show."
+    ]
+  },
+  {
+    "id": 273,
+    "sentence": "Can you buy some bread?",
+    "words": [
+      "Can",
+      "you",
+      "buy",
+      "some",
+      "bread?"
+    ]
+  },
+  {
+    "id": 274,
+    "sentence": "This store sells things people buy often.",
+    "words": [
+      "This",
+      "store",
+      "sells",
+      "things",
+      "people",
+      "buy",
+      "often."
+    ]
+  },
+  {
+    "id": 275,
+    "sentence": "I didn't buy anything today.",
+    "words": [
+      "I",
+      "didn't",
+      "buy",
+      "anything",
+      "today."
+    ]
+  },
+  {
+    "id": 276,
+    "sentence": "I sit at my desk all day.",
+    "words": [
+      "I",
+      "sit",
+      "at",
+      "my",
+      "desk",
+      "all",
+      "day."
+    ]
+  },
+  {
+    "id": 277,
+    "sentence": "She sits near the window.",
+    "words": [
+      "She",
+      "sits",
+      "near",
+      "the",
+      "window."
+    ]
+  },
+  {
+    "id": 278,
+    "sentence": "We sat together at lunch.",
+    "words": [
+      "We",
+      "sat",
+      "together",
+      "at",
+      "lunch."
+    ]
+  },
+  {
+    "id": 279,
+    "sentence": "He sat down quickly.",
+    "words": [
+      "He",
+      "sat",
+      "down",
+      "quickly."
+    ]
+  },
+  {
+    "id": 280,
+    "sentence": "Did you sit in the front row?",
+    "words": [
+      "Did",
+      "you",
+      "sit",
+      "in",
+      "the",
+      "front",
+      "row?"
+    ]
+  },
+  {
+    "id": 281,
+    "sentence": "I am sitting on the sofa.",
+    "words": [
+      "I",
+      "am",
+      "sitting",
+      "on",
+      "the",
+      "sofa."
+    ]
+  },
+  {
+    "id": 282,
+    "sentence": "They sat in silence for a while.",
+    "words": [
+      "They",
+      "sat",
+      "in",
+      "silence",
+      "for",
+      "a",
+      "while."
+    ]
+  },
+  {
+    "id": 283,
+    "sentence": "Can I sit here?",
+    "words": [
+      "Can",
+      "I",
+      "sit",
+      "here?"
+    ]
+  },
+  {
+    "id": 284,
+    "sentence": "This chair is comfortable to sit in.",
+    "words": [
+      "This",
+      "chair",
+      "is",
+      "comfortable",
+      "to",
+      "sit",
+      "in."
+    ]
+  },
+  {
+    "id": 285,
+    "sentence": "I didn't sit down all day.",
+    "words": [
+      "I",
+      "didn't",
+      "sit",
+      "down",
+      "all",
+      "day."
+    ]
+  },
+  {
+    "id": 286,
+    "sentence": "I stand at the bus stop every morning.",
+    "words": [
+      "I",
+      "stand",
+      "at",
+      "the",
+      "bus",
+      "stop",
+      "every",
+      "morning."
+    ]
+  },
+  {
+    "id": 287,
+    "sentence": "She stands near the door.",
+    "words": [
+      "She",
+      "stands",
+      "near",
+      "the",
+      "door."
+    ]
+  },
+  {
+    "id": 288,
+    "sentence": "We stood in line for an hour.",
+    "words": [
+      "We",
+      "stood",
+      "in",
+      "line",
+      "for",
+      "an",
+      "hour."
+    ]
+  },
+  {
+    "id": 289,
+    "sentence": "He stood up to greet me.",
+    "words": [
+      "He",
+      "stood",
+      "up",
+      "to",
+      "greet",
+      "me."
+    ]
+  },
+  {
+    "id": 290,
+    "sentence": "Did you stand during the ceremony?",
+    "words": [
+      "Did",
+      "you",
+      "stand",
+      "during",
+      "the",
+      "ceremony?"
+    ]
+  },
+  {
+    "id": 291,
+    "sentence": "I am standing outside the building.",
+    "words": [
+      "I",
+      "am",
+      "standing",
+      "outside",
+      "the",
+      "building."
+    ]
+  },
+  {
+    "id": 292,
+    "sentence": "They stood together for the photo.",
+    "words": [
+      "They",
+      "stood",
+      "together",
+      "for",
+      "the",
+      "photo."
+    ]
+  },
+  {
+    "id": 293,
+    "sentence": "Can you stand here for a moment?",
+    "words": [
+      "Can",
+      "you",
+      "stand",
+      "here",
+      "for",
+      "a",
+      "moment?"
+    ]
+  },
+  {
+    "id": 294,
+    "sentence": "This company stands for quality.",
+    "words": [
+      "This",
+      "company",
+      "stands",
+      "for",
+      "quality."
+    ]
+  },
+  {
+    "id": 295,
+    "sentence": "I didn't stand the whole time.",
+    "words": [
+      "I",
+      "didn't",
+      "stand",
+      "the",
+      "whole",
+      "time."
+    ]
+  },
+  {
+    "id": 296,
+    "sentence": "I stop at the red light.",
+    "words": [
+      "I",
+      "stop",
+      "at",
+      "the",
+      "red",
+      "light."
+    ]
+  },
+  {
+    "id": 297,
+    "sentence": "She stops working at five.",
+    "words": [
+      "She",
+      "stops",
+      "working",
+      "at",
+      "five."
+    ]
+  },
+  {
+    "id": 298,
+    "sentence": "We stopped to take a photo.",
+    "words": [
+      "We",
+      "stopped",
+      "to",
+      "take",
+      "a",
+      "photo."
+    ]
+  },
+  {
+    "id": 299,
+    "sentence": "He stopped the car suddenly.",
+    "words": [
+      "He",
+      "stopped",
+      "the",
+      "car",
+      "suddenly."
+    ]
+  },
+  {
+    "id": 300,
+    "sentence": "Did you stop at the store?",
+    "words": [
+      "Did",
+      "you",
+      "stop",
+      "at",
+      "the",
+      "store?"
+    ]
+  },
+  {
+    "id": 301,
+    "sentence": "I am stopping here for a break.",
+    "words": [
+      "I",
+      "am",
+      "stopping",
+      "here",
+      "for",
+      "a",
+      "break."
+    ]
+  },
+  {
+    "id": 302,
+    "sentence": "They stopped talking when I entered.",
+    "words": [
+      "They",
+      "stopped",
+      "talking",
+      "when",
+      "I",
+      "entered."
+    ]
+  },
+  {
+    "id": 303,
+    "sentence": "Can you stop the noise?",
+    "words": [
+      "Can",
+      "you",
+      "stop",
+      "the",
+      "noise?"
+    ]
+  },
+  {
+    "id": 304,
+    "sentence": "This medicine stops the pain.",
+    "words": [
+      "This",
+      "medicine",
+      "stops",
+      "the",
+      "pain."
+    ]
+  },
+  {
+    "id": 305,
+    "sentence": "I didn't stop to think about it.",
+    "words": [
+      "I",
+      "didn't",
+      "stop",
+      "to",
+      "think",
+      "about",
+      "it."
+    ]
+  },
+  {
+    "id": 306,
+    "sentence": "I start work at nine.",
+    "words": [
+      "I",
+      "start",
+      "work",
+      "at",
+      "nine."
+    ]
+  },
+  {
+    "id": 307,
+    "sentence": "She starts school next week.",
+    "words": [
+      "She",
+      "starts",
+      "school",
+      "next",
+      "week."
+    ]
+  },
+  {
+    "id": 308,
+    "sentence": "We started the project yesterday.",
+    "words": [
+      "We",
+      "started",
+      "the",
+      "project",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 309,
+    "sentence": "He started his own business.",
+    "words": [
+      "He",
+      "started",
+      "his",
+      "own",
+      "business."
+    ]
+  },
+  {
+    "id": 310,
+    "sentence": "Did you start the homework?",
+    "words": [
+      "Did",
+      "you",
+      "start",
+      "the",
+      "homework?"
+    ]
+  },
+  {
+    "id": 311,
+    "sentence": "I am starting a new job.",
+    "words": [
+      "I",
+      "am",
+      "starting",
+      "a",
+      "new",
+      "job."
+    ]
+  },
+  {
+    "id": 312,
+    "sentence": "They started early this morning.",
+    "words": [
+      "They",
+      "started",
+      "early",
+      "this",
+      "morning."
+    ]
+  },
+  {
+    "id": 313,
+    "sentence": "Can we start the meeting now?",
+    "words": [
+      "Can",
+      "we",
+      "start",
+      "the",
+      "meeting",
+      "now?"
+    ]
+  },
+  {
+    "id": 314,
+    "sentence": "This app helps you start learning quickly.",
+    "words": [
+      "This",
+      "app",
+      "helps",
+      "you",
+      "start",
+      "learning",
+      "quickly."
+    ]
+  },
+  {
+    "id": 315,
+    "sentence": "I didn't start yet.",
+    "words": [
+      "I",
+      "didn't",
+      "start",
+      "yet."
+    ]
+  },
+  {
+    "id": 316,
+    "sentence": "I open the door every morning.",
+    "words": [
+      "I",
+      "open",
+      "the",
+      "door",
+      "every",
+      "morning."
+    ]
+  },
+  {
+    "id": 317,
+    "sentence": "She opens the shop at nine.",
+    "words": [
+      "She",
+      "opens",
+      "the",
+      "shop",
+      "at",
+      "nine."
+    ]
+  },
+  {
+    "id": 318,
+    "sentence": "We opened the window for fresh air.",
+    "words": [
+      "We",
+      "opened",
+      "the",
+      "window",
+      "for",
+      "fresh",
+      "air."
+    ]
+  },
+  {
+    "id": 319,
+    "sentence": "He opened the box carefully.",
+    "words": [
+      "He",
+      "opened",
+      "the",
+      "box",
+      "carefully."
+    ]
+  },
+  {
+    "id": 320,
+    "sentence": "Did you open the email?",
+    "words": [
+      "Did",
+      "you",
+      "open",
+      "the",
+      "email?"
+    ]
+  },
+  {
+    "id": 321,
+    "sentence": "I am opening the file now.",
+    "words": [
+      "I",
+      "am",
+      "opening",
+      "the",
+      "file",
+      "now."
+    ]
+  },
+  {
+    "id": 322,
+    "sentence": "They opened a new restaurant.",
+    "words": [
+      "They",
+      "opened",
+      "a",
+      "new",
+      "restaurant."
+    ]
+  },
+  {
+    "id": 323,
+    "sentence": "Can you open this jar for me?",
+    "words": [
+      "Can",
+      "you",
+      "open",
+      "this",
+      "jar",
+      "for",
+      "me?"
+    ]
+  },
+  {
+    "id": 324,
+    "sentence": "This app opens quickly.",
+    "words": [
+      "This",
+      "app",
+      "opens",
+      "quickly."
+    ]
+  },
+  {
+    "id": 325,
+    "sentence": "I didn't open the letter yet.",
+    "words": [
+      "I",
+      "didn't",
+      "open",
+      "the",
+      "letter",
+      "yet."
+    ]
+  },
+  {
+    "id": 326,
+    "sentence": "I close the door at night.",
+    "words": [
+      "I",
+      "close",
+      "the",
+      "door",
+      "at",
+      "night."
+    ]
+  },
+  {
+    "id": 327,
+    "sentence": "She closes the shop at six.",
+    "words": [
+      "She",
+      "closes",
+      "the",
+      "shop",
+      "at",
+      "six."
+    ]
+  },
+  {
+    "id": 328,
+    "sentence": "We closed the windows before the storm.",
+    "words": [
+      "We",
+      "closed",
+      "the",
+      "windows",
+      "before",
+      "the",
+      "storm."
+    ]
+  },
+  {
+    "id": 329,
+    "sentence": "He closed his eyes and rested.",
+    "words": [
+      "He",
+      "closed",
+      "his",
+      "eyes",
+      "and",
+      "rested."
+    ]
+  },
+  {
+    "id": 330,
+    "sentence": "Did you close the file?",
+    "words": [
+      "Did",
+      "you",
+      "close",
+      "the",
+      "file?"
+    ]
+  },
+  {
+    "id": 331,
+    "sentence": "I am closing the store now.",
+    "words": [
+      "I",
+      "am",
+      "closing",
+      "the",
+      "store",
+      "now."
+    ]
+  },
+  {
+    "id": 332,
+    "sentence": "They closed the deal yesterday.",
+    "words": [
+      "They",
+      "closed",
+      "the",
+      "deal",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 333,
+    "sentence": "Can you close the door, please?",
+    "words": [
+      "Can",
+      "you",
+      "close",
+      "the",
+      "door,",
+      "please?"
+    ]
+  },
+  {
+    "id": 334,
+    "sentence": "This app closes automatically after use.",
+    "words": [
+      "This",
+      "app",
+      "closes",
+      "automatically",
+      "after",
+      "use."
+    ]
+  },
+  {
+    "id": 335,
+    "sentence": "I didn't close the account yet.",
+    "words": [
+      "I",
+      "didn't",
+      "close",
+      "the",
+      "account",
+      "yet."
+    ]
+  },
+  {
+    "id": 336,
+    "sentence": "I listen to music every day.",
+    "words": [
+      "I",
+      "listen",
+      "to",
+      "music",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 337,
+    "sentence": "She listens to the radio in the morning.",
+    "words": [
+      "She",
+      "listens",
+      "to",
+      "the",
+      "radio",
+      "in",
+      "the",
+      "morning."
+    ]
+  },
+  {
+    "id": 338,
+    "sentence": "We listened to the whole speech.",
+    "words": [
+      "We",
+      "listened",
+      "to",
+      "the",
+      "whole",
+      "speech."
+    ]
+  },
+  {
+    "id": 339,
+    "sentence": "He listened carefully to the instructions.",
+    "words": [
+      "He",
+      "listened",
+      "carefully",
+      "to",
+      "the",
+      "instructions."
+    ]
+  },
+  {
+    "id": 340,
+    "sentence": "Did you listen to the podcast?",
+    "words": [
+      "Did",
+      "you",
+      "listen",
+      "to",
+      "the",
+      "podcast?"
+    ]
+  },
+  {
+    "id": 341,
+    "sentence": "I am listening to you now.",
+    "words": [
+      "I",
+      "am",
+      "listening",
+      "to",
+      "you",
+      "now."
+    ]
+  },
+  {
+    "id": 342,
+    "sentence": "They listened to the teacher attentively.",
+    "words": [
+      "They",
+      "listened",
+      "to",
+      "the",
+      "teacher",
+      "attentively."
+    ]
+  },
+  {
+    "id": 343,
+    "sentence": "Can you listen for a moment?",
+    "words": [
+      "Can",
+      "you",
+      "listen",
+      "for",
+      "a",
+      "moment?"
+    ]
+  },
+  {
+    "id": 344,
+    "sentence": "This song is nice to listen to.",
+    "words": [
+      "This",
+      "song",
+      "is",
+      "nice",
+      "to",
+      "listen",
+      "to."
+    ]
+  },
+  {
+    "id": 345,
+    "sentence": "I didn't listen to the announcement.",
+    "words": [
+      "I",
+      "didn't",
+      "listen",
+      "to",
+      "the",
+      "announcement."
+    ]
+  },
+  {
+    "id": 346,
+    "sentence": "I walk to work every day.",
+    "words": [
+      "I",
+      "walk",
+      "to",
+      "work",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 347,
+    "sentence": "She walks her dog in the evening.",
+    "words": [
+      "She",
+      "walks",
+      "her",
+      "dog",
+      "in",
+      "the",
+      "evening."
+    ]
+  },
+  {
+    "id": 348,
+    "sentence": "We walked to the store together.",
+    "words": [
+      "We",
+      "walked",
+      "to",
+      "the",
+      "store",
+      "together."
+    ]
+  },
+  {
+    "id": 349,
+    "sentence": "He walked into the room quietly.",
+    "words": [
+      "He",
+      "walked",
+      "into",
+      "the",
+      "room",
+      "quietly."
+    ]
+  },
+  {
+    "id": 350,
+    "sentence": "Did you walk here today?",
+    "words": [
+      "Did",
+      "you",
+      "walk",
+      "here",
+      "today?"
+    ]
+  },
+  {
+    "id": 351,
+    "sentence": "I am walking to the station now.",
+    "words": [
+      "I",
+      "am",
+      "walking",
+      "to",
+      "the",
+      "station",
+      "now."
+    ]
+  },
+  {
+    "id": 352,
+    "sentence": "They walked for an hour in the park.",
+    "words": [
+      "They",
+      "walked",
+      "for",
+      "an",
+      "hour",
+      "in",
+      "the",
+      "park."
+    ]
+  },
+  {
+    "id": 353,
+    "sentence": "Can you walk a little faster?",
+    "words": [
+      "Can",
+      "you",
+      "walk",
+      "a",
+      "little",
+      "faster?"
+    ]
+  },
+  {
+    "id": 354,
+    "sentence": "This path is nice to walk along.",
+    "words": [
+      "This",
+      "path",
+      "is",
+      "nice",
+      "to",
+      "walk",
+      "along."
+    ]
+  },
+  {
+    "id": 355,
+    "sentence": "I didn't walk much today.",
+    "words": [
+      "I",
+      "didn't",
+      "walk",
+      "much",
+      "today."
+    ]
+  },
+  {
+    "id": 356,
+    "sentence": "I run every morning.",
+    "words": [
+      "I",
+      "run",
+      "every",
+      "morning."
+    ]
+  },
+  {
+    "id": 357,
+    "sentence": "She runs a small business.",
+    "words": [
+      "She",
+      "runs",
+      "a",
+      "small",
+      "business."
+    ]
+  },
+  {
+    "id": 358,
+    "sentence": "We ran to catch the bus.",
+    "words": [
+      "We",
+      "ran",
+      "to",
+      "catch",
+      "the",
+      "bus."
+    ]
+  },
+  {
+    "id": 359,
+    "sentence": "He ran five kilometers today.",
+    "words": [
+      "He",
+      "ran",
+      "five",
+      "kilometers",
+      "today."
+    ]
+  },
+  {
+    "id": 360,
+    "sentence": "Did you run this morning?",
+    "words": [
+      "Did",
+      "you",
+      "run",
+      "this",
+      "morning?"
+    ]
+  },
+  {
+    "id": 361,
+    "sentence": "I am running late.",
+    "words": [
+      "I",
+      "am",
+      "running",
+      "late."
+    ]
+  },
+  {
+    "id": 362,
+    "sentence": "They ran out of milk.",
+    "words": [
+      "They",
+      "ran",
+      "out",
+      "of",
+      "milk."
+    ]
+  },
+  {
+    "id": 363,
+    "sentence": "Can you run this errand for me?",
+    "words": [
+      "Can",
+      "you",
+      "run",
+      "this",
+      "errand",
+      "for",
+      "me?"
+    ]
+  },
+  {
+    "id": 364,
+    "sentence": "This machine runs smoothly.",
+    "words": [
+      "This",
+      "machine",
+      "runs",
+      "smoothly."
+    ]
+  },
+  {
+    "id": 365,
+    "sentence": "I didn't run today.",
+    "words": [
+      "I",
+      "didn't",
+      "run",
+      "today."
+    ]
+  },
+  {
+    "id": 366,
+    "sentence": "I drive to work every day.",
+    "words": [
+      "I",
+      "drive",
+      "to",
+      "work",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 367,
+    "sentence": "She drives a red car.",
+    "words": [
+      "She",
+      "drives",
+      "a",
+      "red",
+      "car."
+    ]
+  },
+  {
+    "id": 368,
+    "sentence": "We drove to the beach last weekend.",
+    "words": [
+      "We",
+      "drove",
+      "to",
+      "the",
+      "beach",
+      "last",
+      "weekend."
+    ]
+  },
+  {
+    "id": 369,
+    "sentence": "He drove me to the airport.",
+    "words": [
+      "He",
+      "drove",
+      "me",
+      "to",
+      "the",
+      "airport."
+    ]
+  },
+  {
+    "id": 370,
+    "sentence": "Did you drive here today?",
+    "words": [
+      "Did",
+      "you",
+      "drive",
+      "here",
+      "today?"
+    ]
+  },
+  {
+    "id": 371,
+    "sentence": "I am driving to the office now.",
+    "words": [
+      "I",
+      "am",
+      "driving",
+      "to",
+      "the",
+      "office",
+      "now."
+    ]
+  },
+  {
+    "id": 372,
+    "sentence": "They drove all night to get there.",
+    "words": [
+      "They",
+      "drove",
+      "all",
+      "night",
+      "to",
+      "get",
+      "there."
+    ]
+  },
+  {
+    "id": 373,
+    "sentence": "Can you drive me to the station?",
+    "words": [
+      "Can",
+      "you",
+      "drive",
+      "me",
+      "to",
+      "the",
+      "station?"
+    ]
+  },
+  {
+    "id": 374,
+    "sentence": "This car drives smoothly.",
+    "words": [
+      "This",
+      "car",
+      "drives",
+      "smoothly."
+    ]
+  },
+  {
+    "id": 375,
+    "sentence": "I didn't drive today.",
+    "words": [
+      "I",
+      "didn't",
+      "drive",
+      "today."
+    ]
+  },
+  {
+    "id": 376,
+    "sentence": "I wear a uniform to work.",
+    "words": [
+      "I",
+      "wear",
+      "a",
+      "uniform",
+      "to",
+      "work."
+    ]
+  },
+  {
+    "id": 377,
+    "sentence": "She wears glasses every day.",
+    "words": [
+      "She",
+      "wears",
+      "glasses",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 378,
+    "sentence": "We wore jackets because it was cold.",
+    "words": [
+      "We",
+      "wore",
+      "jackets",
+      "because",
+      "it",
+      "was",
+      "cold."
+    ]
+  },
+  {
+    "id": 379,
+    "sentence": "He wore a suit to the interview.",
+    "words": [
+      "He",
+      "wore",
+      "a",
+      "suit",
+      "to",
+      "the",
+      "interview."
+    ]
+  },
+  {
+    "id": 380,
+    "sentence": "Did you wear the blue dress?",
+    "words": [
+      "Did",
+      "you",
+      "wear",
+      "the",
+      "blue",
+      "dress?"
+    ]
+  },
+  {
+    "id": 381,
+    "sentence": "I am wearing new shoes today.",
+    "words": [
+      "I",
+      "am",
+      "wearing",
+      "new",
+      "shoes",
+      "today."
+    ]
+  },
+  {
+    "id": 382,
+    "sentence": "They wore matching outfits.",
+    "words": [
+      "They",
+      "wore",
+      "matching",
+      "outfits."
+    ]
+  },
+  {
+    "id": 383,
+    "sentence": "Can you wear something formal?",
+    "words": [
+      "Can",
+      "you",
+      "wear",
+      "something",
+      "formal?"
+    ]
+  },
+  {
+    "id": 384,
+    "sentence": "This fabric is comfortable to wear.",
+    "words": [
+      "This",
+      "fabric",
+      "is",
+      "comfortable",
+      "to",
+      "wear."
+    ]
+  },
+  {
+    "id": 385,
+    "sentence": "I didn't wear a coat today.",
+    "words": [
+      "I",
+      "didn't",
+      "wear",
+      "a",
+      "coat",
+      "today."
+    ]
+  },
+  {
+    "id": 386,
+    "sentence": "I read the news every morning.",
+    "words": [
+      "I",
+      "read",
+      "the",
+      "news",
+      "every",
+      "morning."
+    ]
+  },
+  {
+    "id": 387,
+    "sentence": "She reads a book every week.",
+    "words": [
+      "She",
+      "reads",
+      "a",
+      "book",
+      "every",
+      "week."
+    ]
+  },
+  {
+    "id": 388,
+    "sentence": "We read the instructions carefully.",
+    "words": [
+      "We",
+      "read",
+      "the",
+      "instructions",
+      "carefully."
+    ]
+  },
+  {
+    "id": 389,
+    "sentence": "He read the email twice.",
+    "words": [
+      "He",
+      "read",
+      "the",
+      "email",
+      "twice."
+    ]
+  },
+  {
+    "id": 390,
+    "sentence": "Did you read my message?",
+    "words": [
+      "Did",
+      "you",
+      "read",
+      "my",
+      "message?"
+    ]
+  },
+  {
+    "id": 391,
+    "sentence": "I am reading a new novel.",
+    "words": [
+      "I",
+      "am",
+      "reading",
+      "a",
+      "new",
+      "novel."
+    ]
+  },
+  {
+    "id": 392,
+    "sentence": "They read the report together.",
+    "words": [
+      "They",
+      "read",
+      "the",
+      "report",
+      "together."
+    ]
+  },
+  {
+    "id": 393,
+    "sentence": "Can you read this for me?",
+    "words": [
+      "Can",
+      "you",
+      "read",
+      "this",
+      "for",
+      "me?"
+    ]
+  },
+  {
+    "id": 394,
+    "sentence": "This book is easy to read.",
+    "words": [
+      "This",
+      "book",
+      "is",
+      "easy",
+      "to",
+      "read."
+    ]
+  },
+  {
+    "id": 395,
+    "sentence": "I didn't read the terms and conditions.",
+    "words": [
+      "I",
+      "didn't",
+      "read",
+      "the",
+      "terms",
+      "and",
+      "conditions."
+    ]
+  },
+  {
+    "id": 396,
+    "sentence": "I write emails every day.",
+    "words": [
+      "I",
+      "write",
+      "emails",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 397,
+    "sentence": "She writes in her diary every night.",
+    "words": [
+      "She",
+      "writes",
+      "in",
+      "her",
+      "diary",
+      "every",
+      "night."
+    ]
+  },
+  {
+    "id": 398,
+    "sentence": "We wrote a letter to our teacher.",
+    "words": [
+      "We",
+      "wrote",
+      "a",
+      "letter",
+      "to",
+      "our",
+      "teacher."
+    ]
+  },
+  {
+    "id": 399,
+    "sentence": "He wrote his name on the form.",
+    "words": [
+      "He",
+      "wrote",
+      "his",
+      "name",
+      "on",
+      "the",
+      "form."
+    ]
+  },
+  {
+    "id": 400,
+    "sentence": "Did you write the report?",
+    "words": [
+      "Did",
+      "you",
+      "write",
+      "the",
+      "report?"
+    ]
+  },
+  {
+    "id": 401,
+    "sentence": "I am writing a message now.",
+    "words": [
+      "I",
+      "am",
+      "writing",
+      "a",
+      "message",
+      "now."
+    ]
+  },
+  {
+    "id": 402,
+    "sentence": "They wrote down the address.",
+    "words": [
+      "They",
+      "wrote",
+      "down",
+      "the",
+      "address."
+    ]
+  },
+  {
+    "id": 403,
+    "sentence": "Can you write this in English?",
+    "words": [
+      "Can",
+      "you",
+      "write",
+      "this",
+      "in",
+      "English?"
+    ]
+  },
+  {
+    "id": 404,
+    "sentence": "This pen writes smoothly.",
+    "words": [
+      "This",
+      "pen",
+      "writes",
+      "smoothly."
+    ]
+  },
+  {
+    "id": 405,
+    "sentence": "I didn't write anything today.",
+    "words": [
+      "I",
+      "didn't",
+      "write",
+      "anything",
+      "today."
+    ]
+  },
+  {
+    "id": 406,
+    "sentence": "I learn something new every day.",
+    "words": [
+      "I",
+      "learn",
+      "something",
+      "new",
+      "every",
+      "day."
+    ]
+  },
+  {
+    "id": 407,
+    "sentence": "We learned a lot from the training.",
+    "words": [
+      "We",
+      "learned",
+      "a",
+      "lot",
+      "from",
+      "the",
+      "training."
+    ]
+  },
+  {
+    "id": 408,
+    "sentence": "He learned to swim last summer.",
+    "words": [
+      "He",
+      "learned",
+      "to",
+      "swim",
+      "last",
+      "summer."
+    ]
+  },
+  {
+    "id": 409,
+    "sentence": "Did you learn anything new today?",
+    "words": [
+      "Did",
+      "you",
+      "learn",
+      "anything",
+      "new",
+      "today?"
+    ]
+  },
+  {
+    "id": 410,
+    "sentence": "I am learning English online.",
+    "words": [
+      "I",
+      "am",
+      "learning",
+      "English",
+      "online."
+    ]
+  },
+  {
+    "id": 411,
+    "sentence": "They learned the rules of the game.",
+    "words": [
+      "They",
+      "learned",
+      "the",
+      "rules",
+      "of",
+      "the",
+      "game."
+    ]
+  },
+  {
+    "id": 412,
+    "sentence": "Can you learn this by tomorrow?",
+    "words": [
+      "Can",
+      "you",
+      "learn",
+      "this",
+      "by",
+      "tomorrow?"
+    ]
+  },
+  {
+    "id": 413,
+    "sentence": "This course helps you learn quickly.",
+    "words": [
+      "This",
+      "course",
+      "helps",
+      "you",
+      "learn",
+      "quickly."
+    ]
+  },
+  {
+    "id": 414,
+    "sentence": "I didn't learn much from that class.",
+    "words": [
+      "I",
+      "didn't",
+      "learn",
+      "much",
+      "from",
+      "that",
+      "class."
+    ]
+  },
+  {
+    "id": 415,
+    "sentence": "I remember your name.",
+    "words": [
+      "I",
+      "remember",
+      "your",
+      "name."
+    ]
+  },
+  {
+    "id": 416,
+    "sentence": "We remembered to bring the documents.",
+    "words": [
+      "We",
+      "remembered",
+      "to",
+      "bring",
+      "the",
+      "documents."
+    ]
+  },
+  {
+    "id": 417,
+    "sentence": "He remembered her birthday.",
+    "words": [
+      "He",
+      "remembered",
+      "her",
+      "birthday."
+    ]
+  },
+  {
+    "id": 418,
+    "sentence": "Did you remember to call him?",
+    "words": [
+      "Did",
+      "you",
+      "remember",
+      "to",
+      "call",
+      "him?"
+    ]
+  },
+  {
+    "id": 419,
+    "sentence": "I am remembering the good times we had.",
+    "words": [
+      "I",
+      "am",
+      "remembering",
+      "the",
+      "good",
+      "times",
+      "we",
+      "had."
+    ]
+  },
+  {
+    "id": 420,
+    "sentence": "They remembered the address correctly.",
+    "words": [
+      "They",
+      "remembered",
+      "the",
+      "address",
+      "correctly."
+    ]
+  },
+  {
+    "id": 421,
+    "sentence": "Can you remember the password?",
+    "words": [
+      "Can",
+      "you",
+      "remember",
+      "the",
+      "password?"
+    ]
+  },
+  {
+    "id": 422,
+    "sentence": "I remember visiting this place before.",
+    "words": [
+      "I",
+      "remember",
+      "visiting",
+      "this",
+      "place",
+      "before."
+    ]
+  },
+  {
+    "id": 423,
+    "sentence": "I didn't remember the meeting time.",
+    "words": [
+      "I",
+      "didn't",
+      "remember",
+      "the",
+      "meeting",
+      "time."
+    ]
+  },
+  {
+    "id": 424,
+    "sentence": "I forget things sometimes.",
+    "words": [
+      "I",
+      "forget",
+      "things",
+      "sometimes."
+    ]
+  },
+  {
+    "id": 425,
+    "sentence": "She forgets her umbrella often.",
+    "words": [
+      "She",
+      "forgets",
+      "her",
+      "umbrella",
+      "often."
+    ]
+  },
+  {
+    "id": 426,
+    "sentence": "We forgot to lock the door.",
+    "words": [
+      "We",
+      "forgot",
+      "to",
+      "lock",
+      "the",
+      "door."
+    ]
+  },
+  {
+    "id": 427,
+    "sentence": "He forgot his password.",
+    "words": [
+      "He",
+      "forgot",
+      "his",
+      "password."
+    ]
+  },
+  {
+    "id": 428,
+    "sentence": "Did you forget your keys?",
+    "words": [
+      "Did",
+      "you",
+      "forget",
+      "your",
+      "keys?"
+    ]
+  },
+  {
+    "id": 429,
+    "sentence": "I am forgetting the details already.",
+    "words": [
+      "I",
+      "am",
+      "forgetting",
+      "the",
+      "details",
+      "already."
+    ]
+  },
+  {
+    "id": 430,
+    "sentence": "They forgot to call back.",
+    "words": [
+      "They",
+      "forgot",
+      "to",
+      "call",
+      "back."
+    ]
+  },
+  {
+    "id": 431,
+    "sentence": "Can you forget about it?",
+    "words": [
+      "Can",
+      "you",
+      "forget",
+      "about",
+      "it?"
+    ]
+  },
+  {
+    "id": 432,
+    "sentence": "This is easy to forget.",
+    "words": [
+      "This",
+      "is",
+      "easy",
+      "to",
+      "forget."
+    ]
+  },
+  {
+    "id": 433,
+    "sentence": "I didn't forget your birthday.",
+    "words": [
+      "I",
+      "didn't",
+      "forget",
+      "your",
+      "birthday."
+    ]
+  },
+  {
+    "id": 434,
+    "sentence": "I understand the instructions.",
+    "words": [
+      "I",
+      "understand",
+      "the",
+      "instructions."
+    ]
+  },
+  {
+    "id": 435,
+    "sentence": "She understands three languages.",
+    "words": [
+      "She",
+      "understands",
+      "three",
+      "languages."
+    ]
+  },
+  {
+    "id": 436,
+    "sentence": "We understood the lesson well.",
+    "words": [
+      "We",
+      "understood",
+      "the",
+      "lesson",
+      "well."
+    ]
+  },
+  {
+    "id": 437,
+    "sentence": "He understood my concern.",
+    "words": [
+      "He",
+      "understood",
+      "my",
+      "concern."
+    ]
+  },
+  {
+    "id": 438,
+    "sentence": "Did you understand the question?",
+    "words": [
+      "Did",
+      "you",
+      "understand",
+      "the",
+      "question?"
+    ]
+  },
+  {
+    "id": 439,
+    "sentence": "I am understanding the topic better now.",
+    "words": [
+      "I",
+      "am",
+      "understanding",
+      "the",
+      "topic",
+      "better",
+      "now."
+    ]
+  },
+  {
+    "id": 440,
+    "sentence": "They understood the risks involved.",
+    "words": [
+      "They",
+      "understood",
+      "the",
+      "risks",
+      "involved."
+    ]
+  },
+  {
+    "id": 441,
+    "sentence": "Can you understand this document?",
+    "words": [
+      "Can",
+      "you",
+      "understand",
+      "this",
+      "document?"
+    ]
+  },
+  {
+    "id": 442,
+    "sentence": "This explanation is easy to understand.",
+    "words": [
+      "This",
+      "explanation",
+      "is",
+      "easy",
+      "to",
+      "understand."
+    ]
+  },
+  {
+    "id": 443,
+    "sentence": "I didn't understand the joke.",
+    "words": [
+      "I",
+      "didn't",
+      "understand",
+      "the",
+      "joke."
+    ]
+  },
+  {
+    "id": 444,
+    "sentence": "I help my mother in the kitchen.",
+    "words": [
+      "I",
+      "help",
+      "my",
+      "mother",
+      "in",
+      "the",
+      "kitchen."
+    ]
+  },
+  {
+    "id": 445,
+    "sentence": "She helps her students after class.",
+    "words": [
+      "She",
+      "helps",
+      "her",
+      "students",
+      "after",
+      "class."
+    ]
+  },
+  {
+    "id": 446,
+    "sentence": "We helped him move his furniture.",
+    "words": [
+      "We",
+      "helped",
+      "him",
+      "move",
+      "his",
+      "furniture."
+    ]
+  },
+  {
+    "id": 447,
+    "sentence": "He helped me with my homework.",
+    "words": [
+      "He",
+      "helped",
+      "me",
+      "with",
+      "my",
+      "homework."
+    ]
+  },
+  {
+    "id": 448,
+    "sentence": "Did you help her with the project?",
+    "words": [
+      "Did",
+      "you",
+      "help",
+      "her",
+      "with",
+      "the",
+      "project?"
+    ]
+  },
+  {
+    "id": 449,
+    "sentence": "I am helping my friend today.",
+    "words": [
+      "I",
+      "am",
+      "helping",
+      "my",
+      "friend",
+      "today."
+    ]
+  },
+  {
+    "id": 450,
+    "sentence": "They helped clean up after the party.",
+    "words": [
+      "They",
+      "helped",
+      "clean",
+      "up",
+      "after",
+      "the",
+      "party."
+    ]
+  },
+  {
+    "id": 451,
+    "sentence": "Can you help me with this?",
+    "words": [
+      "Can",
+      "you",
+      "help",
+      "me",
+      "with",
+      "this?"
+    ]
+  },
+  {
+    "id": 452,
+    "sentence": "This tool helps you save time.",
+    "words": [
+      "This",
+      "tool",
+      "helps",
+      "you",
+      "save",
+      "time."
+    ]
+  },
+  {
+    "id": 453,
+    "sentence": "I didn't help much yesterday.",
+    "words": [
+      "I",
+      "didn't",
+      "help",
+      "much",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 454,
+    "sentence": "I meet my friends on weekends.",
+    "words": [
+      "I",
+      "meet",
+      "my",
+      "friends",
+      "on",
+      "weekends."
+    ]
+  },
+  {
+    "id": 455,
+    "sentence": "She meets new people easily.",
+    "words": [
+      "She",
+      "meets",
+      "new",
+      "people",
+      "easily."
+    ]
+  },
+  {
+    "id": 456,
+    "sentence": "We met at a conference last year.",
+    "words": [
+      "We",
+      "met",
+      "at",
+      "a",
+      "conference",
+      "last",
+      "year."
+    ]
+  },
+  {
+    "id": 457,
+    "sentence": "He met his wife in college.",
+    "words": [
+      "He",
+      "met",
+      "his",
+      "wife",
+      "in",
+      "college."
+    ]
+  },
+  {
+    "id": 458,
+    "sentence": "Did you meet the new manager?",
+    "words": [
+      "Did",
+      "you",
+      "meet",
+      "the",
+      "new",
+      "manager?"
+    ]
+  },
+  {
+    "id": 459,
+    "sentence": "I am meeting a client today.",
+    "words": [
+      "I",
+      "am",
+      "meeting",
+      "a",
+      "client",
+      "today."
+    ]
+  },
+  {
+    "id": 460,
+    "sentence": "They met for coffee yesterday.",
+    "words": [
+      "They",
+      "met",
+      "for",
+      "coffee",
+      "yesterday."
+    ]
+  },
+  {
+    "id": 461,
+    "sentence": "Can we meet tomorrow?",
+    "words": [
+      "Can",
+      "we",
+      "meet",
+      "tomorrow?"
+    ]
+  },
+  {
+    "id": 462,
+    "sentence": "This app helps you meet new friends.",
+    "words": [
+      "This",
+      "app",
+      "helps",
+      "you",
+      "meet",
+      "new",
+      "friends."
+    ]
+  },
+  {
+    "id": 463,
+    "sentence": "I didn't meet anyone new today.",
+    "words": [
+      "I",
+      "didn't",
+      "meet",
+      "anyone",
+      "new",
+      "today."
+    ]
+  },
+  {
+    "id": 464,
+    "sentence": "I call my mother every Sunday.",
+    "words": [
+      "I",
+      "call",
+      "my",
+      "mother",
+      "every",
+      "Sunday."
+    ]
+  },
+  {
+    "id": 465,
+    "sentence": "She calls her friends often.",
+    "words": [
+      "She",
+      "calls",
+      "her",
+      "friends",
+      "often."
+    ]
+  },
+  {
+    "id": 466,
+    "sentence": "We called the restaurant to book a table.",
+    "words": [
+      "We",
+      "called",
+      "the",
+      "restaurant",
+      "to",
+      "book",
+      "a",
+      "table."
+    ]
+  },
+  {
+    "id": 467,
+    "sentence": "He called me last night.",
+    "words": [
+      "He",
+      "called",
+      "me",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 468,
+    "sentence": "Did you call the doctor?",
+    "words": [
+      "Did",
+      "you",
+      "call",
+      "the",
+      "doctor?"
+    ]
+  },
+  {
+    "id": 469,
+    "sentence": "I am calling you about the meeting.",
+    "words": [
+      "I",
+      "am",
+      "calling",
+      "you",
+      "about",
+      "the",
+      "meeting."
+    ]
+  },
+  {
+    "id": 470,
+    "sentence": "They called off the event.",
+    "words": [
+      "They",
+      "called",
+      "off",
+      "the",
+      "event."
+    ]
+  },
+  {
+    "id": 471,
+    "sentence": "Can you call me later?",
+    "words": [
+      "Can",
+      "you",
+      "call",
+      "me",
+      "later?"
+    ]
+  },
+  {
+    "id": 472,
+    "sentence": "This is called a smartphone.",
+    "words": [
+      "This",
+      "is",
+      "called",
+      "a",
+      "smartphone."
+    ]
+  },
+  {
+    "id": 473,
+    "sentence": "I didn't call him back yet.",
+    "words": [
+      "I",
+      "didn't",
+      "call",
+      "him",
+      "back",
+      "yet."
+    ]
+  },
+  {
+    "id": 474,
+    "sentence": "I play football on weekends.",
+    "words": [
+      "I",
+      "play",
+      "football",
+      "on",
+      "weekends."
+    ]
+  },
+  {
+    "id": 475,
+    "sentence": "She plays the piano beautifully.",
+    "words": [
+      "She",
+      "plays",
+      "the",
+      "piano",
+      "beautifully."
+    ]
+  },
+  {
+    "id": 476,
+    "sentence": "We played cards last night.",
+    "words": [
+      "We",
+      "played",
+      "cards",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 477,
+    "sentence": "He played well in the match.",
+    "words": [
+      "He",
+      "played",
+      "well",
+      "in",
+      "the",
+      "match."
+    ]
+  },
+  {
+    "id": 478,
+    "sentence": "Did you play any sports today?",
+    "words": [
+      "Did",
+      "you",
+      "play",
+      "any",
+      "sports",
+      "today?"
+    ]
+  },
+  {
+    "id": 479,
+    "sentence": "I am playing a game right now.",
+    "words": [
+      "I",
+      "am",
+      "playing",
+      "a",
+      "game",
+      "right",
+      "now."
+    ]
+  },
+  {
+    "id": 480,
+    "sentence": "They played in the park all afternoon.",
+    "words": [
+      "They",
+      "played",
+      "in",
+      "the",
+      "park",
+      "all",
+      "afternoon."
+    ]
+  },
+  {
+    "id": 481,
+    "sentence": "Can you play the guitar?",
+    "words": [
+      "Can",
+      "you",
+      "play",
+      "the",
+      "guitar?"
+    ]
+  },
+  {
+    "id": 482,
+    "sentence": "This game is fun to play.",
+    "words": [
+      "This",
+      "game",
+      "is",
+      "fun",
+      "to",
+      "play."
+    ]
+  },
+  {
+    "id": 483,
+    "sentence": "I didn't play well in the tournament.",
+    "words": [
+      "I",
+      "didn't",
+      "play",
+      "well",
+      "in",
+      "the",
+      "tournament."
+    ]
+  },
+  {
+    "id": 484,
+    "sentence": "I watch TV in the evening.",
+    "words": [
+      "I",
+      "watch",
+      "TV",
+      "in",
+      "the",
+      "evening."
+    ]
+  },
+  {
+    "id": 485,
+    "sentence": "She watches movies every weekend.",
+    "words": [
+      "She",
+      "watches",
+      "movies",
+      "every",
+      "weekend."
+    ]
+  },
+  {
+    "id": 486,
+    "sentence": "We watched a great film last night.",
+    "words": [
+      "We",
+      "watched",
+      "a",
+      "great",
+      "film",
+      "last",
+      "night."
+    ]
+  },
+  {
+    "id": 487,
+    "sentence": "He watched the game closely.",
+    "words": [
+      "He",
+      "watched",
+      "the",
+      "game",
+      "closely."
+    ]
+  },
+  {
+    "id": 488,
+    "sentence": "Did you watch the news today?",
+    "words": [
+      "Did",
+      "you",
+      "watch",
+      "the",
+      "news",
+      "today?"
+    ]
+  },
+  {
+    "id": 489,
+    "sentence": "I am watching a show right now.",
+    "words": [
+      "I",
+      "am",
+      "watching",
+      "a",
+      "show",
+      "right",
+      "now."
+    ]
+  },
+  {
+    "id": 490,
+    "sentence": "They watched the sunset together.",
+    "words": [
+      "They",
+      "watched",
+      "the",
+      "sunset",
+      "together."
+    ]
+  },
+  {
+    "id": 491,
+    "sentence": "Can you watch my bag for a minute?",
+    "words": [
+      "Can",
+      "you",
+      "watch",
+      "my",
+      "bag",
+      "for",
+      "a",
+      "minute?"
+    ]
+  },
+  {
+    "id": 492,
+    "sentence": "This series is fun to watch.",
+    "words": [
+      "This",
+      "series",
+      "is",
+      "fun",
+      "to",
+      "watch."
+    ]
+  },
+  {
+    "id": 493,
+    "sentence": "I didn't watch the match yesterday.",
+    "words": [
+      "I",
+      "didn't",
+      "watch",
+      "the",
+      "match",
+      "yesterday."
+    ]
+  }
+]

@@ -397,6 +397,22 @@ table.conjugation th { background: var(--surface-2); }
 .quiz-option.correct { border-color: var(--accent); background: rgba(22,163,74,.15); }
 .quiz-option.incorrect { border-color: var(--danger); background: rgba(220,38,38,.13); }
 
+.mistake-word-chip {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 2px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+}
+.mistake-word-chip:hover { border-color: var(--primary); }
+.mistake-word-chip.selected { border-color: var(--primary); background: rgba(79,70,229,.15); }
+.mistake-word-chip.correct-catch { border-color: var(--accent); background: rgba(22,163,74,.18); color: var(--accent); }
+.mistake-word-chip.missed-catch { border-color: var(--warning); background: rgba(217,119,6,.18); }
+.mistake-word-chip.wrong-catch { border-color: var(--danger); background: rgba(220,38,38,.13); text-decoration: line-through; }
+
 .rearrange-tokens, .rearrange-bank {
   display: flex; flex-wrap: wrap; gap: 8px; min-height: 44px;
   padding: 10px;

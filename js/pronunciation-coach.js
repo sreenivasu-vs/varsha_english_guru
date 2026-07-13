@@ -244,6 +244,80 @@ function captureAttempt() {
   return { promise, stop: () => stopFn() };
 }
 
+/* Same idea as captureAttempt, but for free-form speech lasting up to a
+   minute: continuous recognition (accumulates every final result using
+   event.resultIndex so nothing is double-counted) with interim results on
+   so it keeps listening through natural pauses, plus an auto-stop timer. */
+function captureLongAttempt({ maxMs = 60000 } = {}) {
+  let stopFn = () => {};
+  let timeoutId = null;
+  const promise = new Promise((resolve, reject) => {
+    if (!SpeechRecognitionCtor) { reject(new Error("no-speech-recognition")); return; }
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { reject(new Error("no-mic")); return; }
+
+    navigator.mediaDevices.getUserMedia({ audio: true }).then((stream) => {
+      const AudioCtx = window.AudioContext || window.webkitAudioContext;
+      const audioCtx = new AudioCtx();
+      const source = audioCtx.createMediaStreamSource(stream);
+      const analyser = audioCtx.createAnalyser();
+      analyser.fftSize = 2048;
+      source.connect(analyser);
+      const buf = new Float32Array(analyser.fftSize);
+
+      const samples = [];
+      const startTime = performance.now();
+      let settled = false;
+      let finalText = "";
+
+      const sampleTimer = setInterval(() => {
+        analyser.getFloatTimeDomainData(buf);
+        let sumSq = 0;
+        for (let i = 0; i < buf.length; i++) sumSq += buf[i] * buf[i];
+        const v = Math.sqrt(sumSq / buf.length);
+        const hz = estimatePitch(buf, audioCtx.sampleRate);
+        samples.push({ t: performance.now() - startTime, v, hz });
+      }, 50);
+
+      function cleanup() {
+        clearInterval(sampleTimer);
+        clearTimeout(timeoutId);
+        stream.getTracks().forEach((t) => t.stop());
+        audioCtx.close().catch(() => {});
+      }
+
+      const recognition = new SpeechRecognitionCtor();
+      recognition.lang = "en-US";
+      recognition.interimResults = true;
+      recognition.continuous = true;
+
+      recognition.onresult = (event) => {
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          if (event.results[i].isFinal) finalText += event.results[i][0].transcript + " ";
+        }
+      };
+      recognition.onerror = (e) => {
+        if (e.error === "no-speech") return; // silence gaps are normal in free speech - keep going
+        if (settled) return;
+        settled = true;
+        cleanup();
+        reject(new Error(e.error || "recognition-error"));
+      };
+      recognition.onend = () => {
+        if (settled) return;
+        settled = true;
+        const durationMs = performance.now() - startTime;
+        cleanup();
+        resolve({ transcript: finalText.trim(), durationMs, samples });
+      };
+
+      recognition.start();
+      timeoutId = setTimeout(() => { try { recognition.stop(); } catch (e) { /* already stopped */ } }, maxMs);
+      stopFn = () => { try { recognition.stop(); } catch (e) { /* already stopped */ } };
+    }).catch((err) => reject(err));
+  });
+  return { promise, stop: () => stopFn() };
+}
+
 /* ---------- Metric helpers, computed from a capture attempt ---------- */
 
 function clarityFromSamples(samples) {
@@ -342,6 +416,85 @@ function intonationMatch(samples, emotionId) {
   return { matched, note };
 }
 
+/* ---------- Filler words + free-speech scoring ---------- */
+
+const FILLER_WORDS = ["um", "uh", "actually", "like", "basically"];
+
+const JOINING_WORD_SUGGESTIONS = [
+  "First of all", "In addition", "However", "As a result", "For example",
+  "In my opinion", "To sum up", "On the other hand", "Furthermore", "Meanwhile",
+];
+
+const PAUSE_AND_SPEED_TIPS = [
+  "Replace the urge to say \"um\" with a silent pause - a brief silence sounds confident, not awkward.",
+  "Take a breath at the end of each sentence - it naturally paces your speech and gives your brain a moment to plan the next thought.",
+  "Slow down on your most important word in a sentence - it adds emphasis and buys you thinking time.",
+  "Chunk your ideas: finish one thought, pause briefly, then start the next - don't chain everything together with \"and... and... and\".",
+  "If you catch yourself about to say a filler word, close your mouth and count to one in your head instead.",
+  "Practice the same topic twice in a row - the second attempt is almost always smoother with fewer fillers.",
+  "Record yourself daily for a week and track your filler count - awareness alone cuts most fillers in half.",
+];
+
+/* Counts each filler word as a whole word (so "like" doesn't match inside
+   "likely"), case-insensitive. Returns { counts: {word: n}, total }. */
+function countFillerWords(transcript) {
+  const counts = {};
+  let total = 0;
+  FILLER_WORDS.forEach((w) => {
+    const re = new RegExp(`\\b${w}\\b`, "gi");
+    const n = (transcript.match(re) || []).length;
+    counts[w] = n;
+    total += n;
+  });
+  return { counts, total };
+}
+
+/* Highlights filler words in-place within the transcript for display. */
+function highlightFillers(transcript) {
+  let html = escapeHtml(transcript);
+  FILLER_WORDS.forEach((w) => {
+    const re = new RegExp(`\\b(${w})\\b`, "gi");
+    html = html.replace(re, `<mark style="background:#fde68a;color:#1c1e29;padding:0 2px;border-radius:3px;">$1</mark>`);
+  });
+  return html;
+}
+
+/* Best-effort: only scores real grammar if the user is logged in and the
+   backend is reachable (same /api/check LanguageTool endpoint Speaking
+   Practice uses) - returns null otherwise so the round can degrade
+   gracefully for guests instead of requiring login just for this one round. */
+async function fetchGrammarScore(text) {
+  if (typeof getSession !== "function" || typeof API_BASE === "undefined") return null;
+  const session = getSession();
+  if (!session || session.guest || !text.trim()) return null;
+  try {
+    const res = await fetch(`${API_BASE}/api/check`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ username: session.username, text }),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    return Math.max(0, Math.min(100, 100 - (data.issues_found || 0) * 10));
+  } catch (e) {
+    return null;
+  }
+}
+
+function scoreBar(label, value) {
+  const display = value === null ? "--" : value + "%";
+  const width = value === null ? 0 : value;
+  return `
+    <div style="margin-bottom:10px;">
+      <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:3px;">
+        <span style="color:var(--text-muted);">${label}</span>
+        <span style="font-weight:700;">${display}</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:${width}%"></div></div>
+    </div>
+  `;
+}
+
 /* ---------- Round definitions ---------- */
 
 const ROUNDS = [
@@ -354,6 +507,8 @@ const ROUNDS = [
   { key: "minimalPairs", num: 7, icon: "👂", title: "Minimal Pair Challenge", subtitle: "Similar sounds, like ship & sheep." },
   { key: "clarity", num: 8, icon: "📢", title: "Voice Clarity Meter", subtitle: "How clearly are you speaking?" },
   { key: "intonation", num: 9, icon: "🎭", title: "Intonation Practice", subtitle: "Pick an emotion, then say it like you mean it." },
+  { key: "oneMinuteSpeech", num: 10, icon: "🗣️", title: "One-Minute Speech", subtitle: "Pick a topic and speak for up to a minute." },
+  { key: "fillerDetector", num: 11, icon: "🚫", title: "Filler Word Detector", subtitle: "Talk about anything - we'll flag your filler words." },
 ];
 
 let DATA = null;
@@ -361,6 +516,7 @@ let SHADOWING = [];
 const roundStates = {};
 let currentRoundKey = null;
 let selectedEmotion = null;
+let selectedTopic = null;
 
 function itemsForRound(key) {
   if (key === "echo") return SHADOWING.filter((s) => s.category === "Workplace" || s.category === "Business");
@@ -372,6 +528,8 @@ function itemsForRound(key) {
   if (key === "minimalPairs") return DATA.minimalPairs;
   if (key === "clarity") return SHADOWING.filter((s) => s.category === "Business" || s.category === "Everyday");
   if (key === "intonation") return [DATA.intonation];
+  if (key === "oneMinuteSpeech") return [DATA.oneMinuteSpeech];
+  if (key === "fillerDetector") return [DATA.fillerDetector];
   return [];
 }
 
@@ -489,6 +647,8 @@ function renderRoundBody(container) {
     minimalPairs: renderMinimalPairs,
     clarity: renderClarity,
     intonation: renderIntonation,
+    oneMinuteSpeech: renderOneMinuteSpeech,
+    fillerDetector: renderFillerDetector,
   };
   renderers[round.key](container, item, state);
 
@@ -717,6 +877,182 @@ function renderIntonation(container, item) {
   });
 }
 
+/* Same idea as renderMicRound, but for the up-to-a-minute free-speech
+   rounds: a live countdown instead of an auto-stop-on-pause, and a Stop
+   button to end early. */
+function renderLongMicRound(container, { promptHtml, maxMs, onAnalyze, extraControls }) {
+  const card = el("div", "card");
+  card.innerHTML = promptHtml;
+  if (extraControls) card.appendChild(extraControls);
+
+  const recordBtn = el("button", "btn block", "🎤 Start Speaking");
+  card.appendChild(recordBtn);
+
+  const statusText = el("div", "", "");
+  statusText.style.cssText = "font-size:13px;color:var(--text-muted);margin-top:10px;min-height:18px;text-align:center;";
+  card.appendChild(statusText);
+
+  const resultArea = el("div");
+  resultArea.style.cssText = "margin-top:14px;";
+  card.appendChild(resultArea);
+
+  let activeCapture = null;
+  let recording = false;
+  let countdownTimer = null;
+
+  recordBtn.onclick = () => {
+    if (recording) {
+      activeCapture && activeCapture.stop();
+      return;
+    }
+    if (!SpeechRecognitionCtor) {
+      statusText.textContent = "Speech recognition isn't supported in this browser - try Chrome or Edge.";
+      return;
+    }
+    recording = true;
+    recordBtn.textContent = "⏹ Stop Now";
+    resultArea.innerHTML = "";
+
+    let secondsLeft = Math.round(maxMs / 1000);
+    statusText.textContent = `Listening... ${secondsLeft}s left`;
+    countdownTimer = setInterval(() => {
+      secondsLeft -= 1;
+      if (secondsLeft > 0) statusText.textContent = `Listening... ${secondsLeft}s left`;
+      else statusText.textContent = "Wrapping up...";
+    }, 1000);
+
+    activeCapture = captureLongAttempt({ maxMs });
+    activeCapture.promise
+      .then((attempt) => {
+        recording = false;
+        clearInterval(countdownTimer);
+        recordBtn.textContent = "🎤 Start Speaking";
+        statusText.textContent = "";
+        onAnalyze(attempt, resultArea);
+      })
+      .catch((err) => {
+        recording = false;
+        clearInterval(countdownTimer);
+        recordBtn.textContent = "🎤 Start Speaking";
+        if (err.message === "no-mic" || err.name === "NotAllowedError" || err.message === "not-allowed") {
+          statusText.textContent = "Microphone access is needed for this game - please allow it and try again.";
+        } else {
+          statusText.textContent = "Didn't catch that - try again.";
+        }
+      });
+  };
+
+  container.appendChild(card);
+  return { resultArea };
+}
+
+function renderOneMinuteSpeech(container, item) {
+  if (!selectedTopic) {
+    const card = el("div", "card");
+    card.innerHTML = `<div class="section-title" style="margin-top:0">One-Minute Speech</div>
+      <p style="margin:0 0 10px;font-size:13.5px;color:var(--text-muted);">Pick a topic, then speak about it for up to a minute.</p>`;
+    const grid = el("div");
+    grid.style.cssText = "display:flex;flex-direction:column;gap:8px;max-height:420px;overflow-y:auto;";
+    item.topics.forEach((topic) => {
+      const btn = el("button", "quiz-option", escapeHtml(topic));
+      btn.onclick = () => { selectedTopic = topic; renderRound(container); };
+      grid.appendChild(btn);
+    });
+    card.appendChild(grid);
+    container.appendChild(card);
+    return;
+  }
+
+  const changeTopicLink = el("button", "btn secondary", "← Choose a different topic");
+  changeTopicLink.style.marginBottom = "10px";
+  changeTopicLink.onclick = () => { selectedTopic = null; renderRound(container); };
+  container.appendChild(changeTopicLink);
+
+  renderLongMicRound(container, {
+    promptHtml: `<div class="section-title" style="margin-top:0">One-Minute Speech</div>
+      <p style="margin:0 0 6px;font-size:13px;color:var(--text-muted);">Your topic:</p>
+      <div style="text-align:center;font-size:18px;font-weight:700;margin:6px 0 4px;">${escapeHtml(selectedTopic)}</div>`,
+    maxMs: item.durationMs,
+    onAnalyze: async (attempt, area) => {
+      area.innerHTML = `<div class="empty-state">Analyzing your speech...</div>`;
+
+      const words = normalizeWords(attempt.transcript);
+      const fillers = countFillerWords(attempt.transcript);
+      const uniqueRatio = words.length ? new Set(words).size / words.length : 0;
+      const clarity = clarityFromSamples(attempt.samples);
+      const longPauses = pauseCountFromSamples(attempt.samples, 0.02, 700);
+      const segments = pauseCountFromSamples(attempt.samples, 0.02, 180) + 1;
+      const wordsPerSegment = words.length / segments;
+      const wpm = wpmFromAttempt(attempt.transcript, attempt.durationMs);
+
+      const grammarScore = await fetchGrammarScore(attempt.transcript);
+      const vocabularyScore = Math.max(0, Math.min(100, Math.round(uniqueRatio * 170)));
+      const fillerScore = Math.max(0, Math.min(100, 100 - fillers.total * 8));
+      const confidenceScore = Math.round((clarity.score + Math.max(0, 100 - longPauses * 15)) / 2);
+      const sentenceStructureScore = wordsPerSegment >= 6 && wordsPerSegment <= 22
+        ? 100
+        : Math.max(30, 100 - Math.abs(wordsPerSegment - 14) * 5);
+      const wpmDiffPct = Math.abs(wpm - 140) / 140;
+      const wpmScore = wpmDiffPct <= 0.2 ? 100 : wpmDiffPct <= 0.4 ? 70 : 45;
+      const fluencyScore = Math.round((wpmScore + Math.max(0, 100 - longPauses * 10) + fillerScore) / 3);
+
+      recordScore("fluency", fluencyScore);
+      recordScore("accuracy", grammarScore !== null ? grammarScore : Math.round(sentenceStructureScore));
+
+      const fillerList = FILLER_WORDS.filter((w) => fillers.counts[w] > 0)
+        .map((w) => `${escapeHtml(w)} (${fillers.counts[w]})`).join(", ") || "none detected";
+
+      area.innerHTML = `
+        ${scoreBar("Grammar", grammarScore !== null ? Math.round(grammarScore) : null)}
+        ${scoreBar("Vocabulary", vocabularyScore)}
+        ${scoreBar("Filler Words", fillerScore)}
+        ${scoreBar("Confidence", confidenceScore)}
+        ${scoreBar("Sentence Structure", Math.round(sentenceStructureScore))}
+        ${scoreBar("Fluency", fluencyScore)}
+        ${grammarScore === null ? '<div style="font-size:12px;color:var(--text-muted);margin:6px 0 12px;">Log in (from the dashboard) to also get a real grammar score here.</div>' : ""}
+        <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Filler words used:</div>
+        <div style="margin-top:4px;">${fillerList}</div>
+        <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Speed: ${wpm} WPM</div>
+        <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">What you said:</div>
+        <div style="margin-top:4px;">${highlightFillers(attempt.transcript) || "<i>(nothing recognized)</i>"}</div>
+      `;
+    },
+  });
+}
+
+function renderFillerDetector(container, item) {
+  renderLongMicRound(container, {
+    promptHtml: `<div class="section-title" style="margin-top:0">Filler Word Detector</div>
+      <p style="margin:0 0 8px;font-size:13.5px;color:var(--text-muted);">Talk about anything you like for up to a minute - a hobby, your day, a plan. We'll flag your filler words.</p>`,
+    maxMs: item.durationMs,
+    onAnalyze: (attempt, area) => {
+      const fillers = countFillerWords(attempt.transcript);
+      const words = normalizeWords(attempt.transcript).length;
+      const perMinute = words ? Math.round((fillers.total / Math.max(attempt.durationMs, 1)) * 60000) : 0;
+
+      recordScore("fluency", Math.max(0, 100 - fillers.total * 8));
+
+      const breakdown = FILLER_WORDS
+        .map((w) => `<div style="display:flex;justify-content:space-between;padding:4px 0;"><span>${escapeHtml(w)}</span><b>${fillers.counts[w]}</b></div>`)
+        .join("");
+
+      area.innerHTML = `
+        <div class="feedback-box ${fillers.total <= 2 ? "correct" : "incorrect"}">
+          ${fillers.total === 0 ? "✅ No filler words detected - excellent!" : `You used <b>${fillers.total}</b> filler word${fillers.total === 1 ? "" : "s"} (about ${perMinute} per minute).`}
+        </div>
+        <div style="margin-top:12px;font-size:13px;color:var(--text-muted);">Breakdown:</div>
+        <div style="margin-top:4px;">${breakdown}</div>
+        <div style="margin-top:12px;font-size:13px;color:var(--text-muted);">What you said:</div>
+        <div style="margin-top:4px;">${highlightFillers(attempt.transcript) || "<i>(nothing recognized)</i>"}</div>
+        <div style="margin-top:14px;font-size:13px;font-weight:700;">Try joining words instead of fillers:</div>
+        <div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:6px;">${JOINING_WORD_SUGGESTIONS.map((w) => `<span class="tag">${escapeHtml(w)}</span>`).join("")}</div>
+        <div style="margin-top:14px;font-size:13px;font-weight:700;">Tips to pause instead of filling:</div>
+        <ul class="plain-list" style="margin-top:6px;">${PAUSE_AND_SPEED_TIPS.map((t) => `<li>${escapeHtml(t)}</li>`).join("")}</ul>
+      `;
+    },
+  });
+}
+
 /* ---------- Hub / navigation ---------- */
 
 function renderHub(container) {
@@ -745,7 +1081,8 @@ function renderHub(container) {
     `;
     card.onclick = () => {
       currentRoundKey = round.key;
-      if (round.key === "intonation") selectedEmotion = null;
+      selectedEmotion = null;
+      selectedTopic = null;
       renderRound(container);
     };
     container.appendChild(card);
@@ -767,7 +1104,8 @@ function renderRound(container) {
     const idx = ROUNDS.findIndex((r) => r.key === currentRoundKey);
     const next = ROUNDS[(idx + 1) % ROUNDS.length];
     currentRoundKey = next.key;
-    if (next.key === "intonation") selectedEmotion = null;
+    selectedEmotion = null;
+    selectedTopic = null;
     renderRound(container);
   };
   header.appendChild(backBtn);

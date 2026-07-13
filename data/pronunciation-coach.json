@@ -1,4 +1,42 @@
 {
+  "oneMinuteSpeech": {
+    "durationMs": 60000,
+    "topics": [
+      "The online education system",
+      "Your favourite place to travel",
+      "The impact of social media on society",
+      "A skill you want to learn",
+      "Your morning routine",
+      "The importance of teamwork",
+      "Climate change and what we can do",
+      "Your dream job",
+      "A book or movie that changed your perspective",
+      "The role of technology in daily life",
+      "Work-life balance",
+      "A memorable childhood experience",
+      "The benefits of regular exercise",
+      "Remote work vs office work",
+      "Your favourite hobby",
+      "The future of artificial intelligence",
+      "A challenge you overcame",
+      "The importance of saving money",
+      "Your favourite festival or celebration",
+      "The value of learning a new language",
+      "A person who inspires you",
+      "City life vs village life",
+      "The impact of smartphones on communication",
+      "Your favourite cuisine",
+      "The importance of mental health",
+      "A goal you're working towards this year",
+      "The pros and cons of social media",
+      "Your ideal vacation",
+      "The importance of good communication skills",
+      "Advice you would give your younger self"
+    ]
+  },
+  "fillerDetector": {
+    "durationMs": 60000
+  },
   "pause": [
     { "text": "After the meeting, we reviewed the report, and then we left." },
     { "text": "If you have time, please call me, or send an email." },

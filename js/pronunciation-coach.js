@@ -527,7 +527,7 @@ function itemsForRound(key) {
   if (key === "missingSound") return DATA.missingSound;
   if (key === "minimalPairs") return DATA.minimalPairs;
   if (key === "clarity") return SHADOWING.filter((s) => s.category === "Business" || s.category === "Everyday");
-  if (key === "intonation") return [DATA.intonation];
+  if (key === "intonation") return DATA.intonationSentences.map((sentence) => ({ sentence, emotions: DATA.intonationEmotions }));
   if (key === "oneMinuteSpeech") return [DATA.oneMinuteSpeech];
   if (key === "fillerDetector") return [DATA.fillerDetector];
   return [];

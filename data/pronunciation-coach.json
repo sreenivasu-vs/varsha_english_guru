@@ -47,7 +47,17 @@
     { "text": "When you're ready, let me know, and we'll begin." },
     { "text": "Honestly, I'm not sure, but I'll find out." },
     { "text": "Before you leave, please submit the form, and lock the door." },
-    { "text": "Overall, the project went well, despite a few delays." }
+    { "text": "Overall, the project went well, despite a few delays." },
+    { "text": "By the way, I finished the report, so we're on track." },
+    { "text": "To be fair, everyone made mistakes, not just you." },
+    { "text": "In the end, we chose the simpler option, and it worked well." },
+    { "text": "As you know, the client called, and they had questions." },
+    { "text": "Looking back, I should have asked, but I didn't." },
+    { "text": "Once you're done, save the file, and send it over." },
+    { "text": "Naturally, we were nervous, but things went fine." },
+    { "text": "In short, the meeting helped, and we're moving forward." },
+    { "text": "Given the circumstances, we did our best, and that's enough." },
+    { "text": "Frankly, I was surprised, but pleasantly so." }
   ],
   "stress": [
     { "word": "development", "syllables": ["de", "VEL", "op", "ment"], "stressIndex": 1 },
@@ -61,7 +71,19 @@
     { "word": "beautiful", "syllables": ["BEAU", "ti", "ful"], "stressIndex": 0 },
     { "word": "communication", "syllables": ["com", "mu", "ni", "CA", "tion"], "stressIndex": 3 },
     { "word": "necessary", "syllables": ["NEC", "es", "sar", "y"], "stressIndex": 0 },
-    { "word": "opportunity", "syllables": ["op", "por", "TU", "ni", "ty"], "stressIndex": 2 }
+    { "word": "opportunity", "syllables": ["op", "por", "TU", "ni", "ty"], "stressIndex": 2 },
+    { "word": "banana", "syllables": ["ba", "NA", "na"], "stressIndex": 1 },
+    { "word": "computer", "syllables": ["com", "PU", "ter"], "stressIndex": 1 },
+    { "word": "umbrella", "syllables": ["um", "BREL", "la"], "stressIndex": 1 },
+    { "word": "expensive", "syllables": ["ex", "PEN", "sive"], "stressIndex": 1 },
+    { "word": "vacation", "syllables": ["va", "CA", "tion"], "stressIndex": 1 },
+    { "word": "engineer", "syllables": ["en", "gi", "NEER"], "stressIndex": 2 },
+    { "word": "afternoon", "syllables": ["af", "ter", "NOON"], "stressIndex": 2 },
+    { "word": "kangaroo", "syllables": ["kan", "ga", "ROO"], "stressIndex": 2 },
+    { "word": "chocolate", "syllables": ["CHOC", "o", "late"], "stressIndex": 0 },
+    { "word": "family", "syllables": ["FAM", "i", "ly"], "stressIndex": 0 },
+    { "word": "hospital", "syllables": ["HOS", "pi", "tal"], "stressIndex": 0 },
+    { "word": "recommend", "syllables": ["rec", "om", "MEND"], "stressIndex": 2 }
   ],
   "speed": [
     {
@@ -75,6 +97,18 @@
     {
       "targetWpm": 120,
       "text": "Learning a new language takes patience, consistency, and a genuine willingness to make mistakes along the way. Many people give up too early because they expect to sound perfect within just a few weeks. In reality, real progress happens slowly, through daily practice, small conversations, and constant repetition. The learners who improve the fastest are usually the ones who keep speaking, even when they feel unsure, rather than waiting until they feel completely ready."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Smartphones have completely changed the way we communicate with each other. A decade ago, sending a quick message meant waiting until you got home to a computer, but now everything happens instantly, no matter where you are. This constant connection has real benefits, like staying in touch with family across the world, but it also comes with a cost. Many people find it harder to focus, disconnect, or simply enjoy a quiet moment without checking their phone every few minutes."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Eating a balanced diet is one of the simplest ways to improve your overall health, yet it's often the hardest habit to maintain. Between busy schedules and constant temptations, it's easy to reach for something quick instead of something nutritious. Small changes usually work better than drastic ones - adding more vegetables, drinking more water, or simply cooking at home a few extra times a week. Over time, these little adjustments add up to a noticeably healthier lifestyle."
+    },
+    {
+      "targetWpm": 120,
+      "text": "Preparing for a job interview can feel overwhelming, especially if it's been a while since your last one. The key is to research the company thoroughly, practice answering common questions out loud, and prepare a few thoughtful questions of your own to ask at the end. Confidence matters just as much as your answers, so try to relax, breathe, and remind yourself that the interviewer wants you to succeed just as much as you do. Preparation is what turns nervousness into genuine confidence."
     }
   ],
   "missingSound": [
@@ -87,7 +121,17 @@
     { "word": "probably", "commonMistake": "probly", "tip": "Say all three syllables: PROB-a-bly." },
     { "word": "vegetable", "commonMistake": "vegtable", "tip": "Say all four syllables: VEG-e-ta-ble." },
     { "word": "interesting", "commonMistake": "intresting", "tip": "Say all four syllables: IN-ter-est-ing." },
-    { "word": "sixths", "commonMistake": "siks", "tip": "A hard cluster - try to keep all four sounds: /s/ /ɪ/ /k/ /s/ /θ/ /s/." }
+    { "word": "sixths", "commonMistake": "siks", "tip": "A hard cluster - try to keep all four sounds: /s/ /ɪ/ /k/ /s/ /θ/ /s/." },
+    { "word": "world", "commonMistake": "wold", "tip": "Keep the r sound: wor-l-d, not \"wold\"." },
+    { "word": "government", "commonMistake": "govament", "tip": "Say all the syllables: GOV-ern-ment." },
+    { "word": "different", "commonMistake": "diffrent", "tip": "Say three syllables: DIF-fer-ent." },
+    { "word": "particularly", "commonMistake": "particuly", "tip": "Keep the middle syllables: par-TIC-u-lar-ly." },
+    { "word": "recognize", "commonMistake": "reconize", "tip": "Keep the g sound: REC-og-nize." },
+    { "word": "handbag", "commonMistake": "hanbag", "tip": "Keep the d sound before b: HAND-bag." },
+    { "word": "friendship", "commonMistake": "frenship", "tip": "Keep the d sound: FRIEND-ship." },
+    { "word": "sandwich", "commonMistake": "sanwich", "tip": "Keep the d sound: SAND-wich." },
+    { "word": "arctic", "commonMistake": "artic", "tip": "Keep both c sounds: ARC-tic, not \"artic\"." },
+    { "word": "quantity", "commonMistake": "quanity", "tip": "Keep the t sound: QUAN-ti-ty." }
   ],
   "minimalPairs": [
     { "a": "ship", "b": "sheep", "tip": "Short \"i\" (ship) vs long \"ee\" (sheep)." },
@@ -98,15 +142,31 @@
     { "a": "bed", "b": "bad", "tip": "\"eh\" (bed) vs \"ah\" (bad)." },
     { "a": "men", "b": "man", "tip": "\"eh\" (men) vs \"ah\" (man)." },
     { "a": "thin", "b": "then", "tip": "Voiceless \"th\" (thin) vs voiced \"th\" (then)." },
-    { "a": "very", "b": "berry", "tip": "\"v\" (very, top teeth on lip) vs \"b\" (berry, lips together)." }
+    { "a": "very", "b": "berry", "tip": "\"v\" (very, top teeth on lip) vs \"b\" (berry, lips together)." },
+    { "a": "cat", "b": "cut", "tip": "\"a\" (cat) vs \"u\" (cut)." },
+    { "a": "coat", "b": "cot", "tip": "Long \"oh\" (coat) vs short \"o\" (cot)." },
+    { "a": "walk", "b": "work", "tip": "\"aw\" (walk) vs \"er\" (work)." },
+    { "a": "chip", "b": "cheap", "tip": "Short \"i\" (chip) vs long \"ee\" (cheap)." },
+    { "a": "vest", "b": "west", "tip": "\"v\" (top teeth on lip) vs \"w\" (rounded lips, no teeth)." },
+    { "a": "rice", "b": "lice", "tip": "\"r\" (tongue doesn't touch the roof of your mouth) vs \"l\" (tongue touches the roof of your mouth)." },
+    { "a": "light", "b": "right", "tip": "\"l\" (tongue touches the roof of your mouth) vs \"r\" (tongue doesn't touch)." },
+    { "a": "sing", "b": "thing", "tip": "\"s\" (tongue behind your teeth) vs \"th\" (tongue between your teeth)." },
+    { "a": "free", "b": "three", "tip": "\"f\" (top teeth on lip) vs \"th\" (tongue between your teeth)." }
   ],
-  "intonation": {
-    "sentence": "I can't believe you did that.",
-    "emotions": [
-      { "id": "happy", "label": "😄 Happy", "hint": "Bright, bouncy pitch with a lot of up-and-down variation." },
-      { "id": "sad", "label": "😔 Sad", "hint": "Low, flat, and slow - not much pitch variation." },
-      { "id": "angry", "label": "😠 Angry", "hint": "Louder, sharper, with more force behind it." },
-      { "id": "surprised", "label": "😲 Surprised", "hint": "Pitch rises sharply, especially toward the end." }
-    ]
-  }
+  "intonationEmotions": [
+    { "id": "happy", "label": "😄 Happy", "hint": "Bright, bouncy pitch with a lot of up-and-down variation." },
+    { "id": "sad", "label": "😔 Sad", "hint": "Low, flat, and slow - not much pitch variation." },
+    { "id": "angry", "label": "😠 Angry", "hint": "Louder, sharper, with more force behind it." },
+    { "id": "surprised", "label": "😲 Surprised", "hint": "Pitch rises sharply, especially toward the end." }
+  ],
+  "intonationSentences": [
+    "I can't believe you did that.",
+    "You have got to be kidding me.",
+    "Well, that's certainly something.",
+    "I don't know what to say right now.",
+    "This is exactly what I needed today.",
+    "Wow, I did not see that coming.",
+    "That is the last thing I expected.",
+    "Honestly, I wasn't ready for this."
+  ]
 }

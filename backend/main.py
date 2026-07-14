@@ -1,13 +1,18 @@
 import os
 import random
 import re
+import secrets
+from html import escape
 from typing import List, Optional
 
 import httpx
 from dotenv import load_dotenv
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from pydantic import BaseModel
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 
 from database import Base, engine, get_db
@@ -16,6 +21,14 @@ from models import PracticeAttempt, User
 load_dotenv()
 
 LANGUAGETOOL_URL = os.getenv("LANGUAGETOOL_URL", "https://api.languagetool.org/v2/check")
+
+# Admin dashboard (see /admin below) - protected by HTTP Basic Auth rather
+# than the app's own username-only "login" (that system has no passwords at
+# all, so it can't gate anything sensitive). Requires ADMIN_PASSWORD to be
+# set; the route refuses to serve anything if it isn't, rather than falling
+# back to a guessable default.
+ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "admin")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 
 # Comma-separated list of allowed frontend origins, e.g.
 # "https://english-master.netlify.app,http://localhost:5173". Defaults to "*"
@@ -162,6 +175,60 @@ def build_summary(db: Session, user: User) -> dict:
             for a in attempts[:5]
         ],
     }
+
+
+_admin_security = HTTPBasic()
+
+
+def verify_admin(credentials: HTTPBasicCredentials = Depends(_admin_security)) -> bool:
+    if not ADMIN_PASSWORD:
+        raise HTTPException(status_code=503, detail="Admin panel is not configured (set ADMIN_PASSWORD on the server)")
+    # secrets.compare_digest to avoid leaking match-length via response timing.
+    is_valid_username = secrets.compare_digest(credentials.username, ADMIN_USERNAME)
+    is_valid_password = secrets.compare_digest(credentials.password, ADMIN_PASSWORD)
+    if not (is_valid_username and is_valid_password):
+        raise HTTPException(
+            status_code=401,
+            detail="Incorrect username or password",
+            headers={"WWW-Authenticate": "Basic"},
+        )
+    return True
+
+
+def admin_page(title: str, body: str) -> str:
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>{escape(title)} - English Master Admin</title>
+<style>
+  body {{ margin:0; padding:32px 20px 60px; background:#f5f6fc; color:#1c1e29; font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif; }}
+  .wrap {{ max-width:960px; margin:0 auto; }}
+  h1 {{ font-size:22px; margin:0 0 4px; }}
+  .sub {{ color:#666c7c; font-size:14px; margin:0 0 24px; }}
+  a {{ color:#4f46e5; text-decoration:none; }}
+  a:hover {{ text-decoration:underline; }}
+  .stats-row {{ display:flex; gap:12px; margin-bottom:24px; flex-wrap:wrap; }}
+  .stat {{ background:#fff; border:1px solid #e2e4ec; border-radius:12px; padding:14px 18px; flex:1 1 140px; }}
+  .stat .n {{ font-size:22px; font-weight:800; }}
+  .stat .l {{ font-size:12px; color:#666c7c; }}
+  table {{ width:100%; border-collapse:collapse; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 10px rgba(20,20,40,.06); }}
+  th, td {{ text-align:left; padding:10px 14px; border-bottom:1px solid #e2e4ec; font-size:14px; }}
+  th {{ background:#eef0f7; font-size:12px; text-transform:uppercase; letter-spacing:.03em; color:#666c7c; }}
+  tr:last-child td {{ border-bottom:none; }}
+  .muted {{ color:#666c7c; }}
+  .back {{ display:inline-block; margin-bottom:16px; font-size:14px; }}
+  .mono {{ font-family:ui-monospace,Consolas,monospace; font-size:13px; }}
+</style>
+</head>
+<body>
+<div class="wrap">
+{body}
+</div>
+</body>
+</html>"""
 
 
 # ---------- routes ----------
@@ -327,3 +394,88 @@ def get_history(username: str, db: Session = Depends(get_db)):
         }
         for a in attempts
     ]
+
+
+@app.get("/admin", response_class=HTMLResponse)
+def admin_dashboard(db: Session = Depends(get_db), _: bool = Depends(verify_admin)):
+    """A small server-rendered admin view - not part of the Netlify frontend
+    at all, so it needs no CORS configuration and no frontend changes: just
+    open https://<this-backend>/admin directly and log in with
+    ADMIN_USERNAME/ADMIN_PASSWORD (HTTP Basic Auth, browser-native prompt)."""
+    users = db.query(User).order_by(User.created_at.desc()).all()
+    total_attempts = db.query(PracticeAttempt).count()
+
+    stats_by_user = {
+        row.user_id: row
+        for row in db.query(
+            PracticeAttempt.user_id,
+            func.count(PracticeAttempt.id).label("total"),
+            func.avg(PracticeAttempt.issues_found).label("avg_issues"),
+            func.max(PracticeAttempt.created_at).label("last_at"),
+        ).group_by(PracticeAttempt.user_id)
+    }
+
+    rows = ""
+    for u in users:
+        s = stats_by_user.get(u.id)
+        total = s.total if s else 0
+        avg_issues = round(s.avg_issues, 1) if s and s.avg_issues is not None else "-"
+        last_at = s.last_at.strftime("%Y-%m-%d %H:%M") if s and s.last_at else "-"
+        rows += f"""
+        <tr>
+          <td>{u.id}</td>
+          <td><a href="/admin/user/{escape(u.username)}">{escape(u.username)}</a></td>
+          <td class="muted">{u.created_at.strftime("%Y-%m-%d %H:%M") if u.created_at else "-"}</td>
+          <td>{total}</td>
+          <td>{avg_issues}</td>
+          <td class="muted">{last_at}</td>
+        </tr>"""
+
+    body = f"""
+      <h1>English Master - Admin</h1>
+      <p class="sub">All registered accounts and their Speaking Practice / grammar-check activity.</p>
+      <div class="stats-row">
+        <div class="stat"><div class="n">{len(users)}</div><div class="l">Registered users</div></div>
+        <div class="stat"><div class="n">{total_attempts}</div><div class="l">Total practice attempts</div></div>
+      </div>
+      <table>
+        <tr><th>ID</th><th>Username</th><th>Joined</th><th>Attempts</th><th>Avg Issues</th><th>Last Practice</th></tr>
+        {rows or '<tr><td colspan="6" class="muted">No users yet.</td></tr>'}
+      </table>
+    """
+    return HTMLResponse(admin_page("Dashboard", body))
+
+
+@app.get("/admin/user/{username}", response_class=HTMLResponse)
+def admin_user_detail(username: str, db: Session = Depends(get_db), _: bool = Depends(verify_admin)):
+    user = find_user(db, username)
+    if not user:
+        return HTMLResponse(admin_page("Not found", '<a class="back" href="/admin">&larr; Back to all users</a><p>No user with that username.</p>'), status_code=404)
+
+    attempts = (
+        db.query(PracticeAttempt)
+        .filter(PracticeAttempt.user_id == user.id)
+        .order_by(PracticeAttempt.created_at.desc())
+        .all()
+    )
+
+    rows = ""
+    for a in attempts:
+        rows += f"""
+        <tr>
+          <td class="muted">{a.created_at.strftime("%Y-%m-%d %H:%M") if a.created_at else "-"}</td>
+          <td class="mono">{escape(a.original_text)}</td>
+          <td class="mono">{escape(a.corrected_text)}</td>
+          <td>{a.issues_found}</td>
+        </tr>"""
+
+    body = f"""
+      <a class="back" href="/admin">&larr; Back to all users</a>
+      <h1>{escape(user.username)}</h1>
+      <p class="sub">User #{user.id} · joined {user.created_at.strftime("%Y-%m-%d %H:%M") if user.created_at else "-"} · {len(attempts)} practice attempt{"s" if len(attempts) != 1 else ""}</p>
+      <table>
+        <tr><th>When</th><th>Said</th><th>Corrected</th><th>Issues</th></tr>
+        {rows or '<tr><td colspan="4" class="muted">No practice attempts yet.</td></tr>'}
+      </table>
+    """
+    return HTMLResponse(admin_page(user.username, body))

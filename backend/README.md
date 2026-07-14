@@ -61,6 +61,30 @@ for local testing.)
 - `GET /api/users/{username}/summary` - practice stats (total attempts, average issues, recent attempts)
 - `POST /api/check` - `{ username, text }` - grammar-checks a sentence, saves the attempt, returns corrections
 - `GET /api/history/{username}` - last 20 practice attempts for that user
+- `GET /admin` - server-rendered admin dashboard (see below)
+- `GET /admin/user/{username}` - that user's full practice history
+
+## Admin dashboard
+
+`/admin` lists every registered user (joined date, attempt count, average
+grammar issues, last-practice time), and clicking a username drills into
+their full attempt history. It's a plain server-rendered page on the
+**backend itself** - not part of the Netlify frontend - so there's nothing
+to deploy on Netlify and no CORS configuration involved: just open
+`https://<your-backend-domain>/admin` directly in a browser.
+
+It's protected by HTTP Basic Auth (the browser will show its own native
+login prompt). Set these in `.env` locally and as environment variables on
+Render for the deployed backend:
+
+```
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=choose-a-real-password-here
+```
+
+If `ADMIN_PASSWORD` isn't set, `/admin` returns a `503` rather than falling
+back to a guessable default - it's disabled by default until you configure
+a real password.
 
 ## Swapping to self-hosted LanguageTool later
 

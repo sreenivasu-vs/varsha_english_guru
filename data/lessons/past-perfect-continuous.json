@@ -2,6 +2,7 @@
   "level": 3,
   "module": "Past Tenses",
   "title": "Past Perfect Continuous",
+  "tenseKey": "pastPerfectContinuous",
   "definition": "The Past Perfect Continuous tense emphasizes the duration of an action that was ongoing before another past action or time.",
   "formula": "Subject + had + been + V-ing + Object",
   "structure": {
@@ -11,7 +12,12 @@
     "whQuestion": "How long had you been working there before you resigned?"
   },
   "usage": "Use Past Perfect Continuous to emphasize how long an action had been happening before another past event (She had been studying for three hours before the exam started), and to explain the cause of a past situation (He was tired because he had been running).",
-  "signalWords": ["for", "since", "how long", "before"],
+  "signalWords": [
+    "for",
+    "since",
+    "how long",
+    "before"
+  ],
   "examples": [
     "She had been studying for three hours before the exam started.",
     "He was tired because he had been running.",
@@ -22,19 +28,70 @@
     "How long had she been waiting before you called?"
   ],
   "dailyConversation": [
-    { "speaker": "A", "line": "Why was he so tired?" },
-    { "speaker": "B", "line": "He had been working overtime all week." },
-    { "speaker": "A", "line": "How long had you been waiting before the bus came?" },
-    { "speaker": "B", "line": "I had been waiting for almost an hour." }
+    {
+      "speaker": "A",
+      "line": "Why was he so tired?"
+    },
+    {
+      "speaker": "B",
+      "line": "He had been working overtime all week."
+    },
+    {
+      "speaker": "A",
+      "line": "How long had you been waiting before the bus came?"
+    },
+    {
+      "speaker": "B",
+      "line": "I had been waiting for almost an hour."
+    }
   ],
   "commonMistakes": [
-    { "wrong": "I had been know her for years.", "right": "I had known her for years.", "why": "State verbs like 'know' don't take continuous forms; use Past Perfect simple instead." },
-    { "wrong": "She had been study before the test.", "right": "She had been studying before the test.", "why": "Use V-ing after 'had been', not the base verb." },
-    { "wrong": "He was working there since 2010 before he left.", "right": "He had been working there since 2010 before he left.", "why": "Use Past Perfect Continuous, not Past Continuous, for duration before another past event." }
+    {
+      "wrong": "I had been know her for years.",
+      "right": "I had known her for years.",
+      "why": "State verbs like 'know' don't take continuous forms; use Past Perfect simple instead."
+    },
+    {
+      "wrong": "She had been study before the test.",
+      "right": "She had been studying before the test.",
+      "why": "Use V-ing after 'had been', not the base verb."
+    },
+    {
+      "wrong": "He was working there since 2010 before he left.",
+      "right": "He had been working there since 2010 before he left.",
+      "why": "Use Past Perfect Continuous, not Past Continuous, for duration before another past event."
+    }
   ],
   "quiz": [
-    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["I had been waiting for an hour.", "I had waiting for an hour.", "I have been waiting for an hour before.", "I was been waiting for an hour."], "answer": "I had been waiting for an hour.", "explanation": "Formula: had + been + V-ing." },
-    { "type": "fill", "question": "She ___ (study) for hours before the test began.", "answer": "had been studying", "explanation": "Emphasizes duration before a past event." },
-    { "type": "mcq", "question": "Which situation best fits Past Perfect Continuous?", "options": ["A single completed past action", "Duration of an action before another past event", "An action happening right now", "A future plan"], "answer": "Duration of an action before another past event", "explanation": "This tense highlights how long something had been happening before a past point." }
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "I had been waiting for an hour.",
+        "I had waiting for an hour.",
+        "I have been waiting for an hour before.",
+        "I was been waiting for an hour."
+      ],
+      "answer": "I had been waiting for an hour.",
+      "explanation": "Formula: had + been + V-ing."
+    },
+    {
+      "type": "fill",
+      "question": "She ___ (study) for hours before the test began.",
+      "answer": "had been studying",
+      "explanation": "Emphasizes duration before a past event."
+    },
+    {
+      "type": "mcq",
+      "question": "Which situation best fits Past Perfect Continuous?",
+      "options": [
+        "A single completed past action",
+        "Duration of an action before another past event",
+        "An action happening right now",
+        "A future plan"
+      ],
+      "answer": "Duration of an action before another past event",
+      "explanation": "This tense highlights how long something had been happening before a past point."
+    }
   ]
 }

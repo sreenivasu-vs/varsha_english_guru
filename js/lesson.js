@@ -31,6 +31,12 @@ function el(tag, className, html) {
   return e;
 }
 
+function escapeHtml(str) {
+  const d = document.createElement("div");
+  d.textContent = str;
+  return d.innerHTML;
+}
+
 function speakButton(text) {
   const btn = el("button", "speak-btn", "🔊");
   btn.onclick = () => speak(text);
@@ -148,6 +154,297 @@ function section(title) {
   return el("div", "section-title", title);
 }
 
+/* ---------- Tense practice: "build your own sentence" ----------
+   Given a subject (pronoun or noun) + a verb (from the existing 50-verb
+   Verb Mastery Bank, reusing its V1-V5 forms - no new verb content
+   authored), the user writes a full sentence in the tense the lesson is
+   teaching. Checked deterministically against the exact grammatical
+   pattern for that tense/subject/verb combination - not a general grammar
+   checker, since the point here is specifically "did you form THIS tense
+   correctly", which a generic checker can't judge (a grammatically valid
+   sentence in the wrong tense would pass a generic check but fail this
+   exercise). If the phrase doesn't match, the checker also tries the other
+   11 tense patterns for the same subject/verb - a very common mistake is
+   forming a different, equally "correct" tense by accident - to give a
+   precise "that's actually X, not Y" explanation instead of a generic
+   "wrong" message. */
+
+const TENSE_SUBJECTS = [
+  { text: "I", thirdSg: false, be: "am", bePast: "was", have: "have" },
+  { text: "You", thirdSg: false, be: "are", bePast: "were", have: "have" },
+  { text: "He", thirdSg: true, be: "is", bePast: "was", have: "has" },
+  { text: "She", thirdSg: true, be: "is", bePast: "was", have: "has" },
+  { text: "It", thirdSg: true, be: "is", bePast: "was", have: "has" },
+  { text: "We", thirdSg: false, be: "are", bePast: "were", have: "have" },
+  { text: "They", thirdSg: false, be: "are", bePast: "were", have: "have" },
+  { text: "The teacher", thirdSg: true, be: "is", bePast: "was", have: "has" },
+  { text: "My friend", thirdSg: true, be: "is", bePast: "was", have: "has" },
+  { text: "The students", thirdSg: false, be: "are", bePast: "were", have: "have" },
+  { text: "My parents", thirdSg: false, be: "are", bePast: "were", have: "have" },
+  { text: "Ravi", thirdSg: true, be: "is", bePast: "was", have: "has" },
+];
+
+const TENSE_INFO = {
+  presentSimple: {
+    label: "Present Simple",
+    formula: "Subject + V1 (+s/es for he/she/it)",
+    conjugate: (s, v) => (s.thirdSg ? v.v5 : v.v1),
+    tips: [
+      "Add -s or -es to the verb when the subject is he/she/it or a singular noun (works, watches, goes).",
+      "Everyone else (I/you/we/they, or plural nouns) just uses the base verb (work, watch, go).",
+    ],
+  },
+  presentContinuous: {
+    label: "Present Continuous",
+    formula: "Subject + am/is/are + V-ing",
+    conjugate: (s, v) => `${s.be} ${v.v4}`,
+    tips: [
+      "Use am with I, is with he/she/it, are with everyone else.",
+      "The main verb always ends in -ing, no matter the subject.",
+    ],
+  },
+  presentPerfect: {
+    label: "Present Perfect",
+    formula: "Subject + has/have + V3",
+    conjugate: (s, v) => `${s.have} ${v.v3}`,
+    tips: [
+      "Use has with he/she/it, have with everyone else.",
+      "The main verb must be the past participle (V3) - regular verbs add -ed, but many common verbs are irregular (go → gone, write → written).",
+    ],
+  },
+  presentPerfectContinuous: {
+    label: "Present Perfect Continuous",
+    formula: "Subject + has/have + been + V-ing",
+    conjugate: (s, v) => `${s.have} been ${v.v4}`,
+    tips: [
+      "The structure is always [has/have] + been + verb-ing - \"been\" never changes.",
+      "Use has been with he/she/it, have been with everyone else.",
+    ],
+  },
+  pastSimple: {
+    label: "Past Simple",
+    formula: "Subject + V2",
+    conjugate: (s, v) => v.v2,
+    tips: [
+      "The past form (V2) is the same for every subject - no -s, no am/is/are.",
+      "Regular verbs add -ed (worked), but many common verbs are irregular (go → went, write → wrote).",
+    ],
+  },
+  pastContinuous: {
+    label: "Past Continuous",
+    formula: "Subject + was/were + V-ing",
+    conjugate: (s, v) => `${s.bePast} ${v.v4}`,
+    tips: [
+      "Use was with I/he/she/it, were with you/we/they.",
+      "The main verb always ends in -ing.",
+    ],
+  },
+  pastPerfect: {
+    label: "Past Perfect",
+    formula: "Subject + had + V3",
+    conjugate: (s, v) => `had ${v.v3}`,
+    tips: [
+      "Always had + past participle (V3) - \"had\" is the same for every subject.",
+      "Past Perfect describes something that happened before another past action.",
+    ],
+  },
+  pastPerfectContinuous: {
+    label: "Past Perfect Continuous",
+    formula: "Subject + had + been + V-ing",
+    conjugate: (s, v) => `had been ${v.v4}`,
+    tips: ["The structure is always had been + verb-ing, no matter the subject."],
+  },
+  futureSimple: {
+    label: "Future Simple",
+    formula: "Subject + will + V1",
+    conjugate: (s, v) => `will ${v.v1}`,
+    tips: ["\"Will\" never changes with the subject - will + base verb (V1)."],
+  },
+  futureContinuous: {
+    label: "Future Continuous",
+    formula: "Subject + will be + V-ing",
+    conjugate: (s, v) => `will be ${v.v4}`,
+    tips: ["will be + verb-ing, the same for every subject."],
+  },
+  futurePerfect: {
+    label: "Future Perfect",
+    formula: "Subject + will have + V3",
+    conjugate: (s, v) => `will have ${v.v3}`,
+    tips: ["will have + past participle (V3), the same for every subject."],
+  },
+  futurePerfectContinuous: {
+    label: "Future Perfect Continuous",
+    formula: "Subject + will have been + V-ing",
+    conjugate: (s, v) => `will have been ${v.v4}`,
+    tips: ["will have been + verb-ing - the longest chain, but nothing changes with the subject."],
+  },
+};
+
+function normalizeSentenceWords(text) {
+  return text.toLowerCase().replace(/[^a-z0-9' ]+/g, " ").split(/\s+/).filter(Boolean);
+}
+
+function containsSubsequence(haystack, needle) {
+  for (let i = 0; i <= haystack.length - needle.length; i++) {
+    if (needle.every((w, j) => haystack[i + j] === w)) return true;
+  }
+  return false;
+}
+
+function checkTensePractice(userText, subject, verb, tenseKey) {
+  const info = TENSE_INFO[tenseKey];
+  const expectedPhrase = info.conjugate(subject, verb);
+  const expectedSentence = `${subject.text} ${expectedPhrase}.`;
+
+  if (!userText.trim()) {
+    return { correct: false, expectedSentence, message: "Type a sentence first." };
+  }
+
+  const userWords = normalizeSentenceWords(userText);
+  const subjectWords = normalizeSentenceWords(subject.text);
+  const startsWithSubject = subjectWords.every((w, i) => userWords[i] === w);
+
+  if (!startsWithSubject) {
+    return {
+      correct: false,
+      expectedSentence,
+      message: `Start your sentence with "${subject.text}" - that's the subject you were given.`,
+    };
+  }
+
+  if (containsSubsequence(userWords, expectedPhrase.split(" "))) {
+    return { correct: true, expectedSentence, message: `Correct ${info.label} sentence!` };
+  }
+
+  // Very common mistake: forgetting -s/-es for a third-person-singular subject.
+  if (tenseKey === "presentSimple" && subject.thirdSg && containsSubsequence(userWords, [verb.v1])) {
+    return {
+      correct: false,
+      expectedSentence,
+      message: `You wrote "${verb.v1}", but "${subject.text}" is third-person singular (he/she/it) - add -s/-es: "${verb.v5}".`,
+    };
+  }
+
+  // Did they accidentally form a different (also valid) tense instead? Check
+  // longer/more specific patterns first - a short one-word pattern (e.g.
+  // Present Simple's bare verb) would otherwise "match" trivially any time
+  // the verb appears at all, even inside a longer, more specific pattern the
+  // user actually attempted (e.g. Future Simple's "will write" also contains
+  // the word "write").
+  const otherTenses = Object.entries(TENSE_INFO)
+    .filter(([key]) => key !== tenseKey)
+    .map(([key, otherInfo]) => ({ key, otherInfo, otherPhrase: otherInfo.conjugate(subject, verb) }))
+    .filter(({ otherPhrase }) => otherPhrase !== expectedPhrase)
+    .sort((a, b) => b.otherPhrase.split(" ").length - a.otherPhrase.split(" ").length);
+
+  for (const { otherInfo, otherPhrase } of otherTenses) {
+    if (containsSubsequence(userWords, otherPhrase.split(" "))) {
+      return {
+        correct: false,
+        expectedSentence,
+        message: `That's actually ${otherInfo.label} ("${otherPhrase}"). For ${info.label}, you need: "${expectedPhrase}".`,
+      };
+    }
+  }
+
+  // Did they use some form of the verb, just not the one this tense needs?
+  const verbForms = [verb.v1, verb.v2, verb.v3, verb.v4, verb.v5];
+  const usedForm = verbForms.find((f) => userWords.includes(f));
+  if (usedForm) {
+    return {
+      correct: false,
+      expectedSentence,
+      message: `You used "${usedForm}", but for ${info.label} the correct form here is "${expectedPhrase}".`,
+    };
+  }
+
+  return {
+    correct: false,
+    expectedSentence,
+    message: `Your sentence doesn't seem to use "${verb.v1}" correctly for ${info.label}. Formula: ${info.formula}.`,
+  };
+}
+
+function renderTensePractice(container, lesson) {
+  const info = TENSE_INFO[lesson.tenseKey];
+  if (!info) return;
+
+  container.appendChild(section("Practice: Build Your Own Sentence"));
+  const card = el("div", "card");
+  card.innerHTML = `<p style="margin:0 0 12px;color:var(--text-muted);font-size:14.5px;">You'll get a subject and a verb - write a full ${escapeHtml(info.label)} sentence using them.</p>`;
+
+  const promptArea = el("div");
+  promptArea.style.cssText = "text-align:center;margin:10px 0 16px;";
+  card.appendChild(promptArea);
+
+  const input = el("textarea", "text-input", "");
+  input.rows = 2;
+  input.placeholder = "Write your sentence here...";
+  card.appendChild(input);
+
+  const checkBtn = el("button", "btn block", "Check Sentence");
+  checkBtn.style.marginTop = "8px";
+  card.appendChild(checkBtn);
+
+  const tryAnotherBtn = el("button", "btn secondary block", "🔀 Try Another Subject/Verb");
+  tryAnotherBtn.style.marginTop = "8px";
+  card.appendChild(tryAnotherBtn);
+
+  const resultArea = el("div");
+  resultArea.style.marginTop = "14px";
+  card.appendChild(resultArea);
+  container.appendChild(card);
+
+  let verbs = [];
+  let currentSubject = null;
+  let currentVerb = null;
+
+  function pickPair() {
+    let subject, verb;
+    do {
+      subject = TENSE_SUBJECTS[Math.floor(Math.random() * TENSE_SUBJECTS.length)];
+      verb = verbs[Math.floor(Math.random() * verbs.length)];
+    } while (subject === currentSubject && verb === currentVerb && (TENSE_SUBJECTS.length > 1 || verbs.length > 1));
+    currentSubject = subject;
+    currentVerb = verb;
+    promptArea.innerHTML = `
+      <div style="font-size:13px;color:var(--text-muted);margin-bottom:4px;">Subject / Noun</div>
+      <div style="font-size:22px;font-weight:800;color:var(--primary);">${escapeHtml(subject.text)}</div>
+      <div style="font-size:13px;color:var(--text-muted);margin:10px 0 4px;">Verb</div>
+      <div style="font-size:20px;font-weight:800;">${escapeHtml(verb.v1)}</div>
+    `;
+    input.value = "";
+    resultArea.innerHTML = "";
+  }
+
+  checkBtn.onclick = () => {
+    const result = checkTensePractice(input.value, currentSubject, currentVerb, lesson.tenseKey);
+    const tipsHtml = info.tips.map((t) => `<li>${escapeHtml(t)}</li>`).join("");
+    resultArea.innerHTML = `
+      <div style="font-size:13px;color:var(--text-muted);">You wrote:</div>
+      <div style="margin:4px 0 10px;">${escapeHtml(input.value) || "<i>(empty)</i>"}</div>
+      <div class="feedback-box ${result.correct ? "correct" : "incorrect"}">${result.correct ? "✅" : "✘"} ${escapeHtml(result.message)}</div>
+      <div style="margin-top:10px;font-size:13px;color:var(--text-muted);">Model sentence:</div>
+      <div id="tenseModelSentence" style="margin-top:4px;font-weight:700;color:var(--accent);">${escapeHtml(result.expectedSentence)}</div>
+      <div style="margin-top:12px;font-size:13px;font-weight:700;">Tips &amp; Tricks:</div>
+      <ul class="plain-list" style="margin-top:6px;">${tipsHtml}</ul>
+    `;
+    resultArea.querySelector("#tenseModelSentence").appendChild(speakButton(result.expectedSentence));
+  };
+
+  tryAnotherBtn.onclick = () => pickPair();
+
+  fetch("../data/verbs.json")
+    .then((r) => r.json())
+    .then((data) => {
+      verbs = data;
+      pickPair();
+    })
+    .catch(() => {
+      promptArea.innerHTML = `<div class="empty-state">Couldn't load verbs for practice.</div>`;
+    });
+}
+
 function renderLessonContent(container, lesson) {
   container.innerHTML = "";
 
@@ -245,6 +542,10 @@ function renderLessonContent(container, lesson) {
   if (lesson.commonMistakes && lesson.commonMistakes.length) {
     container.appendChild(section("Common Mistakes"));
     container.appendChild(renderMistakes(lesson.commonMistakes));
+  }
+
+  if (lesson.tenseKey) {
+    renderTensePractice(container, lesson);
   }
 
   if (lesson.quiz && lesson.quiz.length) {

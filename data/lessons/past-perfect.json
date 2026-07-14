@@ -2,6 +2,7 @@
   "level": 3,
   "module": "Past Tenses",
   "title": "Past Perfect",
+  "tenseKey": "pastPerfect",
   "definition": "The Past Perfect tense shows that one past action happened before another past action — the 'earlier past'.",
   "formula": "Subject + had + V3 (past participle) + Object",
   "structure": {
@@ -11,7 +12,15 @@
     "whQuestion": "What had you finished before she arrived?"
   },
   "usage": "Use Past Perfect to show which of two past actions happened first (The train had left before we reached the station), and to describe a past action completed before another past time reference (By 2015, he had already finished college).",
-  "signalWords": ["before", "after", "by the time", "already", "just", "never", "when"],
+  "signalWords": [
+    "before",
+    "after",
+    "by the time",
+    "already",
+    "just",
+    "never",
+    "when"
+  ],
   "examples": [
     "The train had already left when we reached the station.",
     "She had finished her homework before dinner.",
@@ -22,20 +31,76 @@
     "We had just sat down when the phone rang."
   ],
   "dailyConversation": [
-    { "speaker": "A", "line": "Had you finished the report before the meeting?" },
-    { "speaker": "B", "line": "Yes, I had finished it the night before." },
-    { "speaker": "A", "line": "Was he there when you arrived?" },
-    { "speaker": "B", "line": "No, he had already left by then." }
+    {
+      "speaker": "A",
+      "line": "Had you finished the report before the meeting?"
+    },
+    {
+      "speaker": "B",
+      "line": "Yes, I had finished it the night before."
+    },
+    {
+      "speaker": "A",
+      "line": "Was he there when you arrived?"
+    },
+    {
+      "speaker": "B",
+      "line": "No, he had already left by then."
+    }
   ],
   "commonMistakes": [
-    { "wrong": "I had went there before.", "right": "I had gone there before.", "why": "Use the past participle (V3) 'gone' after 'had', not the past simple form 'went'." },
-    { "wrong": "When I arrived, she left.", "right": "When I arrived, she had left.", "why": "Use Past Perfect to show the leaving happened before the arriving." },
-    { "wrong": "She had ate lunch already.", "right": "She had eaten lunch already.", "why": "Use the past participle 'eaten', not 'ate', after 'had'." }
+    {
+      "wrong": "I had went there before.",
+      "right": "I had gone there before.",
+      "why": "Use the past participle (V3) 'gone' after 'had', not the past simple form 'went'."
+    },
+    {
+      "wrong": "When I arrived, she left.",
+      "right": "When I arrived, she had left.",
+      "why": "Use Past Perfect to show the leaving happened before the arriving."
+    },
+    {
+      "wrong": "She had ate lunch already.",
+      "right": "She had eaten lunch already.",
+      "why": "Use the past participle 'eaten', not 'ate', after 'had'."
+    }
   ],
   "quiz": [
-    { "type": "mcq", "question": "Choose the correct sentence:", "options": ["The train had leave before we arrived.", "The train had left before we arrived.", "The train has left before we arrived.", "The train left had before we arrived."], "answer": "The train had left before we arrived.", "explanation": "Formula: had + V3, for the earlier of two past actions." },
-    { "type": "fill", "question": "By the time she called, I ___ (leave) already.", "answer": "had left", "explanation": "The leaving happened before the calling, so use Past Perfect." },
-    { "type": "mcq", "question": "Which shows the correct order using Past Perfect?", "options": ["I had eaten before he arrived.", "I ate before he had arrived.", "I have eaten before he arrived.", "I eating before he arrived."], "answer": "I had eaten before he arrived.", "explanation": "The earlier action (eating) uses Past Perfect; the later action uses Past Simple." },
-    { "type": "error", "sentence": "She had ate dinner before we came.", "correction": "She had eaten dinner before we came.", "explanation": "Use the past participle 'eaten' after 'had'." }
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "The train had leave before we arrived.",
+        "The train had left before we arrived.",
+        "The train has left before we arrived.",
+        "The train left had before we arrived."
+      ],
+      "answer": "The train had left before we arrived.",
+      "explanation": "Formula: had + V3, for the earlier of two past actions."
+    },
+    {
+      "type": "fill",
+      "question": "By the time she called, I ___ (leave) already.",
+      "answer": "had left",
+      "explanation": "The leaving happened before the calling, so use Past Perfect."
+    },
+    {
+      "type": "mcq",
+      "question": "Which shows the correct order using Past Perfect?",
+      "options": [
+        "I had eaten before he arrived.",
+        "I ate before he had arrived.",
+        "I have eaten before he arrived.",
+        "I eating before he arrived."
+      ],
+      "answer": "I had eaten before he arrived.",
+      "explanation": "The earlier action (eating) uses Past Perfect; the later action uses Past Simple."
+    },
+    {
+      "type": "error",
+      "sentence": "She had ate dinner before we came.",
+      "correction": "She had eaten dinner before we came.",
+      "explanation": "Use the past participle 'eaten' after 'had'."
+    }
   ]
 }

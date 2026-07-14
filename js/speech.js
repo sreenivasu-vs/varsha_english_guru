@@ -65,7 +65,12 @@ function speak(text, lang = "en-GB") {
   utter.lang = lang;
   const voice = pickVoice(lang);
   if (voice) utter.voice = voice;
-  utter.rate = 0.95;
+  // Rate deliberately a notch below native conversational pace (1.0) - for
+  // a learning app this trades a little naturalness for a real comprehension
+  // win, especially in shadowing/pronunciation practice where every word
+  // needs to land clearly. Pitch stays neutral (an artificially raised/
+  // lowered pitch reads as robotic, not "clearer"); volume stays at max.
+  utter.rate = 0.9;
   utter.volume = 1;
   utter.pitch = 1;
   window.speechSynthesis.speak(utter);

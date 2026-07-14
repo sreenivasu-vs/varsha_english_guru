@@ -13,8 +13,12 @@
    device/browser, instead of whichever the platform lists first. There's no
    way to guarantee a specific assistant-grade voice (that requires a paid
    cloud TTS API and a backend to call it from) - this gets the best of what
-   the browser already offers for free. */
+   the browser already offers for free.
 
+   Preference order: a male-sounding UK voice first (matched by name, since
+   SpeechSynthesisVoice has no real gender field - "Ryan"/"George"/"Daniel"/
+   "Male" etc. are the actual voice names browsers/OSes ship), then quality
+   (natural/neural > cloud > legacy) as the tiebreaker within that. */
 let cachedVoice = null;
 let cachedVoiceLang = null;
 
@@ -24,12 +28,17 @@ if ("speechSynthesis" in window) {
   };
 }
 
+const MALE_VOICE_HINTS = /\b(male|george|ryan|daniel|arthur|james|oliver|thomas|william|henry|guy|alfie|charlie|liam|jack)\b/i;
+const FEMALE_VOICE_HINTS = /\b(female|hazel|susan|sonia|libby|kate|serena|emma|amy|joanna|salli|olivia|zira|fiona|moira)\b/i;
+
 function scoreVoice(voice) {
   const name = voice.name.toLowerCase();
   let score = 0;
   if (/natural|neural|online|enhanced|premium/.test(name)) score += 100;
   else if (/google/.test(name)) score += 40;
   if (voice.localService === false) score += 20;
+  if (MALE_VOICE_HINTS.test(name)) score += 200;
+  else if (FEMALE_VOICE_HINTS.test(name)) score -= 50;
   return score;
 }
 

@@ -7579,5 +7579,2299 @@
       "present": "I watch a movie every weekend.",
       "future": "I will watch a movie tomorrow."
     }
+  },
+  {
+    "verb": "Bring",
+    "telugu": "తీసుకురా (tīsukurā)",
+    "v1": "bring",
+    "v2": "brought",
+    "v3": "brought",
+    "v4": "bringing",
+    "v5": "brings",
+    "pronunciation": "/brɪŋ/ (rhymes with 'sing')",
+    "definition": "To carry or take something or someone to a place, or with you to a place.",
+    "commonUses": [
+      "Carrying an item to a location",
+      "Asking someone to bring something along",
+      "Bringing about change or results",
+      "Bringing up a topic in conversation"
+    ],
+    "beginnerSentences": [
+      "Please bring your umbrella tomorrow.",
+      "She brings her lunch to work every day.",
+      "Can you bring me a glass of water?",
+      "He brought flowers for his mother.",
+      "They have brought all the documents.",
+      "I am bringing my laptop to the meeting.",
+      "Did you bring your ID card?",
+      "We brought some snacks for the trip.",
+      "My friend always brings good ideas.",
+      "What did you bring for the party?"
+    ],
+    "intermediateSentences": [
+      "The new manager has brought a lot of positive changes to the team.",
+      "Her hard work finally brought the results she deserved.",
+      "The rain brought some relief from the summer heat.",
+      "He brought up an interesting point during the discussion.",
+      "The company's new policy brought mixed reactions from employees.",
+      "I didn't mean to bring back painful memories.",
+      "The merger brought both companies closer together.",
+      "She brought a fresh perspective to the project.",
+      "This decision could bring serious consequences later.",
+      "The news brought a smile to everyone's face."
+    ],
+    "businessSentences": [
+      "Let's bring this discussion to a close for today.",
+      "The client meeting brought some unexpected requirements.",
+      "We need to bring the whole team up to speed on this project.",
+      "Her experience brings real value to the department.",
+      "Please bring the quarterly report to tomorrow's meeting.",
+      "The new software update brings several performance improvements.",
+      "I'll bring this issue to the manager's attention.",
+      "The partnership has brought new opportunities for growth.",
+      "Let's bring in an expert to review the proposal.",
+      "This strategy could bring long-term benefits to the company."
+    ],
+    "questions": [
+      "What did you bring to the potluck?",
+      "Can you bring your presentation slides tomorrow?",
+      "Who brought up this idea first?",
+      "Have you ever brought a guest to a company event?",
+      "What changes has the new policy brought?",
+      "Did the training bring any improvement in performance?",
+      "Why did you bring this topic up now?",
+      "What results has the campaign brought so far?",
+      "Would you like me to bring anything to the meeting?",
+      "What memories does this song bring back?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I bringed my book yesterday.",
+        "right": "I brought my book yesterday.",
+        "why": "'Bring' is an irregular verb - its past form is 'brought', not 'bringed'."
+      },
+      {
+        "wrong": "She bring her sister to the party.",
+        "right": "She brings her sister to the party.",
+        "why": "With he/she/it in the present simple, add 's' - 'brings', not 'bring'."
+      },
+      {
+        "wrong": "I have bring the file already.",
+        "right": "I have brought the file already.",
+        "why": "After 'have/has', use the past participle (V3) 'brought', not the base form 'bring'."
+      }
+    ],
+    "grammarTips": [
+      "'Bring' and 'take' are often confused: use 'bring' when something moves toward the speaker's location, and 'take' when it moves away.",
+      "'Bring' is irregular, with the same form for past simple and past participle: bring - brought - brought.",
+      "'Bring up' means to mention a topic or to raise a child; 'bring about' means to cause something to happen."
+    ],
+    "synonyms": [
+      "carry",
+      "fetch",
+      "deliver",
+      "transport"
+    ],
+    "antonyms": [
+      "take",
+      "remove",
+      "send away"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Did you bring the tickets for tonight's movie?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, I brought them this morning."
+      },
+      {
+        "speaker": "A",
+        "line": "Great! Should we bring some snacks too?"
+      },
+      {
+        "speaker": "B",
+        "line": "Good idea, I'll bring popcorn and drinks."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday, she ___ her notebook to class.'",
+        "options": [
+          "bring",
+          "bringed",
+          "brought",
+          "brings"
+        ],
+        "answer": "brought",
+        "explanation": "'Brought' is the correct past simple (V2) form of 'bring'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He bring the mail every day.",
+          "He brings the mail every day.",
+          "He bringing the mail every day.",
+          "He broughts the mail every day."
+        ],
+        "answer": "He brings the mail every day.",
+        "explanation": "With 'he' in present simple, add 's': 'brings'."
+      },
+      {
+        "type": "fill",
+        "question": "I have already ___ (bring) the documents you asked for.",
+        "answer": "brought",
+        "explanation": "After 'have', use the past participle (V3) form: 'brought'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I brought my umbrella yesterday.",
+      "present": "I bring my umbrella every rainy day.",
+      "future": "I will bring my umbrella tomorrow."
+    }
+  },
+  {
+    "verb": "Leave",
+    "telugu": "వదిలిపెట్టు (vadilipeṭṭu)",
+    "v1": "leave",
+    "v2": "left",
+    "v3": "left",
+    "v4": "leaving",
+    "v5": "leaves",
+    "pronunciation": "/liːv/ (rhymes with 'give' but with a long 'ee')",
+    "definition": "To go away from a place or person; to allow something to remain or cause it to stay.",
+    "commonUses": [
+      "Departing from a place",
+      "Leaving a job or organization",
+      "Leaving something behind by mistake",
+      "Leaving an impression or effect"
+    ],
+    "beginnerSentences": [
+      "I leave for work at eight every morning.",
+      "She leaves the office at six o'clock.",
+      "We left the house early to avoid traffic.",
+      "He has left his phone at home.",
+      "Please don't leave the door open.",
+      "They are leaving for the airport now.",
+      "Did you leave any food for me?",
+      "I left my keys on the table.",
+      "When does the train leave?",
+      "She leaves her bike outside the shop."
+    ],
+    "intermediateSentences": [
+      "His resignation letter left the whole team in shock.",
+      "The manager left clear instructions before going on leave.",
+      "She left a strong impression during the interview.",
+      "We should leave room for new ideas in the plan.",
+      "The delay left many passengers frustrated at the airport.",
+      "He left the company after ten years of service.",
+      "The storm left several streets flooded overnight.",
+      "I'll leave that decision up to you.",
+      "Her comment left everyone speechless.",
+      "The old policy left many employees confused."
+    ],
+    "businessSentences": [
+      "Please leave your feedback in the shared document.",
+      "She is leaving the company at the end of this month.",
+      "Let's leave the budget discussion for the next meeting.",
+      "The client left a positive review after the project delivery.",
+      "I'll leave the final decision to the senior management.",
+      "He left detailed notes before handing over the project.",
+      "The negotiations left both sides with some concessions.",
+      "Please leave your contact details with the receptionist.",
+      "We can't leave this issue unresolved any longer.",
+      "The team leader left specific tasks for each member."
+    ],
+    "questions": [
+      "What time do you usually leave for work?",
+      "When is she leaving for her vacation?",
+      "Did you leave any instructions for the new employee?",
+      "Why did he leave his previous job?",
+      "Have you left a review for the restaurant?",
+      "What time does the last bus leave?",
+      "Did the meeting leave you with more questions?",
+      "Who left this message on my desk?",
+      "What did the manager leave for the team to review?",
+      "Are you leaving the party early tonight?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I leaved my bag at home.",
+        "right": "I left my bag at home.",
+        "why": "'Leave' is irregular - its past form is 'left', not 'leaved'."
+      },
+      {
+        "wrong": "She leave at nine every day.",
+        "right": "She leaves at nine every day.",
+        "why": "With he/she/it in present simple, add 's' - 'leaves'."
+      },
+      {
+        "wrong": "He has leave already.",
+        "right": "He has left already.",
+        "why": "After 'have/has', use the past participle (V3) 'left', not the base form 'leave'."
+      }
+    ],
+    "grammarTips": [
+      "'Leave' is irregular: leave - left - left, the same form for past simple and past participle.",
+      "'Leave' can mean to depart ('I leave at 6') or to allow something to remain ('Leave the window open').",
+      "'Leave for' is used with destinations ('leave for Delhi'), while 'leave from' is used with the starting point."
+    ],
+    "synonyms": [
+      "depart",
+      "go away",
+      "exit",
+      "abandon"
+    ],
+    "antonyms": [
+      "arrive",
+      "stay",
+      "remain"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What time are you leaving today?"
+      },
+      {
+        "speaker": "B",
+        "line": "I'm leaving around five, right after my last meeting."
+      },
+      {
+        "speaker": "A",
+        "line": "Can you leave a bit earlier tomorrow? We have an early call."
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, I'll leave by four."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'They ___ the office at 7 PM yesterday.'",
+        "options": [
+          "leave",
+          "leaved",
+          "left",
+          "leaves"
+        ],
+        "answer": "left",
+        "explanation": "'Left' is the correct past simple (V2) form of 'leave'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He leave early on Fridays.",
+          "He leaves early on Fridays.",
+          "He leaving early on Fridays.",
+          "He leaved early on Fridays."
+        ],
+        "answer": "He leaves early on Fridays.",
+        "explanation": "With 'he' in present simple, add 's': 'leaves'."
+      },
+      {
+        "type": "fill",
+        "question": "She has already ___ (leave) for the airport.",
+        "answer": "left",
+        "explanation": "After 'has', use the past participle (V3) form: 'left'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I left the office at six yesterday.",
+      "present": "I leave the office at six every day.",
+      "future": "I will leave the office at six tomorrow."
+    }
+  },
+  {
+    "verb": "Wait",
+    "telugu": "వేచి ఉండు (vēci uṇḍu)",
+    "v1": "wait",
+    "v2": "waited",
+    "v3": "waited",
+    "v4": "waiting",
+    "v5": "waits",
+    "pronunciation": "/weɪt/ (rhymes with 'gate')",
+    "definition": "To stay in a place or delay an action until a particular time or event.",
+    "commonUses": [
+      "Waiting for a person or transport",
+      "Waiting for information or approval",
+      "Waiting for the right moment",
+      "Expressing patience or delay"
+    ],
+    "beginnerSentences": [
+      "Please wait for me at the entrance.",
+      "She waits for the bus every morning.",
+      "We waited for an hour at the clinic.",
+      "He has waited a long time for this news.",
+      "I am waiting for your reply.",
+      "Did you wait long for the taxi?",
+      "They waited outside in the rain.",
+      "Let's wait until the movie starts.",
+      "My brother waits for me after school.",
+      "Can you wait a few more minutes?"
+    ],
+    "intermediateSentences": [
+      "We've been waiting for the approval for over a week now.",
+      "She waited patiently while the technician fixed the issue.",
+      "I can't wait to see how this project turns out.",
+      "The results have been worth the wait.",
+      "He waited until the last moment to make his decision.",
+      "They are waiting on confirmation from the vendor.",
+      "The long wait at the airport tested everyone's patience.",
+      "Let's not wait for the perfect moment - let's start now.",
+      "She's been waiting for a promotion for two years.",
+      "The customer waited on hold for almost twenty minutes."
+    ],
+    "businessSentences": [
+      "We are waiting for the client's final approval.",
+      "Please wait while I pull up your account details.",
+      "The team is waiting on legal clearance before proceeding.",
+      "I waited for the manager's response before sending the proposal.",
+      "Let's not wait too long to address this issue.",
+      "The vendor is waiting for the purchase order confirmation.",
+      "We've been waiting on the budget sign-off since Monday.",
+      "She waited for the right opportunity to raise her concern.",
+      "The customer is waiting for a refund on their order.",
+      "Let's wait for the quarterly numbers before deciding."
+    ],
+    "questions": [
+      "How long have you been waiting?",
+      "What are you waiting for?",
+      "Did she wait for you after the meeting?",
+      "Are we still waiting on the client's response?",
+      "How long did you wait at the doctor's office?",
+      "Why is the team waiting for approval?",
+      "Can you wait a little longer for the delivery?",
+      "Who is waiting outside the office?",
+      "Did you wait in line for a long time?",
+      "What is everyone waiting for in this meeting?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I am waiting you since morning.",
+        "right": "I have been waiting for you since morning.",
+        "why": "Use 'wait for' someone/something, and use present perfect continuous with 'since' for an action continuing from the past."
+      },
+      {
+        "wrong": "She wait for the bus every day.",
+        "right": "She waits for the bus every day.",
+        "why": "With he/she/it in present simple, add 's' - 'waits'."
+      },
+      {
+        "wrong": "Please wait me here.",
+        "right": "Please wait for me here.",
+        "why": "'Wait' needs the preposition 'for' before an object - 'wait for someone', not 'wait someone'."
+      }
+    ],
+    "grammarTips": [
+      "'Wait' always takes the preposition 'for' before its object: 'wait for the bus', 'wait for me' - never 'wait the bus'.",
+      "Use present perfect continuous ('have been waiting') to emphasize how long the waiting has continued.",
+      "'Can't wait to' is a common informal expression meaning to be very excited about something in the future."
+    ],
+    "synonyms": [
+      "pause",
+      "stay",
+      "linger",
+      "remain"
+    ],
+    "antonyms": [
+      "proceed",
+      "act",
+      "hurry"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Are you still waiting for the doctor?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, I've been waiting for almost 40 minutes."
+      },
+      {
+        "speaker": "A",
+        "line": "That's a long wait! Do you want me to wait with you?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, thanks - it helps to have company while waiting."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "Please wait me.",
+          "Please wait for me.",
+          "Please waiting me.",
+          "Please waits me."
+        ],
+        "answer": "Please wait for me.",
+        "explanation": "'Wait' requires the preposition 'for' before its object."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He wait for the train.",
+          "He waits for the train.",
+          "He waiting for the train.",
+          "He waited for the train every day."
+        ],
+        "answer": "He waits for the train.",
+        "explanation": "With 'he' in present simple, add 's': 'waits'."
+      },
+      {
+        "type": "fill",
+        "question": "We have been ___ (wait) for the results since last week.",
+        "answer": "waiting",
+        "explanation": "Present perfect continuous uses 'have/has been' + verb-ing: 'waiting'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I waited for the bus yesterday.",
+      "present": "I wait for the bus every morning.",
+      "future": "I will wait for the bus tomorrow."
+    }
+  },
+  {
+    "verb": "Cook",
+    "telugu": "వండు (vaṇḍu)",
+    "v1": "cook",
+    "v2": "cooked",
+    "v3": "cooked",
+    "v4": "cooking",
+    "v5": "cooks",
+    "pronunciation": "/kʊk/ (rhymes with 'book')",
+    "definition": "To prepare food by heating it.",
+    "commonUses": [
+      "Preparing meals at home",
+      "Working as a professional chef",
+      "Describing cooking styles or methods",
+      "Informally meaning to plan or invent something"
+    ],
+    "beginnerSentences": [
+      "My mother cooks dinner every evening.",
+      "I cooked rice and curry yesterday.",
+      "He is cooking breakfast right now.",
+      "We have cooked enough food for everyone.",
+      "Do you cook every day?",
+      "She cooked a delicious meal for us.",
+      "They are cooking together in the kitchen.",
+      "I don't know how to cook pasta.",
+      "Did you cook this yourself?",
+      "Let's cook something new this weekend."
+    ],
+    "intermediateSentences": [
+      "She's been cooking professionally for over ten years.",
+      "He cooked up an excuse for being late.",
+      "The recipe needs to be cooked on low heat for an hour.",
+      "I've never cooked for this many guests before.",
+      "They're cooking up a new business idea together.",
+      "The dish was cooked to perfection.",
+      "She learned to cook from watching her grandmother.",
+      "We usually cook in bulk on Sundays for the whole week.",
+      "The chef cooked a special menu for the event.",
+      "He's cooking his way through a new cookbook this month."
+    ],
+    "businessSentences": [
+      "The company is cooking up a new marketing campaign.",
+      "Let's not cook the numbers to make the report look better.",
+      "The catering team cooked meals for the entire conference.",
+      "She's cooking up a proposal for the new client.",
+      "The restaurant chain cooks its menu fresh every day.",
+      "They cooked up a quick solution to meet the deadline.",
+      "Our chef cooks a rotating menu based on customer feedback.",
+      "The team is cooking up ideas for the product launch.",
+      "We need someone who can cook under pressure during peak hours.",
+      "The kitchen staff cooked through a record number of orders today."
+    ],
+    "questions": [
+      "What are you cooking for dinner tonight?",
+      "Who usually cooks in your house?",
+      "Have you ever cooked for a large group?",
+      "What's the last thing you cooked?",
+      "Do you enjoy cooking on weekends?",
+      "How long did it take to cook this dish?",
+      "Did she cook the meal by herself?",
+      "What ingredients did you use to cook this curry?",
+      "Are you cooking something special for the party?",
+      "Who taught you how to cook?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She cook dinner every night.",
+        "right": "She cooks dinner every night.",
+        "why": "With he/she/it in present simple, add 's' - 'cooks'."
+      },
+      {
+        "wrong": "I have cook the rice already.",
+        "right": "I have cooked the rice already.",
+        "why": "After 'have/has', use the past participle (V3) 'cooked', not the base form 'cook'."
+      },
+      {
+        "wrong": "He is cook right now.",
+        "right": "He is cooking right now.",
+        "why": "The present continuous needs 'be' + verb-ing: 'is cooking', not 'is cook'."
+      }
+    ],
+    "grammarTips": [
+      "'Cook' is a regular verb: cook - cooked - cooked, so just add '-ed' for the past forms.",
+      "'Cook' refers to preparing food with heat, while 'prepare' can refer to any part of getting food ready, including cutting or mixing.",
+      "'Cook up' is an informal phrase meaning to invent something quickly, like an excuse or a plan."
+    ],
+    "synonyms": [
+      "prepare",
+      "make",
+      "bake",
+      "grill"
+    ],
+    "antonyms": [
+      "eat",
+      "serve",
+      "consume"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What are you cooking? It smells amazing."
+      },
+      {
+        "speaker": "B",
+        "line": "I'm cooking chicken curry for dinner."
+      },
+      {
+        "speaker": "A",
+        "line": "Can you teach me how to cook it sometime?"
+      },
+      {
+        "speaker": "B",
+        "line": "Of course, I'll show you the recipe this weekend."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He cook every Sunday.",
+          "He cooks every Sunday.",
+          "He cooking every Sunday.",
+          "He cookes every Sunday."
+        ],
+        "answer": "He cooks every Sunday.",
+        "explanation": "With 'he' in present simple, add 's': 'cooks'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday, I ___ dinner for the whole family.'",
+        "options": [
+          "cook",
+          "cooking",
+          "cooked",
+          "cooks"
+        ],
+        "answer": "cooked",
+        "explanation": "'Cooked' is the correct past simple (V2) form of the regular verb 'cook'."
+      },
+      {
+        "type": "fill",
+        "question": "She is ___ (cook) lunch right now.",
+        "answer": "cooking",
+        "explanation": "Present continuous uses 'is/am/are' + verb-ing: 'cooking'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I cooked dinner yesterday.",
+      "present": "I cook dinner every day.",
+      "future": "I will cook dinner tomorrow."
+    }
+  },
+  {
+    "verb": "Clean",
+    "telugu": "శుభ్రం చేయి (śubhraṁ cēyi)",
+    "v1": "clean",
+    "v2": "cleaned",
+    "v3": "cleaned",
+    "v4": "cleaning",
+    "v5": "cleans",
+    "pronunciation": "/kliːn/ (rhymes with 'lean')",
+    "definition": "To remove dirt from something; to make something free of dirt or mess.",
+    "commonUses": [
+      "Household chores and tidying",
+      "Cleaning workplaces or public spaces",
+      "Cleaning data or records (figurative)",
+      "Describing hygiene routines"
+    ],
+    "beginnerSentences": [
+      "I clean my room every weekend.",
+      "She cleans the house every morning.",
+      "We cleaned the car yesterday.",
+      "He has cleaned the kitchen already.",
+      "Are you cleaning the windows today?",
+      "They clean the office every evening.",
+      "Did you clean your desk?",
+      "Let's clean the garage this weekend.",
+      "My sister cleans her shoes before school.",
+      "Please clean up after you eat."
+    ],
+    "intermediateSentences": [
+      "The staff cleaned the entire building before the inspection.",
+      "She's been cleaning up her old files to free up space.",
+      "We need to clean up this mess before the guests arrive.",
+      "He cleaned up his act after the warning from his manager.",
+      "The company hired a service to clean the offices weekly.",
+      "I cleaned out my closet and donated old clothes.",
+      "They cleaned up the beach as part of a volunteer event.",
+      "She spent the whole weekend cleaning and organizing.",
+      "The team cleaned up the data before running the analysis.",
+      "We should clean up this code before submitting it."
+    ],
+    "businessSentences": [
+      "The cleaning staff cleans the office every night after hours.",
+      "We need to clean up our client database before the migration.",
+      "The team cleaned up the report before sending it to the board.",
+      "Please clean your workstation before the client visit.",
+      "The company cleaned up its image after the public apology.",
+      "Let's clean up the project scope before the next sprint.",
+      "The audit helped clean up several accounting discrepancies.",
+      "We cleaned up the presentation slides before the pitch.",
+      "The new manager cleaned up a lot of outdated processes.",
+      "Housekeeping cleans all meeting rooms every morning."
+    ],
+    "questions": [
+      "Who cleans your house?",
+      "Did you clean your room this morning?",
+      "How often do you clean your car?",
+      "Have you cleaned up your desk yet?",
+      "What time does the cleaning staff clean the office?",
+      "Did they clean the venue after the event?",
+      "Are you cleaning the kitchen today?",
+      "Who cleaned up this mess?",
+      "How long does it take to clean the whole house?",
+      "Did you clean up the files before sharing them?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She clean the house every day.",
+        "right": "She cleans the house every day.",
+        "why": "With he/she/it in present simple, add 's' - 'cleans'."
+      },
+      {
+        "wrong": "I have clean my room already.",
+        "right": "I have cleaned my room already.",
+        "why": "After 'have/has', use the past participle (V3) 'cleaned', not the base form 'clean'."
+      },
+      {
+        "wrong": "He is clean the car now.",
+        "right": "He is cleaning the car now.",
+        "why": "Present continuous needs 'be' + verb-ing: 'is cleaning', not 'is clean'."
+      }
+    ],
+    "grammarTips": [
+      "'Clean' is a regular verb: clean - cleaned - cleaned.",
+      "'Clean up' often means to tidy a larger mess or organize something thoroughly, while 'clean' alone can refer to a simple, single action.",
+      "'Clean' can also be used as an adjective ('a clean room'), so context tells you whether it's the verb or the adjective."
+    ],
+    "synonyms": [
+      "tidy",
+      "wash",
+      "scrub",
+      "sanitize"
+    ],
+    "antonyms": [
+      "dirty",
+      "mess up",
+      "soil"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Have you cleaned the kitchen yet?"
+      },
+      {
+        "speaker": "B",
+        "line": "Not yet, I'll clean it after lunch."
+      },
+      {
+        "speaker": "A",
+        "line": "Can you also clean the bathroom today?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, I'll clean both this afternoon."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He clean his room every week.",
+          "He cleans his room every week.",
+          "He cleaning his room every week.",
+          "He cleaned his room every week always."
+        ],
+        "answer": "He cleans his room every week.",
+        "explanation": "With 'he' in present simple, add 's': 'cleans'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday, we ___ the entire house.'",
+        "options": [
+          "clean",
+          "cleans",
+          "cleaning",
+          "cleaned"
+        ],
+        "answer": "cleaned",
+        "explanation": "'Cleaned' is the correct past simple (V2) form of the regular verb 'clean'."
+      },
+      {
+        "type": "fill",
+        "question": "She has already ___ (clean) her desk.",
+        "answer": "cleaned",
+        "explanation": "After 'has', use the past participle (V3) form: 'cleaned'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I cleaned my room yesterday.",
+      "present": "I clean my room every weekend.",
+      "future": "I will clean my room tomorrow."
+    }
+  },
+  {
+    "verb": "Need",
+    "telugu": "కావాలి (kāvāli)",
+    "v1": "need",
+    "v2": "needed",
+    "v3": "needed",
+    "v4": "needing",
+    "v5": "needs",
+    "pronunciation": "/niːd/ (rhymes with 'seed')",
+    "definition": "To require something because it is essential or very important.",
+    "commonUses": [
+      "Expressing a requirement or necessity",
+      "Asking for help or assistance",
+      "Describing what a project or plan requires",
+      "Polite requests using 'need to'"
+    ],
+    "beginnerSentences": [
+      "I need a glass of water.",
+      "She needs help with her homework.",
+      "We needed more time to finish the project.",
+      "He has needed this vacation for a long time.",
+      "Do you need anything from the store?",
+      "They need new furniture for the office.",
+      "I need to leave early today.",
+      "Did you need my help yesterday?",
+      "My car needs some repairs.",
+      "We need to talk about this issue."
+    ],
+    "intermediateSentences": [
+      "The team needed more resources to meet the deadline.",
+      "She needed some time alone to think things through.",
+      "This plan needs to be reviewed before we proceed.",
+      "He needed convincing before he agreed to the change.",
+      "The project needs a clearer timeline going forward.",
+      "I needed a break after such a hectic week.",
+      "The report needs a few more revisions.",
+      "They needed extra support during the busy season.",
+      "This relationship needs more open communication.",
+      "The system needed an update to fix the bug."
+    ],
+    "businessSentences": [
+      "The client needs the final draft by Friday.",
+      "We need approval from finance before proceeding.",
+      "The team needs additional headcount for this project.",
+      "This proposal needs a stronger executive summary.",
+      "We needed to escalate the issue to senior management.",
+      "The department needs better tools to track performance.",
+      "Our strategy needs to adapt to the changing market.",
+      "The vendor needs confirmation of the order details.",
+      "This process needs to be automated to save time.",
+      "The presentation needs more data to support the claims."
+    ],
+    "questions": [
+      "What do you need for the project?",
+      "Does the team need more support?",
+      "Did you need any help with the report?",
+      "What does the client need from us by Friday?",
+      "Do we need to reschedule the meeting?",
+      "What resources does this project need?",
+      "Did she need anything else from the store?",
+      "How much time do you need to finish this?",
+      "What changes does the plan need?",
+      "Do you need me to explain this again?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She need help with this.",
+        "right": "She needs help with this.",
+        "why": "With he/she/it in present simple, add 's' - 'needs'."
+      },
+      {
+        "wrong": "I am needing your help.",
+        "right": "I need your help.",
+        "why": "'Need' is usually not used in continuous forms when expressing a general requirement - use the simple present instead."
+      },
+      {
+        "wrong": "I need go now.",
+        "right": "I need to go now.",
+        "why": "'Need' is followed by 'to' + base verb when expressing a necessity to do something - 'need to go', not 'need go'."
+      }
+    ],
+    "grammarTips": [
+      "'Need' is a regular verb: need - needed - needed.",
+      "When 'need' is followed by another action, use 'need to' + base verb: 'I need to study.'",
+      "'Need' is generally used in simple tenses rather than continuous forms, since it describes a state, not an ongoing action."
+    ],
+    "synonyms": [
+      "require",
+      "want",
+      "lack",
+      "demand"
+    ],
+    "antonyms": [
+      "have",
+      "possess",
+      "own"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Do you need any help with the boxes?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, please - I need someone to carry the heavy one."
+      },
+      {
+        "speaker": "A",
+        "line": "No problem. Do you need anything else?"
+      },
+      {
+        "speaker": "B",
+        "line": "Just some water, thanks - I need to catch my breath!"
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "She need more time.",
+          "She needs more time.",
+          "She needing more time.",
+          "She needed more time always."
+        ],
+        "answer": "She needs more time.",
+        "explanation": "With 'she' in present simple, add 's': 'needs'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I need go home.",
+          "I need to go home.",
+          "I needing go home.",
+          "I needs to go home."
+        ],
+        "answer": "I need to go home.",
+        "explanation": "'Need' is followed by 'to' + base verb: 'need to go'."
+      },
+      {
+        "type": "fill",
+        "question": "We ___ (need) more information before deciding.",
+        "answer": "need",
+        "explanation": "'Need' in the simple present describes a current requirement."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I needed help yesterday.",
+      "present": "I need help every day at work.",
+      "future": "I will need help tomorrow."
+    }
+  },
+  {
+    "verb": "Like",
+    "telugu": "ఇష్టపడు (iṣṭapaḍu)",
+    "v1": "like",
+    "v2": "liked",
+    "v3": "liked",
+    "v4": "liking",
+    "v5": "likes",
+    "pronunciation": "/laɪk/ (rhymes with 'bike')",
+    "definition": "To find someone or something pleasant, enjoyable, or satisfactory.",
+    "commonUses": [
+      "Expressing preference or enjoyment",
+      "Talking about hobbies and interests",
+      "Polite requests with 'would like'",
+      "Giving opinions about people or things"
+    ],
+    "beginnerSentences": [
+      "I like coffee in the morning.",
+      "She likes reading books.",
+      "We liked the movie a lot.",
+      "He has liked her for a long time.",
+      "Do you like spicy food?",
+      "They like playing football on weekends.",
+      "I liked your presentation yesterday.",
+      "Did you like the gift?",
+      "My friend likes traveling to new places.",
+      "We like this restaurant very much."
+    ],
+    "intermediateSentences": [
+      "She's always liked taking on new challenges at work.",
+      "I liked how the team handled the crisis.",
+      "He likes to keep things organized and structured.",
+      "We liked the direction the project was heading in.",
+      "She liked the idea but had a few concerns.",
+      "I've liked this company's values since I joined.",
+      "They liked his proposal but wanted more details.",
+      "He's the kind of person who likes to plan ahead.",
+      "I liked the way she explained the concept.",
+      "We liked the feedback we received from the client."
+    ],
+    "businessSentences": [
+      "The client liked the revised proposal.",
+      "Management likes to see data-backed decisions.",
+      "Investors liked the company's latest earnings report.",
+      "The team liked the new collaboration tool.",
+      "Customers liked the improved checkout process.",
+      "The board liked the direction of the new strategy.",
+      "We liked how quickly the vendor responded to our request.",
+      "The panel liked her confidence during the interview.",
+      "Employees liked the new flexible work policy.",
+      "The stakeholders liked the transparency in the reporting."
+    ],
+    "questions": [
+      "Do you like your new job?",
+      "Did you like the presentation?",
+      "What kind of music do you like?",
+      "Does she like working from home?",
+      "Did the client like the proposal?",
+      "What do you like most about this city?",
+      "Have you always liked reading?",
+      "Did they like the new design?",
+      "What do you like to do on weekends?",
+      "Would you like some tea?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She like coffee.",
+        "right": "She likes coffee.",
+        "why": "With he/she/it in present simple, add 's' - 'likes'."
+      },
+      {
+        "wrong": "I am liking this song.",
+        "right": "I like this song.",
+        "why": "'Like' expresses a state, not an action, so it's usually used in simple tenses rather than continuous forms."
+      },
+      {
+        "wrong": "I like to played football.",
+        "right": "I like to play football.",
+        "why": "After 'like to', use the base form (V1) of the verb - 'play', not 'played'."
+      }
+    ],
+    "grammarTips": [
+      "'Like' is a regular verb: like - liked - liked.",
+      "'Like' is a stative verb describing feelings, so it's rarely used in continuous forms: say 'I like it' not 'I am liking it' in standard English.",
+      "'Would like' is a polite way to express a want or request: 'I would like some tea' is softer than 'I want some tea.'"
+    ],
+    "synonyms": [
+      "enjoy",
+      "love",
+      "appreciate",
+      "prefer"
+    ],
+    "antonyms": [
+      "dislike",
+      "hate",
+      "detest"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Do you like this new café?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, I really like the coffee here."
+      },
+      {
+        "speaker": "A",
+        "line": "I like the atmosphere too. Would you like to come again next week?"
+      },
+      {
+        "speaker": "B",
+        "line": "I'd like that a lot."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He like tea.",
+          "He likes tea.",
+          "He liking tea.",
+          "He liked tea always."
+        ],
+        "answer": "He likes tea.",
+        "explanation": "With 'he' in present simple, add 's': 'likes'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I am liking this book.",
+          "I like this book.",
+          "I likes this book.",
+          "I liked this book now."
+        ],
+        "answer": "I like this book.",
+        "explanation": "'Like' is a stative verb and isn't usually used in continuous form."
+      },
+      {
+        "type": "fill",
+        "question": "She ___ (like) to read before bed every night.",
+        "answer": "likes",
+        "explanation": "With 'she' in present simple, add 's': 'likes'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I liked the movie yesterday.",
+      "present": "I like this movie.",
+      "future": "I think I will like the sequel too."
+    }
+  },
+  {
+    "verb": "Try",
+    "telugu": "ప్రయత్నించు (prayatnin̄cu)",
+    "v1": "try",
+    "v2": "tried",
+    "v3": "tried",
+    "v4": "trying",
+    "v5": "tries",
+    "pronunciation": "/traɪ/ (rhymes with 'sky')",
+    "definition": "To make an attempt to do something; to test something to see if it works or suits.",
+    "commonUses": [
+      "Making an effort to do something",
+      "Testing or sampling something new",
+      "Attempting to solve a problem",
+      "Encouraging someone to attempt something"
+    ],
+    "beginnerSentences": [
+      "I try to exercise every day.",
+      "She tries her best in every exam.",
+      "We tried a new restaurant last night.",
+      "He has tried many times to fix it.",
+      "Do you want to try this dish?",
+      "They tried to call you yesterday.",
+      "I am trying to learn Spanish.",
+      "Did you try the new app?",
+      "My sister tries to help everyone.",
+      "Let's try again tomorrow."
+    ],
+    "intermediateSentences": [
+      "She's been trying to balance work and family lately.",
+      "We tried several approaches before finding a solution.",
+      "He's trying his hardest to meet the deadline.",
+      "I tried explaining it differently, but she still didn't understand.",
+      "They tried negotiating a better deal with the supplier.",
+      "She's trying to build better habits this year.",
+      "We tried reaching out to the client twice already.",
+      "He tried to stay calm despite the pressure.",
+      "I'm trying to figure out what went wrong.",
+      "They've tried multiple strategies to boost sales."
+    ],
+    "businessSentences": [
+      "The team is trying a new approach to customer support.",
+      "We tried to resolve the issue before escalating it.",
+      "The company is trying to expand into new markets.",
+      "She tried presenting the data in a simpler format.",
+      "Let's try a different marketing strategy this quarter.",
+      "We're trying to reduce costs without affecting quality.",
+      "The manager tried to address everyone's concerns.",
+      "They tried automating the process to save time.",
+      "We should try a pilot run before the full launch.",
+      "The client tried our product for a month before deciding."
+    ],
+    "questions": [
+      "Have you tried this new feature?",
+      "What did you try to fix the problem?",
+      "Did she try calling him again?",
+      "Are you trying a new strategy this time?",
+      "What have you tried so far?",
+      "Did they try negotiating a lower price?",
+      "Why don't you try a different approach?",
+      "Have you ever tried public speaking?",
+      "What is the team trying to achieve this quarter?",
+      "Did you try the food at the new restaurant?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She try her best every time.",
+        "right": "She tries her best every time.",
+        "why": "With he/she/it in present simple, verbs ending in a consonant + 'y' change to 'ies' - 'tries', not 'trys' or 'try'."
+      },
+      {
+        "wrong": "I tryed to call you.",
+        "right": "I tried to call you.",
+        "why": "For verbs ending in consonant + 'y', change 'y' to 'i' and add '-ed' - 'tried', not 'tryed'."
+      },
+      {
+        "wrong": "I try to solved the problem.",
+        "right": "I tried to solve the problem.",
+        "why": "After 'try to', use the base form (V1) of the verb - 'solve', not 'solved'."
+      }
+    ],
+    "grammarTips": [
+      "For verbs ending in a consonant + 'y' (like 'try'), change 'y' to 'i' before adding '-ed' or '-es': tried, tries.",
+      "'Try to' + verb means to make an effort ('try to finish'), while 'try' + verb-ing can mean to experiment with something ('try eating less sugar').",
+      "'Try' is a regular verb in terms of forming past tense, but note the spelling change: try - tried - tried."
+    ],
+    "synonyms": [
+      "attempt",
+      "endeavor",
+      "test",
+      "experiment"
+    ],
+    "antonyms": [
+      "give up",
+      "abandon",
+      "quit"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Have you tried the new coffee shop downtown?"
+      },
+      {
+        "speaker": "B",
+        "line": "Not yet, but I've been wanting to try it."
+      },
+      {
+        "speaker": "A",
+        "line": "You should! I tried their cappuccino and it was great."
+      },
+      {
+        "speaker": "B",
+        "line": "Okay, I'll try it this weekend."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He try every day.",
+          "He tries every day.",
+          "He trying every day.",
+          "He tryed every day."
+        ],
+        "answer": "He tries every day.",
+        "explanation": "For 'he/she/it', change 'y' to 'ies': 'tries'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday, I ___ a new recipe.'",
+        "options": [
+          "try",
+          "tryed",
+          "tries",
+          "tried"
+        ],
+        "answer": "tried",
+        "explanation": "Change 'y' to 'i' before adding '-ed': 'tried'."
+      },
+      {
+        "type": "fill",
+        "question": "She is ___ (try) to finish the report before lunch.",
+        "answer": "trying",
+        "explanation": "Present continuous uses 'is' + verb-ing: 'trying' (the 'y' stays before '-ing')."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I tried a new recipe yesterday.",
+      "present": "I try a new recipe every week.",
+      "future": "I will try a new recipe tomorrow."
+    }
+  },
+  {
+    "verb": "Put",
+    "telugu": "పెట్టు (peṭṭu)",
+    "v1": "put",
+    "v2": "put",
+    "v3": "put",
+    "v4": "putting",
+    "v5": "puts",
+    "pronunciation": "/pʊt/ (rhymes with 'foot')",
+    "definition": "To move something into a particular place or position.",
+    "commonUses": [
+      "Placing objects somewhere",
+      "Organizing or arranging things",
+      "Putting effort or ideas into something",
+      "Postponing or scheduling with 'put off'"
+    ],
+    "beginnerSentences": [
+      "Please put the book on the table.",
+      "She puts her keys in her bag.",
+      "We put the boxes in the corner.",
+      "He has put the documents on your desk.",
+      "Where did you put my phone?",
+      "They are putting up decorations for the party.",
+      "I put some sugar in my tea.",
+      "Did you put the milk in the fridge?",
+      "My mother puts the plates on the table before dinner.",
+      "Let's put this here for now."
+    ],
+    "intermediateSentences": [
+      "She's been putting a lot of effort into this project.",
+      "He put forward a great suggestion during the meeting.",
+      "We need to put this plan into action soon.",
+      "They put off the decision until next week.",
+      "I put together a summary of the key points.",
+      "She's putting pressure on herself to finish early.",
+      "He put his savings into starting a small business.",
+      "We put a lot of thought into the new design.",
+      "They're putting the finishing touches on the report.",
+      "I put myself in her shoes and understood her frustration."
+    ],
+    "businessSentences": [
+      "Let's put together a detailed action plan for this quarter.",
+      "The company put a new policy into effect last month.",
+      "We need to put more resources into customer support.",
+      "She put forward a proposal to reduce operational costs.",
+      "The team put in extra hours to meet the deadline.",
+      "Let's put this item on the agenda for the next meeting.",
+      "The manager put a strong emphasis on quality control.",
+      "We put the new system through several rounds of testing.",
+      "They put a hold on the project until further notice.",
+      "The client put in a request for additional features."
+    ],
+    "questions": [
+      "Where did you put the report?",
+      "Can you put these files in order?",
+      "What did she put in her presentation?",
+      "Did you put the meeting on the calendar?",
+      "Where should I put this box?",
+      "Did they put the plan into action yet?",
+      "How much effort did you put into this?",
+      "What did the team put on the agenda?",
+      "Did you put your suggestions in the feedback form?",
+      "Where do you usually put your important documents?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She putted the book on the shelf.",
+        "right": "She put the book on the shelf.",
+        "why": "'Put' is irregular and stays the same in all forms - put, put, put - never 'putted'."
+      },
+      {
+        "wrong": "She put the book on the shelf every day.",
+        "right": "She puts the book on the shelf every day.",
+        "why": "With he/she/it in present simple, add 's' - 'puts'."
+      },
+      {
+        "wrong": "I am puting the plates away.",
+        "right": "I am putting the plates away.",
+        "why": "For verbs ending in a single vowel + consonant like 'put', double the final consonant before adding '-ing' - 'putting', not 'puting'."
+      }
+    ],
+    "grammarTips": [
+      "'Put' is completely irregular and identical in all forms: put - put - put - it never changes for past tense.",
+      "For short verbs ending in a single vowel + consonant (like 'put'), double the last letter before adding '-ing': putting.",
+      "'Put off' means to postpone, 'put together' means to assemble or organize, and 'put forward' means to suggest an idea."
+    ],
+    "synonyms": [
+      "place",
+      "position",
+      "set",
+      "lay"
+    ],
+    "antonyms": [
+      "remove",
+      "take away",
+      "withdraw"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Where did you put the car keys?"
+      },
+      {
+        "speaker": "B",
+        "line": "I put them on the kitchen counter."
+      },
+      {
+        "speaker": "A",
+        "line": "I don't see them there. Did you put them somewhere else?"
+      },
+      {
+        "speaker": "B",
+        "line": "Oh wait, I put them in my jacket pocket instead."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday, I ___ the documents on your desk.'",
+        "options": [
+          "put",
+          "putted",
+          "puts",
+          "putting"
+        ],
+        "answer": "put",
+        "explanation": "'Put' is irregular and doesn't change in the past tense: put - put - put."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He put the plates away every night.",
+          "He puts the plates away every night.",
+          "He putting the plates away every night.",
+          "He putted the plates away every night."
+        ],
+        "answer": "He puts the plates away every night.",
+        "explanation": "With 'he' in present simple, add 's': 'puts'."
+      },
+      {
+        "type": "fill",
+        "question": "She is ___ (put) the files in order right now.",
+        "answer": "putting",
+        "explanation": "Double the final consonant before adding '-ing': 'putting'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I put the keys on the table yesterday.",
+      "present": "I put the keys on the table every day.",
+      "future": "I will put the keys on the table tomorrow."
+    }
+  },
+  {
+    "verb": "Pay",
+    "telugu": "చెల్లించు (cellin̄cu)",
+    "v1": "pay",
+    "v2": "paid",
+    "v3": "paid",
+    "v4": "paying",
+    "v5": "pays",
+    "pronunciation": "/peɪ/ (rhymes with 'day')",
+    "definition": "To give money in exchange for goods or services, or to settle a debt.",
+    "commonUses": [
+      "Paying for goods or services",
+      "Paying bills or salaries",
+      "Paying attention to something",
+      "Paying the price/consequences of an action"
+    ],
+    "beginnerSentences": [
+      "I pay my bills online every month.",
+      "She pays for lunch every Friday.",
+      "We paid the rent yesterday.",
+      "He has paid off his loan.",
+      "Do you pay in cash or by card?",
+      "They paid a lot for that car.",
+      "I am paying for dinner tonight.",
+      "Did you pay the electricity bill?",
+      "My father pays the school fees every year.",
+      "Let's pay and leave now."
+    ],
+    "intermediateSentences": [
+      "The company pays its employees on the last Friday of the month.",
+      "She paid close attention to every detail in the contract.",
+      "We need to pay off this debt before taking a new loan.",
+      "He paid the price for ignoring the warning signs.",
+      "They paid extra for faster delivery.",
+      "I've been paying into a retirement fund for years.",
+      "She paid tribute to her mentor during the speech.",
+      "We paid a visit to the new office last week.",
+      "He always pays attention during important meetings.",
+      "The insurance company paid for the damages."
+    ],
+    "businessSentences": [
+      "The client pays invoices within thirty days.",
+      "We paid a premium for expedited shipping.",
+      "The company pays competitive salaries in this industry.",
+      "Please ensure the vendor is paid on time.",
+      "We paid close attention to the client's feedback.",
+      "The firm paid for additional training for its staff.",
+      "Investors are paying attention to the company's growth.",
+      "The department paid for new equipment last quarter.",
+      "We need to pay off outstanding invoices this week.",
+      "The business paid a fine for the compliance issue."
+    ],
+    "questions": [
+      "How do you usually pay your bills?",
+      "Did you pay the invoice yet?",
+      "How much did you pay for that laptop?",
+      "Does the company pay overtime?",
+      "Who paid for the team lunch?",
+      "Did they pay the deposit already?",
+      "How much attention did you pay to the details?",
+      "When do employees get paid here?",
+      "Did you pay extra for the warranty?",
+      "Who is paying for the trip?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I payed the bill yesterday.",
+        "right": "I paid the bill yesterday.",
+        "why": "'Pay' is irregular - its past form is 'paid', not 'payed'."
+      },
+      {
+        "wrong": "She pay the rent every month.",
+        "right": "She pays the rent every month.",
+        "why": "With he/she/it in present simple, add 's' - 'pays'."
+      },
+      {
+        "wrong": "I have pay the bill already.",
+        "right": "I have paid the bill already.",
+        "why": "After 'have/has', use the past participle (V3) 'paid', not the base form 'pay'."
+      }
+    ],
+    "grammarTips": [
+      "'Pay' is irregular: pay - paid - paid, unlike most '-ay' verbs which just add '-ed'.",
+      "'Pay for' is used when mentioning what was purchased: 'pay for the ticket', but 'pay' alone can be used with amounts: 'pay $50'.",
+      "'Pay attention to' is a common fixed expression meaning to focus on something carefully."
+    ],
+    "synonyms": [
+      "settle",
+      "compensate",
+      "reimburse",
+      "spend"
+    ],
+    "antonyms": [
+      "owe",
+      "default",
+      "withhold"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Have you paid the electricity bill this month?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, I paid it online yesterday."
+      },
+      {
+        "speaker": "A",
+        "line": "Great, did you also pay the internet bill?"
+      },
+      {
+        "speaker": "B",
+        "line": "Not yet, I'll pay it tomorrow."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday, I ___ the water bill.'",
+        "options": [
+          "pay",
+          "payed",
+          "paid",
+          "pays"
+        ],
+        "answer": "paid",
+        "explanation": "'Paid' is the correct past simple (V2) form of the irregular verb 'pay'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He pay rent every month.",
+          "He pays rent every month.",
+          "He paying rent every month.",
+          "He payed rent every month."
+        ],
+        "answer": "He pays rent every month.",
+        "explanation": "With 'he' in present simple, add 's': 'pays'."
+      },
+      {
+        "type": "fill",
+        "question": "She has already ___ (pay) for the tickets.",
+        "answer": "paid",
+        "explanation": "After 'has', use the past participle (V3) form: 'paid'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I paid the bill yesterday.",
+      "present": "I pay the bill every month.",
+      "future": "I will pay the bill tomorrow."
+    }
+  },
+  {
+    "verb": "Wake",
+    "telugu": "మేల్కొను (mēlkonu)",
+    "v1": "wake",
+    "v2": "woke",
+    "v3": "woken",
+    "v4": "waking",
+    "v5": "wakes",
+    "pronunciation": "/weɪk/ (rhymes with 'cake')",
+    "definition": "To stop sleeping, or to cause someone to stop sleeping.",
+    "commonUses": [
+      "Describing morning routines",
+      "Talking about being woken by noise or events",
+      "Figuratively becoming aware of something",
+      "Waking someone else up"
+    ],
+    "beginnerSentences": [
+      "I wake up at six every morning.",
+      "She wakes up early on weekdays.",
+      "We woke up late yesterday.",
+      "He has woken up already.",
+      "Do you wake up easily?",
+      "They woke up to the sound of rain.",
+      "I am waking up right now.",
+      "Did the alarm wake you up?",
+      "My sister wakes me up every morning.",
+      "Let's wake up early tomorrow."
+    ],
+    "intermediateSentences": [
+      "She woke up to some surprising news this morning.",
+      "The loud noise woke up the entire neighborhood.",
+      "He's been waking up earlier since starting the new job.",
+      "I woke up feeling completely refreshed today.",
+      "The baby woke up crying in the middle of the night.",
+      "She woke up to find the project already completed.",
+      "We need to wake up to the reality of the situation.",
+      "He woke up late and missed his morning meeting.",
+      "The company is finally waking up to the need for change.",
+      "I woke up with a great idea for the presentation."
+    ],
+    "businessSentences": [
+      "The team needs to wake up to the changing market conditions.",
+      "She woke up early to prepare for the client presentation.",
+      "The industry is waking up to the importance of sustainability.",
+      "He woke up at 5 AM to catch the flight for the conference.",
+      "We need to wake up and address this issue before it grows.",
+      "The company woke up to the risks in its supply chain.",
+      "She wakes up before dawn to review reports before the day starts.",
+      "The management is waking up to employee concerns about workload.",
+      "He woke up to several urgent emails from the client.",
+      "We should wake up to the potential of this new market."
+    ],
+    "questions": [
+      "What time do you usually wake up?",
+      "Did the alarm wake you up on time?",
+      "What woke you up this morning?",
+      "Does she wake up early for work?",
+      "Did the baby wake up during the night?",
+      "What time did you wake up today?",
+      "Do you wake up easily in the morning?",
+      "Did the noise wake up the neighbors?",
+      "What time should we wake up tomorrow?",
+      "Has he woken up yet?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I waked up late today.",
+        "right": "I woke up late today.",
+        "why": "'Wake' is irregular - its past form is 'woke', not 'waked'."
+      },
+      {
+        "wrong": "She wake up early every day.",
+        "right": "She wakes up early every day.",
+        "why": "With he/she/it in present simple, add 's' - 'wakes'."
+      },
+      {
+        "wrong": "I have woke up already.",
+        "right": "I have woken up already.",
+        "why": "After 'have/has', use the past participle (V3) 'woken', not the past simple 'woke'."
+      }
+    ],
+    "grammarTips": [
+      "'Wake' is irregular with three different forms: wake - woke - woken.",
+      "'Wake up' is commonly used with 'up' in everyday speech, though 'wake' alone is also correct in formal writing.",
+      "'Wake someone up' means to cause another person to stop sleeping, while 'wake up' alone refers to yourself waking."
+    ],
+    "synonyms": [
+      "awaken",
+      "rouse",
+      "get up",
+      "arise"
+    ],
+    "antonyms": [
+      "sleep",
+      "doze",
+      "rest"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What time did you wake up today?"
+      },
+      {
+        "speaker": "B",
+        "line": "I woke up at 5 AM to catch my flight."
+      },
+      {
+        "speaker": "A",
+        "line": "That's early! Did the alarm wake you up easily?"
+      },
+      {
+        "speaker": "B",
+        "line": "Actually, I woke up on my own before the alarm went off."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday, I ___ up at seven.'",
+        "options": [
+          "wake",
+          "waked",
+          "woke",
+          "wakes"
+        ],
+        "answer": "woke",
+        "explanation": "'Woke' is the correct past simple (V2) form of the irregular verb 'wake'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He wake up at six.",
+          "He wakes up at six.",
+          "He waking up at six.",
+          "He waked up at six."
+        ],
+        "answer": "He wakes up at six.",
+        "explanation": "With 'he' in present simple, add 's': 'wakes'."
+      },
+      {
+        "type": "fill",
+        "question": "She has already ___ (wake) up and left for work.",
+        "answer": "woken",
+        "explanation": "After 'has', use the past participle (V3) form: 'woken'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I woke up at six yesterday.",
+      "present": "I wake up at six every day.",
+      "future": "I will wake up at six tomorrow."
+    }
+  },
+  {
+    "verb": "Turn",
+    "telugu": "తిప్పు (tippu)",
+    "v1": "turn",
+    "v2": "turned",
+    "v3": "turned",
+    "v4": "turning",
+    "v5": "turns",
+    "pronunciation": "/tɜːrn/ (rhymes with 'burn')",
+    "definition": "To move something so that it changes direction or position; to become something different.",
+    "commonUses": [
+      "Giving directions",
+      "Turning devices on or off",
+      "Describing a change in situation or result",
+      "Turning down or accepting an offer"
+    ],
+    "beginnerSentences": [
+      "Please turn left at the next signal.",
+      "She turns the pages of the book slowly.",
+      "We turned around and went back home.",
+      "He has turned off the lights.",
+      "Do you know how to turn on this machine?",
+      "They turned the music down.",
+      "I am turning the car around now.",
+      "Did you turn off the stove?",
+      "My brother turns eighteen next month.",
+      "Let's turn the page and start the next chapter."
+    ],
+    "intermediateSentences": [
+      "The situation turned out better than we expected.",
+      "She turned down the job offer for personal reasons.",
+      "His attitude turned around after the feedback session.",
+      "We turned to a consultant for expert advice.",
+      "The weather turned cold very suddenly this week.",
+      "He turned his hobby into a successful business.",
+      "She turned to her friends for support during the tough time.",
+      "The project turned into a much bigger effort than planned.",
+      "I turned down dessert because I was already full.",
+      "The negotiations turned in our favor eventually."
+    ],
+    "businessSentences": [
+      "The company turned a profit for the first time this year.",
+      "We turned the failing project around within two months.",
+      "The client turned down our initial proposal.",
+      "Sales turned upward after the new marketing campaign.",
+      "The team turned to data analytics to improve decisions.",
+      "The startup turned into a major player in the industry.",
+      "We need to turn this feedback into actionable steps.",
+      "The manager turned the meeting into a productive discussion.",
+      "The market turned volatile after the announcement.",
+      "They turned the customer complaint into a positive experience."
+    ],
+    "questions": [
+      "Which way should I turn here?",
+      "Did you turn off the lights before leaving?",
+      "How did the project turn out?",
+      "Why did she turn down the offer?",
+      "Did the weather turn cold suddenly?",
+      "What made the company turn a profit this year?",
+      "Can you turn down the volume, please?",
+      "Did he turn in his assignment on time?",
+      "How did the situation turn around so quickly?",
+      "What age does she turn next birthday?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She turn left at the signal.",
+        "right": "She turns left at the signal.",
+        "why": "With he/she/it in present simple, add 's' - 'turns'."
+      },
+      {
+        "wrong": "I have turn off the lights.",
+        "right": "I have turned off the lights.",
+        "why": "After 'have/has', use the past participle (V3) 'turned', not the base form 'turn'."
+      },
+      {
+        "wrong": "Please turn off the light of the room.",
+        "right": "Please turn off the room's light.",
+        "why": "Word order matters - possessive structures usually come before the noun in English, not after with 'of the'."
+      }
+    ],
+    "grammarTips": [
+      "'Turn' is a regular verb: turn - turned - turned.",
+      "'Turn' combines with many particles to form phrasal verbs: turn on/off (activate/deactivate), turn down (refuse or lower), turn into (become).",
+      "'Turn out' means the final result of a situation, often used to show something different from what was expected: 'It turned out fine.'"
+    ],
+    "synonyms": [
+      "rotate",
+      "spin",
+      "twist",
+      "change"
+    ],
+    "antonyms": [
+      "remain",
+      "stay",
+      "fix"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Which way do I turn to reach the mall?"
+      },
+      {
+        "speaker": "B",
+        "line": "Turn left at the next junction, then turn right after the bridge."
+      },
+      {
+        "speaker": "A",
+        "line": "Got it. Should I turn off the highway before that?"
+      },
+      {
+        "speaker": "B",
+        "line": "No, just stay on the highway until the second signal."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He turn left here.",
+          "He turns left here.",
+          "He turning left here.",
+          "He turned left here always."
+        ],
+        "answer": "He turns left here.",
+        "explanation": "With 'he' in present simple, add 's': 'turns'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Yesterday, the weather ___ very cold.'",
+        "options": [
+          "turn",
+          "turns",
+          "turning",
+          "turned"
+        ],
+        "answer": "turned",
+        "explanation": "'Turned' is the correct past simple (V2) form of the regular verb 'turn'."
+      },
+      {
+        "type": "fill",
+        "question": "Please ___ (turn) off the fan before you leave.",
+        "answer": "turn",
+        "explanation": "Base form (V1) is used after 'please' in an imperative/request."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I turned off the lights yesterday.",
+      "present": "I turn off the lights every night.",
+      "future": "I will turn off the lights tonight."
+    }
+  },
+  {
+    "verb": "Live",
+    "telugu": "జీవించు (jīvin̄cu)",
+    "v1": "live",
+    "v2": "lived",
+    "v3": "lived",
+    "v4": "living",
+    "v5": "lives",
+    "pronunciation": "/lɪv/ (rhymes with 'give')",
+    "definition": "To have one's home in a particular place; to be alive or to experience life in a certain way.",
+    "commonUses": [
+      "Talking about where someone resides",
+      "Describing lifestyle or way of life",
+      "Living up to expectations or standards",
+      "Figuratively describing something that continues or endures"
+    ],
+    "beginnerSentences": [
+      "I live in a small apartment.",
+      "She lives near the city center.",
+      "We lived in Chennai for five years.",
+      "He has lived here since childhood.",
+      "Do you live with your family?",
+      "They live close to the office.",
+      "I am living in a new city now.",
+      "Did you live abroad before?",
+      "My grandparents live in a village.",
+      "We live a simple and happy life."
+    ],
+    "intermediateSentences": [
+      "She's been living independently since she turned twenty.",
+      "He lived through some difficult times before succeeding.",
+      "We're living in a period of rapid technological change.",
+      "They lived up to everyone's expectations.",
+      "She lives by a strict daily routine.",
+      "I've lived in three different countries so far.",
+      "He's living proof that hard work pays off.",
+      "We lived through the entire renovation without moving out.",
+      "She lives for her work and her passions.",
+      "They've lived next door to us for over a decade."
+    ],
+    "businessSentences": [
+      "The company lives by its core values every day.",
+      "We need to live up to the promises made to our clients.",
+      "The brand lives on through its loyal customer base.",
+      "Our team lives and breathes customer satisfaction.",
+      "The startup lived through several funding challenges early on.",
+      "The organization lives up to its reputation for quality.",
+      "We live in a competitive market that demands innovation.",
+      "The company has lived through multiple economic downturns.",
+      "Our mission lives in everything we build for customers.",
+      "The brand's legacy lives on in every product we release."
+    ],
+    "questions": [
+      "Where do you live?",
+      "How long have you lived in this city?",
+      "Did you live abroad at any point?",
+      "Does she live alone or with family?",
+      "Where did you live before moving here?",
+      "How long has the company lived up to its promises?",
+      "What's it like living in this neighborhood?",
+      "Have you always lived in this country?",
+      "Where would you like to live in the future?",
+      "Did they live near you growing up?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She live in Mumbai.",
+        "right": "She lives in Mumbai.",
+        "why": "With he/she/it in present simple, add 's' - 'lives'."
+      },
+      {
+        "wrong": "I am living here since 2015.",
+        "right": "I have been living here since 2015.",
+        "why": "Use present perfect continuous ('have/has been' + verb-ing) with 'since' to describe an action continuing from the past to now."
+      },
+      {
+        "wrong": "I have live here for ten years.",
+        "right": "I have lived here for ten years.",
+        "why": "After 'have/has', use the past participle (V3) 'lived', not the base form 'live'."
+      }
+    ],
+    "grammarTips": [
+      "'Live' is a regular verb: live - lived - lived.",
+      "Use present perfect ('have lived') or present perfect continuous ('have been living') with 'for' or 'since' to talk about how long you've lived somewhere.",
+      "'Live' can mean to reside somewhere, or more broadly to experience life ('live life to the fullest')."
+    ],
+    "synonyms": [
+      "reside",
+      "dwell",
+      "inhabit",
+      "exist"
+    ],
+    "antonyms": [
+      "die",
+      "leave",
+      "depart"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Where do you live now?"
+      },
+      {
+        "speaker": "B",
+        "line": "I live in a small flat near the station."
+      },
+      {
+        "speaker": "A",
+        "line": "How long have you lived there?"
+      },
+      {
+        "speaker": "B",
+        "line": "I've lived there for about two years now."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He live in Delhi.",
+          "He lives in Delhi.",
+          "He living in Delhi.",
+          "He lived in Delhi always."
+        ],
+        "answer": "He lives in Delhi.",
+        "explanation": "With 'he' in present simple, add 's': 'lives'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I live here since 2020.",
+          "I have lived here since 2020.",
+          "I am living here since 2020 only.",
+          "I lives here since 2020."
+        ],
+        "answer": "I have lived here since 2020.",
+        "explanation": "Use present perfect with 'since' to describe an action continuing from the past to the present."
+      },
+      {
+        "type": "fill",
+        "question": "They have ___ (live) in this town for many years.",
+        "answer": "lived",
+        "explanation": "After 'have', use the past participle (V3) form: 'lived'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I lived in Delhi last year.",
+      "present": "I live in Delhi now.",
+      "future": "I will live in Delhi next year too."
+    }
+  },
+  {
+    "verb": "Show",
+    "telugu": "చూపించు (cūpin̄cu)",
+    "v1": "show",
+    "v2": "showed",
+    "v3": "shown",
+    "v4": "showing",
+    "v5": "shows",
+    "pronunciation": "/ʃoʊ/ (rhymes with 'go')",
+    "definition": "To make something visible or clear so that others can see or understand it.",
+    "commonUses": [
+      "Demonstrating how to do something",
+      "Presenting data, evidence, or results",
+      "Showing feelings or reactions",
+      "Showing up to an event"
+    ],
+    "beginnerSentences": [
+      "Please show me your ID card.",
+      "She shows her paintings at the gallery.",
+      "We showed our guests around the house.",
+      "He has shown great improvement this year.",
+      "Can you show me how this works?",
+      "They are showing a new film this weekend.",
+      "I showed her the photos from the trip.",
+      "Did you show him the report?",
+      "My teacher shows us examples in class.",
+      "Let's show them what we've built."
+    ],
+    "intermediateSentences": [
+      "The data shows a clear increase in customer satisfaction.",
+      "She showed real leadership during the crisis.",
+      "The results have shown promising signs of improvement.",
+      "He showed no interest in the proposal.",
+      "The evidence shows that the new method works better.",
+      "She's shown a lot of patience with the new trainees.",
+      "The test scores showed significant progress this term.",
+      "He showed up late but apologized sincerely.",
+      "The study shows a strong link between sleep and focus.",
+      "They showed great teamwork throughout the project."
+    ],
+    "businessSentences": [
+      "The quarterly report shows a steady rise in revenue.",
+      "She showed the client a live demo of the product.",
+      "The data shows customers prefer the mobile app over the website.",
+      "He showed strong initiative in leading the new project.",
+      "The survey results show high employee satisfaction this year.",
+      "We need to show measurable results by the end of the quarter.",
+      "The presentation showed a clear roadmap for the next phase.",
+      "Sales figures showed a dip during the off-season.",
+      "The team showed remarkable resilience during the transition.",
+      "The dashboard shows real-time performance metrics."
+    ],
+    "questions": [
+      "Can you show me the report?",
+      "What does the data show?",
+      "Did she show you the new design?",
+      "How did the results show improvement?",
+      "Did he show up for the meeting?",
+      "What does this chart show about our sales?",
+      "Can you show me how to use this feature?",
+      "Did the test scores show any progress?",
+      "What has the survey shown so far?",
+      "Will you show us the final version tomorrow?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She show me the photos.",
+        "right": "She shows me the photos.",
+        "why": "With he/she/it in present simple, add 's' - 'shows'."
+      },
+      {
+        "wrong": "I have showed him the report.",
+        "right": "I have shown him the report.",
+        "why": "After 'have/has', use the past participle (V3) 'shown', not the past simple 'showed'."
+      },
+      {
+        "wrong": "The data shows that improve.",
+        "right": "The data shows improvement.",
+        "why": "After 'shows', use a noun ('improvement'), not a bare verb - or restructure with 'that it improved'."
+      }
+    ],
+    "grammarTips": [
+      "'Show' is irregular in the past participle: show - showed - shown (not 'showed' twice).",
+      "'Show up' is an informal phrasal verb meaning to arrive or appear at an event.",
+      "'Show' is often used with data or evidence to present findings: 'the results show...', 'the chart shows...'."
+    ],
+    "synonyms": [
+      "display",
+      "demonstrate",
+      "reveal",
+      "present"
+    ],
+    "antonyms": [
+      "hide",
+      "conceal",
+      "cover"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "Can you show me how to use this new app?"
+      },
+      {
+        "speaker": "B",
+        "line": "Sure, let me show you step by step."
+      },
+      {
+        "speaker": "A",
+        "line": "Thanks! Can you also show me the settings page?"
+      },
+      {
+        "speaker": "B",
+        "line": "Of course, I'll show you everything you need."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He show me the way.",
+          "He shows me the way.",
+          "He showing me the way.",
+          "He showed me the way always."
+        ],
+        "answer": "He shows me the way.",
+        "explanation": "With 'he' in present simple, add 's': 'shows'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "I have showed him the file.",
+          "I have shown him the file.",
+          "I have show him the file.",
+          "I shown him the file."
+        ],
+        "answer": "I have shown him the file.",
+        "explanation": "After 'have', use the past participle (V3) form: 'shown', not 'showed'."
+      },
+      {
+        "type": "fill",
+        "question": "The report ___ (show) a big improvement in sales.",
+        "answer": "shows",
+        "explanation": "With 'the report' (third person singular) in present simple, add 's': 'shows'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I showed her the report yesterday.",
+      "present": "I show her the report every week.",
+      "future": "I will show her the report tomorrow."
+    }
+  },
+  {
+    "verb": "Teach",
+    "telugu": "బోధించు (bōdhin̄cu)",
+    "v1": "teach",
+    "v2": "taught",
+    "v3": "taught",
+    "v4": "teaching",
+    "v5": "teaches",
+    "pronunciation": "/tiːtʃ/ (rhymes with 'reach')",
+    "definition": "To help someone learn something by giving lessons or instruction.",
+    "commonUses": [
+      "Working as a teacher or trainer",
+      "Instructing someone in a skill",
+      "Life experiences that teach a lesson",
+      "Training employees or students"
+    ],
+    "beginnerSentences": [
+      "I teach English at a local school.",
+      "She teaches math to high school students.",
+      "We taught our children how to swim.",
+      "He has taught here for ten years.",
+      "Do you teach on weekends?",
+      "They teach yoga classes every morning.",
+      "I am teaching a new course this semester.",
+      "Did you teach him how to drive?",
+      "My father teaches history at the college.",
+      "Let's teach the kids a new game."
+    ],
+    "intermediateSentences": [
+      "She's been teaching herself to code using online courses.",
+      "He taught us the importance of patience and discipline.",
+      "This experience taught me a valuable life lesson.",
+      "She's teaching a workshop on public speaking next month.",
+      "The mentor taught him how to handle difficult clients.",
+      "We've taught the new hires the basics of the system.",
+      "The coach taught the team a new strategy before the match.",
+      "She taught herself three languages over the years.",
+      "The course taught practical skills for the workplace.",
+      "He's teaching part-time while working on his research."
+    ],
+    "businessSentences": [
+      "The company teaches new employees through a structured onboarding program.",
+      "She teaches leadership skills to junior managers.",
+      "The workshop taught the team new negotiation techniques.",
+      "We teach our clients how to use the software effectively.",
+      "The training program taught best practices for data security.",
+      "He taught the sales team a new pitch strategy.",
+      "The mentor taught her how to manage difficult stakeholders.",
+      "Our consultants teach organizations how to improve efficiency.",
+      "The seminar taught valuable lessons about market trends.",
+      "We're teaching the new hires our internal processes this week."
+    ],
+    "questions": [
+      "What subject do you teach?",
+      "Who taught you how to cook?",
+      "Does she teach online or in person?",
+      "What did the training teach you?",
+      "Did he teach the class today?",
+      "How long have you taught at this school?",
+      "What has this experience taught you?",
+      "Who is teaching the new employees?",
+      "Did they teach you any useful skills?",
+      "What would you like to teach others?"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She teached us math.",
+        "right": "She taught us math.",
+        "why": "'Teach' is irregular - its past form is 'taught', not 'teached'."
+      },
+      {
+        "wrong": "He teach English every day.",
+        "right": "He teaches English every day.",
+        "why": "With he/she/it in present simple, add 'es' after 'ch' - 'teaches', not 'teach'."
+      },
+      {
+        "wrong": "I have teach this course before.",
+        "right": "I have taught this course before.",
+        "why": "After 'have/has', use the past participle (V3) 'taught', not the base form 'teach'."
+      }
+    ],
+    "grammarTips": [
+      "'Teach' is irregular: teach - taught - taught, the same form for past simple and past participle.",
+      "Verbs ending in 'ch', 'sh', 'ss', 'x', or 'o' add '-es' instead of just '-s' for he/she/it: teaches, not teachs.",
+      "'Teach someone something' or 'teach something to someone' are both correct structures: 'teach him math' / 'teach math to him'."
+    ],
+    "synonyms": [
+      "instruct",
+      "educate",
+      "train",
+      "coach"
+    ],
+    "antonyms": [
+      "learn",
+      "study"
+    ],
+    "dailyConversation": [
+      {
+        "speaker": "A",
+        "line": "What do you teach at the university?"
+      },
+      {
+        "speaker": "B",
+        "line": "I teach economics to first-year students."
+      },
+      {
+        "speaker": "A",
+        "line": "That sounds interesting. Have you always taught economics?"
+      },
+      {
+        "speaker": "B",
+        "line": "Yes, I've taught it for almost eight years now."
+      }
+    ],
+    "miniQuiz": [
+      {
+        "type": "mcq",
+        "question": "Choose the correct past tense: 'Last year, she ___ us grammar.'",
+        "options": [
+          "teach",
+          "teached",
+          "taught",
+          "teaches"
+        ],
+        "answer": "taught",
+        "explanation": "'Taught' is the correct past simple (V2) form of the irregular verb 'teach'."
+      },
+      {
+        "type": "mcq",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "He teach science.",
+          "He teaches science.",
+          "He teaching science.",
+          "He teached science."
+        ],
+        "answer": "He teaches science.",
+        "explanation": "Verbs ending in 'ch' add '-es' for he/she/it: 'teaches'."
+      },
+      {
+        "type": "fill",
+        "question": "She has ___ (teach) here for five years.",
+        "answer": "taught",
+        "explanation": "After 'has', use the past participle (V3) form: 'taught'."
+      }
+    ],
+    "tenseUsage": {
+      "past": "I taught the class yesterday.",
+      "present": "I teach this class every day.",
+      "future": "I will teach the class tomorrow."
+    }
   }
 ]

@@ -1,8 +1,8 @@
 /* Free pronunciation playback using the browser's built-in Web Speech API.
-   Defaults to a UK English voice so learners consistently hear a native
-   British accent across lessons, dialogues and shadowing practice. Falls
-   back to any available English voice, then to the browser default, since
-   not every device ships a British voice.
+   Defaults to an Indian English voice (en-IN) so learners consistently hear
+   a clear Indian-accented model across lessons, dialogues and shadowing
+   practice. Falls back to any available English voice, then to the browser
+   default, since not every device ships an Indian English voice.
 
    Voice *quality* varies enormously between what a device happens to expose
    under the same generic API - anywhere from a tinny 2005-era offline robot
@@ -15,10 +15,11 @@
    cloud TTS API and a backend to call it from) - this gets the best of what
    the browser already offers for free.
 
-   Preference order: a male-sounding UK voice first (matched by name, since
-   SpeechSynthesisVoice has no real gender field - "Ryan"/"George"/"Daniel"/
-   "Male" etc. are the actual voice names browsers/OSes ship), then quality
-   (natural/neural > cloud > legacy) as the tiebreaker within that. */
+   Preference order: a male-sounding Indian English voice first (matched by
+   name, since SpeechSynthesisVoice has no real gender field - "Ravi"/
+   "Prabhat"/"Male" etc. are the actual en-IN voice names browsers/OSes
+   ship), then quality (natural/neural > cloud > legacy) as the tiebreaker
+   within that. */
 let cachedVoice = null;
 let cachedVoiceLang = null;
 
@@ -28,8 +29,8 @@ if ("speechSynthesis" in window) {
   };
 }
 
-const MALE_VOICE_HINTS = /\b(male|george|ryan|daniel|arthur|james|oliver|thomas|william|henry|guy|alfie|charlie|liam|jack)\b/i;
-const FEMALE_VOICE_HINTS = /\b(female|hazel|susan|sonia|libby|kate|serena|emma|amy|joanna|salli|olivia|zira|fiona|moira)\b/i;
+const MALE_VOICE_HINTS = /\b(male|ravi|prabhat|george|ryan|daniel|arthur|james|oliver|thomas|william|henry|guy|alfie|charlie|liam|jack)\b/i;
+const FEMALE_VOICE_HINTS = /\b(female|heera|neerja|hazel|susan|sonia|libby|kate|serena|emma|amy|joanna|salli|olivia|zira|fiona|moira)\b/i;
 
 function scoreVoice(voice) {
   const name = voice.name.toLowerCase();
@@ -55,7 +56,7 @@ function pickVoice(lang) {
   return cachedVoice;
 }
 
-function speak(text, lang = "en-GB") {
+function speak(text, lang = "en-IN") {
   if (!("speechSynthesis" in window)) {
     alert("Speech playback is not supported in this browser.");
     return;

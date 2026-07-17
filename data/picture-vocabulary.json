@@ -1,0 +1,654 @@
+{
+  "categories": [
+    {
+      "id": "vegetables",
+      "label": "Vegetables",
+      "icon": "🥕"
+    },
+    {
+      "id": "fruits",
+      "label": "Fruits",
+      "icon": "🍎"
+    },
+    {
+      "id": "spices",
+      "label": "Spices",
+      "icon": "🌶️"
+    },
+    {
+      "id": "pulses",
+      "label": "Pulses & Lentils",
+      "icon": "🫘"
+    },
+    {
+      "id": "activities",
+      "label": "Everyday Actions",
+      "icon": "🙆"
+    }
+  ],
+  "items": [
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "example": "She sliced a ripe tomato for the salad.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEDEA\"/><circle cx=\"50\" cy=\"56\" r=\"28\" fill=\"#E53935\"/><ellipse cx=\"40\" cy=\"46\" rx=\"9\" ry=\"6\" fill=\"#FF7A6E\" opacity=\"0.6\"/><path d=\"M50 28 l-6 8 h5 l-4 7 h4 l5 -7 h-4 l4 -8 z\" fill=\"#2E7D32\"/><path d=\"M38 30 q12 -8 24 0\" stroke=\"#2E7D32\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "example": "Chop one onion before you start cooking.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F5EFF9\"/><path d=\"M50 30 c18 0 26 16 22 34 c-3 15 -14 24 -22 24 s-19 -9 -22 -24 c-4 -18 4 -34 22 -34 z\" fill=\"#C99BE0\"/><path d=\"M50 30 c18 0 26 16 22 34 c-3 15 -14 24 -22 24 z\" fill=\"#B583D1\"/><path d=\"M40 38 c4 12 4 30 2 46 M60 38 c-4 12 -4 30 -2 46\" stroke=\"#8E5CB0\" stroke-width=\"2\" fill=\"none\" opacity=\"0.5\"/><path d=\"M50 30 l-3 -12 M50 30 l3 -12 M50 30 l0 -13\" stroke=\"#A98A5B\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "example": "We baked a large potato for dinner.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F2EBE1\"/><path d=\"M28 55 c-3 -14 10 -24 26 -22 c14 2 22 12 20 26 c-2 13 -14 20 -26 18 c-13 -2 -18 -10 -20 -22 z\" fill=\"#C89968\"/><circle cx=\"40\" cy=\"50\" r=\"2.4\" fill=\"#8D6538\"/><circle cx=\"58\" cy=\"46\" r=\"2\" fill=\"#8D6538\"/><circle cx=\"52\" cy=\"62\" r=\"2.2\" fill=\"#8D6538\"/><circle cx=\"34\" cy=\"62\" r=\"1.8\" fill=\"#8D6538\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "example": "Rabbits love to eat fresh carrots.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF3E0\"/><path d=\"M50 90 L38 40 Q50 32 62 40 Z\" fill=\"#F57C31\"/><path d=\"M42 60 L58 60 M44 70 L56 70\" stroke=\"#E4611B\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M50 40 l-3 -14 M50 40 l3 -14 M50 40 l-8 -10 M50 40 l8 -10\" stroke=\"#4CAF50\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "example": "She added shredded cabbage to the noodles.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EAF6EA\"/><circle cx=\"50\" cy=\"55\" r=\"30\" fill=\"#7CB342\"/><path d=\"M50 30 a25 25 0 0 1 0 50 a18 18 0 0 1 0 -36 a12 12 0 0 1 0 24\" fill=\"none\" stroke=\"#5C8A2E\" stroke-width=\"3\"/><path d=\"M50 42 a12 12 0 0 1 0 24\" fill=\"none\" stroke=\"#5C8A2E\" stroke-width=\"3\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "example": "He steamed the cauliflower with a pinch of salt.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F3FAF0\"/><path d=\"M32 66 q-4 -20 18 -22 q22 -2 18 22 z\" fill=\"#5C8A2E\"/><g fill=\"#F5F0DE\"><circle cx=\"40\" cy=\"54\" r=\"9\"/><circle cx=\"60\" cy=\"54\" r=\"9\"/><circle cx=\"50\" cy=\"46\" r=\"10\"/><circle cx=\"44\" cy=\"62\" r=\"7\"/><circle cx=\"56\" cy=\"62\" r=\"7\"/></g></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "brinjal",
+      "name": "Brinjal (Eggplant)",
+      "example": "She cooked brinjal curry for lunch.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F3ECF6\"/><path d=\"M50 34 c16 4 20 24 12 40 c-5 10 -19 10 -24 0 c-8 -16 -4 -36 12 -40 z\" fill=\"#6A3D9A\"/><ellipse cx=\"43\" cy=\"46\" rx=\"5\" ry=\"8\" fill=\"#8D5CC0\" opacity=\"0.6\"/><path d=\"M50 34 l-5 -10 h10 l-5 10 M42 26 h16\" stroke=\"#3E7D31\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "okra",
+      "name": "Okra (Ladyfinger)",
+      "example": "Fried okra is a popular side dish.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF7EA\"/><path d=\"M46 26 q-14 30 -8 58 q6 4 12 0 q10 -30 2 -58 q-3 -3 -6 0 z\" fill=\"#5FA043\"/><path d=\"M42 40 l16 3 M40 52 l18 3 M40 64 l16 3\" stroke=\"#3E7D31\" stroke-width=\"2\" opacity=\"0.5\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "example": "Spinach is rich in iron and vitamins.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EAF6EA\"/><path d=\"M50 80 V46\" stroke=\"#3E7D31\" stroke-width=\"3\"/><path d=\"M50 60 C30 55 26 35 34 24 C46 30 50 46 50 60 Z\" fill=\"#4E9A3C\"/><path d=\"M50 58 C70 53 74 33 66 22 C54 28 50 44 50 58 Z\" fill=\"#63AE4E\"/><path d=\"M50 70 C34 66 30 50 36 42 C46 46 50 58 50 70 Z\" fill=\"#4E9A3C\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "example": "Add cucumber slices to keep the salad fresh.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EAF6EA\"/><path d=\"M22 55 q6 -18 28 -18 q28 0 28 18 q0 18 -28 18 q-22 0 -28 -18 z\" fill=\"#6BAE4A\"/><ellipse cx=\"40\" cy=\"49\" rx=\"10\" ry=\"4\" fill=\"#93C878\" opacity=\"0.6\"/><circle cx=\"34\" cy=\"60\" r=\"1.3\" fill=\"#3E7D31\"/><circle cx=\"46\" cy=\"46\" r=\"1.3\" fill=\"#3E7D31\"/><circle cx=\"58\" cy=\"58\" r=\"1.3\" fill=\"#3E7D31\"/><circle cx=\"66\" cy=\"48\" r=\"1.3\" fill=\"#3E7D31\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "pumpkin",
+      "name": "Pumpkin",
+      "example": "We carved a pumpkin for the festival.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF3E0\"/><path d=\"M22 58 c0 -18 12 -26 28 -26 s28 8 28 26 s-14 24 -28 24 s-28 -6 -28 -24 z\" fill=\"#F0862E\"/><path d=\"M35 36 v44 M50 34 v46 M65 36 v44\" stroke=\"#D8701E\" stroke-width=\"2\" opacity=\"0.5\"/><path d=\"M50 34 q-2 -10 4 -14\" stroke=\"#5C8A2E\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "example": "Beetroot juice is good for your blood.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FBEAF0\"/><path d=\"M50 34 c14 4 18 22 10 38 c-4 8 -16 8 -20 0 c-8 -16 -4 -34 10 -38 z\" fill=\"#9C1D4B\"/><path d=\"M50 34 l-4 -12 M50 34 l4 -12 M50 34 l0 -14\" stroke=\"#4E9A3C\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "radish",
+      "name": "Radish",
+      "example": "Thinly sliced radish adds crunch to the salad.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FBEAF0\"/><path d=\"M50 40 c12 0 16 14 10 30 c-3 8 -17 8 -20 0 c-6 -16 -2 -30 10 -30 z\" fill=\"#F4F2ED\"/><path d=\"M50 40 c12 0 16 14 10 30 c-1.5 4 -6 6 -10 6 v-36 z\" fill=\"#E8546F\"/><path d=\"M50 40 l-4 -12 M50 40 l4 -12 M50 40 l0 -14\" stroke=\"#4E9A3C\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "green-chili",
+      "name": "Green Chili",
+      "example": "Be careful, that green chili is very spicy!",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF7EA\"/><path d=\"M30 30 q-6 30 10 56 q6 4 10 -2 q4 -28 -8 -54 q-6 -4 -12 0 z\" fill=\"#4E9A3C\"/><path d=\"M30 30 l-6 -8 M30 30 l4 -10\" stroke=\"#3E7D31\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "capsicum",
+      "name": "Capsicum (Bell Pepper)",
+      "example": "The pizza was topped with red capsicum.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEDEA\"/><path d=\"M50 38 c-16 0 -22 14 -18 30 c3 12 12 18 18 18 s15 -6 18 -18 c4 -16 -2 -30 -18 -30 z\" fill=\"#E53935\"/><ellipse cx=\"42\" cy=\"48\" rx=\"6\" ry=\"9\" fill=\"#FF7A6E\" opacity=\"0.5\"/><path d=\"M50 38 l-4 -10 h8 l-4 10\" fill=\"#4E9A3C\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "green-peas",
+      "name": "Green Peas",
+      "example": "Green peas go well with fried rice.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EAF6EA\"/><path d=\"M20 46 q6 -16 30 -16 q10 0 12 10 q4 18 -8 30 q-14 12 -28 2 q-10 -8 -6 -26 z\" fill=\"#6BAE4A\"/><g fill=\"#3E7D31\"><circle cx=\"34\" cy=\"42\" r=\"7\"/><circle cx=\"48\" cy=\"40\" r=\"7\"/><circle cx=\"60\" cy=\"46\" r=\"7\"/><circle cx=\"52\" cy=\"58\" r=\"7\"/></g></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "example": "Add two cloves of garlic to the pan.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F5F3EE\"/><path d=\"M50 32 c-14 0 -20 16 -16 32 c2 8 8 14 16 14 s14 -6 16 -14 c4 -16 -2 -32 -16 -32 z\" fill=\"#F1ECDD\"/><path d=\"M50 32 v46 M40 40 c-4 8 -4 20 0 30 M60 40 c4 8 4 20 0 30\" stroke=\"#D8CBA4\" stroke-width=\"2\" fill=\"none\"/><path d=\"M50 32 l-2 -10 h4 l-2 10\" fill=\"#8FA85C\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "corn",
+      "name": "Corn (Maize)",
+      "example": "We grilled fresh corn at the barbecue.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF6DE\"/><path d=\"M40 26 c-6 6 -8 40 -2 56 c4 8 18 8 22 0 c6 -16 4 -50 -2 -56 c-4 -4 -14 -4 -18 0 z\" fill=\"#F6C445\"/><g fill=\"#D9A62E\"><circle cx=\"43\" cy=\"36\" r=\"2\"/><circle cx=\"50\" cy=\"34\" r=\"2\"/><circle cx=\"57\" cy=\"36\" r=\"2\"/><circle cx=\"41\" cy=\"44\" r=\"2\"/><circle cx=\"50\" cy=\"43\" r=\"2\"/><circle cx=\"59\" cy=\"44\" r=\"2\"/><circle cx=\"41\" cy=\"52\" r=\"2\"/><circle cx=\"50\" cy=\"52\" r=\"2\"/><circle cx=\"59\" cy=\"52\" r=\"2\"/><circle cx=\"42\" cy=\"60\" r=\"2\"/><circle cx=\"50\" cy=\"61\" r=\"2\"/><circle cx=\"58\" cy=\"60\" r=\"2\"/></g><path d=\"M38 30 q-10 4 -10 20 M62 30 q10 4 10 20\" stroke=\"#4E9A3C\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "vegetables"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "example": "An apple a day keeps the doctor away.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEDEA\"/><path d=\"M50 40 c-16 -10 -30 4 -26 22 c3 14 16 24 26 24 s23 -10 26 -24 c4 -18 -10 -32 -26 -22 z\" fill=\"#E53935\"/><ellipse cx=\"40\" cy=\"52\" rx=\"8\" ry=\"5\" fill=\"#FF7A6E\" opacity=\"0.6\"/><path d=\"M50 40 v-12\" stroke=\"#6B4A2A\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M50 30 q10 -6 14 2\" stroke=\"#4E9A3C\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "example": "He packed a banana for his lunch.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF8E1\"/><path d=\"M32 74 C24 60 26 40 40 26 C46 20 54 20 58 24 C50 26 44 32 40 40 C34 52 34 64 42 72 C48 78 58 78 66 70 C70 66 72 60 72 54 C74 60 74 68 68 76 C58 88 40 88 32 74 Z\" fill=\"#F5D53A\"/><path d=\"M40 40 C36 50 36 62 44 70\" stroke=\"#D9BE2E\" stroke-width=\"2.5\" fill=\"none\" opacity=\"0.6\"/><path d=\"M58 24 l6 -8 l5 4 l-6 8 z\" fill=\"#8D6E2F\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "example": "Mango is called the king of fruits.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF3E0\"/><path d=\"M50 30 c18 4 26 24 18 42 c-6 14 -30 14 -36 0 c-8 -18 0 -38 18 -42 z\" fill=\"#F5A83C\"/><path d=\"M42 36 c8 -4 16 0 20 8\" stroke=\"#D8701E\" stroke-width=\"2\" fill=\"none\" opacity=\"0.5\"/><path d=\"M50 30 l-2 -8 h4 l-2 8\" fill=\"#4E9A3C\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "example": "She peeled an orange for breakfast.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF3E0\"/><circle cx=\"50\" cy=\"54\" r=\"28\" fill=\"#F5891F\"/><g fill=\"#D8701E\" opacity=\"0.5\"><circle cx=\"42\" cy=\"46\" r=\"1.4\"/><circle cx=\"54\" cy=\"42\" r=\"1.4\"/><circle cx=\"60\" cy=\"54\" r=\"1.4\"/><circle cx=\"44\" cy=\"62\" r=\"1.4\"/><circle cx=\"58\" cy=\"66\" r=\"1.4\"/></g><path d=\"M50 26 q6 -6 12 -2\" stroke=\"#4E9A3C\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "grapes",
+      "name": "Grapes",
+      "example": "We bought a bunch of green grapes.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F3ECF6\"/><g fill=\"#7B4FA0\"><circle cx=\"42\" cy=\"42\" r=\"8\"/><circle cx=\"58\" cy=\"42\" r=\"8\"/><circle cx=\"34\" cy=\"56\" r=\"8\"/><circle cx=\"50\" cy=\"56\" r=\"8\"/><circle cx=\"66\" cy=\"56\" r=\"8\"/><circle cx=\"42\" cy=\"70\" r=\"8\"/><circle cx=\"58\" cy=\"70\" r=\"8\"/></g><path d=\"M50 30 v10 M50 30 q8 -6 14 -2\" stroke=\"#4E9A3C\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "example": "Watermelon is so refreshing in summer.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEDEA\"/><path d=\"M20 34 A34 34 0 0 0 80 34 Z\" fill=\"#4E9A3C\"/><path d=\"M26 34 A28 28 0 0 0 74 34 Z\" fill=\"#EAF6EA\"/><path d=\"M32 34 A22 22 0 0 0 68 34 Z\" fill=\"#E5484D\"/><g fill=\"#2b2b2b\"><circle cx=\"45\" cy=\"30\" r=\"1.6\"/><circle cx=\"55\" cy=\"30\" r=\"1.6\"/><circle cx=\"50\" cy=\"24\" r=\"1.6\"/></g></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "papaya",
+      "name": "Papaya",
+      "example": "Ripe papaya is sweet and orange inside.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF3E0\"/><path d=\"M50 32 c16 0 24 14 22 28 c-2 16 -14 26 -22 26 s-20 -10 -22 -26 c-2 -14 6 -28 22 -28 z\" fill=\"#F0862E\"/><path d=\"M50 32 q6 -8 14 -6\" stroke=\"#4E9A3C\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "pineapple",
+      "name": "Pineapple",
+      "example": "Pineapple juice is her favorite drink.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF8E1\"/><path d=\"M38 42 c-6 8 -8 20 -4 30 c4 10 22 10 26 0 c4 -10 2 -22 -4 -30 z\" fill=\"#E8B23A\"/><path d=\"M40 48 l20 12 M60 48 l-20 12 M40 58 l20 8 M60 58 l-20 8\" stroke=\"#B8871E\" stroke-width=\"1.6\" opacity=\"0.6\"/><path d=\"M50 42 l-8 -16 M50 42 l0 -18 M50 42 l8 -16\" stroke=\"#4E9A3C\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "example": "The cake was topped with a fresh strawberry.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEDEA\"/><path d=\"M50 40 c14 0 20 12 16 28 c-3 12 -10 18 -16 18 s-13 -6 -16 -18 c-4 -16 2 -28 16 -28 z\" fill=\"#E5484D\"/><g fill=\"#FFE9B0\"><circle cx=\"44\" cy=\"52\" r=\"1.4\"/><circle cx=\"56\" cy=\"50\" r=\"1.4\"/><circle cx=\"50\" cy=\"62\" r=\"1.4\"/><circle cx=\"42\" cy=\"66\" r=\"1.4\"/><circle cx=\"58\" cy=\"64\" r=\"1.4\"/></g><path d=\"M40 38 l6 6 l4 -6 l4 6 l6 -6\" stroke=\"#4E9A3C\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "guava",
+      "name": "Guava",
+      "example": "Guava is a good source of vitamin C.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EAF6EA\"/><circle cx=\"50\" cy=\"54\" r=\"26\" fill=\"#AACB5A\"/><g fill=\"#7A9A3A\" opacity=\"0.5\"><circle cx=\"42\" cy=\"48\" r=\"1.4\"/><circle cx=\"58\" cy=\"46\" r=\"1.4\"/><circle cx=\"46\" cy=\"62\" r=\"1.4\"/><circle cx=\"60\" cy=\"60\" r=\"1.4\"/></g><path d=\"M50 28 q6 -6 12 -2\" stroke=\"#4E9A3C\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "pomegranate",
+      "name": "Pomegranate",
+      "example": "Pomegranate seeds add a nice crunch to salads.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FBEAF0\"/><circle cx=\"50\" cy=\"56\" r=\"26\" fill=\"#C2185B\"/><path d=\"M42 30 l4 -8 h8 l4 8 l-6 4 h-4 z\" fill=\"#6B4A2A\"/><g fill=\"#F48FB1\"><circle cx=\"45\" cy=\"52\" r=\"2\"/><circle cx=\"55\" cy=\"50\" r=\"2\"/><circle cx=\"50\" cy=\"62\" r=\"2\"/><circle cx=\"42\" cy=\"64\" r=\"2\"/><circle cx=\"58\" cy=\"64\" r=\"2\"/></g></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "pear",
+      "name": "Pear",
+      "example": "She packed a juicy pear in her bag.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F3FAF0\"/><path d=\"M50 36 c-6 6 -16 12 -16 26 c0 12 8 20 16 20 s16 -8 16 -20 c0 -14 -10 -20 -16 -26 z\" fill=\"#B5D46B\"/><path d=\"M50 36 v-10\" stroke=\"#6B4A2A\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M50 28 q8 -4 12 2\" stroke=\"#4E9A3C\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "peach",
+      "name": "Peach",
+      "example": "The peach was so sweet and juicy.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEDEA\"/><path d=\"M50 36 c-16 -6 -28 8 -24 26 c3 14 14 22 24 22 s21 -8 24 -22 c4 -18 -8 -32 -24 -26 z\" fill=\"#F5A07C\"/><path d=\"M50 36 v46\" stroke=\"#E07850\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M50 36 q6 -8 12 -6\" stroke=\"#4E9A3C\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "kiwi",
+      "name": "Kiwi",
+      "example": "Kiwi slices make a colorful garnish.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EAF6EA\"/><circle cx=\"50\" cy=\"55\" r=\"28\" fill=\"#8D6E2F\"/><circle cx=\"50\" cy=\"55\" r=\"22\" fill=\"#9CCB4E\"/><circle cx=\"50\" cy=\"55\" r=\"9\" fill=\"#F5F0DE\"/><g fill=\"#2b2b2b\"><circle cx=\"50\" cy=\"46\" r=\"1.3\"/><circle cx=\"58\" cy=\"50\" r=\"1.3\"/><circle cx=\"58\" cy=\"60\" r=\"1.3\"/><circle cx=\"50\" cy=\"64\" r=\"1.3\"/><circle cx=\"42\" cy=\"60\" r=\"1.3\"/><circle cx=\"42\" cy=\"50\" r=\"1.3\"/></g></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "example": "Add a squeeze of lemon to the tea.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF8E1\"/><path d=\"M50 30 c14 0 22 12 22 26 s-8 26 -22 26 s-22 -12 -22 -26 s8 -26 22 -26 z\" fill=\"#F5E13A\"/><path d=\"M50 30 l-4 -4 M50 82 l4 4\" stroke=\"#D9C226\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut",
+      "example": "We drank fresh coconut water on the beach.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F5F0E6\"/><circle cx=\"50\" cy=\"56\" r=\"28\" fill=\"#6B4A2A\"/><g fill=\"#3E2A17\"><circle cx=\"44\" cy=\"42\" r=\"2.4\"/><circle cx=\"56\" cy=\"42\" r=\"2.4\"/><circle cx=\"50\" cy=\"50\" r=\"2.4\"/></g><path d=\"M30 48 q20 -10 40 0\" stroke=\"#8D6538\" stroke-width=\"2\" fill=\"none\" opacity=\"0.5\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "cherry",
+      "name": "Cherry",
+      "example": "The dessert was decorated with a cherry on top.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEDEA\"/><circle cx=\"38\" cy=\"66\" r=\"12\" fill=\"#E53935\"/><circle cx=\"62\" cy=\"66\" r=\"12\" fill=\"#E53935\"/><ellipse cx=\"34\" cy=\"62\" rx=\"3\" ry=\"2\" fill=\"#FF7A6E\" opacity=\"0.6\"/><ellipse cx=\"58\" cy=\"62\" rx=\"3\" ry=\"2\" fill=\"#FF7A6E\" opacity=\"0.6\"/><path d=\"M38 54 q4 -20 12 -28 M62 54 q-4 -20 -12 -28\" stroke=\"#4E9A3C\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "litchi",
+      "name": "Litchi (Lychee)",
+      "example": "Litchi season is everyone's favorite time of year.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FBEAF0\"/><circle cx=\"50\" cy=\"56\" r=\"26\" fill=\"#D8546F\"/><g stroke=\"#B03052\" stroke-width=\"1.2\" opacity=\"0.6\"><path d=\"M32 44 l6 6 M40 36 l6 6 M50 32 l0 8 M60 36 l-6 6 M68 44 l-6 6 M32 68 l6 -6 M68 68 l-6 -6\"/></g><path d=\"M50 30 l-3 -8 h6 l-3 8\" fill=\"#4E9A3C\"/></svg>",
+      "category": "fruits"
+    },
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "example": "Turmeric gives curry its yellow color.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF6DE\"/><path d=\"M30 60 q0 -14 12 -18 q4 8 0 14 q10 -2 14 6 q-8 4 -14 0 q4 8 -2 14 q-10 -4 -10 -16 z\" fill=\"#E8A317\"/><path d=\"M34 52 h4 M44 46 h4 M50 60 h4\" stroke=\"#B87E10\" stroke-width=\"1.6\"/></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "cumin",
+      "name": "Cumin Seeds",
+      "example": "Roasted cumin seeds add a nutty flavor.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F5F0E6\"/><g fill=\"#8D6538\"><ellipse cx=\"38\" cy=\"42\" rx=\"6\" ry=\"2.6\" transform=\"rotate(-20 38 42)\"/><ellipse cx=\"54\" cy=\"38\" rx=\"6\" ry=\"2.6\" transform=\"rotate(10 54 38)\"/><ellipse cx=\"66\" cy=\"48\" rx=\"6\" ry=\"2.6\" transform=\"rotate(-15 66 48)\"/><ellipse cx=\"34\" cy=\"58\" rx=\"6\" ry=\"2.6\" transform=\"rotate(15 34 58)\"/><ellipse cx=\"50\" cy=\"56\" rx=\"6\" ry=\"2.6\" transform=\"rotate(-5 50 56)\"/><ellipse cx=\"64\" cy=\"64\" rx=\"6\" ry=\"2.6\" transform=\"rotate(20 64 64)\"/><ellipse cx=\"44\" cy=\"70\" rx=\"6\" ry=\"2.6\" transform=\"rotate(-10 44 70)\"/></g></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "coriander-seeds",
+      "name": "Coriander Seeds",
+      "example": "Coriander seeds are ground into a fine powder.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F3FAF0\"/><g fill=\"#C4A25A\"><circle cx=\"38\" cy=\"42\" r=\"5\"/><circle cx=\"54\" cy=\"38\" r=\"5\"/><circle cx=\"66\" cy=\"50\" r=\"5\"/><circle cx=\"34\" cy=\"58\" r=\"5\"/><circle cx=\"50\" cy=\"56\" r=\"5\"/><circle cx=\"64\" cy=\"64\" r=\"5\"/><circle cx=\"44\" cy=\"70\" r=\"5\"/></g><g stroke=\"#9C7E3E\" stroke-width=\"0.8\" opacity=\"0.6\"><path d=\"M38 38 v8 M54 34 v8 M66 46 v8\"/></g></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "mustard-seeds",
+      "name": "Mustard Seeds",
+      "example": "Mustard seeds pop when fried in hot oil.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF8E1\"/><g fill=\"#B8871E\"><circle cx=\"38\" cy=\"42\" r=\"4\"/><circle cx=\"54\" cy=\"38\" r=\"4\"/><circle cx=\"66\" cy=\"50\" r=\"4\"/><circle cx=\"34\" cy=\"58\" r=\"4\"/><circle cx=\"50\" cy=\"56\" r=\"4\"/><circle cx=\"64\" cy=\"64\" r=\"4\"/><circle cx=\"44\" cy=\"70\" r=\"4\"/><circle cx=\"58\" cy=\"72\" r=\"4\"/></g></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "cardamom",
+      "name": "Cardamom",
+      "example": "One pod of cardamom flavors the whole dish.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EAF6EA\"/><path d=\"M38 42 q-8 14 0 28 q6 6 12 0 q8 -14 0 -28 q-6 -6 -12 0 z\" fill=\"#8DAF56\"/><path d=\"M62 46 q-6 12 0 24 q5 5 10 0 q6 -12 0 -24 q-5 -5 -10 0 z\" fill=\"#9DBF66\"/><path d=\"M40 44 v24 M64 48 v20\" stroke=\"#5C8A2E\" stroke-width=\"1.4\" opacity=\"0.5\"/></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "example": "A stick of cinnamon adds warmth to the tea.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FBEDE0\"/><path d=\"M28 50 h44 v10 h-44 z\" fill=\"#B0733B\"/><path d=\"M28 50 a5 5 0 0 0 0 10\" fill=\"#8D5B2D\"/><path d=\"M72 50 a5 5 0 0 1 0 10\" fill=\"#8D5B2D\"/><path d=\"M28 62 h44 v6 h-44 z\" fill=\"#C4894F\"/></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "cloves",
+      "name": "Cloves",
+      "example": "A few cloves add a strong aroma to biryani.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F5F0E6\"/><g fill=\"#5A3A22\"><circle cx=\"40\" cy=\"42\" r=\"6\"/><rect x=\"37\" y=\"46\" width=\"6\" height=\"20\" rx=\"2\"/><circle cx=\"58\" cy=\"50\" r=\"6\"/><rect x=\"55\" y=\"54\" width=\"6\" height=\"20\" rx=\"2\"/></g></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black Pepper",
+      "example": "Freshly ground black pepper tastes best.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F0F0F0\"/><g fill=\"#2B2B2B\"><circle cx=\"38\" cy=\"42\" r=\"6\"/><circle cx=\"56\" cy=\"38\" r=\"6\"/><circle cx=\"66\" cy=\"54\" r=\"6\"/><circle cx=\"34\" cy=\"58\" r=\"6\"/><circle cx=\"50\" cy=\"58\" r=\"6\"/><circle cx=\"62\" cy=\"68\" r=\"6\"/><circle cx=\"44\" cy=\"70\" r=\"6\"/></g></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "red-chili-dried",
+      "name": "Dried Red Chili",
+      "example": "Add two dried red chilies for extra heat.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEDEA\"/><path d=\"M32 30 q-4 24 8 46 q5 4 9 -1 q3 -22 -6 -44 q-5 -4 -11 -1 z\" fill=\"#C62828\"/><path d=\"M60 34 q-3 22 6 42 q4 3 8 -1 q4 -20 -3 -40 q-4 -4 -11 -1 z\" fill=\"#D32F2F\"/><path d=\"M32 30 l-6 -6 M60 34 l5 -8\" stroke=\"#8D6538\" stroke-width=\"2.6\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "fennel-seeds",
+      "name": "Fennel Seeds",
+      "example": "Fennel seeds are often chewed after meals.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F3FAF0\"/><g fill=\"#9DBF66\"><ellipse cx=\"38\" cy=\"42\" rx=\"7\" ry=\"2.6\" transform=\"rotate(-15 38 42)\"/><ellipse cx=\"54\" cy=\"38\" rx=\"7\" ry=\"2.6\" transform=\"rotate(15 54 38)\"/><ellipse cx=\"66\" cy=\"50\" rx=\"7\" ry=\"2.6\" transform=\"rotate(-20 66 50)\"/><ellipse cx=\"34\" cy=\"58\" rx=\"7\" ry=\"2.6\" transform=\"rotate(10 34 58)\"/><ellipse cx=\"50\" cy=\"56\" rx=\"7\" ry=\"2.6\" transform=\"rotate(-8 50 56)\"/><ellipse cx=\"64\" cy=\"64\" rx=\"7\" ry=\"2.6\" transform=\"rotate(18 64 64)\"/></g></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "fenugreek",
+      "name": "Fenugreek Seeds",
+      "example": "Fenugreek seeds have a slightly bitter taste.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF6DE\"/><g fill=\"#C4941E\"><path d=\"M36 40 a4 5 0 1 0 0.1 0 z\"/><path d=\"M52 36 a4 5 0 1 0 0.1 0 z\"/><path d=\"M64 48 a4 5 0 1 0 0.1 0 z\"/><path d=\"M32 56 a4 5 0 1 0 0.1 0 z\"/><path d=\"M48 54 a4 5 0 1 0 0.1 0 z\"/><path d=\"M62 62 a4 5 0 1 0 0.1 0 z\"/><path d=\"M42 68 a4 5 0 1 0 0.1 0 z\"/></g></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "bay-leaf",
+      "name": "Bay Leaf",
+      "example": "Remove the bay leaf before serving the soup.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EAF6EA\"/><path d=\"M50 26 C30 32 28 60 50 76 C72 60 70 32 50 26 Z\" fill=\"#4E9A3C\"/><path d=\"M50 30 v42\" stroke=\"#2E7D32\" stroke-width=\"1.6\"/><path d=\"M50 36 l-8 6 M50 46 l-9 6 M50 56 l-8 6 M50 36 l8 6 M50 46 l9 6 M50 56 l8 6\" stroke=\"#2E7D32\" stroke-width=\"1\" opacity=\"0.6\"/></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "star-anise",
+      "name": "Star Anise",
+      "example": "Star anise gives the broth its distinct flavor.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FBEDE0\"/><g fill=\"#7A4A24\"><path d=\"M50 50 L50 20 L57 34 Z\"/><path d=\"M50 50 L78 30 L65 40 Z\"/><path d=\"M50 50 L80 55 L67 55 Z\"/><path d=\"M50 50 L67 80 L58 65 Z\"/><path d=\"M50 50 L34 80 L42 65 Z\"/><path d=\"M50 50 L20 55 L33 55 Z\"/><path d=\"M50 50 L22 30 L35 40 Z\"/><path d=\"M50 50 L43 20 L43 34 Z\"/></g><circle cx=\"50\" cy=\"50\" r=\"7\" fill=\"#5A3417\"/></svg>",
+      "category": "spices"
+    },
+    {
+      "id": "masoor-dal",
+      "name": "Red Lentil (Masoor Dal)",
+      "example": "Masoor dal cooks faster than most other lentils.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FDEEE8\"/><g fill=\"#E88A5B\"><ellipse cx=\"38\" cy=\"42\" rx=\"7\" ry=\"5\"/><ellipse cx=\"54\" cy=\"38\" rx=\"7\" ry=\"5\"/><ellipse cx=\"66\" cy=\"50\" rx=\"7\" ry=\"5\"/><ellipse cx=\"34\" cy=\"58\" rx=\"7\" ry=\"5\"/><ellipse cx=\"50\" cy=\"56\" rx=\"7\" ry=\"5\"/><ellipse cx=\"64\" cy=\"64\" rx=\"7\" ry=\"5\"/><ellipse cx=\"44\" cy=\"70\" rx=\"7\" ry=\"5\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "toor-dal",
+      "name": "Toor Dal (Split Pigeon Pea)",
+      "example": "Toor dal is used to make sambar.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF8E1\"/><g fill=\"#F2C14E\"><ellipse cx=\"38\" cy=\"42\" rx=\"7\" ry=\"5\"/><ellipse cx=\"54\" cy=\"38\" rx=\"7\" ry=\"5\"/><ellipse cx=\"66\" cy=\"50\" rx=\"7\" ry=\"5\"/><ellipse cx=\"34\" cy=\"58\" rx=\"7\" ry=\"5\"/><ellipse cx=\"50\" cy=\"56\" rx=\"7\" ry=\"5\"/><ellipse cx=\"64\" cy=\"64\" rx=\"7\" ry=\"5\"/><ellipse cx=\"44\" cy=\"70\" rx=\"7\" ry=\"5\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "moong-dal",
+      "name": "Moong Dal (Green Gram)",
+      "example": "Moong dal khichdi is a light and healthy meal.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F3FAF0\"/><g fill=\"#C9D95A\"><ellipse cx=\"38\" cy=\"42\" rx=\"7\" ry=\"5\"/><ellipse cx=\"54\" cy=\"38\" rx=\"7\" ry=\"5\"/><ellipse cx=\"66\" cy=\"50\" rx=\"7\" ry=\"5\"/><ellipse cx=\"34\" cy=\"58\" rx=\"7\" ry=\"5\"/><ellipse cx=\"50\" cy=\"56\" rx=\"7\" ry=\"5\"/><ellipse cx=\"64\" cy=\"64\" rx=\"7\" ry=\"5\"/><ellipse cx=\"44\" cy=\"70\" rx=\"7\" ry=\"5\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "urad-dal",
+      "name": "Black Gram (Urad)",
+      "example": "Urad dal is the main ingredient in idli batter.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EFEFEF\"/><g fill=\"#2B2B2B\"><ellipse cx=\"38\" cy=\"42\" rx=\"7\" ry=\"5\"/><ellipse cx=\"54\" cy=\"38\" rx=\"7\" ry=\"5\"/><ellipse cx=\"66\" cy=\"50\" rx=\"7\" ry=\"5\"/><ellipse cx=\"34\" cy=\"58\" rx=\"7\" ry=\"5\"/><ellipse cx=\"50\" cy=\"56\" rx=\"7\" ry=\"5\"/><ellipse cx=\"64\" cy=\"64\" rx=\"7\" ry=\"5\"/><ellipse cx=\"44\" cy=\"70\" rx=\"7\" ry=\"5\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "chickpeas",
+      "name": "Chickpeas (Chana)",
+      "example": "Boiled chickpeas make a tasty and healthy snack.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FFF6DE\"/><g fill=\"#D9B26B\"><circle cx=\"38\" cy=\"42\" r=\"7\"/><circle cx=\"54\" cy=\"38\" r=\"7\"/><circle cx=\"66\" cy=\"50\" r=\"7\"/><circle cx=\"34\" cy=\"58\" r=\"7\"/><circle cx=\"50\" cy=\"56\" r=\"7\"/><circle cx=\"64\" cy=\"64\" r=\"7\"/><circle cx=\"44\" cy=\"70\" r=\"7\"/></g><g fill=\"#B8935034\" opacity=\"0.4\"><circle cx=\"38\" cy=\"40\" r=\"1\"/><circle cx=\"54\" cy=\"36\" r=\"1\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "kidney-beans",
+      "name": "Kidney Beans (Rajma)",
+      "example": "Rajma with rice is a favorite Sunday meal.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FBEAEA\"/><g fill=\"#A6362C\"><path d=\"M32 40 a8 10 0 1 0 0.1 0 z\"/><path d=\"M48 36 a8 10 0 1 0 0.1 0 z\"/><path d=\"M62 48 a8 10 0 1 0 0.1 0 z\"/><path d=\"M30 58 a8 10 0 1 0 0.1 0 z\"/><path d=\"M46 58 a8 10 0 1 0 0.1 0 z\"/><path d=\"M62 66 a8 10 0 1 0 0.1 0 z\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "black-eyed-peas",
+      "name": "Black-Eyed Peas (Lobia)",
+      "example": "Lobia curry is a popular North Indian dish.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F5F0E6\"/><g><ellipse cx=\"38\" cy=\"42\" rx=\"8\" ry=\"6\" fill=\"#F2E9D0\"/><circle cx=\"41\" cy=\"42\" r=\"1.6\" fill=\"#2B2B2B\"/><ellipse cx=\"54\" cy=\"38\" rx=\"8\" ry=\"6\" fill=\"#F2E9D0\"/><circle cx=\"57\" cy=\"38\" r=\"1.6\" fill=\"#2B2B2B\"/><ellipse cx=\"66\" cy=\"50\" rx=\"8\" ry=\"6\" fill=\"#F2E9D0\"/><circle cx=\"69\" cy=\"50\" r=\"1.6\" fill=\"#2B2B2B\"/><ellipse cx=\"34\" cy=\"58\" rx=\"8\" ry=\"6\" fill=\"#F2E9D0\"/><circle cx=\"37\" cy=\"58\" r=\"1.6\" fill=\"#2B2B2B\"/><ellipse cx=\"50\" cy=\"60\" rx=\"8\" ry=\"6\" fill=\"#F2E9D0\"/><circle cx=\"53\" cy=\"60\" r=\"1.6\" fill=\"#2B2B2B\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "kala-chana",
+      "name": "Black Chickpea (Kala Chana)",
+      "example": "Kala chana is often soaked overnight before cooking.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F0EBE3\"/><g fill=\"#4A3728\"><circle cx=\"38\" cy=\"42\" r=\"7\"/><circle cx=\"54\" cy=\"38\" r=\"7\"/><circle cx=\"66\" cy=\"50\" r=\"7\"/><circle cx=\"34\" cy=\"58\" r=\"7\"/><circle cx=\"50\" cy=\"56\" r=\"7\"/><circle cx=\"64\" cy=\"64\" r=\"7\"/><circle cx=\"44\" cy=\"70\" r=\"7\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "soybean",
+      "name": "Soybean",
+      "example": "Soybean is an excellent source of protein.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#FBF8E9\"/><g fill=\"#E3D07A\"><circle cx=\"38\" cy=\"42\" r=\"7\"/><circle cx=\"54\" cy=\"38\" r=\"7\"/><circle cx=\"66\" cy=\"50\" r=\"7\"/><circle cx=\"34\" cy=\"58\" r=\"7\"/><circle cx=\"50\" cy=\"56\" r=\"7\"/><circle cx=\"64\" cy=\"64\" r=\"7\"/><circle cx=\"44\" cy=\"70\" r=\"7\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "horse-gram",
+      "name": "Horse Gram (Kulthi)",
+      "example": "Horse gram soup is traditionally eaten in winter.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#F5EEE6\"/><g fill=\"#8C5A3C\"><path d=\"M34 40 a7 5 0 1 0 0.1 0 z\" transform=\"rotate(20 34 40)\"/><path d=\"M52 36 a7 5 0 1 0 0.1 0 z\" transform=\"rotate(-10 52 36)\"/><path d=\"M64 48 a7 5 0 1 0 0.1 0 z\" transform=\"rotate(15 64 48)\"/><path d=\"M32 58 a7 5 0 1 0 0.1 0 z\" transform=\"rotate(-15 32 58)\"/><path d=\"M50 56 a7 5 0 1 0 0.1 0 z\" transform=\"rotate(10 50 56)\"/><path d=\"M64 64 a7 5 0 1 0 0.1 0 z\" transform=\"rotate(-20 64 64)\"/></g></svg>",
+      "category": "pulses"
+    },
+    {
+      "id": "wake-up",
+      "name": "Wake Up",
+      "example": "I wake up at six every morning.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"20\" y=\"70\" width=\"60\" height=\"8\" fill=\"#4F46E5\" stroke=\"none\"/><path d=\"M24 70 v-14 h14 l6 6 h20 v8\" stroke-width=\"5\"/><circle cx=\"54\" cy=\"44\" r=\"8\" fill=\"#4F46E5\"/><path d=\"M54 52 v10\" stroke-width=\"5\"/><path d=\"M54 56 l-10 -4 M54 56 l10 -6\"/><circle cx=\"76\" cy=\"24\" r=\"6\" fill=\"#F2B705\" stroke=\"none\"/><path d=\"M76 12 v4 M76 32 v4 M64 24 h4 M84 24 h4 M68 16 l3 3 M84 16 l-3 3\" stroke=\"#F2B705\" stroke-width=\"2.4\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "yawn",
+      "name": "Yawn",
+      "example": "She yawned during the long meeting.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"44\" r=\"18\"/><ellipse cx=\"50\" cy=\"50\" rx=\"10\" ry=\"13\" fill=\"#4F46E5\"/><path d=\"M38 38 q4 -4 8 0 M54 38 q4 -4 8 0\" stroke-width=\"4\"/><path d=\"M28 52 q6 6 4 14 M72 52 q-6 6 -4 14\" stroke-width=\"5\"/><path d=\"M20 40 l6 2 M80 40 l-6 2\" stroke-width=\"3\" opacity=\"0.6\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "stretch",
+      "name": "Stretch",
+      "example": "He stretched his arms after sitting for hours.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"26\" r=\"8\" fill=\"#4F46E5\"/><path d=\"M50 34 v26 M50 40 L26 20 M50 40 L74 20 M50 60 L36 82 M50 60 L64 82\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "bend",
+      "name": "Bend",
+      "example": "Please bend your knees before you lift the box.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"14\" y1=\"86\" x2=\"86\" y2=\"86\" stroke-width=\"4\" opacity=\"0.5\"/><circle cx=\"66\" cy=\"30\" r=\"8\" fill=\"#4F46E5\"/><path d=\"M64 37 Q40 44 30 70\"/><path d=\"M46 46 L26 42\"/><path d=\"M30 70 L18 80\"/><path d=\"M30 70 L38 84\"/><circle cx=\"16\" cy=\"83\" r=\"4\" fill=\"#F2B705\" stroke=\"none\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "sit",
+      "name": "Sit",
+      "example": "Please sit here and wait for your turn.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"26\" r=\"8\" fill=\"#4F46E5\"/><path d=\"M50 34 v20 M50 40 L32 46 M50 40 L68 46 M50 54 L30 54 M50 54 L70 54 M30 54 L30 78 M70 54 L70 78\" /><line x1=\"18\" y1=\"78\" x2=\"82\" y2=\"78\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "stand-up",
+      "name": "Stand Up",
+      "example": "Everyone stood up when the teacher walked in.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"24\" r=\"8\" fill=\"#4F46E5\"/><line x1=\"50\" y1=\"32\" x2=\"50\" y2=\"62\"/><line x1=\"50\" y1=\"38\" x2=\"34\" y2=\"52\"/><line x1=\"50\" y1=\"38\" x2=\"66\" y2=\"52\"/><line x1=\"50\" y1=\"62\" x2=\"38\" y2=\"86\"/><line x1=\"50\" y1=\"62\" x2=\"62\" y2=\"86\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "sneeze",
+      "name": "Sneeze",
+      "example": "He sneezed loudly and covered his nose.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"46\" cy=\"46\" r=\"18\" transform=\"rotate(-18 46 46)\"/><path d=\"M36 40 q4 -3 8 0 M50 38 q4 -3 8 0\" stroke-width=\"4\"/><ellipse cx=\"46\" cy=\"54\" rx=\"8\" ry=\"10\" fill=\"#4F46E5\"/><path d=\"M68 30 l12 -6 M72 40 l14 -2 M68 50 l12 6\" stroke-width=\"3.4\"/><line x1=\"46\" y1=\"66\" x2=\"46\" y2=\"82\"/><line x1=\"46\" y1=\"72\" x2=\"32\" y2=\"80\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "cough",
+      "name": "Cough",
+      "example": "She coughed and quickly covered her mouth.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"46\" cy=\"38\" r=\"16\" fill=\"none\"/><line x1=\"46\" y1=\"54\" x2=\"46\" y2=\"80\"/><path d=\"M46 60 L34 50 Q30 46 34 42\" /><path d=\"M46 60 L60 66 M46 80 L34 92 M46 80 L58 92\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "blink",
+      "name": "Blink",
+      "example": "She blinked twice in the bright sunlight.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"46\" r=\"20\" fill=\"none\"/><line x1=\"40\" y1=\"44\" x2=\"46\" y2=\"44\"/><line x1=\"54\" y1=\"44\" x2=\"60\" y2=\"44\"/><path d=\"M42 58 Q50 62 58 58\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "smile",
+      "name": "Smile",
+      "example": "He smiled warmly when he saw his friends.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"46\" r=\"20\" fill=\"none\"/><circle cx=\"42\" cy=\"42\" r=\"2\" fill=\"#4F46E5\"/><circle cx=\"58\" cy=\"42\" r=\"2\" fill=\"#4F46E5\"/><path d=\"M38 54 Q50 66 62 54\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "laugh",
+      "name": "Laugh",
+      "example": "The whole class laughed at the joke.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"46\" r=\"20\" fill=\"none\"/><path d=\"M38 40 Q42 36 46 40 M54 40 Q58 36 62 40\"/><path d=\"M36 52 Q50 70 64 52 Q50 60 36 52 Z\" fill=\"#4F46E5\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "cry",
+      "name": "Cry",
+      "example": "The baby began to cry when she woke up.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"46\" r=\"20\" fill=\"none\"/><line x1=\"40\" y1=\"42\" x2=\"46\" y2=\"42\"/><line x1=\"54\" y1=\"42\" x2=\"60\" y2=\"42\"/><path d=\"M40 60 Q50 52 60 60\"/><path d=\"M40 48 q-4 8 0 14 M60 48 q4 8 0 14\" stroke-width=\"3\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "nod",
+      "name": "Nod (Yes)",
+      "example": "He nodded to show he understood.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"40\" r=\"14\" fill=\"none\"/><line x1=\"50\" y1=\"54\" x2=\"50\" y2=\"80\"/><path d=\"M70 30 q6 6 0 12 M70 30 l4 -2 M70 42 l-2 4\" stroke-width=\"4\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "shake-head",
+      "name": "Shake Head (No)",
+      "example": "She shook her head to say no.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"40\" r=\"14\" fill=\"none\"/><line x1=\"50\" y1=\"54\" x2=\"50\" y2=\"80\"/><path d=\"M28 30 q-8 10 0 20 M28 30 l-3 -3 M28 50 l-3 3\" stroke-width=\"4\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "wave",
+      "name": "Wave",
+      "example": "She waved goodbye from across the street.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"42\" cy=\"26\" r=\"8\" fill=\"#4F46E5\"/><line x1=\"42\" y1=\"34\" x2=\"42\" y2=\"64\" /><line x1=\"42\" y1=\"40\" x2=\"62\" y2=\"20\"/><path d=\"M58 12 l4 4 M66 16 l4 2 M64 8 l2 4\" stroke-width=\"3\"/><line x1=\"42\" y1=\"40\" x2=\"30\" y2=\"52\"/><line x1=\"42\" y1=\"64\" x2=\"32\" y2=\"86\"/><line x1=\"42\" y1=\"64\" x2=\"52\" y2=\"86\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "clap",
+      "name": "Clap",
+      "example": "The audience clapped after the performance.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"24\" r=\"8\" fill=\"#4F46E5\"/><line x1=\"50\" y1=\"32\" x2=\"50\" y2=\"58\"/><line x1=\"50\" y1=\"40\" x2=\"38\" y2=\"52\"/><line x1=\"50\" y1=\"40\" x2=\"62\" y2=\"52\"/><path d=\"M30 46 l6 6 M70 46 l-6 6\" stroke-width=\"3\"/><line x1=\"50\" y1=\"58\" x2=\"40\" y2=\"86\"/><line x1=\"50\" y1=\"58\" x2=\"60\" y2=\"86\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "point",
+      "name": "Point",
+      "example": "He pointed at the map to show the way.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"42\" cy=\"26\" r=\"8\" fill=\"#4F46E5\"/><line x1=\"42\" y1=\"34\" x2=\"42\" y2=\"64\"/><line x1=\"42\" y1=\"40\" x2=\"76\" y2=\"34\"/><line x1=\"42\" y1=\"40\" x2=\"26\" y2=\"52\"/><line x1=\"42\" y1=\"64\" x2=\"32\" y2=\"86\"/><line x1=\"42\" y1=\"64\" x2=\"52\" y2=\"86\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "swallow",
+      "name": "Swallow",
+      "example": "He took a sip of water and swallowed slowly.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M40 20 Q26 20 26 36 Q26 46 34 50 L34 50 Q30 54 30 60 L30 84\" stroke-width=\"6\"/><path d=\"M40 20 Q54 20 54 34 L52 38\" stroke-width=\"6\"/><path d=\"M34 30 q6 -4 12 0\" stroke-width=\"4\"/><circle cx=\"42\" cy=\"46\" r=\"6\" fill=\"#F2B705\" stroke=\"none\"/><path d=\"M42 46 L42 70\" stroke=\"#F2B705\" stroke-width=\"4\" stroke-dasharray=\"2 5\"/><path d=\"M36 66 L42 74 L48 66\" stroke=\"#F2B705\" stroke-width=\"4\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "chew",
+      "name": "Chew",
+      "example": "She chewed her food slowly and carefully.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"42\" r=\"18\" fill=\"none\"/><path d=\"M40 48 q10 6 20 0\" stroke-width=\"5\"/><path d=\"M40 48 q10 -4 20 0\" stroke-width=\"3\" opacity=\"0.5\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "bite",
+      "name": "Bite",
+      "example": "He took a big bite of the apple.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"58\" cy=\"40\" r=\"16\" fill=\"#4F46E5\" opacity=\"0.15\"/><path d=\"M40 40 a16 16 0 1 0 32 -8 a10 10 0 0 1 -14 12 z\" fill=\"#4F46E5\"/><path d=\"M22 50 q6 -6 12 0 q-2 8 -12 8 q-4 -4 0 -8 z\" fill=\"none\" stroke-width=\"4\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "breathe",
+      "name": "Breathe (Deep Breath)",
+      "example": "Take a deep breath and relax your shoulders.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"26\" r=\"8\" fill=\"#4F46E5\"/><path d=\"M50 34 v14 a14 10 0 0 0 0 20 v14\"/><path d=\"M34 40 q8 -6 0 -14 M66 40 q-8 -6 0 -14\" stroke-width=\"3\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "sigh",
+      "name": "Sigh",
+      "example": "She sighed and put down her pen.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"30\" r=\"10\" fill=\"none\"/><path d=\"M44 32 h12\" stroke-width=\"3\"/><line x1=\"50\" y1=\"40\" x2=\"46\" y2=\"66\"/><path d=\"M62 30 q10 4 16 0\" stroke-width=\"3\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "example": "She whispered the secret into his ear.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"34\" cy=\"34\" r=\"10\" fill=\"none\"/><path d=\"M40 38 q10 4 6 12\" stroke-width=\"4\"/><circle cx=\"70\" cy=\"40\" r=\"10\" fill=\"none\" opacity=\"0.4\"/><path d=\"M62 40 q4 -6 8 -4\" stroke-width=\"3\" opacity=\"0.4\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "shout",
+      "name": "Shout",
+      "example": "He shouted across the field to get her attention.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"40\" r=\"16\" fill=\"none\"/><ellipse cx=\"50\" cy=\"48\" rx=\"8\" ry=\"10\" fill=\"#4F46E5\"/><path d=\"M70 30 l10 -4 M74 40 l12 0 M70 50 l10 4\" stroke-width=\"3\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "wink",
+      "name": "Wink",
+      "example": "He gave a quick wink and smiled.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"46\" r=\"20\" fill=\"none\"/><path d=\"M38 42 q4 4 8 0\" stroke-width=\"4\"/><circle cx=\"58\" cy=\"42\" r=\"2\" fill=\"#4F46E5\"/><path d=\"M40 56 Q50 62 60 56\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "frown",
+      "name": "Frown",
+      "example": "She frowned when she heard the bad news.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"46\" r=\"20\" fill=\"none\"/><circle cx=\"42\" cy=\"42\" r=\"2\" fill=\"#4F46E5\"/><circle cx=\"58\" cy=\"42\" r=\"2\" fill=\"#4F46E5\"/><path d=\"M38 36 q4 -4 8 -2 M54 34 q4 -2 8 2\" stroke-width=\"3\"/><path d=\"M40 62 Q50 54 60 62\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "shrug",
+      "name": "Shrug",
+      "example": "He shrugged, not knowing the answer.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"24\" r=\"8\" fill=\"#4F46E5\"/><path d=\"M50 32 q0 6 0 10\" /><path d=\"M50 40 q-24 -4 -30 12 M50 40 q24 -4 30 12\"/><line x1=\"50\" y1=\"42\" x2=\"50\" y2=\"70\"/><line x1=\"50\" y1=\"70\" x2=\"40\" y2=\"90\"/><line x1=\"50\" y1=\"70\" x2=\"60\" y2=\"90\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "kneel",
+      "name": "Kneel",
+      "example": "He knelt down to tie his shoelace.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"40\" cy=\"24\" r=\"8\" fill=\"#4F46E5\"/><path d=\"M40 32 v20 M40 40 L58 46\"/><path d=\"M40 52 L30 70 L44 70 M30 70 L30 84\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "crawl",
+      "name": "Crawl",
+      "example": "The baby began to crawl across the floor.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"26\" cy=\"52\" r=\"8\" fill=\"#4F46E5\"/><path d=\"M34 54 L60 50 M60 50 L74 34 M60 50 L70 66 M34 54 L30 70 M34 54 L44 72\"/></g></svg>",
+      "category": "activities"
+    },
+    {
+      "id": "jump",
+      "name": "Jump",
+      "example": "The children jumped with excitement.",
+      "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100\" height=\"100\" rx=\"20\" fill=\"#EEF0FA\"/><g stroke=\"#4F46E5\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"24\" r=\"8\" fill=\"#4F46E5\"/><line x1=\"50\" y1=\"32\" x2=\"50\" y2=\"54\"/><line x1=\"50\" y1=\"38\" x2=\"34\" y2=\"30\"/><line x1=\"50\" y1=\"38\" x2=\"66\" y2=\"30\"/><line x1=\"50\" y1=\"54\" x2=\"38\" y2=\"70\"/><line x1=\"50\" y1=\"54\" x2=\"62\" y2=\"70\"/><path d=\"M30 84 q20 8 40 0\" stroke-width=\"3\" opacity=\"0.4\"/></g></svg>",
+      "category": "activities"
+    }
+  ]
+}

@@ -505,6 +505,38 @@ table.conjugation th { background: var(--surface-2); }
 .badge-icon { font-size: 26px; }
 .badge-name { font-size: 11px; margin-top: 4px; color: var(--text-muted); font-weight: 600; }
 
+/* Picture Vocabulary */
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+}
+.vocab-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+  box-shadow: var(--shadow);
+  text-align: center;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.vocab-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.vocab-card img, .vocab-card svg {
+  width: 84px;
+  height: 84px;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto 8px;
+}
+.vocab-card .vocab-name { font-weight: 700; font-size: 14.5px; margin-bottom: 4px; }
+.vocab-card .vocab-example {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+  min-height: 30px;
+  margin-bottom: 8px;
+}
+
 .toast {
   position: fixed;
   bottom: 22px;
